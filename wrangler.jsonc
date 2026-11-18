@@ -1,0 +1,10 @@
+// Cloudflare Workers 정적 배포 설정 (회사망용 보조 주소).
+// GitHub에 push될 때마다(매일 자동 수집 커밋 포함) Cloudflare가 다시 배포한다.
+{
+  "name": "pb-observatory",
+  "compatibility_date": "2026-11-01",
+  "assets": {
+    "directory": ".",
+    "not_found_handling": "404-page"
+  }
+}
