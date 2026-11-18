@@ -25,7 +25,9 @@ jobs:
         env:
           OPENALEX_MAILTO: ${{ vars.OPENALEX_MAILTO }}
           OPENALEX_API_KEY: ${{ secrets.OPENALEX_API_KEY }}
-        run: python scripts/collect.py
+        run: |
+          python scripts/test_ko_style.py
+          python scripts/collect.py
       - name: 변경분 커밋
         run: |
           git config user.name "pb-observatory-bot"

@@ -93,7 +93,7 @@ def copy_data() -> None:
         if f == "news.json":  # 화면에 쓰지 않는 필드만 덜어 냄
             d = json.loads(src.read_text("utf-8"))
             for it in d["items"]:
-                for k in ("_tr_tried", "collected_at", "gl", "default_iso", "source_url"):
+                for k in ("_tr_tried", "collected_at", "gl", "default_iso", "source_url", "title_ko_mt"):
                     it.pop(k, None)
             (OUT / "data" / f).write_text(json.dumps(d, ensure_ascii=False, separators=(",", ":")), "utf-8")
         else:

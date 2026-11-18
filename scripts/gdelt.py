@@ -130,6 +130,7 @@ def main():
             if C.TRANSLATE and r["lang"] != "ko" and added < 60:
                 r["title_ko"] = C.to_ko(r["title"], r["lang"])
                 r["_tr_tried"] = r["title_ko"] is not None
+                C.ko_style_pass([r], "news")
             items.append(r)
             ids.add(r["id"])
             titles.add(k)

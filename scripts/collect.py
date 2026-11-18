@@ -32,6 +32,9 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+from ko_style import polish as ko_polish  # noqa: E402
+
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 NOW = datetime.now(timezone.utc)
@@ -156,6 +159,20 @@ def _mymemory(text, src):
     if not out or "MYMEMORY WARNING" in out.upper() or "INVALID" in out.upper()[:20]:
         raise RuntimeError("MyMemory: " + out[:80])
     return html.unescape(out).strip()
+
+
+def ko_style_pass(items, kind: str) -> int:
+    """기계 번역 원문(title_ko_mt)을 보관하고, 화면에 쓰는 title_ko는 늘 원문에서 다시 다듬는다(ko_style.py)."""
+    n = 0
+    for x in items:
+        if not x.get("title_ko"):
+            continue
+        if not x.get("title_ko_mt"):
+            x["title_ko_mt"] = x["title_ko"]
+        new = ko_polish(x["title_ko_mt"], kind)
+        n += new != x["title_ko_mt"]
+        x["title_ko"] = new
+    return n
 
 
 def to_ko(text: str, src: str | None = None) -> str | None:
@@ -459,6 +476,7 @@ def collect_news(countries, match, health):
     cutoff = (NOW - timedelta(days=NEWS_KEEP_DAYS)).isoformat()
     items = sorted((x for x in by_id.values() if x["published_at"] >= cutoff),
                    key=lambda x: x["published_at"], reverse=True)[:NEWS_MAX]
+    log("ko style news", ko_style_pass(items, "news"))
     stories = cluster_stories(items)
     log("stories with 2+ sources", stories)
     save("news.json", {"updated_at": NOW.isoformat(), "count": len(items), "items": items})
@@ -601,6 +619,7 @@ def collect_papers(health):
             budget -= 1
 
     items = sorted(by_id.values(), key=lambda x: x.get("published_at") or "", reverse=True)[:400]
+    log("ko style papers", ko_style_pass(items, "paper"))
     got = stats["OpenAlex"] + stats["Crossref"]
     save("papers.json", {"updated_at": NOW.isoformat(), "count": len(items), "items": items})
     health["papers"] = {"name": "학술 DB (OpenAlex·Crossref)", "ok": got > 0, "fetched": got, "by_source": stats,
