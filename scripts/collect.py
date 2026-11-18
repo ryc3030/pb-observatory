@@ -416,9 +416,17 @@ def collect_news(countries, match, health):
     added = 0
     per_lang = {}
     ok_q = 0
-    for lang, q, hl, gl, ceid, default_iso in NEWS_QUERIES:
+    # 평소에는 최근 30일. PB_BACKFILL_MONTHS=12면 지난 12개월을 한 달씩 나눠 한 번 소급 수집한다(1년 기록용).
+    months = int(os.environ.get("PB_BACKFILL_MONTHS") or 0)
+    windows = [("when:30d", None)]
+    for k in range(1, months + 1):
+        end = (NOW - timedelta(days=30 * (k - 1))).date()
+        start = (NOW - timedelta(days=30 * k)).date()
+        windows.append((f"after:{start.isoformat()} before:{end.isoformat()}", k))
+    jobs = [(w, qq) for w, _ in windows for qq in NEWS_QUERIES]
+    for when, (lang, q, hl, gl, ceid, default_iso) in jobs:
         url = "https://news.google.com/rss/search?" + urllib.parse.urlencode(
-            {"q": f"{q} when:30d", "hl": hl, "gl": gl, "ceid": ceid})
+            {"q": f"{q} {when}", "hl": hl, "gl": gl, "ceid": ceid})
         try:
             root = ET.fromstring(http_get(url, timeout=25))
             ok_q += 1
@@ -481,7 +489,8 @@ def collect_news(countries, match, health):
     log("stories with 2+ sources", stories)
     save("news.json", {"updated_at": NOW.isoformat(), "count": len(items), "items": items})
     health["news"] = {
-        "name": "Google News RSS (다국어)", "ok": ok_q > 0, "queries_ok": ok_q, "queries": len(NEWS_QUERIES),
+        "name": "Google News RSS (다국어)", "ok": ok_q > 0, "queries_ok": ok_q, "queries": len(jobs),
+        "backfill_months": months or None,
         "added": added, "total": len(items), "checked_at": NOW.isoformat(),
         "languages": sorted({q[0] for q in NEWS_QUERIES}),
     }
@@ -637,26 +646,32 @@ def collect_papers(health):
 #   (근거 강도는 소식 수·매체 수로 함께 보여 준다)
 # 6개월 동안 조건을 채우지 못하면 다시 탐색 모니터링으로 내려간다. 공식·검증, 문헌·플랫폼은 건드리지 않는다.
 PRESS_DAYS = 183
+PRESS_YEAR_DAYS = 365  # 1년 기록(상태는 6개월로 판정, 1년치는 근거 기록·추이로 남김)
 STRONG_BASIS = {"제목", "발행국", "도메인", "같은 소식"}
 
 
 def press_evidence(ns):
-    cut = (NOW - timedelta(days=PRESS_DAYS)).isoformat()
-    stories = {}
-    for x in ns:
-        if x["published_at"] < cut or x.get("iso_basis") not in STRONG_BASIS:
-            continue
-        stories.setdefault(x.get("story") or x["id"], []).append(x)
-    multi = [v for v in stories.values() if len({x["source"] for x in v}) >= 2]
-    confirmed = len(stories) >= 1
-    ranked = sorted(stories.values(), key=lambda v: (len({x["source"] for x in v}), max(x["published_at"] for x in v)), reverse=True)
+    """최근 6개월(상태 판정)과 최근 1년(기록) 두 기간의 보도 근거를 함께 센다."""
+    def window(days):
+        cut = (NOW - timedelta(days=days)).isoformat()
+        st = {}
+        for x in ns:
+            if x["published_at"] >= cut and x.get("iso_basis") in STRONG_BASIS:
+                st.setdefault(x.get("story") or x["id"], []).append(x)
+        return st
+    s6, s12 = window(PRESS_DAYS), window(PRESS_YEAR_DAYS)
+    multi = lambda st: sum(1 for v in st.values() if len({x["source"] for x in v}) >= 2)
+    ranked = sorted(s12.values(), key=lambda v: (max(x["published_at"] for x in v) >= (NOW - timedelta(days=PRESS_DAYS)).isoformat(),
+                                                len({x["source"] for x in v}), max(x["published_at"] for x in v)), reverse=True)
     ev = []
     for v in ranked[:3]:
         top = max(v, key=lambda x: x["published_at"])
         ev.append({"title": top.get("title_ko") or top["title"], "url": top["url"], "source": top["source"],
                    "date": top["published_at"][:10], "outlets": len({x["source"] for x in v})})
-    return {"confirmed": confirmed, "stories": len(stories), "multi_outlet": len(multi),
-            "last": max((x["published_at"][:10] for v in stories.values() for x in v), default=None),
+    months = sorted({x["published_at"][:7] for v in s12.values() for x in v})
+    return {"confirmed": len(s6) >= 1, "stories": len(s6), "multi_outlet": multi(s6),
+            "stories_12m": len(s12), "multi_outlet_12m": multi(s12), "months_12m": len(months),
+            "last": max((x["published_at"][:10] for v in s12.values() for x in v), default=None),
             "window_days": PRESS_DAYS, "evidence": ev}
 
 
@@ -723,6 +738,8 @@ def snapshot_history(countries, news, papers, programs):
     hist.append({"date": TODAY, "countries": len(countries), "status": by_status, "programs": len(programs),
                  "news_total": len(news), "news_30d": sum(1 for n in news if n["published_at"] >= cut30),
                  "countries_with_signal_30d": sum(1 for c in countries if c["news_30d"] > 0),
+                 "countries_press_6m": sum(1 for c in countries if (c.get("press") or {}).get("stories")),
+                 "countries_press_12m": sum(1 for c in countries if (c.get("press") or {}).get("stories_12m")),
                  "papers_total": len(papers)})
     hist = sorted(hist, key=lambda h: h["date"])[-730:]
     save("history.json", hist)

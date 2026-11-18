@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T06:46:45.064467+00:00",
+ "updated_at": "2026-11-18T07:12:40.475000+00:00",
  "count": 92,
  "items": [
   {
@@ -27,6 +27,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -69,6 +72,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -114,6 +120,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -155,6 +164,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -196,6 +208,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -239,6 +254,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -284,6 +302,9 @@
     "confirmed": true,
     "stories": 8,
     "multi_outlet": 1,
+    "stories_12m": 8,
+    "multi_outlet_12m": 1,
+    "months_12m": 1,
     "last": "2026-11-16",
     "window_days": 183,
     "evidence": [
@@ -353,6 +374,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -395,6 +419,9 @@
     "confirmed": true,
     "stories": 2,
     "multi_outlet": 0,
+    "stories_12m": 2,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-10-27",
     "window_days": 183,
     "evidence": [
@@ -461,6 +488,9 @@
     "confirmed": true,
     "stories": 2,
     "multi_outlet": 0,
+    "stories_12m": 2,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-14",
     "window_days": 183,
     "evidence": [
@@ -530,6 +560,9 @@
     "confirmed": true,
     "stories": 37,
     "multi_outlet": 1,
+    "stories_12m": 37,
+    "multi_outlet_12m": 1,
+    "months_12m": 2,
     "last": "2026-11-17",
     "window_days": 183,
     "evidence": [
@@ -556,7 +589,7 @@
      }
     ]
    },
-   "news_30d": 43,
+   "news_30d": 42,
    "news_365d": 43,
    "latest_news": {
     "title": "아망리스에서 시작된 주민참여예산제와 프로젝트 공모",
@@ -603,6 +636,9 @@
     "confirmed": true,
     "stories": 20,
     "multi_outlet": 0,
+    "stories_12m": 20,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-11-16",
     "window_days": 183,
     "evidence": [
@@ -673,6 +709,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -714,6 +753,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -756,6 +798,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -796,6 +841,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -840,6 +888,9 @@
     "confirmed": true,
     "stories": 16,
     "multi_outlet": 1,
+    "stories_12m": 16,
+    "multi_outlet_12m": 1,
+    "months_12m": 2,
     "last": "2026-11-16",
     "window_days": 183,
     "evidence": [
@@ -910,6 +961,9 @@
     "confirmed": true,
     "stories": 8,
     "multi_outlet": 0,
+    "stories_12m": 8,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-11-17",
     "window_days": 183,
     "evidence": [
@@ -979,6 +1033,9 @@
     "confirmed": true,
     "stories": 2,
     "multi_outlet": 0,
+    "stories_12m": 2,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-15",
     "window_days": 183,
     "evidence": [
@@ -1039,6 +1096,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1079,6 +1139,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1122,6 +1185,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1162,6 +1228,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1203,6 +1272,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1252,6 +1324,9 @@
     "confirmed": true,
     "stories": 43,
     "multi_outlet": 3,
+    "stories_12m": 43,
+    "multi_outlet_12m": 3,
+    "months_12m": 2,
     "last": "2026-11-18",
     "window_days": 183,
     "evidence": [
@@ -1278,7 +1353,7 @@
      }
     ]
    },
-   "news_30d": 53,
+   "news_30d": 52,
    "news_365d": 53,
    "latest_news": {
     "title": "라바 시민예산 2027. 주민 제안 프로젝트에 대한 투표 진행 중",
@@ -1325,6 +1400,9 @@
     "confirmed": true,
     "stories": 34,
     "multi_outlet": 4,
+    "stories_12m": 34,
+    "multi_outlet_12m": 4,
+    "months_12m": 2,
     "last": "2026-11-17",
     "window_days": 183,
     "evidence": [
@@ -1397,6 +1475,9 @@
     "confirmed": true,
     "stories": 7,
     "multi_outlet": 0,
+    "stories_12m": 7,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-11-16",
     "window_days": 183,
     "evidence": [
@@ -1467,6 +1548,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1509,6 +1593,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 1,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-05",
     "window_days": 183,
     "evidence": [
@@ -1565,6 +1652,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1610,6 +1700,9 @@
     "confirmed": true,
     "stories": 17,
     "multi_outlet": 1,
+    "stories_12m": 17,
+    "multi_outlet_12m": 1,
+    "months_12m": 2,
     "last": "2026-11-17",
     "window_days": 183,
     "evidence": [
@@ -1636,7 +1729,7 @@
      }
     ]
    },
-   "news_30d": 48,
+   "news_30d": 45,
    "news_365d": 48,
    "latest_news": {
     "title": "알보라야, 세 번째 주민참여예산 편성 시작",
@@ -1680,6 +1773,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 1,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-06",
     "window_days": 183,
     "evidence": [
@@ -1738,6 +1834,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -1782,6 +1881,9 @@
     "confirmed": true,
     "stories": 23,
     "multi_outlet": 2,
+    "stories_12m": 23,
+    "multi_outlet_12m": 2,
+    "months_12m": 2,
     "last": "2026-11-17",
     "window_days": 183,
     "evidence": [
@@ -1860,6 +1962,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 2,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-10-29",
     "window_days": 183,
     "evidence": [
@@ -1868,6 +1973,13 @@
       "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qdzZNbFFWOEhKQjFxLThjOUdlX091bEdlU1FGcHJGdDZzZEprdkdYYUhxSXRHUlVlamhJZEc1eGJDZHhtQ1FiZmlQa3hmMmZ3THRLdXBIUHR1RURaXzhDcnZRd2Y3LWdpYzNydnRB?oc=5",
       "source": "North Ayrshire Council",
       "date": "2026-10-29",
+      "outlets": 1
+     },
+     {
+      "title": "함께하는 예산: 스코틀랜드의 참여적 미래를 위한 브라질의 교훈",
+      "url": "https://www.pbscotland.scot/blog/2026/1/21/budgeting-together-lessons-from-brazil-for-scotlands-participatory-future",
+      "source": "PB Scotland",
+      "date": "2026-01-21",
       "outlets": 1
      }
     ]
@@ -1916,6 +2028,9 @@
     "confirmed": true,
     "stories": 10,
     "multi_outlet": 1,
+    "stories_12m": 10,
+    "multi_outlet_12m": 1,
+    "months_12m": 2,
     "last": "2026-11-17",
     "window_days": 183,
     "evidence": [
@@ -1985,6 +2100,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2033,6 +2151,9 @@
     "confirmed": true,
     "stories": 13,
     "multi_outlet": 1,
+    "stories_12m": 13,
+    "multi_outlet_12m": 1,
+    "months_12m": 2,
     "last": "2026-11-18",
     "window_days": 183,
     "evidence": [
@@ -2106,6 +2227,9 @@
     "confirmed": true,
     "stories": 10,
     "multi_outlet": 0,
+    "stories_12m": 10,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-11-16",
     "window_days": 183,
     "evidence": [
@@ -2132,7 +2256,7 @@
      }
     ]
    },
-   "news_30d": 10,
+   "news_30d": 9,
    "news_365d": 10,
    "latest_news": {
     "title": "참여예산안 통과 후 알렘의 얀센 지구에 다목적실 개소",
@@ -2174,6 +2298,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 1,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-09",
     "window_days": 183,
     "evidence": [
@@ -2232,6 +2359,9 @@
     "confirmed": true,
     "stories": 5,
     "multi_outlet": 0,
+    "stories_12m": 5,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-11-13",
     "window_days": 183,
     "evidence": [
@@ -2300,6 +2430,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2341,6 +2474,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2383,6 +2519,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2423,6 +2562,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2462,6 +2604,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2502,6 +2647,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2546,6 +2694,9 @@
     "confirmed": true,
     "stories": 36,
     "multi_outlet": 4,
+    "stories_12m": 36,
+    "multi_outlet_12m": 4,
+    "months_12m": 2,
     "last": "2026-11-17",
     "window_days": 183,
     "evidence": [
@@ -2614,6 +2765,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2654,6 +2808,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2694,6 +2851,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2737,6 +2897,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 1,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-06",
     "window_days": 183,
     "evidence": [
@@ -2791,6 +2954,9 @@
     "confirmed": true,
     "stories": 7,
     "multi_outlet": 0,
+    "stories_12m": 7,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-11-13",
     "window_days": 183,
     "evidence": [
@@ -2817,7 +2983,7 @@
      }
     ]
    },
-   "news_30d": 7,
+   "news_30d": 6,
    "news_365d": 7,
    "latest_news": {
     "title": "참여예산 및 주민 자치 위원회 선거에 대한 디지털 참여, 80% 증가",
@@ -2878,6 +3044,9 @@
     "confirmed": true,
     "stories": 4,
     "multi_outlet": 0,
+    "stories_12m": 4,
+    "multi_outlet_12m": 0,
+    "months_12m": 2,
     "last": "2026-11-14",
     "window_days": 183,
     "evidence": [
@@ -2946,6 +3115,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -2986,6 +3158,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3028,6 +3203,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3070,6 +3248,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3110,6 +3291,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3151,6 +3335,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3200,6 +3387,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3241,6 +3431,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 1,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-04",
     "window_days": 183,
     "evidence": [
@@ -3295,6 +3488,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 1,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-11-10",
     "window_days": 183,
     "evidence": [
@@ -3349,6 +3545,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3389,6 +3588,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3430,6 +3632,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3472,6 +3677,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3519,6 +3727,9 @@
     "confirmed": true,
     "stories": 51,
     "multi_outlet": 12,
+    "stories_12m": 51,
+    "multi_outlet_12m": 12,
+    "months_12m": 2,
     "last": "2026-11-18",
     "window_days": 183,
     "evidence": [
@@ -3545,7 +3756,7 @@
      }
     ]
    },
-   "news_30d": 67,
+   "news_30d": 65,
    "news_365d": 67,
    "latest_news": {
     "title": "대전 서구의회, 주민참여예산 유사사업 반복·선정 기준 지적",
@@ -3587,6 +3798,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3628,6 +3842,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3669,6 +3886,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3709,6 +3929,9 @@
     "confirmed": true,
     "stories": 1,
     "multi_outlet": 0,
+    "stories_12m": 1,
+    "multi_outlet_12m": 0,
+    "months_12m": 1,
     "last": "2026-10-26",
     "window_days": 183,
     "evidence": [
@@ -3764,6 +3987,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3804,6 +4030,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3845,6 +4074,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3886,6 +4118,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3926,6 +4161,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -3968,6 +4206,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4008,6 +4249,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4048,6 +4292,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4088,6 +4335,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4129,6 +4379,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4169,6 +4422,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4210,6 +4466,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4251,6 +4510,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4291,6 +4553,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4331,6 +4596,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4372,6 +4640,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4412,6 +4683,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4452,6 +4726,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4494,6 +4771,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []
@@ -4535,6 +4815,9 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
+    "stories_12m": 0,
+    "multi_outlet_12m": 0,
+    "months_12m": 0,
     "last": null,
     "window_days": 183,
     "evidence": []

@@ -10,8 +10,10 @@
   },
   "programs": 39,
   "news_total": 558,
-  "news_30d": 531,
+  "news_30d": 519,
   "countries_with_signal_30d": 30,
+  "countries_press_6m": 29,
+  "countries_press_12m": 29,
   "papers_total": 222
  }
 ]

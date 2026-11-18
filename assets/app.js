@@ -463,7 +463,7 @@ function renderTree(press = false) {
     const marks = `<ul class="mark-list">
       <li>${svg("sq", "mk2")}<span><b>기준 근거</b> ${esc(c.base_signal || "—")}${c.primary_source ? ` · <a class="src" href="${esc(c.primary_source)}" target="_blank" rel="noopener">출처</a>` : ""}${c.base_signal_date ? ` <span class="note">(${esc(c.base_signal_date)})</span>` : ""}</span></li>
       ${ln ? `<li>${svg("ci", "mk2")}<span><b>최근 뉴스 신호</b> <a href="${esc(ln.url)}" target="_blank" rel="noopener">${esc(ln.title)}</a> <span class="note">${esc(ln.source)} · ${esc(ln.date)}</span></span></li>` : ""}
-      <li>${svg("ci", "mk2")}<span><b>신호 집계</b> 최근 30일 기사 ${c.news_30d || 0}건 · 1년 ${c.news_365d || 0}건</span></li>
+      <li>${svg("ci", "mk2")}<span><b>신호 집계</b> 최근 30일 기사 ${c.news_30d || 0}건 · 1년 ${c.news_365d || 0}건${c.press && c.seed_status !== "monitoring" ? ` · 보도 소식 6개월 ${c.press.stories}건, 1년 ${c.press.stories_12m ?? c.press.stories}건` : ""}</span></li>
       ${pressLine(c)}
       ${registryLine(c)}</ul>`;
     return `<details class="crow" data-status="${status(c)}" data-iso="${c.iso3}">
@@ -499,9 +499,13 @@ function renderProgram(p) {
 /* ---------- 보도 확인 근거 ---------- */
 function pressLine(c) {
   const p = c.press;
-  if (!p || !p.stories || c.seed_status !== "monitoring") return "";
+  if (!p || !(p.stories_12m ?? p.stories) || c.seed_status !== "monitoring") return "";
+  const y = p.stories_12m ?? p.stories;
   const ev = (p.evidence || []).map((e) => `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a> <span class="note">${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}곳` : ""} · ${esc(e.date)}</span>`).join("<br>");
-  const head = `<b>보도 확인</b> 최근 6개월 소식 ${p.stories}건${p.multi_outlet ? `(여러 매체가 다룬 소식 ${p.multi_outlet}건)` : ""} · 정부 원문은 아직 확인 전${p.stories === 1 && !p.multi_outlet ? " · 근거 기사 1건이므로 원문으로 확인하십시오" : ""}`;
+  const year = `최근 1년 ${y}건${p.months_12m > 1 ? `(${p.months_12m}개월에 걸쳐)` : ""}`;
+  const head = p.confirmed
+    ? `<b>보도 확인</b> 최근 6개월 소식 ${p.stories}건${p.multi_outlet ? `(여러 매체가 다룬 소식 ${p.multi_outlet}건)` : ""} · ${year} · 정부 원문은 아직 확인 전${p.stories === 1 && !p.multi_outlet ? " · 근거 기사 1건이므로 원문으로 확인하십시오" : ""}`
+    : `<b>최근 1년 보도</b> 소식 ${y}건 · 마지막 보도 ${esc(p.last || "—")} · 6개월이 지나 '보도 확인'에서 내려갔습니다`;
   return `<li>${svg("ci", "mk2")}<span>${head}${ev ? `<br>${ev}` : ""}</span></li>`;
 }
 
@@ -712,6 +716,8 @@ function renderAnalytics() {
   groups.push(["관할 단위", Object.entries(lv).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, v]) => [levelName(k), v])]);
   const rc = {}, ra = {};
   countries.forEach((c) => { rc[c.region] = (rc[c.region] || 0) + 1; if (status(c) !== "monitoring") ra[c.region] = (ra[c.region] || 0) + 1; });
+  const p6 = countries.filter((c) => c.press?.stories).length, p12 = countries.filter((c) => c.press?.stories_12m ?? c.press?.stories).length;
+  groups.push(["보도 기록 (국가 수)", [["최근 6개월 보도 있음", p6, countries.length], ["최근 1년 보도 있음", p12, countries.length]]]);
   groups.push(["지역별 근거 확보 (공식·문헌·보도 / 추적 국가)", Object.entries(rc).sort((a, b) => (ra[b[0]] || 0) - (ra[a[0]] || 0)).map(([r, v]) => [regionName(r), ra[r] || 0, v])]);
   const cap = $("#tally caption").outerHTML;
   $("#tally").innerHTML = cap + groups.map(([title, rows]) => {
