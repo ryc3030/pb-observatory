@@ -100,6 +100,16 @@
   "observed_at": "2026-11-17"
  },
  {
+  "key": "news:ARG:09491b13d6cd50",
+  "date": "2026-11-18",
+  "iso3": "ARG",
+  "type": "뉴스 신호",
+  "label": "아르헨티나",
+  "text": "Presupuesto Participativo 2026: entregan materiales a beneficiarios de las zonas 1 a 6",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0NMWGFvUEVJY28tZF92eTY2VndoanhkNkZncnRGTmZRWlkxSXF0V3l0SlFaRExDUGctcndyajNac2hscF9lVmFaSEhZc0hLaTVBblBIQTY5TkRZd2F3eEtXZjJLbl9vZEJYdDhWUUVrYnVVUEtaOFJPVE05THctRzk0UVVFTEZySk1NdkNPVDNYT19oQ3llS3ZPZlc3ejl2ZEZBX29KamJFdWpyclRFVkZTV1pZenAxRFBkTXpkOWZSdw?oc=5",
+  "observed_at": "2026-11-17"
+ },
+ {
   "key": "news:CZE:08aeb2e9a0aac1",
   "date": "2026-11-18",
   "iso3": "CZE",
@@ -167,6 +177,36 @@
   "label": "Central European Journal of Public Policy",
   "text": "Participatory Budgeting Research: A Systematic Literature Review of Determinants, Impacts, and Future Research Directions",
   "url": "https://doi.org/10.34135/cejpp.380",
+  "observed_at": "2026-11-15"
+ },
+ {
+  "key": "paper:doi:10.5281/zenodo.24243736",
+  "date": "2026-11-18",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Zenodo (CERN European Organization for Nuclear Research)",
+  "text": "El presupuesto participativo después de la votación: cómo seguir el avance de los proyectos elegidos",
+  "url": "https://doi.org/10.5281/zenodo.24243736",
+  "observed_at": "2026-11-15"
+ },
+ {
+  "key": "paper:doi:10.68367/33958",
+  "date": "2026-11-18",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Вестник науки",
+  "text": "ФОРМИРОВАНИЕ КОМПЕТЕНЦИЙ ГРАЖДАНСКОГО УЧАСТИЯ ЧЕРЕЗ ИНИЦИАТИВНОЕ БЮДЖЕТИРОВАНИЕ: ОБУЧЕНИЕ, СОПРОВОЖДЕНИЕ И НАСТАВНИЧЕСТВО",
+  "url": "https://doi.org/10.68367/33958",
+  "observed_at": "2026-11-15"
+ },
+ {
+  "key": "paper:doi:10.68367/33957",
+  "date": "2026-11-18",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Вестник науки",
+  "text": "ПРАВОВЫЕ И ОРГАНИЗАЦИОННЫЕ БАРЬЕРЫ ИНИЦИАТИВНОГО БЮДЖЕТИРОВАНИЯ В ФОРМИРОВАНИИ ЭКОСИСТЕМЫ ГРАЖДАНСКОГО УЧАСТИЯ",
+  "url": "https://doi.org/10.68367/33957",
   "observed_at": "2026-11-15"
  },
  {
@@ -310,6 +350,16 @@
   "observed_at": "2026-11-09"
  },
  {
+  "key": "paper:doi:10.5281/zenodo.24073210",
+  "date": "2026-11-18",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Journal of Intellectual Property and Human Rights",
+  "text": "Prospects for Implementation and Development of Initiative Budgeting in Our Country",
+  "url": "https://doi.org/10.5281/zenodo.24073210",
+  "observed_at": "2026-11-09"
+ },
+ {
   "key": "news:SVK:06117e3a8f3ee0",
   "date": "2026-11-18",
   "iso3": "SVK",
@@ -347,6 +397,16 @@
   "label": "키르기스스탄",
   "text": "В Кыргызстане педагогов и руководителей школ обучают инициативному бюджетированию",
   "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DUEZLNnl6Zl91WmpBLXBuMXNvX2dfem9ldGQxQ3dEbmloNW9GZUJIMVlvR2JwVURqSFhrZ0dTcjlCQk4tZ3JNX3BnVzVxaGQ1YWFQbVhWc3BQdXEwbWN5OHJhX3dQY1BmQnU2a2tFdEppX24w?oc=5",
+  "observed_at": "2026-11-04"
+ },
+ {
+  "key": "paper:doi:10.54899/dcs.v23i100.035",
+  "date": "2026-11-18",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Derecho y cambio social.",
+  "text": "CONTROLE SOCIAL EM PERSPECTIVA: PROMESSAS CONSTITUCIONAIS, RACIONALIDADE NEOLIBERAL E OS LIMITES ESTRUTURAIS DA PARTICIPAÇÃO DEMOCRÁTICA NO BRASIL (1988-2026)",
+  "url": "https://doi.org/10.54899/dcs.v23i100.035",
   "observed_at": "2026-11-04"
  },
  {

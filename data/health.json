@@ -5,8 +5,8 @@
   "queries_ok": 27,
   "queries": 27,
   "added": 4,
-  "total": 506,
-  "checked_at": "2026-11-18T01:49:25.137881+00:00",
+  "total": 510,
+  "checked_at": "2026-11-18T01:59:42.392219+00:00",
   "languages": [
    "cs",
    "de",
@@ -33,25 +33,25 @@
    "uk",
    "zh"
   ],
-  "last_success_at": "2026-11-18T01:49:25.137881+00:00"
+  "last_success_at": "2026-11-18T01:59:42.392219+00:00"
  },
  "papers": {
   "name": "학술 DB (OpenAlex·Crossref)",
   "ok": true,
-  "fetched": 172,
+  "fetched": 299,
   "by_source": {
-   "OpenAlex": 27,
-   "Crossref": 145
+   "OpenAlex": 189,
+   "Crossref": 110
   },
-  "total": 158,
-  "checked_at": "2026-11-18T01:49:25.137881+00:00",
-  "error": "OpenAlex[participatory budget]: HTTP Error 429: Too Many Requests",
-  "last_success_at": "2026-11-18T01:49:25.137881+00:00"
+  "total": 222,
+  "checked_at": "2026-11-18T01:59:42.392219+00:00",
+  "error": null,
+  "last_success_at": "2026-11-18T01:59:42.392219+00:00"
  },
  "build": {
   "name": "일일 빌드",
   "ok": true,
-  "checked_at": "2026-11-18T01:49:25.137881+00:00",
-  "last_success_at": "2026-11-18T01:49:25.137881+00:00"
+  "checked_at": "2026-11-18T01:59:42.392219+00:00",
+  "last_success_at": "2026-11-18T01:59:42.392219+00:00"
  }
 }

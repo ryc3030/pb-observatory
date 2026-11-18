@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-18T01:49:25.137881+00:00",
- "count": 506,
+ "updated_at": "2026-11-18T01:59:42.392219+00:00",
+ "count": 510,
  "items": [
   {
    "id": "174c7cbe2c2ccd",
@@ -112,7 +112,7 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": false
+   "_tr_tried": true
   },
   {
    "id": "4956f30143d27c",
@@ -128,7 +128,7 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": false
+   "_tr_tried": true
   },
   {
    "id": "bff8aa0084bab1",
@@ -447,6 +447,22 @@
    "published_at": "2026-11-17T14:23:10+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
+   "kind": "signal",
+   "_tr_tried": false
+  },
+  {
+   "id": "09491b13d6cd50",
+   "title": "Presupuesto Participativo 2026: entregan materiales a beneficiarios de las zonas 1 a 6",
+   "title_ko": null,
+   "lang": "es",
+   "source": "gualeguaychu.gov.ar",
+   "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0NMWGFvUEVJY28tZF92eTY2VndoanhkNkZncnRGTmZRWlkxSXF0V3l0SlFaRExDUGctcndyajNac2hscF9lVmFaSEhZc0hLaTVBblBIQTY5TkRZd2F3eEtXZjJLbl9vZEJYdDhWUUVrYnVVUEtaOFJPVE05THctRzk0UVVFTEZySk1NdkNPVDNYT19oQ3llS3ZPZlc3ejl2ZEZBX29KamJFdWpyclRFVkZTV1pZenAxRFBkTXpkOWZSdw?oc=5",
+   "source_url": "https://gualeguaychu.gov.ar",
+   "gl": "MX",
+   "default_iso": null,
+   "published_at": "2026-11-17T13:59:48+00:00",
+   "country_iso3": "ARG",
+   "collected_at": "2026-11-18T01:59:42.392219+00:00",
    "kind": "signal",
    "_tr_tried": false
   },
@@ -2239,7 +2255,8 @@
    "published_at": "2026-11-12T16:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "6d8fdb2c7a8574",
@@ -2584,6 +2601,21 @@
    "published_at": "2026-11-10T17:31:10+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
+   "kind": "signal"
+  },
+  {
+   "id": "ee12bf31bd761b",
+   "title": "Presupuesto Participativo: hubo más de 25 mil votos en la primera semana y el municipio suma puntos asistidos",
+   "title_ko": null,
+   "lang": "es",
+   "source": "Noticias MR",
+   "url": "https://news.google.com/rss/articles/CBMijwJBVV95cUxOOGhGWUJDT0RycXc2VDhlMXdBcGktMUFoM1JTaTI0ZjdscGtlb3B5WjEyUGRzYUhWOE5BUnF6dnlYVktTYVdvQndwYUl1M0hFR3N2dlhTaEZRUWtZZjlCN1FHRms3YzFwNW9PQmY5Rm1uYjhDVGRyZElqVmFlWExJbThfcl81NmVPS1owSEc3UGI1QmxkNkxLZVo1TG5XODB2eUExTkN3YjdxNy1VUUJ0cm9ZVjlqZVBZVmJPeEVJTm5SNGgtUm0wcFloQzJ4dEY4VWllQW52WEZyNGJWYUNmTi1KRTNiSFl4RmlZOHQxTU9TNHRueHlmVVV1UVdpYnRsTVVrRi1zUjhMV09fQVlB?oc=5",
+   "source_url": "https://www.rosarionoticias.gob.ar",
+   "gl": "MX",
+   "default_iso": null,
+   "published_at": "2026-11-10T16:13:41+00:00",
+   "country_iso3": "ARG",
+   "collected_at": "2026-11-18T01:59:42.392219+00:00",
    "kind": "signal"
   },
   {
@@ -4912,6 +4944,21 @@
    "kind": "signal"
   },
   {
+   "id": "aa71123f327bc3",
+   "title": "Budżet Obywatelski Krosna 2027. Mieszkańcy wybrali 22 projekty • Wiadomości",
+   "title_ko": null,
+   "lang": "pl",
+   "source": "Polskie Radio Rzeszów",
+   "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPN196bDhfejdoWlZkZ0tHSE1aVUNUcDZ4YTd0R3V2WERWZWpCUGxONHFRLUlidDIwMWIyN1B4dWxYUWRDcWRWZWtMRkN2dS1FcTRoS0dlZE5pNXBkSm5OUTl0dUhDNHdhcjVuN09RM0JJZDFKLVRuaXdHVWpNaXhiaG1Kamp1SWdTeGVFYkc0UlR3SkVSVHNUSktB?oc=5",
+   "source_url": "https://radio.rzeszow.pl",
+   "gl": "PL",
+   "default_iso": "POL",
+   "published_at": "2026-11-02T08:00:00+00:00",
+   "country_iso3": "POL",
+   "collected_at": "2026-11-18T01:59:42.392219+00:00",
+   "kind": "signal"
+  },
+  {
    "id": "79f7803e873281",
    "title": "Проєкт інклюзивної зони для лікарні на Громадський бюджет-2027",
    "title_ko": null,
@@ -6334,6 +6381,21 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
+   "kind": "signal"
+  },
+  {
+   "id": "13c78f0ff3100a",
+   "title": "고작 ‘119억’ 반영했던 국민참여예산 확대…청년 목소리 대폭 담는다",
+   "title_ko": null,
+   "lang": "ko",
+   "source": "이데일리",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTFZUc3VfbUF4WGlrUVJtUUl4S3JURUFaM2EtT1k1NGtrWVg3TFRGdXBuLWdvMWpzTHVyRW5KemJfSThQaHdlbDFwblpyNEQwUnVWT1hJREpSMFcyTGFOQmk2MTUtQkZueHcxa0djNUpqXzd5dEl0SHhlamJsNXFjTQ?oc=5",
+   "source_url": "https://www.edaily.co.kr",
+   "gl": "KR",
+   "default_iso": "KOR",
+   "published_at": "2026-10-26T05:00:05+00:00",
+   "country_iso3": "KOR",
+   "collected_at": "2026-11-18T01:59:42.392219+00:00",
    "kind": "signal"
   },
   {
