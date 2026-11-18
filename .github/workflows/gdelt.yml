@@ -1,0 +1,44 @@
+name: GDELT 하루 1회 수집
+
+on:
+  schedule:
+    - cron: "41 3 * * *"     # 매일 12:41 KST, 요청 한 건
+  workflow_dispatch:
+    inputs:
+      force:
+        description: "오늘 이미 요청했어도 다시 요청 (1)"
+        required: false
+        default: "0"
+
+permissions:
+  contents: write
+
+concurrency:
+  group: collect
+  cancel-in-progress: false
+
+jobs:
+  gdelt:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: GDELT 요청 한 건
+        env:
+          PB_GDELT_FORCE: ${{ github.event.inputs.force }}
+        run: python scripts/gdelt.py
+      - name: 변경분 커밋
+        run: |
+          git config user.name "pb-observatory-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "변경 없음"
+          else
+            git commit -m "data: GDELT $(date -u +%Y-%m-%d)"
+            git pull --rebase -X theirs origin main || git pull --rebase origin main
+            git push
+          fi

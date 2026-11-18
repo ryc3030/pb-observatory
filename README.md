@@ -36,7 +36,7 @@ scripts/collect.py      수집기 (표준 라이브러리만 사용)
 | 원천 | 얻는 것 | 비고 |
 |---|---|---|
 | Google News RSS | 27개 검색어·24개 언어 기사 제목 | 기본 뉴스 신호 |
-| GDELT DOC 2.0 API | 원문 직링크, 발행국(sourcecountry), 언어 | IP당 호출 제한이 엄격해 GitHub 러너에서 429가 잦음. 검색어를 하나로 묶어 1회 호출, 0·20·60초 간격 재시도 |
+| GDELT DOC 2.0 API | 원문 직링크, 발행국(sourcecountry), 언어 | `scripts/gdelt.py`가 하루 한 번(12:41 KST) 요청 한 건만 보냄. 재시도 없음. 검색 기간은 마지막 성공 이후 전체(최대 90일)라 실패한 날의 기사도 다음 성공 때 받음. 같은 날 두 번 실행하면 요청 없이 끝남 |
 | OpenAlex · Crossref | 논문 서지·초록·DOI | |
 | Participedia 검색 JSON | PB 사례 제목·도시·국가·좌표·검수 여부 | 제목·요약에 PB 용어가 있는 사례만 채택 |
 | Pabulib (pabuviz API) | 투표 회차별 예산·사업·투표지·투표 방식 | 폴란드·네덜란드·프랑스 중심 |

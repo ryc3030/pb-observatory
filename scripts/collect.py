@@ -4,7 +4,7 @@
 GitHub Actions가 매일 실행합니다. 외부 패키지 없이 표준 라이브러리만 씁니다.
 
 수집 대상
-  1) 뉴스 신호  : Google News RSS(27개 검색어·24개 언어) + GDELT DOC 2.0(원문 직링크·발행국)
+  1) 뉴스 신호  : Google News RSS(27개 검색어·24개 언어). GDELT는 scripts/gdelt.py가 하루 한 번 따로 수집
   2) 연구 논문  : OpenAlex (실패 시 Crossref)
   3) 국가 신호  : 뉴스 제목을 국가 별칭과 대조해 국가별 최신 신호·30일 건수 산출
   4) 근거 원장  : 새로 관측된 국가 신호·논문을 날짜와 함께 누적
@@ -266,59 +266,6 @@ GDELT_LANG = {"English": "en", "Spanish": "es", "Portuguese": "pt", "French": "f
               "Polish": "pl", "Korean": "ko", "Japanese": "ja", "Chinese": "zh", "Russian": "ru", "Ukrainian": "uk",
               "Czech": "cs", "Slovak": "sk", "Romanian": "ro", "Dutch": "nl", "Finnish": "fi", "Swedish": "sv",
               "Lithuanian": "lt", "Latvian": "lv", "Estonian": "et", "Croatian": "hr", "Indonesian": "id", "Turkish": "tr"}
-# GDELT는 IP당 호출 제한이 엄격해(공용 러너는 429가 잦음) 검색어를 OR로 묶어 1회 호출하고, 실패 시 간격을 늘려 재시도
-GDELT_QUERIES = ['("participatory budgeting" OR "participatory budget" OR "presupuesto participativo" OR '
-                 '"presupuestos participativos" OR "orçamento participativo" OR "budget participatif" OR '
-                 '"bilancio partecipativo" OR "Bürgerhaushalt" OR "budżet obywatelski")']
-GDELT_WAITS = [0, 20, 60]
-
-
-def fetch_gdelt(health):
-    """GDELT DOC 2.0 API (무료·무키). 5초당 1회 제한이 있어 6초 간격으로 호출."""
-    rows, ok, errs, fails = [], 0, [], 0
-    for q in GDELT_QUERIES:
-        if fails >= 6:  # 연속 실패 시 이번 실행은 중단(다른 소스 시간 확보)
-            errs.append("연속 실패로 나머지 생략")
-            break
-        url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
-            {"query": q, "mode": "artlist", "format": "json", "maxrecords": 250, "timespan": "30d", "sort": "datedesc"})
-        arts = []
-        for wait in GDELT_WAITS:
-            time.sleep(wait)
-            try:
-                raw = http_get(url, timeout=40, retries=0)
-                arts = json.loads(raw.decode("utf-8", "ignore") or "{}").get("articles", []) if raw.strip() else []
-                ok += 1
-                fails = 0
-                break
-            except Exception as e:  # noqa: BLE001
-                errs.append(f"{str(e)[:50]} (대기 {wait}s 후)")
-                fails += 1
-        for a in arts:
-            title = clean(a.get("title") or "")
-            link = a.get("url") or ""
-            # 본문 매칭만 된 기사는 제목이나 주소에 PB 용어가 있을 때만 채택
-            if not title or not (PB_TERMS.search(title) or PB_TERMS.search(link.replace("-", " "))):
-                continue
-            lang = GDELT_LANG.get(a.get("language", ""), "en")
-            try:
-                pub = datetime.strptime(a["seendate"], "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc).isoformat()
-            except Exception:  # noqa: BLE001
-                pub = NOW.isoformat()
-            dom = a.get("domain") or urllib.parse.urlparse(link).hostname or ""
-            nid = hashlib.sha1((re.sub(r"\W+", "", title.lower()) + "|" + dom.lower()).encode()).hexdigest()[:14]
-            rows.append({"id": nid, "title": title, "title_ko": None, "lang": lang, "source": dom, "url": link,
-                         "source_url": "https://" + dom, "gl": "", "default_iso": None, "published_at": pub,
-                         "src_country": a.get("sourcecountry") or None, "src_country_iso": name_iso(a.get("sourcecountry")),
-                         "collected_at": NOW.isoformat(), "kind": "signal", "via": "GDELT"})
-        time.sleep(6)
-    health["gdelt"] = {"name": "GDELT DOC 2.0 (원문 직링크)", "ok": ok > 0, "queries_ok": ok, "queries": len(GDELT_QUERIES),
-                       "fetched": len(rows), "checked_at": NOW.isoformat(), "error": "; ".join(errs)[:300] or None,
-                       "last_success_at": NOW.isoformat() if ok else (health.get("gdelt") or {}).get("last_success_at")}
-    log("gdelt", ok, "/", len(GDELT_QUERIES), "rows", len(rows))
-    return rows
-
-
 def parse_date(s: str) -> str:
     try:
         return email.utils.parsedate_to_datetime(s).astimezone(timezone.utc).isoformat()
@@ -370,17 +317,7 @@ def collect_news(countries, match, health):
         per_lang[lang] = per_lang.get(lang, 0) + n
         time.sleep(1.2)
 
-    # GDELT: 원문 직링크와 발행국(sourcecountry)을 주는 보조 뉴스 소스
-    gd = fetch_gdelt(health)
-    seen_titles = {norm_title(x["title"]) for x in by_id.values()}
-    for row in gd:
-        k = norm_title(row["title"])
-        if row["id"] in by_id or k in seen_titles:
-            continue
-        seen_titles.add(k)
-        by_id[row["id"]] = row
-        added += 1
-        per_lang["gdelt"] = per_lang.get("gdelt", 0) + 1
+    # GDELT 기사는 scripts/gdelt.py가 하루 한 번 따로 넣는다(호출 제한 때문). 여기서는 재태깅만 함께 받는다.
 
     # 별칭 사전이 바뀌어도 반영되도록 전체 재태깅. 근거(iso_basis)를 함께 남겨 화면에서 판단 근거를 보여 줌
     for row in by_id.values():
@@ -401,7 +338,7 @@ def collect_news(countries, match, health):
                    key=lambda x: x["published_at"], reverse=True)[:NEWS_MAX]
     save("news.json", {"updated_at": NOW.isoformat(), "count": len(items), "items": items})
     health["news"] = {
-        "name": "Google News RSS (다국어)", "ok": ok_q > 0, "gdelt_added": per_lang.get("gdelt", 0), "queries_ok": ok_q, "queries": len(NEWS_QUERIES),
+        "name": "Google News RSS (다국어)", "ok": ok_q > 0, "queries_ok": ok_q, "queries": len(NEWS_QUERIES),
         "added": added, "total": len(items), "checked_at": NOW.isoformat(),
         "languages": sorted({q[0] for q in NEWS_QUERIES}),
     }

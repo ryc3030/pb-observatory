@@ -713,12 +713,12 @@ function renderCompare() {
 function renderEvidence() {
   const hs = ["news", "gdelt", "papers", "participedia", "pabulib", "decidim", "build"].map((k) => health[k]).filter(Boolean);
   $("#health").innerHTML = hs.length ? hs.map((x) => {
-    const detail = x.added != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 오늘 새 기사 ${x.added}${x.gdelt_added ? ` (GDELT ${x.gdelt_added})` : ""} · 보관 ${nf.format(x.total)}` : x.queries != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 수집 ${x.fetched}` : x.fetched != null ? `오늘 수집 ${x.fetched} · 보관 ${nf.format(x.total)}` : "";
+    const detail = x.added != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 오늘 새 기사 ${x.added}${x.gdelt_added ? ` (GDELT ${x.gdelt_added})` : ""} · 보관 ${nf.format(x.total)}` : x.queries != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 새 기사 ${x.fetched}${x.timespan_days ? ` · 최근 ${x.timespan_days}일 범위` : ""}${x.fails_in_row > 1 ? ` · ${x.fails_in_row}일 연속 실패` : ""}` : x.fetched != null ? `오늘 수집 ${x.fetched} · 보관 ${nf.format(x.total)}` : "";
     return `<div class="hrow"><span class="st ${x.ok ? "" : "bad"}" aria-hidden="true"></span><b>${esc(x.name)} — ${x.ok ? "정상" : "실패"}</b><p>${esc(fmtDate(x.checked_at, { month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit" }))}${detail ? " · " + esc(detail) : ""}${!x.ok && x.last_success_at ? " · 마지막 성공 " + esc(fmtDate(x.last_success_at)) : ""}</p></div>`;
   }).join("") : '<p class="note">수집 상태 정보가 아직 없습니다.</p>';
   const SRC = [
     ["Google News RSS", "https://news.google.com/", "27개 검색어·24개 언어 기사 제목", "PB 데일리, 국가 신호", "news"],
-    ["GDELT DOC 2.0", "https://www.gdeltproject.org/", "원문 직링크·발행국·언어 (공용 IP 호출 제한이 잦음)", "PB 데일리 보강, 국가 판정(발행국)", "gdelt"],
+    ["GDELT DOC 2.0", "https://www.gdeltproject.org/", "원문 직링크·발행국·언어 (하루 1회 요청)", "PB 데일리 보강, 국가 판정(발행국)", "gdelt"],
     ["OpenAlex · Crossref", "https://openalex.org/", "논문 서지·초록·DOI", "논문", "papers"],
     ["Participedia", "https://participedia.net/", `PB 사례 ${nf.format(cases.length)}건(좌표·검수 여부)`, "국가·프로그램 '플랫폼 근거', 검토 필요 표시", "participedia"],
     ["Pabulib (pabuviz)", "https://pabulib.org/", `투표 기록 ${nf.format(units.reduce((a, u) => a + u.elections, 0))}회(예산·사업·투표 수)`, "폴란드·네덜란드·프랑스 도시 근거", "pabulib"],
