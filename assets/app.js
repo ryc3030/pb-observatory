@@ -185,7 +185,7 @@ function setupShell() {
   const c = META.counts || {};
   $("#updatedLine").innerHTML = up
     ? `<b>${esc(fmtDate(up, { month: "long", day: "numeric", hour: "numeric", minute: "2-digit" }))}</b> 자동 갱신(${esc(ago(up))}) · 뉴스 <b class="tnum">${nf.format(news.length)}</b>건 · 논문 <b class="tnum">${nf.format(papers.length)}</b>편 · 매일 오전 6시 17분 갱신`
-    : "갱신 정보를 불러오지 못했습니다. 잠시 뒤 새로고침해 주세요.";
+    : "갱신 정보를 불러오지 못했습니다. 잠시 뒤 새로고침해 주십시오.";
   $("#footUpdated").textContent = up ? `마지막 자동 갱신 ${fmtDate(up, { dateStyle: "long", timeStyle: "short" })} (한국 시간)` : "";
   const langs = new Set(news.map((x) => x.lang));
   $("#langCount").textContent = `지금 ${langs.size}개 언어의 기사가 들어와 있습니다.`;
@@ -395,7 +395,7 @@ function renderNews() {
   $("#newsResult").textContent = rows.length === raw ? `기사 ${nf.format(raw)}건` : `기사 ${nf.format(raw)}건 · 같은 소식 묶어 ${nf.format(rows.length)}건`;
   $("#moreNews").hidden = rows.length <= newsLimit;
   if (!rows.length) {
-    $("#newsgrid").innerHTML = `<li class="empty">조건에 맞는 기사가 없습니다. 언어나 국가를 '전체'로 바꾸거나 검색어를 줄여 보세요.</li>`;
+    $("#newsgrid").innerHTML = `<li class="empty">조건에 맞는 기사가 없습니다. 언어나 국가를 '전체'로 바꾸거나 검색어를 줄여 보십시오.</li>`;
     return;
   }
   let lastDay = "";
@@ -454,7 +454,7 @@ function renderTree(press = false) {
   more.textContent = `나머지 ${filtered.length - shown.length}개국 더 보기`;
   more.onclick = () => { showAllCountries = true; renderTree(); };
   if (!filtered.length) {
-    $("#tree").innerHTML = `<p class="empty">조건에 맞는 국가가 없습니다. 검색어를 지우거나 필터를 '전체'로 바꿔 보세요.</p>`;
+    $("#tree").innerHTML = `<p class="empty">조건에 맞는 국가가 없습니다. 검색어를 지우거나 필터를 '전체'로 바꿔 보십시오.</p>`;
     return;
   }
   $("#tree").innerHTML = shown.map((c, i) => {
@@ -469,10 +469,10 @@ function renderTree(press = false) {
     return `<details class="crow" data-status="${status(c)}" data-iso="${c.iso3}">
       <summary><span class="no">${i + 1}</span>
         <span class="name"><b>${esc(c.name_ko)}</b><small>${esc(regionName(c.region))} · ${esc(c.name_en)}</small></span>
-        <span class="facts"><span>프로그램 ${ps.length}</span>${c.review_hint ? '<span class="rv" title="레지스트리에 사례가 있어 근거 상태를 사람이 검토할 대상">검토 필요</span>' : ""}${c.news_30d ? `<span class="s">30일 신호 ${c.news_30d}</span>` : '<span class="note">신호 없음</span>'}</span>
+        <span class="facts"><span>프로그램 ${ps.length}</span>${c.review_hint ? '<span class="rv" title="Participedia·Pabulib에 사례가 있어 근거 상태를 검토할 국가">검토 필요</span>' : ""}${c.news_30d ? `<span class="s">30일 신호 ${c.news_30d}</span>` : '<span class="note">신호 없음</span>'}</span>
         <span class="when">${c.activity_date ? "최근 " + esc(c.activity_date) : "—"}</span>
         ${slot(status(c))}</summary>
-      <div class="cbody">${marks}${ps.length ? `<div class="progs">${ps.map(renderProgram).join("")}</div>` : `<p class="note">아직 프로그램 단위 근거가 없습니다. 원문 근거가 확인되면 프로그램 레지스트리(data/programs.seed.json)에 추가됩니다.</p>`}</div></details>`;
+      <div class="cbody">${marks}${ps.length ? `<div class="progs">${ps.map(renderProgram).join("")}</div>` : `<p class="note">아직 프로그램 단위 근거가 없습니다. 원문이 확인되면 프로그램을 추가합니다.</p>`}</div></details>`;
   }).join("");
   if (press) { const t = $("#tree"); t.classList.remove("pressing"); void t.offsetWidth; t.classList.add("pressing"); }
 }
@@ -503,7 +503,7 @@ function pressLine(c) {
   const ev = (p.evidence || []).map((e) => `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a> <span class="note">${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}곳` : ""} · ${esc(e.date)}</span>`).join("<br>");
   const head = p.confirmed
     ? `<b>보도 확인</b> 최근 6개월 소식 ${p.stories}건${p.multi_outlet ? `(여러 매체가 다룬 소식 ${p.multi_outlet}건)` : ""} · 정부 원문은 아직 확인 전`
-    : `<b>보도 흔적</b> 최근 6개월 소식 1건 · 다른 소식이 한 건 더 나오거나 다른 매체가 같은 소식을 다루면 '보도 확인'으로 올라갑니다`;
+    : `<b>보도 흔적</b> 최근 6개월 소식 1건 · 소식이 한 건 더 나오거나 다른 매체가 같은 소식을 다루면 '보도 확인'으로 올라갑니다`;
   return `<li>${svg("ci", "mk2")}<span>${head}${ev ? `<br>${ev}` : ""}</span></li>`;
 }
 
@@ -533,7 +533,7 @@ function registryLine(c) {
   const links = cs.map((x) => `<a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join(" · ");
   const pabu = us.length ? ` · Pabulib 투표 기록 ${nf.format(r.pabulib)}회(${us.map((u) => esc(u.unit)).join(", ")}${c.registry.pabulib_units > us.length ? " 등" : ""})` : "";
   const more = r.participedia > cs.length ? ` <a class="src" href="https://participedia.net/search?selectedCategory=case&query=participatory%20budgeting%20${encodeURIComponent(c.name_en)}" target="_blank" rel="noopener">사례 ${r.participedia}건 모두 보기</a>` : "";
-  return `<li>${svg("sq", "mk2")}<span><b>플랫폼 근거</b> Participedia 사례 ${r.participedia}건${r.participedia_verified ? `(검수 ${r.participedia_verified})` : ""}${pabu}${links ? `<br>${links}` : ""}${more}${c.review_hint ? `<br><span class="note">모니터링 국가에서 레지스트리 근거가 보여 검토 대상으로 표시했습니다. 상태는 자동으로 바뀌지 않습니다.</span>` : ""}</span></li>`;
+  return `<li>${svg("sq", "mk2")}<span><b>플랫폼 근거</b> Participedia 사례 ${r.participedia}건${r.participedia_verified ? `(검수 ${r.participedia_verified})` : ""}${pabu}${links ? `<br>${links}` : ""}${more}${c.review_hint ? `<br><span class="note">탐색 모니터링 국가지만 Participedia·Pabulib에 사례가 있어 검토 대상으로 표시했습니다. 근거 상태는 사람이 확인한 뒤 바꿉니다.</span>` : ""}</span></li>`;
 }
 
 /* ---------- 역사 연표 ---------- */
