@@ -501,9 +501,7 @@ function pressLine(c) {
   const p = c.press;
   if (!p || !p.stories || c.seed_status !== "monitoring") return "";
   const ev = (p.evidence || []).map((e) => `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a> <span class="note">${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}곳` : ""} · ${esc(e.date)}</span>`).join("<br>");
-  const head = p.confirmed
-    ? `<b>보도 확인</b> 최근 6개월 소식 ${p.stories}건${p.multi_outlet ? `(여러 매체가 다룬 소식 ${p.multi_outlet}건)` : ""} · 정부 원문은 아직 확인 전`
-    : `<b>보도 흔적</b> 최근 6개월 소식 1건 · 소식이 한 건 더 나오거나 다른 매체가 같은 소식을 다루면 '보도 확인'으로 올라갑니다`;
+  const head = `<b>보도 확인</b> 최근 6개월 소식 ${p.stories}건${p.multi_outlet ? `(여러 매체가 다룬 소식 ${p.multi_outlet}건)` : ""} · 정부 원문은 아직 확인 전${p.stories === 1 && !p.multi_outlet ? " · 근거 기사 1건이므로 원문으로 확인하십시오" : ""}`;
   return `<li>${svg("ci", "mk2")}<span>${head}${ev ? `<br>${ev}` : ""}</span></li>`;
 }
 

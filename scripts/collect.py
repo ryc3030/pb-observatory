@@ -633,8 +633,8 @@ def collect_papers(health):
 # ---------------------------------------------------------------- 3) 국가 신호·4) 원장
 # 보도 확인: 정부 원문이 없어도 최근 6개월 보도로 운영이 확인되면 '보도 확인'(reported)으로 올린다.
 # 나라마다 참여예산 주기(공모·투표 시기)가 달라 6개월이면 한 주기 안의 흔적을 잡는다.
-# 조건: 국가 판정이 확실한 기사(제목·발행국·도메인·같은 소식)로
-#   (가) 매체 2곳 이상이 다룬 같은 소식이 하나 있거나 (나) 서로 다른 소식이 2건 이상.
+# 조건: 국가 판정이 확실한 기사(제목·발행국·도메인·같은 소식)가 1건 이상.
+#   (근거 강도는 소식 수·매체 수로 함께 보여 준다)
 # 6개월 동안 조건을 채우지 못하면 다시 탐색 모니터링으로 내려간다. 공식·검증, 문헌·플랫폼은 건드리지 않는다.
 PRESS_DAYS = 183
 STRONG_BASIS = {"제목", "발행국", "도메인", "같은 소식"}
@@ -648,7 +648,7 @@ def press_evidence(ns):
             continue
         stories.setdefault(x.get("story") or x["id"], []).append(x)
     multi = [v for v in stories.values() if len({x["source"] for x in v}) >= 2]
-    confirmed = bool(multi) or len(stories) >= 2
+    confirmed = len(stories) >= 1
     ranked = sorted(stories.values(), key=lambda v: (len({x["source"] for x in v}), max(x["published_at"] for x in v)), reverse=True)
     ev = []
     for v in ranked[:3]:

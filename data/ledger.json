@@ -444,6 +444,16 @@
   "observed_at": "2026-11-10"
  },
  {
+  "key": "reported:MYS:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "MYS",
+  "type": "보도 확인",
+  "label": "말레이시아",
+  "text": "말레이시아: 최근 6개월 보도로 참여예산 운영 확인 — 시청은 2026년 말까지 주민참여예산 편성 지침을 공표해야 한다",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORmtRSUE1c2ZHbkVJVkZodXk4T0c0WmZHbE5aeXAyZVhSZzZRLWVNUDQtU2VwU1Nhb2hfUWtYYXRRRWptb05DRWdlVTI1RHczcWc1VXhkcHhSTFQ1M2xPOG16SnBWUkx2eWhZNVA3YnJUVlM1M0toYzZJNV9USVQtNTdURHZmT1ZfRl9DN04xYkFQLWxwODNtQ1U2UndiVG9ZZFEwa3FEb2stZnJRWHNfbVhuLUVDNkxqcGRDUndSaFJfdw?oc=5",
+  "observed_at": "2026-11-10"
+ },
+ {
   "key": "news:CHL:239f759eaf4611",
   "date": "2026-11-18",
   "iso3": "CHL",
@@ -461,6 +471,16 @@
   "label": "Journal of Intellectual Property and Human Rights",
   "text": "Prospects for Implementation and Development of Initiative Budgeting in Our Country",
   "url": "https://doi.org/10.5281/zenodo.24073210",
+  "observed_at": "2026-11-09"
+ },
+ {
+  "key": "reported:CHL:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "CHL",
+  "type": "보도 확인",
+  "label": "칠레",
+  "text": "칠레: 최근 6개월 보도로 참여예산 운영 확인 — 제8회 이베리아 주민참여예산 회의 | 마리아 로사스(María Rozas), 산티아고 공공 정책에서 청년의 주도적 역할을 강조",
+  "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPVldrRDM4VzdGV1BpaFRPajFRQ0Y5UjhZQmY0NWhVN2JJc3dPZXJtM1dwRDg4Vi0xXy1CRnVtWUJOSm04SGEyNHBoaGpqMjFHZ0lUbWE1MXFZUENnMDFvbkV2d0lCUGVjbHhxSUxPUVVzQ25hZWRtcGxicnBtVVZ6R0NsSG1WSFNGdWNtaG5fVkZsYXMzZ1pvZEhmRHhRVml3XzZJcmJ4TkhsZkNKMGpadkE0ZERvV1FSZk1Pb013WVo2bU8xb0lnZE9ZNS1CX3RTVUxzQzdkR2hPdU9rR28xY2N2dmRqX2c5ZHpzcUo5ZFdBbXRxUmVrSUVhQU96cWtMbWU2ZmhoeXcyVGpHOUJSY2diVHpIdw?oc=5",
   "observed_at": "2026-11-09"
  },
  {
@@ -494,6 +514,36 @@
   "observed_at": "2026-11-06"
  },
  {
+  "key": "reported:SWE:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "SWE",
+  "type": "보도 확인",
+  "label": "스웨덴",
+  "text": "스웨덴: 최근 6개월 보도로 참여예산 운영 확인 — 이렇게 사우스웨스트 지역의 시민예산 편성",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSmd4Qk1Pc0tDUV9KamlSbzRRN0dDYUlCMEotYzdpdlQwR0lKWV9vX1cxNXZMTjk1Y2J3NEZqVXpQWENpdTA3bUNyQjZrT1AxRU00SUV0Q1Q5NHRFNW1ZdFFIb2F2d09rY2hKMmJnSGo2aXRTYXlSREU1aXg1WjZnazZNWDJvS3Ffc0Z1bg?oc=5",
+  "observed_at": "2026-11-06"
+ },
+ {
+  "key": "reported:PER:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "PER",
+  "type": "보도 확인",
+  "label": "페루",
+  "text": "페루: 최근 6개월 보도로 참여예산 운영 확인 — 폰치지-지-리마 참여예산 4차 투표 단계 돌입",
+  "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTFVMWdKTG5CWmpqOEQyRTV2SGdDM2dxeDZCRHlseVpxTTNXTW5femhNM1U0RTVWMGFrVDZTd1Y0OWsxU1JrVGNUeTRDNVVrc3kyRVJkUVljVnhFbF9mQjNvUjZSeVNubUxvVjBwZ3JzRHZlVXU5Zlp0NW5nTTZMWENWUEFDZ2FneHY3OXpUVmd5czRYNjBNSDBSTmttVUdMRG14cEJ4MXp5LVVzSVVsaU5oQkJZYjRPS2FYUmN5NUV4bFdPbjJDRHQ0c2hONkZ0SHR1bDgzaFdDeFpSRUJB?oc=5",
+  "observed_at": "2026-11-06"
+ },
+ {
+  "key": "reported:SVK:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "SVK",
+  "type": "보도 확인",
+  "label": "슬로바키아",
+  "text": "슬로바키아: 최근 6개월 보도로 참여예산 운영 확인 — 프로젝트 공개 발표 - 참여예산제",
+  "url": "https://news.google.com/rss/articles/CBMimAJBVV95cUxPU2IyaVVmOXE5VHphNm5oS2hibDNKdUxPZTg5QmNJaHNudENsUWhPSW5NbU1oSG5rTWxoSlBEZE83RHMzZ1pSX0hPTUxEOTVhZTJFQWlqS3d4ZzdacDVBZjMxNEhmdU9UMUxkY3dtNVo0eERPdHNubjlzdFNydGxkbThOMHFTTmtTOERycU9tXzZpT3ZXWHZ2UlhMVTV2YlNseTNBal84c3VybTRWdzRkLVY1dm0zak91Zkg0OXVVeGFpbThqa1YwMzh2d2gwaTBuT1V2MEdkQTlBR0ZheXR0VHpsLUxSMTFXVmlQTGR0MkZJRTB2YUdCelBKa0Nyem9DQm1udUFabHRXQ3ZfT2FySGlKeTNUMkV3?oc=5",
+  "observed_at": "2026-11-05"
+ },
+ {
   "key": "news:KGZ:feb131e8fe3e2b",
   "date": "2026-11-18",
   "iso3": "KGZ",
@@ -511,6 +561,16 @@
   "label": "Derecho y cambio social.",
   "text": "CONTROLE SOCIAL EM PERSPECTIVA: PROMESSAS CONSTITUCIONAIS, RACIONALIDADE NEOLIBERAL E OS LIMITES ESTRUTURAIS DA PARTICIPAÇÃO DEMOCRÁTICA NO BRASIL (1988-2026)",
   "url": "https://doi.org/10.54899/dcs.v23i100.035",
+  "observed_at": "2026-11-04"
+ },
+ {
+  "key": "reported:KGZ:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "KGZ",
+  "type": "보도 확인",
+  "label": "키르기스스탄",
+  "text": "키르기스스탄: 최근 6개월 보도로 참여예산 운영 확인 — 키르기스스탄에서 교사와 학교 관리자에게 참여예산을 교육",
+  "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DUEZLNnl6Zl91WmpBLXBuMXNvX2dfem9ldGQxQ3dEbmloNW9GZUJIMVlvR2JwVURqSFhrZ0dTcjlCQk4tZ3JNX3BnVzVxaGQ1YWFQbVhWc3BQdXEwbWN5OHJhX3dQY1BmQnU2a2tFdEppX24w?oc=5",
   "observed_at": "2026-11-04"
  },
  {
@@ -630,6 +690,16 @@
   "type": "뉴스 신호",
   "label": "앙골라",
   "text": "Orçamento Participativo leva mais acções sociais na Conda",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM1lHTkZfM2hoWHZGYlUyQlcxcjRISGwxeldEazNkbVBGakFtZkQxbDctMjR3eHpCSlBMNG95Q3EwUlZIVjNnTWhBN2t1TmsyN1JmUFlKaG81NHU0NnU2V192RWM2c1NvWVVUSXdIcDVXOUUtSXJyZFdIQmZ0U0pySjRRcXVLSUtXVnVsVW5yc2h1WkdiMjF6Uzd6QkxfY191NXp0dHJTOU5YRjFsNC1BRDJPWEZ2ZlZZdWJhc0RMcUswX3Vf?oc=5",
+  "observed_at": "2026-10-26"
+ },
+ {
+  "key": "reported:AGO:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "AGO",
+  "type": "보도 확인",
+  "label": "앙골라",
+  "text": "앙골라: 최근 6개월 보도로 참여예산 운영 확인 — 참여예산제는 콘다에 더 많은 사회적 활동을 가져온다",
   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM1lHTkZfM2hoWHZGYlUyQlcxcjRISGwxeldEazNkbVBGakFtZkQxbDctMjR3eHpCSlBMNG95Q3EwUlZIVjNnTWhBN2t1TmsyN1JmUFlKaG81NHU0NnU2V192RWM2c1NvWVVUSXdIcDVXOUUtSXJyZFdIQmZ0U0pySjRRcXVLSUtXVnVsVW5yc2h1WkdiMjF6Uzd6QkxfY191NXp0dHJTOU5YRjFsNC1BRDJPWEZ2ZlZZdWJhc0RMcUswX3Vf?oc=5",
   "observed_at": "2026-10-26"
  },
