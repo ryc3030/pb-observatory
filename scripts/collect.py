@@ -145,10 +145,12 @@ def to_ko(text: str, src: str = "auto") -> str | None:
         j = json.loads(raw)
         out = "".join(seg[0] for seg in j[0] if seg and seg[0]).strip()
         TRANS_CACHE[key] = out or None
+        TRANS_FAILS[0] = 0
         time.sleep(0.4)
         return out or None
-    except Exception:  # noqa: BLE001
-        TRANS_FAILS[0] += 1  # 연속 실패 시 이번 실행에서는 번역 중단
+    except Exception as e:  # noqa: BLE001
+        TRANS_FAILS[0] += 1  # 3회 실패 시 이번 실행에서는 번역 중단
+        log("translate fail", type(e).__name__, str(e)[:120])
         return None
 
 
@@ -268,7 +270,7 @@ def collect_news(countries, match, health):
             break
         if row.get("title_ko") is None and row["lang"] != "ko" and not row.get("_tr_tried"):
             row["title_ko"] = to_ko(row["title"], row["lang"])
-            row["_tr_tried"] = row["title_ko"] is not None or TRANS_FAILS[0] < 3
+            row["_tr_tried"] = row["title_ko"] is not None
             budget -= 1
 
     cutoff = (NOW - timedelta(days=NEWS_KEEP_DAYS)).isoformat()
@@ -410,7 +412,7 @@ def collect_papers(health):
             break
         if not row.get("_tr_tried"):
             row["title_ko"] = to_ko(row["title"])
-            row["_tr_tried"] = row["title_ko"] is not None or TRANS_FAILS[0] < 3
+            row["_tr_tried"] = row["title_ko"] is not None
             budget -= 1
 
     items = sorted(by_id.values(), key=lambda x: x.get("published_at") or "", reverse=True)[:400]
@@ -514,6 +516,7 @@ def main():
         "counts": {"countries": len(countries), "programs": len(programs), "news": len(news),
                    "papers": len(papers), "ledger": len(ledger), "news_added_today": added},
     })
+    log("translated", "news", sum(1 for x in news if x.get("title_ko")), "papers", sum(1 for x in papers if x.get("title_ko")))
     log("done")
 
 
