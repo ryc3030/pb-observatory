@@ -266,29 +266,34 @@ GDELT_LANG = {"English": "en", "Spanish": "es", "Portuguese": "pt", "French": "f
               "Polish": "pl", "Korean": "ko", "Japanese": "ja", "Chinese": "zh", "Russian": "ru", "Ukrainian": "uk",
               "Czech": "cs", "Slovak": "sk", "Romanian": "ro", "Dutch": "nl", "Finnish": "fi", "Swedish": "sv",
               "Lithuanian": "lt", "Latvian": "lv", "Estonian": "et", "Croatian": "hr", "Indonesian": "id", "Turkish": "tr"}
-GDELT_QUERIES = ['"participatory budgeting"', '"participatory budget"', '"presupuesto participativo"',
-                 '"presupuestos participativos"', '"orçamento participativo"', '"budget participatif"',
-                 '"bilancio partecipativo"', '"Bürgerhaushalt"', '"budżet obywatelski"']
+# GDELT는 IP당 호출 제한이 엄격해(공용 러너는 429가 잦음) 검색어를 OR로 묶어 1회 호출하고, 실패 시 간격을 늘려 재시도
+GDELT_QUERIES = ['("participatory budgeting" OR "participatory budget" OR "presupuesto participativo" OR '
+                 '"presupuestos participativos" OR "orçamento participativo" OR "budget participatif" OR '
+                 '"bilancio partecipativo" OR "Bürgerhaushalt" OR "budżet obywatelski")']
+GDELT_WAITS = [0, 20, 60]
 
 
 def fetch_gdelt(health):
     """GDELT DOC 2.0 API (무료·무키). 5초당 1회 제한이 있어 6초 간격으로 호출."""
     rows, ok, errs, fails = [], 0, [], 0
     for q in GDELT_QUERIES:
-        if fails >= 3:  # 연속 실패 시 이번 실행은 중단(다른 소스 시간 확보)
+        if fails >= 6:  # 연속 실패 시 이번 실행은 중단(다른 소스 시간 확보)
             errs.append("연속 실패로 나머지 생략")
             break
         url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
             {"query": q, "mode": "artlist", "format": "json", "maxrecords": 250, "timespan": "30d", "sort": "datedesc"})
-        try:
-            raw = http_get(url, timeout=40, retries=0)
-            arts = json.loads(raw.decode("utf-8", "ignore") or "{}").get("articles", []) if raw.strip() else []
-            ok += 1
-            fails = 0
-        except Exception as e:  # noqa: BLE001
-            errs.append(f"{q}: {str(e)[:60]}")
-            arts = []
-            fails += 1
+        arts = []
+        for wait in GDELT_WAITS:
+            time.sleep(wait)
+            try:
+                raw = http_get(url, timeout=40, retries=0)
+                arts = json.loads(raw.decode("utf-8", "ignore") or "{}").get("articles", []) if raw.strip() else []
+                ok += 1
+                fails = 0
+                break
+            except Exception as e:  # noqa: BLE001
+                errs.append(f"{str(e)[:50]} (대기 {wait}s 후)")
+                fails += 1
         for a in arts:
             title = clean(a.get("title") or "")
             link = a.get("url") or ""

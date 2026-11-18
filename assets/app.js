@@ -696,7 +696,7 @@ function renderEvidence() {
   }).join("") : '<p class="note">수집 상태 정보가 아직 없습니다.</p>';
   const SRC = [
     ["Google News RSS", "https://news.google.com/", "27개 검색어·24개 언어 기사 제목", "PB 데일리, 국가 신호", "news"],
-    ["GDELT DOC 2.0", "https://www.gdeltproject.org/", "원문 직링크·발행국·언어", "PB 데일리 보강, 국가 판정(발행국)", "gdelt"],
+    ["GDELT DOC 2.0", "https://www.gdeltproject.org/", "원문 직링크·발행국·언어 (공용 IP 호출 제한이 잦음)", "PB 데일리 보강, 국가 판정(발행국)", "gdelt"],
     ["OpenAlex · Crossref", "https://openalex.org/", "논문 서지·초록·DOI", "논문", "papers"],
     ["Participedia", "https://participedia.net/", `PB 사례 ${nf.format(cases.length)}건(좌표·검수 여부)`, "국가·프로그램 '플랫폼 근거', 검토 필요 표시", "participedia"],
     ["Pabulib (pabuviz)", "https://pabulib.org/", `투표 기록 ${nf.format(units.reduce((a, u) => a + u.elections, 0))}회(예산·사업·투표 수)`, "폴란드·네덜란드·프랑스 도시 근거", "pabulib"],
