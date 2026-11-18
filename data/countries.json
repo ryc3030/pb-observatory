@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T08:33:33.456632+00:00",
+ "updated_at": "2026-11-18T08:41:24.978295+00:00",
  "count": 92,
  "items": [
   {
@@ -897,31 +897,17 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
-    "stories_12m": 1,
+    "stories_12m": 0,
     "multi_outlet_12m": 0,
-    "months_12m": 1,
-    "last": "2026-03-30",
+    "months_12m": 0,
+    "last": null,
     "window_days": 183,
-    "evidence": [
-     {
-      "title": "All Ireland Award for Ballymena Schools Participatory Budgeting Project",
-      "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHI4bE1WaXNIQm8zT3BCeVhGSVA0UUVWcEJ0SnR4MFJZTjZhc01kZzlXZG5NWW5GX0xOMEhzZElEV1lKb3YzOHVpblpFRnJSZ1k2SWUtWHZoWFY2c1BSNUdHZWRlU1IxUGYtU1IySE9kelRmdzZPUVZiUmdEQS13S2VSUjVxTHJ4VFlldWJZT2Z3U1QtQzBrMWlnWmhYQUNMX050X0loSnBGOVc5VmZEdW9nZ0tiX0JnSlhmTm5BT3J3aTg?oc=5",
-      "source": "Business First Online",
-      "date": "2026-03-30",
-      "outlets": 1
-     }
-    ]
+    "evidence": []
    },
    "news_30d": 0,
-   "news_365d": 1,
-   "latest_news": {
-    "title": "All Ireland Award for Ballymena Schools Participatory Budgeting Project",
-    "title_original": "All Ireland Award for Ballymena Schools Participatory Budgeting Project",
-    "date": "2026-03-30",
-    "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHI4bE1WaXNIQm8zT3BCeVhGSVA0UUVWcEJ0SnR4MFJZTjZhc01kZzlXZG5NWW5GX0xOMEhzZElEV1lKb3YzOHVpblpFRnJSZ1k2SWUtWHZoWFY2c1BSNUdHZWRlU1IxUGYtU1IySE9kelRmdzZPUVZiUmdEQS13S2VSUjVxTHJ4VFlldWJZT2Z3U1QtQzBrMWlnWmhYQUNMX050X0loSnBGOVc5VmZEdW9nZ0tiX0JnSlhmTm5BT3J3aTg?oc=5",
-    "source": "Business First Online"
-   },
-   "activity_date": "2026-03-30",
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null,
    "registry": {
     "participedia": 0,
     "participedia_verified": 0,
@@ -2127,7 +2113,13 @@
     "uk",
     "united kingdom",
     "wales",
-    "영국"
+    "영국",
+    "northern ireland",
+    "belfast",
+    "ballymena",
+    "derry",
+    "londonderry",
+    "북아일랜드"
    ],
    "coord": [
     54,
@@ -2138,9 +2130,9 @@
     "confirmed": true,
     "stories": 4,
     "multi_outlet": 0,
-    "stories_12m": 5,
+    "stories_12m": 6,
     "multi_outlet_12m": 0,
-    "months_12m": 3,
+    "months_12m": 4,
     "last": "2026-10-29",
     "window_days": 183,
     "evidence": [
@@ -2168,7 +2160,7 @@
     ]
    },
    "news_30d": 2,
-   "news_365d": 7,
+   "news_365d": 8,
    "latest_news": {
     "title": "지방 거버넌스 개혁에 대한 의견을 공유할 기회",
     "title_original": "Opportunity to share your views on local governance reforms",

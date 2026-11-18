@@ -128,11 +128,20 @@ section[id]{scroll-margin-top:72px}
 .mk.mon{width:12px;height:12px;border:1.5px dashed var(--muted);border-radius:2px}
 .mk.sig{width:12px;height:12px;border-radius:50%;border:2.5px solid var(--signal)}
 .map{flex:1;min-height:440px;position:relative}
-.map .maplibregl-popup-content{font:13px/1.5 var(--font);color:#14181d;padding:10px 12px;border-radius:var(--radius);box-shadow:var(--shadow);max-width:280px}
-.map .maplibregl-popup-content b{display:block;font-size:14px}
-.map .maplibregl-popup-content small{color:#58616c}
+.map .maplibregl-popup-content{font:13px/1.5 var(--font);color:var(--ink);background:var(--paper);border:1.5px solid var(--rule);padding:10px 12px;border-radius:var(--radius);box-shadow:var(--shadow);max-width:280px}
+.map .maplibregl-popup-content b{display:block;font-size:14px;color:var(--ink)}
+.map .maplibregl-popup-content small{color:var(--muted)}
+.map .maplibregl-popup-anchor-bottom .maplibregl-popup-tip,.map .maplibregl-popup-anchor-bottom-left .maplibregl-popup-tip,.map .maplibregl-popup-anchor-bottom-right .maplibregl-popup-tip{border-top-color:var(--rule)}
+.map .maplibregl-popup-anchor-top .maplibregl-popup-tip,.map .maplibregl-popup-anchor-top-left .maplibregl-popup-tip,.map .maplibregl-popup-anchor-top-right .maplibregl-popup-tip{border-bottom-color:var(--rule)}
+.map .maplibregl-popup-anchor-left .maplibregl-popup-tip{border-right-color:var(--rule)}
+.map .maplibregl-popup-anchor-right .maplibregl-popup-tip{border-left-color:var(--rule)}
+.map .maplibregl-ctrl-group{background:var(--paper)}
+.map .maplibregl-ctrl-attrib{background:var(--paper);color:var(--muted)}
+.map .maplibregl-ctrl.maplibregl-ctrl-attrib a,.map .maplibregl-ctrl.maplibregl-ctrl-attrib .maplibregl-ctrl-attrib-inner{color:var(--ink-2)}
+html.dark .map .maplibregl-ctrl-attrib-button{filter:invert(1)}
+html.dark .map .maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:invert(1)}
 .maplibregl-ctrl-attrib{font-size:11px}
-.maplibregl-ctrl-attrib a{color:#14181d!important}
+.maplibregl-ctrl-attrib a{color:var(--ink-2)!important}
 
 /* 투표용지 */
 .ballot{display:flex;flex-direction:column}

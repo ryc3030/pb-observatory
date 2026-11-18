@@ -58,6 +58,9 @@ def build_css() -> None:
     # 자체 호스팅 표제 서체(Paperlogy)는 아티팩트에 싣지 않음 → @font-face를 빼고 Noto Sans KR로 대체
     c = re.sub(r'@font-face\{font-family:"Paperlogy";[^}]*\}\n', "", c)
     c = sub(c, '--display:"Paperlogy",', '--display:"Noto Sans KR",')
+    # 아티팩트판 지도 버튼은 글자(+/−)라 어두운 화면 반전이 필요 없다(본판은 SVG 아이콘이라 반전)
+    c = sub(c, "html.dark .map .maplibregl-ctrl-group button .maplibregl-ctrl-icon{filter:invert(1)}", "")
+    c = sub(c, "html.dark .map .maplibregl-ctrl-attrib-button{filter:invert(1)}", "")
     (OUT / "assets/style.css").write_text(c, "utf-8")
 
 
