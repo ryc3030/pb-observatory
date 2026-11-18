@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T05:25:24.657709+00:00",
+ "updated_at": "2026-11-18T05:35:25.851839+00:00",
  "count": 39,
  "items": [
   {
@@ -133,7 +133,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-18T05:25:24.657709+00:00",
+    "checked_at": "2026-11-18T05:35:25.851839+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -260,7 +260,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-18T05:25:24.657709+00:00",
+    "checked_at": "2026-11-18T05:35:25.851839+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -807,7 +807,7 @@
      "source": "Media9"
     },
     {
-     "title": "Elevii din Cluj vor putea decide cum se schimbă școlile lor/Primăria extinde bugetarea participativă în școli și oferă premii de 5.000 de euro pentru fiecare unitate de învățământ participantă pentru a implementa proiectele",
+     "title": "클루지의 학생들은 학교가 어떻게 변화할지 결정할 수 있습니다/시청은 학교에 참여 예산을 확대하고 프로젝트를 실행하기 위해 참여하는 각 교육 기관에 5,000유로의 상금을 제공합니다.",
      "date": "2026-10-21",
      "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOaVc3U0wwbDJRNE5yR1FsN3pnN0FuY3Y2a3RqVjFBZ2VZQlF2d20wNTdWUTNOMUNZVy1Za2pvNWNKVEhUcGNZeHJXVDR0OXl2RGgzZllCNzZpX3B2aWg5UHNQNngtWkR0ZF9hLVRLQ1dudXA0N2cxLWVNLUNnb08tZWZoT2xvTW1nNV90blNtNHE4U0ZrZlk2VnBMS1pEMVRneXJnQlZIb2pzUmFMYnBmbGkwbHBJVnZxUUNRS0xUdnhPZmZPd1RNTVJscmxTVVBCZkgySks5bkxITkZrNmVIbWdfdGpUWUdndFk5eDgtRHBWM3BmdHlXWGxRaThvTmpTblZnbjJURzlCNUVfMm1vNHRHR0lSWkxCNFZvZENXaXZoRUhJX29UWFIyX21DRFNLSm82VEdGLWtoOEdaVjE5WjVNd2R1UUU?oc=5",
      "source": "Actual de Cluj"
@@ -974,13 +974,13 @@
    ],
    "related_news": [
     {
-     "title": "Montevideo pone en marcha una nueva edición de las Elecciones de Presupuesto Participativo y Concejos Vecinales",
+     "title": "몬테비데오, 주민참여예산 및 주민자치회 선거의 새로운 회차 개시",
      "date": "2026-10-26",
      "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSmNXRGlBeno0SkdGNll6MXp3dmhWcUxMdm5rVkdsWGVneFc4MFh6Q2JjcUZ5MUt0QVB1cE5hVVpqOUVBLVI2ZlZraGtNMHgtNVpIZGEwRDFNVHV4bzRzRWlXRGQ4WkwyYnVIQldfTHFMVE9Oc2lWR0ZHNUhSNGxDenpZYXBDRTNwRkhVV0JBazMxTmgxc1pURllmYVJSWHZjQlpsNXBLZ1FzOERQUWNDaktacGZOa0hZMHNZU3NocUp2X2NtRTRoemNpUFVoOUo5NkpvWVBjOU9hX25YdTV1WF9udnRJY01Ld1E?oc=5",
      "source": "La Mañana"
     },
     {
-     "title": "Presupuesto Participativo en Montevideo: este lunes comienza la votación en línea para elegir proyectos barriales",
+     "title": "몬테비데오의 주민참여예산: 이번 주 월요일부터 지역사회 프로젝트를 선정하기 위한 온라인 투표가 시작됩니다.",
      "date": "2026-10-25",
      "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYTNSNjdpQ1pyZTcybTY2aFBnejByM0JxMVBXbng3NXhsWkhSSjBIVmVjQzVHX1RMejRVMGJkQUpqSDFYaVJqa282ZjI1bzBxcU5hcnJDRXNpbWFUMG5mbzR4NUVuR2xpUF9OUjVTOHluWGo5OGs0cV9KbVBYazY2TW1RYTJKR25iVVpIVFR1RURaWkJlWWdIRTRsXzRrUHZ2MDZmQS04Y093YXUtMjlXT0R4ZUJERVFJcEVGcG9EZzNZOUdUVmJWdlVKMXV3bllCZzA3T3IwMlNrdWpYLWxTMFFEQnJRQdIB6wFBVV95cUxQUUt5QzV5UVRHZnpKUXE2VXMxVTZMSmxBbFpJYU54OGpXWXd6V0ZZWGVPT3J5UmthQnRhWThGWU0yNTh0ZDJ6ajZiZmxOVDBxZXVDeDBkNVhKZFFIVnVaWlB1U2ZJRnBYdm1lMV9kYmwxT2Ntcmx6R0g4SlA4TXBxS2g2dThkMVFXcWQwU1dkU2Y3MXl1ZGdYWUJsb25MV2NWTkpPQzN6bjNXUHY3dkJBNXhCc0hEWlRJSW9uLW4yTGlvVk4wUklwR3RVS1B3cUozcU4zVXpjQ0xGMDU5d3hOTWh4S2V4SlFkdVhN?oc=5",
      "source": "El Observador"

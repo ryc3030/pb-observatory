@@ -5,9 +5,9 @@
   "gdelt_added": 0,
   "queries_ok": 27,
   "queries": 27,
-  "added": 14,
-  "total": 528,
-  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "added": 1,
+  "total": 529,
+  "checked_at": "2026-11-18T05:35:25.851839+00:00",
   "languages": [
    "cs",
    "de",
@@ -34,7 +34,7 @@
    "uk",
    "zh"
   ],
-  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
+  "last_success_at": "2026-11-18T05:35:25.851839+00:00"
  },
  "papers": {
   "name": "학술 DB (OpenAlex·Crossref)",
@@ -45,51 +45,51 @@
    "Crossref": 109
   },
   "total": 222,
-  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "checked_at": "2026-11-18T05:35:25.851839+00:00",
   "error": null,
-  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
+  "last_success_at": "2026-11-18T05:35:25.851839+00:00"
  },
  "build": {
   "name": "일일 빌드",
   "ok": true,
-  "checked_at": "2026-11-18T05:25:24.657709+00:00",
-  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
+  "checked_at": "2026-11-18T05:35:25.851839+00:00",
+  "last_success_at": "2026-11-18T05:35:25.851839+00:00"
  },
  "participedia": {
   "name": "Participedia 사례 레지스트리",
   "ok": true,
   "fetched": 240,
   "total": 240,
-  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "checked_at": "2026-11-18T05:35:25.851839+00:00",
   "error": null,
-  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
+  "last_success_at": "2026-11-18T05:35:25.851839+00:00"
  },
  "pabulib": {
   "name": "Pabulib 투표 기록 DB",
   "ok": true,
   "fetched": 851,
   "total": 851,
-  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "checked_at": "2026-11-18T05:35:25.851839+00:00",
   "error": null,
-  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
+  "last_success_at": "2026-11-18T05:35:25.851839+00:00"
  },
  "decidim": {
   "name": "Decidim 공식 플랫폼 API",
   "ok": true,
   "fetched": 2,
   "total": 2,
-  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "checked_at": "2026-11-18T05:35:25.851839+00:00",
   "error": null,
-  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
+  "last_success_at": "2026-11-18T05:35:25.851839+00:00"
  },
  "gdelt": {
   "name": "GDELT DOC 2.0 (원문 직링크)",
   "ok": false,
   "queries_ok": 0,
-  "queries": 9,
+  "queries": 1,
   "fetched": 0,
-  "checked_at": "2026-11-18T05:25:24.657709+00:00",
-  "error": "\"participatory budgeting\": HTTP Error 429: Too Many Requests; \"participatory budget\": HTTP Error 429: Too Many Requests; \"presupuesto participativo\": HTTP Error 429: Too Many Requests; 연속 실패로 나머지 생략",
+  "checked_at": "2026-11-18T05:35:25.851839+00:00",
+  "error": "HTTP Error 429: Too Many Requests (대기 0s 후); HTTP Error 429: Too Many Requests (대기 20s 후); HTTP Error 429: Too Many Requests (대기 60s 후)",
   "last_success_at": null
  }
 }
