@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T05:35:25.851839+00:00",
+ "updated_at": "2026-11-18T07:14:25.708331+00:00",
  "count": 222,
  "items": [
   {
@@ -2279,8 +2279,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "디지털 시대의 참여예산제: 짐바브웨 불라와요시의 과제와 기회",
+   "_tr_tried": true,
+   "title_ko_mt": "디지털 시대의 참여예산제: 짐바브웨 불라와요시의 도전 과제와 기회"
   },
   {
    "id": "doi:10.34020/1993-4386-2026-1-119-129",
@@ -2304,8 +2305,9 @@
     "Economic and Fiscal Studies"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "지역별 주민참여예산제 모델: 시베리아 연방관구의 프로젝트 유형 변화(2016~2025년)",
+   "_tr_tried": true,
+   "title_ko_mt": "지역별 주민참여예산제 모델: 시베리아 연방관구의 프로젝트 유형 변화(2016~2025년)"
   },
   {
    "id": "oa:W7159559700",
@@ -2330,8 +2332,9 @@
     "Law and Political Science"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여 민주주의 법률 칼럼\" - 제1부: 소개, 분야를 넘나드는 최신 소식, 의견 수렴 및 제안, 참여예산제",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 민주주의 법률 칼럼\" - 제1부: 소개, 분야를 넘나드는 최신 소식, 의견 수렴 및 제안, 참여 예산제"
   },
   {
    "id": "doi:10.1108/jpbafm-08-2025-0232",
@@ -2353,8 +2356,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "공공 참여예산 편성 행동 이해하기: 인지적 편향이 공공 예산 선호도를 형성하는 방식",
+   "_tr_tried": true,
+   "title_ko_mt": "공공 참여 예산 편성 행동 이해하기: 인지적 편향이 공공 예산 선호도를 형성하는 방식"
   },
   {
    "id": "doi:10.3895/rts.v22n68.21277",
@@ -2379,8 +2383,9 @@
     "Politics and Society in Latin America"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "대면 및 온라인 참여 채널에서의 공공 우선순위 선정: \"팔라 쿠리치바\" 프로그램 사례 연구",
+   "_tr_tried": true,
+   "title_ko_mt": "대면 및 온라인 참여 채널에서의 공공 우선순위 선정: \"팔라 쿠리치바\" 프로그램 사례 연구"
   },
   {
    "id": "doi:10.64628/aai.swrek53nr",
@@ -2400,8 +2405,9 @@
    "type": "posted-content",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "디트로이트가 뉴욕시, 보스턴, 브라질의 참여예산제 과정에서 배울 수 있는 점",
+   "_tr_tried": true,
+   "title_ko_mt": "디트로이트가 뉴욕시, 보스턴, 브라질의 참여예산제 과정에서 배울 수 있는 점"
   },
   {
    "id": "doi:10.12819/2026.23.4.3",
@@ -2427,8 +2433,9 @@
     "Social Media and Politics"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "피아우이주 디지털 참여예산제 프로그램(OPA): 기관 보고서 분석 및 민주적 포용의 과제",
+   "_tr_tried": true,
+   "title_ko_mt": "피아우이주 디지털 참여예산제 프로그램(OPA): 기관 보고서 분석 및 민주적 포용의 과제"
   },
   {
    "id": "doi:10.71781/34581",
@@ -2452,8 +2459,9 @@
     "Urban Development and Societal Issues"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "제도적 변화와 사회적 투쟁의 재구성: 주민참여예산제도의 쇠퇴에 직면한 포르투알레그리의 주변 지역",
+   "_tr_tried": true,
+   "title_ko_mt": "제도적 변화와 사회적 투쟁의 재구성: 주민참여예산제도의 쇠퇴에 직면한 포르투알레그리의 주변 지역"
   },
   {
    "id": "doi:10.35634/2412-9593-2026-36-2-326-333",
@@ -2476,7 +2484,10 @@
     "Local Government Finance and Decentralization",
     "Legal and Policy Issues"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "러시아 연방의 주민참여예산제: 이론과 실무의 문제",
+   "_tr_tried": true,
+   "title_ko_mt": "러시아 연방의 주민참여예산제: 이론과 실무의 문제"
   },
   {
    "id": "oa:W7225964489",
@@ -2499,7 +2510,10 @@
     "Electoral Systems and Political Participation",
     "Public Administration and Political Analysis"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "IESA-CSIC 설문조사가 보여주는 스페인 정치인들의 시민 참여에 대한 인식 수준",
+   "_tr_tried": true,
+   "title_ko_mt": "IESA-CSIC 설문조사가 보여주는 스페인 정치인들의 시민 참여에 대한 인식 수준"
   },
   {
    "id": "doi:10.20913/2224-1841-2025-4-6",
@@ -2522,7 +2536,10 @@
     "Local Governance and Development",
     "Regional Development and Management Studies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "지속 가능한 농촌 개발을 위한 도구로서의 청소년 주도 예산 편성",
+   "_tr_tried": true,
+   "title_ko_mt": "지속 가능한 농촌 개발을 위한 도구로서의 청소년 주도 예산 편성"
   },
   {
    "id": "doi:10.17645/mac.11507",
@@ -2544,7 +2561,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "회복력과 포기 사이: 디지털 참여 플랫폼을 통한 참여예산제를 결정하는 정치적 요인",
+   "_tr_tried": true,
+   "title_ko_mt": "회복력과 포기 사이: 디지털 참여 플랫폼을 통한 참여 예산제를 결정하는 정치적 요인"
   },
   {
    "id": "doi:10.70773/revistatopicos/774493659",
@@ -2568,7 +2588,10 @@
     "Brazilian Legal Issues",
     "Fiscal Policies and Political Economy"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "재정 책임, 공공 예산에 대한 국민 참여 및 사회 발전",
+   "_tr_tried": true,
+   "title_ko_mt": "재정 책임, 공공 예산에 대한 국민 참여 및 사회 발전"
   },
   {
    "id": "doi:10.56712/latam.v7i2.5564",
@@ -2592,7 +2615,10 @@
     "Local Government Finance and Decentralization",
     "Economic Growth and Fiscal Policies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산제 및 공공관리의 효율성, 산타엘레나 자치분권 지방정부, 2024년",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산제 및 공공관리의 효율성, 산타엘레나 자치분권 지방정부, 2024년"
   },
   {
    "id": "oa:W7216851344",
@@ -2616,7 +2642,10 @@
     "Local Government Finance and Decentralization",
     "Local Governance and Development"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "엘 아네가도(EL ANEGADO) 읍 자치정부(GAD)의 주민 참여 및 주민참여예산에 대한 영향력 행사 규정",
+   "_tr_tried": true,
+   "title_ko_mt": "엘 아네가도(EL ANEGADO) 읍 자치정부(GAD)의 주민 참여 및 주민참여예산에 대한 영향력 행사 규정"
   },
   {
    "id": "oa:W7217969845",
@@ -2640,7 +2669,10 @@
     "Politics and Society in Latin America",
     "Political Theory and Democracy"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산제 및 자치구 GAD(자치정부기구) 시민들의 만족도",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 예산제 및 자치구 GAD(자치정부기구) 시민들의 만족도"
   },
   {
    "id": "doi:10.3390/su18062981",
@@ -2660,7 +2692,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "지속 가능한 도시를 위한 도시 농업 및 참여예산제: 바르샤바의 채소 관련 프로젝트 사례",
+   "_tr_tried": true,
+   "title_ko_mt": "지속 가능한 도시를 위한 도시 농업 및 참여 예산제: 바르샤바의 채소 관련 프로젝트 사례"
   },
   {
    "id": "doi:10.17268/sciendo.v28n4.011",
@@ -2686,7 +2721,10 @@
     "Local Government Finance and Decentralization",
     "Economic Growth and Fiscal Policies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "바뇨 델 인카(Baño del Inca) 지구 자치구의 주민참여예산제 및 공공 지출의 질",
+   "_tr_tried": true,
+   "title_ko_mt": "바뇨 델 인카(Baño del Inca) 지구 자치구의 주민참여예산제 및 공공 지출의 질"
   },
   {
    "id": "doi:10.56238/2ndcongresssevenmultidisciplinarystudies-046",
@@ -2709,7 +2747,10 @@
     "Local Government Finance and Decentralization",
     "Economic Growth and Fiscal Policies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "기획과 민주주의 사이: 예산, 주민 참여 및 GIS 주기",
+   "_tr_tried": true,
+   "title_ko_mt": "기획과 민주주의 사이: 예산, 주민 참여 및 GIS 주기"
   },
   {
    "id": "doi:10.25140/2410-9576-2026-1(32)-75-84",
@@ -2728,7 +2769,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산제를 통한 지역사회 회복의 핵심으로서 대중의 금융 리터러시",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 예산제를 통한 지역사회 회복의 핵심으로서 대중의 금융 리터러시"
   },
   {
    "id": "oa:W7220197399",
@@ -2751,7 +2795,10 @@
     "Public Policy and Governance",
     "Local Government Finance and Decentralization"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "좋은 거버넌스와 부패 방지 수단으로서의 참여예산제: 포르투알레그리(Porto Alegre)와 카사마르치아노(Casamarciano)의 사례",
+   "_tr_tried": true,
+   "title_ko_mt": "좋은 거버넌스와 부패 방지 수단으로서의 참여예산제: 포르투알레그리(Porto Alegre)와 카사마르치아노(Casamarciano)의 사례"
   },
   {
    "id": "doi:10.1215/07393148-12203269",
@@ -2770,7 +2817,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산제와 관련된 이민자의 경험",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산제와 관련된 이민자의 경험"
   },
   {
    "id": "doi:10.24275/uama.7004.13646",
@@ -2794,7 +2844,10 @@
     "Public Policy and Governance",
     "Politics and Society in Latin America"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "제안에서 실행까지: 주민참여예산을 통한 보도블록 생산에 대한 시민 참여 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "제안에서 실행까지: 주민참여예산을 통한 보도블록 생산에 대한 시민 참여 분석"
   },
   {
    "id": "doi:10.1016/j.jcss.2025.103702",
@@ -2816,7 +2869,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "프로젝트 그룹과의 참여예산",
+   "_tr_tried": true,
+   "title_ko_mt": "프로젝트 그룹과의 참여형 예산 편성"
   },
   {
    "id": "doi:10.68598/mjamr.242",
@@ -2836,7 +2892,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "분디부교 지방자치단체, 분디부교 지구의 주민참여예산제와 서비스 제공 간의 관계",
+   "_tr_tried": true,
+   "title_ko_mt": "분디부교 지방자치단체, 분디부교 지구의 주민참여예산제와 서비스 제공 간의 관계"
   },
   {
    "id": "doi:10.22201/fcpys.2448492xe.2026.256.88525",
@@ -2861,7 +2920,10 @@
     "Political Theory and Democracy",
     "Politics and Society in Latin America"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "멕시코시티의 시민 참여: 성인지적 관점의 주류화 및 주민참여예산제",
+   "_tr_tried": true,
+   "title_ko_mt": "멕시코시티의 시민 참여: 성인지적 관점의 주류화 및 주민참여예산제"
   },
   {
    "id": "doi:10.20944/preprints202602.1247.v1",
@@ -2882,7 +2944,10 @@
    "source": "Crossref",
    "type": "posted-content",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "녹색 외관 너머: 리스본의 기후 회복력 및 거버넌스를 위한 디지털 참여예산제에 대한 비판적 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "녹색 외관 너머: 리스본의 기후 회복력 및 거버넌스를 위한 디지털 참여 예산제에 대한 비판적 분석"
   },
   {
    "id": "oa:W7223592302",
@@ -2906,7 +2971,10 @@
     "French Territorial Governance",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "2026년 지방선거: 선거 운동 중 재정 관련 정보 공개의 좁은 길",
+   "_tr_tried": true,
+   "title_ko_mt": "2026년 지방선거: 선거 운동 중 재정 관련 정보 공개의 좁은 길"
   },
   {
    "id": "doi:10.58830/ozgur.pub1193",
@@ -2926,7 +2994,10 @@
    "source": "Crossref",
    "type": "monograph",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산제: 성공 사례 및 이스탄불 광역지자체 적용 사례",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산제: 성공 사례 및 이스탄불 광역지자체 적용 사례"
   },
   {
    "id": "oa:W7131326322",
@@ -2950,7 +3021,10 @@
     "Local Governance and Planning",
     "French Territorial Governance"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "민주주의와 시민 참여: 장애물과 이니셔티브",
+   "_tr_tried": true,
+   "title_ko_mt": "민주주의와 시민 참여: 장애물과 이니셔티브"
   },
   {
    "id": "doi:10.19136/es.v14n40.6691",
@@ -2973,7 +3047,10 @@
     "Political Theory and Democracy",
     "Politics and Society in Latin America"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "타바스코 민주주의에서 사회 변화의 도구로서의 참여예산제",
+   "_tr_tried": true,
+   "title_ko_mt": "타바스코 민주주의에서 사회 변화의 도구로서의 참여예산제"
   },
   {
    "id": "doi:10.54613/ku.v17i.1517",
@@ -2992,7 +3069,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "우즈베키스탄 '열린 예산' 참여예산 이니셔티브에 대한 정책 평가 제안",
+   "_tr_tried": true,
+   "title_ko_mt": "우즈베키스탄 '열린 예산' 참여형 예산 이니셔티브에 대한 정책 평가 제안"
   },
   {
    "id": "doi:10.5281/zenodo.18416185",
@@ -3015,7 +3095,10 @@
     "Local Government Finance and Decentralization",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "지역 정부 운영에 대한 합의 계획 및 주민참여예산제의 영향",
+   "_tr_tried": true,
+   "title_ko_mt": "지역 정부 운영에 대한 합의 계획 및 주민참여예산제의 영향"
   },
   {
    "id": "doi:10.1111/padm.70040",
@@ -3035,7 +3118,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "사회적 형평성 예산 편성으로 가는 길의 난관: 참여예산을 시행할 때의 행정적 함정",
+   "_tr_tried": true,
+   "title_ko_mt": "사회적 형평성 예산 편성으로 가는 길의 난관: 참여형 예산 편성을 시행할 때의 행정적 함정"
   },
   {
    "id": "doi:10.3917/cdsu.082.0022",
@@ -3059,7 +3145,10 @@
     "Youth Development and Social Support",
     "Social Sciences and Governance"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "사회적 통합 프로젝트의 핵심인 테크볼",
+   "_tr_tried": true,
+   "title_ko_mt": "사회적 통합 프로젝트의 핵심인 테크볼"
   },
   {
    "id": "doi:10.29076/issn.2528-7737vol19iss50.2026pp43-55p",
@@ -3081,7 +3170,9 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.69639/arandu.v12i4.1802",
@@ -3102,7 +3193,9 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.56584/1560-8816-2026-1-318-324",
@@ -3126,7 +3219,9 @@
     "E-Government and Public Services",
     "Political Theory and Democracy"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.47538/ac-2026.30",
@@ -3149,7 +3244,9 @@
     "Critical and Liberation Pedagogy",
     "Public Policy and Governance"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.2139/ssrn.6710919",
@@ -3172,7 +3269,9 @@
     "Local Government Finance and Decentralization",
     "Public Administration in Developing Nations"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.48021/978-65-288-0937-0",

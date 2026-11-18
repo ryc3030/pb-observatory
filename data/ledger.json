@@ -64,6 +64,16 @@
   "observed_at": "2026-11-18"
  },
  {
+  "key": "news:KOR:37164d7208507f",
+  "date": "2026-11-18",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "'논란의 AI' 주민참여예산까지 파고들었다",
+  "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9TcjJhSVVQbFhWOW1hZzl3RGRPUjNUNEdpZF9zTHFrUWFxN1pYZHNuNHA4UUhxX2tGTU1WMWhaUFVkVkRlTUc5enFFb291UWUxTHM1b012ZUh0XzlrT0Y0TGdyaDFPTnc?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
   "key": "news:FRA:79d42724080845",
   "date": "2026-11-18",
   "iso3": "FRA",
@@ -752,5 +762,135 @@
   "text": "Current Issues in Law Enforcement in the Context of Amendments to Local Government Legislation",
   "url": "https://doi.org/10.37772/2309-9275-2026-2(27)-5",
   "observed_at": "2026-10-19"
+ },
+ {
+  "key": "reported:NLD:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "NLD",
+  "type": "보도 확인",
+  "label": "네덜란드",
+  "text": "네덜란드: 최근 6개월 보도로 참여예산 운영 확인 — 마스트리흐트 카니발 클럽, 시민예산 발견, 총 예산 요청액 감소",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSnBOUC1SekRBNDVsNzk5RFBqRG5vOEUzbkQ5a1pDTnlUdkJ1MjdvV2laOEgycFdpNGkwRWJJQkFWa19rN3ROem9Fb1BWRVNGZGtscGVqdXRTSm5ocGVrUU9USFgybUpIR3VkX0NTWHk3b29oSTNscDQ5Q3Z1aHd3dnhLWVdSU3dJSENPZGtMQldydXl2anltci1TcHNiOWNGaGpNU1lDbmRkODVMOEVGRGU2SGIyX0NHV1Job0N4VmhBYWMwNC1UbXBxRkVrN1lBM0k5V0thVEpLVF9tOTlob2dKdXg?oc=5",
+  "observed_at": "2026-10-10"
+ },
+ {
+  "key": "news:NLD:0d8fcaa802fa57",
+  "date": "2026-11-18",
+  "iso3": "NLD",
+  "type": "뉴스 신호",
+  "label": "네덜란드",
+  "text": "마스트리흐트 카니발 클럽, 시민예산 발견, 총 예산 요청액 감소",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSnBOUC1SekRBNDVsNzk5RFBqRG5vOEUzbkQ5a1pDTnlUdkJ1MjdvV2laOEgycFdpNGkwRWJJQkFWa19rN3ROem9Fb1BWRVNGZGtscGVqdXRTSm5ocGVrUU9USFgybUpIR3VkX0NTWHk3b29oSTNscDQ5Q3Z1aHd3dnhLWVdSU3dJSENPZGtMQldydXl2anltci1TcHNiOWNGaGpNU1lDbmRkODVMOEVGRGU2SGIyX0NHV1Job0N4VmhBYWMwNC1UbXBxRkVrN1lBM0k5V0thVEpLVF9tOTlob2dKdXg?oc=5",
+  "observed_at": "2026-10-10"
+ },
+ {
+  "key": "reported:BEL:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "BEL",
+  "type": "보도 확인",
+  "label": "벨기에",
+  "text": "벨기에: 최근 6개월 보도로 참여예산 운영 확인 — Recordaantal Antwerpenaren stemt mee over Burgerbegroting",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ0gwc09VS2JhRFQ5eWRjdWVmWlZFTzhrUXVrOEUwdnBuazhSRUI2NVBmODdVLXdfNTVSSklocmY0SklzUXBNX2JUZ1VWZ0ZnbVNSTlF2ZUU2UDFCTU11UzFwQXpHQjVXRlBXOWlaY25sd0RaaFQ2eW9BaVAxU01BNHZuS1J5cVA0Rklta3VRa3JxQWpfY0ZBWEdQMjQ?oc=5",
+  "observed_at": "2026-10-01"
+ },
+ {
+  "key": "news:BEL:930d01021e2a0f",
+  "date": "2026-11-18",
+  "iso3": "BEL",
+  "type": "뉴스 신호",
+  "label": "벨기에",
+  "text": "Recordaantal Antwerpenaren stemt mee over Burgerbegroting",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxNZ0gwc09VS2JhRFQ5eWRjdWVmWlZFTzhrUXVrOEUwdnBuazhSRUI2NVBmODdVLXdfNTVSSklocmY0SklzUXBNX2JUZ1VWZ0ZnbVNSTlF2ZUU2UDFCTU11UzFwQXpHQjVXRlBXOWlaY25sd0RaaFQ2eW9BaVAxU01BNHZuS1J5cVA0Rklta3VRa3JxQWpfY0ZBWEdQMjQ?oc=5",
+  "observed_at": "2026-10-01"
+ },
+ {
+  "key": "reported:LUX:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "LUX",
+  "type": "보도 확인",
+  "label": "룩셈부르크",
+  "text": "룩셈부르크: 최근 6개월 보도로 참여예산 운영 확인 — Bürgerbeteiligung | Esch startet ersten Bürgerhaushalt: Bis zu 250.000 Euro für Projekte der Einwohner",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVlWNWdZV1BZNVUzaGVQTjdsYnhTLXFRYndfZmFFX3JUMWVmNWNtRVlBMG15WHN6R016cEtFdU00My1TZDg4Vno4SkllNDBjWmNJVl9jY0hfcnljamhhcjctbVM0VUhqazMzX3M0bVBuVi1mYzRFcGtyOXhzTC0zcmxZOTVpYjRWM0dQWEVwTWtsU1YtX0lZZmh1MHhROXAyQzdOQTJEMVNoVW1USGlUZW1IRWZxRk9uVXlsZnc2YmZ6MnJYemRv?oc=5",
+  "observed_at": "2026-09-27"
+ },
+ {
+  "key": "news:LUX:5d2b4dc5a8df14",
+  "date": "2026-11-18",
+  "iso3": "LUX",
+  "type": "뉴스 신호",
+  "label": "룩셈부르크",
+  "text": "Bürgerbeteiligung | Esch startet ersten Bürgerhaushalt: Bis zu 250.000 Euro für Projekte der Einwohner",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQYVlWNWdZV1BZNVUzaGVQTjdsYnhTLXFRYndfZmFFX3JUMWVmNWNtRVlBMG15WHN6R016cEtFdU00My1TZDg4Vno4SkllNDBjWmNJVl9jY0hfcnljamhhcjctbVM0VUhqazMzX3M0bVBuVi1mYzRFcGtyOXhzTC0zcmxZOTVpYjRWM0dQWEVwTWtsU1YtX0lZZmh1MHhROXAyQzdOQTJEMVNoVW1USGlUZW1IRWZxRk9uVXlsZnc2YmZ6MnJYemRv?oc=5",
+  "observed_at": "2026-09-27"
+ },
+ {
+  "key": "reported:CHE:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "CHE",
+  "type": "보도 확인",
+  "label": "스위스",
+  "text": "스위스: 최근 6개월 보도로 참여예산 운영 확인 — Budget participatif : votez pour vos projets préférés !",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLXNwWFF1UlJ2b2dFSjBlRlpBTkFjNHhBQURaMDB5UlIxQWIyOHVBSlZmbWtXTG1CSVpsSVdoNjZQcjB2VzdVWlZ3NlFnMEF5MUFVbFJJQVE2QTJfU1BpRWlCblZiMzVfb0VaX2VwRGk2Zkl5TXpLb2lzLTFQYmxOUHdFOVpvTEtQdUctN2pCMnF3aEph?oc=5",
+  "observed_at": "2026-09-23"
+ },
+ {
+  "key": "news:CHE:4c72b630c517e7",
+  "date": "2026-11-18",
+  "iso3": "CHE",
+  "type": "뉴스 신호",
+  "label": "스위스",
+  "text": "Budget participatif : votez pour vos projets préférés !",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxOLXNwWFF1UlJ2b2dFSjBlRlpBTkFjNHhBQURaMDB5UlIxQWIyOHVBSlZmbWtXTG1CSVpsSVdoNjZQcjB2VzdVWlZ3NlFnMEF5MUFVbFJJQVE2QTJfU1BpRWlCblZiMzVfb0VaX2VwRGk2Zkl5TXpLb2lzLTFQYmxOUHdFOVpvTEtQdUctN2pCMnF3aEph?oc=5",
+  "observed_at": "2026-09-23"
+ },
+ {
+  "key": "reported:MDG:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "MDG",
+  "type": "보도 확인",
+  "label": "마다가스카르",
+  "text": "마다가스카르: 최근 6개월 보도로 참여예산 운영 확인 — 淨零排放向下扎根 苗栗縣府辦兒童參與式預算獲MUSE銀獎 | 王秀禾 | 地方新聞",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HajZxcm5UN19MYUk1WGlSR0dISzg2dlhLdnlxMXlWTGFMRWZoZmJnXy1wTHo2VG8zWkZiNmdVNFhxUlNOY056TlNRX085Zw?oc=5",
+  "observed_at": "2026-09-22"
+ },
+ {
+  "key": "news:MDG:8430c995a3528b",
+  "date": "2026-11-18",
+  "iso3": "MDG",
+  "type": "뉴스 신호",
+  "label": "마다가스카르",
+  "text": "淨零排放向下扎根 苗栗縣府辦兒童參與式預算獲MUSE銀獎 | 王秀禾 | 地方新聞",
+  "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HajZxcm5UN19MYUk1WGlSR0dISzg2dlhLdnlxMXlWTGFMRWZoZmJnXy1wTHo2VG8zWkZiNmdVNFhxUlNOY056TlNRX085Zw?oc=5",
+  "observed_at": "2026-09-22"
+ },
+ {
+  "key": "reported:JPN:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "JPN",
+  "type": "보도 확인",
+  "label": "일본",
+  "text": "일본: 최근 6개월 보도로 참여예산 운영 확인 — ［韓国発 食と農のいま］国民参加型予算 過去最高に 動物福祉に所得補填",
+  "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfQnpjQS10M1F5UEVuOXBqLUxrU1BOS2J2VVM5ZHNpVDRabUYwRFZ6dnV1eGROZU10djNzX00wa19udGh1VU5NTVV5T2Zwejh4eDFvQUZOVQ?oc=5",
+  "observed_at": "2026-09-21"
+ },
+ {
+  "key": "reported:AUT:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "AUT",
+  "type": "보도 확인",
+  "label": "오스트리아",
+  "text": "오스트리아: 최근 6개월 보도로 참여예산 운영 확인 — Bürgerbudget für Vereinsveranstaltungen",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xU2liYURyYWRhQ01SeXB0NEUxRzQzV1pjcEZsWVhnQkx6ZzFwTUd6UEpOcktKaTNkWXE5OUltUE5GWWRCQk9GbVE4OFhYWFd4Ukt0RQ?oc=5",
+  "observed_at": "2026-07-04"
+ },
+ {
+  "key": "news:AUT:16f42f4cd11913",
+  "date": "2026-11-18",
+  "iso3": "AUT",
+  "type": "뉴스 신호",
+  "label": "오스트리아",
+  "text": "Bürgerbudget für Vereinsveranstaltungen",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xU2liYURyYWRhQ01SeXB0NEUxRzQzV1pjcEZsWVhnQkx6ZzFwTUd6UEpOcktKaTNkWXE5OUltUE5GWWRCQk9GbVE4OFhYWFd4Ukt0RQ?oc=5",
+  "observed_at": "2026-07-04"
  }
 ]

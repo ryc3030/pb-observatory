@@ -3,17 +3,17 @@
   "date": "2026-11-18",
   "countries": 92,
   "status": {
-   "monitoring": 55,
+   "monitoring": 48,
+   "reported": 19,
    "verified": 10,
-   "documented": 15,
-   "reported": 12
+   "documented": 15
   },
   "programs": 39,
-  "news_total": 558,
-  "news_30d": 519,
+  "news_total": 1500,
+  "news_30d": 524,
   "countries_with_signal_30d": 30,
-  "countries_press_6m": 29,
-  "countries_press_12m": 29,
+  "countries_press_6m": 36,
+  "countries_press_12m": 36,
   "papers_total": 222
  }
 ]

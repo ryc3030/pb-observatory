@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T06:38:45.576882+00:00",
+ "updated_at": "2026-11-18T07:14:25.708331+00:00",
  "count": 39,
  "items": [
   {
@@ -47,6 +47,12 @@
      "date": "2026-10-26",
      "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNTFZUc3VfbUF4WGlrUVJtUUl4S3JURUFaM2EtT1k1NGtrWVg3TFRGdXBuLWdvMWpzTHVyRW5KemJfSThQaHdlbDFwblpyNEQwUnVWT1hJREpSMFcyTGFOQmk2MTUtQkZueHcxa0djNUpqXzd5dEl0SHhlamJsNXFjTQ?oc=5",
      "source": "이데일리"
+    },
+    {
+     "title": "137억→3010억…기지개 켜는 국민참여예산",
+     "date": "2026-09-08",
+     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE53NVlzMEd1Z0pOS0p6V3B5NUhIREhYeHIzY0plNUdoVUFSRC12cERrUE5vOWFwTVNJSU5MVkF3dVYzMmNhZ1BtNjNTV0VuTkwyZWIxSl9lcDFFUQ?oc=5",
+     "source": "한국경제"
     }
    ],
    "latest_signal_date": "2026-10-26"
@@ -136,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-18T05:35:25.851839+00:00",
+    "checked_at": "2026-11-18T07:14:25.708331+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -263,7 +269,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-18T05:35:25.851839+00:00",
+    "checked_at": "2026-11-18T07:14:25.708331+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -406,8 +412,21 @@
      "updated": "2019-11-30"
     }
    ],
-   "related_news": [],
-   "latest_signal_date": null
+   "related_news": [
+    {
+     "title": "Presupuestos participativos Madrid: proyectos vecinales",
+     "date": "2026-09-22",
+     "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFhHeVZZRmxFVTBQOFQyNFB2UDBndm9KZEdieHByWnhnU1J0YTBqWU5McDlQNktDYXI5MTRlcldaOExWdTRIaTYyYklONHhlSlZySWg3NnFLdG9KWEtvSWhnMm1hX3BlQ1NBdWZ3aTNQaDlldHY1ckQ1bXBxOXNEb3FfNzhpbEk?oc=5",
+     "source": "Madrid Secreto"
+    },
+    {
+     "title": "El Museo de Historia de Madrid impulsa dos proyectos patrimoniales en los Presupuestos Participativos 2026-2027",
+     "date": "2026-06-08",
+     "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb1Z2R2UzWWF4Mk5IVkctZ0xYMUZkN2hIQTFiT1RXbkc2VUNkVHdMX3p1cjJhVlhGeEgyaEhVTF9UMWEtU3RJRU03LXM1bVhYUC1MNC1CbG51TEV1VnFnLVBoUlVTOEE2MEUya2hyN0FyWWZyRnNNbGlDSk1Xem5yRjlQSjI2MnFoMGd2RmxiUDhkNDlzSm52QUlyUElVZnhsdXJiak5JMlRoSWtLSFlreXVXYlktbTh5VmNVUV9DdHNqUEJfdUZTTWcwSlBmb2g3bUNaNUNyVnFxeTVOYnJFODZFemVNU1E1YXhEa3pkSEhVaGlmOXdWQ1BBdUJZS2_SAYQCQVVfeXFMTmNmeEo1N3VrOFZRQWEtdTBGakFOZFU0RFZKYlg3ZHRrZ2w0VkQxSEhGRVNOUVFrZGQxNHVPMjRfSl80VXFHZlpqbzE0U3l3WC12MldZZWZRVlBCYlVxZVpwM2VQZldPSHJQVm9JVER0akoxQTVYWHdBY1hFTXVpeXBtVG15c1VzUFpjb3B4SHEyeWwxcnNnWVk2c2hvMFhFek5oLVlmSkZhT0NqNkFXelAwNDFGUjhfeFlrSS1Jeml0VE1iQVNxckRhX2FLNWFPdVBYOGlUdEktTEdiaVZTc3ltcHZaa0t2OVNUVFRFTmFITGk4RHZIV25GQlAzeUc5VTRMRXQ?oc=5",
+     "source": "El Diario de Madrid"
+    }
+   ],
+   "latest_signal_date": "2026-09-22"
   },
   {
    "id": "pol-krakow-civic",
@@ -483,6 +502,12 @@
      "date": "2026-11-06",
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWFNxb3YwOWRORS04RHhfTlFxNkl5bjdQWnhVMkNsVzZOVTV5MnN2UjZrVnpNVnRlMnlleDV0VWIzSEpNTTVtUjdiVFRhY2c4bzQwZE9fMktrcm1fckJMTFE1bTBqNlk0bFd6dnpaTUlBYTBhN0VQdC03S3dWdkc2cnlPNHhhb0E4aVI5V1pZNENqRHdwRGpPTkV2RGNYclo3a1dCSmJEMXFqcWJJY0VEaFNrZkJfNFQyM3hGX3pLWTB1QkFLX3EzN05Idw?oc=5",
      "source": "Magiczny Kraków"
+    },
+    {
+     "title": "Szkolny Budżet Obywatelski w oczach uczestników - Oficjalny serwis miejski - Magiczny Kraków",
+     "date": "2026-08-05",
+     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYW1tdGxHaW9ha3E2UGducndUSWNDUGhpOUhoZFBNanhJMkRpTy1UZDVOMXR1NmlLRFNWeURZSDU4TFd3OFR1UmI0d2Q2dnBVU2p0N0hraVNHT25Gb2RDcHVXM2wxSkh5bXJ5eE1YaExPMlprS28zNmhFdE5xUGNOUGtNYU5mNVgzV1ZteXlRVFgyenYtR1p5dGtuSkV6MWdGV2hzR2NxVEpnSDdZQVZhd2xjdnptNl9STUUxdmFlandBR01fdmpKbnRn?oc=5",
+     "source": "Portal edukacyjny"
     }
    ],
    "latest_signal_date": "2026-11-06"
@@ -672,6 +697,12 @@
      "title": "IECM, 2026년 COPACO 선거 및 2026년과 2027년 주민참여예산 편성 의견 수렴 관련 서류 폐기 승인",
      "date": "2026-11-16",
      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPYTdzN01PcVdPbGNlLU9rS1hFbGEyOC1HWEVsa2lHODEyMVVGTUdvVk0xQ1hHNy1nbi1JWjlMeDEtcW9fZ2cyV19IeGpkbWRkVXQzeGFDcFFERUhybVBKS0NGNzhhQmJhZ1BQVHBHb3V1MUtXazNvcmVOWGJTc3lnOHl6X1M2M052LVBiMEc4NzZEYXhKT0RDNmVnaEtXbWJjZEpfeW83UUV6Vy03Y3ozczFmSzVkeXh5Z2VzTVBjRGFZaEdFWEJvTFRrTk5SMDQ5UzFVV0Jid0lSZ085bWV4SGFQa0RYdzd6dWlTWA?oc=5",
+     "source": "Hoja de Ruta Digital"
+    },
+    {
+     "title": "SEDECO, 멕시코시티의 공공 시장 180곳을 개선하기 위한 주민참여예산 프로그램을 시작",
+     "date": "2026-10-14",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMWlKbEhnRHBGaEl6OVA1S2RXS0lHS2xFeDU1Wkx5TjMzdHRtellXc2FVMlRRRDFIVTRPVlExVkg2bHotY3dJQWdiSVlTamFkSWI1b000R2c5WVA2a3dzRVFjV1VfWi1VMm1NcUdoMmJ3bDRuVWhqT3hUYVczMGI5YWM3bTZMczFhSzFiMnBLWTF3Z0xYX2VRUl9iYUVXVDh6amloUk5WSFZuVkdCV1J2NmtGa2dCT3MteUdlZUJaaEhpWXlTTmtsTXFfZw?oc=5",
      "source": "Hoja de Ruta Digital"
     }
    ],
@@ -1465,8 +1496,21 @@
      "updated": "2022-05-09"
     }
    ],
-   "related_news": [],
-   "latest_signal_date": null
+   "related_news": [
+    {
+     "title": "타르투 참여예산의 수상자, 수요일 저녁에 발표",
+     "date": "2026-10-06",
+     "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQWGZjZ002RFpKYkxHVkhwSlRHU2k1bnJFMjh0VzJtTVMxTWtyWlRLZWttcTFpbURVRTFBVEpXQjBvemVEakFBMFozbTdQc2k4MHhnQ0VDZHR0MVcxWlFuU3ZrMUgzT09LWjd1aTJuT2dKMVM4dE16anItNXE3ejdxS1c0dDNORm5tUDZtNWFuaFlCRHpZ?oc=5",
+     "source": "Tartu Postimees"
+    },
+    {
+     "title": "Tartu kaasava eelarve hääletus algab neljapäeval",
+     "date": "2026-09-28",
+     "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM0ozMWRGb2kwNzdreXFULVkyc3R5b19vb1RIeU5PQzV0RDRDdV9OZzBmeV9rbG0tZ2hkVEVnRS1jdW1meDFRZ0FJWTd2YkVLc0w1cXI0NWRjYnQzYl9UZUxtc044WEt0RmFBSzZPWDJJRndESVFxSUJQTF83UFhqN1hEc016SGhVS2xJ?oc=5",
+     "source": "Tartu Postimees"
+    }
+   ],
+   "latest_signal_date": "2026-10-06"
   },
   {
    "id": "lva-riga",
@@ -1549,8 +1593,21 @@
    ],
    "pabulib": null,
    "cases": [],
-   "related_news": [],
-   "latest_signal_date": null
+   "related_news": [
+    {
+     "title": "마스트리흐트 카니발 클럽, 시민예산 발견, 총 예산 요청액 감소",
+     "date": "2026-10-10",
+     "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxQSnBOUC1SekRBNDVsNzk5RFBqRG5vOEUzbkQ5a1pDTnlUdkJ1MjdvV2laOEgycFdpNGkwRWJJQkFWa19rN3ROem9Fb1BWRVNGZGtscGVqdXRTSm5ocGVrUU9USFgybUpIR3VkX0NTWHk3b29oSTNscDQ5Q3Z1aHd3dnhLWVdSU3dJSENPZGtMQldydXl2anltci1TcHNiOWNGaGpNU1lDbmRkODVMOEVGRGU2SGIyX0NHV1Job0N4VmhBYWMwNC1UbXBxRkVrN1lBM0k5V0thVEpLVF9tOTlob2dKdXg?oc=5",
+     "source": "De Limburger"
+    },
+    {
+     "title": "Maastricht roept inwoners op om ideeën voor Burgerbegroting in te sturen",
+     "date": "2026-08-17",
+     "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWhaYks2U3RXWmV4ZTZ2SGF5QWVqWlVRbmU1WXlLN2hEZUctNVJlbGVQNUJLbkFTalRGb1Ywb1Rhd2tOblBkQjRGUl9uMFAzUmdBSTdSMWtyOU5DSUpuLTM0WWJldmF3ZHI4TFdIMTgtU21pcnl0dlI5NFlKYVFlemZUNFRYQW1jNUVWXzM2WElIY2VaMFlUMDBTUzdOZENxN0hLa1VfVVVPWENvUGxRdw?oc=5",
+     "source": "AD.nl"
+    }
+   ],
+   "latest_signal_date": "2026-10-10"
   },
   {
    "id": "fin-lahti",
