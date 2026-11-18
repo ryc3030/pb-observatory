@@ -258,7 +258,8 @@ function features() {
     if (!c.coord) return;
     fc.push({ type: "Feature", geometry: { type: "Point", coordinates: [c.coord[1], c.coord[0]] },
       properties: { iso3: c.iso3, name: c.name_ko, status: status(c), label: statusName[status(c)], news30: c.news_30d || 0,
-        programs: c.program_count || 0, latest: c.latest_news?.date || c.base_signal_date || "—", signal: c.latest_news?.title || c.base_signal || "" } });
+        programs: c.program_count || 0, latest: c.latest_news?.date || c.base_signal_date || "—", signal: c.latest_news?.title || c.base_signal || "",
+        press6: c.press?.stories || 0, press12: c.press?.stories_12m ?? c.press?.stories ?? 0, last: c.press?.last || "" } });
   });
   return { type: "FeatureCollection", features: fc };
 }
@@ -295,6 +296,42 @@ function addMapLayers() {
       "icon-size": ["interpolate", ["linear"], ["zoom"], 0.5, ["match", ["get", "status"], "monitoring", 1, 1.2], 4, ["match", ["get", "status"], "monitoring", 1.3, 1.6]],
       "icon-allow-overlap": true, "icon-ignore-placement": true,
       "symbol-sort-key": ["match", ["get", "status"], "verified", 4, "documented", 3, "reported", 2, 1], "icon-rotate": -6 } });
+  // 표에서 '지도에서 보기'를 누른 나라를 먹색 고리로 짚는다
+  evMap.addLayer({ id: "pb-focus", type: "circle", source: "pb", filter: ["==", ["get", "iso3"], focusIso || ""],
+    paint: { "circle-radius": 22, "circle-color": "rgba(0,0,0,0)", "circle-stroke-width": 2.5, "circle-stroke-color": css.ink } }, "pb-country");
+  applySig();
+}
+
+/* 파란 고리 기간: 30일 기사 / 최근 6개월 보도 / 최근 1년 보도 */
+let sigWin = "30d", focusIso = "";
+const SIG = {
+  "30d": { key: "news30", legend: "30일 뉴스 신호", unit: "기사가", k: 0.25, cnt: (c) => c.news_30d || 0 },
+  "6m": { key: "press6", legend: "최근 6개월 보도", unit: "소식이", k: 0.6, cnt: (c) => c.press?.stories || 0 },
+  "12m": { key: "press12", legend: "최근 1년 보도", unit: "소식이", k: 0.6, cnt: (c) => c.press?.stories_12m ?? c.press?.stories ?? 0 },
+};
+function applySig() {
+  const S = SIG[sigWin];
+  $$("#sigSeg button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.sig === sigWin));
+  $("#sigLegend").textContent = S.legend;
+  const n = countries.filter((c) => S.cnt(c) > 0).length;
+  $("#sigNote").textContent = `${n}개국 · 고리가 클수록 ${S.unit} 많음`;
+  if (!evMap || !evMap.getLayer("pb-signal")) return;
+  evMap.setFilter("pb-signal", [">", ["get", S.key], 0]);
+  evMap.setPaintProperty("pb-signal", "circle-radius", ["+", 13, ["min", 8, ["*", S.k, ["get", S.key]]]]);
+}
+function popupHTML(p) {
+  return `<b>${esc(p.name)}</b><small>${esc(p.label)} · 프로그램 ${p.programs} · 30일 뉴스 ${p.news30}</small>
+    <small>보도 소식 최근 6개월 ${p.press6}건 · 1년 ${p.press12}건${p.last ? ` · 마지막 ${esc(p.last)}` : ""}</small>
+    <div style="margin-top:6px">${esc(String(p.signal).slice(0, 120))}</div><small style="margin-top:4px">누르면 국가 근거로 이동</small>`;
+}
+function showOnMap(iso) {
+  const c = byISO[iso]; if (!c?.coord || !evMap) return;
+  focusIso = iso;
+  if (evMap.getLayer("pb-focus")) evMap.setFilter("pb-focus", ["==", ["get", "iso3"], iso]);
+  $("#map2d").scrollIntoView({ block: "center" });
+  evMap.flyTo({ center: [c.coord[1], c.coord[0]], zoom: Math.max(evMap.getZoom(), 2.6), duration: matchMedia("(prefers-reduced-motion: reduce)").matches ? 0 : 900 });
+  const f = features().features.find((x) => x.properties.iso3 === iso);
+  if (f) evPopup.setLngLat(f.geometry.coordinates).setHTML(popupHTML(f.properties)).addTo(evMap);
 }
 function renderMap() {
   if (!window.maplibregl) {
@@ -311,9 +348,11 @@ function renderMap() {
   evMap.on("mouseenter", "pb-country", () => (evMap.getCanvas().style.cursor = "pointer"));
   evMap.on("mousemove", "pb-country", (e) => {
     const p = e.features?.[0]?.properties; if (!p) return;
-    evPopup.setLngLat(e.lngLat).setHTML(`<b>${esc(p.name)}</b><small>${esc(p.label)} · 프로그램 ${p.programs} · 30일 뉴스 ${p.news30}</small><div style="margin-top:6px">${esc(String(p.signal).slice(0, 120))}</div>`).addTo(evMap);
+    evPopup.setLngLat(e.lngLat).setHTML(popupHTML(p)).addTo(evMap);
   });
   evMap.on("mouseleave", "pb-country", () => { evMap.getCanvas().style.cursor = ""; evPopup.remove(); });
+  $$("#sigSeg button").forEach((b) => (b.onclick = () => { sigWin = b.dataset.sig; applySig(); syncURL(); }));
+  applySig();
   evMap.on("click", "pb-country", (e) => {
     const p = e.features?.[0]?.properties; if (!p) return;
     openCountry(p.iso3);
@@ -461,6 +500,7 @@ function renderTree(press = false) {
     const ps = programs.filter((p) => p.country_iso3 === c.iso3).sort((a, b) => completeness(b) - completeness(a));
     const ln = c.latest_news;
     const marks = `<ul class="mark-list">
+      ${c.coord ? `<li class="maplink">${svg("ci", "mk2")}<span><button class="linkbtn" type="button" data-map="${esc(c.iso3)}">지도에서 보기</button> <span class="note">근거 지도로 이동해 이 나라를 짚습니다</span></span></li>` : ""}
       <li>${svg("sq", "mk2")}<span><b>기준 근거</b> ${esc(c.base_signal || "—")}${c.primary_source ? ` · <a class="src" href="${esc(c.primary_source)}" target="_blank" rel="noopener">출처</a>` : ""}${c.base_signal_date ? ` <span class="note">(${esc(c.base_signal_date)})</span>` : ""}</span></li>
       ${ln ? `<li>${svg("ci", "mk2")}<span><b>최근 뉴스 신호</b> <a href="${esc(ln.url)}" target="_blank" rel="noopener">${esc(ln.title)}</a> <span class="note">${esc(ln.source)} · ${esc(ln.date)}</span></span></li>` : ""}
       <li>${svg("ci", "mk2")}<span><b>신호 집계</b> 최근 30일 기사 ${c.news_30d || 0}건 · 1년 ${c.news_365d || 0}건${c.press && c.seed_status !== "monitoring" ? ` · 보도 소식 6개월 ${c.press.stories}건, 1년 ${c.press.stories_12m ?? c.press.stories}건` : ""}</span></li>
@@ -782,6 +822,7 @@ function syncURL() {
   const u = new URLSearchParams();
   for (const [k, sel] of Object.entries(URL_KEYS)) { const v = $(sel).value.trim(); if (v && v !== "all") u.set(k, v); }
   if (!$("#newsGroup").checked) u.set("group", "0");
+  if (sigWin !== "30d") u.set("sig", sigWin);
   const open = $$("#tree details[open]").map((d) => d.dataset.iso);
   if (open.length === 1) u.set("c", open[0]);
   const qs = u.toString();
@@ -789,6 +830,7 @@ function syncURL() {
 }
 function restoreURL() {
   const u = new URLSearchParams(location.search);
+  if (SIG[u.get("sig")]) sigWin = u.get("sig");
   for (const [k, sel] of Object.entries(URL_KEYS)) if (u.has(k)) $(sel).value = u.get(k);
   if (u.get("group") === "0") $("#newsGroup").checked = false;
   return u.get("c");
@@ -796,6 +838,7 @@ function restoreURL() {
 function bind() {
   ["#region", "#tracking", "#hasProgram"].forEach((s) => ($(s).onchange = () => { renderTree(s === "#tracking"); syncURL(); }));
   $("#search").oninput = () => { renderTree(); syncURL(); };
+  $("#tree").addEventListener("click", (e) => { const b = e.target.closest("[data-map]"); if (b) { e.preventDefault(); showOnMap(b.dataset.map); } });
   $("#tree").addEventListener("toggle", (e) => { if (e.target.matches("details.crow")) syncURL(); }, true);
   $("#openVerified").onclick = () => {
     if ($("#tracking").value === "monitoring") { $("#tracking").value = "all"; renderTree(); }

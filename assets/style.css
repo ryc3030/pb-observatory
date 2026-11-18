@@ -550,3 +550,11 @@ details.crow[open]>summary{background:var(--hover)}
 /* 보도 확인: 신호색 도장, 고리는 점선(원문 확인 전) */
 .slot.rep{color:var(--signal)}
 .mk.rep{color:var(--signal)}
+/* 근거 지도: 파란 고리 기간 선택, 표↔지도 연결 */
+.mapbar{display:flex;align-items:center;gap:var(--s3);flex-wrap:wrap;padding:var(--s2) var(--s4);border-bottom:1px solid var(--hair);font-size:13px}
+.mapbar .lab{font-weight:700;color:var(--ink-2)}
+.mapbar .seg{margin-left:0}
+.mapbar .seg button{min-height:30px;padding:4px 10px;font-size:12.5px}
+.linkbtn{border:0;background:none;padding:0;font:inherit;font-weight:700;color:var(--ink);text-decoration:underline;text-decoration-color:var(--muted);text-underline-offset:3px;cursor:pointer}
+.linkbtn:hover{text-decoration-color:var(--ink)}
+.map .maplibregl-popup-content small{display:block}

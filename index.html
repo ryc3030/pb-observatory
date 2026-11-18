@@ -87,8 +87,17 @@
           <li><span class="mk docu"><svg aria-hidden="true"><use href="#i-stamp"/></svg></span>문헌·플랫폼</li>
           <li><span class="mk rep"><svg aria-hidden="true"><use href="#i-stamp-rep"/></svg></span>보도 확인</li>
           <li><span class="mk mon" aria-hidden="true"></span>탐색 모니터링</li>
-          <li><span class="mk sig" aria-hidden="true"></span>30일 뉴스 신호</li>
+          <li><span class="mk sig" aria-hidden="true"></span><span id="sigLegend">30일 뉴스 신호</span></li>
         </ul>
+      </div>
+      <div class="mapbar">
+        <span class="lab" id="sigLab">파란 고리</span>
+        <div class="seg" id="sigSeg" role="group" aria-labelledby="sigLab">
+          <button type="button" data-sig="30d" aria-pressed="true">30일 기사</button>
+          <button type="button" data-sig="6m" aria-pressed="false">6개월 보도</button>
+          <button type="button" data-sig="12m" aria-pressed="false">1년 보도</button>
+        </div>
+        <span class="note" id="sigNote" aria-live="polite"></span>
       </div>
       <div class="map" id="map2d" role="region" aria-label="92개국 참여예산 근거 지도. 같은 내용은 아래 국가·프로그램 표에서 볼 수 있습니다."></div>
     </div>
