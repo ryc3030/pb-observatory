@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T05:20:47.525437+00:00",
+ "updated_at": "2026-11-18T05:25:24.657709+00:00",
  "count": 39,
  "items": [
   {
@@ -133,7 +133,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-18T05:20:47.525437+00:00",
+    "checked_at": "2026-11-18T05:25:24.657709+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -260,7 +260,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-18T05:20:47.525437+00:00",
+    "checked_at": "2026-11-18T05:25:24.657709+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -476,7 +476,7 @@
    ],
    "related_news": [
     {
-     "title": "Konsultacje społeczne: Jak zmienić Budżet Obywatelski Miasta Krakowa?",
+     "title": "공공 의견 수렴: 크라쿠프시 시민 예산은 어떻게 변경해야 할까요?",
      "date": "2026-11-06",
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWFNxb3YwOWRORS04RHhfTlFxNkl5bjdQWnhVMkNsVzZOVTV5MnN2UjZrVnpNVnRlMnlleDV0VWIzSEpNTTVtUjdiVFRhY2c4bzQwZE9fMktrcm1fckJMTFE1bTBqNlk0bFd6dnpaTUlBYTBhN0VQdC03S3dWdkc2cnlPNHhhb0E4aVI5V1pZNENqRHdwRGpPTkV2RGNYclo3a1dCSmJEMXFqcWJJY0VEaFNrZkJfNFQyM3hGX3pLWTB1QkFLX3EzN05Idw?oc=5",
      "source": "Magiczny Kraków"
@@ -569,16 +569,16 @@
      "source": "G1"
     },
     {
+     "title": "포르투알레그리의 참여예산제",
+     "date": "2026-11-18",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOblQwak4xSUJhdEdKWUtSb19JRUhYM0ZPdmZ4cGdWMklHME9weGJqTENKNTJjb1p0aGNwbWVlMDI0MVFDamVnLUJNX0VSQU85RlJRdWRucDlzZnd0WmpBVldjUy0xRGNLVUpVZUNPb3R0V0J4R0VVQS0wY3pzTnVVaVNLLWtVVVE1VGF0UTNJbTR5WmVqM1g1S0U5Q2tqMlktX0gydElVc09ndEl0SUJnaGhuajR6T2M5UW1ocWZDd9IBzgFBVV95cUxOT2d0YUtJTE9PRVlVanl5Sl9lTC1kTDlXYXpRTXg3eWo3S3RfV0RFT19ZQmkwRDBNdUpHR3cyQnJvWlNBbUd5LUhWY1FrZk50SWEyQmVtdlVmVVJkTEVrWWhaQmV5aU9xdkVfQzJPRTNETjFaMUN3bkowcUZPVXJacW1pa0hqeE5hNThuUGNXWW1VdlJUXzZnMG0yREUtTXF1em5HRVFDejQwTlBKc0s2cWFFWGtMQ2RRV2tPcEZROS1WVHdQcXpRSFF1QUt5dw?oc=5",
+     "source": "G1"
+    },
+    {
      "title": "포르투알레그리의 참여 예산의 우선순위를 이끄는 주택 협동조합",
      "date": "2026-11-13",
      "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMnlUSEFzdUd1dDZWZGU1bGZ4ajNMdUZ1Z1F6RmtJSGJCRnZTS2lPci1vcVJ4b05BTHh2b2JYTzUyZTRmWjJzajgtUUhHdmwxRmpjYUJQX1ljd2JTbm5ZWGdoUzlQZkNCb1ZWU2FqSV9mZHFoUEVCTnVBaXZOYmlxSm9ILVVONU9tRVd2Sm0wc1M2MnR3aHMyazNzNmotZFR2RWRxRnQzLWdVSmdWU3R4UkJXZU05WmYwQ3hPNEYxZUlJT0RLTl9oZU1jTkpQQQ?oc=5",
      "source": "MundoCoop"
-    },
-    {
-     "title": "Porto Alegre inicia Orçamento Participativo com votação digital e R$ 30 milhões",
-     "date": "2026-11-03",
-     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdXo1MUZPbnZfdHhVLUw5YzFsS3BYYmRRVk9QOXFiaEhnSnpHSll0dFZJWlpSYVBuUWthbHg5ZGY5d3d3S3d5WDlNcUxaY3BsSndsVF9rMWVyamVyMVJhdThQZVV2QmlYd1hGWkdvN2VmY2RLanY0aEd5MEctbUNCNEYxcEYwQl92dVpnd01iamhhLXVDbjZRNDBnOWduWWhvZkpqS0xMVjIyem1HYzgzbXhHV2VobGFYZEZfbGlmaDF6SFJuQ29iS1dFTnJtVGN1RzZUMko2UUpYNXZTV3JSWF9rQTlOdUNrZHZYZzlkNDNhTmdXZDJZctIBhwJBVV95cUxObUt6eS1nZzB3RHZZY0Y3SXNZYVJETWNMNGdHd0pvOTZ6NXpEZzF0ckhSNGdwaEgtVjFETEYxdDU3YzNHajlZV0EyR3B3bmhmeUwzdllZUEJOQTEwS3lYZEhieV91X1FqS2ZJbEk3V0lqaHpwV2hRS0hNWUxBMWdkd2ljNjdEYTl0blhjOWRLSnExcVVTWTRfRzc0X0Z1VzZ3bVljZjZyaTNPOHVUNXkxVk5zSl82SGQ4YWI4WkxyV1RoNHc2ODRGT01NbUdHYUt6S0lqNTJJNnJwNTNiVTNMamFLVERTbnZRSENET0diM1loZ1B3dnhZSXNUSHpjUmdiOFpGQXNxdw?oc=5",
-     "source": "G1"
     }
    ],
    "latest_signal_date": "2026-11-18"
@@ -801,7 +801,7 @@
    ],
    "related_news": [
     {
-     "title": "Noua „bugetare participativă” la Cluj? În loc să propui proiecte online, îi spui viceprimarului ce lipsește din cartier",
+     "title": "클루지의 새로운 '참여 예산제'? 온라인으로 프로젝트를 제안하는 대신, 부시장에게 동네에 무엇이 부족한지 알려주세요.",
      "date": "2026-11-09",
      "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaDhpZWRTSGFLamE2czhrVTYzYXIyZDhMejUxRFJYcXI2TTQ1OHM0emZnaHlDYjJmYXplbUFtZFJuT2h3WXd0NS1tMU9CNmVyWUJVYkVYM0Q5SWFpUGV1QzRDMzFhalRxVTlZYmx0N2s2TjhRX1ZIeFRRWXVDcUU2Y0g0SlA1d2syeVoyanhKdndSM2VPT0VYZXRpaDJlbVNqZU9MNTFzRzBDNEYyVk5vVWFPVEFVelhCYTRlUTJMQ3dUYVR1X0JKRl9SdmVBX3M?oc=5",
      "source": "Media9"
@@ -1163,13 +1163,13 @@
      "source": "Freie Presse"
     },
     {
-     "title": "Steuerungsgruppe Bürgerhaushalt tagt öffentlich in Spremberg",
+     "title": "스프렘베르크에서 시민 예산 관리 그룹이 공개 회의를 개최합니다.",
      "date": "2026-11-05",
      "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMUdQNFQ5cE9iVFFGTVBYQXB6c2JDNG5CbTUzZVZOU3NSSTVfek1mTlBwX2VQQUVqT3lRSFFzS3BiaWM0d2ZkSGhCTUxvM2tuYVlKWUozRWtXeVBaWG5ka2MzT0Y5LTY5emItRS1VRlVBTVFPMy0zUXljWmFwY3hBUGpSRXpzMHN6VjZsYUZPbmFEems1d05OZWF2anJQRmNZMWhJc0ZPY1pKcHZkOTE1VmFmRk1GUDBaOGNWNVhvVWpkRVdYdUYyOGtiSWdudERqLURWcG8yT3lTSTdocVVfVUMyUHJrWVpPXzA5dGNrSm1FSXYzbVRZNC1BSWwxNmtDalBJbXZn?oc=5",
      "source": "NIEDERLAUSITZ aktuell"
     },
     {
-     "title": "Laager Bürgerhaushalt: Vier Projekte werden umgesetzt",
+     "title": "라거 시민 예산: 4개 프로젝트가 시행됩니다",
      "date": "2026-11-03",
      "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdUhFSGhqc0Q2eHpUaG5YQ2MwQm1xUjY5M3k4T0VlOEZzdmt4bDhPWWp4LUdTUFVRZ2FwTnVfOWtVWHExaEdXRFo2NWRZSDBhcVhFOE95YVJrZU82LVhsTFNhVzhWRzZTbEg2WW9UYjk4VXFtTTN4QkZ3OWdrVS0tdHZZazhLX0ZWcHhNN1oyaEhqbnRKSk14WFRuaU1hY1RsY1ZPb0E0WngyRHdYSURyX21HeFFkWVVWMWtEUnBSc3lUNm9BT21VNHozb3I0Rk4tX1dULWhvZw?oc=5",
      "source": "NDR.de"
@@ -1220,7 +1220,7 @@
      "source": "la Repubblica"
     },
     {
-     "title": "Bilancio partecipativo 2026, ecco quali sono i progetti vincitori",
+     "title": "2026년 주민참여예산, 선정된 프로젝트는 다음과 같습니다",
      "date": "2026-11-10",
      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdEFJV3ZIOWxYQ1lXUUJNVUhyQVRPSUc1Ukc4c2ljQlZvaVpzcV94b21peGoybGRUNklTZ3FpODVDT3dNSWpvVC11cTdQSEN2bmREdGQ3ZFdsUTFTcUNxV2lYTS1nZXlhVXptbFltMDRMakFXdGRHZ2c5dW1WMHdxNllKclBtWWF0Z1pwYk9KYmo?oc=5",
      "source": "BolognaToday"
@@ -1504,7 +1504,7 @@
      "source": "Rīgas valstspilsētas pašvaldība"
     },
     {
-     "title": "Riga Participatory Budget 2026: How to Vote by 30 November",
+     "title": "2026년 리가 주민참여예산: 11월 30일까지 투표하는 방법",
      "date": "2026-11-03",
      "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1RGVSTG5TVXhwRjlFNXFfOEc2cUxVajJZczNuRHp0S05lRHM5Y2RGOVNmaVhkQjBJUTZRdkZhOERSNFBCSHU1Rzdmd3BjVGh4anpkZlViZWxobUg2aUo1TDA1ekdHUGZCNG9QQmFrNC1NNm8?oc=5",
      "source": "Riga Talk"

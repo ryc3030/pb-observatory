@@ -2,11 +2,12 @@
  "news": {
   "name": "Google News RSS (다국어)",
   "ok": true,
+  "gdelt_added": 0,
   "queries_ok": 27,
   "queries": 27,
-  "added": 1,
-  "total": 514,
-  "checked_at": "2026-11-18T02:20:58.231443+00:00",
+  "added": 14,
+  "total": 528,
+  "checked_at": "2026-11-18T05:25:24.657709+00:00",
   "languages": [
    "cs",
    "de",
@@ -33,52 +34,62 @@
    "uk",
    "zh"
   ],
-  "last_success_at": "2026-11-18T02:20:58.231443+00:00"
+  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
  },
  "papers": {
   "name": "학술 DB (OpenAlex·Crossref)",
   "ok": true,
-  "fetched": 137,
+  "fetched": 298,
   "by_source": {
-   "OpenAlex": 27,
-   "Crossref": 110
+   "OpenAlex": 189,
+   "Crossref": 109
   },
   "total": 222,
-  "checked_at": "2026-11-18T02:20:58.231443+00:00",
-  "error": "OpenAlex[participatory budget]: HTTP Error 429: Too Many Requests",
-  "last_success_at": "2026-11-18T02:20:58.231443+00:00"
+  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "error": null,
+  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
  },
  "build": {
   "name": "일일 빌드",
   "ok": true,
-  "checked_at": "2026-11-18T02:20:58.231443+00:00",
-  "last_success_at": "2026-11-18T02:20:58.231443+00:00"
+  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
  },
  "participedia": {
   "name": "Participedia 사례 레지스트리",
   "ok": true,
   "fetched": 240,
   "total": 240,
-  "checked_at": "2026-11-18T05:20:47.525437+00:00",
+  "checked_at": "2026-11-18T05:25:24.657709+00:00",
   "error": null,
-  "last_success_at": "2026-11-18T05:20:47.525437+00:00"
+  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
  },
  "pabulib": {
   "name": "Pabulib 투표 기록 DB",
   "ok": true,
   "fetched": 851,
   "total": 851,
-  "checked_at": "2026-11-18T05:20:47.525437+00:00",
+  "checked_at": "2026-11-18T05:25:24.657709+00:00",
   "error": null,
-  "last_success_at": "2026-11-18T05:20:47.525437+00:00"
+  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
  },
  "decidim": {
   "name": "Decidim 공식 플랫폼 API",
   "ok": true,
   "fetched": 2,
   "total": 2,
-  "checked_at": "2026-11-18T05:20:47.525437+00:00",
+  "checked_at": "2026-11-18T05:25:24.657709+00:00",
   "error": null,
-  "last_success_at": "2026-11-18T05:20:47.525437+00:00"
+  "last_success_at": "2026-11-18T05:25:24.657709+00:00"
+ },
+ "gdelt": {
+  "name": "GDELT DOC 2.0 (원문 직링크)",
+  "ok": false,
+  "queries_ok": 0,
+  "queries": 9,
+  "fetched": 0,
+  "checked_at": "2026-11-18T05:25:24.657709+00:00",
+  "error": "\"participatory budgeting\": HTTP Error 429: Too Many Requests; \"participatory budget\": HTTP Error 429: Too Many Requests; \"presupuesto participativo\": HTTP Error 429: Too Many Requests; 연속 실패로 나머지 생략",
+  "last_success_at": null
  }
 }

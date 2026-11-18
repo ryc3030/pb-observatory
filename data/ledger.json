@@ -44,6 +44,26 @@
   "observed_at": "2026-11-18"
  },
  {
+  "key": "news:POL:16de30130d0c51",
+  "date": "2026-11-18",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "라바 시민 예산 2027. 주민 제안 프로젝트에 대한 투표가 진행 중입니다.",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNSE5IUWRCS1pyUTk1OWlZMXVQTGxDVm9PclRsVkJlT1VWd3dLdlg3bnR6bDBOc0RTVkc2RFE0NmxvWC1EdjE3QnVNNFNDVzFoM1p0V0dSZk1BQkxXSm5KR0Iwc25CRXF5R1p4QU41M2R4V3MyWEpUUEF5ZDNRZklXVTl2RXhTeWRJeHEwaDlLNG83dmFvT0RuVEM0VWR6R1BSUkpWYnZtNUw4eFh0WW01S1VvSTlXODNmQzRhSVJGYktfM1E?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:KOR:950fe705bd4959",
+  "date": "2026-11-18",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "대전 서구의회, 주민참여예산 유사사업 반복·선정 기준 지적",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE0yMWkzTTNKaE9lcEIzeFpabXE0cV9DTEx0MkY1UE5pNzFSZVZLeld1bG5yWTM0OW5CVGE2U09uM0FINEMxZ21YbWJaTnNTVlBHQTBTQQ?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
   "key": "news:FRA:79d42724080845",
   "date": "2026-11-18",
   "iso3": "FRA",

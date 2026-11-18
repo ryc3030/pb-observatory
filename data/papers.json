@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T02:20:58.231443+00:00",
+ "updated_at": "2026-11-18T05:25:24.657709+00:00",
  "count": 222,
  "items": [
   {
@@ -681,8 +681,8 @@
     "Economic Growth and Fiscal Policies"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "우즈베키스탄의 참여예산 프로젝트 자금 조달에 대한 포괄적 효율성 평가 및 그 결정요인에 대한 계량경제학적 분석",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.21686/2073-1051-2026-3-95-108",
@@ -706,8 +706,8 @@
     "Economic Growth and Fiscal Policies"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "공동 자금 지원 기관의 적법성",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.31150/ajshr.v7i10.5720",
@@ -731,8 +731,8 @@
     "Economic and Fiscal Studies"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "여론을 바탕으로 형성된 우즈베키스탄의 프로젝트 자금 조달 시스템의 제도적 발전 및 그 재정적 성과에 대한 지역별 분석",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.34773/eu.2026.5.3",
@@ -756,8 +756,8 @@
     "Economic and Fiscal Studies"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "볼가 연방관구의 구공업 지역에서 자발적 프로젝트를 공동으로 지원하는 메커니즘",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.65011/prismaods.v5.i5.368",
@@ -782,8 +782,8 @@
     "Local Government Finance and Decentralization"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "시민 참여 및 지속 가능한 개발 목표의 현지화: 몬테레이의 예산 결정",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.1609/aies.v9i4.43354",
@@ -810,8 +810,8 @@
     "Recommender Systems and Techniques"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여 예산 편성에서 알고리즘을 활용한 최종 후보 선정",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.48550/arxiv.2610.15516",
@@ -835,8 +835,8 @@
     "Internet Traffic Analysis and Secure E-voting"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "가법적 효용에 대한 견고한 비례 공리",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.55528/18292828-2026.3-98",
@@ -857,8 +857,8 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "지역 행정 거버넌스의 체계적 문제 및 지역사회 전략적 개발 프로그램의 효과성 제고에 있어 디지털 참여 플랫폼(참여 예산제, 디지털 투표, 전자 시스템, 지방 정부 피드백 애플리케이션)의 역할",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.1177/21582440261504513",
@@ -879,8 +879,8 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "도시의 참여예산제 및 에너지 전환: 지역 차원의 과제와 기회",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.1515/9783112231791-002",
@@ -901,8 +901,8 @@
    "type": "book-chapter",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "일상적인 민주주의에서 참여예산을 통한 관계 구축",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.52902/kjsc.2026.58.203",
@@ -927,8 +927,8 @@
     "Safety and Risk Management"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "경기도 참여예산제 안전 관련 사업의 특성과 안전문화에 대한 시사점: 2022~2025년 일부 사업을 중심으로",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.4337/9781035340200.00008",
@@ -948,8 +948,8 @@
    "type": "book-chapter",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산제",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.4337/9781035340125.00016",
@@ -969,8 +969,8 @@
    "type": "book-chapter",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산제와 사회 정의: 상이한 목표와 혼재된 결과?",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.1257/rct.19722",
@@ -990,8 +990,8 @@
    "type": "dataset",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "시민들이 신뢰하는 대상: 우즈베키스탄의 귀속 및 주민참여예산제의 한계",
+   "_tr_tried": true
   },
   {
    "id": "oa:W7225843834",
@@ -1015,8 +1015,8 @@
     "Social Sciences and Governance"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여 예산: 해방적 이상과 제도적 현실 사이에서 주민들에게 주어지는 실질적인 행동력은 무엇인가? 엑상프로방스-마르세유 광역권의 사례",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.1093/jopart/muag028",
@@ -1036,7 +1036,8 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "참여예산제에서의 기관 행동 모델: 자원 의존성 관점",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.1145/3794786.3830735",
@@ -1056,7 +1057,8 @@
    "type": "proceedings-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "참여 예산제를 위한 공정한 피드 순위",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.5335/rjd.v40i2.18441",
@@ -1081,7 +1083,8 @@
     "Brazilian Legal Issues"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "참여예산제, 포용성 및 디지털 시민권: 2019년부터 2023년까지 히우-다스-오스트라스(Rio das Ostras)에서 공공 정책의 참여와 효과의 한계",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.3390/math14173100",
@@ -1102,7 +1105,8 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "대규모 참여 예산제를 위한 신뢰 인센티브 기반 합의 피드백 메커니즘",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.4324/9781003783213-7",
@@ -1122,7 +1126,8 @@
    "type": "book-chapter",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "동아시아의 참여예산제 두 가지 논리",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.4324/9781003783213-8",
@@ -1143,7 +1148,8 @@
    "type": "book-chapter",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "타이베이시의 주민참여예산제",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.36704/ppp.v19i37.10007",
@@ -1169,7 +1175,8 @@
     "Politics and Society in Latin America"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "참여 예산제에서의 도시 이동성 및 도시화에 대한 수요: 테레지나(피아우이주) 사례 연구",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.5281/zenodo.21964018",
@@ -1193,7 +1200,9 @@
     "Politics and Society in Latin America",
     "Political Dynamics in Latin America"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "멕시코시티 이스타팔라파 자치구 로마스 데 라 에스탄시아 지구에서 2025년 주민참여예산제를 시행하는 데 있어 직면한 과제와 어려움",
+   "_tr_tried": true
   },
   {
    "id": "oa:W7203798243",
@@ -1217,7 +1226,9 @@
     "E-Government and Public Services",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "푸에블로 리브레 구청의 참여예산제 과정에 참여하는 이해관계자의 다양성과 대표성 강화를 위한 제안",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.68099/ijaefs.2017.100",
@@ -1239,7 +1250,8 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null
+   "title_ko": "Türkiye’de Katılımcı Bütçeleme Anlayışının Değerlendirilmesi",
+   "_tr_tried": true
   },
   {
    "id": "oa:W7214878610",
@@ -1262,7 +1274,9 @@
     "Construction Project Management and Performance",
     "Civil and Structural Engineering Research"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "이바게 농업 및 농촌 개발부 지원 참여 예산 – 농촌 비포장 도로 포장",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.5281/zenodo.21712053",
@@ -1285,7 +1299,9 @@
     "Local Government Finance and Decentralization",
     "Economic and Fiscal Studies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "'열린 예산' 시스템의 효과 및 '참여형 예산 편성' 프로세스에 대한 시민 참여의 효과 분석",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.34020/1993-4386-2026-2-92-105",
@@ -1304,7 +1320,9 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "지역 개발의 '소프트 파워': 시베리아 연방 지구(2016~2025년)의 주민참여예산제와 소규모 기업의 시너지",
+   "_tr_tried": true
   },
   {
    "id": "oa:W7217800327",
@@ -1329,7 +1347,9 @@
     "Public Policy and Governance",
     "Smart Cities and Technologies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "쿠바의 공공 정책 및 참여형 계획: 지방 예산 관리를 위한 디지털 플랫폼 모델",
+   "_tr_tried": true
   },
   {
    "id": "doi:10.1111/1468-2427.70132",
@@ -1352,7 +1372,9 @@
     "Political Theory and Democracy",
     "Political Conflict and Governance"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "권위주의 체제에서의 참여예산제: 상충하는 논리, 의도하지 않은 결과, 앙골라 Orçamento Participativo(참여예산제)의 논쟁적인 참여",
+   "_tr_tried": true
   },
   {
    "id": "oa:W7214876537",
@@ -1375,7 +1397,9 @@
     "Civil and Structural Engineering Research",
     "Construction Management and Sustainability"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "보고서 – 감리 보조 CONSTRUCCIONES INTERVENTORÍAS ISAZA S.A.S (COINZA S.A.S)",
+   "_tr_tried": true
   },
   {
    "id": "oa:W7172363293",
@@ -1400,7 +1424,9 @@
     "E-Government and Public Services",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.32870/rc.vi8.179",
@@ -1423,7 +1449,9 @@
     "Public Policy and Governance",
     "Political Dynamics in Latin America"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.59659/impulso.v.6i15.365",
@@ -1449,7 +1477,9 @@
     "Politics and Society in Latin America",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.31274/geogames.25888",
@@ -1468,7 +1498,9 @@
    "source": "Crossref",
    "type": "proceedings-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.60746/8_19_48014",
@@ -1491,7 +1523,9 @@
     "Local Government Finance and Decentralization",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.53641/junta.v9i1.170",
@@ -1514,7 +1548,9 @@
     "Politics and Society in Latin America",
     "Local Government Finance and Decentralization"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.25587/2587-8778-2026-2-32-46",
@@ -1533,7 +1569,9 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.47230/revista.ciencia-lideres.v5.n1.2026.53-67",
@@ -1558,7 +1596,9 @@
     "Public Policy and Governance",
     "Economic Growth and Fiscal Policies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.1108/jpbafm-05-2025-0128",
@@ -1579,7 +1619,9 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.5102/rbpp.v16i1.10117",
