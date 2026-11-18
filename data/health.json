@@ -93,5 +93,16 @@
   "fails_in_row": 1,
   "timespan_days": 30,
   "last_success_at": null
+ },
+ "orgs": {
+  "name": "참여예산 기관 소식 피드",
+  "ok": true,
+  "queries_ok": 6,
+  "queries": 6,
+  "added": 30,
+  "total": 30,
+  "checked_at": "2026-11-18T06:26:48.862670+00:00",
+  "error": null,
+  "last_success_at": "2026-11-18T06:26:48.862670+00:00"
  }
 }

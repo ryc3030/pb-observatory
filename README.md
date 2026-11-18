@@ -36,6 +36,7 @@ scripts/collect.py      수집기 (표준 라이브러리만 사용)
 | 원천 | 얻는 것 | 비고 |
 |---|---|---|
 | Google News RSS | 27개 검색어·24개 언어 기사 제목 | 기본 뉴스 신호 |
+| 참여예산 기관 피드 6곳 | PBP·PB Scotland 전체 글, newDemocracy·Decidim·CONSUL·OGP의 참여예산 글 | PB 데일리 '기관 소식'. 미래 날짜가 붙은 고정 글은 뺌 |
 | GDELT DOC 2.0 API | 원문 직링크, 발행국(sourcecountry), 언어 | `scripts/gdelt.py`가 하루 한 번(12:41 KST) 요청 한 건만 보냄. 재시도 없음. 검색 기간은 마지막 성공 이후 전체(최대 90일)라 실패한 날의 기사도 다음 성공 때 받음. 같은 날 두 번 실행하면 요청 없이 끝남 |
 | OpenAlex · Crossref | 논문 서지·초록·DOI | |
 | Participedia 검색 JSON | PB 사례 제목·도시·국가·좌표·검수 여부 | 제목·요약에 PB 용어가 있는 사례만 채택 |
@@ -76,4 +77,8 @@ GitHub Actions 러너 IP는 여럿이 함께 써서 GDELT가 요청 한 건에�
 1. Cloudflare에서 이 저장소로 만든 Worker가 새로 배포됐는지 확인한다(주소 예: `https://pb-observatory.<계정>.workers.dev`).
 2. GitHub 저장소 Settings → Secrets and variables → Actions → Variables에 `GDELT_PROXY` = Worker 주소를 넣는다.
 3. 그 뒤 `scripts/gdelt.py`는 Worker로 먼저 한 번, 실패하면 직접 한 번 요청한다(IP마다 하루 한 건).
+
+## 같은 소식 묶기
+
+수집기가 기사마다 `story`(같은 소식 묶음)와 `story_n`(묶음 안 매체 수)을 붙인다. 번역된 한국어 제목(없으면 원문)의 단어와 한글 글자쌍으로 TF-IDF 코사인 유사도를 재고, 5일 안에 나온 같은 국가(또는 국가 미상) 기사끼리 0.45 이상이면 한 소식으로 묶는다. 그래서 언어가 달라도 같은 소식이면 묶이고, 국가를 정하지 못한 기사는 같은 소식 기사들의 국가로 채운다(판정 근거 '같은 소식'). PB 데일리 위쪽의 '여러 매체가 다룬 소식'은 최근 7일 동안 매체 2곳 이상이 다룬 소식을 매체 수 순으로 보여 준다. 여러 매체가 다룬 소식을 골라 보여 준다는 착상은 NewsCollector(elisemercury, MIT)에서 가져왔고, 구현은 표준 라이브러리로 새로 썼다.
 

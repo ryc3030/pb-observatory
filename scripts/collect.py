@@ -4,7 +4,8 @@
 GitHub Actions가 매일 실행합니다. 외부 패키지 없이 표준 라이브러리만 씁니다.
 
 수집 대상
-  1) 뉴스 신호  : Google News RSS(27개 검색어·24개 언어). GDELT는 scripts/gdelt.py가 하루 한 번 따로 수집
+  1) 뉴스 신호  : Google News RSS(27개 검색어·24개 언어) + 참여예산 기관 소식 피드 6곳. GDELT는 scripts/gdelt.py가 하루 한 번 따로 수집
+                 같은 소식은 언어와 상관없이 묶어(story) 여러 매체가 다룬 소식을 가려낸다
   2) 연구 논문  : OpenAlex (실패 시 Crossref)
   3) 국가 신호  : 뉴스 제목을 국가 별칭과 대조해 국가별 최신 신호·30일 건수 산출
   4) 근거 원장  : 새로 관측된 국가 신호·논문을 날짜와 함께 누적
@@ -273,6 +274,124 @@ def parse_date(s: str) -> str:
         return NOW.isoformat()
 
 
+# 참여예산 전문 기관·플랫폼의 소식 피드(검색이 아니라 출처 고정). pb_only=True면 모든 글, 아니면 PB 용어가 있는 글만.
+ORG_FEEDS = [
+    ("Participatory Budgeting Project", "https://www.participatorybudgeting.org/feed/", True, None),
+    ("PB Scotland", "https://pbscotland.scot/blog?format=rss", True, "GBR"),
+    ("newDemocracy Foundation", "https://www.newdemocracy.com.au/feed/", False, "AUS"),
+    ("Decidim", "https://www.decidim.org/blog/feed.xml", False, None),
+    ("CONSUL Democracy", "https://www.consuldemocracy.org/feed", False, None),
+    ("Open Government Partnership", "https://www.opengovpartnership.org/feed/", False, None),
+]
+
+
+def collect_org_feeds(by_id, health):
+    ok, got, errs = 0, 0, []
+    atom = "{http://www.w3.org/2005/Atom}"
+    for name, url, pb_only, iso in ORG_FEEDS:
+        try:
+            root = ET.fromstring(http_get(url, timeout=25, retries=1))
+            ok += 1
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"{name}: {str(e)[:50]}")
+            continue
+        entries = list(root.iter("item")) or list(root.iter(atom + "entry"))
+        for it in entries:
+            title = clean(it.findtext("title") or it.findtext(atom + "title") or "")
+            link = (it.findtext("link") or "").strip()
+            if not link:
+                le = it.find(atom + "link")
+                link = le.get("href", "") if le is not None else ""
+            desc = clean(it.findtext("description") or it.findtext(atom + "summary") or "")[:400]
+            if not title or not link or (not pb_only and not PB_TERMS.search(title + " " + desc)):
+                continue
+            pub_raw = it.findtext("pubDate") or it.findtext(atom + "published") or it.findtext(atom + "updated") or ""
+            try:
+                pub = (datetime.fromisoformat(pub_raw.replace("Z", "+00:00")).astimezone(timezone.utc).isoformat()
+                       if "T" in pub_raw[:20] else parse_date(pub_raw))
+            except ValueError:
+                pub = parse_date(pub_raw)
+            if pub > (NOW + timedelta(days=2)).isoformat():  # 고정 글에 붙은 미래 날짜(예: 2029-12-31)는 날짜를 믿을 수 없어 뺀다
+                continue
+            nid = hashlib.sha1(("org|" + link).encode()).hexdigest()[:14]
+            if nid in by_id:
+                continue
+            by_id[nid] = {"id": nid, "title": title, "title_ko": None, "lang": "en", "source": name, "url": link,
+                          "source_url": url, "gl": "", "default_iso": iso, "published_at": pub, "summary": desc[:240],
+                          "collected_at": NOW.isoformat(), "kind": "org", "via": "기관 피드"}
+            got += 1
+        time.sleep(0.8)
+    health["orgs"] = {"name": "참여예산 기관 소식 피드", "ok": ok > 0, "queries_ok": ok, "queries": len(ORG_FEEDS),
+                      "added": got, "total": sum(1 for x in by_id.values() if x.get("kind") == "org"),
+                      "checked_at": NOW.isoformat(), "error": "; ".join(errs)[:300] or None,
+                      "last_success_at": NOW.isoformat() if ok else (health.get("orgs") or {}).get("last_success_at")}
+    log("org feeds", ok, "/", len(ORG_FEEDS), "new", got)
+    return got
+
+
+# 같은 소식 묶기: 번역된 한국어 제목(없으면 원문)의 단어·글자쌍으로 TF-IDF 코사인 유사도를 재고,
+# 5일 안·같은 국가(또는 국가 미상) 기사끼리 0.45 이상이면 한 소식으로 묶는다. 언어가 달라도 묶인다.
+STORY_STOP = set("참여예산 주민참여예산 시민참여예산 국민참여예산 예산 participatory budget budgeting presupuesto "
+                 "participativo orçamento budżet obywatelski the of and de la el en do da 년 위한 대한 및".split())
+
+
+def cluster_stories(items, threshold=0.45, window_days=5):
+    import math
+    from collections import Counter
+    def feats(x):
+        t = re.sub(r"\s+-\s+[^-]+$", "", (x.get("title_ko") or x["title"]).lower())
+        f = Counter()
+        for w in re.findall(r"\w+", t):
+            if w in STORY_STOP or len(w) < 2 or w.isdigit():
+                continue
+            f["w:" + w] += 1
+            if re.search(r"[가-힣]", w):
+                for i in range(len(w) - 1):
+                    f["b:" + w[i:i + 2]] += 0.5
+        return f
+    rows = sorted(items, key=lambda x: x["published_at"])
+    F = [feats(x) for x in rows]
+    df = Counter(k for f in F for k in f)
+    n = len(rows)
+    V = []
+    for f in F:
+        v = {k: c * math.log((n + 1) / (df[k] + 0.5)) for k, c in f.items()}
+        norm = math.sqrt(sum(a * a for a in v.values())) or 1
+        V.append({k: a / norm for k, a in v.items()})
+    T = [datetime.fromisoformat(x["published_at"]).timestamp() for x in rows]
+    par = list(range(n))
+    def find(a):
+        while par[a] != a:
+            par[a] = par[par[a]]
+            a = par[a]
+        return a
+    for i in range(n):
+        j = i + 1
+        while j < n and T[j] - T[i] <= window_days * 86400:
+            ci, cj = rows[i].get("country_iso3"), rows[j].get("country_iso3")
+            if not (ci and cj and ci != cj):
+                a, b = (V[i], V[j]) if len(V[i]) <= len(V[j]) else (V[j], V[i])
+                if sum(w * b.get(k, 0) for k, w in a.items()) >= threshold:
+                    par[find(i)] = find(j)
+            j += 1
+    groups = {}
+    for i in range(n):
+        groups.setdefault(find(i), []).append(rows[i])
+    multi = 0
+    for g in groups.values():
+        g.sort(key=lambda x: x["published_at"])
+        sources = {x["source"] for x in g}
+        isos = Counter(x["country_iso3"] for x in g if x.get("country_iso3"))
+        for x in g:
+            x["story"] = g[0]["id"]
+            x["story_n"] = len(sources)
+            # 국가를 못 정한 기사는 같은 소식 기사들의 국가로 보충(근거: 같은 소식)
+            if not x.get("country_iso3") and isos:
+                x["country_iso3"], x["iso_basis"] = isos.most_common(1)[0][0], "같은 소식"
+        multi += len(sources) > 1
+    return multi
+
+
 def collect_news(countries, match, health):
     old = load("news.json", {"items": []}).get("items", [])
     by_id = {x["id"]: x for x in old}
@@ -317,6 +436,9 @@ def collect_news(countries, match, health):
         per_lang[lang] = per_lang.get(lang, 0) + n
         time.sleep(1.2)
 
+    # 참여예산 전문 기관의 소식 피드
+    added += collect_org_feeds(by_id, health)
+
     # GDELT 기사는 scripts/gdelt.py가 하루 한 번 따로 넣는다(호출 제한 때문). 여기서는 재태깅만 함께 받는다.
 
     # 별칭 사전이 바뀌어도 반영되도록 전체 재태깅. 근거(iso_basis)를 함께 남겨 화면에서 판단 근거를 보여 줌
@@ -336,6 +458,8 @@ def collect_news(countries, match, health):
     cutoff = (NOW - timedelta(days=NEWS_KEEP_DAYS)).isoformat()
     items = sorted((x for x in by_id.values() if x["published_at"] >= cutoff),
                    key=lambda x: x["published_at"], reverse=True)[:NEWS_MAX]
+    stories = cluster_stories(items)
+    log("stories with 2+ sources", stories)
     save("news.json", {"updated_at": NOW.isoformat(), "count": len(items), "items": items})
     health["news"] = {
         "name": "Google News RSS (다국어)", "ok": ok_q > 0, "queries_ok": ok_q, "queries": len(NEWS_QUERIES),

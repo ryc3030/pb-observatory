@@ -329,10 +329,16 @@ function openCountry(iso) {
 let newsLimit = 8;
 const tok = (t) => new Set(String(t).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").split(" ").filter((w) => w.length > 2));
 function groupNews(rows) {
-  const out = [];
+  // 수집기가 붙인 story(언어와 무관한 같은 소식 묶음)를 쓰고, 없으면 제목 단어 겹침으로 묶는다
+  const out = [], byStory = new Map();
   for (const n of rows) {
+    if (n.story) {
+      const g = byStory.get(n.story);
+      if (g) { g.dups.push(n); continue; }
+      const item = { ...n, dups: [] }; byStory.set(n.story, item); out.push(item); continue;
+    }
     const tk = tok(n.title), t = Date.parse(n.published_at);
-    const hit = out.find((g) => g.lang === n.lang && g.country_iso3 === n.country_iso3 && Math.abs(g._t - t) < 4 * 864e5 && (() => {
+    const hit = out.find((g) => !g.story && g.lang === n.lang && g.country_iso3 === n.country_iso3 && Math.abs(g._t - t) < 4 * 864e5 && (() => {
       let inter = 0; tk.forEach((w) => g._tk.has(w) && inter++);
       return inter / Math.max(1, Math.min(tk.size, g._tk.size)) >= 0.5;
     })());
@@ -340,6 +346,25 @@ function groupNews(rows) {
     else out.push({ ...n, _tk: tk, _t: t, dups: [] });
   }
   return out;
+}
+function renderTopStories(rows) {
+  const cut = Date.now() - 7 * 864e5, st = new Map();
+  rows.forEach((n) => {
+    if (!n.story || Date.parse(n.published_at) < cut) return;
+    const g = st.get(n.story) || { items: [] }; g.items.push(n); st.set(n.story, g);
+  });
+  const top = [...st.values()].map((g) => {
+    g.items.sort((a, b) => (b.published_at > a.published_at ? 1 : -1));
+    g.src = [...new Set(g.items.map((x) => x.source))]; g.langs = [...new Set(g.items.map((x) => x.lang))];
+    return g;
+  }).filter((g) => g.src.length > 1).sort((a, b) => b.src.length - a.src.length || (b.items[0].published_at > a.items[0].published_at ? 1 : -1)).slice(0, 4);
+  $("#topStories").hidden = !top.length;
+  $("#topList").innerHTML = top.map((g) => {
+    const x = g.items.find((i) => i.title_ko) || g.items[0];
+    return `<li><b class="n" aria-label="매체 ${g.src.length}곳">${g.src.length}</b><div><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(strip(x.title_ko || x.title))}</a>
+      <p class="meta"><span class="cty">${esc(countryName(x.country_iso3))}</span><span>매체 ${g.src.length}곳 · 기사 ${g.items.length}건${g.langs.length > 1 ? ` · ${g.langs.map((l) => LANG_KO[l] || l).join("·")}` : ""}</span><span>${esc(shortDate(g.items[0].published_at))}</span></p>
+      <p class="srcs">${g.src.slice(0, 5).map(esc).join(" · ")}${g.src.length > 5 ? " 등" : ""}</p></div></li>`;
+  }).join("");
 }
 function setupNews() {
   const langs = {}; news.forEach((n) => (langs[n.lang] = (langs[n.lang] || 0) + 1));
@@ -352,16 +377,18 @@ function setupNews() {
     $("#newsCountry").value = $("#newsCountry").value === b.dataset.iso ? "all" : b.dataset.iso;
     newsLimit = 8; renderNews(); syncURL();
   }));
-  ["#newsLang", "#newsCountry", "#newsGroup"].forEach((s) => ($(s).onchange = () => { newsLimit = 8; renderNews(); syncURL(); }));
+  ["#newsKind", "#newsLang", "#newsCountry", "#newsGroup"].forEach((s) => ($(s).onchange = () => { newsLimit = 8; renderNews(); syncURL(); }));
   $("#newsSearch").oninput = () => { newsLimit = 8; renderNews(); syncURL(); };
   $("#moreNews").onclick = () => { newsLimit += 12; renderNews(); };
 }
 function renderNews() {
   const L = $("#newsLang").value, C = $("#newsCountry").value, q = $("#newsSearch").value.trim().toLowerCase();
   $$("#newsQuick button").forEach((b) => b.setAttribute("aria-pressed", b.dataset.iso === C));
-  let rows = news.filter((n) => (L === "all" || n.lang === L) && (C === "all" || n.country_iso3 === C) &&
+  const K = $("#newsKind").value;
+  let rows = news.filter((n) => (K === "all" || (n.kind || "signal") === K) && (L === "all" || n.lang === L) && (C === "all" || n.country_iso3 === C) &&
     (!q || (n.title + " " + (n.title_ko || "")).toLowerCase().includes(q)));
   const raw = rows.length;
+  renderTopStories(rows);
   if ($("#newsGroup").checked) rows = groupNews(rows);
   $("#newsResult").textContent = rows.length === raw ? `기사 ${nf.format(raw)}건` : `기사 ${nf.format(raw)}건 · 같은 소식 묶어 ${nf.format(rows.length)}건`;
   $("#moreNews").hidden = rows.length <= newsLimit;
@@ -371,7 +398,8 @@ function renderNews() {
   }
   let lastDay = "";
   $("#newsgrid").innerHTML = rows.slice(0, newsLimit).map((x) => {
-    const day = fmtDate(x.published_at, { month: "long", day: "numeric", weekday: "short" });
+    const thisYear = String(x.published_at).slice(0, 4) === String(new Date().getFullYear());
+    const day = fmtDate(x.published_at, thisYear ? { month: "long", day: "numeric", weekday: "short" } : { year: "numeric", month: "long", day: "numeric", weekday: "short" });
     const head = day !== lastDay ? `<li class="dhead"><time datetime="${esc(String(x.published_at).slice(0, 10))}">${esc(day)}</time></li>` : "";
     lastDay = day;
     const ko = x.title_ko && x.title_ko !== x.title;
@@ -379,7 +407,8 @@ function renderNews() {
     return `${head}<li><div>
       <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(strip(ko ? x.title_ko : x.title))}</a></h3>
       ${ko ? `<p class="orig" lang="${esc(x.lang)}">${esc(x.title)}</p>` : ""}
-      <p class="meta"><span class="sigtag">신호</span><span class="cty"${x.iso_basis ? ` title="국가 판정 근거: ${esc(x.iso_basis)}"` : ""}>${esc(countryName(x.country_iso3))}${x.iso_basis && x.iso_basis !== "제목" ? `<small> (${esc(x.iso_basis)})</small>` : ""}</span><span>${esc(LANG_KO[x.lang] || x.lang)}</span><span>${esc(x.source || "")}</span></p>${dup}</div></li>`;
+      ${x.kind === "org" && x.summary ? `<p class="orig" lang="en">${esc(strip(x.summary).slice(0, 160))}${x.summary.length > 160 ? "…" : ""}</p>` : ""}
+      <p class="meta"><span class="sigtag">${x.kind === "org" ? "기관 소식" : "신호"}</span><span class="cty"${x.iso_basis ? ` title="국가 판정 근거: ${esc(x.iso_basis)}"` : ""}>${esc(countryName(x.country_iso3))}${x.iso_basis && x.iso_basis !== "제목" ? `<small> (${esc(x.iso_basis)})</small>` : ""}</span><span>${esc(LANG_KO[x.lang] || x.lang)}</span><span>${esc(x.source || "")}</span></p>${dup}</div></li>`;
   }).join("");
 }
 
@@ -711,13 +740,14 @@ function renderCompare() {
 
 /* ---------- 근거·출처 ---------- */
 function renderEvidence() {
-  const hs = ["news", "gdelt", "papers", "participedia", "pabulib", "decidim", "build"].map((k) => health[k]).filter(Boolean);
+  const hs = ["news", "orgs", "gdelt", "papers", "participedia", "pabulib", "decidim", "build"].map((k) => health[k]).filter(Boolean);
   $("#health").innerHTML = hs.length ? hs.map((x) => {
     const detail = x.added != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 오늘 새 기사 ${x.added}${x.gdelt_added ? ` (GDELT ${x.gdelt_added})` : ""} · 보관 ${nf.format(x.total)}` : x.queries != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 새 기사 ${x.fetched}${x.timespan_days ? ` · 최근 ${x.timespan_days}일 범위` : ""}${x.fails_in_row > 1 ? ` · ${x.fails_in_row}일 연속 실패` : ""}` : x.fetched != null ? `오늘 수집 ${x.fetched} · 보관 ${nf.format(x.total)}` : "";
     return `<div class="hrow"><span class="st ${x.ok ? "" : "bad"}" aria-hidden="true"></span><b>${esc(x.name)} — ${x.ok ? "정상" : "실패"}</b><p>${esc(fmtDate(x.checked_at, { month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit" }))}${detail ? " · " + esc(detail) : ""}${!x.ok && x.last_success_at ? " · 마지막 성공 " + esc(fmtDate(x.last_success_at)) : ""}</p></div>`;
   }).join("") : '<p class="note">수집 상태 정보가 아직 없습니다.</p>';
   const SRC = [
     ["Google News RSS", "https://news.google.com/", "27개 검색어·24개 언어 기사 제목", "PB 데일리, 국가 신호", "news"],
+    ["참여예산 기관 피드 6곳", "https://www.participatorybudgeting.org/", "PBP·PB Scotland 전체 글, newDemocracy·Decidim·CONSUL·OGP의 참여예산 글", "PB 데일리 '기관 소식'", "orgs"],
     ["GDELT DOC 2.0", "https://www.gdeltproject.org/", "원문 직링크·발행국·언어 (하루 1회 요청)", "PB 데일리 보강, 국가 판정(발행국)", "gdelt"],
     ["OpenAlex · Crossref", "https://openalex.org/", "논문 서지·초록·DOI", "논문", "papers"],
     ["Participedia", "https://participedia.net/", `PB 사례 ${nf.format(cases.length)}건(좌표·검수 여부)`, "국가·프로그램 '플랫폼 근거', 검토 필요 표시", "participedia"],
@@ -729,7 +759,7 @@ function renderEvidence() {
 }
 
 /* ---------- 주소 상태 ---------- */
-const URL_KEYS = { region: "#region", status: "#tracking", program: "#hasProgram", q: "#search", nlang: "#newsLang", ncountry: "#newsCountry", nq: "#newsSearch" };
+const URL_KEYS = { region: "#region", status: "#tracking", program: "#hasProgram", q: "#search", nkind: "#newsKind", nlang: "#newsLang", ncountry: "#newsCountry", nq: "#newsSearch" };
 function syncURL() {
   const u = new URLSearchParams();
   for (const [k, sel] of Object.entries(URL_KEYS)) { const v = $(sel).value.trim(); if (v && v !== "all") u.set(k, v); }

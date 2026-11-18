@@ -117,10 +117,11 @@
 <section class="wrap section" id="daily" aria-labelledby="h-daily">
   <div class="sechead">
     <h2 id="h-daily">PB 데일리</h2>
-    <p>전 세계 참여예산 기사를 발행일 순으로 모았습니다. 한국어 제목은 자동 번역이므로 내용은 원문으로 확인하십시오. <span id="langCount"></span></p>
+    <p>전 세계 참여예산 기사와 참여예산 기관 6곳의 소식을 발행일 순으로 모았습니다. 한국어 제목은 자동 번역이므로 내용은 원문으로 확인하십시오. <span id="langCount"></span></p>
   </div>
   <div class="split">
     <div class="filterbar" role="group" aria-label="뉴스 거르기">
+      <label class="field"><span>종류</span><select id="newsKind"><option value="all">언론 기사 + 기관 소식</option><option value="signal">언론 기사</option><option value="org">기관 소식</option></select></label>
       <label class="field"><span>언어</span><select id="newsLang"><option value="all">전체 언어</option></select></label>
       <label class="field"><span>국가</span><select id="newsCountry"><option value="all">전체 국가</option></select></label>
       <label class="field"><span>제목 검색</span><input id="newsSearch" type="search" autocomplete="off" placeholder="예: 투표, Kraków, 주민참여예산…"></label>
@@ -128,6 +129,10 @@
       <div class="quick" id="newsQuick" aria-label="많이 보도된 국가"></div>
     </div>
     <div>
+      <section class="topstories" id="topStories" aria-labelledby="h-top" hidden>
+        <h3 id="h-top">여러 매체가 다룬 소식 <span class="note">최근 7일 · 언어가 달라도 같은 소식이면 묶음</span></h3>
+        <ol id="topList"></ol>
+      </section>
       <p class="resultline" id="newsResult" aria-live="polite"></p>
       <ol class="newslist" id="newsgrid"></ol>
       <button class="btn" type="button" id="moreNews">기사 더 보기</button>
