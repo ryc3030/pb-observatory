@@ -547,3 +547,6 @@ details.crow[open]>summary{background:var(--hover)}
 .topstories a{color:var(--ink);font-weight:700;font-size:15.5px;line-height:1.45}
 .topstories .meta{margin-top:2px}
 .topstories .srcs{font-size:12.5px;color:var(--muted)}
+/* 보도 확인: 신호색 도장, 고리는 점선(원문 확인 전) */
+.slot.rep{color:var(--signal)}
+.mk.rep{color:var(--signal)}

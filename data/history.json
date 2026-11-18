@@ -3,13 +3,14 @@
   "date": "2026-11-18",
   "countries": 92,
   "status": {
-   "monitoring": 67,
+   "monitoring": 62,
    "verified": 10,
-   "documented": 15
+   "documented": 15,
+   "reported": 5
   },
   "programs": 39,
-  "news_total": 529,
-  "news_30d": 529,
+  "news_total": 558,
+  "news_30d": 531,
   "countries_with_signal_30d": 30,
   "papers_total": 222
  }

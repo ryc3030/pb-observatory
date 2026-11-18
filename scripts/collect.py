@@ -12,7 +12,8 @@ GitHub Actions가 매일 실행합니다. 외부 패키지 없이 표준 라이�
   5) 출처 상태  : 소스별 성공/실패, 건수, 시각
   6) 외부 레지스트리 : Participedia(사례), Pabulib(투표 기록), Decidim GraphQL(공식 플랫폼 수치)
 
-원칙: 뉴스·논문·레지스트리 신호는 국가의 근거 상태(verified/documented/monitoring)를 자동으로 올리지 않습니다.
+원칙: 뉴스·논문·레지스트리 신호는 '공식·검증'(verified)·'문헌·플랫폼'(documented)으로 올리지 않습니다.
+최근 6개월 보도로 운영이 확인된 모니터링 국가만 '보도 확인'(reported)으로 따로 표시하고, 보도가 끊기면 되돌립니다.
 레지스트리에서 근거가 보이면 '검토 필요' 표시와 원장 기록만 남기고, 상태 변경은 사람이 seed 파일에서 합니다.
 """
 from __future__ import annotations
@@ -611,6 +612,35 @@ def collect_papers(health):
 
 
 # ---------------------------------------------------------------- 3) 국가 신호·4) 원장
+# 보도 확인: 정부 원문이 없어도 최근 6개월 보도로 운영이 확인되면 '보도 확인'(reported)으로 올린다.
+# 나라마다 참여예산 주기(공모·투표 시기)가 달라 6개월이면 한 주기 안의 흔적을 잡는다.
+# 조건: 국가 판정이 확실한 기사(제목·발행국·도메인·같은 소식)로
+#   (가) 매체 2곳 이상이 다룬 같은 소식이 하나 있거나 (나) 서로 다른 소식이 2건 이상.
+# 6개월 동안 조건을 채우지 못하면 다시 탐색 모니터링으로 내려간다. 공식·검증, 문헌·플랫폼은 건드리지 않는다.
+PRESS_DAYS = 183
+STRONG_BASIS = {"제목", "발행국", "도메인", "같은 소식"}
+
+
+def press_evidence(ns):
+    cut = (NOW - timedelta(days=PRESS_DAYS)).isoformat()
+    stories = {}
+    for x in ns:
+        if x["published_at"] < cut or x.get("iso_basis") not in STRONG_BASIS:
+            continue
+        stories.setdefault(x.get("story") or x["id"], []).append(x)
+    multi = [v for v in stories.values() if len({x["source"] for x in v}) >= 2]
+    confirmed = bool(multi) or len(stories) >= 2
+    ranked = sorted(stories.values(), key=lambda v: (len({x["source"] for x in v}), max(x["published_at"] for x in v)), reverse=True)
+    ev = []
+    for v in ranked[:3]:
+        top = max(v, key=lambda x: x["published_at"])
+        ev.append({"title": top.get("title_ko") or top["title"], "url": top["url"], "source": top["source"],
+                   "date": top["published_at"][:10], "outlets": len({x["source"] for x in v})})
+    return {"confirmed": confirmed, "stories": len(stories), "multi_outlet": len(multi),
+            "last": max((x["published_at"][:10] for v in stories.values() for x in v), default=None),
+            "window_days": PRESS_DAYS, "evidence": ev}
+
+
 def build_countries(seed, news, papers, ledger):
     cut30 = (NOW - timedelta(days=30)).isoformat()
     cut365 = (NOW - timedelta(days=365)).isoformat()
@@ -625,6 +655,20 @@ def build_countries(seed, news, papers, ledger):
         ns = sorted(by_iso.get(c["iso3"], []), key=lambda x: x["published_at"], reverse=True)
         latest = ns[0] if ns else None
         row = dict(c)
+        row["seed_status"] = c["tracking_status"]
+        row["press"] = press_evidence(ns)
+        if c["tracking_status"] == "monitoring" and row["press"]["confirmed"]:
+            row["tracking_status"] = "reported"
+        was = (prev.get(c["iso3"]) or {}).get("tracking_status")
+        if row["tracking_status"] == "reported" and was != "reported":
+            e = row["press"]["evidence"][0]
+            ledger.append({"key": f"reported:{c['iso3']}:{TODAY}", "date": TODAY, "iso3": c["iso3"], "type": "보도 확인",
+                           "label": c["name_ko"], "text": f"{c['name_ko']}: 최근 6개월 보도로 참여예산 운영 확인 — {e['title']}",
+                           "url": e["url"], "observed_at": e["date"]})
+        elif was == "reported" and row["tracking_status"] != "reported":
+            ledger.append({"key": f"unreported:{c['iso3']}:{TODAY}", "date": TODAY, "iso3": c["iso3"], "type": "보도 확인 해제",
+                           "label": c["name_ko"], "text": f"{c['name_ko']}: 최근 6개월 보도 근거가 부족해 탐색 모니터링으로 되돌림",
+                           "url": "", "observed_at": TODAY})
         row["news_30d"] = sum(1 for x in ns if x["published_at"] >= cut30)
         row["news_365d"] = sum(1 for x in ns if x["published_at"] >= cut365)
         row["latest_news"] = ({"title": latest.get("title_ko") or latest["title"], "title_original": latest["title"],

@@ -164,6 +164,36 @@
   "observed_at": "2026-11-17"
  },
  {
+  "key": "reported:LVA:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "LVA",
+  "type": "보도 확인",
+  "label": "라트비아",
+  "text": "라트비아: 최근 6개월 보도로 참여예산 운영 확인 — 리가시 참여예산 공모 투표에서 아겐스칼스, 플라브니에키, 사르칸다우가바 지역의 프로젝트가 선두를 달리고 있습니다.",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWW5ObElmSFNpWm9rSjdQUG9IQTVUcXB4MWNZaEViRDJsZmRiMXVnT0hNT3FlWHdXdXNhbzdGaGoxTTF0YWhsdDV6dkZhNWg1YXczaTd0TTdweDFoZkNPMkV6RXl4NnVIV3B3TXprdUNDWFJNaVpXNlVDamFJcGtYUUJ1c3REYW9jOGxzMVdqY0V6MS02NjRhWER0alhHa1RLQzR3bGpPMW03amJLcFFDNkhlUWhDbG1ZWWowRTVOWXc0Umk2Ul91UHZEOGhJZWFpOXBpbUNJUnhJUQ?oc=5",
+  "observed_at": "2026-11-17"
+ },
+ {
+  "key": "news:GBR:0a25db473d081d",
+  "date": "2026-11-18",
+  "iso3": "GBR",
+  "type": "뉴스 신호",
+  "label": "영국",
+  "text": "지방 거버넌스 개혁에 대한 의견을 공유할 기회",
+  "url": "https://www.pbscotland.scot/blog/2026/11/17/opportunity-to-share-your-views-on-local-governance-reforms",
+  "observed_at": "2026-11-17"
+ },
+ {
+  "key": "news:ARG:4e7e488792784f",
+  "date": "2026-11-18",
+  "iso3": "ARG",
+  "type": "뉴스 신호",
+  "label": "아르헨티나",
+  "text": "2026년 주민참여예산: 1~6구역 수혜자에게 자재 전달",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQVXl2dWhQUGZOQ1dHUXFTX0hyVXc1b3BSWUJKRnpzNExKZW1XNTJzOXVwUm9TWHBtS0tVQXVOcnBFWjB0OU9tMGxUdkQ1TFBZa01naGlUb29RT0dtdHpyRFRWejM1NFZpMy1vWnNqc3ZQaXVndzg3WHVfOVpiOXczX0ttTkYzRllLaUtVWHRscFJSZnBoalNKRmVLbkhGMzVyRzU0UGxraUZlb2NHd25Za0k2MA?oc=5",
+  "observed_at": "2026-11-17"
+ },
+ {
   "key": "news:CZE:08aeb2e9a0aac1",
   "date": "2026-11-18",
   "iso3": "CZE",
@@ -264,6 +294,16 @@
   "observed_at": "2026-11-15"
  },
  {
+  "key": "reported:LTU:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "LTU",
+  "type": "보도 확인",
+  "label": "리투아니아",
+  "text": "리투아니아: 최근 6개월 보도로 참여예산 운영 확인 — 참여 예산 이니셔티브: 당선된 아이디어가 발표되었습니다!",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNUZWc0tUZzA1Nm9kbW9xNXplSmZhRk1RWVJ3ZHJjYzRFOTQtWmZWV1M1dHpFdlAwdEppTTl2TTZESHNncWYyMkQ0ZC1DdjBnSW9oN3dKVWNxS1lNVnZDcXQ1bGpMUVZFNkhILTBMTXBneDNfU2JhVjI1VThtN0x3aDNCN28zTFVya2hGX21kLWEtMVFyT21nNHRqYkktbURpZFdPS0t2MnJrUGk5MDVBTGhOUUR6SHRxbmkzOXpFcTI0QjFCQ2dUQW9EZnd1Wld3bFE?oc=5",
+  "observed_at": "2026-11-15"
+ },
+ {
   "key": "news:FIN:5131cc8cb16a4b",
   "date": "2026-11-18",
   "iso3": "FIN",
@@ -351,6 +391,16 @@
   "label": "AEA Randomized Controlled Trials",
   "text": "Advancing Citizen Engagement in Kenyas Participatory Budgeting System: A Multi-County Field Experiment on Participation in County Budget Forums",
   "url": "https://doi.org/10.1257/rct.20241-1.0",
+  "observed_at": "2026-11-13"
+ },
+ {
+  "key": "reported:COL:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "COL",
+  "type": "보도 확인",
+  "label": "콜롬비아",
+  "text": "콜롬비아: 최근 6개월 보도로 참여예산 운영 확인 — 칼리는 고령자를 지원하고 돌봄 제공자를 강화하는 주민참여예산제를 추진하고 있습니다.",
+  "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObU02WmtETVZRUUZEbkpOR0ZiandGd0lBbGo2NURvQTFyVHBJZ0xiWU9mZHktd01KZXh1QkhVXzM1dmF4OEwzLW1TbUlSYXlBdFFfQUNmY19iRGFuWmNuWGxZVHVFdUVLSWVJMk1keG9NNkFzbm5rTzBfSGNIV0JWN1VrVWRuR0hVTU1yRzBfVkNGbF9HOGFlX2tMZ1ZwbWxJM3pSTWk0eVR6V2xycERKQllOam5jZU5qYjZBa2VtQ0JOanN3T0VPdkRiOVp2UVdpR1ZpRjBlS2JFcjFxT0JaUGt6eF9OZmZNSHhFNHNPLWJ0UmlBbm93WEZKUGFaUll4UVdTdHJFRURNUQ?oc=5",
   "observed_at": "2026-11-13"
  },
  {
@@ -494,6 +544,16 @@
   "observed_at": "2026-11-03"
  },
  {
+  "key": "reported:UKR:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "UKR",
+  "type": "보도 확인",
+  "label": "우크라이나",
+  "text": "우크라이나: 최근 6개월 보도로 참여예산 운영 확인 — 테르노필의 2027년 시민 예산: 포용적 공간 프로젝트",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQdi02T21jTjhGeUMyU05NM1JEdXMtNFZXZDNhRHNuQVM1bDBINHUzYjFSVEpCWGFrQV9wUmhRUTJQV0NiZ2ZnemFLcFV1RXNUMDE4X1NBUktMbVM3b2FqU2tBaFJHVUVBNWF6WktnZmtPZ2NrN3FCcmtmMnNVYy0ydW9iVQ?oc=5",
+  "observed_at": "2026-11-02"
+ },
+ {
   "key": "news:JPN:cd9d7778a094af",
   "date": "2026-11-18",
   "iso3": "JPN",
@@ -551,6 +611,16 @@
   "label": "African Journal of Law Political Research and Administration",
   "text": "Public Awareness and Participatory Budget-Making in Devolved Government: Evidence from Uriri Sub-County, Kenya",
   "url": "https://doi.org/10.52589/ajlpra-bcvsuo",
+  "observed_at": "2026-10-27"
+ },
+ {
+  "key": "reported:EST:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "EST",
+  "type": "보도 확인",
+  "label": "에스토니아",
+  "text": "에스토니아: 최근 6개월 보도로 참여예산 운영 확인 — 카발라와 튀리가 주민참여예산의 꽃을 꺾었습니다.",
+  "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVnltYzRVdHVwaHdDZWpQbFVEbTZaTE81MzZiSDhpRkpuNm5FOXV1Sm5LY0NHWHlFOHRGR0IwekZyaVc4NlhTWEw0ZWRBcXhZLWljZHJNWVVwazhWSGxWQjFQWnctaS1JcEo0Tld5TDlWc1VLOUprZS1VdS1CR1ZwUXJjUlppWmxBTFBHaTE4RXY?oc=5",
   "observed_at": "2026-10-27"
  },
  {

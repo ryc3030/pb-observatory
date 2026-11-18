@@ -25,6 +25,7 @@
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
     <symbol id="i-stamp" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M15 7.5v17M15.6 14.2l5.6 3.4" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-stamp-rep" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.6" stroke-dasharray="4 3"/><path d="M15 7.5v17M15.6 14.2l5.6 3.4" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></symbol>
     <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
     <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
     <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
@@ -84,6 +85,7 @@
         <ul class="legend" aria-label="지도 범례">
           <li><span class="mk seal"><svg aria-hidden="true"><use href="#i-stamp"/></svg></span>공식·검증</li>
           <li><span class="mk docu"><svg aria-hidden="true"><use href="#i-stamp"/></svg></span>문헌·플랫폼</li>
+          <li><span class="mk rep"><svg aria-hidden="true"><use href="#i-stamp-rep"/></svg></span>보도 확인</li>
           <li><span class="mk mon" aria-hidden="true"></span>탐색 모니터링</li>
           <li><span class="mk sig" aria-hidden="true"></span>30일 뉴스 신호</li>
         </ul>
@@ -108,7 +110,7 @@
 
   <ul class="principles" aria-label="관측 원칙">
     <li><b>필드 단위 출처</b>예산·참여자·단계·법적근거마다 원문 출처를 붙입니다.</li>
-    <li><b>자동값과 검증값 분리</b>뉴스·검색 결과는 근거 상태를 올리지 않습니다.</li>
+    <li><b>자동값과 검증값 분리</b>뉴스는 '공식·검증'이나 '문헌·플랫폼'으로 올리지 않습니다. 최근 6개월 보도로 운영이 확인된 나라만 '보도 확인'으로 따로 표시하고, 보도가 끊기면 되돌립니다.</li>
     <li><b>뉴스 신호 ≠ 전수 통계</b>기사 수는 관심의 신호일 뿐 시행 규모가 아닙니다.</li>
     <li><b>모르면 “확인 중”</b>원문으로 확인하기 전까지 수치를 채우지 않습니다.</li>
   </ul>
@@ -156,7 +158,7 @@
   </div>
   <div class="filterbar row" role="group" aria-label="국가 거르기">
     <label class="field"><span>지역</span><select id="region"><option value="all">전체 지역</option></select></label>
-    <label class="field"><span>근거 상태</span><select id="tracking"><option value="all">전체</option><option value="verified">공식·검증</option><option value="documented">문헌·플랫폼</option><option value="monitoring">탐색 모니터링</option><option value="review">검토 필요(레지스트리 근거)</option></select></label>
+    <label class="field"><span>근거 상태</span><select id="tracking"><option value="all">전체</option><option value="verified">공식·검증</option><option value="documented">문헌·플랫폼</option><option value="reported">보도 확인</option><option value="monitoring">탐색 모니터링</option><option value="review">검토 필요(레지스트리 근거)</option></select></label>
     <label class="field"><span>프로그램</span><select id="hasProgram"><option value="all">전체</option><option value="with">프로그램 있음</option><option value="without">아직 없음</option></select></label>
     <label class="field grow"><span>검색</span><input id="search" type="search" autocomplete="off" placeholder="국가·도시·프로그램 이름…"></label>
     <button class="btn ghost" type="button" id="openVerified">공식·검증 국가 펼치기</button>

@@ -111,12 +111,12 @@ const nf = new Intl.NumberFormat("ko-KR");
 let META = {}, countries = [], programs = [], news = [], papers = [], ledger = [], health = {}, snaps = [], refs = [], TL = { eras: [], items: [] };
 let cases = [], units = [];
 let byISO = {};
-const ORDER = ["verified", "documented", "monitoring"];
-const statusName = { verified: "공식·검증", documented: "문헌·플랫폼", monitoring: "탐색 모니터링" };
-const statusHelp = { verified: "정부·공식 기관 원문으로 확인", documented: "연구·국제 플랫폼 문헌으로 확인", monitoring: "근거 탐색 중, 신호만 관측" };
+const ORDER = ["verified", "documented", "reported", "monitoring"];
+const statusName = { verified: "공식·검증", documented: "문헌·플랫폼", reported: "보도 확인", monitoring: "탐색 모니터링" };
+const statusHelp = { verified: "정부·공식 기관 원문으로 확인", documented: "연구·국제 플랫폼 문헌으로 확인", reported: "최근 6개월 보도로 운영 확인", monitoring: "근거 탐색 중, 신호만 관측" };
 const status = (c) => c.tracking_status || "monitoring";
-const slotCls = { verified: "seal", documented: "docu", monitoring: "mon" };
-const slot = (st, label) => `<span class="slot ${slotCls[st] || "mon"}" role="img" aria-label="근거 상태: ${esc(label || statusName[st])}">${st === "monitoring" ? "" : svg("stamp")}</span>`;
+const slotCls = { verified: "seal", documented: "docu", reported: "rep", monitoring: "mon" };
+const slot = (st, label) => `<span class="slot ${slotCls[st] || "mon"}" role="img" aria-label="근거 상태: ${esc(label || statusName[st])}">${st === "monitoring" ? "" : svg(st === "reported" ? "stamp-rep" : "stamp")}</span>`;
 const LANG_KO = { en: "영어", es: "스페인어", pt: "포르투갈어", fr: "프랑스어", de: "독일어", it: "이탈리아어", pl: "폴란드어", ko: "한국어", ja: "일본어", zh: "중국어", ru: "러시아어", uk: "우크라이나어", cs: "체코어", sk: "슬로바키아어", ro: "루마니아어", nl: "네덜란드어", fi: "핀란드어", sv: "스웨덴어", lt: "리투아니아어", lv: "라트비아어", et: "에스토니아어", hr: "크로아티아어", id: "인도네시아어", tr: "터키어" };
 const EXTRA_KO = { RUS: "러시아", TWN: "대만", TUR: "튀르키예" };
 
@@ -228,7 +228,7 @@ function setupShell() {
 
 /* ---------- 근거 집계 용지 ---------- */
 function renderBallot() {
-  const cnt = { verified: 0, documented: 0, monitoring: 0 };
+  const cnt = { verified: 0, documented: 0, reported: 0, monitoring: 0 };
   countries.forEach((c) => cnt[status(c)]++);
   $("#pulseNum").textContent = countries.length;
   $("#statusRows").innerHTML = ORDER.map((k, i) => `<li><button class="brow" type="button" data-status="${k}" aria-label="${statusName[k]} ${cnt[k]}개국 — 국가·프로그램 표에서 보기">
@@ -264,7 +264,7 @@ function features() {
 }
 function stampImage(kind, css) {
   const sz = 44, c = document.createElement("canvas"); c.width = c.height = sz;
-  const g = c.getContext("2d"), col = kind === "seal" ? css.seal : kind === "docu" ? css.ink : css.mut;
+  const g = c.getContext("2d"), col = kind === "seal" ? css.seal : kind === "docu" ? css.ink : kind === "rep" ? css.sig : css.mut;
   g.lineCap = "round";
   if (kind === "mon") {
     g.setLineDash([3, 2.5]); g.strokeStyle = col; g.lineWidth = 1.6; g.fillStyle = css.paper; g.fillRect(11, 11, 22, 22); g.strokeRect(11, 11, 22, 22);
@@ -272,7 +272,9 @@ function stampImage(kind, css) {
     if (kind === "seal") { g.fillStyle = css.paper; g.beginPath(); g.arc(22, 22, 16, 0, 7); g.fill(); }
     else { g.fillStyle = css.paper; g.beginPath(); g.arc(22, 22, 15, 0, 7); g.fill(); }
     g.strokeStyle = col; g.lineWidth = kind === "seal" ? 3.6 : 2.6;
+    if (kind === "rep") g.setLineDash([4, 3]);
     g.beginPath(); g.arc(22, 22, kind === "seal" ? 15 : 13, 0, 7); g.stroke();
+    g.setLineDash([]);
     g.lineWidth = kind === "seal" ? 3.8 : 2.8;
     g.beginPath(); g.moveTo(20.5, 12); g.lineTo(20.5, 32); g.moveTo(21.5, 20.5); g.lineTo(28, 24.5); g.stroke();
   }
@@ -281,7 +283,7 @@ function stampImage(kind, css) {
 function addMapLayers() {
   const cs = getComputedStyle(document.documentElement), v = (n) => cs.getPropertyValue(n).trim();
   const css = { seal: v("--seal"), ink: v("--docu"), sig: v("--signal"), mut: v("--muted"), paper: v("--paper") };
-  ["seal", "docu", "mon"].forEach((k) => { if (!evMap.hasImage("st-" + k)) evMap.addImage("st-" + k, stampImage(k, css), { pixelRatio: 2 }); });
+  ["seal", "docu", "rep", "mon"].forEach((k) => { if (!evMap.hasImage("st-" + k)) evMap.addImage("st-" + k, stampImage(k, css), { pixelRatio: 2 }); });
   if (evMap.getSource("pb")) return;
   evMap.addSource("pb", { type: "geojson", data: features() });
   // 신호 층은 도장 층 아래에, 얇고 옅게 — 근거 표시를 덮지 않는다
@@ -289,10 +291,10 @@ function addMapLayers() {
     paint: { "circle-radius": ["+", 13, ["min", 7, ["*", 0.25, ["get", "news30"]]]], "circle-color": "rgba(0,0,0,0)",
       "circle-stroke-width": 1.2, "circle-stroke-color": css.sig, "circle-stroke-opacity": 0.7 } });
   evMap.addLayer({ id: "pb-country", type: "symbol", source: "pb",
-    layout: { "icon-image": ["match", ["get", "status"], "verified", "st-seal", "documented", "st-docu", "st-mon"],
+    layout: { "icon-image": ["match", ["get", "status"], "verified", "st-seal", "documented", "st-docu", "reported", "st-rep", "st-mon"],
       "icon-size": ["interpolate", ["linear"], ["zoom"], 0.5, ["match", ["get", "status"], "monitoring", 1, 1.2], 4, ["match", ["get", "status"], "monitoring", 1.3, 1.6]],
       "icon-allow-overlap": true, "icon-ignore-placement": true,
-      "symbol-sort-key": ["match", ["get", "status"], "verified", 3, "documented", 2, 1], "icon-rotate": -6 } });
+      "symbol-sort-key": ["match", ["get", "status"], "verified", 4, "documented", 3, "reported", 2, 1], "icon-rotate": -6 } });
 }
 function renderMap() {
   if (!window.maplibregl) {
@@ -462,6 +464,7 @@ function renderTree(press = false) {
       <li>${svg("sq", "mk2")}<span><b>기준 근거</b> ${esc(c.base_signal || "—")}${c.primary_source ? ` · <a class="src" href="${esc(c.primary_source)}" target="_blank" rel="noopener">출처</a>` : ""}${c.base_signal_date ? ` <span class="note">(${esc(c.base_signal_date)})</span>` : ""}</span></li>
       ${ln ? `<li>${svg("ci", "mk2")}<span><b>최근 뉴스 신호</b> <a href="${esc(ln.url)}" target="_blank" rel="noopener">${esc(ln.title)}</a> <span class="note">${esc(ln.source)} · ${esc(ln.date)}</span></span></li>` : ""}
       <li>${svg("ci", "mk2")}<span><b>신호 집계</b> 최근 30일 기사 ${c.news_30d || 0}건 · 1년 ${c.news_365d || 0}건</span></li>
+      ${pressLine(c)}
       ${registryLine(c)}</ul>`;
     return `<details class="crow" data-status="${status(c)}" data-iso="${c.iso3}">
       <summary><span class="no">${i + 1}</span>
@@ -491,6 +494,17 @@ function renderProgram(p) {
     ${p.cases?.length ? `<div class="relnews cases"><span class="note">Participedia 사례</span>${p.cases.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("")}</div>` : ""}
     ${rel ? `<div class="relnews"><span class="note">관련 신호</span>${rel}</div>` : ""}
     <footer><span>${esc(sourceName(p.source_type))}${p.last_verified ? " · " + esc(p.last_verified) + " 확인" : " · 확인일 미기재"}</span>${p.primary_url ? `<a href="${esc(p.primary_url)}" target="_blank" rel="noopener">출처 ${svg("out")}</a>` : ""}</footer></article>`;
+}
+
+/* ---------- 보도 확인 근거 ---------- */
+function pressLine(c) {
+  const p = c.press;
+  if (!p || !p.stories || c.seed_status !== "monitoring") return "";
+  const ev = (p.evidence || []).map((e) => `<a href="${esc(e.url)}" target="_blank" rel="noopener">${esc(e.title)}</a> <span class="note">${esc(e.source)}${e.outlets > 1 ? ` 외 ${e.outlets - 1}곳` : ""} · ${esc(e.date)}</span>`).join("<br>");
+  const head = p.confirmed
+    ? `<b>보도 확인</b> 최근 6개월 소식 ${p.stories}건${p.multi_outlet ? `(여러 매체가 다룬 소식 ${p.multi_outlet}건)` : ""} · 정부 원문은 아직 확인 전`
+    : `<b>보도 흔적</b> 최근 6개월 소식 1건 · 다른 소식이 한 건 더 나오거나 다른 매체가 같은 소식을 다루면 '보도 확인'으로 올라갑니다`;
+  return `<li>${svg("ci", "mk2")}<span>${head}${ev ? `<br>${ev}` : ""}</span></li>`;
 }
 
 /* ---------- 외부 레지스트리 근거 ---------- */
@@ -700,7 +714,7 @@ function renderAnalytics() {
   groups.push(["관할 단위", Object.entries(lv).sort((a, b) => b[1] - a[1]).slice(0, 6).map(([k, v]) => [levelName(k), v])]);
   const rc = {}, ra = {};
   countries.forEach((c) => { rc[c.region] = (rc[c.region] || 0) + 1; if (status(c) !== "monitoring") ra[c.region] = (ra[c.region] || 0) + 1; });
-  groups.push(["지역별 근거 확보 (공식·문헌 / 추적 국가)", Object.entries(rc).sort((a, b) => (ra[b[0]] || 0) - (ra[a[0]] || 0)).map(([r, v]) => [regionName(r), ra[r] || 0, v])]);
+  groups.push(["지역별 근거 확보 (공식·문헌·보도 / 추적 국가)", Object.entries(rc).sort((a, b) => (ra[b[0]] || 0) - (ra[a[0]] || 0)).map(([r, v]) => [regionName(r), ra[r] || 0, v])]);
   const cap = $("#tally caption").outerHTML;
   $("#tally").innerHTML = cap + groups.map(([title, rows]) => {
     const max = Math.max(1, ...rows.map((r) => r[2] || r[1]));
