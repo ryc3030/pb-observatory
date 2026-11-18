@@ -2,80 +2,615 @@
  "note": "사람이 검토해 쓰는 참여예산 연표. 각 항목은 sources의 원문으로 확인한 내용만 적는다. 2007년까지는 세계은행 『Participatory Budgeting』(Shah 편, 2007, CC BY 3.0 IGO)을 기준으로 했다.",
  "updated": "2026-11-18",
  "eras": [
-  {"id": "origin", "label": "기원", "span": "1970년대 말 – 1990", "summary": "브라질 민주화 과정에서 시정부가 예산을 시민 앞에 내놓기 시작했다. 포르투알레그리 이전에도 비슷한 실험이 여러 곳에 있었다."},
-  {"id": "spread", "label": "확산", "span": "1990 – 2007", "summary": "브라질 노동자당 도시와 중남미로 퍼진 뒤, 국제기구의 권고와 국가 법률을 타고 동유럽·아시아·아프리카까지 넓어졌다."},
-  {"id": "institution", "label": "제도화", "span": "2008 – 2018", "summary": "유럽·북미 대도시와 한국이 도입했고, 지방 의무화(한국 2011, 폴란드 2018)와 국가 단위 참여예산(포르투갈 2017, 한국 2018)이 등장했다."},
-  {"id": "now", "label": "현재", "span": "2019 –", "summary": "세계 1만 1천여 건으로 늘었지만, 발상지 포르투알레그리처럼 정권 교체에 따라 축소·중단되는 곳도 생겼다."}
+  {
+   "id": "origin",
+   "label": "기원",
+   "span": "1970년대 말 – 1990",
+   "summary": "브라질 민주화 과정에서 시정부가 예산을 시민 앞에 내놓기 시작했다. 포르투알레그리 이전에도 비슷한 실험이 여러 곳에 있었다."
+  },
+  {
+   "id": "spread",
+   "label": "확산",
+   "span": "1990 – 2007",
+   "summary": "브라질 노동자당 도시와 중남미로 퍼진 뒤, 국제기구의 권고와 국가 법률을 타고 동유럽·아시아·아프리카까지 넓어졌다."
+  },
+  {
+   "id": "institution",
+   "label": "제도화",
+   "span": "2008 – 2018",
+   "summary": "유럽·북미 대도시와 한국이 도입했고, 지방 의무화(한국 2011, 폴란드 2018)와 국가 단위 참여예산(포르투갈 2017, 한국 2018)이 등장했다."
+  },
+  {
+   "id": "now",
+   "label": "현재",
+   "span": "2019 –",
+   "summary": "세계 1만 1천여 건으로 늘었지만, 발상지 포르투알레그리처럼 정권 교체에 따라 축소·중단되는 곳도 생겼다."
+  }
  ],
  "items": [
-  {"era": "origin", "year": "1970년대 말–1980년대 초", "iso3": "BRA", "title": "브라질 소도시들의 예산 공개 토론",
+  {
+   "era": "origin",
+   "year": "1970년대 말–1980년대 초",
+   "iso3": "BRA",
+   "title": "브라질 소도시들의 예산 공개 토론",
    "body": "브라질민주운동당(MDB)이 집권한 라제스, 보아에스페란사, 펠로타스 시정부가 예산안을 시민 토론에 부쳤다. 펠로타스 전 시장은 자신이 참여예산을 처음 만들었다고 주장한다. 그래서 '1989년 포르투알레그리 기원설'은 단순화된 설명이라는 지적이 있다.",
-   "sources": [{"label": "Goldfrank, 'Lessons from Latin America's Experience with PB', Shah 편(2007) 3장 92–93쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "origin", "year": "1988", "iso3": "BRA", "title": "노동자당, 포르투알레그리 시장 선거 승리",
+   "sources": [
+    {
+     "label": "Goldfrank, 'Lessons from Latin America's Experience with PB', Shah 편(2007) 3장 92–93쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "origin",
+   "year": "1988",
+   "iso3": "BRA",
+   "title": "노동자당, 포르투알레그리 시장 선거 승리",
    "body": "군부독재(1964–85) 말기에 창당한 노동자당(PT)이 '참여 민주주의'와 '지출 우선순위 역전'을 공약으로 내걸고 이겼다. 수십 년간 중산층 이상 동네에 몰리던 공공지출을 가난한 동네로 돌리겠다는 뜻이었다. 같은 선거에서 노동자당이 이긴 36개 시 가운데 이핑가, 산투안드레, 산투스 등도 시민 예산위원회를 시도했다.",
-   "sources": [{"label": "Wampler, 'A Guide to Participatory Budgeting', Shah 편(2007) 1장 23쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}, {"label": "Goldfrank, Shah 편(2007) 3장 92쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "origin", "year": "1989", "iso3": "BRA", "title": "포르투알레그리 참여예산 시작",
+   "sources": [
+    {
+     "label": "Wampler, 'A Guide to Participatory Budgeting', Shah 편(2007) 1장 23쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    },
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 92쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "origin",
+   "year": "1989",
+   "iso3": "BRA",
+   "title": "포르투알레그리 참여예산 시작",
    "body": "파산 상태의 재정과 흐트러진 관료조직을 물려받은 새 시정부가 시민이 예산에 직접 관여하는 방식을 시험하면서 시작됐다. 설계는 시정부만이 아니라 지역 주민회 연합과 함께 만들었다. 주민회 연합은 그 전에 이미 예산 참여를 요구하는 보고서를 냈다. 같은 무렵 베네수엘라 시우다드과야나·카라카스와 우루과이 몬테비데오의 좌파 시정부도 비슷한 제도를 운영했다.",
-   "sources": [{"label": "Wampler, Shah 편(2007) 1장 23–24쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}, {"label": "Goldfrank, Shah 편(2007) 3장 93쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "origin", "year": "1990", "iso3": "BRA", "title": "'참여예산'이라는 이름이 붙다",
+   "sources": [
+    {
+     "label": "Wampler, Shah 편(2007) 1장 23–24쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    },
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 93쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "origin",
+   "year": "1990",
+   "iso3": "BRA",
+   "title": "'참여예산'이라는 이름이 붙다",
    "body": "포르투알레그리의 절차에 '참여예산(orçamento participativo)'이라는 이름이 붙은 것은 1990년이다. 1989–90년 첫 두 해 참여자는 1천 명이 안 됐다.",
-   "sources": [{"label": "Goldfrank, Shah 편(2007) 3장 93쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}, {"label": "Wampler, Shah 편(2007) 1장 24쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "spread", "year": "1992", "iso3": "BRA", "title": "참여자 8천 명, 재선 뒤 연 2만 명 이상",
-   "body": "1992년 참여자가 8천 명 가까이로 늘었다. 노동자당이 재선에 성공한 뒤로는 해마다 2만 명 넘게 참여했다. 시민들이 이곳이 실제로 예산이 결정되는 자리라는 것을 알게 되면서 참여가 커졌다.",
-   "sources": [{"label": "Wampler, Shah 편(2007) 1장 24쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "spread", "year": "1994", "iso3": "BOL", "title": "볼리비아 '대중참여법'",
+   "sources": [
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 93쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    },
+    {
+     "label": "Wampler, Shah 편(2007) 1장 24쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1990–2003",
+   "iso3": "BRA",
+   "title": "포르투알레그리 참여자: 976명 → 2만 8,549명",
+   "viz": "poa",
+   "body": "첫해 976명이던 참여자는 1992년 7,610명, 1993년 1만 명을 넘었다. 2002년에는 2만 8,549명이 됐다. 같은 기간 레시페(2003년 6만 9,500명), 상파울루(2003년 8만 명) 같은 대도시도 큰 규모의 참여를 끌어냈다. 다만 참여자는 대체로 인구의 1–4%에 그쳤다.",
+   "sources": [
+    {
+     "label": "Wampler, Shah 편(2007) 1장 32–33쪽 표 1.5",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1991",
+   "iso3": "PHL",
+   "title": "필리핀 '지방정부법', 개발위원회 4분의 1을 시민단체에",
+   "body": "권한을 지방으로 넘긴 지방정부법이 제정됐다. 지역 개발위원회 의석의 최소 4분의 1을 NGO에 배정하도록 바뀌었다. 이 위원회는 지역 정책과 예산계획을 정하는 핵심 기구다. 나가시는 시민단체 인증, 다단계 협의, 시 전역 주민투표, 기업·NGO로 구성된 '나가시 민중위원회'를 갖춰 의회 예산 심의에 참여시켰다.",
+   "sources": [
+    {
+     "label": "Shah 편(2007), Overview 14쪽(Brillantes 사례 요약)",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1993",
+   "iso3": "ZAF",
+   "title": "남아공, 새 헌법과 지방자치법에 주민 참여를 새기다",
+   "body": "1993년 헌법에 이어 1998년 지방구조법, 2000년 지방시스템법, 2003년 지방재정관리법이 주민 참여 장치를 규정했다. 핵심은 선거구(ward)마다 두는 주민위원회다. 망가웅 시는 2004년 처음으로 예산 회의를 열어 개발계획과 예산을 맞췄다. 다만 284개 지자체마다 운영 수준 차이가 컸다.",
+   "sources": [
+    {
+     "label": "Shah 편(2007), Overview 16–17쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    },
+    {
+     "label": "Shall, Shah 편(2007) 6장 200쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1994",
+   "iso3": "BOL",
+   "title": "볼리비아 '대중참여법'",
    "body": "산체스 데로사다 대통령이 추진한 대중참여법이 지방 예산에 주민 참여를 넣었다. 이후 중남미의 참여예산은 좌파 시정부의 실험만이 아니라, 중도·우파 정부가 국가 법률로 만든 제도로도 퍼졌다. 니카라과 1990년대 말 지방개혁, 과테말라 1996년 평화협정과 2002년 법제화가 그 예다.",
-   "sources": [{"label": "Goldfrank, Shah 편(2007) 3장 93–94쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "spread", "year": "1996", "iso3": null, "title": "유엔 해비타트 II, 포르투알레그리를 모범사례로 선정",
+   "sources": [
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 93–94쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1996",
+   "iso3": null,
+   "title": "유엔 해비타트 II, 포르투알레그리를 모범사례로 선정",
    "body": "이스탄불에서 열린 유엔 해비타트 II 회의가 포르투알레그리 참여예산을 도시 거버넌스 모범사례 42개 가운데 하나로 꼽았다. 이후 중남미 지방정부의 도입이 특히 빨라졌다.",
-   "sources": [{"label": "Goldfrank, Shah 편(2007) 3장 93쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "spread", "year": "2000", "iso3": null, "title": "채무 탕감 조건이 된 주민 참여",
+   "sources": [
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 93쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1996–1998",
+   "iso3": "BRA",
+   "title": "주민 1인당 참여예산: 포르투알레그리 201달러, 레시페 11달러",
+   "viz": "percap",
+   "body": "예산 규모가 가장 작았던 포르투알레그리가 1인당 참여예산은 가장 많았다(201달러). 벨루오리존치는 42달러, 레시페는 11달러였다. 포르투알레그리는 결정된 사업을 거의 100% 이행했지만, 레시페는 제안 금액의 10%도 쓰지 못했다. 포르투알레그리의 참여예산 투자는 가난한 권역에 더 많이 배분된 것으로 분석됐다.",
+   "sources": [
+    {
+     "label": "Wampler, Shah 편(2007) 1장 34–36쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1997–2000",
+   "iso3": "BRA",
+   "title": "브라질 140개 도시로 — 그러나 28%는 중단",
+   "body": "1997–2000년 브라질에서 참여예산을 운영한 도시는 140곳이었다. 그 가운데 73곳은 노동자당, 33곳은 다른 좌파 정당 시장이었다. 국가 법으로 강제하지 않은 탓에, 103개 도시를 조사한 연구에서는 28%가 같은 시정부나 다음 시정부에서 중단됐다. 가난한 어촌 이카푸이 시장은 매달 세입·세출을 자기 집 벽에 페인트로 써서 공개했다.",
+   "sources": [
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 101–103쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1998",
+   "iso3": "POL",
+   "title": "폴란드 즈볼렌의 '투자 제안 카드'",
+   "body": "인구 1만 7천 명의 소도시 즈볼렌이 시장 주도로 시민이 전 단계에 참여하는 다년도 투자계획을 만들었다. 시는 '투자 제안 카드'를 널리 나눠 주민 우선순위를 받았다. 경제 개선·일자리·세입 증대라는 평가 기준과 일정을 미리 공개했다. 최종안은 이행위원회, 시 집행부, 시의회 순으로 승인됐다.",
+   "sources": [
+    {
+     "label": "Fölscher, Shah 편(2007) 4장 138–139쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "1998",
+   "iso3": null,
+   "title": "러시아 상트페테르부르크 등 9개 도시, 예산 투명성 운동",
+   "body": "NGO '첸트르 스트라테기야'가 상트페테르부르크와 다른 8개 도시에서 시 예산 투명성을 조사하고 시민 참여 장치를 연구하기 시작했다. 2002년에는 시정부와 함께 참여 장치를 만드는 단계로 넓혔다. 중·동유럽에서는 이처럼 정부 바깥의 시민단체나 국제기구가 먼저 시작한 경우가 많았다.",
+   "sources": [
+    {
+     "label": "Fölscher, Shah 편(2007) 4장 136–137쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "2000",
+   "iso3": null,
+   "title": "채무 탕감 조건이 된 주민 참여",
    "body": "고채무빈국 채무 탕감(HIPC II) 자금을 받으려면 시민 참여를 갖춰야 했다. 이 조건이 볼리비아·니카라과·과테말라에서 참여 법률의 실제 이행을 재촉한 것으로 보인다.",
-   "sources": [{"label": "Goldfrank, Shah 편(2007) 3장 94쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "spread", "year": "2003", "iso3": "PER", "title": "페루 '참여예산기본법'(법률 제28056호)",
-   "body": "'참여예산'이라는 이름을 법률에 그대로 쓴 국가 법이다. 중도좌파 톨레도 정부가 추진했다. 지금도 페루 지방정부 참여예산의 근거다.",
-   "sources": [{"label": "Goldfrank, Shah 편(2007) 3장 94쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "spread", "year": "2003", "iso3": "KOR", "title": "한국 첫 주민참여예산 — 광주 북구",
+   "sources": [
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 94쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "2000",
+   "iso3": "ROU",
+   "title": "루마니아 브라쇼브, 50명에서 600명으로",
+   "body": "인구 35만의 브라쇼브가 처음 연 예산 공청회에는 50명도 오지 않았다. 이듬해에는 600명으로 늘었고 교통·교육 분야 시민자문단과 시민정보센터가 생겼다. 센터는 35개 동네 위원회가 자본예산 집행을 감시하도록 도왔다. 같은 해 우크라이나 테르노필과 이바노프란키우스크에서는 시민단체가 공공서비스 '시민 성적표'를 시작했다.",
+   "sources": [
+    {
+     "label": "Fölscher, Shah 편(2007) 4장 137·139–140쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "2003",
+   "iso3": "PER",
+   "title": "페루 '참여예산기본법'(법률 제28056호)",
+   "body": "'참여예산'이라는 이름을 법률에 그대로 쓴 국가 법이다. 중도좌파 톨레도 정부가 추진했다. 다만 참여예산 조정위원회 위원의 60%를 공무원으로 채우도록 해서, 브라질식 주민 총회보다 공무원 주도의 협의 기구에 가깝다는 평가를 받았다. 지금도 페루 지방정부 참여예산의 근거다.",
+   "sources": [
+    {
+     "label": "Goldfrank, Shah 편(2007) 3장 94·102쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "2003",
+   "iso3": "KOR",
+   "title": "한국 첫 주민참여예산 — 광주 북구",
    "body": "광주광역시 북구가 전국 지방자치단체 가운데 처음으로 주민참여예산제를 도입했다. 이듬해 울산 동구와 북구가 뒤따랐다. 같은 해 정부는 지자체 예산편성 기준으로 '주민참여형 예산편성'을 권장했다. 브라질 사례는 2002년 지방선거 공약을 통해 국내에 본격 소개됐다.",
-   "sources": [{"label": "국민일보(2009) — 광주 북구 최초 도입", "url": "https://www.kukinews.com/article/view/kuk200908250050"}, {"label": "프레시안 — 2003 광주 북구, 2004 울산 동·북구", "url": "https://pressian.com/pages/articles/67221"}, {"label": "한국지방행정연구원 — 도입 경과", "url": "https://krila.re.kr/download/review/681"}]},
-  {"era": "spread", "year": "2005", "iso3": "KOR", "title": "지방재정법에 주민참여예산 근거 마련",
+   "sources": [
+    {
+     "label": "국민일보(2009) — 광주 북구 최초 도입",
+     "url": "https://www.kukinews.com/article/view/kuk200908250050"
+    },
+    {
+     "label": "프레시안 — 2003 광주 북구, 2004 울산 동·북구",
+     "url": "https://pressian.com/pages/articles/67221"
+    },
+    {
+     "label": "한국지방행정연구원 — 도입 경과",
+     "url": "https://krila.re.kr/download/review/681"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "2005",
+   "iso3": "KOR",
+   "title": "지방재정법에 주민참여예산 근거 마련",
    "body": "지방재정법 개정으로 지자체가 조례로 주민참여예산을 둘 수 있는 법적 근거가 생겼다. 다만 시행 여부는 지자체가 고르는 임의규정이었다. 2006년에는 표준조례안이 배포됐다.",
-   "sources": [{"label": "한국지방행정연구원 — 2005년 8월 법적 근거, 2011년 3월 의무화", "url": "https://krila.re.kr/download/focus/117"}, {"label": "한국지방행정연구원 — 2006 표준조례안", "url": "https://krila.re.kr/download/review/681"}]},
-  {"era": "spread", "year": "2007", "iso3": null, "title": "세계은행, 『Participatory Budgeting』 출간",
+   "sources": [
+    {
+     "label": "한국지방행정연구원 — 2005년 8월 법적 근거, 2011년 3월 의무화",
+     "url": "https://krila.re.kr/download/focus/117"
+    },
+    {
+     "label": "한국지방행정연구원 — 2006 표준조례안",
+     "url": "https://krila.re.kr/download/review/681"
+    }
+   ]
+  },
+  {
+   "era": "spread",
+   "year": "2007",
+   "iso3": null,
+   "title": "세계은행, 『Participatory Budgeting』 출간",
    "body": "세계은행이 공공부문 거버넌스 총서로 각 지역의 참여예산 경험을 정리했다. 다룬 지역은 중남미, 중·동유럽(알바니아·불가리아·폴란드·우크라이나 등), 아시아(인도·인도네시아·필리핀 등), 사하라 이남 아프리카(케냐·남아공·우간다 등), 중동·북아프리카다. 중·동유럽에서는 대부분 개발기구와 국제 NGO가 도입을 이끌었다고 평가했다.",
-   "sources": [{"label": "Shah 편(2007), Overview 6–10쪽", "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"}]},
-  {"era": "institution", "year": "2009", "iso3": "USA", "title": "미국 첫 참여예산 — 시카고 49선거구",
+   "sources": [
+    {
+     "label": "Shah 편(2007), Overview 6–10쪽",
+     "url": "https://openknowledge.worldbank.org/entities/publication/873a7bb8-8cde-591c-9ff0-4ea66fcc298b"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2009",
+   "iso3": "USA",
+   "title": "미국 첫 참여예산 — 시카고 49선거구",
    "body": "조 무어 시의원이 선거구 몫 자본예산 약 130만 달러의 용처를 주민 투표에 맡겼다. 미국에서 처음 기록된 참여예산이다. 2011년 뉴욕시 시의원 선거구들이 뒤따랐다.",
-   "sources": [{"label": "NPR(2012) — Chicago Ward Gives Budgetary Power To The People", "url": "https://www.npr.org/transcripts/153747108"}, {"label": "UIC Great Cities Institute — PB Chicago", "url": "https://greatcities.uic.edu/?p=239"}]},
-  {"era": "institution", "year": "2009", "iso3": "PRT", "title": "리스본, 유럽 수도 첫 참여예산",
+   "sources": [
+    {
+     "label": "NPR(2012) — Chicago Ward Gives Budgetary Power To The People",
+     "url": "https://www.npr.org/transcripts/153747108"
+    },
+    {
+     "label": "UIC Great Cities Institute — PB Chicago",
+     "url": "https://greatcities.uic.edu/?p=239"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2009",
+   "iso3": "PRT",
+   "title": "리스본, 유럽 수도 첫 참여예산",
    "body": "포르투갈은 2002년 팔멜라에서 시작해, 2009년 리스본이 유럽 수도 가운데 처음으로 참여예산을 도입했다.",
-   "sources": [{"label": "Dias 외(2019) 인용 논문(CORE)", "url": "https://core.ac.uk/download/480137953.pdf"}]},
-  {"era": "institution", "year": "2011", "iso3": "KOR", "title": "한국, 모든 지자체에 주민참여예산 의무화",
+   "sources": [
+    {
+     "label": "Dias 외(2019) 인용 논문(CORE)",
+     "url": "https://core.ac.uk/download/480137953.pdf"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2011",
+   "iso3": "KOR",
+   "title": "한국, 모든 지자체에 주민참여예산 의무화",
    "body": "2011년 3월 지방재정법이 개정돼 같은 해 9월부터 모든 지방자치단체가 주민참여예산제를 운영하도록 바뀌었다. 의무화 전인 2010년에도 102개 지자체가 이미 시행하고 있었다.",
-   "sources": [{"label": "한국지방행정연구원 — 2011년 3월 의무 규정 신설", "url": "https://krila.re.kr/download/focus/117"}, {"label": "프레시안 — 2010년 102개 지자체", "url": "https://pressian.com/pages/articles/67221"}]},
-  {"era": "institution", "year": "2011", "iso3": "POL", "title": "폴란드 첫 시민예산 — 소폿",
+   "sources": [
+    {
+     "label": "한국지방행정연구원 — 2011년 3월 의무 규정 신설",
+     "url": "https://krila.re.kr/download/focus/117"
+    },
+    {
+     "label": "프레시안 — 2010년 102개 지자체",
+     "url": "https://pressian.com/pages/articles/67221"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2011",
+   "iso3": "POL",
+   "title": "폴란드 첫 시민예산 — 소폿",
    "body": "소도시 소폿이 시민예산(budżet obywatelski)을 처음 운영했다. 이후 다른 도시들이 법률 근거 없이 지방자치법의 '주민 협의' 조항을 빌려 잇따라 도입했다.",
-   "sources": [{"label": "Kozłowski 외(2020), 폴란드 첫 시민예산 연구", "url": "https://ideas.repec.org/a/vrs/njopap/v13y2020i1p61-79n3.html"}, {"label": "Horyzonty Polityki — 2011년부터 운영", "url": "https://horyzontypolityki.ignatianum.edu.pl/HP/article/download/2473/2296"}]},
-  {"era": "institution", "year": "2014", "iso3": "FRA", "title": "파리, 투자예산의 5%를 시민 투표로",
+   "sources": [
+    {
+     "label": "Kozłowski 외(2020), 폴란드 첫 시민예산 연구",
+     "url": "https://ideas.repec.org/a/vrs/njopap/v13y2020i1p61-79n3.html"
+    },
+    {
+     "label": "Horyzonty Polityki — 2011년부터 운영",
+     "url": "https://horyzontypolityki.ignatianum.edu.pl/HP/article/download/2473/2296"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2014",
+   "iso3": "FRA",
+   "title": "파리, 투자예산의 5%를 시민 투표로",
    "body": "안 이달고 시장이 임기(2014–2020) 동안 시 투자예산의 5%, 모두 4억 2,600만 유로를 시민 투표에 맡기겠다고 했다. 첫해에는 시가 내놓은 15개 사업을 두고 시민들이 투표했다.",
-   "sources": [{"label": "파리시장 의회 연설(2014.11.17)", "url": "https://cdn.paris.fr/paris/2020/02/26/e83d176f0e2f815a7baff2cf9a66e87c.ai"}, {"label": "OIDP 사례 — 파리 참여예산", "url": "https://oidp.net/en/practice.php?id=427"}]},
-  {"era": "institution", "year": "2017", "iso3": "PRT", "title": "포르투갈, 세계 첫 국가 단위 참여예산",
+   "sources": [
+    {
+     "label": "파리시장 의회 연설(2014.11.17)",
+     "url": "https://cdn.paris.fr/paris/2020/02/26/e83d176f0e2f815a7baff2cf9a66e87c.ai"
+    },
+    {
+     "label": "OIDP 사례 — 파리 참여예산",
+     "url": "https://oidp.net/en/practice.php?id=427"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2017",
+   "iso3": "PRT",
+   "title": "포르투갈, 세계 첫 국가 단위 참여예산",
    "body": "포르투갈 정부가 국가 예산 300만 유로를 걸고 '포르투갈 참여예산(OPP)'을 시작했다. 국가 예산을 대상으로 한 세계 첫 사례로 평가된다. 이듬해 2회차는 500만 유로로 늘렸다.",
-   "sources": [{"label": "포르투갈 각료회의 공보(2017.1.19)", "url": "https://portugal.gov.pt/gc21/governo/comunicados-do-conselho-de-ministros/67"}, {"label": "OECD OPSI — Portugal Participatory Budget", "url": "https://oecd-opsi.org/innovations/portugal-participatory-budget/"}]},
-  {"era": "institution", "year": "2017", "iso3": "BRA", "title": "발상지 포르투알레그리의 중단",
+   "sources": [
+    {
+     "label": "포르투갈 각료회의 공보(2017.1.19)",
+     "url": "https://portugal.gov.pt/gc21/governo/comunicados-do-conselho-de-ministros/67"
+    },
+    {
+     "label": "OECD OPSI — Portugal Participatory Budget",
+     "url": "https://oecd-opsi.org/innovations/portugal-participatory-budget/"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2017",
+   "iso3": "BRA",
+   "title": "발상지 포르투알레그리의 중단",
    "body": "정치적 지지가 줄어들던 끝에 2017년 새 시정부가 참여예산 총회를 열지 않으면서 사실상 멈췄다. 공식 폐지는 아니어서 참여예산 위원회와 지역 포럼은 남았다. 이후 시정부가 지역 총회 재개를 밝혔다.",
-   "sources": [{"label": "WRI — Porto Alegre: PB and the Challenge of Sustaining Transformative Change", "url": "https://africa.wri.org/fr/node/204"}, {"label": "Fedozzi, Observatório das Metrópoles(2023)", "url": "https://brasildefato.com.br/colunista/observatorio-das-metropoles-nucleo-porto-alegre/2023/10/03/o-populismo-antipopular-de-melo-o-prefeito-que-usa-chapeu-de-palha/"}]},
-  {"era": "institution", "year": "2018", "iso3": "POL", "title": "폴란드, 대도시 시민예산 법정 의무화(예산의 0.5% 이상)",
+   "sources": [
+    {
+     "label": "WRI — Porto Alegre: PB and the Challenge of Sustaining Transformative Change",
+     "url": "https://africa.wri.org/fr/node/204"
+    },
+    {
+     "label": "Fedozzi, Observatório das Metrópoles(2023)",
+     "url": "https://brasildefato.com.br/colunista/observatorio-das-metropoles-nucleo-porto-alegre/2023/10/03/o-populismo-antipopular-de-melo-o-prefeito-que-usa-chapeu-de-palha/"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2018",
+   "iso3": "POL",
+   "title": "폴란드, 대도시 시민예산 법정 의무화(예산의 0.5% 이상)",
    "body": "개정 지방자치법 제5a조가 시민예산을 '특별한 형태의 주민 협의'로 규정했다. 군(powiat) 지위를 가진 66개 도시는 해마다 지출의 0.5% 이상을 시민예산으로 운영해야 한다.",
-   "sources": [{"label": "Democracy Technologies — 66개 도시, 0.5%", "url": "https://democracy-technologies.org/?p=3412"}, {"label": "Horyzonty Polityki — 2018년 법제화", "url": "https://horyzontypolityki.ignatianum.edu.pl/HP/article/download/2473/2296"}]},
-  {"era": "institution", "year": "2018", "iso3": "KOR", "title": "한국, 중앙정부 국민참여예산 시작",
+   "sources": [
+    {
+     "label": "Democracy Technologies — 66개 도시, 0.5%",
+     "url": "https://democracy-technologies.org/?p=3412"
+    },
+    {
+     "label": "Horyzonty Polityki — 2018년 법제화",
+     "url": "https://horyzontypolityki.ignatianum.edu.pl/HP/article/download/2473/2296"
+    }
+   ]
+  },
+  {
+   "era": "institution",
+   "year": "2018",
+   "iso3": "KOR",
+   "title": "한국, 중앙정부 국민참여예산 시작",
    "body": "국가재정법의 '예산과정 국민참여 제고' 조항을 근거로 기획재정부가 국민참여예산을 만들었다. 시범으로 2018년 예산에 6개 사업 422억 원을 반영했다. 2019년 예산안에는 국민 제안 1,206건 가운데 39개 사업이 들어갔다.",
-   "sources": [{"label": "비즈한국 — 2018년 6개 사업 422억 원, 연도별 추이", "url": "https://bizhankook.com/articles/28456.html"}, {"label": "경향신문(2018.8.28) — 2019년 예산안 39개 사업", "url": "https://www.khan.co.kr/article/201808281724001/amp"}]},
-  {"era": "now", "year": "2019", "iso3": null, "title": "세계 참여예산 아틀라스: 71개국 1만 1,690–1만 1,825건",
+   "sources": [
+    {
+     "label": "비즈한국 — 2018년 6개 사업 422억 원, 연도별 추이",
+     "url": "https://bizhankook.com/articles/28456.html"
+    },
+    {
+     "label": "경향신문(2018.8.28) — 2019년 예산안 39개 사업",
+     "url": "https://www.khan.co.kr/article/201808281724001/amp"
+    }
+   ]
+  },
+  {
+   "era": "now",
+   "year": "2019",
+   "iso3": null,
+   "title": "세계 참여예산 아틀라스: 71개국 1만 1,690–1만 1,825건",
    "body": "포르투갈 오피시나(Oficina)가 76명의 저자와 함께 처음으로 세계 참여예산을 전수 조사에 가깝게 정리했다. 71개국에서 1만 1,690–1만 1,825건이 운영된다고 추정했다. 2021년판은 65개국을 다뤘다.",
-   "sources": [{"label": "PB World Atlas 2019 (Dias·Enríquez·Júlio)", "url": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2019"}, {"label": "PB World Atlas 2021", "url": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2021"}]},
-  {"era": "now", "year": "2022–2025", "iso3": "KOR", "title": "한국 국민참여예산의 확대와 축소",
+   "sources": [
+    {
+     "label": "PB World Atlas 2019 (Dias·Enríquez·Júlio)",
+     "url": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2019"
+    },
+    {
+     "label": "PB World Atlas 2021",
+     "url": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2021"
+    }
+   ]
+  },
+  {
+   "era": "now",
+   "year": "2022–2025",
+   "iso3": "KOR",
+   "title": "한국 국민참여예산의 확대와 축소",
    "body": "국민참여예산은 2022년 71개 사업 1,429억 원까지 늘었다가 이후 크게 줄었다. 2025년 본예산 반영액은 15건 50억 원으로, 시범 도입한 2018년보다도 적었다.",
-   "sources": [{"label": "비즈한국 — 연도별 사업 수·예산", "url": "https://bizhankook.com/articles/28456.html"}, {"label": "다음/뉴시스(2025.7.1) — 2025년 15건 50억 원", "url": "https://v.daum.net/v/20250701053326271"}]}
- ]
+   "sources": [
+    {
+     "label": "비즈한국 — 연도별 사업 수·예산",
+     "url": "https://bizhankook.com/articles/28456.html"
+    },
+    {
+     "label": "다음/뉴시스(2025.7.1) — 2025년 15건 50억 원",
+     "url": "https://v.daum.net/v/20250701053326271"
+    }
+   ]
+  }
+ ],
+ "data": {
+  "poa": {
+   "title": "브라질 주요 도시 참여예산 참여자 수, 1990–2003",
+   "source": "Wampler(2007b); Wampler·Avritzer(2004) — Shah 편(2007) 1장 표 1.5",
+   "unit": "명",
+   "years": [
+    1990,
+    1991,
+    1992,
+    1993,
+    1994,
+    1995,
+    1996,
+    1997,
+    1998,
+    1999,
+    2000,
+    2001,
+    2002,
+    2003
+   ],
+   "series": {
+    "포르투알레그리": [
+     976,
+     3694,
+     7610,
+     10735,
+     9638,
+     11821,
+     10148,
+     11908,
+     13687,
+     14776,
+     14408,
+     16612,
+     28549,
+     26807
+    ],
+    "벨루오리존치": [
+     null,
+     null,
+     null,
+     null,
+     15216,
+     26823,
+     36508,
+     31795,
+     19418,
+     21175,
+     31369,
+     null,
+     28124,
+     null
+    ],
+    "이핑가": [
+     630,
+     470,
+     483,
+     563,
+     572,
+     681,
+     604,
+     683,
+     1533,
+     2136,
+     2018,
+     5015,
+     981,
+     2374
+    ],
+    "레시페": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     30000,
+     null,
+     30000,
+     null,
+     30000,
+     42800,
+     67100,
+     69500
+    ],
+    "상파울루": [
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     null,
+     34000,
+     55000,
+     80000
+    ]
+   }
+  },
+  "percap": {
+   "title": "주민 1인당 참여예산 배정액, 1996–1998 (미국 달러)",
+   "source": "Wampler, Shah 편(2007) 1장 34쪽",
+   "unit": "달러",
+   "rows": [
+    [
+     "포르투알레그리",
+     201
+    ],
+    [
+     "벨루오리존치",
+     42
+    ],
+    [
+     "레시페",
+     11
+    ]
+   ]
+  }
+ }
 }

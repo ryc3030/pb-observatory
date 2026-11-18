@@ -457,17 +457,84 @@ function renderProgram(p) {
 }
 
 /* ---------- 역사 연표 ---------- */
+const firstYear = (y) => { const m = String(y).match(/\d{4}/); return m ? Math.max(1978, +m[0]) : 1978; };
+const tlId = (i, n) => `tl-${n}-${firstYear(i.year)}`;
+const fmtN = (v) => nf.format(v);
+function renderStrip(items) {
+  const W = 1200, H = 150, L = 16, R = 16, y0 = 1975, y1 = 2027;
+  const x = (y) => L + ((y - y0) / (y1 - y0)) * (W - L - R);
+  const ko = $("#koOnly").checked;
+  const bands = TL.eras.map((e, k) => {
+    const ys = TL.items.filter((i) => i.era === e.id).map((i) => firstYear(i.year));
+    const a = k === 0 ? y0 : Math.min(...ys), b = k === TL.eras.length - 1 ? y1 : Math.min(...TL.items.filter((i) => i.era === TL.eras[k + 1].id).map((i) => firstYear(i.year)));
+    return { e, a, b };
+  });
+  const stack = {};
+  const ticks = TL.items.map((it, n) => {
+    const yr = firstYear(it.year), lvl = (stack[yr] = (stack[yr] || 0) + 1) - 1, cx = x(yr) + lvl * 7, cy = 100 - lvl * 12;
+    const kr = it.iso3 === "KOR", dim = ko && !kr;
+    const mark = kr ? `<rect class="kr" x="${cx - 5}" y="${cy - 5}" width="10" height="10"/>` : `<circle cx="${cx}" cy="${cy}" r="5"/>`;
+    return `<a href="#${tlId(it, n)}" class="tick${dim ? " dim" : ""}" aria-label="${esc(it.year)} ${esc(it.title)}"><rect class="hit" x="${cx - 9}" y="${cy - 9}" width="18" height="18"/><line x1="${cx}" x2="${cx}" y1="${cy + 5}" y2="118"/>${mark}<title>${esc(it.year)} · ${esc(it.title)}</title></a>`;
+  }).join("");
+  const axis = [];
+  for (let y = 1980; y <= 2020; y += 10) axis.push(`<line x1="${x(y)}" x2="${x(y)}" y1="118" y2="124"/><text x="${x(y)}" y="140" text-anchor="middle">${y}</text>`);
+  $("#tlStrip").innerHTML = `<svg viewBox="0 0 ${W} ${H}" role="group" aria-label="참여예산 연표: 1975년부터 지금까지 ${TL.items.length}개 사건. 표시를 누르면 해당 항목으로 이동합니다.">
+    ${bands.map(({ e, a, b }, k) => `<a href="#era-${esc(e.id)}" aria-label="${esc(e.label)} ${esc(e.span)}"><rect class="band${k % 2 ? " alt" : ""}" x="${x(a)}" y="0" width="${x(b) - x(a)}" height="118"/><text class="band-label" x="${x(a) + 8}" y="22">${esc(e.label)}</text><text class="band-span" x="${x(a) + 8}" y="38">${esc(e.span)}</text></a>${k ? `<line class="rule" x1="${x(a)}" x2="${x(a)}" y1="0" y2="118"/>` : ""}`).join("")}
+    <line class="rule" x1="${L}" x2="${W - R}" y1="118" y2="118"/>
+    <g class="axis">${axis.join("")}</g>${ticks}</svg>`;
+  $("#tlCount").textContent = ko ? `한국 ${items.length}건 / 전체 ${TL.items.length}건` : `${TL.items.length}건 · 원문 근거 포함`;
+}
+function vizPOA() {
+  const D = TL.data?.poa; if (!D) return "";
+  const W = 640, H = 230, L = 52, R = 96, T = 14, B = 28, ys = D.years, v = D.series["포르투알레그리"];
+  const x = (k) => L + (k / (ys.length - 1)) * (W - L - R), max = 30000, y = (n) => T + (1 - n / max) * (H - T - B);
+  const grid = [0, 10000, 20000, 30000].map((g) => `<line x1="${L}" x2="${W - R}" y1="${y(g)}" y2="${y(g)}"/><text x="${L - 8}" y="${y(g) + 4}" text-anchor="end">${g ? g / 10000 + "만" : "0"}</text>`).join("");
+  const xa = ys.map((yr, k) => (k % 2 === 0 || k === ys.length - 1) ? `<text x="${x(k)}" y="${H - 8}" text-anchor="middle">${yr}</text>` : "").join("");
+  const d = v.map((n, k) => `${k ? "L" : "M"}${x(k).toFixed(1)},${y(n).toFixed(1)}`).join("");
+  const last = v.length - 1;
+  const rows = ys.map((yr, k) => `<tr><td>${yr}</td>${Object.values(D.series).map((s) => `<td>${s[k] == null ? "—" : fmtN(s[k])}</td>`).join("")}</tr>`).join("");
+  return `<figure class="tlviz" data-viz="poa"><figcaption>포르투알레그리 참여예산 참여자 수, 1990–2003 (명)</figcaption>
+    <div class="chartwrap"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="포르투알레그리 참여자 수가 1990년 976명에서 2002년 2만 8,549명으로 늘었다. 자세한 값은 아래 표에 있다.">
+      <g class="grid">${grid}</g><g class="xaxis">${xa}</g>
+      <path class="line" d="${d}"/>${v.map((n, k) => `<circle class="pt" cx="${x(k)}" cy="${y(n)}" r="4"/>`).join("")}
+      <text class="lbl" x="${x(12) + 8}" y="${y(v[12]) - 8}">2002년 ${fmtN(v[12])}명</text>
+      <line class="cross" x1="0" x2="0" y1="${T}" y2="${H - B}" hidden/><rect class="hover" x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}" fill="transparent"/>
+    </svg><div class="tip" hidden></div></div>
+    <details><summary>표로 보기 — 브라질 5개 도시 비교</summary><table><thead><tr><th scope="col">연도</th>${Object.keys(D.series).map((k) => `<th scope="col">${esc(k)}</th>`).join("")}</tr></thead><tbody>${rows}</tbody></table><p class="srcline">—: 해당 연도 운영 안 함 또는 자료 없음. 출처: ${esc(D.source)}</p></details></figure>`;
+}
+function bindPOA(fig) {
+  const D = TL.data.poa, v = D.series["포르투알레그리"], svgEl = $("svg", fig), tip = $(".tip", fig), cross = $(".cross", fig), hov = $(".hover", fig);
+  const W = 640, L = 52, R = 96;
+  hov.addEventListener("pointermove", (ev) => {
+    const pt = svgEl.createSVGPoint(); pt.x = ev.clientX; pt.y = ev.clientY;
+    const p = pt.matrixTransform(svgEl.getScreenCTM().inverse());
+    const k = Math.max(0, Math.min(v.length - 1, Math.round(((p.x - L) / (W - L - R)) * (v.length - 1))));
+    const cx = L + (k / (v.length - 1)) * (W - L - R);
+    cross.setAttribute("x1", cx); cross.setAttribute("x2", cx); cross.hidden = false;
+    const r = svgEl.getBoundingClientRect(), sc = r.width / W;
+    tip.style.left = cx * sc + "px"; tip.style.top = (14 + (1 - v[k] / 30000) * (230 - 42)) * sc - 8 + "px"; tip.hidden = false;
+    tip.textContent = `${D.years[k]}년 · ${fmtN(v[k])}명`;
+  });
+  hov.addEventListener("pointerleave", () => { tip.hidden = true; cross.hidden = true; });
+}
+function vizPercap() {
+  const D = TL.data?.percap; if (!D) return "";
+  const max = Math.max(...D.rows.map((r) => r[1]));
+  return `<figure class="tlviz"><figcaption>${esc(D.title)}</figcaption>${D.rows.map(([k, v]) => `<div class="hbar"><span>${esc(k)}</span><span class="t"><span class="f" style="width:${(v / max) * 100}%"></span></span><b>${v}달러</b></div>`).join("")}<p class="srcline">출처: ${esc(D.source)}</p></figure>`;
+}
 function renderHistory() {
   const ko = $("#koOnly").checked;
-  $("#eraNav").innerHTML = TL.eras.map((e) => `<a href="#era-${esc(e.id)}">${esc(e.label)} <span>${esc(e.span)}</span></a>`).join("");
+  const items = TL.items.map((it, n) => ({ it, n })).filter(({ it }) => !ko || it.iso3 === "KOR");
+  renderStrip(items);
   $("#timeline").innerHTML = TL.eras.map((e) => {
-    const its = TL.items.filter((i) => i.era === e.id && (!ko || i.iso3 === "KOR"));
+    const its = items.filter(({ it }) => it.era === e.id);
     if (!its.length) return "";
     return `<section class="era" id="era-${esc(e.id)}" aria-labelledby="era-h-${esc(e.id)}"><header><h3 id="era-h-${esc(e.id)}">${esc(e.label)}<span class="span">${esc(e.span)}</span></h3><p>${esc(e.summary)}</p></header>
-      <ol class="tl">${its.map((i) => `<li class="${i.iso3 === "KOR" ? "kor" : ""}"><div class="yr">${esc(i.year)}${i.iso3 && i.iso3 !== "KOR" ? `<small>${esc(countryName(i.iso3))}</small>` : !i.iso3 ? "<small>국제</small>" : ""}</div>
-        <div><h4>${esc(i.title)}</h4><p class="body">${esc(i.body)}</p></div>
+      <ol class="tl">${its.map(({ it: i, n }) => `<li id="${tlId(i, n)}" class="${i.iso3 === "KOR" ? "kor" : ""}"><div class="yr">${esc(i.year)}${i.iso3 === "KOR" ? '<br><span class="kr">한국</span>' : `<small>${i.iso3 ? esc(countryName(i.iso3)) : "국제"}</small>`}</div>
+        <div><h4>${esc(i.title)}</h4><p class="body">${esc(i.body)}</p>${i.viz === "poa" ? vizPOA() : i.viz === "percap" ? vizPercap() : ""}</div>
         <div class="src"><b>근거</b>${(i.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("")}</div></li>`).join("")}</ol></section>`;
   }).join("") || '<p class="empty">연표 자료를 불러오지 못했습니다.</p>';
+  const f = $('#timeline [data-viz="poa"]'); if (f) bindPOA(f);
 }
 
 /* ---------- 분석 ---------- */
