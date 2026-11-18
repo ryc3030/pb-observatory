@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T07:14:25.708331+00:00",
+ "updated_at": "2026-11-18T08:13:34.939816+00:00",
  "count": 92,
  "items": [
   {
@@ -3497,7 +3497,7 @@
    "name_en": "Japan",
    "name_ko": "일본",
    "region": "Asia",
-   "tracking_status": "reported",
+   "tracking_status": "monitoring",
    "base_signal": "원문 근거를 찾는 중",
    "base_signal_date": null,
    "primary_source": null,
@@ -3514,26 +3514,18 @@
    ],
    "seed_status": "monitoring",
    "press": {
-    "confirmed": true,
-    "stories": 1,
+    "confirmed": false,
+    "stories": 0,
     "multi_outlet": 0,
-    "stories_12m": 1,
+    "stories_12m": 0,
     "multi_outlet_12m": 0,
-    "months_12m": 1,
-    "last": "2026-09-21",
+    "months_12m": 0,
+    "last": null,
     "window_days": 183,
-    "evidence": [
-     {
-      "title": "［韓国発 食と農のいま］国民参加型予算 過去最高に 動物福祉に所得補填",
-      "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTFBfQnpjQS10M1F5UEVuOXBqLUxrU1BOS2J2VVM5ZHNpVDRabUYwRFZ6dnV1eGROZU10djNzX00wa19udGh1VU5NTVV5T2Zwejh4eDFvQUZOVQ?oc=5",
-      "source": "日本農業新聞",
-      "date": "2026-09-21",
-      "outlets": 1
-     }
-    ]
+    "evidence": []
    },
    "news_30d": 1,
-   "news_365d": 2,
+   "news_365d": 1,
    "latest_news": {
     "title": "【가쓰시카구】행정을 어떻게 점검하고 구민 참여를 어떻게 강화할 것인가――참여예산과 위탁 사업의 제3자 평가(n",
     "title_original": "【葛飾区】行政をどうチェックし、区民参加をどう強めるか――参加型予算と委託事業の第三者評価（n...",
@@ -3548,7 +3540,7 @@
     "pabulib": 0,
     "pabulib_units": 0
    },
-   "review_hint": null
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "KAZ",
@@ -3906,7 +3898,10 @@
     "부산",
     "서울",
     "주민참여예산",
-    "한국"
+    "한국",
+    "韓国",
+    "韩国",
+    "韓國"
    ],
    "coord": [
     36.5,
@@ -3915,9 +3910,9 @@
    "seed_status": "verified",
    "press": {
     "confirmed": true,
-    "stories": 164,
+    "stories": 165,
     "multi_outlet": 23,
-    "stories_12m": 164,
+    "stories_12m": 165,
     "multi_outlet_12m": 23,
     "months_12m": 7,
     "last": "2026-11-18",
@@ -3947,7 +3942,7 @@
     ]
    },
    "news_30d": 69,
-   "news_365d": 202,
+   "news_365d": 203,
    "latest_news": {
     "title": "'논란의 AI' 주민참여예산까지 파고들었다",
     "title_original": "'논란의 AI' 주민참여예산까지 파고들었다",
@@ -4427,7 +4422,7 @@
    "name_en": "Madagascar",
    "name_ko": "마다가스카르",
    "region": "Africa",
-   "tracking_status": "reported",
+   "tracking_status": "monitoring",
    "base_signal": "원문 근거를 찾는 중",
    "base_signal_date": null,
    "primary_source": null,
@@ -4443,48 +4438,27 @@
    ],
    "seed_status": "monitoring",
    "press": {
-    "confirmed": true,
-    "stories": 2,
+    "confirmed": false,
+    "stories": 0,
     "multi_outlet": 0,
-    "stories_12m": 2,
+    "stories_12m": 0,
     "multi_outlet_12m": 0,
-    "months_12m": 2,
-    "last": "2026-09-22",
+    "months_12m": 0,
+    "last": null,
     "window_days": 183,
-    "evidence": [
-     {
-      "title": "淨零排放向下扎根 苗栗縣府辦兒童參與式預算獲MUSE銀獎 | 王秀禾 | 地方新聞",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HajZxcm5UN19MYUk1WGlSR0dISzg2dlhLdnlxMXlWTGFMRWZoZmJnXy1wTHo2VG8zWkZiNmdVNFhxUlNOY056TlNRX085Zw?oc=5",
-      "source": "風傳媒",
-      "date": "2026-09-22",
-      "outlets": 1
-     },
-     {
-      "title": "苗栗縣府推淨零轉型兒童參與式預算 培訓青年「孩子王」陪伴學童提案實踐 | 王秀禾 | 地方新聞",
-      "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBWdnpiNmNOY2YtQ0g2M1hYV2l3eVlkUllwUC1YNTJ3SzJQOXRpTEJiaFFHSHZVTWhvdC1JLXpvY2FDRGpuUkgwWHN0MGZ3QQ?oc=5",
-      "source": "風傳媒",
-      "date": "2026-07-07",
-      "outlets": 1
-     }
-    ]
+    "evidence": []
    },
    "news_30d": 0,
-   "news_365d": 2,
-   "latest_news": {
-    "title": "淨零排放向下扎根 苗栗縣府辦兒童參與式預算獲MUSE銀獎 | 王秀禾 | 地方新聞",
-    "title_original": "淨零排放向下扎根 苗栗縣府辦兒童參與式預算獲MUSE銀獎 | 王秀禾 | 地方新聞",
-    "date": "2026-09-22",
-    "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5HajZxcm5UN19MYUk1WGlSR0dISzg2dlhLdnlxMXlWTGFMRWZoZmJnXy1wTHo2VG8zWkZiNmdVNFhxUlNOY056TlNRX085Zw?oc=5",
-    "source": "風傳媒"
-   },
-   "activity_date": "2026-09-22",
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null,
    "registry": {
     "participedia": 2,
     "participedia_verified": 0,
     "pabulib": 0,
     "pabulib_units": 0
    },
-   "review_hint": null
+   "review_hint": "플랫폼 사례 2건"
   },
   {
    "iso3": "MLI",

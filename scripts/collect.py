@@ -43,8 +43,11 @@ UA = "Mozilla/5.0 (compatible; PB-Observatory/4.0; +https://github.com)"
 MAILTO = os.environ.get("OPENALEX_MAILTO") or "pb-observatory@example.org"
 REAL_MAILTO = "@" in MAILTO and not MAILTO.endswith("example.org")
 TRANSLATE = os.environ.get("PB_TRANSLATE", "1") == "1"
-NEWS_KEEP_DAYS = 400
-NEWS_MAX = 1500
+NEWS_KEEP_DAYS = 400          # 1년 보도 기록을 위해 400일 보관
+NEWS_MAX = 1500               # 화면용 news.json에 싣는 최대 건수(최근 120일)
+NEWS_SCREEN_DAYS = 120        # 이보다 오래된 기사는 data/news_archive.json(가벼운 필드만)으로 옮김
+ARCHIVE_FIELDS = ("id", "title", "title_ko", "title_ko_mt", "lang", "source", "url", "source_url", "gl", "default_iso",
+                  "published_at", "country_iso3", "iso_basis", "src_country_iso", "story", "story_n", "kind", "via", "_tr_tried")
 
 # (언어코드, 검색어, hl, gl, ceid, 단일국가 기본값)
 NEWS_QUERIES = [
@@ -238,9 +241,15 @@ TLD_ISO = {"es": "ESP", "fr": "FRA", "de": "DEU", "it": "ITA", "pt": "PRT", "br"
 EXTRA_COUNTRIES = {"RUS": "러시아", "TWN": "대만", "TUR": "튀르키예"}
 
 
+# 국가 도메인을 다른 나라 매체가 쓰는 예외(예: 대만 風傳媒 storm.mg)
+HOST_ISO = {"storm.mg": "TWN", "www.storm.mg": "TWN"}
+
+
 def tld_country(url: str):
-    host = urllib.parse.urlparse(url).hostname or ""
-    tld = host.rsplit(".", 1)[-1].lower() if "." in host else ""
+    host = (urllib.parse.urlparse(url).hostname or "").lower()
+    if host in HOST_ISO:
+        return HOST_ISO[host]
+    tld = host.rsplit(".", 1)[-1] if "." in host else ""
     if host.endswith(".gub.uy"):
         return "URY"
     return TLD_ISO.get(tld)
@@ -411,7 +420,7 @@ def cluster_stories(items, threshold=0.45, window_days=5):
 
 
 def collect_news(countries, match, health):
-    old = load("news.json", {"items": []}).get("items", [])
+    old = load("news.json", {"items": []}).get("items", []) + load("news_archive.json", {"items": []}).get("items", [])
     by_id = {x["id"]: x for x in old}
     added = 0
     per_lang = {}
@@ -472,7 +481,7 @@ def collect_news(countries, match, health):
         row["country_iso3"], row["iso_basis"] = tag_country(row, match)
 
     # 신규 항목만 번역 (최대 120건/일)
-    budget = 150
+    budget = 400 if int(os.environ.get("PB_BACKFILL_MONTHS") or 0) else 150
     for row in sorted(by_id.values(), key=lambda x: x["published_at"], reverse=True):
         if budget <= 0:
             break
@@ -483,11 +492,18 @@ def collect_news(countries, match, health):
 
     cutoff = (NOW - timedelta(days=NEWS_KEEP_DAYS)).isoformat()
     items = sorted((x for x in by_id.values() if x["published_at"] >= cutoff),
-                   key=lambda x: x["published_at"], reverse=True)[:NEWS_MAX]
+                   key=lambda x: x["published_at"], reverse=True)[:8000]
     log("ko style news", ko_style_pass(items, "news"))
     stories = cluster_stories(items)
     log("stories with 2+ sources", stories)
-    save("news.json", {"updated_at": NOW.isoformat(), "count": len(items), "items": items})
+    # 화면용(최근 120일, 전체 필드)과 보관용(그 이전 ~400일, 가벼운 필드)으로 나눠 저장한다.
+    screen_cut = (NOW - timedelta(days=NEWS_SCREEN_DAYS)).isoformat()
+    recent = [x for x in items if x["published_at"] >= screen_cut][:NEWS_MAX]
+    rid = {x["id"] for x in recent}
+    archive = [{k: x[k] for k in ARCHIVE_FIELDS if k in x} for x in items if x["id"] not in rid]
+    save("news.json", {"updated_at": NOW.isoformat(), "count": len(recent), "items": recent})
+    save("news_archive.json", {"updated_at": NOW.isoformat(), "count": len(archive),
+                               "note": "1년 보도 기록용 보관 기사(화면에는 쓰지 않음)", "items": archive})
     health["news"] = {
         "name": "Google News RSS (다국어)", "ok": ok_q > 0, "queries_ok": ok_q, "queries": len(jobs),
         "backfill_months": months or None,
