@@ -38,3 +38,10 @@ GitHub → Actions → "일일 자동 수집" → Run workflow. 로컬에서는 
 - Settings → Secrets and variables → Actions
   - 변수 `OPENALEX_MAILTO`: 본인 이메일(OpenAlex 우선 처리 풀)
   - 시크릿 `OPENALEX_API_KEY`: OpenAlex 무료 API 키(속도 제한 완화)
+
+## Claude 아티팩트판 (회사망 등 github.io가 막힌 곳용)
+
+- 주소: https://claude.ai/artifact/AWjk8zvEAoegyF1AdWHfvF (소유자 공유 설정에 따라 열람)
+- 아티팩트는 외부 데이터·지도 타일을 못 불러오므로 `python scripts/build_artifact.py`가 `artifact/`에 전용판을 만든다
+  (지도는 `artifact/assets/world.json`, 지도 스타일은 직접 쓴 `artifact/assets/map.css`, 글꼴은 Google Fonts의 Noto Sans KR).
+- 매일 오전 7시 12분(KST) Claude 예약 작업이 이 저장소를 받아 빌드하고 아티팩트의 파일을 바꿔 올린다.

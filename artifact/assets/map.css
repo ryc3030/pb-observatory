@@ -1,0 +1,31 @@
+/* 아티팩트판 지도용 최소 스타일 (MapLibre 기본 스타일시트 대신 직접 작성) */
+.maplibregl-map{position:relative;overflow:hidden;-webkit-tap-highlight-color:transparent;font:12px/1.4 var(--font)}
+.maplibregl-canvas-container,.maplibregl-canvas{position:absolute;left:0;top:0}
+.maplibregl-canvas:focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
+.maplibregl-canvas-container.maplibregl-interactive{cursor:grab}
+.maplibregl-canvas-container.maplibregl-interactive:active{cursor:grabbing}
+.maplibregl-ctrl-top-right,.maplibregl-ctrl-bottom-right{position:absolute;right:0;z-index:2;pointer-events:none}
+.maplibregl-ctrl-top-right{top:0}
+.maplibregl-ctrl-bottom-right{bottom:0}
+.maplibregl-ctrl{pointer-events:auto;margin:10px 10px 0 0;clear:both}
+.maplibregl-ctrl-bottom-right .maplibregl-ctrl{margin:0 10px 10px 0}
+.maplibregl-ctrl-group{background:var(--paper);border:1.5px solid var(--rule);border-radius:0}
+.maplibregl-ctrl-group button{display:block;width:30px;height:30px;border:0;background:transparent;cursor:pointer;color:var(--ink);font:700 18px/30px var(--font);padding:0}
+.maplibregl-ctrl-group button+button{border-top:1px solid var(--hair)}
+.maplibregl-ctrl-group button:hover{background:var(--hover)}
+.maplibregl-ctrl-group button:disabled{color:var(--muted);cursor:default}
+.maplibregl-ctrl-zoom-in .maplibregl-ctrl-icon::before{content:"+"}
+.maplibregl-ctrl-zoom-out .maplibregl-ctrl-icon::before{content:"−"}
+.maplibregl-ctrl-compass{display:none}
+.maplibregl-ctrl-attrib{background:var(--paper);color:var(--muted);padding:2px 6px;font-size:11px}
+.maplibregl-ctrl-attrib-button{display:none}
+.maplibregl-ctrl-attrib.maplibregl-compact .maplibregl-ctrl-attrib-inner{display:inline}
+.maplibregl-popup{position:absolute;top:0;left:0;display:flex;pointer-events:none;will-change:transform}
+.maplibregl-popup-anchor-bottom,.maplibregl-popup-anchor-bottom-left,.maplibregl-popup-anchor-bottom-right{flex-direction:column-reverse}
+.maplibregl-popup-tip{width:0;height:0;border:8px solid transparent;align-self:center}
+.maplibregl-popup-anchor-bottom .maplibregl-popup-tip{border-top-color:var(--paper);border-bottom:none}
+.maplibregl-popup-anchor-top .maplibregl-popup-tip{border-bottom-color:var(--paper);border-top:none}
+.maplibregl-popup-content{position:relative;background:var(--paper);color:var(--ink);border:1.5px solid var(--rule);padding:10px 12px;pointer-events:auto;max-width:280px;font-size:13px;line-height:1.5}
+.maplibregl-popup-content b{display:block;font-size:14px}
+.maplibregl-popup-content small{color:var(--muted)}
+.maplibregl-cooperative-gesture-screen{display:none}

@@ -6,3 +6,7 @@ __pycache__/
 .impeccable/hook.cache.json
 .impeccable/mocks/
 .impeccable/config.local.json
+artifact/data/
+artifact/index.html
+artifact/assets/app.js
+artifact/assets/style.css
