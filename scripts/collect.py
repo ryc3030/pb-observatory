@@ -516,6 +516,27 @@ def attach_program_news(programs, news):
     save("programs.json", {"updated_at": NOW.isoformat(), "count": len(programs), "items": programs})
 
 
+def write_feed(news, countries):
+    """PB 데일리 최신 60건을 RSS 2.0으로 내보냄 (feed.xml)."""
+    from xml.sax.saxutils import escape as x
+    site = os.environ.get("PB_SITE_URL", "https://ryc3030.github.io/pb-observatory/")
+    names = {c["iso3"]: c["name_ko"] for c in countries}
+    items = []
+    for n in news[:60]:
+        title = n.get("title_ko") or n["title"]
+        country = names.get(n.get("country_iso3") or "", "")
+        desc = f"{country} · {n.get('source', '')} · 원문: {n['title']}" if n.get("title_ko") else f"{country} · {n.get('source', '')}"
+        pub = email.utils.format_datetime(datetime.fromisoformat(n["published_at"]))
+        items.append(f"<item><title>{x(title)}</title><link>{x(n['url'])}</link><guid isPermaLink=\"false\">{n['id']}</guid>"
+                     f"<pubDate>{pub}</pubDate><description>{x(desc)}</description>"
+                     + (f"<category>{x(country)}</category>" if country else "") + "</item>")
+    xml = ('<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"><channel>'
+           f"<title>세계 참여예산 관측소 — PB 데일리</title><link>{x(site)}</link>"
+           "<description>전 세계 참여예산 뉴스 신호 (매일 자동 수집, 제목은 자동 번역)</description><language>ko</language>"
+           f"<lastBuildDate>{email.utils.format_datetime(NOW)}</lastBuildDate>" + "".join(items) + "</channel></rss>\n")
+    (ROOT / "feed.xml").write_text(xml, "utf-8")
+
+
 def main():
     DATA.mkdir(exist_ok=True)
     seed = load("countries.seed.json", [])
@@ -528,6 +549,7 @@ def main():
     papers = collect_papers(health)
     countries = build_countries(seed, news, papers, ledger)
     attach_program_news(programs, news)
+    write_feed(news, countries)
     snapshot_history(countries, news, papers, programs)
 
     ledger = sorted(ledger, key=lambda e: (e["date"], e.get("observed_at") or ""), reverse=True)[:1500]

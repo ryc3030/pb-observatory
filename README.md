@@ -31,6 +31,8 @@ scripts/collect.py      수집기 (표준 라이브러리만 사용)
 
 GitHub → Actions → "일일 자동 수집" → Run workflow. 로컬에서는 `python scripts/collect.py`.
 
+
+
 ## 선택 설정
 
 - Settings → Secrets and variables → Actions

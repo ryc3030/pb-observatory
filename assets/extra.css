@@ -7,5 +7,72 @@
 .countrysignal a{color:var(--green2)}
 .dark .countrysignal a{color:var(--accent2)}
 .footer a{color:inherit}
-.newsrow p[lang]{opacity:.75;font-size:11px}
+.newsrow p[lang]{color:var(--muted);font-size:12.5px}
 #trend svg text{font-family:inherit}
+
+/* ---- 접근성·가독성 (web-interface-guidelines, WCAG AA) ---- */
+html{color-scheme:light}
+html.dark{color-scheme:dark}
+:where(a,button,select,input,summary,[tabindex]):focus-visible{outline:3px solid #2f8f6f;outline-offset:2px;border-radius:6px}
+.dark :where(a,button,select,input,summary,[tabindex]):focus-visible{outline-color:#9fe3c6}
+:target,section[id]{scroll-margin-top:84px}
+.kpi b,.pulse-num,.barrow b,.stagebar b,.compare td,.newsdate,.legendlist b{font-variant-numeric:tabular-nums}
+h1,h2,h3{text-wrap:balance}
+select,input{background:var(--card);color:var(--ink)}
+button,a,select,summary{touch-action:manipulation}
+.tag,.paper-meta,.paper-by,.ctitle small{color:var(--muted)}
+.story h3,.paper-card h3{overflow-wrap:anywhere}
+.chk{display:inline-flex;align-items:center;gap:6px;font-size:12.5px;font-weight:700;padding:0 6px;cursor:pointer;white-space:nowrap}
+.chk input{width:18px;height:18px;accent-color:var(--green)}
+.dup{margin-top:6px;font-size:12px}
+.dup summary{cursor:pointer;color:var(--muted);font-weight:700;list-style:none}
+.dup summary::-webkit-details-marker{display:none}
+.dup ul{margin:6px 0 0;padding-left:16px;display:grid;gap:3px}
+.dup a{color:var(--muted)}
+.maplibregl-ctrl-attrib{background:rgba(255,255,255,.85)!important}.maplibregl-ctrl-attrib a{color:#1d2b27!important}
+#moreCountries{min-width:220px}
+@media(prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}
+
+/* ---- 모바일 ---- */
+.mnav{display:none}
+@media(max-width:1050px){
+  .mnav{display:flex;gap:4px;overflow-x:auto;padding:6px 12px 8px;scrollbar-width:none;border-top:1px solid var(--line)}
+  .mnav::-webkit-scrollbar{display:none}
+  .mnav a{flex:0 0 auto;padding:10px 14px;min-height:40px;border-radius:999px;font-size:13px;font-weight:800;text-decoration:none;color:var(--ink);background:rgba(11,93,75,.07)}
+  .dark .mnav a{background:rgba(255,255,255,.07)}
+}
+@media(max-width:720px){
+  .btn,select,input[type=search],.iconbtn{min-height:44px}
+  .filters{gap:8px}
+  .filters>*{flex:1 1 100%}
+  details.country>summary{min-height:52px}
+  .newsrow h3{font-size:19px}
+  .nav,.topsearch{display:none}
+}
+.maplibregl-ctrl-bottom-left,.maplibregl-ctrl-bottom-right{opacity:1!important}
+details.country[data-status="monitoring"]{opacity:1!important}
+details.country[data-status="monitoring"] .ctitle b{color:var(--muted)}
+.pill.monitoring{opacity:1;color:#4f5c56}
+/* 어두운 화면 대비 보정 */
+.dark .hero-copy p{color:#c4d3cd}
+.dark .hero h1 em{color:#5fd3a8}
+.dark .kicker{color:#9fe3c6}
+.dark .trustrow span{background:rgba(255,255,255,.08);color:#d7e6df;border-color:#2b3f38}
+.dark .pill.monitoring{background:#22332d;color:#c3d1cb}
+.dark .pill.verified{background:#123d31;color:#9fe3c6}
+.dark .pill.documented{background:#1d2c3d;color:#b8cbe4}
+/* 어두운 화면: 원본 스타일시트에서 밝은 배경이 남아 있던 영역 정리 */
+.dark .kpi,.dark .insight,.dark .panel,.dark .chartbox,.dark .methodband>div,.dark .country,.dark .program,.dark .paper-card,.dark .compare,.dark .newspaper{background:var(--card);border-color:var(--line);color:var(--ink)}
+.dark .paper-card.paper-lead,.dark .newscol:first-child .story.lead{background:#173029}
+.dark .filters,.dark .metric,.dark .osref,.dark .paper-method,.dark .compare th{background:#1a2c26;color:var(--ink)}
+.dark .filters select,.dark .filters input,.dark select,.dark input[type=search]{background:#0f1e19;color:var(--ink);border-color:var(--line)}
+.dark .bartrack,.dark .evtrack{background:#22362f}
+.dark .country summary:hover,.dark .compare tbody tr:hover{background:#1a2c26}
+.dark .paper-meta span{background:#123d31;color:#9fe3c6}
+.dark .compare td,.dark .compare th,.dark .compare tr{color:var(--ink);border-color:var(--line)}
+.dark .newspaper :is(h2,h3,.mast small,.paperinfo,.newsdate),.dark .panel :is(h2,h3),.dark .paper-card :is(h3,.paper-original),.dark .methodband b{color:var(--ink)}
+.dark .newspaper :is(.tag,p,.paperinfo span),.dark .paper-card :is(.paper-by,.paper-summary,footer,.paper-meta time),.dark .methodband span,.dark .chk,.dark .research-section p{color:var(--muted)}
+.dark .newspaper a,.dark .paper-card a,.dark .panel a,.dark .compare a{color:#9fe3c6}
+.dark .newspaper{border-color:#2b3f38}
+.dark .eyebrow,.dark .is-latest .newsdate,.dark .newsrow.is-latest time{color:#7fdcb5}
+.dark .story.newsrow.is-latest .newsdate{color:#7fdcb5}

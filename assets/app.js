@@ -106,7 +106,7 @@ const $ = (s) => document.querySelector(s),
 const esc = (s) =>
   String(s ?? "").replace(/[&<>"']/g, (m) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[m]);
 
-let META = {}, countries = [], programs = [], news = [], papers = [], ledger = [], health = {}, history = [], refs = [];
+let META = {}, countries = [], programs = [], news = [], papers = [], ledger = [], health = {}, snaps = [], refs = [];
 let byISO = {};
 const statusName = { verified: "공식/검증", documented: "문헌·플랫폼", monitoring: "탐색 모니터링" };
 const status = (c) => c.tracking_status || "monitoring";
@@ -165,7 +165,7 @@ async function loadAll() {
     getJSON("health.json", {}), getJSON("history.json", []), getJSON("design_refs.json", []),
   ]);
   META = m; countries = c.items || []; programs = p.items || []; news = n.items || []; papers = pa.items || [];
-  ledger = l || []; health = h || {}; history = hi || []; refs = rf || [];
+  ledger = l || []; health = h || {}; snaps = hi || []; refs = rf || [];
   byISO = Object.fromEntries(countries.map((x) => [x.iso3, x]));
   countries.forEach((x) => (x.program_count = programs.filter((p) => p.country_iso3 === x.iso3).length));
 }
@@ -183,9 +183,12 @@ function setupHeader() {
     if (e.key === "Enter") { $("#search").value = e.currentTarget.value; location.hash = "explorer"; renderTree(); }
   });
   const saved = (() => { try { return localStorage.getItem("pb-theme"); } catch { return null; } })();
-  if (saved === "dark") document.documentElement.classList.add("dark");
+  const prefersDark = saved == null && matchMedia("(prefers-color-scheme: dark)").matches;
+  const setThemeLabel = () => { const d = document.documentElement.classList.contains("dark"); $("#theme").setAttribute("aria-pressed", d); $("#theme").setAttribute("aria-label", d ? "밝은 화면으로 전환" : "어두운 화면으로 전환"); };
+  if (saved === "dark" || prefersDark) document.documentElement.classList.add("dark");
+  setThemeLabel();
   $("#theme").onclick = () => {
-    document.documentElement.classList.toggle("dark");
+    document.documentElement.classList.toggle("dark"); setThemeLabel();
     try { localStorage.setItem("pb-theme", document.documentElement.classList.contains("dark") ? "dark" : "light"); } catch {}
   };
 }
@@ -260,8 +263,7 @@ function renderMap() {
       evMap.on("click", L, (e) => {
         const p = e.features?.[0]?.properties; if (!p) return;
         $("#search").value = countryName(p.iso3); renderTree();
-        const d = $(`#tree details[data-iso="${p.iso3}"]`); if (d) d.open = true;
-        location.hash = "explorer";
+        const d = $(`#tree details[data-iso="${p.iso3}"]`); if (d) { d.open = true; syncURL(); d.scrollIntoView({ block: "start" }); }
       });
     });
   });
@@ -291,20 +293,37 @@ function setupNewsFilters() {
   Object.entries(langs).sort((a, b) => b[1] - a[1]).forEach(([l, v]) => $("#newsLang").insertAdjacentHTML("beforeend", `<option value="${l}">${esc(LANG_KO[l] || l)} (${v})</option>`));
   const cs = {}; news.forEach((n) => n.country_iso3 && (cs[n.country_iso3] = (cs[n.country_iso3] || 0) + 1));
   Object.entries(cs).sort((a, b) => b[1] - a[1]).forEach(([i, v]) => $("#newsCountry").insertAdjacentHTML("beforeend", `<option value="${i}">${esc(countryName(i))} (${v})</option>`));
-  ["#newsLang", "#newsCountry"].forEach((s) => ($(s).onchange = () => { newsLimit = 24; renderNews(); }));
-  $("#newsSearch").oninput = () => { newsLimit = 24; renderNews(); };
+  ["#newsLang", "#newsCountry", "#newsGroup"].forEach((s) => ($(s).onchange = () => { newsLimit = 24; renderNews(); syncURL(); }));
+  $("#newsSearch").oninput = () => { newsLimit = 24; renderNews(); syncURL(); };
   $("#moreNews").onclick = () => { newsLimit += 24; renderNews(); };
+}
+/* 같은 사건을 여러 매체가 보도한 경우 묶기: 같은 국가·언어, 4일 이내, 제목 단어 겹침 ≥ 0.5 */
+const tok = (t) => new Set(String(t).toLowerCase().replace(/[^\p{L}\p{N}]+/gu, " ").split(" ").filter((w) => w.length > 2));
+function groupNews(rows) {
+  const out = [];
+  for (const n of rows) {
+    const tk = tok(n.title), t = Date.parse(n.published_at);
+    const hit = out.find((g) => g.lang === n.lang && g.country_iso3 === n.country_iso3 && Math.abs(g._t - t) < 4 * 864e5 && (() => {
+      let inter = 0; tk.forEach((w) => g._tk.has(w) && inter++);
+      return inter / Math.max(1, Math.min(tk.size, g._tk.size)) >= 0.5;
+    })());
+    if (hit) hit.dups.push(n);
+    else out.push({ ...n, _tk: tk, _t: t, dups: [] });
+  }
+  return out;
 }
 function renderNews() {
   const L = $("#newsLang").value, C = $("#newsCountry").value, q = $("#newsSearch").value.trim().toLowerCase();
-  const rows = news.filter((n) => (L === "all" || n.lang === L) && (C === "all" || n.country_iso3 === C) &&
+  let rows = news.filter((n) => (L === "all" || n.lang === L) && (C === "all" || n.country_iso3 === C) &&
     (!q || (n.title + " " + (n.title_ko || "")).toLowerCase().includes(q)));
+  if ($("#newsGroup").checked) rows = groupNews(rows);
+  $("#newsCountLabel") && ($("#newsCountLabel").textContent = rows.length);
   const n = rows.slice(0, newsLimit);
   $("#moreNews").style.display = rows.length > newsLimit ? "" : "none";
   if (!n.length) { $("#newsgrid").innerHTML = "<p>조건에 맞는 뉴스 신호가 없습니다.</p>"; return; }
   $("#newsgrid").innerHTML = `<div class="newsstream">${n.map((x, i) => {
     const ko = x.title_ko && x.title_ko !== x.title;
-    return `<article class="story newsrow ${i === 0 ? "is-latest" : ""}"><time class="newsdate" datetime="${esc(x.published_at)}">${esc(fmtDate(x.published_at))}</time><div class="tag">자동수집 · ${esc(countryName(x.country_iso3, "국가 미상"))} · ${esc(LANG_KO[x.lang] || x.lang)} · ${esc(x.source || "")}</div><h3>${esc(ko ? x.title_ko : x.title)}</h3>${ko ? `<p lang="${esc(x.lang)}">${esc(x.title)}</p>` : ""}<a href="${esc(x.url)}" target="_blank" rel="noopener">원문 확인 ↗</a></article>`;
+    return `<article class="story newsrow ${i === 0 ? "is-latest" : ""}"><time class="newsdate" datetime="${esc(x.published_at)}">${esc(fmtDate(x.published_at))}</time><div class="tag">자동수집 · ${esc(countryName(x.country_iso3, "국가 미상"))} · ${esc(LANG_KO[x.lang] || x.lang)} · ${esc(x.source || "")}</div><h3>${esc(ko ? x.title_ko : x.title)}</h3>${ko ? `<p lang="${esc(x.lang)}">${esc(x.title)}</p>` : ""}<a href="${esc(x.url)}" target="_blank" rel="noopener">원문 확인 ↗</a>${x.dups?.length ? `<details class="dup"><summary>같은 소식 ${x.dups.length}건 더 · ${esc([...new Set(x.dups.map((d) => d.source))].slice(0, 3).join(", "))}${x.dups.length > 3 ? " 등" : ""}</summary><ul>${x.dups.map((d) => `<li><a href="${esc(d.url)}" target="_blank" rel="noopener">${esc(d.source)} · ${esc(fmtDate(d.published_at))}</a></li>`).join("")}</ul></details>` : ""}</article>`;
   }).join("")}</div>`;
 }
 
@@ -323,6 +342,7 @@ function renderResearch() {
 }
 
 /* ---------- 탐색기 ---------- */
+let showAllCountries = false;
 function renderTree() {
   const region = $("#region").value, tracking = $("#tracking").value, has = $("#hasProgram").value, q = $("#search").value.trim().toLowerCase();
   const filtered = countries.filter((c) => {
@@ -335,18 +355,24 @@ function renderTree() {
       !ps.some((p) => [p.jurisdiction_name, p.program_name, programName(p)].join(" ").toLowerCase().includes(q))) return false;
     return true;
   }).sort((a, b) => ["verified", "documented", "monitoring"].indexOf(status(a)) - ["verified", "documented", "monitoring"].indexOf(status(b)) || (b.news_30d || 0) - (a.news_30d || 0) || a.name_ko.localeCompare(b.name_ko, "ko"));
-  $("#count").textContent = `${filtered.length}개 국가 · ${filtered.reduce((a, c) => a + (c.program_count || 0), 0)}개 프로그램 표시`;
-  $("#tree").innerHTML = filtered.map((c) => {
+  $("#count").textContent = `${filtered.length}개 국가 · ${filtered.reduce((a, c) => a + (c.program_count || 0), 0)}개 프로그램`;
+  const narrowed = region !== "all" || tracking !== "all" || has !== "all" || q;
+  const shown = narrowed || showAllCountries ? filtered : filtered.slice(0, 30);
+  const more = $("#moreCountries");
+  more.hidden = shown.length === filtered.length;
+  more.textContent = `나머지 ${filtered.length - shown.length}개국 더 보기 (주로 탐색 모니터링)`;
+  more.onclick = () => { showAllCountries = true; renderTree(); };
+  $("#tree").innerHTML = shown.map((c) => {
     const ps = programs.filter((p) => p.country_iso3 === c.iso3).sort((a, b) => completeness(b) - completeness(a));
     const ln = c.latest_news;
     const sig = `<div class="countrysignal" style="font-size:11px;margin:0 0 10px;color:var(--muted)"><b style="color:var(--ink)">기준 근거</b> ${esc(c.base_signal || "—")}${c.primary_source ? ` · <a href="${esc(c.primary_source)}" target="_blank" rel="noopener">출처 ↗</a>` : ""}${ln ? `<br><b style="color:var(--ink)">최근 뉴스 신호</b> ${esc(ln.date)} · <a href="${esc(ln.url)}" target="_blank" rel="noopener">${esc(ln.title)}</a> <span>(${esc(ln.source)})</span>` : ""}</div>`;
-    return `<details class="country" data-status="${status(c)}" data-iso="${c.iso3}"><summary><div class="ctitle"><b>${esc(c.name_ko)}</b><small>${esc(regionName(c.region))} · ${esc(c.base_status || "")} · 최근 ${esc(c.activity_date || "—")}</small></div><span class="pill ${status(c)}">${statusName[status(c)]}</span><span class="hide-sm">프로그램 ${ps.length} · 30일 뉴스 ${c.news_30d || 0}</span><span>＋</span></summary><div class="countrybody">${sig}${ps.length ? `<div class="programgrid">${ps.map(renderProgram).join("")}</div>` : `<p style="font-size:10px;color:var(--muted)">프로그램 단위 근거가 아직 충분하지 않아 탐색 모니터링 상태입니다.</p>`}</div></details>`;
+    return `<details class="country" data-status="${status(c)}" data-iso="${c.iso3}"><summary><div class="ctitle"><b>${esc(c.name_ko)}</b><small>${esc(regionName(c.region))} · ${esc(c.base_status || "")} · 최근 ${esc(c.activity_date || "—")}</small></div><span class="pill ${status(c)}">${statusName[status(c)]}</span><span class="hide-sm">프로그램 ${ps.length} · 30일 뉴스 ${c.news_30d || 0}</span><span aria-hidden="true">＋</span></summary><div class="countrybody">${sig}${ps.length ? `<div class="programgrid">${ps.map(renderProgram).join("")}</div>` : `<p style="font-size:12px;color:var(--muted)">프로그램 단위 근거가 아직 충분하지 않아 탐색 모니터링 상태입니다.</p>`}</div></details>`;
   }).join("");
 }
 function renderProgram(p) {
   const score = completeness(p), f = fieldFlags(p);
   const rel = (p.related_news || []).map((n) => `<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.date)} · ${esc(n.title)}</a></li>`).join("");
-  return `<article class="program"><div class="proghead"><div><div class="eyebrow">${esc(levelName(p.jurisdiction_level))}</div><h4>${esc(programName(p))}</h4><div style="font-size:9px;color:var(--muted)">${esc(p.jurisdiction_name)} · ${esc(statusName[p.tracking_status] || "")}</div></div><span class="stage">${esc(stageName(p.stage))}</span></div><div class="metricgrid"><div class="metric"><span>예산</span><b>${esc(p.budget?.display || "확인 중")}</b></div><div class="metric"><span>참여</span><b>${p.participants?.count != null ? Number(p.participants.count).toLocaleString() + " " + esc(metricName(p.participants.metric)) : "확인 중"}</b></div><div class="metric"><span>법적근거</span><b>${esc(p.legal_basis?.title || "확인 중")}${p.legal_basis?.year ? ` (${p.legal_basis.year})` : ""}</b></div><div class="metric"><span>최종 확인</span><b>${esc(p.last_verified || "—")}</b></div></div><div class="evidencebar"><header><span>근거 완성도</span><b>${score}%</b></header><div class="evtrack"><div class="evfill" style="width:${score}%"></div></div><div class="fields">${Object.entries(f).map(([k, v]) => `<span class="fielddot ${v ? "on" : ""}">${v ? "✓" : "·"} ${k}</span>`).join("")}</div></div>${rel ? `<ul class="relnews">${rel}</ul>` : ""}<footer><span>${esc(sourceName(p.source_type))}</span>${p.primary_url ? `<a href="${esc(p.primary_url)}" target="_blank" rel="noopener">출처 ↗</a>` : ""}</footer></article>`;
+  return `<article class="program"><div class="proghead"><div><div class="eyebrow">${esc(levelName(p.jurisdiction_level))}</div><h4>${esc(programName(p))}</h4><div style="font-size:11.5px;color:var(--muted)">${esc(p.jurisdiction_name)} · ${esc(statusName[p.tracking_status] || "")}</div></div><span class="stage">${esc(stageName(p.stage))}</span></div><div class="metricgrid"><div class="metric"><span>예산</span><b>${esc(p.budget?.display || "확인 중")}</b></div><div class="metric"><span>참여</span><b>${p.participants?.count != null ? Number(p.participants.count).toLocaleString() + " " + esc(metricName(p.participants.metric)) : "확인 중"}</b></div><div class="metric"><span>법적근거</span><b>${esc(p.legal_basis?.title || "확인 중")}${p.legal_basis?.year ? ` (${p.legal_basis.year})` : ""}</b></div><div class="metric"><span>최종 확인</span><b>${esc(p.last_verified || "—")}</b></div></div><div class="evidencebar"><header><span>근거 완성도</span><b>${score}%</b></header><div class="evtrack"><div class="evfill" style="width:${score}%"></div></div><div class="fields">${Object.entries(f).map(([k, v]) => `<span class="fielddot ${v ? "on" : ""}">${v ? "✓" : "·"} ${k}</span>`).join("")}</div></div>${rel ? `<ul class="relnews">${rel}</ul>` : ""}<footer><span>${esc(sourceName(p.source_type))}</span>${p.primary_url ? `<a href="${esc(p.primary_url)}" target="_blank" rel="noopener">출처 ↗</a>` : ""}</footer></article>`;
 }
 
 /* ---------- 분석 ---------- */
@@ -368,7 +394,7 @@ function renderAnalytics() {
   renderTrend();
 }
 function renderTrend() {
-  const el = $("#trend"), H = history.slice(-120);
+  const el = $("#trend"), H = snaps.slice(-120);
   if (H.length < 2) {
     el.innerHTML = `<div style="display:grid;place-items:center;height:100%;font-size:11px;color:var(--muted)">추이는 자동 갱신이 이틀 이상 쌓이면 표시됩니다. (현재 ${H.length}일)</div>`;
     $("#trendNote").textContent = H.length ? `오늘 스냅숏: 30일 뉴스 ${H[0].news_30d}건 · 신호 국가 ${H[0].countries_with_signal_30d}개 · 논문 ${H[0].papers_total}편` : "";
@@ -402,9 +428,27 @@ function renderEvidence() {
   $("#refs").innerHTML = refs.map((r) => `<a class="osref" href="${esc(r.repo)}" target="_blank" rel="noopener"><b>${esc(r.name)}</b><span>${esc(r.pattern)} ↗</span></a>`).join("");
 }
 
+/* 필터·열린 국가를 주소에 담아 공유 가능하게 */
+const URL_KEYS = { region: "#region", status: "#tracking", program: "#hasProgram", q: "#search", nlang: "#newsLang", ncountry: "#newsCountry", nq: "#newsSearch" };
+function syncURL() {
+  const u = new URLSearchParams();
+  for (const [k, sel] of Object.entries(URL_KEYS)) { const v = $(sel).value.trim(); if (v && v !== "all") u.set(k, v); }
+  if (!$("#newsGroup").checked) u.set("group", "0");
+  const open = $$("#tree details[open]").map((d) => d.dataset.iso);
+  if (open.length === 1) u.set("c", open[0]);
+  const qs = u.toString();
+  history.replaceState(null, "", location.pathname + (qs ? "?" + qs : "") + location.hash);
+}
+function restoreURL() {
+  const u = new URLSearchParams(location.search);
+  for (const [k, sel] of Object.entries(URL_KEYS)) if (u.has(k)) $(sel).value = u.get(k);
+  if (u.get("group") === "0") $("#newsGroup").checked = false;
+  return u.get("c");
+}
 function bind() {
-  ["region", "tracking", "hasProgram"].forEach((id) => ($("#" + id).onchange = renderTree));
-  $("#search").oninput = renderTree;
+  ["region", "tracking", "hasProgram"].forEach((id) => ($("#" + id).onchange = () => { renderTree(); syncURL(); }));
+  $("#search").oninput = () => { renderTree(); syncURL(); };
+  $("#tree").addEventListener("toggle", (e) => { if (e.target.matches("details.country")) syncURL(); }, true);
   $("#openVerified").onclick = () => $$("#tree details").forEach((d) => (d.open = d.dataset.status === "verified"));
   $("#csv").onclick = () => {
     const rows = [["country", "jurisdiction", "program", "completeness", "budget", "participants", "stage", "legal_basis", "source", "last_verified"]];
@@ -419,6 +463,12 @@ function bind() {
 (async () => {
   await loadAll();
   setupHeader(); bind(); setupNewsFilters();
+  const openIso = restoreURL();
   renderPulse(); renderMap(); renderRegions(); renderTicker(); renderNews(); renderResearch();
   renderTree(); renderAnalytics(); renderCompare(); renderEvidence();
+  if (openIso) {
+    showAllCountries = true; renderTree();
+    const d = $(`#tree details[data-iso="${CSS.escape(openIso)}"]`);
+    if (d) { d.open = true; requestAnimationFrame(() => d.scrollIntoView({ block: "start" })); }
+  }
 })();
