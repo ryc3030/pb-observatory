@@ -297,6 +297,36 @@ details.crow[open]>summary{background:var(--hover)}
 .slot svg{transform:rotate(-3deg)}
 .pressing .slot.seal svg,.pressing .slot.docu svg,.brow.pressing .slot svg{animation:press .2s cubic-bezier(.3,.7,.4,1) both}
 
+
+/* ---------- 역사 연표 ---------- */
+.history-bar{grid-template-columns:1fr auto!important;align-items:center}
+.eras{display:flex;flex-wrap:wrap;gap:6px}
+.eras a{display:inline-flex;align-items:baseline;gap:6px;border:1px solid var(--hair);padding:6px 12px;border-radius:999px;font-size:13.5px;font-weight:700;color:var(--ink);text-decoration:none}
+.eras a:hover{border-color:var(--ink)}
+.eras a span{font-weight:400;color:var(--muted);font-size:12.5px}
+.era{border-top:3px solid var(--rule);margin-top:var(--s5)}
+.era:first-child{margin-top:0}
+.era>header{display:grid;grid-template-columns:150px minmax(0,1fr);gap:var(--s4);padding:var(--s4) 0 var(--s3)}
+.era>header h3{font-size:20px;font-weight:800}
+.era>header .span{display:block;font-size:13px;color:var(--muted);font-weight:500;margin-top:2px}
+.era>header p{color:var(--ink-2);max-width:70ch;align-self:center}
+.tl{display:grid}
+.tl>li{display:grid;grid-template-columns:150px minmax(0,1fr) minmax(0,300px);gap:var(--s4);padding:var(--s4) 0;border-top:1px solid var(--hair)}
+.tl .yr{font-size:17px;font-weight:800;line-height:1.35}
+.tl .yr small{display:block;font-size:12.5px;font-weight:600;color:var(--muted);margin-top:2px}
+.tl h4{margin:0;font-size:16px;font-weight:700;line-height:1.45}
+.tl .body{margin-top:6px;font-size:14.5px;line-height:1.7;color:var(--ink-2);max-width:68ch}
+.tl .src{font-size:12.5px;color:var(--muted);display:grid;gap:4px;align-content:start;border-left:1px solid var(--hair);padding-left:var(--s3)}
+.tl .src b{font-size:12px;color:var(--ink-2)}
+.tl .src a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--muted)}
+.tl .src a:hover{text-decoration-color:var(--ink)}
+.tl>li.kor .yr::after{content:"한국";display:inline-block;margin-left:6px;font-size:11px;font-weight:700;color:var(--ink);border:1.5px solid var(--ink);padding:0 5px;vertical-align:2px}
+@media (max-width:860px){
+  .era>header,.tl>li{grid-template-columns:1fr;gap:6px}
+  .tl .src{border-left:0;padding-left:0;border-top:1px dashed var(--hair);padding-top:6px}
+  .history-bar{grid-template-columns:1fr!important}
+}
+
 /* ---------- 분석 ---------- */
 .trendbox{padding:var(--s4);margin-bottom:var(--s4)}
 .trendbox h3,.chart h3,.evidence h3,.tablehead h3{font-size:15px;font-weight:700;margin-bottom:var(--s3)}

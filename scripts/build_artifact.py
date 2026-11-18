@@ -21,7 +21,7 @@ OUT = ROOT / "artifact"
 SITE = "https://ryc3030.github.io/pb-observatory/"
 REPO = "https://github.com/ryc3030/pb-observatory"
 DATA_FILES = ["meta.json", "countries.json", "programs.json", "news.json", "papers.json",
-              "ledger.json", "health.json", "history.json"]
+              "ledger.json", "health.json", "history.json", "timeline.json"]
 
 
 def sub(text: str, old: str, new: str) -> str:

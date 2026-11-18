@@ -108,7 +108,7 @@ const esc = (s) =>
 const svg = (id, cls = "") => `<svg${cls ? ` class="${cls}"` : ""} aria-hidden="true"><use href="#i-${id}"/></svg>`;
 const nf = new Intl.NumberFormat("ko-KR");
 
-let META = {}, countries = [], programs = [], news = [], papers = [], ledger = [], health = {}, snaps = [], refs = [];
+let META = {}, countries = [], programs = [], news = [], papers = [], ledger = [], health = {}, snaps = [], refs = [], TL = { eras: [], items: [] };
 let byISO = {};
 const ORDER = ["verified", "documented", "monitoring"];
 const statusName = { verified: "공식·검증", documented: "문헌·플랫폼", monitoring: "탐색 모니터링" };
@@ -168,10 +168,10 @@ async function loadAll() {
   const [m, c, p, n, pa, l, h, hi, rf] = await Promise.all([
     getJSON("meta.json", {}), getJSON("countries.json", { items: [] }), getJSON("programs.json", { items: [] }),
     getJSON("news.json", { items: [] }), getJSON("papers.json", { items: [] }), getJSON("ledger.json", []),
-    getJSON("health.json", {}), getJSON("history.json", []), Promise.resolve([]),
+    getJSON("health.json", {}), getJSON("history.json", []), getJSON("timeline.json", { eras: [], items: [] }),
   ]);
   META = m; countries = c.items || []; programs = p.items || []; news = n.items || []; papers = pa.items || [];
-  ledger = l || []; health = h || {}; snaps = hi || []; refs = rf || [];
+  ledger = l || []; health = h || {}; snaps = hi || []; TL = rf && rf.items ? rf : TL;
   byISO = Object.fromEntries(countries.map((x) => [x.iso3, x]));
   countries.forEach((x) => (x.program_count = programs.filter((p) => p.country_iso3 === x.iso3).length));
 }
@@ -456,6 +456,20 @@ function renderProgram(p) {
     <footer><span>${esc(sourceName(p.source_type))}${p.last_verified ? " · " + esc(p.last_verified) + " 확인" : " · 확인일 미기재"}</span>${p.primary_url ? `<a href="${esc(p.primary_url)}" target="_blank" rel="noopener">출처 ${svg("out")}</a>` : ""}</footer></article>`;
 }
 
+/* ---------- 역사 연표 ---------- */
+function renderHistory() {
+  const ko = $("#koOnly").checked;
+  $("#eraNav").innerHTML = TL.eras.map((e) => `<a href="#era-${esc(e.id)}">${esc(e.label)} <span>${esc(e.span)}</span></a>`).join("");
+  $("#timeline").innerHTML = TL.eras.map((e) => {
+    const its = TL.items.filter((i) => i.era === e.id && (!ko || i.iso3 === "KOR"));
+    if (!its.length) return "";
+    return `<section class="era" id="era-${esc(e.id)}" aria-labelledby="era-h-${esc(e.id)}"><header><h3 id="era-h-${esc(e.id)}">${esc(e.label)}<span class="span">${esc(e.span)}</span></h3><p>${esc(e.summary)}</p></header>
+      <ol class="tl">${its.map((i) => `<li class="${i.iso3 === "KOR" ? "kor" : ""}"><div class="yr">${esc(i.year)}${i.iso3 && i.iso3 !== "KOR" ? `<small>${esc(countryName(i.iso3))}</small>` : !i.iso3 ? "<small>국제</small>" : ""}</div>
+        <div><h4>${esc(i.title)}</h4><p class="body">${esc(i.body)}</p></div>
+        <div class="src"><b>근거</b>${(i.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("")}</div></li>`).join("")}</ol></section>`;
+  }).join("") || '<p class="empty">연표 자료를 불러오지 못했습니다.</p>';
+}
+
 /* ---------- 분석 ---------- */
 function renderAnalytics() {
   const groups = [];
@@ -560,6 +574,7 @@ function bind() {
   setupShell(); bind(); setupNews();
   renderAnalytics();
   const openIso = restoreURL();
-  renderBallot(); renderMap(); renderNews(); renderResearch(); renderTree(); renderEvidence();
+  renderBallot(); renderMap(); renderNews(); renderResearch(); renderTree(); renderHistory(); renderEvidence();
+  $("#koOnly").onchange = renderHistory;
   if (openIso && byISO[openIso]) openCountry(openIso);
 })();
