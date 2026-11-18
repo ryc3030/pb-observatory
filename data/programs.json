@@ -1,0 +1,1331 @@
+{
+ "updated_at": "2026-11-18T01:49:25.137881+00:00",
+ "count": 39,
+ "items": [
+  {
+   "id": "kor-national-pb",
+   "country_iso3": "KOR",
+   "jurisdiction_name": "대한민국(중앙정부)",
+   "jurisdiction_level": "national",
+   "program_name": "국민참여예산",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "국가재정법 제16조, 같은 법 시행령 제7조의2",
+    "year": 2018
+   },
+   "primary_url": "https://www.mybudget.go.kr/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 36.48,
+   "lon": 127.29,
+   "tracking_status": "verified",
+   "keywords": [
+    "국민참여예산",
+    "mybudget"
+   ],
+   "related_news": [
+    {
+     "title": "고작 ‘119억’ 반영했던 국민참여예산 확대…청년 목소리 대폭 담는다",
+     "date": "2026-10-26",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE81SGlVbnMyc0VLck91NGo5NTVlenJPYVNDY3puU2dYU01hTGpWS2h6MGJvVkRpVS1lX29oZVlRYllwSEN1WUlYVGtmaWlmR3FPczc3SUd5RXlIRUZHU3hWVTNRSzBaV0I2SjNQOGtjdDg2WEk?oc=5",
+     "source": "마켓인"
+    }
+   ],
+   "latest_signal_date": "2026-10-26"
+  },
+  {
+   "id": "kor-seoul-pb",
+   "country_iso3": "KOR",
+   "jurisdiction_name": "서울특별시",
+   "jurisdiction_level": "metropolitan city",
+   "program_name": "서울시 시민참여예산",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "지방재정법 제39조, 서울특별시 시민참여예산 운영 조례",
+    "year": 2012
+   },
+   "primary_url": "https://yesan.seoul.go.kr/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 37.566,
+   "lon": 126.978,
+   "tracking_status": "verified",
+   "keywords": [
+    "서울시 시민참여예산",
+    "서울 주민참여예산"
+   ],
+   "related_news": [
+    {
+     "title": "서울시 시민참여예산, 제안액의 0.7%만 반영…시민투표 이후 104억 삭감 논란",
+     "date": "2026-11-04",
+     "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE9mXzlPUFJmNVZzd0poS1JuTlFlUVViUl81am93X2xyOGhLbmNER2hxOC1OVm55U2NRTFhvQjhlanFQblZYV0pLai14VVNNbnpKRm91Y0UyM0toNFF1Slp5Y0ZIM0FxQnVyZkpN?oc=5",
+     "source": "서울뉴스통신"
+    },
+    {
+     "title": "서울시 시민참여예산 배정 '0.7%'…주무열 \"이름뿐인 제도 전락\" 지적",
+     "date": "2026-11-04",
+     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE15bHZiQl94bXdhcms4ZmNieEdlbjh2WWl6NDRVdFBQMkxnM0RNOU8zaE90RENxXzRQQTVDZTN1NXVjM05rZXAxMXBaQ0JHWk5McElZZjdKN2hzdXhXRXJQNzFWRXp4NF94ZjB3QVFB?oc=5",
+     "source": "국제뉴스"
+    },
+    {
+     "title": "주무열 시의원, 서울시 시민참여예산 비판…실질적 참여 보장 요구",
+     "date": "2026-11-04",
+     "url": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE1GUmI2ajQyaW95aTFoUTFQU3lwbTZCcENoS0hqMWhxYWdBUEl0RWNlT3YwYkwwczlIUThmUWFuWnZWTHRMLXRPUC05Q1o5RFlTZE1qTjVBdVJRZ0Nf?oc=5",
+     "source": "뉴스핌"
+    }
+   ],
+   "latest_signal_date": "2026-11-04"
+  },
+  {
+   "id": "usa-nyc-peoples-money",
+   "country_iso3": "USA",
+   "jurisdiction_name": "New York City",
+   "jurisdiction_level": "city",
+   "program_name": "The People's Money (citywide PB)",
+   "stage": "results / implementation",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": 134418,
+    "metric": "voters"
+   },
+   "legal_basis": {
+    "title": "NYC Charter (Civic Engagement Commission, 2018 charter revision)",
+    "year": 2018
+   },
+   "primary_url": "https://www.participate.nyc.gov/processes/Citywidepb2025",
+   "source_type": "official",
+   "last_verified": "2026-06-30",
+   "lat": 40.713,
+   "lon": -74.006,
+   "tracking_status": "verified",
+   "keywords": [
+    "people's money",
+    "peoples money",
+    "new york",
+    "nyc"
+   ],
+   "related_news": [
+    {
+     "title": "NYC Civic Engagement Commission Hosts Participatory Budget Workshops Through Nov. 18",
+     "date": "2026-11-12",
+     "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOa3duOEhhazRZbUZ6NzdZeDFTSGlUaE9LTnVJTFFoOElEVVVIQi1PX1dnUHZRZzRMMk9nZ0QxTFZTZHpjdWpHcXZ1STJuMHBhaHUyRXVmeEEydnNpVHZDWmg4aFN3MXcwMWwwZnZuYTZxeUgtU3ppUWRZZVJ1NllnczYwS3ZlWmY4TGE4V2Y1anMwTDV5UVBaTEpaN2dQQ2pjXzRJWUM5OVhISVlsRmtVQ2FWeEU3cDRkZ2xkNm5jMElKOXljOTBPLU9TaF93blFPdFd3a0QwZjJCXzZuVjBSYTI5eWRSTGc?oc=5",
+     "source": "Bushwick Daily"
+    }
+   ],
+   "latest_signal_date": "2026-11-12"
+  },
+  {
+   "id": "fin-helsinki-omastadi",
+   "country_iso3": "FIN",
+   "jurisdiction_name": "Helsinki",
+   "jurisdiction_level": "city",
+   "program_name": "OmaStadi",
+   "stage": "implementation",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Local Government Act 410/2015 §22 (주민참여 권리)",
+    "year": 2015
+   },
+   "primary_url": "https://omastadi.hel.fi/?locale=en",
+   "source_type": "official",
+   "last_verified": "2026-09-01",
+   "lat": 60.169,
+   "lon": 24.938,
+   "tracking_status": "verified",
+   "keywords": [
+    "omastadi",
+    "helsinki"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "fra-paris-bp",
+   "country_iso3": "FRA",
+   "jurisdiction_name": "Paris",
+   "jurisdiction_level": "city",
+   "program_name": "Budget participatif de Paris",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "시의회 의결(법정 의무 아님)",
+    "year": 2014
+   },
+   "primary_url": "https://budgetparticipatif.paris.fr/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 48.857,
+   "lon": 2.352,
+   "tracking_status": "verified",
+   "keywords": [
+    "budget participatif de paris",
+    "paris"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "esp-madrid-decide",
+   "country_iso3": "ESP",
+   "jurisdiction_name": "Madrid",
+   "jurisdiction_level": "city",
+   "program_name": "Presupuestos participativos / Decide Madrid",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Reglamento Orgánico de Participación Ciudadana (Madrid)",
+    "year": null
+   },
+   "primary_url": "https://decide.madrid.es/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 40.417,
+   "lon": -3.704,
+   "tracking_status": "verified",
+   "keywords": [
+    "decide madrid",
+    "madrid"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "pol-krakow-civic",
+   "country_iso3": "POL",
+   "jurisdiction_name": "Kraków",
+   "jurisdiction_level": "city",
+   "program_name": "Budżet Obywatelski Miasta Krakowa",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Ustawa o samorządzie gminnym art. 5a (시·군 지위 도시는 지출의 0.5% 이상 의무)",
+    "year": 2018
+   },
+   "primary_url": "https://budzet.krakow.pl/",
+   "source_type": "official",
+   "last_verified": "2025-05-01",
+   "lat": 50.065,
+   "lon": 19.945,
+   "tracking_status": "verified",
+   "keywords": [
+    "kraków",
+    "krakow",
+    "budżet obywatelski krakowa"
+   ],
+   "related_news": [
+    {
+     "title": "Konsultacje społeczne: Jak zmienić Budżet Obywatelski Miasta Krakowa?",
+     "date": "2026-11-06",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWFNxb3YwOWRORS04RHhfTlFxNkl5bjdQWnhVMkNsVzZOVTV5MnN2UjZrVnpNVnRlMnlleDV0VWIzSEpNTTVtUjdiVFRhY2c4bzQwZE9fMktrcm1fckJMTFE1bTBqNlk0bFd6dnpaTUlBYTBhN0VQdC03S3dWdkc2cnlPNHhhb0E4aVI5V1pZNENqRHdwRGpPTkV2RGNYclo3a1dCSmJEMXFqcWJJY0VEaFNrZkJfNFQyM3hGX3pLWTB1QkFLX3EzN05Idw?oc=5",
+     "source": "Magiczny Kraków"
+    }
+   ],
+   "latest_signal_date": "2026-11-06"
+  },
+  {
+   "id": "prt-palmela",
+   "country_iso3": "PRT",
+   "jurisdiction_name": "Palmela",
+   "jurisdiction_level": "municipality",
+   "program_name": "Eu Participo – Orçamento Participativo de Palmela",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "source_type": "research-platform",
+   "last_verified": "2026-03-01",
+   "lat": 38.569,
+   "lon": -8.901,
+   "tracking_status": "documented",
+   "keywords": [
+    "palmela"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "bra-porto-alegre",
+   "country_iso3": "BRA",
+   "jurisdiction_name": "Porto Alegre",
+   "jurisdiction_level": "city",
+   "program_name": "Orçamento Participativo de Porto Alegre",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "시장 재량 편성(법정 비율 없음)"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Lei Orgânica do Município(참여 보장) · Estatuto da Cidade 제44조(협의 절차)",
+    "year": 1989
+   },
+   "primary_url": "https://prefeitura.poa.br/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": -30.035,
+   "lon": -51.218,
+   "tracking_status": "verified",
+   "keywords": [
+    "porto alegre"
+   ],
+   "related_news": [
+    {
+     "title": "Vídeo: Orçamento participativo em Porto Alegre | Vídeos - RBS Notícias",
+     "date": "2026-11-18",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOblQwak4xSUJhdEdKWUtSb19JRUhYM0ZPdmZ4cGdWMklHME9weGJqTENKNTJjb1p0aGNwbWVlMDI0MVFDamVnLUJNX0VSQU85RlJRdWRucDlzZnd0WmpBVldjUy0xRGNLVUpVZUNPb3R0V0J4R0VVQS0wY3pzTnVVaVNLLWtVVVE1VGF0UTNJbTR5WmVqM1g1S0U5Q2tqMlktX0gydElVc09ndEl0SUJnaGhuajR6T2M5UW1ocWZDdw?oc=5",
+     "source": "G1"
+    },
+    {
+     "title": "Cooperativismo habitacional lidera prioridades do Orçamento Participativo de Porto Alegre",
+     "date": "2026-11-13",
+     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPMnlUSEFzdUd1dDZWZGU1bGZ4ajNMdUZ1Z1F6RmtJSGJCRnZTS2lPci1vcVJ4b05BTHh2b2JYTzUyZTRmWjJzajgtUUhHdmwxRmpjYUJQX1ljd2JTbm5ZWGdoUzlQZkNCb1ZWU2FqSV9mZHFoUEVCTnVBaXZOYmlxSm9ILVVONU9tRVd2Sm0wc1M2MnR3aHMyazNzNmotZFR2RWRxRnQzLWdVSmdWU3R4UkJXZU05WmYwQ3hPNEYxZUlJT0RLTl9oZU1jTkpQQQ?oc=5",
+     "source": "MundoCoop"
+    },
+    {
+     "title": "Porto Alegre inicia Orçamento Participativo com votação digital e R$ 30 milhões",
+     "date": "2026-11-03",
+     "url": "https://news.google.com/rss/articles/CBMi-AFBVV95cUxQdXo1MUZPbnZfdHhVLUw5YzFsS3BYYmRRVk9QOXFiaEhnSnpHSll0dFZJWlpSYVBuUWthbHg5ZGY5d3d3S3d5WDlNcUxaY3BsSndsVF9rMWVyamVyMVJhdThQZVV2QmlYd1hGWkdvN2VmY2RLanY0aEd5MEctbUNCNEYxcEYwQl92dVpnd01iamhhLXVDbjZRNDBnOWduWWhvZkpqS0xMVjIyem1HYzgzbXhHV2VobGFYZEZfbGlmaDF6SFJuQ29iS1dFTnJtVGN1RzZUMko2UUpYNXZTV3JSWF9rQTlOdUNrZHZYZzlkNDNhTmdXZDJZctIBhwJBVV95cUxObUt6eS1nZzB3RHZZY0Y3SXNZYVJETWNMNGdHd0pvOTZ6NXpEZzF0ckhSNGdwaEgtVjFETEYxdDU3YzNHajlZV0EyR3B3bmhmeUwzdllZUEJOQTEwS3lYZEhieV91X1FqS2ZJbEk3V0lqaHpwV2hRS0hNWUxBMWdkd2ljNjdEYTl0blhjOWRLSnExcVVTWTRfRzc0X0Z1VzZ3bVljZjZyaTNPOHVUNXkxVk5zSl82SGQ4YWI4WkxyV1RoNHc2ODRGT01NbUdHYUt6S0lqNTJJNnJwNTNiVTNMamFLVERTbnZRSENET0diM1loZ1B3dnhZSXNUSHpjUmdiOFpGQXNxdw?oc=5",
+     "source": "G1"
+    }
+   ],
+   "latest_signal_date": "2026-11-18"
+  },
+  {
+   "id": "bra-santa-catarina",
+   "country_iso3": "BRA",
+   "jurisdiction_name": "Santa Catarina",
+   "jurisdiction_level": "state",
+   "program_name": "Santa Catarina state participatory budgeting",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "source_type": "research-platform",
+   "last_verified": "2026-01-01",
+   "lat": -27.595,
+   "lon": -48.548,
+   "tracking_status": "documented",
+   "keywords": [
+    "santa catarina",
+    "florianópolis",
+    "florianopolis"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "mex-cdmx",
+   "country_iso3": "MEX",
+   "jurisdiction_name": "Ciudad de México",
+   "jurisdiction_level": "city/state",
+   "program_name": "Presupuesto Participativo CDMX",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "알카디아 예산의 4%(법정)"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Ley de Participación Ciudadana de la Ciudad de México",
+    "year": 2019
+   },
+   "primary_url": "https://www.iecm.mx/participacionciudadana/presupuesto-participativo/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 19.433,
+   "lon": -99.133,
+   "tracking_status": "verified",
+   "keywords": [
+    "cdmx",
+    "ciudad de méxico",
+    "iecm"
+   ],
+   "related_news": [
+    {
+     "title": "Aprueba IECM destrucción de documentación de la Elección de COPACO 2026 y la Consulta de Presupuesto Participativo 2026 y 2027",
+     "date": "2026-11-16",
+     "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPYTdzN01PcVdPbGNlLU9rS1hFbGEyOC1HWEVsa2lHODEyMVVGTUdvVk0xQ1hHNy1nbi1JWjlMeDEtcW9fZ2cyV19IeGpkbWRkVXQzeGFDcFFERUhybVBKS0NGNzhhQmJhZ1BQVHBHb3V1MUtXazNvcmVOWGJTc3lnOHl6X1M2M052LVBiMEc4NzZEYXhKT0RDNmVnaEtXbWJjZEpfeW83UUV6Vy03Y3ozczFmSzVkeXh5Z2VzTVBjRGFZaEdFWEJvTFRrTk5SMDQ5UzFVV0Jid0lSZ085bWV4SGFQa0RYdzd6dWlTWA?oc=5",
+     "source": "Hoja de Ruta Digital"
+    }
+   ],
+   "latest_signal_date": "2026-11-16"
+  },
+  {
+   "id": "per-san-borja-2026",
+   "country_iso3": "PER",
+   "jurisdiction_name": "San Borja (Lima)",
+   "jurisdiction_level": "district municipality",
+   "program_name": "Presupuesto Participativo San Borja 2026",
+   "stage": "2026 cycle / legal framework tracked",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Ley Marco del Presupuesto Participativo, Ley N° 28056",
+    "year": 2003
+   },
+   "primary_url": "https://www.gob.pe/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": -12.107,
+   "lon": -77.0,
+   "tracking_status": "verified",
+   "keywords": [
+    "san borja"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "dom-ppm-framework",
+   "country_iso3": "DOM",
+   "jurisdiction_name": "República Dominicana(전 지방정부)",
+   "jurisdiction_level": "national municipal framework",
+   "program_name": "Presupuesto Participativo Municipal (PPM)",
+   "stage": "recurring municipal framework",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Ley 176-07 del Distrito Nacional y los Municipios",
+    "year": 2007
+   },
+   "primary_url": "https://www.oidp.net/en/",
+   "source_type": "network",
+   "last_verified": null,
+   "lat": 18.486,
+   "lon": -69.931,
+   "tracking_status": "documented",
+   "keywords": [
+    "presupuesto participativo municipal",
+    "república dominicana"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "cze-prague",
+   "country_iso3": "CZE",
+   "jurisdiction_name": "Praha(자치구)",
+   "jurisdiction_level": "city districts",
+   "program_name": "Participativní rozpočet – pražské městské části",
+   "stage": "recurring / mixed",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-03-01",
+   "lat": 50.075,
+   "lon": 14.437,
+   "tracking_status": "documented",
+   "keywords": [
+    "praha",
+    "prague"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "rou-cluj",
+   "country_iso3": "ROU",
+   "jurisdiction_name": "Cluj-Napoca",
+   "jurisdiction_level": "city",
+   "program_name": "Bugetare participativă Cluj-Napoca",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-03-01",
+   "lat": 46.771,
+   "lon": 23.624,
+   "tracking_status": "documented",
+   "keywords": [
+    "cluj"
+   ],
+   "related_news": [
+    {
+     "title": "Noua „bugetare participativă” la Cluj? În loc să propui proiecte online, îi spui viceprimarului ce lipsește din cartier",
+     "date": "2026-11-09",
+     "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNaDhpZWRTSGFLamE2czhrVTYzYXIyZDhMejUxRFJYcXI2TTQ1OHM0emZnaHlDYjJmYXplbUFtZFJuT2h3WXd0NS1tMU9CNmVyWUJVYkVYM0Q5SWFpUGV1QzRDMzFhalRxVTlZYmx0N2s2TjhRX1ZIeFRRWXVDcUU2Y0g0SlA1d2syeVoyanhKdndSM2VPT0VYZXRpaDJlbVNqZU9MNTFzRzBDNEYyVk5vVWFPVEFVelhCYTRlUTJMQ3dUYVR1X0JKRl9SdmVBX3M?oc=5",
+     "source": "Media9"
+    },
+    {
+     "title": "Elevii din Cluj vor putea decide cum se schimbă școlile lor/Primăria extinde bugetarea participativă în școli și oferă premii de 5.000 de euro pentru fiecare unitate de învățământ participantă pentru a implementa proiectele",
+     "date": "2026-10-21",
+     "url": "https://news.google.com/rss/articles/CBMixwJBVV95cUxOaVc3U0wwbDJRNE5yR1FsN3pnN0FuY3Y2a3RqVjFBZ2VZQlF2d20wNTdWUTNOMUNZVy1Za2pvNWNKVEhUcGNZeHJXVDR0OXl2RGgzZllCNzZpX3B2aWg5UHNQNngtWkR0ZF9hLVRLQ1dudXA0N2cxLWVNLUNnb08tZWZoT2xvTW1nNV90blNtNHE4U0ZrZlk2VnBMS1pEMVRneXJnQlZIb2pzUmFMYnBmbGkwbHBJVnZxUUNRS0xUdnhPZmZPd1RNTVJscmxTVVBCZkgySks5bkxITkZrNmVIbWdfdGpUWUdndFk5eDgtRHBWM3BmdHlXWGxRaThvTmpTblZnbjJURzlCNUVfMm1vNHRHR0lSWkxCNFZvZENXaXZoRUhJX29UWFIyX21DRFNLSm82VEdGLWtoOEdaVjE5WjVNd2R1UUU?oc=5",
+     "source": "Actual de Cluj"
+    }
+   ],
+   "latest_signal_date": "2026-11-09"
+  },
+  {
+   "id": "svn-maribor",
+   "country_iso3": "SVN",
+   "jurisdiction_name": "Maribor",
+   "jurisdiction_level": "city",
+   "program_name": "Participativni proračun Maribor",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-03-01",
+   "lat": 46.554,
+   "lon": 15.646,
+   "tracking_status": "documented",
+   "keywords": [
+    "maribor"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "isl-reykjavik",
+   "country_iso3": "ISL",
+   "jurisdiction_name": "Reykjavík",
+   "jurisdiction_level": "city",
+   "program_name": "Better Reykjavík / Hverfið mitt",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-03-01",
+   "lat": 64.147,
+   "lon": -21.94,
+   "tracking_status": "documented",
+   "keywords": [
+    "reykjavík",
+    "reykjavik",
+    "hverfið mitt"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "arg-rosario",
+   "country_iso3": "ARG",
+   "jurisdiction_name": "Rosario",
+   "jurisdiction_level": "city",
+   "program_name": "Presupuesto Participativo de Rosario",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-03-01",
+   "lat": -32.944,
+   "lon": -60.65,
+   "tracking_status": "documented",
+   "keywords": [
+    "rosario"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "ury-montevideo",
+   "country_iso3": "URY",
+   "jurisdiction_name": "Montevideo",
+   "jurisdiction_level": "city",
+   "program_name": "Presupuesto Participativo de Montevideo",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-03-01",
+   "lat": -34.901,
+   "lon": -56.164,
+   "tracking_status": "documented",
+   "keywords": [
+    "montevideo"
+   ],
+   "related_news": [
+    {
+     "title": "Montevideo pone en marcha una nueva edición de las Elecciones de Presupuesto Participativo y Concejos Vecinales",
+     "date": "2026-10-26",
+     "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQSmNXRGlBeno0SkdGNll6MXp3dmhWcUxMdm5rVkdsWGVneFc4MFh6Q2JjcUZ5MUt0QVB1cE5hVVpqOUVBLVI2ZlZraGtNMHgtNVpIZGEwRDFNVHV4bzRzRWlXRGQ4WkwyYnVIQldfTHFMVE9Oc2lWR0ZHNUhSNGxDenpZYXBDRTNwRkhVV0JBazMxTmgxc1pURllmYVJSWHZjQlpsNXBLZ1FzOERQUWNDaktacGZOa0hZMHNZU3NocUp2X2NtRTRoemNpUFVoOUo5NkpvWVBjOU9hX25YdTV1WF9udnRJY01Ld1E?oc=5",
+     "source": "La Mañana"
+    },
+    {
+     "title": "Presupuesto Participativo en Montevideo: este lunes comienza la votación en línea para elegir proyectos barriales",
+     "date": "2026-10-25",
+     "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxNYTNSNjdpQ1pyZTcybTY2aFBnejByM0JxMVBXbng3NXhsWkhSSjBIVmVjQzVHX1RMejRVMGJkQUpqSDFYaVJqa282ZjI1bzBxcU5hcnJDRXNpbWFUMG5mbzR4NUVuR2xpUF9OUjVTOHluWGo5OGs0cV9KbVBYazY2TW1RYTJKR25iVVpIVFR1RURaWkJlWWdIRTRsXzRrUHZ2MDZmQS04Y093YXUtMjlXT0R4ZUJERVFJcEVGcG9EZzNZOUdUVmJWdlVKMXV3bllCZzA3T3IwMlNrdWpYLWxTMFFEQnJRQdIB6wFBVV95cUxQUUt5QzV5UVRHZnpKUXE2VXMxVTZMSmxBbFpJYU54OGpXWXd6V0ZZWGVPT3J5UmthQnRhWThGWU0yNTh0ZDJ6ajZiZmxOVDBxZXVDeDBkNVhKZFFIVnVaWlB1U2ZJRnBYdm1lMV9kYmwxT2Ntcmx6R0g4SlA4TXBxS2g2dThkMVFXcWQwU1dkU2Y3MXl1ZGdYWUJsb25MV2NWTkpPQzN6bjNXUHY3dkJBNXhCc0hEWlRJSW9uLW4yTGlvVk4wUklwR3RVS1B3cUozcU4zVXpjQ0xGMDU5d3hOTWh4S2V4SlFkdVhN?oc=5",
+     "source": "El Observador"
+    }
+   ],
+   "latest_signal_date": "2026-10-26"
+  },
+  {
+   "id": "can-guelph",
+   "country_iso3": "CAN",
+   "jurisdiction_name": "Guelph",
+   "jurisdiction_level": "city",
+   "program_name": "Guelph neighbourhood participatory budgeting",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-03-01",
+   "lat": 43.545,
+   "lon": -80.248,
+   "tracking_status": "documented",
+   "keywords": [
+    "guelph"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "chn-chengdu",
+   "country_iso3": "CHN",
+   "jurisdiction_name": "成都 (Chengdu)",
+   "jurisdiction_level": "municipal / villages",
+   "program_name": "村级公共服务专项资金 (대규모 참여예산)",
+   "stage": "historical",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2018-12-31",
+   "lat": 30.572,
+   "lon": 104.066,
+   "tracking_status": "documented",
+   "keywords": [
+    "chengdu",
+    "成都"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "ken-kwale",
+   "country_iso3": "KEN",
+   "jurisdiction_name": "Kwale County",
+   "jurisdiction_level": "county",
+   "program_name": "Tupo.Tusikizwe 참여형 성인지예산",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Constitution of Kenya 2010 · Public Finance Management Act 2012 (예산 공공참여)",
+    "year": 2012
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": "2025-01-01",
+   "lat": -4.174,
+   "lon": 39.452,
+   "tracking_status": "documented",
+   "keywords": [
+    "kwale"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "zaf-vulekamali",
+   "country_iso3": "ZAF",
+   "jurisdiction_name": "South Africa(국가)",
+   "jurisdiction_level": "national",
+   "program_name": "Vulekamali 공공예산 참여 포털",
+   "stage": "budget participation / monitoring",
+   "budget": {
+    "display": "해당 없음(직접 배분 아님)"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://vulekamali.gov.za/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": -25.746,
+   "lon": 28.188,
+   "tracking_status": "documented",
+   "keywords": [
+    "vulekamali"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "deu-buergerhaushalt",
+   "country_iso3": "DEU",
+   "jurisdiction_name": "Deutschland(다수 지방정부)",
+   "jurisdiction_level": "local",
+   "program_name": "Bürgerhaushalt 생태계",
+   "stage": "recurring / mixed",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "주(州)별 지방자치법 — 법정 의무 아님"
+   },
+   "primary_url": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2019",
+   "source_type": "research-synthesis",
+   "last_verified": "2019-01-01",
+   "lat": 51.165,
+   "lon": 10.452,
+   "tracking_status": "documented",
+   "keywords": [
+    "bürgerhaushalt",
+    "buergerhaushalt"
+   ],
+   "related_news": [
+    {
+     "title": "Alle wunschlos glücklich? Warum in Jahnsdorf der Bürgerhaushalt auf Eis liegt",
+     "date": "2026-11-13",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU21IQnN0aWg3QnJhMlJwN2RnR0V1M2NzWExZdTJadGtCV29LZVF2Z25pLTJPN2dMRzFVVGt0X1FxTWhOc25nSG1FbW1PbnlIbEFYUHY1bVZ6bFFYN3pjallBV3ZVNUZObDlidm1fNExDTlpzZHBFN0s1NUkzMGVKZXRuZVgzRjEtNzN3QXpFTnd0OUJmdFZRdEpUZDZsWXByNzZ3VDB2XzhoQjhMSFU3OUVKdjZwRGpfVlpNREoxSm5ISGlQWW1Bb0lISUpudHF3OFltaHRjaFV2QQ?oc=5",
+     "source": "Freie Presse"
+    },
+    {
+     "title": "Steuerungsgruppe Bürgerhaushalt tagt öffentlich in Spremberg",
+     "date": "2026-11-05",
+     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMUdQNFQ5cE9iVFFGTVBYQXB6c2JDNG5CbTUzZVZOU3NSSTVfek1mTlBwX2VQQUVqT3lRSFFzS3BiaWM0d2ZkSGhCTUxvM2tuYVlKWUozRWtXeVBaWG5ka2MzT0Y5LTY5emItRS1VRlVBTVFPMy0zUXljWmFwY3hBUGpSRXpzMHN6VjZsYUZPbmFEems1d05OZWF2anJQRmNZMWhJc0ZPY1pKcHZkOTE1VmFmRk1GUDBaOGNWNVhvVWpkRVdYdUYyOGtiSWdudERqLURWcG8yT3lTSTdocVVfVUMyUHJrWVpPXzA5dGNrSm1FSXYzbVRZNC1BSWwxNmtDalBJbXZn?oc=5",
+     "source": "NIEDERLAUSITZ aktuell"
+    },
+    {
+     "title": "Laager Bürgerhaushalt: Vier Projekte werden umgesetzt",
+     "date": "2026-11-03",
+     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNdUhFSGhqc0Q2eHpUaG5YQ2MwQm1xUjY5M3k4T0VlOEZzdmt4bDhPWWp4LUdTUFVRZ2FwTnVfOWtVWHExaEdXRFo2NWRZSDBhcVhFOE95YVJrZU82LVhsTFNhVzhWRzZTbEg2WW9UYjk4VXFtTTN4QkZ3OWdrVS0tdHZZazhLX0ZWcHhNN1oyaEhqbnRKSk14WFRuaU1hY1RsY1ZPb0E0WngyRHdYSURyX21HeFFkWVVWMWtEUnBSc3lUNm9BT21VNHozb3I0Rk4tX1dULWhvZw?oc=5",
+     "source": "NDR.de"
+    }
+   ],
+   "latest_signal_date": "2026-11-13"
+  },
+  {
+   "id": "ita-school-pb",
+   "country_iso3": "ITA",
+   "jurisdiction_name": "Italia(학교)",
+   "jurisdiction_level": "school",
+   "program_name": "Bilancio partecipativo a scuola",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": "students"
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "source_type": "research-platform",
+   "last_verified": "2025-05-16",
+   "lat": 41.9,
+   "lon": 12.496,
+   "tracking_status": "documented",
+   "keywords": [
+    "bilancio partecipativo",
+    "scuola"
+   ],
+   "related_news": [
+    {
+     "title": "Bilancio partecipativo: incontro con i cittadini per L’Isola dei bambini a Pescara",
+     "date": "2026-11-16",
+     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMlZvZmdsWnpMdFhpLUxUNjNNRDVIb2dyak9COEFUVHRRMFBEY1FrN1Z1NzdpR2ZqanVvcmRDQllsRkdMLU9Ec0hqSXd2enJaWVcwVFJ1VG5MSjBFTnZJSmltRURINUxsSGlCNEdscmdjQXltUU1PQUJjdmVfNDZpTjRzOEY4RmFOa1UzMTlzazdVOW05a1ZER212X0JuTU0xdF9USklLTndMc1dXTXlCcThlY3hpVEh5X0VITlNWTWNRQmRp?oc=5",
+     "source": "NUOVO Cityrumors Abruzzo"
+    },
+    {
+     "title": "Bilancio partecipativo, boom di voti: “Oasi urbane e giardini, 12 progetti scelti da 36mila persone”",
+     "date": "2026-11-10",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYm4wU1hZTy1hLWRyNFJ5T0RDZ3lBMTBDakZNMHRnaVlfcWJXXzVGbUZaT1psV0VoNWFiT3BDQnkzSmJvazZUaFdybzkxRzdHQnI1bnpDaHczdm56TzBfeUVFT09fTUJWWm5DZzlxdGFMeW9JNFNKVERvN2hPcjJEaHpXa2lIcXlHSlFnbEJqZ1hUemZ2WTNYRUwxcUpEbHlDX0Vldk1HaFdOOHVRVzd2QjFKanAxbTNHWUc3MzFObm9wQ1VYQ1VqNG1ubw?oc=5",
+     "source": "la Repubblica"
+    },
+    {
+     "title": "Bilancio partecipativo 2026, ecco quali sono i progetti vincitori",
+     "date": "2026-11-10",
+     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQdEFJV3ZIOWxYQ1lXUUJNVUhyQVRPSUc1Ukc4c2ljQlZvaVpzcV94b21peGoybGRUNklTZ3FpODVDT3dNSWpvVC11cTdQSEN2bmREdGQ3ZFdsUTFTcUNxV2lYTS1nZXlhVXptbFltMDRMakFXdGRHZ2c5dW1WMHdxNllKclBtWWF0Z1pwYk9KYmo?oc=5",
+     "source": "BolognaToday"
+    }
+   ],
+   "latest_signal_date": "2026-11-16"
+  },
+  {
+   "id": "ltu-school-pb",
+   "country_iso3": "LTU",
+   "jurisdiction_name": "Lietuva(학교)",
+   "jurisdiction_level": "school",
+   "program_name": "Mokyklų dalyvaujamasis biudžetas",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": "students"
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "source_type": "research-platform",
+   "last_verified": "2023-07-28",
+   "lat": 54.687,
+   "lon": 25.279,
+   "tracking_status": "documented",
+   "keywords": [
+    "dalyvaujamasis biudžetas"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "gbr-lancaster-pots",
+   "country_iso3": "GBR",
+   "jurisdiction_name": "Lancaster",
+   "jurisdiction_level": "district",
+   "program_name": "Your Pots participatory budgeting 2025",
+   "stage": "results",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "source_type": "research-platform",
+   "last_verified": "2026-06-01",
+   "lat": 54.047,
+   "lon": -2.801,
+   "tracking_status": "documented",
+   "keywords": [
+    "lancaster",
+    "your pots"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "gbr-manchester-cheetham",
+   "country_iso3": "GBR",
+   "jurisdiction_name": "Manchester (Cheetham)",
+   "jurisdiction_level": "neighbourhood",
+   "program_name": "Choose for Cheetham (청년 참여예산)",
+   "stage": "results",
+   "budget": {
+    "display": "20만 파운드 이상"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "source_type": "research-platform",
+   "last_verified": "2026-06-01",
+   "lat": 53.5,
+   "lon": -2.24,
+   "tracking_status": "documented",
+   "keywords": [
+    "cheetham",
+    "choose for cheetham"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "gbr-dundee-climate",
+   "country_iso3": "GBR",
+   "jurisdiction_name": "Dundee",
+   "jurisdiction_level": "city",
+   "program_name": "Dundee Climate Fund 3.0",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Community Empowerment (Scotland) Act 2015 · 지방정부 예산 1% 목표(COSLA 합의)",
+    "year": 2017
+   },
+   "primary_url": "https://www.dundeecity.gov.uk/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 56.462,
+   "lon": -2.971,
+   "tracking_status": "verified",
+   "keywords": [
+    "dundee climate fund",
+    "dundee"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "hrv-trogir",
+   "country_iso3": "HRV",
+   "jurisdiction_name": "Trogir",
+   "jurisdiction_level": "city",
+   "program_name": "Participativni proračun Trogir",
+   "stage": "recurring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "source_type": "research-platform",
+   "last_verified": "2026-06-04",
+   "lat": 43.517,
+   "lon": 16.251,
+   "tracking_status": "documented",
+   "keywords": [
+    "trogir"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "est-tartu",
+   "country_iso3": "EST",
+   "jurisdiction_name": "Tartu",
+   "jurisdiction_level": "city",
+   "program_name": "Kaasav eelarve (Tartu)",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://tartu.ee/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 58.378,
+   "lon": 26.729,
+   "tracking_status": "verified",
+   "keywords": [
+    "tartu",
+    "kaasav eelarve"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "lva-riga",
+   "country_iso3": "LVA",
+   "jurisdiction_name": "Rīga",
+   "jurisdiction_level": "city",
+   "program_name": "Rīgas līdzdalības budžets",
+   "stage": "annual cycle",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Pašvaldību likums (2023, 참여예산 조항)",
+    "year": 2023
+   },
+   "primary_url": "https://www.riga.lv/",
+   "source_type": "official",
+   "last_verified": null,
+   "lat": 56.949,
+   "lon": 24.105,
+   "tracking_status": "verified",
+   "keywords": [
+    "rīga",
+    "riga",
+    "līdzdalības budžets"
+   ],
+   "related_news": [
+    {
+     "title": "Rīgas pašvaldības līdzdalības budžeta konkursa balsojumā vadībā projekti Āgenskalnā, Pļavniekos un Sarkandaugavā",
+     "date": "2026-11-17",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWW5ObElmSFNpWm9rSjdQUG9IQTVUcXB4MWNZaEViRDJsZmRiMXVnT0hNT3FlWHdXdXNhbzdGaGoxTTF0YWhsdDV6dkZhNWg1YXczaTd0TTdweDFoZkNPMkV6RXl4NnVIV3B3TXprdUNDWFJNaVpXNlVDamFJcGtYUUJ1c3REYW9jOGxzMVdqY0V6MS02NjRhWER0alhHa1RLQzR3bGpPMW03amJLcFFDNkhlUWhDbG1ZWWowRTVOWXc0Umk2Ul91UHZEOGhJZWFpOXBpbUNJUnhJUQ?oc=5",
+     "source": "Rīgas valstspilsētas pašvaldība"
+    },
+    {
+     "title": "Rīgas pašvaldības līdzdalības budžeta konkursa balsojumā vadībā projekti Āgenskalnā, Pļavniekos un Pleskodālē",
+     "date": "2026-11-10",
+     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQzNVaW14bmNPaGNmVmh4Zk1GUkd5YWFIbUFRMUhfWk5fYkNoNHpEMVFLZmtFcGZ1cUMyX0tkcUxTMk5LLW96U1dJV2FFTGxlZ3dMdE1xVDBOLWk1a0N4Z2pHSFNNbnd1U3dIRUYzRDlTUnhiU29LcXpfaFlCX25zZmtqdUJ6NUUtbEFUV2JqbUh6Q0JxTEV6MUZKTE84ZkpyTmh4MnU0VS1lVWoxV3A1ZnBuN0c5ZlBWY2otRWhiSDdLX2lycXFnajRCclNGSGR4RWtiTGZn?oc=5",
+     "source": "Rīgas valstspilsētas pašvaldība"
+    },
+    {
+     "title": "Riga Participatory Budget 2026: How to Vote by 30 November",
+     "date": "2026-11-03",
+     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1RGVSTG5TVXhwRjlFNXFfOEc2cUxVajJZczNuRHp0S05lRHM5Y2RGOVNmaVhkQjBJUTZRdkZhOERSNFBCSHU1Rzdmd3BjVGh4anpkZlViZWxobUg2aUo1TDA1ekdHUGZCNG9QQmFrNC1NNm8?oc=5",
+     "source": "Riga Talk"
+    }
+   ],
+   "latest_signal_date": "2026-11-17"
+  },
+  {
+   "id": "nld-maastricht",
+   "country_iso3": "NLD",
+   "jurisdiction_name": "Maastricht",
+   "jurisdiction_level": "city",
+   "program_name": "Maastricht participatory budgeting",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": null,
+   "lat": 50.851,
+   "lon": 5.691,
+   "tracking_status": "documented",
+   "keywords": [
+    "maastricht"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "fin-lahti",
+   "country_iso3": "FIN",
+   "jurisdiction_name": "Lahti",
+   "jurisdiction_level": "city",
+   "program_name": "Lahti participatory budgeting 2020–2022",
+   "stage": "completed / documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Local Government Act 410/2015 §22",
+    "year": 2015
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": null,
+   "lat": 60.983,
+   "lon": 25.656,
+   "tracking_status": "documented",
+   "keywords": [
+    "lahti"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "uga-wamala",
+   "country_iso3": "UGA",
+   "jurisdiction_name": "Wamala",
+   "jurisdiction_level": "district",
+   "program_name": "Wamala district participatory budgeting",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Local Governments Act (Cap. 243)"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": null,
+   "lat": 0.43,
+   "lon": 32.0,
+   "tracking_status": "documented",
+   "keywords": [
+    "wamala"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "usa-central-falls",
+   "country_iso3": "USA",
+   "jurisdiction_name": "Central Falls, RI",
+   "jurisdiction_level": "city",
+   "program_name": "Voces Con Poder",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": null,
+   "lat": 41.89,
+   "lon": -71.392,
+   "tracking_status": "documented",
+   "keywords": [
+    "central falls",
+    "voces con poder"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "gbr-so18",
+   "country_iso3": "GBR",
+   "jurisdiction_name": "Southampton (SO18)",
+   "jurisdiction_level": "community",
+   "program_name": "SO18 Big Local participatory budgeting",
+   "stage": "documented",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://www.peoplepowered.org/research-data",
+   "source_type": "research-synthesis",
+   "last_verified": null,
+   "lat": 50.926,
+   "lon": -1.37,
+   "tracking_status": "documented",
+   "keywords": [
+    "so18",
+    "big local"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "aus-local",
+   "country_iso3": "AUS",
+   "jurisdiction_name": "Australia(지방정부)",
+   "jurisdiction_level": "local",
+   "program_name": "호주 지방정부 참여예산 실험군",
+   "stage": "historical",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "확인 중"
+   },
+   "primary_url": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2019",
+   "source_type": "research-synthesis",
+   "last_verified": "2019-01-01",
+   "lat": -33.868,
+   "lon": 151.209,
+   "tracking_status": "documented",
+   "keywords": [
+    "australia"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  },
+  {
+   "id": "nzl-local",
+   "country_iso3": "NZL",
+   "jurisdiction_name": "New Zealand(지방정부)",
+   "jurisdiction_level": "local",
+   "program_name": "뉴질랜드 지방 참여형 배분 사례군",
+   "stage": "monitoring",
+   "budget": {
+    "display": "확인 중"
+   },
+   "participants": {
+    "count": null,
+    "metric": ""
+   },
+   "legal_basis": {
+    "title": "Local Government Act 2002 (협의 의무)",
+    "year": 2002
+   },
+   "primary_url": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2019",
+   "source_type": "research-synthesis",
+   "last_verified": null,
+   "lat": -41.286,
+   "lon": 174.776,
+   "tracking_status": "monitoring",
+   "keywords": [
+    "new zealand"
+   ],
+   "related_news": [],
+   "latest_signal_date": null
+  }
+ ]
+}

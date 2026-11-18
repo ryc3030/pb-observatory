@@ -1,0 +1,57 @@
+{
+ "news": {
+  "name": "Google News RSS (다국어)",
+  "ok": true,
+  "queries_ok": 27,
+  "queries": 27,
+  "added": 4,
+  "total": 506,
+  "checked_at": "2026-11-18T01:49:25.137881+00:00",
+  "languages": [
+   "cs",
+   "de",
+   "en",
+   "es",
+   "et",
+   "fi",
+   "fr",
+   "hr",
+   "id",
+   "it",
+   "ja",
+   "ko",
+   "lt",
+   "lv",
+   "nl",
+   "pl",
+   "pt",
+   "ro",
+   "ru",
+   "sk",
+   "sv",
+   "tr",
+   "uk",
+   "zh"
+  ],
+  "last_success_at": "2026-11-18T01:49:25.137881+00:00"
+ },
+ "papers": {
+  "name": "학술 DB (OpenAlex·Crossref)",
+  "ok": true,
+  "fetched": 172,
+  "by_source": {
+   "OpenAlex": 27,
+   "Crossref": 145
+  },
+  "total": 158,
+  "checked_at": "2026-11-18T01:49:25.137881+00:00",
+  "error": "OpenAlex[participatory budget]: HTTP Error 429: Too Many Requests",
+  "last_success_at": "2026-11-18T01:49:25.137881+00:00"
+ },
+ "build": {
+  "name": "일일 빌드",
+  "ok": true,
+  "checked_at": "2026-11-18T01:49:25.137881+00:00",
+  "last_success_at": "2026-11-18T01:49:25.137881+00:00"
+ }
+}

@@ -1,0 +1,3353 @@
+{
+ "updated_at": "2026-11-18T01:49:25.137881+00:00",
+ "count": 158,
+ "items": [
+  {
+   "id": "doi:10.69733/clad.ryd.n96.a934",
+   "title": "Understanding the Failure of Participatory Budgeting",
+   "authors": [
+    "Pavel Šaradín",
+    "Markéta Zapletalová",
+    "Daniela Ostrá",
+    "Agnieszka Zogata-Kusz"
+   ],
+   "venue": "Revista del CLAD Reforma y Democracia",
+   "published_at": "2026-11-17",
+   "doi": "10.69733/clad.ryd.n96.a934",
+   "url": "https://doi.org/10.69733/clad.ryd.n96.a934",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting (PB) has become the most widespread democratic innovation in the world, yet research has long focused on successful cases rather than on failures. This study addresses the gap with a configurational analysis of PB termination in Central Europe. Drawing on the literature, we identify five types of factors that contribute to PB failure and consolidate them into three conditions: political-bureau",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.34135/cejpp.380",
+   "title": "Participatory Budgeting Research: A Systematic Literature Review of Determinants, Impacts, and Future Research Directions",
+   "authors": [
+    "Dheni Indra Kusuma",
+    "Baldric Siregar",
+    "Maria Pampa Kumalaningrum"
+   ],
+   "venue": "Central European Journal of Public Policy",
+   "published_at": "2026-11-15",
+   "doi": "10.34135/cejpp.380",
+   "url": "https://doi.org/10.34135/cejpp.380",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Demands regarding transparency, accountability, and public participation in the management of public finances have increased over the past decade. This trend has driven the implementation of participatory budgeting (PB) to enhance the efficiency of public budget utilisation and boost public trust in government, particularly regarding the budget allocation process. The effectiveness of PB varies across different count",
+   "source": "OpenAlex",
+   "type": "review",
+   "concepts": [
+    "Public Policy and Administration Research",
+    "Public Policy and Governance",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1146/annurev-publhealth-062325-064813",
+   "title": "Participatory Budgeting in Public Health: Promise, Evidence, Challenges, and Opportunities",
+   "authors": [
+    "J. Mac McCullough",
+    "Erika A. Blacksher",
+    "Brian Wampler",
+    "Sami Jarrah"
+   ],
+   "venue": "Annual Review of Public Health",
+   "published_at": "2026-11-13",
+   "doi": "10.1146/annurev-publhealth-062325-064813",
+   "url": "https://doi.org/10.1146/annurev-publhealth-062325-064813",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting (PB) is a deliberative decision-making process that invites community participation to direct spending for a defined portion of public budgets. Originating in Brazil in the 1980s, PB has since diffused across the globe, including several hundred cases in the United States and Canada alone. PB programs vary but are generally characterized by five core principles: voice, vote, social inclusion, ",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Political Theory and Democracy",
+    "Public Policy and Governance",
+    "Community Health and Development"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.17573/cepar.2026.2.02",
+   "title": "Analysis of Youth Participatory Budgeting in Romania",
+   "authors": [
+    "Adelina-Maria Pop",
+    "Bianca Veronica RADU"
+   ],
+   "venue": "Central European Public Administration Review",
+   "published_at": "2026-11-13",
+   "doi": "10.17573/cepar.2026.2.02",
+   "url": "https://doi.org/10.17573/cepar.2026.2.02",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Purpose: This article analyses youth participatory budgeting in five Romanian cities: Cluj-Napoca, Sfântu Gheorghe, Timișoara, Bucharest and Satu Mare. It highlights similarities and differences between the processes. The analysis covers 2015–2024, with 2015 marking the first year in which youth participatory budgeting was implemented in Romania.Methodology: The study combined secondary data analysis with interviews ",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Youth, Politics, and Society",
+    "Children's Rights and Participation",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "oa:W7233675233",
+   "title": "ИНИЦИАТИВНОЕ БЮДЖЕТИРОВАНИЕ КАК ИНСТРУМЕНТ ВОВЛЕЧЕНИЯ ГРАЖДАН В МУНИЦИПАЛЬНОЕ УПРАВЛЕНИЕ",
+   "authors": [
+    "Екатерина Ивановна Швеёва",
+    "Сергей Васильевич Черномырдин"
+   ],
+   "venue": "Management Accounting",
+   "published_at": "2026-11-13",
+   "doi": null,
+   "url": "https://uprav-uchet.ru/index.php/journal/article/view/6612",
+   "open_access": true,
+   "lang": "ru",
+   "cited_by": 0,
+   "abstract_snippet": "This article examines participatory budgeting as a mechanism through which residents engage in addressing local issues. A study was conducted comparing financial data on municipal practices—drawn from consolidated reports by the Russian Ministry of Finance and the Financial Research Institute (NIFI) for 2024 and 2025—with data on the proportion of resident-submitted ideas that successfully passed the competitive sele",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Public Policy and Administration Research",
+    "E-Government and Public Services"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1257/rct.20241-1.0",
+   "title": "Advancing Citizen Engagement in Kenyas Participatory Budgeting System: A Multi-County Field Experiment on Participation in County Budget Forums",
+   "authors": [
+    "Avi Ahuja"
+   ],
+   "venue": "AEA Randomized Controlled Trials",
+   "published_at": "2026-11-13",
+   "doi": "10.1257/rct.20241-1.0",
+   "url": "https://doi.org/10.1257/rct.20241-1.0",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "OpenAlex",
+   "type": "study-registration",
+   "concepts": [
+    "Electoral Systems and Political Participation",
+    "Local Government Finance and Decentralization",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1090/noti3422",
+   "title": "The New Mathematics of Democracy",
+   "authors": [
+    "Bailey Flanigan",
+    "Ismar Volić"
+   ],
+   "venue": "Notices of the American Mathematical Society",
+   "published_at": "2026-11-12",
+   "doi": "10.1090/noti3422",
+   "url": "https://doi.org/10.1090/noti3422",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This article surveys emerging directions in the mathematics of democracy. It uses three case studies --- voting theory, participatory budgeting, and deliberative democracy --- to highlight how contemporary challenges motivate rigorous mathematical research that incorporates real-world data, institutional constraints, and implementation feasibility. Within each case, we highlight active and promising research frontier",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Game Theory and Voting Systems",
+    "Political Theory and Democracy",
+    "Opinion Dynamics and Social Influence"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.4038/ijabf.v12i1.203",
+   "title": "Elite Capture and Control in Participatory Budgeting: Evidence from a Sri Lankan Municipality",
+   "authors": [
+    "G. Vijitha",
+    "K. Chamara",
+    "S. Hilary",
+    "F. Anil"
+   ],
+   "venue": "International Journal of Accounting and Business Finance",
+   "published_at": "2026-11-11",
+   "doi": "10.4038/ijabf.v12i1.203",
+   "url": "https://doi.org/10.4038/ijabf.v12i1.203",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This study aims to examine how elite capture and elite control shape PB practices in a Sri Lankan local government, with a focus on how accounting mediates these practices. In particular, this explores how political and administrative elites utilise the PB process to dominate in the field during their respective leadership periods. To achieve the study’s aims, a qualitative case study was conducted in a Sri Lankan mu",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Accounting and Organizational Management",
+    "Political Theory and Democracy",
+    "Public Policy and Administration Research"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1080/13511610.2026.2750568",
+   "title": "Artificial intelligence and online participation: feasibility analysis in Sao Paulo's participatory budgeting",
+   "authors": [
+    "Norbert Kersting",
+    "José Carlos Vaz",
+    "Ítalo Alberto do Nascimento Sousa",
+    "Mariana Carvalho da Silva"
+   ],
+   "venue": "Innovation The European Journal of Social Science Research",
+   "published_at": "2026-11-11",
+   "doi": "10.1080/13511610.2026.2750568",
+   "url": "https://doi.org/10.1080/13511610.2026.2750568",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This paper presents essential, globally relevant insights to guide smart cities in scaling Artificial Intelligence (AI) effectively to achieve enhanced civic engagement. This conceptual study contributes to emerging literature on AI in democratic innovation and participatory democracy. It addresses feasibility analyses as a critical bottleneck in participatory processes such as participatory budgeting: ad-hoc feasibi",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Smart Cities and Technologies",
+    "E-Government and Public Services",
+    "Ethics and Social Impacts of AI"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1080/03003930.2026.2746469",
+   "title": "Enacting and negotiating institutional rules in participatory budgeting: how institutional rules shape inclusion and exclusion in democratic innovations",
+   "authors": [
+    "Yannick Drijfhout",
+    "Koen Migchelbrink",
+    "Vivian Visser",
+    "Arwin van Buuren"
+   ],
+   "venue": "Local Government Studies",
+   "published_at": "2026-11-03",
+   "doi": "10.1080/03003930.2026.2746469",
+   "url": "https://doi.org/10.1080/03003930.2026.2746469",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Local governments increasingly experiment with democratic innovations to strengthen local democracy and decision-making power of residents. This article examines how the institutional rules of a specific democratic innovation – participatory budgeting – shape who is included or excluded. Participatory budgeting holds the potential to empower and emancipate underprivileged citizens through firsthand knowledge and expe",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Political Theory and Democracy",
+    "Politics and Society in Latin America",
+    "Public Policy and Administration Research"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.3390/su182111215",
+   "title": "Prioritizing the Attributes of the Training and Mentoring Programme for the Environmental Management Projects in the UNESCO Vhembe Biosphere Reserve, South Africa",
+   "authors": [
+    "Sphiwe Emmanuel Mhlongo",
+    "Joseph Francis",
+    "Mushaisano Agnes Mathaulula",
+    "Jethro Zuwarimwe"
+   ],
+   "venue": "Sustainability",
+   "published_at": "2026-11-03",
+   "doi": "10.3390/su182111215",
+   "url": "https://doi.org/10.3390/su182111215",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Environmental management projects in biosphere reserves often struggle with limited capacity and weak long-term sustainability, despite their ecological and socio-economic importance. The study used Participatory Budgeting (PB) and the Analytic Hierarchy Process (AHP) to prioritize the attributes of a training and mentoring program for sustainable environmental management in the VBR. A sequential exploratory mixed-me",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Community and Sustainable Development",
+    "Environmental and Social Impact Assessments",
+    "Multi-Criteria Decision Making"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1111/lamp.70076",
+   "title": "How e‐Government Shapes Citizen Engagement in Participatory Budgeting",
+   "authors": [
+    "Sâmila de Sousa Rodrigues",
+    "Greici Sarturi"
+   ],
+   "venue": "Latin American Policy",
+   "published_at": "2026-11-03",
+   "doi": "10.1111/lamp.70076",
+   "url": "https://doi.org/10.1111/lamp.70076",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "ABSTRACT E‐government has been widely adopted to enhance citizen participation and improve transparency in public decision making. Yet, its effects on engagement remain context‐dependent and insufficiently theorized, particularly in Global South settings. To address this gap, this study explains how e‐government reshapes the conditions under which citizen participation occurs in Participatory Budgeting processes. The",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "E-Government and Public Services",
+    "Public Policy and Governance",
+    "Smart Cities and Technologies"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.5281/zenodo.23842770",
+   "title": "Inclusive School Participatory Budget (iSPB) in Ukraine: monitoring and evaluation data, 2024–2026",
+   "authors": [
+    "Oleksii Kovalenko"
+   ],
+   "venue": "Zenodo (CERN European Organization for Nuclear Research)",
+   "published_at": "2026-10-31",
+   "doi": "10.5281/zenodo.23842770",
+   "url": "https://doi.org/10.5281/zenodo.23842770",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Aggregated monitoring and evaluation data of the School Participatory Budget (SPB) and the Inclusive School Participatory Budget (iSPB) in Ukraine, 2024–2026: national baseline and benchmarks (2024), national coverage (2026), the Open Government Partnership / EU project OGP EU 00001489 (14 local self-government bodies, 8 oblasts), and the 2026 cycle in 8 partner communities. Six indicators (engagement, school coverag",
+   "source": "OpenAlex",
+   "type": "dataset",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "E-Government and Public Services",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.62783/shss.8.5.49",
+   "title": "Citizen Voice Transformation and Risk-proportionate Democratic Control in AI-augmented Participatory Budgeting",
+   "authors": [
+    "Yechan Noh"
+   ],
+   "venue": "Studies on humanities and social sciences",
+   "published_at": "2026-10-30",
+   "doi": "10.62783/shss.8.5.49",
+   "url": "https://doi.org/10.62783/shss.8.5.49",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "연구 목적: AI 증강형 참여예산에서 시민 목소리의 변환과 민주적 통제를 설명하는 제도설계 프레임워크를 제시한다.연구 방법: 후보자료 60건 중 학술문헌 30편을 원문 단위로 코딩하고, 고전 이론 10편과 국내외 사례 5건을 비교하며 지지 결과와 반대 결과를 대조하였다. 관련 법령과 주민참여예산 조례도 검토하였다.연구 내용: 원입력이 표현 지원, 분류, 요약, 숙의 지원, 선호 추론·추천, 집계·배분으로 이어지는 경로와 다차원 위험 요인을 분석하였다.결론 및 제언: 위험은 자율성뿐 아니라 과업 유형, 수정 가능성, 가역성, 데이터 민감성, 배분 영향, 제도적 권한의 결합으로 진단할 필요가 있다. 원입력과 변환 이력 보존, 소수·비판적 관점의 가시성, 집계 규칙 민감도 점검, 이유 제시와 재검토, 실질적 인간 결정권을 위험 수준에 맞추어 결합할",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Ethics and Social Impacts of AI",
+    "E-Government and Public Services",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.52589/ajlpra-bcvsuo",
+   "title": "Public Awareness and Participatory Budget-Making in Devolved Government: Evidence from Uriri Sub-County, Kenya",
+   "authors": [
+    "George Okinyi Omamba",
+    "Edna Jemutai Moi"
+   ],
+   "venue": "African Journal of Law Political Research and Administration",
+   "published_at": "2026-10-27",
+   "doi": "10.52589/ajlpra-bcvsuo",
+   "url": "https://doi.org/10.52589/ajlpra-bcvsuo",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Public participation is a constitutional and administrative requirement in Kenya's devolved system, yet meaningful participation in county budget making depends partly on whether citizens receive timely, trustworthy and understandable budget information. This article examined the relationship between public awareness and the budget making process in Uriri Sub-County, Migori County, Kenya. The study adopted a descript",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Public Administration in Developing Nations",
+    "Local Governance and Development"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.51867/ajernet.7.4.75",
+   "title": "A multigroup structural equation modelling framework for evaluating participatory budgeting and financial sustainability across age cohorts",
+   "authors": [
+    "Cliff Richard Kikawa",
+    "Amos Ssematimba",
+    "Sarah Nakero",
+    "Dismas Ntirampeba"
+   ],
+   "venue": "African Journal of Empirical Research",
+   "published_at": "2026-10-25",
+   "doi": "10.51867/ajernet.7.4.75",
+   "url": "https://doi.org/10.51867/ajernet.7.4.75",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This analysis focused on the impact of participatory budgeting (PB) procedures and budget implementation on financial sustainability (FS) in local governments in Uganda, specifically budget approval. The analysis employed direct correlations within a structural equation modeling (SEM) framework and assessed the moderating effect of employee age groups. Confirmatory factor analysis confirmed the instrument’s validity ",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Fiscal Policies and Political Economy",
+    "Local Governance and Development"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.52641/cadcajv11i16.066",
+   "title": "ADERÊNCIA DO ORÇAMENTO PARTICIPATIVO AO PLANEJAMENTO PÚBLICO: ESTUDO DE CASO NO ESTADO DE PERNAMBUCO",
+   "authors": [
+    "Michael Douglas de Holanda de Araújo Melo",
+    "Fabiano Olivera Mota",
+    "Carla Renata Silva Leitão"
+   ],
+   "venue": "Cadernos Cajuína",
+   "published_at": "2026-10-23",
+   "doi": "10.52641/cadcajv11i16.066",
+   "url": "https://doi.org/10.52641/cadcajv11i16.066",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Este estudo analisa a aderência das propostas do Orçamento Participativo (OP) do Estado de Pernambuco aos instrumentos formais de planejamento público, especificamente ao Plano Plurianual (PPA) e à Lei Orçamentária Anual (LOA), nos ciclos de 2019 e 2023. Trata-se de uma pesquisa descritiva, de abordagem predominantemente quantitativa e caráter documental, baseada em registros oficiais relacionados ao processo partici",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.21248/gups.83243",
+   "title": "Household survey \"Parking and Public Space 2025\" in Darmstadt, Vienna, and Sundbyberg : measuring the acceptability of mobility benefits districts",
+   "authors": [
+    "Mia Zellmann",
+    "Martin Lanzendorf",
+    "Annabell Baumgartner",
+    "Frederik Johansson"
+   ],
+   "venue": "Arbeitspapiere zur Mobilitätsforschung.",
+   "published_at": "2026-10-21",
+   "doi": "10.21248/gups.83243",
+   "url": "https://doi.org/10.21248/gups.83243",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "A Mobility Benefit District (MBD) is a parking policy concept that earmarks parking fees locally and reinvests funds into local sustainable mobility-related measures. Furthermore, residents are also involved in selecting these measures through participatory budgeting. A central aim of MBD is to improve public acceptability of local parking fees by increasing transparency of revenue spending and creating more mobility",
+   "source": "OpenAlex",
+   "type": "report",
+   "concepts": [
+    "Transportation Planning and Optimization",
+    "Urban Transport and Accessibility",
+    "Smart Parking Systems Research"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "oa:W7223255582",
+   "title": "TASHABBUSLI BYUDJETLASHTIRISH ARTIKULYATSIYA QILINGAN JAMOATCHILIK TALABLARINING INDIKATORI SIFATIDA",
+   "authors": [
+    "Timur Seitov"
+   ],
+   "venue": "Журнал Социальных Исследований",
+   "published_at": "2026-10-20",
+   "doi": null,
+   "url": "https://www.tadqiqot.uz/index.php/soci/article/view/15179",
+   "open_access": true,
+   "lang": "ru",
+   "cited_by": 0,
+   "abstract_snippet": "The article examines participatory budgeting as an institutional mechanism for articulating local public demands and civic participation. Based on three consecutive participatory budgeting cycles in Nukus in 2025–2026, a comparative quantitative and qualitative content analysis of 53 winning projects is conducted. The findings reveal a pronounced transformation in the structure of supported initiatives: from the domi",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Governance and Planning",
+    "Political Theory and Democracy",
+    "Electoral Systems and Political Participation"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.37772/2309-9275-2026-2(27)-5",
+   "title": "Current Issues in Law Enforcement in the Context of Amendments to Local Government Legislation",
+   "authors": [
+    "Roman Cherneha"
+   ],
+   "venue": "Law and innovative society",
+   "published_at": "2026-10-19",
+   "doi": "10.37772/2309-9275-2026-2(27)-5",
+   "url": "https://doi.org/10.37772/2309-9275-2026-2(27)-5",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "The article is devoted to the study of current issues of law enforcement in the field of local self-government in the context of amendments to Ukrainian legislation aimed at strengthening popular participation at the local level, in particular through participatory budgeting. The article analyzes legislative innovations aimed at expanding opportunities for residents of territorial communities to participate in local ",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Legal and Policy Issues",
+    "Local Governance and Planning",
+    "Administrative Law and Governance"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.51699/economics.v39i4.1842",
+   "title": "Comprehensive Efficiency Assessment of Financing Participatory Budget Projects in Uzbekistan and Econometric Analysis of Its Determinants",
+   "authors": [
+    "Murtozaeva Zarnigor Komol qizi"
+   ],
+   "venue": "Academic Journal of Digital Economics and Stability",
+   "published_at": "2026-10-17",
+   "doi": "10.51699/economics.v39i4.1842",
+   "url": "https://doi.org/10.51699/economics.v39i4.1842",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This article proposes a methodology for comprehensively assessing the efficiency of projects financed under the “Participatory Budgeting” mechanism in Uzbekistan through a seven-dimensional integral indicator, and examines in depth, by means of correlation and econometric analysis, the factors that influence this efficiency. A weighted Integral Efficiency Index (IEI), composed of seven component indicators — financia",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "E-Government and Public Services",
+    "Economic Growth and Fiscal Policies"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.21686/2073-1051-2026-3-95-108",
+   "title": "Legitimacy of the Co-Financing Institution",
+   "authors": [
+    "Yaroslava V. Trofimova"
+   ],
+   "venue": "Federalism",
+   "published_at": "2026-10-16",
+   "doi": "10.21686/2073-1051-2026-3-95-108",
+   "url": "https://doi.org/10.21686/2073-1051-2026-3-95-108",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "The federal government has proposed a co-financing mechanism intended both to help address local problems and to strengthen the financial sustainability of municipal budgets. However, whether local authorities and communities are ready to use it remains a matter of debate. The article examines the development of co-financing for participatory budgeting projects in Russia’s regions and the legitimacy of this instituti",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Legal and Policy Issues",
+    "Economic Growth and Fiscal Policies"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.31150/ajshr.v7i10.5720",
+   "title": "Institutional Development of Uzbekistan’s System for Financing Projects Shaped on the Basis of Public Opinion and a Regional Analysis of Its Financial Outcomes",
+   "authors": [
+    "Murtozaeva Zarnigor Komol qizi"
+   ],
+   "venue": "American journal of social and humanitarian research.",
+   "published_at": "2026-10-16",
+   "doi": "10.31150/ajshr.v7i10.5720",
+   "url": "https://doi.org/10.31150/ajshr.v7i10.5720",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This article systematizes the institutional and legal stages through which Uzbekistan’s system for financing projects shaped on the basis of public opinion (the “Participatory Budget”) developed between 2018 and 2026, traces the evolution of its financing sources and regulatory coefficients, and analyzes the system’s practical outcomes by region and project direction using official data from the “Open Budget” portal ",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "E-Government and Public Services",
+    "Economic and Fiscal Studies"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.34773/eu.2026.5.3",
+   "title": "Механизм софинансирования инициативных проектов в старо-промышленных регионах Приволжского федерального округа",
+   "authors": [
+    "Yaroslava V. Trofimova"
+   ],
+   "venue": "Экономика и управление.",
+   "published_at": "2026-10-15",
+   "doi": "10.34773/eu.2026.5.3",
+   "url": "https://doi.org/10.34773/eu.2026.5.3",
+   "open_access": true,
+   "lang": "ru",
+   "cited_by": 0,
+   "abstract_snippet": "В статье исследован механизм софинансирования проектов инициативного бюджетирования (ИБ) в контексте финансовой безопасности. На примере субъектов Приволжского федерального округа (ПФО), включая старопромышленные регионы (СПР), дана оценка состоянию механизма софинансирования с точки зрения экономического и социального эффектов от реализованных проектов ИБ. Оценка экономической эффективности механизма софинансировани",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Economic Growth and Fiscal Policies",
+    "Economic and Fiscal Studies"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1609/aies.v9i4.43354",
+   "title": "Algorithmic Shortlisting in Participatory Budgeting",
+   "authors": [
+    "Juan Ignacio Zambrano",
+    "Clément Contet",
+    "Jairo Gudiño",
+    "Felipe Garrido-Lucero"
+   ],
+   "venue": "Proceedings of the AAAI/ACM Conference on AI Ethics and Society",
+   "published_at": "2026-10-11",
+   "doi": "10.1609/aies.v9i4.43354",
+   "url": "https://doi.org/10.1609/aies.v9i4.43354",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 3,
+   "abstract_snippet": "Participatory budgeting is a democratic innovation that allows citizens to propose and vote on public investment projects. To help organizers manage large volumes of submissions, we design and test AI methods for algorithmic shortlisting. Our algorithms predict which projects are likely to be funded using only project features and anonymous historical voting data. We demonstrate the limitations of a naive approach th",
+   "source": "OpenAlex",
+   "type": "conference-paper",
+   "concepts": [
+    "Game Theory and Voting Systems",
+    "Ethics and Social Impacts of AI",
+    "Recommender Systems and Techniques"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.48550/arxiv.2610.15516",
+   "title": "Robust Proportionality Axioms for Additive Utilities",
+   "authors": [
+    "Piotr Skowron"
+   ],
+   "venue": "arXiv (Cornell University)",
+   "published_at": "2026-10-11",
+   "doi": "10.48550/arxiv.2610.15516",
+   "url": "https://doi.org/10.48550/arxiv.2610.15516",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "We study the model of participatory budgeting, in which a subset of candidates is selected subject to a budget constraint. Voters express their preferences by assigning a numerical utility to each candidate. Our focus is on formal analysis of proportionality, a central notion of fairness in multi-winner elections. Intuitively, proportionality means that each group of voters should influence the election outcome rough",
+   "source": "OpenAlex",
+   "type": "preprint",
+   "concepts": [
+    "Game Theory and Voting Systems",
+    "Electoral Systems and Political Participation",
+    "Internet Traffic Analysis and Secure E-voting"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.55528/18292828-2026.3-98",
+   "title": "SYSTEMIC PROBLEMS OF TERRITORIAL-ADMINISTRATIVE GOVERNANCE AND THE ROLE OF DIGITAL PARTICIPATORY PLATFORMS (PARTICIPATORY BUDGETING, DIGITAL VOTING, ESYSTEMS, AND LOCAL GOVERNMENT FEEDBACK APPLICATIONS) IN ENHANCING THE EFFECTIVENESS OF COMMUNITY STRATEGIC DEVELOPMENT PROGRAMS",
+   "authors": [
+    "Tsovinar KARAPETYAN",
+    "Marine HARUTYUNYAN"
+   ],
+   "venue": "ALTERNATIVE",
+   "published_at": "2026-10-02",
+   "doi": "10.55528/18292828-2026.3-98",
+   "url": "https://doi.org/10.55528/18292828-2026.3-98",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Despite the reforms undertaken in Armenia to promote community consolidation and digital transformation, the systemic problems of the administrative-territorial governance system remain a complex combination of institutional weakness, a human capital crisis, limited financial autonomy, and a deficit of participatory democracy. This is evidenced by Armenia’s low performance in the Global Innovation Index, the E-Govern",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1177/21582440261504513",
+   "title": "Participatory Budgeting and Energy Transition in Cities: Local Level Challenges and Opportunities",
+   "authors": [
+    "Ionut Daniel Moldovan",
+    "Sergiu Gherghina"
+   ],
+   "venue": "Sage Open",
+   "published_at": "2026-10",
+   "doi": "10.1177/21582440261504513",
+   "url": "https://doi.org/10.1177/21582440261504513",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting has been intensely studied in relation to its functioning, empowerment, and impact on local communities. However, we know very little about the potential of participatory budgeting with respect to energy developments and changes, a perspective which is especially relevant in the context of climate change discussions across the world. This article addresses this gap in the literature and analyz",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1515/9783112231791-002",
+   "title": "Building relationships through participatory budgeting in everyday democracy",
+   "authors": [
+    "Annika Olofsdotter Bergström",
+    "Åsa Ståhl"
+   ],
+   "venue": "Everyday Democracy",
+   "published_at": "2026-09-30",
+   "doi": "10.1515/9783112231791-002",
+   "url": "https://doi.org/10.1515/9783112231791-002",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.4337/9781035340200.00008",
+   "title": "Participatory budgeting",
+   "authors": [
+    "Carsten Herzberg"
+   ],
+   "venue": "Handbook of Participatory Democracy",
+   "published_at": "2026-09-22",
+   "doi": "10.4337/9781035340200.00008",
+   "url": "https://doi.org/10.4337/9781035340200.00008",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.4337/9781035340125.00016",
+   "title": "Participatory budgeting and social justice: divergent goals and mixed outcomes?",
+   "authors": [
+    "Iuliia Shybalkina"
+   ],
+   "venue": "Handbook on Inclusive Governance",
+   "published_at": "2026-09-17",
+   "doi": "10.4337/9781035340125.00016",
+   "url": "https://doi.org/10.4337/9781035340125.00016",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1257/rct.19722",
+   "title": "Whom Do Citizens Credit: Attribution and the Limits of Participatory Budgeting in Uzbekistan",
+   "authors": [
+    "Ikromjon Tuhtasunov"
+   ],
+   "venue": "AEA Randomized Controlled Trials",
+   "published_at": "2026-09-14",
+   "doi": "10.1257/rct.19722",
+   "url": "https://doi.org/10.1257/rct.19722",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "dataset",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1093/jopart/muag028",
+   "title": "A model of agency behavior in participatory budgeting: a resource dependence perspective",
+   "authors": [
+    "Seunghyun Kim"
+   ],
+   "venue": "Journal of Public Administration Research and Theory",
+   "published_at": "2026-09-08",
+   "doi": "10.1093/jopart/muag028",
+   "url": "https://doi.org/10.1093/jopart/muag028",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Abstract Based on resource dependence theory, this article theorizes why government agencies adopt citizen proposals in participatory budgeting (PB). Agencies depend on the executive budget office and the legislature for budget approval, which makes them face uncertainty in securing budgets from these political principals. In this context, agencies can adopt citizen proposals to present their requests as reflecting c",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.1145/3794786.3830735",
+   "title": "Fair Feed Ranking for Participatory Budgeting",
+   "authors": [
+    "Carina I Hausladen"
+   ],
+   "venue": "Proceedings of the 2026 International Conference on Information Technology for Social Good",
+   "published_at": "2026-09-02",
+   "doi": "10.1145/3794786.3830735",
+   "url": "https://doi.org/10.1145/3794786.3830735",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "proceedings-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.5335/rjd.v40i2.18441",
+   "title": "Orçamento participativo, inclusão e cidadania digital",
+   "authors": [
+    "Vanessa Schuerz",
+    "Fernanda Maria Afonso Carneiro"
+   ],
+   "venue": "Revista Justiça do Direito",
+   "published_at": "2026-09-01",
+   "doi": "10.5335/rjd.v40i2.18441",
+   "url": "https://doi.org/10.5335/rjd.v40i2.18441",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O estudo analisa o Orçamento Participativo de Rio das Ostras entre 2019 e 2023, examinando sua estrutura institucional, sua relação com o Poder Executivo e sua influência nas políticas públicas locais. A pesquisa adota metodologia qualitativa, baseada em legislação municipal, relatórios, atas, formulários e documentos do Conselho Municipal de Planejamento e Orçamento Participativo. Sustenta-se que meios digitais de c",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.3390/math14173100",
+   "title": "A Trust Incentive-Driven Consensus Feedback Mechanism for Large-Scale Participatory Budgeting",
+   "authors": [
+    "Sijia Fu",
+    "Ying Ji"
+   ],
+   "venue": "Mathematics",
+   "published_at": "2026-08-28",
+   "doi": "10.3390/math14173100",
+   "url": "https://doi.org/10.3390/math14173100",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Large-scale participatory budgeting (PB) lacks a mechanism for reconciling divergent resident preferences before project selection. Conventional consensus feedback mechanisms are difficult to deploy in this setting because anonymous ballots provide no direct basis for tailoring feedback, while resident-by-resident adjustment is computationally infeasible at population scale. We therefore develop a trust incentive-dri",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.4324/9781003783213-7",
+   "title": "The Two Logics of Participatory Budgeting in East Asia",
+   "authors": [
+    "Baogang He"
+   ],
+   "venue": "The Transformative Power of Deliberative Democracy in East Asia",
+   "published_at": "2026-08-26",
+   "doi": "10.4324/9781003783213-7",
+   "url": "https://doi.org/10.4324/9781003783213-7",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.4324/9781003783213-8",
+   "title": "Participatory Budgeting in Taipei City",
+   "authors": [
+    "Mei-Fang Fan",
+    "Kuan-Chiu Tseng"
+   ],
+   "venue": "The Transformative Power of Deliberative Democracy in East Asia",
+   "published_at": "2026-08-26",
+   "doi": "10.4324/9781003783213-8",
+   "url": "https://doi.org/10.4324/9781003783213-8",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.36704/ppp.v19i37.10007",
+   "title": "A DEMANDA POR MOBILIDADE URBANA E URBANIZAÇÕES NO ORÇAMENTO PARTICIPATIVO",
+   "authors": [
+    "Kellen Carvalho de Sousa Brito",
+    "Maria Victória Chaves Escórcio Athayde",
+    "Jairo De Carvalho Guimarães"
+   ],
+   "venue": "Perspectivas em Políticas Públicas",
+   "published_at": "2026-08-26",
+   "doi": "10.36704/ppp.v19i37.10007",
+   "url": "https://doi.org/10.36704/ppp.v19i37.10007",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O Orçamento Participativo (OP) é um mecanismo de gestão democrática que permite à população influenciar diretamente a alocação de recursos públicos. Este artigo analisa a concentração de projetos na área de Mobilidade Urbana e Urbanizações no Orçamento Participativo (OP) de Teresina-PI, evidenciando a defasagem histórica das políticas públicas de infraestrutura. Com base em dados do OPA 2024-2025, demonstra-se que ma",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.68099/ijaefs.2017.100",
+   "title": "Türkiye’de Katılımcı Bütçeleme Anlayışının Değerlendirilmesi",
+   "authors": [
+    "Ahmet ÖZEN",
+    "Uğur DİKİCİ",
+    "Fatma YAPICI"
+   ],
+   "venue": "Uluslararası Uygulamalı Ekonomi ve Finans Çalışmaları Dergisi",
+   "published_at": "2026-08-03",
+   "doi": "10.68099/ijaefs.2017.100",
+   "url": "https://doi.org/10.68099/ijaefs.2017.100",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Participation of the citizens at the budgeting processes which is to show the public's financial plan and tasks an ideal in terms of democracy. During the first era is a direct democracy model had been admitted in Ancient Greece. Representative democracy models adopted in contemporary democracies that foresee participation by representatives in the management and decision processes instead of citizens, and as a resul",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
+   "id": "doi:10.34020/1993-4386-2026-2-92-105",
+   "title": "«Soft power» of regional development: synergy of participatory budgeting and small entrepreneurship in the Siberian Federal District (2016–2025)",
+   "authors": [
+    "Yu. Babina"
+   ],
+   "venue": "Siberian Financial School",
+   "published_at": "2026-07-30",
+   "doi": "10.34020/1993-4386-2026-2-92-105",
+   "url": "https://doi.org/10.34020/1993-4386-2026-2-92-105",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "The article examines the synergistic potential of the joint development of participatory budgeting (PB) and small and medium-sized enterprises (SMEs) as factors of “soft power” in the Siberian Federal District (SFD), based on data from the annual monitoring by the Financial Research Institute (FNI) of the Russian Ministry of Finance, the Unified Register of SME Entities, and an analysis of regional practices for 2016",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1111/1468-2427.70132",
+   "title": "PARTICIPATORY BUDGETING IN AUTOCRACIES: Conflicting Logics, Unintended Consequences and Contentious Participation in Angola's Orçamento Participativo",
+   "authors": [
+    "DANIEL TJARKS"
+   ],
+   "venue": "International Journal of Urban and Regional Research",
+   "published_at": "2026-07-17",
+   "doi": "10.1111/1468-2427.70132",
+   "url": "https://doi.org/10.1111/1468-2427.70132",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Abstract Participatory institutions are no longer confined to liberal democracies as autocrats around the world experiment with ‘authoritarian participation’. This also applies to the most successful democratic innovation of recent decades: participatory budgeting (PB). But what should we make of a practice that can seemingly accommodate any political system and serve as a vehicle for what often are diametrically opp",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.59659/impulso.v.6i15.365",
+   "title": "Presupuesto participativo y calidad de vida de beneficiarios de un gobierno municipal en Perú, 2024",
+   "authors": [
+    "Judith Socualaya Piñas",
+    "Mercedes Acosta Román",
+    "Liszeth Paola Cerna Ruiz",
+    "Gonzalo Girón Román"
+   ],
+   "venue": "Impulso, Revista de Administración",
+   "published_at": "2026-07-01",
+   "doi": "10.59659/impulso.v.6i15.365",
+   "url": "https://doi.org/10.59659/impulso.v.6i15.365",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Background: Local public administration requires participatory mechanisms to align resource allocation with citizen needs and collective welfare. Participatory budgeting (PB) serves as a governance tool designed to enhance social engagement and territorial-focused public investment. Objective: To determine the relationship between participatory budgeting and the quality of life of beneficiaries within the Municipal G",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.53641/junta.v9i1.170",
+   "title": "Participación ciudadana y gestión del presupuesto participativo en gobiernos locales de la región Amazonas, Perú",
+   "authors": [
+    "Yeny Reyna-Zavaleta"
+   ],
+   "venue": "Revista la Junta",
+   "published_at": "2026-06-30",
+   "doi": "10.53641/junta.v9i1.170",
+   "url": "https://doi.org/10.53641/junta.v9i1.170",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "The objective of the research was to determine the relationship between citizen participation and participatory budget management in the Municipalities of the Amazonas Region, 2022. The methodology used was quantitative and basic, non-experimental design at a correlational level. The instrument used was the questionnaire applied to 505 older people between 18 and 70 years of age residing in the capital of each provin",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.31274/geogames.25888",
+   "title": "Spatializing Participatory Budgeting: Testing Municipal Facilitators in a Housing Policy Game",
+   "authors": [
+    "Micael Sousa"
+   ],
+   "venue": "Proceedings of the 3rd Geogames Symposium: Games and Play for a Better World",
+   "published_at": "2026-06-29",
+   "doi": "10.31274/geogames.25888",
+   "url": "https://doi.org/10.31274/geogames.25888",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "proceedings-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.25587/2587-8778-2026-2-32-46",
+   "title": "The practice of participatory budgeting and its implementation in the Sakha Republic (Yakutia)",
+   "authors": [
+    "E. E. Noeva"
+   ],
+   "venue": "Economy and nature management in the North",
+   "published_at": "2026-06-19",
+   "doi": "10.25587/2587-8778-2026-2-32-46",
+   "url": "https://doi.org/10.25587/2587-8778-2026-2-32-46",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting is a practice of supporting local initiatives aimed at engaging citizens in addressing local issues, which is particularly relevant for municipalities in the Northern and Arctic regions. Participatory budgeting involves selecting a priority public issue and developing measures to address it: proposing a proactive project, as well as co-financing its implementation by local governments, municip",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.47230/revista.ciencia-lideres.v5.n1.2026.53-67",
+   "title": "Eficiencia del presupuesto participativo en los GAD del Ecuador desde el año 2021 al 2024",
+   "authors": [
+    "Melissa Catalina Merchán Píloco",
+    "Fabian Eduardo Barcia Villamar",
+    "Audrey Jacqueline Holguin Briones"
+   ],
+   "venue": "Revista Ciencia y Líderes",
+   "published_at": "2026-06-10",
+   "doi": "10.47230/revista.ciencia-lideres.v5.n1.2026.53-67",
+   "url": "https://doi.org/10.47230/revista.ciencia-lideres.v5.n1.2026.53-67",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 3,
+   "abstract_snippet": "La presente investigación aborda como problema central la efectividad de los Gobiernos Autónomos Descentralizados en el periodo 2021–2024, considerando las limitaciones en la participación ciudadana y el acceso insuficiente a la información, factores que inciden en la percepción del impacto real en la toma de decisiones. En este contexto, el objetivo general se orienta a analizar cómo la participación de los ciudadan",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1108/jpbafm-05-2025-0128",
+   "title": "Toward co-creation: institutional arrangements in climate participatory budgeting",
+   "authors": [
+    "Seeun Ryu",
+    "Jiseul Kim",
+    "Elnaz Chitsazzadeh"
+   ],
+   "venue": "Journal of Public Budgeting, Accounting &amp; Financial Management",
+   "published_at": "2026-06-09",
+   "doi": "10.1108/jpbafm-05-2025-0128",
+   "url": "https://doi.org/10.1108/jpbafm-05-2025-0128",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "Purpose Few analyses evaluate how institutional arrangements for climate participatory budgeting (CPB) lead to co-creation, especially in the context of the United States. This study examines two questions: (1) To what extent do public finance institutions, such as climate-related earmarked funding mechanisms and climate budgeting and investment platforms, facilitate co-creation; and (2) How do institutional environm",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.5102/rbpp.v16i1.10117",
+   "title": "RESILIENT DEMOCRACY IN CRISIS: EVIDENCE FROM PARTICIPATORY BUDGETING DURING MARTIAL LAW IN UKRAINE",
+   "authors": [
+    "Oleh Brovko",
+    "Ramon Blanco"
+   ],
+   "venue": "Revista Brasileira de Políticas Públicas",
+   "published_at": "2026-06-09",
+   "doi": "10.5102/rbpp.v16i1.10117",
+   "url": "https://doi.org/10.5102/rbpp.v16i1.10117",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1080/07352166.2026.2675557",
+   "title": "Democratizing the state? Participatory budgeting and strategic selectivity in the Spanish new municipalism",
+   "authors": [
+    "Juan Mérida",
+    "Adrián Bua"
+   ],
+   "venue": "Journal of Urban Affairs",
+   "published_at": "2026-05-28",
+   "doi": "10.1080/07352166.2026.2675557",
+   "url": "https://doi.org/10.1080/07352166.2026.2675557",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.69849/8724xw07",
+   "title": "A participação da juventude no orçamento participativo. Interesse vs. satisfação",
+   "authors": [
+    "Cristóvão Marcos Benga Chivela",
+    "Job Pedro Payhama"
+   ],
+   "venue": "Revista ft",
+   "published_at": "2026-05-22",
+   "doi": "10.69849/8724xw07",
+   "url": "https://doi.org/10.69849/8724xw07",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "The theme of this work is “Youth Participation in Participatory Budgeting – Interest vs. Satisfaction\". The same is part of the Support Project for Civil Society and Local Administration in Angola (PASCAL), framed within European Union policies with a view to strengthening civil society and the processes of deconcentration, decentralization and local development, increasing the active participation of citizens Angola",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.70413/cajar-v04-i05-p2-096",
+   "title": "Citizen participation in participatory budgeting in Uzbekistan: assessment, determinants, and policy recommendations",
+   "authors": [
+    "Ravshan Sodiqov"
+   ],
+   "venue": "Central Asian Journal of Academic Research",
+   "published_at": "2026-05-14",
+   "doi": "10.70413/cajar-v04-i05-p2-096",
+   "url": "https://doi.org/10.70413/cajar-v04-i05-p2-096",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "This article examines citizen participation in Uzbekistan's participatory budgeting (PB) mechanism — the \"Open Budget\" initiative — from its pilot launch in 2019 through 2025. The study pursues three objectives: (1) to systematize the theoretical foundations and international models of PB and assess their applicability to Uzbekistan; (2) to conduct a multi-factor regression analysis identifying the key determinants o",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.70413/yo-v04-i44-s41132",
+   "title": "Comparative analysis of participatory budgeting models: international experience and implications for Uzbekistan",
+   "authors": [
+    "R.Sh. Sodiqov"
+   ],
+   "venue": "Young Scientists, Vol. 4, No. 44 (2026)",
+   "published_at": "2026-05-13",
+   "doi": "10.70413/yo-v04-i44-s41132",
+   "url": "https://doi.org/10.70413/yo-v04-i44-s41132",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting (PB) has emerged as one of the most significant innovations in democratic governance over the past three decades. Since its inception in Porto Alegre, Brazil, in 1989, PB has spread to over 7,000 municipalities worldwide, enabling citizens to directly influence the allocation of public funds. This study conducts a comparative analysis of PB models across multiple countries and regions — includ",
+   "source": "Crossref",
+   "type": "proceedings-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.70413/si-v04-i38-s41130",
+   "title": "DETERMINANTS OF CITIZEN PARTICIPATION IN PARTICIPATORY BUDGETING: EVIDENCE FROM UZBEKISTAN'S OPEN BUDGET INITIATIVE (2019-2025)",
+   "authors": [
+    "R.Sh. Sodiqov"
+   ],
+   "venue": "Science and Innovation, Vol. 4, No. 38 (2026)",
+   "published_at": "2026-05-13",
+   "doi": "10.70413/si-v04-i38-s41130",
+   "url": "https://doi.org/10.70413/si-v04-i38-s41130",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting (PB) has become a cornerstone of open governance reform in Uzbekistan since the launch of the \"Open Budget\" portal in 2019. By 2023, the system recorded over 18 million votes in a single season, with more than 55,000 citizen proposals submitted. However, participation levels vary significantly across regions. This study applies multi-factor regression analysis to identify the socio-economic, i",
+   "source": "Crossref",
+   "type": "proceedings-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.69592/3020-8378-n3-2026-art-11",
+   "title": "Mecanismos de gobernanza democrática: autonomía municipal en Argentina y presupuesto participativo",
+   "authors": [
+    "Luciana Soledad Falcone"
+   ],
+   "venue": "Anuario iberoamericano de buen gobierno y calidad democrática - Núm 3 - 2026",
+   "published_at": "2026-05-12",
+   "doi": "10.69592/3020-8378-n3-2026-art-11",
+   "url": "https://doi.org/10.69592/3020-8378-n3-2026-art-11",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "El presupuesto participativo municipal es una herramienta valiosa para fortalecer valores fundamentales de la sociedad democrática, mejorar los niveles de confianza en quienes ejercen el poder, fomentar la transparencia pública, la rendición de cuentas y el gobierno de cercanía. Por esa razón, tiene que ser adecuado a las nuevas circunstancias sociales y solo puede ser fortalecido si se lo conecta con derechos fundam",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1080/19460171.2026.2669059",
+   "title": "Institutional activism amidst participatory constraints: new practices for limited opportunities within Porto Alegre’s participatory budgeting",
+   "authors": [
+    "Jonas Lefebvre"
+   ],
+   "venue": "Critical Policy Studies",
+   "published_at": "2026-05-07",
+   "doi": "10.1080/19460171.2026.2669059",
+   "url": "https://doi.org/10.1080/19460171.2026.2669059",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.14324/111.444.ijsp.2026.v15.x.009",
+   "title": "Social pedagogy and civic education: comparing school participatory budgeting and Project Citizen",
+   "authors": [
+    "Tara Bartlett",
+    "Daniel Schugurensky"
+   ],
+   "venue": "International Journal of Social Pedagogy",
+   "published_at": "2026-05-06",
+   "doi": "10.14324/111.444.ijsp.2026.v15.x.009",
+   "url": "https://doi.org/10.14324/111.444.ijsp.2026.v15.x.009",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "Using a social pedagogy framework, we examine educational approaches that address the twin challenge of democracy and civic education. The democracy challenge is characterised by the erosion of democratic norms, political disengagement, polarisation and declining trust in institutions. The civic education challenge stems from an overreliance on passive instruction, memorisation and standardised tests, with limited co",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.3390/socsci15050295",
+   "title": "Learning to Deliberate Through Hybrid Role-Playing Games: Evidence from Participatory Budgeting Simulations",
+   "authors": [
+    "Paolo Spada",
+    "Marco Meloni",
+    "Matt Ryan",
+    "Richard Gomer"
+   ],
+   "venue": "Social Sciences",
+   "published_at": "2026-05-02",
+   "doi": "10.3390/socsci15050295",
+   "url": "https://doi.org/10.3390/socsci15050295",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Hybrid role-playing games are increasingly used to support democratic learning, yet there is limited empirical evidence on how such hybrid designs function across contexts. This study analyses the pedagogical and deliberative effects of Empaville, a hybrid role-playing game designed to simulate a green participatory budgeting process by embedding deliberation, competition, and voting within a fictional urban setting.",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.23900/2359-1552v15n4-46-2026",
+   "title": "ORÇAMENTO PARTICIPATIVO EM CONTEXTOS RURAIS EM ANGOLA: ANÁLISE DA IMPLEMENTAÇÃO NO MUNICÍPIO DE NGONGUEMBO, CUANZA NORTE",
+   "authors": [
+    "Francisco Ângelo Canvula Manuel",
+    "Manuel Adelino Quilala"
+   ],
+   "venue": "Revista Políticas Públicas &amp; Cidades",
+   "published_at": "2026-04-29",
+   "doi": "10.23900/2359-1552v15n4-46-2026",
+   "url": "https://doi.org/10.23900/2359-1552v15n4-46-2026",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Entre execução financeira e execução física existe, por vezes, uma distância que os relatórios formais registam mas raramente explicam. No município de Ngonguembo, Cuanza Norte, Angola, essa distância foi de 100% para 54,4% no ciclo de 2024 do Orçamento Participativo (OP) resultado que este estudo procura interpretar à luz dos quadros conceptuais do policy transfer e do desajustamento institucional. Com base num estu",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.56238/ramv20n16-001",
+   "title": "ORÇAMENTO PARTICIPATIVO: ESTUDO DE CASO EM PORTO ALEGRE (RS)",
+   "authors": [
+    "Rafaela Santos Borges",
+    "Sérgio Murilo Petri"
+   ],
+   "venue": "Revista Digital Acadêmico Mundo",
+   "published_at": "2026-04-28",
+   "doi": "10.56238/ramv20n16-001",
+   "url": "https://doi.org/10.56238/ramv20n16-001",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O presente estudo analisa a trajetória do Orçamento Participativo em Porto Alegre (RS), destacando sua relevância como instrumento de democracia participativa entre Estado e sociedade. A pesquisa busca compreender os fatores que explicam sua continuidade ao longo do tempo, bem como as transformações ocorridas em sua estrutura, nos processos decisórios e no perfil dos participantes. A partir de uma abordagem qualitati",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.47460/uct.v30i131.1062",
+   "title": "A Systematic Review of the Participation of Organized Civil Society in Participatory Budgeting in Latin America",
+   "authors": [
+    "Manuel Sanchez Cieza"
+   ],
+   "venue": "Universidad Ciencia y Tecnología",
+   "published_at": "2026-04-25",
+   "doi": "10.47460/uct.v30i131.1062",
+   "url": "https://doi.org/10.47460/uct.v30i131.1062",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "This study systematically analyzed the scientific production of recent years regarding the role of organized civil society in participatory budgeting processes in Latin America. To this end, a theoretical review with a qualitative approach was conducted, following the PRISMA 2020 guidelines and using the Scopus, Web of Science, and SciELO databases, from which 35 studies published between 2019 and 2025 were selected.",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.4102/jolgri.v7i0.327",
+   "title": "Participatory budgeting in the digital era: Challenges and opportunities in the City of Bulawayo, Zimbabwe",
+   "authors": [
+    "Nqobile Sikhosana",
+    "Mokgadi Molope"
+   ],
+   "venue": "Journal of Local Government Research and Innovation",
+   "published_at": "2026-04-24",
+   "doi": "10.4102/jolgri.v7i0.327",
+   "url": "https://doi.org/10.4102/jolgri.v7i0.327",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Background: Participatory budgeting (PB) techniques have emerged to promote democratic engagement with local government to influence local government expenditures and ensure priorities of all role-players are incorporated into the budgets. Innovative strategies have been implemented to integrate digital transformations into local government operations, and PB processes have also been affected by these developments. A",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1108/jpbafm-08-2025-0232",
+   "title": "Understanding public participatory budgeting behavior: how cognitive biases shape public budget preferences",
+   "authors": [
+    "Wenbin Li",
+    "Jia Yang",
+    "Xiaoxuan Chen"
+   ],
+   "venue": "Journal of Public Budgeting, Accounting &amp; Financial Management",
+   "published_at": "2026-04-03",
+   "doi": "10.1108/jpbafm-08-2025-0232",
+   "url": "https://doi.org/10.1108/jpbafm-08-2025-0232",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Purpose This study investigates how individual-level cognitive biases shape budgetary preferences in public participatory budgeting (PB), offering a micro-level perspective that complements the traditional research focus on collective decision-making processes. Design/methodology/approach Conducting an empirical generalization replication of Overmans and Grimmelikhuijsen's (2025) experiment, this study examines how c",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.64628/aai.swrek53nr",
+   "title": "What Detroit can learn from participatory budgeting processes in NYC, Boston and Brazil",
+   "authors": [
+    "Celina Su"
+   ],
+   "venue": "",
+   "published_at": "2026-04-01",
+   "doi": "10.64628/aai.swrek53nr",
+   "url": "https://doi.org/10.64628/aai.swrek53nr",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.12819/2026.23.4.3",
+   "title": "O Programa de Orçamento Participativo Digital do Piauí (OPA): Análise dos Relatórios Institucionais e Desafios da Inclusão Democrática",
+   "authors": [
+    "Celina Maria de Souza Olivindo",
+    "Liz Tâmara Pinto Lopes",
+    "Alexandre Rodrigues Santos"
+   ],
+   "venue": "Revista FSA",
+   "published_at": "2026-04-01",
+   "doi": "10.12819/2026.23.4.3",
+   "url": "https://doi.org/10.12819/2026.23.4.3",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.17645/mac.11507",
+   "title": "Between Resilience and Abandonment: Political Factors Determining Participatory Budgeting Through Digital Participatory Platforms",
+   "authors": [
+    "Joel Peiruza-Parga",
+    "Joan Balcells",
+    "Rosa Borge",
+    "Albert Padró-Solanet"
+   ],
+   "venue": "Media and Communication",
+   "published_at": "2026-03-26",
+   "doi": "10.17645/mac.11507",
+   "url": "https://doi.org/10.17645/mac.11507",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "Participatory budgeting (PB) is one of the most significant democratic innovations to enhance citizens’ influence on public policy, seeing renewed growth over the last decade by merging with digital participatory platforms. However, many PB programmes fail to persist beyond their initial adoption. Which political factors affect the resilience of hybrid deployments of PB through digital platforms? Local governments, a",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.56712/latam.v7i2.5564",
+   "title": "Presupuesto participativo y la eficacia de la gestión pública, Gobierno Autónomo Descentralizado Municipal de Santa Elena, 2024",
+   "authors": [
+    "Juan José Gómez Villao",
+    "Hilarión José Vegas Meléndez"
+   ],
+   "venue": "LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades",
+   "published_at": "2026-03-21",
+   "doi": "10.56712/latam.v7i2.5564",
+   "url": "https://doi.org/10.56712/latam.v7i2.5564",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "La investigación tuvo como objetivo principal analizar la relación entre la ejecución del presupuesto participativo y la eficacia de la gestión pública en el GADMSE[1] durante 2024. El estudio se desarrolló bajo un enfoque cuantitativo con diseño no experimental, transversal y de alcance descriptivo–correlacional. La población estuvo conformada por 39 funcionarios vinculados al proceso de formulación, ejecución y seg",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.3390/su18062981",
+   "title": "Urban Agriculture and Participatory Budgeting for Sustainable Cities: Evidence from Vegetable-Related Projects in Warsaw",
+   "authors": [
+    "Kinga Kimic",
+    "Magdalena Błaszczyk"
+   ],
+   "venue": "Sustainability",
+   "published_at": "2026-03-18",
+   "doi": "10.3390/su18062981",
+   "url": "https://doi.org/10.3390/su18062981",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Urban agriculture (UA) provides numerous social, environmental, economic, and spatial benefits for urban residents. The development of UA is supported, among other factors, by the participatory budget, an inclusive mechanism of democratic governance that facilitates investment decisions tailored to local communities’ needs. The aim of the study presented in this article was to identify and assess projects on vegetabl",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.17268/sciendo.v28n4.011",
+   "title": "Participatory Budget and quality of public spending of the Baño del Inca District Municipality",
+   "authors": [
+    "Roberto Quispe-Mendoza",
+    "Simón Osiel Cusma Quintana",
+    "Khriss Espinola Rivera",
+    "Boris Arana"
+   ],
+   "venue": "SCIÉNDO",
+   "published_at": "2026-03-16",
+   "doi": "10.17268/sciendo.v28n4.011",
+   "url": "https://doi.org/10.17268/sciendo.v28n4.011",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.25140/2410-9576-2026-1(32)-75-84",
+   "title": "Financial literacy among the population as a key to the recovery of local communities through participatory budgeting",
+   "authors": [
+    "Olena Parubets"
+   ],
+   "venue": "Scientific bulletin of Polissia",
+   "published_at": "2026-03-05",
+   "doi": "10.25140/2410-9576-2026-1(32)-75-84",
+   "url": "https://doi.org/10.25140/2410-9576-2026-1(32)-75-84",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "The article examines ways of improving the financial literacy of residents in local communities in order to encourage their greater involvement in participatory budgeting processes. Based on an analysis of the level of financial literacy among Ukrainians, it was concluded that they have a low level of awareness regarding the formation and use of local budget funds, the stages of the budgetary process, and national an",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1215/07393148-12203269",
+   "title": "Immigrant Experiences with Participatory Budgeting",
+   "authors": [
+    "Pascal Lupien"
+   ],
+   "venue": "New Political Science",
+   "published_at": "2026-03-01",
+   "doi": "10.1215/07393148-12203269",
+   "url": "https://doi.org/10.1215/07393148-12203269",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Abstract Participatory budgeting (PB) has emerged as one of the most common models for implementing participatory democracy. One of the stated goals of many PB initiatives is to engage underrepresented groups and individuals in decision-making. The participation of immigrants in the public sphere supports their integration into a new society. PB mechanisms have the potential to serve as spaces for immigrant political",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1016/j.jcss.2025.103702",
+   "title": "Participatory budgeting with project groups",
+   "authors": [
+    "Pallavi Jain",
+    "Krzysztof Sornat",
+    "Nimrod Talmon",
+    "Meirav Zehavi"
+   ],
+   "venue": "Journal of Computer and System Sciences",
+   "published_at": "2026-03",
+   "doi": "10.1016/j.jcss.2025.103702",
+   "url": "https://doi.org/10.1016/j.jcss.2025.103702",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.68598/mjamr.242",
+   "title": "Relationship Between Participatory Budgeting And Service Delivery In Bundibugyo Local Government, Bundibugyo District",
+   "authors": [
+    "ma Kandole Nicholas",
+    "Wabuna Muhammad"
+   ],
+   "venue": "Metropolitan Journal of Academic Multidisciplinary Research",
+   "published_at": "2026-02-28",
+   "doi": "10.68598/mjamr.242",
+   "url": "https://doi.org/10.68598/mjamr.242",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "The study examined the relationship between participatory budgeting and service delivery in Bundibugyo Local Government, Bundibugyo District. The research employed a mixed-methods approach, combining quantitative and qualitative data collection techniques. A sample of 220 respondents was drawn from a population of 300, including traditional leaders, local government officials, local council leaders, service providers",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.22201/fcpys.2448492xe.2026.256.88525",
+   "title": "Participación Ciudadana en la CDMX: transversalización de la perspectiva de género y el Presupuesto Participativo",
+   "authors": [
+    "Karla Valverde Viesca",
+    "Helena Varela Guinot",
+    "Luisa Medina Valderrábano"
+   ],
+   "venue": "Revista Mexicana de Ciencias Políticas y Sociales",
+   "published_at": "2026-02-28",
+   "doi": "10.22201/fcpys.2448492xe.2026.256.88525",
+   "url": "https://doi.org/10.22201/fcpys.2448492xe.2026.256.88525",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "This article examines Participatory Budgeting in Mexico City as a mechanism for democratic deepening from a gender-sensitive perspective. It draws on Hans Kelsen’s understanding of the demos as the locus of decision-making, Joan Prats’ and Nuria Cunill’s analyses of democratic governance, and Joan Font’s reflections on citizen deliberation. The discussion is further enriched by feminist contributions from Celia Amoró",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.20944/preprints202602.1247.v1",
+   "title": "Beyond the Green Façade: A Critical Analysis of Digital Participatory Budgeting for Climate Resilience and Governance in Lisbon",
+   "authors": [
+    "Jorge Gonçalves",
+    "Silvia Jorge",
+    "Beatrice Fountolan"
+   ],
+   "venue": "",
+   "published_at": "2026-02-27",
+   "doi": "10.20944/preprints202602.1247.v1",
+   "url": "https://doi.org/10.20944/preprints202602.1247.v1",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "This article critically analyses Lisbon&#039;s Green Participatory Budget (GPB), launched in 2020 in the symbolic context of the city&#039;s designation as European Green Capital. Rather than treating the GPB as a radical democratic innovation, the article situates it as a thematic and digital reconfiguration of Lisbon&#039;s long-standing participatory budgeting process, active since 2008 and already incorporating e",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.58830/ozgur.pub1193",
+   "title": "Katılımcı Bütçeleme: Başarılı Deneyimler ve İstanbul Büyükşehir Belediyesi Uygulaması",
+   "authors": [
+    "Alime Ergun",
+    "Mehmet Hanefi Topal"
+   ],
+   "venue": "",
+   "published_at": "2026-02-24",
+   "doi": "10.58830/ozgur.pub1193",
+   "url": "https://doi.org/10.58830/ozgur.pub1193",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Katılımcı bütçe, çeyrek asrı aşkın süredir dünyanın farklı kentlerinde uygulanan; kamu kaynaklarının tahsisinde yurttaşlara doğrudan söz hakkı veren ve sürekli evrilen dinamik bir karar alma mekanizmasıdır. Bu yaklaşım, yerel ölçekte katılımı artırarak planlama ve uygulama süreçlerine yurttaşları dâhil eder, kamu mali yönetiminde şeffaflık ile hesap verebilirliği güçlendirir ve demokrasinin derinleşmesine katkı sunar",
+   "source": "Crossref",
+   "type": "monograph",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.19136/es.v14n40.6691",
+   "title": "El presupuesto participativo como una herramienta de cambio social en la democracia tabasqueña",
+   "authors": [
+    "Karla Irene López Morales"
+   ],
+   "venue": "Ecos sociales",
+   "published_at": "2026-02-15",
+   "doi": "10.19136/es.v14n40.6691",
+   "url": "https://doi.org/10.19136/es.v14n40.6691",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "En el presente artículo se estudia la relevancia de un mecanismo de democracia directa como fundamento de los derechos políticos electorales, considerando su desarrollo jurídico de la democracia participativa, a partir de una investigación teórico documental, de tipo descriptivo y explicativo, que tiene como finalidad de destacar y analizar de fondo la participación ciudadana en la toma de decisiones sobre el destino",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.54613/ku.v17i.1517",
+   "title": "POLICY EVALUATION PROPOSAL FOR “OPEN BUDGET” PARTICIPATORY BUDGET INITIATIVE IN UZBEKISTAN",
+   "authors": [
+    "Shokhjakhon Yusupov"
+   ],
+   "venue": "QO‘QON UNIVERSITETI XABARNOMASI",
+   "published_at": "2026-02-11",
+   "doi": "10.54613/ku.v17i.1517",
+   "url": "https://doi.org/10.54613/ku.v17i.1517",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "This evaluation proposal is drafted to examine the Open Budget initiative launched in 2021 to strengthen budgetary transparency, community engagement in decision-making, and improve government responsiveness. The program operates nationwide and allows eligible citizens to propose and vote for community development projects, which are then financed from local budget funds. The initiative and the Open Budget online por",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1111/padm.70040",
+   "title": "The Bumps in the Road Toward Social Equity Budgeting: The Administrative Pitfalls When Implementing Participatory Budgeting",
+   "authors": [
+    "Michelle L. Lofton",
+    "Juan Pablo Martínez Guzmán"
+   ],
+   "venue": "Public Administration",
+   "published_at": "2026-01-21",
+   "doi": "10.1111/padm.70040",
+   "url": "https://doi.org/10.1111/padm.70040",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 3,
+   "abstract_snippet": "ABSTRACT Participatory budgeting can encourage meaningful community engagement in all phases of the budgeting cycle to promote social equity. However, participatory budgeting administrators often experience administrative and political challenges in establishing participatory processes that effectively promote social equity. Using an integrated social equity framework that builds on the concept of sustainable governa",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.29076/issn.2528-7737vol19iss50.2026pp43-55p",
+   "title": "Efecto del presupuesto participativo en la responsabilidad social de los directivos mediado por la ética profesional",
+   "authors": [
+    "",
+    "Jamalleddin Mahdiyan Nasab",
+    "Javad Madani",
+    "Habib Ebrahimpour"
+   ],
+   "venue": "CIENCIA UNEMI",
+   "published_at": "2026-01-15",
+   "doi": "10.29076/issn.2528-7737vol19iss50.2026pp43-55p",
+   "url": "https://doi.org/10.29076/issn.2528-7737vol19iss50.2026pp43-55p",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Direct participation of people in budgeting is examined under the title of participatory budgeting (PB), and research results con-firm its effect on improving performance and achieving organizational goals. This study aims to investigate the effect of PB on the Hamadan Municipality Organization and also on the social responsibility of managers through professional ethics. The statistical population of this study comp",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.69639/arandu.v12i4.1802",
+   "title": "Presupuesto participativo y desarrollo barrial en Cuenca: un enfoque de gobernanza local y participación ciudadana",
+   "authors": [
+    "María Auxiliadora Campuzano Rodríguez",
+    "Víctor Andrés Zárate Enríquez",
+    "Javier Antonio Benítez Astudillo"
+   ],
+   "venue": "Arandu UTIC",
+   "published_at": "2026-01-02",
+   "doi": "10.69639/arandu.v12i4.1802",
+   "url": "https://doi.org/10.69639/arandu.v12i4.1802",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "El presente estudio examina el presupuesto participativo como un instrumento clave de gobernanza democrática y fortalecimiento del desarrollo barrial en la ciudad de Cuenca, Ecuador. Se sostiene que la implicación ciudadana en la definición y distribución de los recursos públicos contribuye a consolidar la cohesión social, mejorar la transparencia institucional y optimizar la eficiencia en la gestión municipal. A par",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2139/ssrn.7592712",
+   "title": "Proportionality and Support Monotonicity in Participatory Budgeting",
+   "authors": [
+    "Mohsen Pourpooneh",
+    "Farzaneh Rajabighamchi"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.2139/ssrn.7592712",
+   "url": "https://doi.org/10.2139/ssrn.7592712",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "We address an open question posed by Skowron et al. (2026) regarding the compatibility of proportional representation <br> and support monotonicity within participatory budgeting using cumulative votes. For Proportional Representation, <br> we identify the projects that any feasible rule adhering to both axioms must select. Selecting these projects defines <br> the minimal feasible rule satisfying both axioms. Furthe",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2139/ssrn.7274322",
+   "title": "Core Existence in Participatory Budgeting with Cardinality Satisfaction and Totally Unimodular Approval Matrices",
+   "authors": [
+    "Nicholas Teh"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.2139/ssrn.7274322",
+   "url": "https://doi.org/10.2139/ssrn.7274322",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting with indivisible projects has no known general core existence theorem when each voter&apos;s satisfaction is the number of approved funded projects. We prove that the core is non-empty for arbitrary positive project costs whenever the voter-project approval matrix is totally unimodular. This includes both interval domains and instances in which each project is approved by at most two voters an",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2139/ssrn.6251728",
+   "title": "Participatory budgeting and the urban–rural income gap: evidence from China",
+   "authors": [
+    "WenWen Ding",
+    "Yihua Li"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.2139/ssrn.6251728",
+   "url": "https://doi.org/10.2139/ssrn.6251728",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "This study examines the role of representative voting systems in participatory budgeting and their effect on China’s urban–rural income disparities. Specifically, we employ an imbalanced panel dataset of 2,218 county-level administrative units over 2014–2022 with a multi-period difference-in-differences (DID) study design to assess the relationship between democratic involvement in local budgeting and the distributio",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2139/ssrn.5974535",
+   "title": "Differential Privacy for Participatory Budgeting: Protecting Voter Privacy in Uzbekistan's Open Budget System",
+   "authors": [
+    "Olimjon Uvayzov"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.2139/ssrn.5974535",
+   "url": "https://doi.org/10.2139/ssrn.5974535",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2139/ssrn.6292482",
+   "title": "Participatory Budgeting in Richmond",
+   "authors": [
+    "Rupert Freeman",
+    "Koushyar Shaloudegi",
+    "Amy Klopfenstein"
+   ],
+   "venue": "SSRN Electronic Journal",
+   "published_at": "2026",
+   "doi": "10.2139/ssrn.6292482",
+   "url": "https://doi.org/10.2139/ssrn.6292482",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Set in November 2023, this case asks students to take the perspective of Matthew Slaats, a consultant for the city of Richmond, Virginia, as he selects a voting rule for the city's new participatory budgeting (PB) program. PB allows voters to determine how to allocate a portion of the city's budget to a select list of projects. Most PB programs use approval voting, a rule that allows participants to vote for an unlim",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2139/ssrn.6039414",
+   "title": "Policy Entrepreneurship in a \"Thawing\" Authoritarian Context: Exploring the Narratives from Participatory Budgeting Reform",
+   "authors": [
+    "Cheol Liu"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.2139/ssrn.6039414",
+   "url": "https://doi.org/10.2139/ssrn.6039414",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.56584/1560-8816-2026-1-318-324",
+   "title": "BUSINESS CO-FINANCING OF PARTICIPATORY BUDGETING PROJECTS",
+   "authors": [
+    "V. A. FEDOSOV",
+    "A. V. EROFEEVA"
+   ],
+   "venue": "РИСК: Ресурсы, Информация, Снабжение, Конкуренция",
+   "published_at": "2026",
+   "doi": "10.56584/1560-8816-2026-1-318-324",
+   "url": "https://doi.org/10.56584/1560-8816-2026-1-318-324",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "The development of participatory budgeting has led to a variety of its practices and approaches to financing. One of the distinctive features of initiative budgeting in the Russian Federation is the co-financing of projects by businesses and citizens. Business co-financing of proactive budgeting has a number of problems: 1) methodological problems; 2) insufficient awareness of business about the possibilities of proa",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1590/0034-761220250044x",
+   "title": "Opening the “black box” of failure: bureaucratic capacity and the implementation of participatory budgeting in Bogotá",
+   "authors": [
+    "Yessika Lorena Vásquez-González"
+   ],
+   "venue": "Revista de Administração Pública",
+   "published_at": "2026",
+   "doi": "10.1590/0034-761220250044x",
+   "url": "https://doi.org/10.1590/0034-761220250044x",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Abstract Despite the global expansion of Participatory Budgeting (PB), many of these initiatives fail. Existing explanations for these outcomes emphasize factors such as political will and social capital. However, the impact of administrative capacity and intersectoral coordination on PB implementation remains underexplored. This article addresses that gap in the literature. Through a qualitative case study of PB in ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.35774/sf2026.01.150",
+   "title": "MODELS OF PARTICIPATORY BUDGETING AND THEIR INTEGRATION INTO CONTEMPORARY BUDGET MANAGEMENT",
+   "authors": [
+    "Bohdan MALYNIAK",
+    "Roksolana MALYNIAK",
+    "Anastasia TYMOSHYK",
+    "Diana FURDA"
+   ],
+   "venue": "World of Finance",
+   "published_at": "2026",
+   "doi": "10.35774/sf2026.01.150",
+   "url": "https://doi.org/10.35774/sf2026.01.150",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Introduction. In contemporary conditions, there is a growing need to apply budget management instruments capable of enhancing the efficiency and equity of public fund allocation while strengthening public trust in governmental institutions. In this context, the study of participatory budgeting models, their functional characteristics, and their potential for integration into the practice of budget management in Ukrai",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1590/0034-761220250044y",
+   "title": "Abriendo la “caja negra” del fracaso: capacidad burocrática e implementación del presupuesto participativo en Bogotá",
+   "authors": [
+    "Yessika Lorena Vásquez-González"
+   ],
+   "venue": "Revista de Administração Pública",
+   "published_at": "2026",
+   "doi": "10.1590/0034-761220250044y",
+   "url": "https://doi.org/10.1590/0034-761220250044y",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Resumen A pesar de la expansión global del Presupuesto Participativo (PP), muchas de estas iniciativas fracasan. Las explicaciones existentes sobre estos resultados enfatizan factores como la voluntad política y el capital social. Sin embargo, el impacto de la capacidad administrativa y la coordinación intersectorial en la implementación del PP sigue siendo un campo poco explorado. Este artículo aborda dicho vacío en",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.47538/ac-2026.30",
+   "title": "Orçamento participativo e Educação Popular em Suzano/SP",
+   "authors": [
+    "Ivan Rubens Dário Júnior"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.47538/ac-2026.30",
+   "url": "https://doi.org/10.47538/ac-2026.30",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "edited-book",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2139/ssrn.6710919",
+   "title": "Orçamento participativo em contextos rurais em Angola: análise da implementação no município de Ngonguembo, Cuanza Norte",
+   "authors": [
+    "Manuel Adelino Quilala"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.2139/ssrn.6710919",
+   "url": "https://doi.org/10.2139/ssrn.6710919",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Entre a execução financeira e a execução física existe, por vezes, uma distância que os relatórios formais registados mas explicados de forma manifesta. No município de Ngonguembo, Cuanza Norte, Angola, essa distância foi de 100% para 54,4% no ciclo de 2024 do Orçamento Participativo (OP) resultado que este estudo procura interpretar à luz dos quadros conceituais de transferência de políticas e do desajustamento inst",
+   "source": "Crossref",
+   "type": "posted-content",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.23900/edppc.978-65-84425-04-0_1",
+   "title": "ORÇAMENTO PARTICIPATIVO DE PORTO VELHO: UMA ANÁLISE DA PARTICIPAÇÃO CIDADÃ NA ELABORAÇÃO DO ORÇAMENTO DE PORTO VELHO",
+   "authors": [
+    "Nadya Karolina de Melo",
+    "Crystiane Angelica Briel de Mello",
+    "Mariano Suarez Elias",
+    "Ramiro Nicolas Perés Riposio"
+   ],
+   "venue": "Estudos e Conhecimentos Culturais",
+   "published_at": "2026",
+   "doi": "10.23900/edppc.978-65-84425-04-0_1",
+   "url": "https://doi.org/10.23900/edppc.978-65-84425-04-0_1",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.48021/978-65-288-0937-0",
+   "title": "Política pública não se discute. Será?: radicalizando a democracia e entendendo o processo de tomada de decisões no Orçamento Participativo",
+   "authors": [
+    "J. F. DUTRA JÚNIOR"
+   ],
+   "venue": "",
+   "published_at": "2026",
+   "doi": "10.48021/978-65-288-0937-0",
+   "url": "https://doi.org/10.48021/978-65-288-0937-0",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "monograph",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.37885/260121129",
+   "title": "CONTROLE SOCIAL NA CONSTRUÇÃO DO ORÇAMENTO PARTICIPATIVO: BARREIRAS À EFETIVIDADE E PROPOSIÇÕES ESTRATÉGICAS",
+   "authors": [
+    "Gabriela Maria Cardoso da Cunha",
+    "Bruno Cezar Silva"
+   ],
+   "venue": "Democracia Administrativa: Entre o Direito e a Gestão Pública -  \"Princípios, Gestão e Participação Cidadã\"",
+   "published_at": "2026",
+   "doi": "10.37885/260121129",
+   "url": "https://doi.org/10.37885/260121129",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O referido estudo, desenvolvido na forma de capítulo para livro no campo da Gestão Pública, buscou identificar e analisar os entraves que limitam ou que condicionam a efetividade do controle social e participação cidadã na construção e fortalecimento do orçamento participativo. O mapeamento das barreiras culminou na definição de recomendações para enfrentamento do problema. Para atender ao objetivo, adotou-se ao méto",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1590/1984-92302025v33n0017en",
+   "title": "Participatory Budgeting: a Meta-synthesis of Qualitative Case Studies",
+   "authors": [
+    "Gisleine do Carmo",
+    "Mozar Jose de Brito",
+    "Luiz Flávio Felizardo",
+    "Vânia Aparecida Rezende"
+   ],
+   "venue": "Organizações &amp; Sociedade",
+   "published_at": "2026",
+   "doi": "10.1590/1984-92302025v33n0017en",
+   "url": "https://doi.org/10.1590/1984-92302025v33n0017en",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Abstract This article presents a meta-synthesis of qualitative case studies on Participatory Budgeting (PB), a democratic tool that enables citizens to engage in local budgetary decision-making. Based on a systematic review of 15 articles, this study examines how PB has been conceptualized and implemented across different countries, identifying the theoretical frameworks employed. The analysis highlights the diversit",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1590/1984-92302025v33n0017pt",
+   "title": "Orçamento Participativo: uma metassíntese de estudos de caso qualitativos",
+   "authors": [
+    "Gisleine do Carmo",
+    "Mozar Jose de Brito",
+    "Luiz Flávio Felizardo",
+    "Vânia Aparecida Rezende"
+   ],
+   "venue": "Organizações &amp; Sociedade",
+   "published_at": "2026",
+   "doi": "10.1590/1984-92302025v33n0017pt",
+   "url": "https://doi.org/10.1590/1984-92302025v33n0017pt",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Resumo Este artigo apresenta uma metassíntese de estudos de caso qualitativos sobre Orçamento Participativo (OP), uma ferramenta democrática que permite aos cidadãos se envolverem na tomada de decisões orçamentárias locais. Com base em uma revisão sistemática de 15 artigos, este estudo examina como o OP tem sido conceituado e implementado em diferentes países, identificando os referenciais teóricos empregados. A anál",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1590/0034-761220250044",
+   "title": "Abrindo a “Caixa-preta” do fracasso: capacidade burocrática e implementação do orçamento participativo em Bogotá",
+   "authors": [
+    "Yessika Lorena Vásquez-González"
+   ],
+   "venue": "Revista de Administração Pública",
+   "published_at": "2026",
+   "doi": "10.1590/0034-761220250044",
+   "url": "https://doi.org/10.1590/0034-761220250044",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Resumo Apesar da expansão global do Orçamento Participativo (OP), muitas dessas iniciativas fracassam. As explicações existentes para esses resultados enfatizam fatores como compromisso governamental e capital social. No entanto, o impacto da capacidade administrativa e da coordenação intersetorial na implementação do OP é um campo pouco estudado. Este artigo aborda esse vazio na literatura. Por meio de um estudo de ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.29327/25955187.1192749",
+   "title": "O IMPACTO DA TEORIA GERENCIAL DE ADMINISTRAÇÃO PÚBLICA NA DESCONTINUIDADE DO ORÇAMENTO PARTICIPATIVO DE PORTO ALEGRE",
+   "authors": [
+    "Aragon Érico Dasso Júnior",
+    "Laura Trajano de Oliveira"
+   ],
+   "venue": "Anais do Encontro Nacional de Ensino e Pesquisa do Campo de Públicas",
+   "published_at": "2026",
+   "doi": "10.29327/25955187.1192749",
+   "url": "https://doi.org/10.29327/25955187.1192749",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O artigo irá explorar a relação do Gerencialismo com a descontinuidade do Orçamento Participativo no município de Porto Alegre (OP-PoA), implementado a partir de 1989 sob gestão da Frente Popular. OP-",
+   "source": "Crossref",
+   "type": "proceedings-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.29327/25955187.1191548",
+   "title": "Orçamento Participativo e Gestão Democrática: A Experiência do Programa “Você Prefeito” em João Pessoa/PB (2021-2025)",
+   "authors": [
+    "Nataluan De Carvalho Santos",
+    "Glenda Dantas",
+    "Wanderley José Dantas"
+   ],
+   "venue": "Anais do Encontro Nacional de Ensino e Pesquisa do Campo de Públicas",
+   "published_at": "2026",
+   "doi": "10.29327/25955187.1191548",
+   "url": "https://doi.org/10.29327/25955187.1191548",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Este trabalho analisa o programa “Você Prefeito”, implementado pela Prefeitura Municipal de João Pessoa a partir de 2021, como principal mecanismo de participação cidadã no planejamento público. O obj",
+   "source": "Crossref",
+   "type": "proceedings-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.47191/jefms/v8-i12-72",
+   "title": "The Influence of AI Recommendations on Slack Budget Behavior and Employee Motivation in the Participatory Budgeting Process in the Bengkulu Provincial Government",
+   "authors": [
+    "",
+    "Indah Oktari Wijayanti"
+   ],
+   "venue": "Journal of Economics, Finance And Management Studies",
+   "published_at": "2025-12-31",
+   "doi": "10.47191/jefms/v8-i12-72",
+   "url": "https://doi.org/10.47191/jefms/v8-i12-72",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "This study examines the influence of Artificial Intelligence (AI) recommendations on budget slack behavior and employee motivation within the participative budgeting process in the Provincial Government of Bengkulu. The research integrates Agency Theory, Technology Acceptance Model, Algorithmic Trust Theory, Self-Determination Theory, and Goal Setting Theory to explain the behavioral mechanisms underlying AI adoption",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.3390/su18010399",
+   "title": "Scrutiny and Spending Shifts: How Participatory Budgeting Reduces Local Government Debt",
+   "authors": [
+    "Fanghui Zheng",
+    "Hongsheng Lin",
+    "Bolin Liu",
+    "Rui Fei"
+   ],
+   "venue": "Sustainability",
+   "published_at": "2025-12-31",
+   "doi": "10.3390/su18010399",
+   "url": "https://doi.org/10.3390/su18010399",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 5,
+   "abstract_snippet": "Fiscal capacity is a core dimension of state capacity. Effective oversight of public expenditure is therefore essential for fiscal sustainability, a foundational element of sustainable development. As local government debt has steadily increased in China, participatory budgeting has emerged as an innovative mechanism for citizens to exercise such oversight and influence fiscal decisions. Our paper examines the effect",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.26565/1684-8489-2025-2-10",
+   "title": "Participatory budgeting as a regional policy tool: institutional dimensions and implementation practices in Ukraine",
+   "authors": [
+    "Olexandr Rudenko"
+   ],
+   "venue": "Pressing Problems of Public Administration",
+   "published_at": "2025-12-30",
+   "doi": "10.26565/1684-8489-2025-2-10",
+   "url": "https://doi.org/10.26565/1684-8489-2025-2-10",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "In Ukraine, amid a full-scale invasion, the practice of participatory democracy at the local level has undergone a radical transformation. Participatory budgeting, which had been actively developing in most large cities until 2022, has been critically reduced: while 134 public budget competitions were held in 2022, by 2023 their number had fallen to 13, and as of 2024, only 8 of the 100 largest cities continue this p",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1080/14719037.2025.2610747",
+   "title": "Participatory budgeting and loss aversion: experimental evidence from China",
+   "authors": [
+    "Xiaochun Zhu",
+    "Paolo Belardinelli",
+    "Temirlan T. Moldogaziev"
+   ],
+   "venue": "Public Management Review",
+   "published_at": "2025-12-30",
+   "doi": "10.1080/14719037.2025.2610747",
+   "url": "https://doi.org/10.1080/14719037.2025.2610747",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.47460/minerva.v6isp.258",
+   "title": "Participatory Budgeting in Municipal Government Management",
+   "authors": [
+    "Manuel Sanchez Cieza"
+   ],
+   "venue": "Minerva",
+   "published_at": "2025-12-24",
+   "doi": "10.47460/minerva.v6isp.258",
+   "url": "https://doi.org/10.47460/minerva.v6isp.258",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "This study consisted of reviewing various sources of information on participatory budgeting in municipal government management. A basic quantitative approach was employed, with a descriptive level, non-experimental design, and cross-sectional scope. The sample comprised 20 indexed scientific articles published between 2021 and 2024. The findings associate participatory budgeting with citizen participation, origin and",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.69664/kav.v17n2a544",
+   "title": "Presupuesto Participativo: incidir en la toma de decisiones o brindar información para que el Estado decida",
+   "authors": [
+    "Fabián Alirio Mazo Elorza"
+   ],
+   "venue": "Revista Kavilando",
+   "published_at": "2025-12-23",
+   "doi": "10.69664/kav.v17n2a544",
+   "url": "https://doi.org/10.69664/kav.v17n2a544",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "En la ciudad de Medellín, el programa de Planeación Local y Presupuesto participativo (PP) cumplió 20 años desde su primera implementación. A lo largo de este tiempo ha tenido cambios en su normatividad y en las formas de implementarse, afectando el nivel de incidencia de las comunidades en las decisiones finales con relación al porcentaje del presupuesto destinado para este programa y por tanto afectando también la ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.56712/latam.v6i6.5065",
+   "title": "Evaluación multicriterio del impacto del presupuesto participativo en el desarrollo local en localidades rurales de la región Costa del Ecuador",
+   "authors": [
+    "Josselyn Zulay Pérez González",
+    "José Gabriel Luna Párraga",
+    "Melanie Cristina Salazar Reyes"
+   ],
+   "venue": "LATAM Revista Latinoamericana de Ciencias Sociales y Humanidades",
+   "published_at": "2025-12-23",
+   "doi": "10.56712/latam.v6i6.5065",
+   "url": "https://doi.org/10.56712/latam.v6i6.5065",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "El estudio evalúa el impacto del presupuesto participativo en el desarrollo local de localidades rurales de la región Costa del Ecuador mediante un enfoque de evaluación multicriterio. El objetivo fue analizar la correspondencia entre las prioridades ciudadanas, los criterios técnicos de priorización y los resultados obtenidos en infraestructura y servicios básicos. La investigación aplicó un diseño mixto, combinando",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.63391/ve9fwr57",
+   "title": "O DECLÍNIO DO ORÇAMENTO PARTICIPATIVO: EVIDÊNCIAS DO DISTRITO FEDERAL E DO CENÁRIO NACIONAL",
+   "authors": [
+    "Evandro Cunha Menezes"
+   ],
+   "venue": "International Integralize Scientific",
+   "published_at": "2025-12-23",
+   "doi": "10.63391/ve9fwr57",
+   "url": "https://doi.org/10.63391/ve9fwr57",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Este artigo analisa as causas estruturais da descontinuidade do Orçamento Participativo (OP) no Distrito Federal e no Brasil. A pesquisa integra quatro perspectivas complementares: (i) participação e cultura política no OPDF (Oliveira, 2015); (ii) processo decisório, execução orçamentária e fragilidade institucional (Dutra Júnior, 2016); (iii) evidências estatísticas nacionais sobre descontinuidade do OP (Azevedo et ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.21511/pmf.14(4).2025.06",
+   "title": "Local budgets in Ukraine during wartime: Challenges, adaptation strategies, and the role of participatory budgeting",
+   "authors": [
+    "Maksym Khodan",
+    "Ivan Burtnyak"
+   ],
+   "venue": "Public and Municipal Finance",
+   "published_at": "2025-12-19",
+   "doi": "10.21511/pmf.14(4).2025.06",
+   "url": "https://doi.org/10.21511/pmf.14(4).2025.06",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 7,
+   "abstract_snippet": "Type of the article: Research Article AbstractThe Russian invasion of Ukraine has reshaped the functioning of local budgets, creating fiscal challenges for municipalities while simultaneously testing the resilience of the decentralization reform launched in the pre-war period. This study examines the dynamics of local public finance in Ukraine during wartime (2022–2024), focusing on revenue fluctuations, expenditure ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1007/978-3-031-99824-9_12",
+   "title": "Participatory Budgeting in Poland",
+   "authors": [
+    "Anna Szustek"
+   ],
+   "venue": "Local and Urban Governance",
+   "published_at": "2025-12-18",
+   "doi": "10.1007/978-3-031-99824-9_12",
+   "url": "https://doi.org/10.1007/978-3-031-99824-9_12",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Abstract In Poland, participatory budgeting has been in use since 2011. The term “civic budget” is also used interchangeably. It is a form of participatory democracy. In the first 8 years, general acts on the territorial self-government units and provisions of local government law constituted the legal basis for participatory budgets. Since 2018, participatory budgets have had a statutory registered legal position. C",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.5007/1518-2924.2025.e107918",
+   "title": "Orçamento Participativo no Brasil: principais desafios à sua efetividade",
+   "authors": [
+    "Mauro Breuer Hypolito Goulart",
+    "Waldir Jorge Ladeira dos Santos"
+   ],
+   "venue": "Em Tese",
+   "published_at": "2025-12-16",
+   "doi": "10.5007/1518-2924.2025.e107918",
+   "url": "https://doi.org/10.5007/1518-2924.2025.e107918",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O Orçamento Participativo (OP), reconhecido mecanismo de democratização das decisões em matéria orçamentária no nível local, tem observado, após um período de expansão entre os anos 1990 e a metade da primeira década do século XXI, uma notória diminuição no número de municípios brasileiros que o adotam. Não obstante esse declínio, o OP ainda resiste, sobretudo nos municípios em que seu uso já estava mais consolidado.",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.7206/cid.3071-7973.7",
+   "title": "Cost Considerations in Participatory Budgeting: An Empirical Comparison of Knapsack and Approval Ballots",
+   "authors": [
+    "Oliwia Szczupska"
+   ],
+   "venue": "Collective and Individual Decisions",
+   "published_at": "2025-12-15",
+   "doi": "10.7206/cid.3071-7973.7",
+   "url": "https://doi.org/10.7206/cid.3071-7973.7",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.5209/cgap.103611",
+   "title": "Instituciones informales efectivas y arraigo de la participación: Presupuesto Participativo escolar en la Universidad Nacional de Rosario (2020-2023)",
+   "authors": [
+    "Cintia Pinillos",
+    "Gisela Signorelli"
+   ],
+   "venue": "Cuadernos de Gobierno y Administración Pública",
+   "published_at": "2025-12-12",
+   "doi": "10.5209/cgap.103611",
+   "url": "https://doi.org/10.5209/cgap.103611",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "En el presente trabajo se analiza la participación en el Presupuesto Participativo (PP) de tres escuelas medias de la Universidad Nacional de Rosario (UNR), Argentina, a lo largo de cuatro ediciones consecutivas (2020-2023) focalizando en la articulación entre las dimensiones formales e informales presentes en el proceso de implementación y el arraigo de la participación. En estas escuelas conviven diferentes formas ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1371/journal.pone.0324411",
+   "title": "Can participatory budgeting mitigate government debt risk？—An empirical analysis using cross-national panel data",
+   "authors": [
+    "Yongpeng Li",
+    "Qianqian Zhang"
+   ],
+   "venue": "PLOS One",
+   "published_at": "2025-12-08",
+   "doi": "10.1371/journal.pone.0324411",
+   "url": "https://doi.org/10.1371/journal.pone.0324411",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Objectives Participatory budgeting, serving as a complementary mechanism to traditional democratic practices, grants citizens direct involvement in the budgetary decision-making process, thereby embodying features of direct democracy. It has consequently gained recognition and promotion in numerous countries. However, scholarly opinion remains divided regarding the efficacy of participatory budgeting in mitigating go",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.35305/ese.v11i22.400",
+   "title": "Algunos aspectos relativos a la implementación del Presupuesto Participativo en dos municipios de la costa bonaerense (2008-2014)",
+   "authors": [
+    "Melina Jakubowicz",
+    "Micaela Comesaña"
+   ],
+   "venue": "Estudios Sociales del Estado",
+   "published_at": "2025-12-05",
+   "doi": "10.35305/ese.v11i22.400",
+   "url": "https://doi.org/10.35305/ese.v11i22.400",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "El presupuesto participativo constituye una herramienta de gestión local que, retomando a Medici (2011), puede definirse como un mecanismo de participación ciudadana que habilita la discusión sobre el destino de un porcentaje del presupuesto público para resolver problemáticas urbanas mediante cogestión. Surge en un contexto de crisis de representatividad como estrategia para regenerar el vínculo entre Estado-ciudada",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.25965/trahs.7532",
+   "title": "Resignificar la democracia desde lo local: análisis, desafíos y consideraciones en torno al modelo de presupuesto participativo",
+   "authors": [
+    "Omar Esteban MACEDONIO MAYA"
+   ],
+   "venue": "Trayectorias Humanas Trascontinentales",
+   "published_at": "2025-12-05",
+   "doi": "10.25965/trahs.7532",
+   "url": "https://doi.org/10.25965/trahs.7532",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Se analizan algunos paradigmas de la democracia y la teoría democrática contemporánea a la luz de los retos que imponen las experiencias de democracia directa, específicamente el modelo más puro de presupuesto participativo (caso Sao Paulo, Brasil), con la idea fundamental de identificar dentro de esta figura áreas de oportunidad que no solamente permitan a los ciudadanos participar de la configuración de los presupu",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2478/eual-2025-0007",
+   "title": "Designing Participation: Institutional and Socio-Technical Determinants of Participatory Budgeting in Brno and Bratislava",
+   "authors": [
+    "Jitka Matějková"
+   ],
+   "venue": "EU agrarian Law",
+   "published_at": "2025-12-01",
+   "doi": "10.2478/eual-2025-0007",
+   "url": "https://doi.org/10.2478/eual-2025-0007",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Abstract This study explains why Brno’s municipal participatory budgeting (PB) has become durably institutionalised and scaled, whereas Bratislava’s remains fragmented. National fiscal and programme-budgeting frameworks are treated as moderating conditions that enable or constrain local design choices, not as the primary object of analysis. Using a most-similar systems logic, we conduct a comparative multi-case analy",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2478/nispa-2025-0018",
+   "title": "Participatory Budgeting: Latest Development in Czechia and Slovakia",
+   "authors": [
+    "Mária Murray Svidroňová",
+    "Eva Tomášková",
+    "Nikoleta Jakuš Muthová",
+    "Daniela Cabadajová"
+   ],
+   "venue": "NISPAcee Journal of Public Administration and Policy",
+   "published_at": "2025-12-01",
+   "doi": "10.2478/nispa-2025-0018",
+   "url": "https://doi.org/10.2478/nispa-2025-0018",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Abstract The existence of active and participating citizens is an essential part of a democratic society. In recent years, the concept of political participation has expanded, and new ways of involving individuals and groups in community or local decision-making processes have emerged. Participatory budgeting is one of the ways citizens participate in public decision-making. This research provides a comparative analy",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.11606/1980-5330/ea216901",
+   "title": "Orçamento participativo e gastos municipais: análise com métodos de pareamento para inferência causal",
+   "authors": [
+    "Renato Potter Martins Ferreira",
+    "Fabiana Fontes Rocha"
+   ],
+   "venue": "Economia Aplicada",
+   "published_at": "2025-12-01",
+   "doi": "10.11606/1980-5330/ea216901",
+   "url": "https://doi.org/10.11606/1980-5330/ea216901",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O objetivo é avaliar o impacto do orçamento participativo (OP) sobre a composição dos gastos públicos nos municípios brasileiros. Empregamos os métodos de pareamento para inferência causal com dados em painel, que permitem lidar com questões desconsideradas anteriormente. Primeiro, o fato de que há alta variabilidade no timing do tratamento entre os municípios. Segundo, o fato de que vários municípios abandonam ou re",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.70577/rps.v3i4.109",
+   "title": "Presupuesto participativo y eficiencia administrativa en el Gobierno Autónomo Descentralizado Parroquial Rural El Anegado",
+   "authors": [
+    "Mayerli Xiomara Baque Arteaga",
+    "Maritza Sandra Pibaque Pionce"
+   ],
+   "venue": "Revista Pulso Científico",
+   "published_at": "2025-11-21",
+   "doi": "10.70577/rps.v3i4.109",
+   "url": "https://doi.org/10.70577/rps.v3i4.109",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "El estudio analiza las limitaciones existentes en el Gobierno Autónomo Descentralizado Parroquial El Anegado, donde la baja participación ciudadana, el control interno insuficiente y la ejecución administrativa irregular han dificultado el funcionamiento eficiente del presupuesto participativo. En este contexto, el objetivo consistió en analizar cómo la implementación del presupuesto participativo contribuye como est",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1017/s1049096524001343",
+   "title": "Participatory Budgeting, Disengagement and Political Parties: Evidence from Kibra Constituency in Nairobi",
+   "authors": [
+    "Jethron Akallah",
+    "Paul Tap"
+   ],
+   "venue": "PS: Political Science &amp; Politics",
+   "published_at": "2025-11-13",
+   "doi": "10.1017/s1049096524001343",
+   "url": "https://doi.org/10.1017/s1049096524001343",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting (PB) was first implemented in Porto Alegre (Brazil) in 1989 as a measure to reduce poverty and decrease child mortality. Since then, it has spread all over the world. It empowers citizens in political action, increases their awareness of the social and political shortcomings of their communities, and allows them to decide how a part of the local budget should be spent. Despite these benefits, ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.31243/bcoyu.47.2025.2973",
+   "title": "Análisis de la Participación Ciudadana en el Proceso de Presupuesto Participativo en GADs de la Zona Central de Manabí",
+   "authors": [
+    "Nancy Evelina Intriago Cusme",
+    "José Guillermo Intriago Cedeño",
+    "Narda Paola Merchán Ponce",
+    "Richard Eduardo Sánchez Bravo"
+   ],
+   "venue": "Boletín de Coyuntura",
+   "published_at": "2025-11-07",
+   "doi": "10.31243/bcoyu.47.2025.2973",
+   "url": "https://doi.org/10.31243/bcoyu.47.2025.2973",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting allows citizens to directly influence the allocation of public resources, thus promoting a more inclusive and equitable management. However, the effectiveness of this process depends largely on the knowledge and active participation of citizens. This article analyzes citizen participation in the participatory budget process in the Decentralized Autonomous Governments (GAD) of central Manabí, E",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1007/s11238-025-10097-1",
+   "title": "Participatory budgeting with cumulative votes",
+   "authors": [
+    "Piotr Skowron",
+    "Arkadii Slinko",
+    "Stanisław Szufa",
+    "Nimrod Talmon"
+   ],
+   "venue": "Theory and Decision",
+   "published_at": "2025-10-31",
+   "doi": "10.1007/s11238-025-10097-1",
+   "url": "https://doi.org/10.1007/s11238-025-10097-1",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Abstract In participatory budgeting a group of decision makers is given a set of projects—each with a cost—and has to decide which projects should be funded within the constraints of an available budget. Each decision maker, in some form, expresses their preference over the projects. The goal of an aggregation procedure is to select—based on voter preferences—a subset of projects whose total cost does not exceed the ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.15678/pg.2025.73.3.01",
+   "title": "Participatory Budgeting as a Contemporary Tool of Organisational Listening to the Needs of Residents",
+   "authors": [
+    "Krzysztof Jurek"
+   ],
+   "venue": "Journal of Public Governance",
+   "published_at": "2025-10-31",
+   "doi": "10.15678/pg.2025.73.3.01",
+   "url": "https://doi.org/10.15678/pg.2025.73.3.01",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Objective: The aim of the article is to analyse participatory budgeting as a tool of organisational listening to the needs of residents in Polish cities with county rights. The study focuses on how this mechanism enables local government institutions to obtain feedback from citizens and use it in decision-making processes. The article formulates three research questions aimed at understanding the impact of civic budg",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.54899/dcs.v22i83.3575",
+   "title": "INOVAÇÃO E O ORÇAMENTO PARTICIPATIVO DIGITAL DO PIAUÍ: ANÁLISE DO DISCURSO A LUZ DE NORMAN FAIRCLOUGH",
+   "authors": [
+    "Ronaldo da Silva Araujo",
+    "José Machado Moita Neto",
+    "José Natanael Fontenele de Carvalho"
+   ],
+   "venue": "Revista DCS",
+   "published_at": "2025-10-24",
+   "doi": "10.54899/dcs.v22i83.3575",
+   "url": "https://doi.org/10.54899/dcs.v22i83.3575",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O Orçamento Participativo (OP) surge como inovação em governança, visando ampliar a participação popular nas decisões orçamentárias. Este artigo analisa o OP do Piauí (2023), focando em Teresina e Parnaíba, utilizando a Análise Crítica do Discurso (ACD) de Norman Fairclough para avaliar seu potencial inovador e seus desafios. O objetivo é compreender a relação entre o discurso oficial do OP e a inovação em governança",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.56238/edimpacto2025.040-006",
+   "title": "PARTICIPATORY BUDGETING IN DEMOCRATIC STRENGTHENING",
+   "authors": [
+    "Allan Camargo Prudlik",
+    "Carlos Eduardo Alérico"
+   ],
+   "venue": "Global Economy: Connections and Impacts - 2° Edição",
+   "published_at": "2025-10-23",
+   "doi": "10.56238/edimpacto2025.040-006",
+   "url": "https://doi.org/10.56238/edimpacto2025.040-006",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "The public budget is responsible for the systematization of state revenues and expenditures, guiding all government actions, especially in the promotion and implementation of public policies necessary to realize the fundamental rights indicated by the Federal Constitution. In a democratic context, the participation of society in various sectors and public spaces has the power to confer legitimacy on decisions and und",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.70577/rps.v3i4.110",
+   "title": "Presupuesto participativo en la eficacia administrativa: Gobierno Autónomo Descentralizado Parroquial La América",
+   "authors": [
+    "Gloria Pascuala Chiquito Tigua",
+    "Mayra Nayeli Quimis Merchan"
+   ],
+   "venue": "Revista Pulso Científico",
+   "published_at": "2025-10-17",
+   "doi": "10.70577/rps.v3i4.110",
+   "url": "https://doi.org/10.70577/rps.v3i4.110",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "El estudio aborda como problemática la limitada participación ciudadana y la necesidad de fortalecer la alineación de los recursos financieros con los objetivos institucionales, lo que afecta la eficacia administrativa. El objetivo central fue analizar de qué manera el presupuesto participativo incide en la gestión administrativa de la entidad. La investigación se desarrolló bajo un enfoque descriptivo con métodos cu",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.70634/reid.v4i16.606",
+   "title": "Participação da sociedade civil no orçamento participativo do Distrito de Nacarôa",
+   "authors": [
+    "Universidade Católica De Moçambique"
+   ],
+   "venue": "Revista Electrónica de Investigação e Desenvolvimento",
+   "published_at": "2025-10-13",
+   "doi": "10.70634/reid.v4i16.606",
+   "url": "https://doi.org/10.70634/reid.v4i16.606",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O artigo tem como tema: Participação da sociedade civil no orçamento participativo no Distrito de Nacarôa. Os objectivos gerais e específicos se inserem em: o geral - analisar a participação da sociedade civil no orçamento participativo; os específicos são: identificar mecanismos de participação da sociedade civil no distrito de Nacarôa; caracterizar a sociedade civil no distrito de Nacarôa; descrever o desenvolvimen",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1108/jpbafm-09-2024-0188",
+   "title": "Exploring the potential of machine learning to reduce administrative burden in participatory budgeting: a case study of Seoul",
+   "authors": [
+    "Bokyong Shin"
+   ],
+   "venue": "Journal of Public Budgeting, Accounting &amp; Financial Management",
+   "published_at": "2025-09-29",
+   "doi": "10.1108/jpbafm-09-2024-0188",
+   "url": "https://doi.org/10.1108/jpbafm-09-2024-0188",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 3,
+   "abstract_snippet": "Purpose This study explores the potential of machine learning techniques to reduce administrative burdens in participatory budgeting, focusing on the case of Seoul, which received over 25,000 proposals between 2013 and 2021. Design/methodology/approach Similar to a coffee dripper, the budgeting process filters and refines numerous citizen inputs within budgetary constraints, requiring large-scale public deliberation ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.5007/1983-4535.2025.e105130",
+   "title": "Orçamento participativo: uma análise de sua implementação nas universidades federais brasileiras",
+   "authors": [
+    "Diego Athos Gomes de Souza",
+    "Júlio Cesar Andrade de Abreu",
+    "Carlos Frederico Bom Kraemer"
+   ],
+   "venue": "Revista Gestão Universitária na América Latina - GUAL",
+   "published_at": "2025-09-25",
+   "doi": "10.5007/1983-4535.2025.e105130",
+   "url": "https://doi.org/10.5007/1983-4535.2025.e105130",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O objetivo desta pesquisa é analisar a implementação do Orçamento Participativo (OP) nas universidades federais brasileiras. Foram utilizadas como fontes de dados pesquisa bibliográfica e levantamento via Lei de Acesso à Informação nas universidades federais do Brasil. O OP aproxima a comunidade acadêmica do processo decisório e pode gerar mudanças nos gestores públicos. Apesar de ser uma estratégia eficaz para melho",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.5007/1983-4535.2025.e106455",
+   "title": "Orçamento Participativo: um caminho possível para democratizar a Gestão Orçamentária na UNIR - Zona da Mata",
+   "authors": [
+    "Bruna Dayane de Lima",
+    "Juocerlee Tavares Guadalupe Pereira de Lima",
+    "Marlene Valerio dos Santos Arenas"
+   ],
+   "venue": "Revista Gestão Universitária na América Latina - GUAL",
+   "published_at": "2025-09-25",
+   "doi": "10.5007/1983-4535.2025.e106455",
+   "url": "https://doi.org/10.5007/1983-4535.2025.e106455",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Embora existam estudos sobre orçamento participativo em universidades federais, a maioria concentra-se em instituições de grande porte ou propõe intervenções em larga escala, abrangendo todos os seus Campi. Esta pesquisa, por sua vez, propôs um modelo adaptado às especificidades do Campus de Rolim de Moura da Universidade Federal de Rondônia, cuja comunidade acadêmica é composta por aproximadamente 750 pessoas. O obj",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.61384/r.c.a..v5i3.1435",
+   "title": "Gestión del Presupuesto Participativo en el GAD Municipal de Quevedo y su Impacto en el Desarrollo Infantil 2023-2024",
+   "authors": [
+    "Tamara Andrea Velasquez Valarezo",
+    "Stefanny Valeria Vélez Coque",
+    "Johanna Annabell Proaño Tovar"
+   ],
+   "venue": "Estudios y Perspectivas  Revista Científica y Académica",
+   "published_at": "2025-09-11",
+   "doi": "10.61384/r.c.a..v5i3.1435",
+   "url": "https://doi.org/10.61384/r.c.a..v5i3.1435",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "El presente estudio analizó las deficiencias en la asignación del presupuesto participativo del Gobierno Autónomo Descentralizado Municipal de Quevedo y su impacto en el funcionamiento de los Centros de Desarrollo Infantil (CDI) durante el periodo 2023–2024. Se justificó en la necesidad de garantizar una gestión equitativa y eficiente de los recursos destinados a la infancia, considerando la participación ciudadana c",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.2307/jj.25762886.13",
+   "title": "An Invitation to Participatory Budgeting",
+   "authors": [],
+   "venue": "Budget Justice",
+   "published_at": "2025-09-09",
+   "doi": "10.2307/jj.25762886.13",
+   "url": "https://doi.org/10.2307/jj.25762886.13",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.58344/locus.v4i9.4259",
+   "title": "Konsep Participatory Budgeting Sebagai Upaya Peningkatan Transparansi dan Akuntabilitas Anggaran",
+   "authors": [
+    "Lulut Firstiyanendro",
+    "Dwi Cahyo Utomo"
+   ],
+   "venue": "Jurnal Locus Penelitian dan Pengabdian",
+   "published_at": "2025-09-09",
+   "doi": "10.58344/locus.v4i9.4259",
+   "url": "https://doi.org/10.58344/locus.v4i9.4259",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Konsep Participatory Budgeting (PB) telah diterapkan di hampir seluruh benua di dunia. Pendekatan untuk melibatkan masyarakat menjadi faktor pembeda dalam keberhasilan implementasinya. Partisipasi publik memainkan peran penting dalam kesuksesan PB, didukung oleh upaya aktif pemerintah dalam sosialisasi kepada masyarakat. PB mendorong transparansi dan akuntabilitas dalam pengeluaran pemerintah. Dengan melibatkan masya",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.55813/gaea/rcym/v3/n3/79",
+   "title": "Análisis del presupuesto participativo como herramienta de gobernanza local del cantón Ventanas durante 2024",
+   "authors": [
+    "Moisés Wladimir Henríquez-Moreira",
+    "Ariana Yomira Zamora-Párraga",
+    "Darwin Javier Zamora-Mayorga"
+   ],
+   "venue": "Revista Científica Ciencia y Método",
+   "published_at": "2025-09-08",
+   "doi": "10.55813/gaea/rcym/v3/n3/79",
+   "url": "https://doi.org/10.55813/gaea/rcym/v3/n3/79",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Participatory budgeting is presented as a tool for democratic governance that promotes citizen participation, transparency, and the equitable distribution of public resources through dialogue and consensus. The main objective of this research is to analyze the relationship between participatory budgeting and the management of the Decentralized Municipal Autonomous Government of the Ventanas canton during the year 202",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1016/j.tcs.2025.115370",
+   "title": "Submodular participatory budgeting",
+   "authors": [
+    "Jing Yuan",
+    "Shaojie Tang"
+   ],
+   "venue": "Theoretical Computer Science",
+   "published_at": "2025-09",
+   "doi": "10.1016/j.tcs.2025.115370",
+   "url": "https://doi.org/10.1016/j.tcs.2025.115370",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.59876/a-rjjp-1c0n",
+   "title": "Le budget participatif : analyse des facteurs organisationnels de l’effectivité d’un dispositif à la mode",
+   "authors": [
+    "Céline DU BOYS",
+    "Edina SOLDO"
+   ],
+   "venue": "Management international",
+   "published_at": "2025-09",
+   "doi": "10.59876/a-rjjp-1c0n",
+   "url": "https://doi.org/10.59876/a-rjjp-1c0n",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "This research examines the organizational and managerial effects of the implementation of participatory budgeting (BP), a rapidly developing mechanism in local governments. A qualitative study of two BP initiatives reveals the perception of several effects at the decision-making and political level, as well as the operational level. The mechanism reshapes public decision-making processes (balance of power, political ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.4324/9781003528456-14",
+   "title": "The new wave of participatory budgeting in Eastern Germany",
+   "authors": [
+    "Carsten Herzberg"
+   ],
+   "venue": "Citizenship and Democratic Innovations in Europe",
+   "published_at": "2025-08-28",
+   "doi": "10.4324/9781003528456-14",
+   "url": "https://doi.org/10.4324/9781003528456-14",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.4324/9781003528456-15",
+   "title": "The national participatory budgeting in Portugal",
+   "authors": [
+    "Giovanni Allegretti",
+    "Miguel Silva Graça"
+   ],
+   "venue": "Citizenship and Democratic Innovations in Europe",
+   "published_at": "2025-08-28",
+   "doi": "10.4324/9781003528456-15",
+   "url": "https://doi.org/10.4324/9781003528456-15",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "book-chapter",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.56238/arev7n8-273",
+   "title": "ORÇAMENTO PARTICIPATIVO NO FORTALECIMENTO DEMOCRÁTICO",
+   "authors": [
+    "Allan Camargo Prudlik",
+    "Carlos Eduardo Alérico"
+   ],
+   "venue": "ARACÊ",
+   "published_at": "2025-08-28",
+   "doi": "10.56238/arev7n8-273",
+   "url": "https://doi.org/10.56238/arev7n8-273",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O orçamento público é responsável pela sistematização das receitas e despesas estatais, sendo encarregado de nortear toda a atuação governamental, especialmente na promoção e realização de políticas públicas necessárias à concretização dos direitos fundamentais indicados pela Constituição Federal. No contexto democrático, a participação da sociedade nos mais diversos segmentos e espaços públicos tem o condão de atrib",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.70577/rps.v3i3.60",
+   "title": "Presupuesto participativo y la eficiencia administrativa: GAD Parroquial La Unión",
+   "authors": [
+    "Aldrin Jefferson Calle García",
+    "José Antonio Zambrano Cevallos"
+   ],
+   "venue": "Revista Pulso Científico",
+   "published_at": "2025-08-15",
+   "doi": "10.70577/rps.v3i3.60",
+   "url": "https://doi.org/10.70577/rps.v3i3.60",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "El estudio aborda la problemática de la desconexión entre las obras presupuestadas y las necesidades reales de la ciudadanía en el GAD Parroquial La Unión, así como las limitaciones técnicas que afectan la eficiencia administrativa. Como objetivo principal, se planteó determinar cómo el presupuesto participativo incide en dicha eficiencia institucional. Para ello, se aplicó una metodología con enfoque cualitativo y c",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.46652/rgn.v10i47.1525",
+   "title": "Evaluación del impacto del presupuesto participativo en la calidad de los servicios públicos en el cantón Riobamba",
+   "authors": [
+    "Sandra Paulina Chafla Bucay",
+    "Klever Armando Moreno Gavilanes"
+   ],
+   "venue": "Religación",
+   "published_at": "2025-08-14",
+   "doi": "10.46652/rgn.v10i47.1525",
+   "url": "https://doi.org/10.46652/rgn.v10i47.1525",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "El estudio analizó la relevancia del presupuesto participativo en la calidad de los servicios públicos en Riobamba, reconociendo la reducida participación ciudadana como un problema que afecta la perspectiva de la eficiencia, cobertura y satisfacción. El objetivo fue medir el impacto encontrando logros, limitaciones y beneficios de optimización del modelo participativo gubernamental local. Se implementó una metodolog",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.17268/sciendo.2025.025",
+   "title": "Impact of citizen participation in the participatory budget in the provincial municipality",
+   "authors": [
+    "Roberto Quispe-Mendoza",
+    "Antonio Eleodoro Gordillo Vega",
+    "Angela Fremiot Rodriguez Armas"
+   ],
+   "venue": "SCIÉNDO",
+   "published_at": "2025-08-14",
+   "doi": "10.17268/sciendo.2025.025",
+   "url": "https://doi.org/10.17268/sciendo.2025.025",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.58691/man/207993",
+   "title": "Quantitative and qualitative aspects of participatory budgeting – the Kielce case study",
+   "authors": [
+    "Marcin Zdradzisz",
+    "Marzena Nowakowska"
+   ],
+   "venue": "Management",
+   "published_at": "2025-08-13",
+   "doi": "10.58691/man/207993",
+   "url": "https://doi.org/10.58691/man/207993",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "<b>Research background and purpose:</b> Participatory budgeting (PB) plays an important role in a city live. It strengthens democracy, improves transparency of public expenditures, helps allocate resources more efficiently, and increases civic responsibility. In order to assess how such a mechanism contributes to public involvement and which initiatives are prioritized by the community engaged in the participatory bu",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.55813/gaea/rcym/v3/n3/63",
+   "title": "El presupuesto participativo en la gestión de los recursos públicos de Quevedo, 2024",
+   "authors": [
+    "Erick Josué Mindiola-Mindiola",
+    "Anthony Alfredo Landeta-Lara",
+    "Tony Steveen Almachi-Hurtado",
+    "Darwin Javier Zamora-Mayorga"
+   ],
+   "venue": "Revista Científica Ciencia y Método",
+   "published_at": "2025-08-06",
+   "doi": "10.55813/gaea/rcym/v3/n3/63",
+   "url": "https://doi.org/10.55813/gaea/rcym/v3/n3/63",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 3,
+   "abstract_snippet": "The participatory budget has been promoted as a tool to strengthen citizen participation in public management and promote a more equitable allocation of public resources. This study analyzes its application in the canton of Quevedo, Ecuador, with the objective of understanding its functioning, scope and potential to improve the relationship between citizens and local government. A mixed approach methodology was used,",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1016/j.econlet.2025.112472",
+   "title": "The core in Participatory Budgeting can be empty",
+   "authors": [
+    "Jan Maly"
+   ],
+   "venue": "Economics Letters",
+   "published_at": "2025-08",
+   "doi": "10.1016/j.econlet.2025.112472",
+   "url": "https://doi.org/10.1016/j.econlet.2025.112472",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1590/2236-9996.2025-6368227-pt",
+   "title": "As relações entre Orçamento Participativo e justiça territorial: uma contribuição teórico-prática",
+   "authors": [
+    "Rodrigo Sartori BOGO"
+   ],
+   "venue": "Cadernos Metrópole",
+   "published_at": "2025-08",
+   "doi": "10.1590/2236-9996.2025-6368227-pt",
+   "url": "https://doi.org/10.1590/2236-9996.2025-6368227-pt",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Resumo O orçamento participativo (OP) é considerado uma das principais inovações democráticas de gestão urbana criada nas últimas décadas. Hoje, a maioria das experiências está afastada dos valores nucleares da criação do OP em Porto Alegre (Brasil): inversão de prioridades e justiça social. Assumindo o OP como objeto político-institucional de disputa do poder no espaço, argumenta-se que este deve ser estudado sob a ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1590/2236-9996.2025-6368227-en",
+   "title": "The relationship between Participatory Budgeting and territorial justice: a theoretical and practical contribution",
+   "authors": [
+    "Rodrigo Sartori BOGO"
+   ],
+   "venue": "Cadernos Metrópole",
+   "published_at": "2025-08",
+   "doi": "10.1590/2236-9996.2025-6368227-en",
+   "url": "https://doi.org/10.1590/2236-9996.2025-6368227-en",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Abstract Participatory budgeting (PB) is considered one of the main democratic innovations in urban management developed in the last decades. Today, most experiences lack the core values that guided the creation of PB in the city of Porto Alegre (Brazil): inversion of priorities and social justice. Based on the assumption that PB is an institutional and political object of dispute for power within a territory, it is ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.1080/00344893.2025.2534411",
+   "title": "In the Eye of the Beholder: Explaining the Effects of Local Participatory Budgeting on General Public Political Support",
+   "authors": [
+    "Jelle Turkenburg"
+   ],
+   "venue": "Representation",
+   "published_at": "2025-07-29",
+   "doi": "10.1080/00344893.2025.2534411",
+   "url": "https://doi.org/10.1080/00344893.2025.2534411",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.5354/0717-8980.2025.77800",
+   "title": "Presupuesto participativo con enfoque intercultural: ¿realidad o simbolismo? Caso subnacional de Morona Santiago",
+   "authors": [
+    "Landys Taisha",
+    "Irma Jara-Iñiguez"
+   ],
+   "venue": "Estado, Gobierno y Gestión Pública",
+   "published_at": "2025-07-29",
+   "doi": "10.5354/0717-8980.2025.77800",
+   "url": "https://doi.org/10.5354/0717-8980.2025.77800",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "Este estudio analiza el proceso de construcción e implementación del presupuesto participativo con enfoque intercultural en el Gobierno Autónomo Descentralizado Provincial de Morona Santiago. Se adoptó una investigación cualitativa, que se complementa con datos cuantitativos y combina el análisis documental con la aplicación de entrevistas semiestructuradas a líderes comunitarios. Los hallazgos revelan que la conform",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.36557/2009-3578.2025v11n2p919-951",
+   "title": "O Orçamento Participativo como Ferramenta de Transformação Social",
+   "authors": [
+    "Luana Sávia Araújo Aires",
+    "Mateus Auraújo Aires"
+   ],
+   "venue": "INTERFERENCE: A JOURNAL OF AUDIO CULTURE",
+   "published_at": "2025-07-29",
+   "doi": "10.36557/2009-3578.2025v11n2p919-951",
+   "url": "https://doi.org/10.36557/2009-3578.2025v11n2p919-951",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "CONTEXTO: trata-se de uma revisão documental de dissertações e teses sobre o Orçamento Participativo (OP), disponíveis na Plataforma Sucupira da Capes, entre 2019 e 2024. OBJETIVO: identificar os aspectos positivos e negativos recorrentes, bem como as principais contribuições dos estudos. METODOLOGIA: a pesquisa é qualitativa de natureza exploratória da análise do conteúdo dos trabalhos selecionados. RESULTADOS: apon",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.4102/apsdpr.v13i1.899",
+   "title": "Participatory budgeting in rural councils: The case of Mangwe District council, Zimbabwe",
+   "authors": [
+    "Tambudzai Ndlovu",
+    "Gerrit van der Waldt"
+   ],
+   "venue": "Africa’s Public Service Delivery and Performance Review",
+   "published_at": "2025-07-14",
+   "doi": "10.4102/apsdpr.v13i1.899",
+   "url": "https://doi.org/10.4102/apsdpr.v13i1.899",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "Background: Participatory budgeting (PB) is fundamental to democratic governance and to empowering communities to actively participate in shaping local fiscal decisions. The adoption of PB in Zimbabwe was motivated by the need to enhance citizen participation, improve service delivery, increase transparency and accountability and ensure responsiveness to citizens’ needs. Aim: This study, which was grounded in the the",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.23900/2359-1552v14n3-72-2025",
+   "title": "ORÇAMENTO PARTICIPATIVO DE PORTO VELHO: UMA ANÁLISE DA PARTICIPAÇÃO CIDADÃ NA ELABORAÇÃO DO ORÇAMENTO DE PORTO VELHO (2019-2023)",
+   "authors": [
+    "Nadya Karolina de Melo",
+    "Crystiane Angelica Briel de Mello",
+    "Mariano Suarez Elias",
+    "Ramiro Nicolas Perés Riposio"
+   ],
+   "venue": "Revista Políticas Públicas &amp; Cidades",
+   "published_at": "2025-06-30",
+   "doi": "10.23900/2359-1552v14n3-72-2025",
+   "url": "https://doi.org/10.23900/2359-1552v14n3-72-2025",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "O objetivo geral da pesquisa é compreender a participação do cidadão, diretamente ou por meio de seus representantes, na elaboração do Orçamento Anual de Porto Velho entre 2019 a 2023. A pesquisa surgiu da ideia de realizar um estudo aprofundado do Orçamento Participativo - OP de Porto Velho, visto que segundo dados oficiais do município, há uma participação diminuta em audiências públicas, considerando uma população",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.22431/25005227.1213",
+   "title": "Relación entre los Objetivos de Desarrollo Sostenible y el Presupuesto Participativo: un círculo virtuoso",
+   "authors": [
+    "Carmen Pineda Nebot",
+    "Cristina Elizabeth Bloj Schapira"
+   ],
+   "venue": "Administración &amp; Desarrollo",
+   "published_at": "2025-06-20",
+   "doi": "10.22431/25005227.1213",
+   "url": "https://doi.org/10.22431/25005227.1213",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "One of the most recognised democratic innovations of recent decades and with the greatest expansion throughout the world, the participatory budget, has a very strong relationship with the Sustainable Development Goals of the 2030 Agenda. In this article we will try to explain the relationship between the two, Participatory Budget and Sustainable Development Goals, and the possibilities offered by the Participatory Bu",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.23900/2359-1552v14n3-27-2025",
+   "title": "O DIREITO À CIDADE E À DEMOCRACIA: A EFETIVAÇÃO A PARTIR DO ORÇAMENTO PARTICIPATIVO",
+   "authors": [
+    "Amanda Netto Brum",
+    "Thalyta Karina Correia Chediak",
+    "João Baraldi Neto"
+   ],
+   "venue": "Revista Políticas Públicas &amp; Cidades",
+   "published_at": "2025-06-16",
+   "doi": "10.23900/2359-1552v14n3-27-2025",
+   "url": "https://doi.org/10.23900/2359-1552v14n3-27-2025",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 0,
+   "abstract_snippet": "Este artigo tem como objetivo investigar a instrumentalidade do orçamento participativo (OP), uma instituição participativa dentro da seara democrática, como um meio a alcançar o Direito da Cidade, abordando seus respectivos estudos e teorias e, por outro lado, comentando sua aplicabilidade no cenário atual. O orçamento participativo foi introduzido, no Brasil, no âmbito de diversos governos municipais, inicialmente ",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.16997/jdd.1464",
+   "title": "The Role of Media in Diffusing Participatory Budgeting: News Coverage Between 1991 and 2022 in Korea Using Topic Modelling",
+   "authors": [
+    "Bokyong Shin"
+   ],
+   "venue": "Journal of Deliberative Democracy",
+   "published_at": "2025-06-10",
+   "doi": "10.16997/jdd.1464",
+   "url": "https://doi.org/10.16997/jdd.1464",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "The global diffusion of participatory budgeting (PB) has attracted scholarly attention, particularly regarding how PB is institutionalised across different contexts. This article argues that institutionalisation requires both top-down and bottom-up efforts to introduce and promote PB, with media framing playing a crucial role in shaping how it is presented to the public. Using South Korea as a case study, this articl",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  },
+  {
+   "id": "doi:10.14505/jemt.v16.2(78).03",
+   "title": "Environmental Aspects of Participatory Budgeting in Selected Cities in Europe",
+   "authors": [
+    "Małgorzata SIEMIONEK-RUSKAŃ",
+    "Anna SIEMIONEK-LEPCZYŃSKA"
+   ],
+   "venue": "Journal of Environmental Management and Tourism",
+   "published_at": "2025-05-30",
+   "doi": "10.14505/jemt.v16.2(78).03",
+   "url": "https://doi.org/10.14505/jemt.v16.2(78).03",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 1,
+   "abstract_snippet": "This paper explores the integration of environmental priorities into participatory budgeting (PB) processes in selected European cities, with a focus on Poland, Spain, and Portugal. Participatory budgeting enables citizens to directly influence how municipal funds are allocated, providing a democratic platform for the development of sustainable urban projects. Through a review of literature and case studies, the pape",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-18"
+  }
+ ]
+}

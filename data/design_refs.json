@@ -1,0 +1,22 @@
+[
+ {
+  "name": "Decidim",
+  "repo": "https://github.com/decidim/decidim",
+  "pattern": "map + card exploration, persistent filters, accountability"
+ },
+ {
+  "name": "CONSUL Democracy",
+  "repo": "https://github.com/consuldemocracy/consuldemocracy",
+  "pattern": "budget progress, phase/status filters, results navigation, accessibility"
+ },
+ {
+  "name": "adhocracy+",
+  "repo": "https://github.com/liqd/adhocracy-plus",
+  "pattern": "project dashboard, AI summarisation, mobile/desktop preview"
+ },
+ {
+  "name": "PABUtools",
+  "repo": "https://github.com/COMSOC-Community/pabutools",
+  "pattern": "PB instance metrics, outcomes and analytical structure"
+ }
+]

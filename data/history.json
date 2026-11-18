@@ -1,0 +1,16 @@
+[
+ {
+  "date": "2026-11-18",
+  "countries": 92,
+  "status": {
+   "monitoring": 67,
+   "verified": 10,
+   "documented": 15
+  },
+  "programs": 39,
+  "news_total": 506,
+  "news_30d": 506,
+  "countries_with_signal_30d": 30,
+  "papers_total": 158
+ }
+]

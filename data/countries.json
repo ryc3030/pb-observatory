@@ -1,0 +1,2578 @@
+{
+ "updated_at": "2026-11-18T01:49:25.137881+00:00",
+ "count": 92,
+ "items": [
+  {
+   "iso3": "ALB",
+   "name_en": "Albania",
+   "name_ko": "알바니아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "albania",
+    "shqipëri",
+    "tirana",
+    "알바니아"
+   ],
+   "coord": [
+    41.1,
+    20
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "AUT",
+   "name_en": "Austria",
+   "name_ko": "오스트리아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "austria",
+    "vienna",
+    "wien",
+    "österreich",
+    "오스트리아"
+   ],
+   "coord": [
+    47.6,
+    14
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "BEL",
+   "name_en": "Belgium",
+   "name_ko": "벨기에",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "antwerpen",
+    "belgique",
+    "belgium",
+    "brussels",
+    "bruxelles",
+    "gent",
+    "liège",
+    "벨기에"
+   ],
+   "coord": [
+    50.8,
+    4.5
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "BIH",
+   "name_en": "Bosnia and Herzegovina",
+   "name_ko": "보스니아 헤르체고비나",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bosnia",
+    "bosnia and herzegovina",
+    "sarajevo",
+    "보스니아 헤르체고비나"
+   ],
+   "coord": [
+    44.1,
+    17.8
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "BGR",
+   "name_en": "Bulgaria",
+   "name_ko": "불가리아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bulgaria",
+    "sofia",
+    "българия",
+    "불가리아"
+   ],
+   "coord": [
+    42.8,
+    25.5
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "HRV",
+   "name_en": "Croatia",
+   "name_ko": "크로아티아",
+   "region": "Europe",
+   "tracking_status": "verified",
+   "base_signal": "트로기르 참여예산 사례가 2026년 6월 갱신됨",
+   "base_signal_date": "2026-06-04",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "local",
+   "aliases": [
+    "croatia",
+    "hrvatska",
+    "rijeka",
+    "trogir",
+    "zagreb",
+    "크로아티아"
+   ],
+   "coord": [
+    45.2,
+    15.5
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2026-06-04"
+  },
+  {
+   "iso3": "CZE",
+   "name_en": "Czech Republic",
+   "name_ko": "체코",
+   "region": "Europe",
+   "tracking_status": "documented",
+   "base_signal": "프라하 자치구의 참여예산 도입과 지방선거 투표율의 관계를 다룬 연구가 확인됨",
+   "base_signal_date": "2025-03-01",
+   "primary_source": "https://www.peoplepowered.org/research-data",
+   "base_status": "multi-local",
+   "aliases": [
+    "brno",
+    "czech",
+    "czech republic",
+    "czechia",
+    "prague",
+    "praha",
+    "česko",
+    "체코"
+   ],
+   "coord": [
+    49.8,
+    15.5
+   ],
+   "news_30d": 9,
+   "news_365d": 9,
+   "latest_news": {
+    "title": "Cyklostezka, park i hřiště. Participativní rozpočet v Českých Budějovicích zaplatí osm projektů",
+    "title_original": "Cyklostezka, park i hřiště. Participativní rozpočet v Českých Budějovicích zaplatí osm projektů",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTG1pY1BNOWNQV1NfdXYzTU5SUng3blRiTFRlelN0V0FMaFNyaV80czlFYUdLdnhfaUxOQ3p5MHNRcGViaHF1eE1CNlNpMDhBV01DejhSck9ibkVoVTVrcndsVVd3QVBSUFhxNjhfMGVTNEQybXYtRFJzcjlYUG41YV81bldJbU9xbDh4LTlmbnNxT3BmdkRIQTgzdFpLbzNyRTZYS0dnNXNhZjg3bGtJVVdlLVpSV1VpVUxEUjZSdVF2allWc2d3UnB4TmY?oc=5",
+    "source": "iROZHLAS"
+   },
+   "activity_date": "2026-11-16"
+  },
+  {
+   "iso3": "DNK",
+   "name_en": "Denmark",
+   "name_ko": "덴마크",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "danmark",
+    "denmark",
+    "københavn",
+    "덴마크"
+   ],
+   "coord": [
+    56,
+    10
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "EST",
+   "name_en": "Estonia",
+   "name_ko": "에스토니아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "eesti",
+    "estonia",
+    "tallinn",
+    "tartu",
+    "에스토니아"
+   ],
+   "coord": [
+    58.6,
+    25
+   ],
+   "news_30d": 2,
+   "news_365d": 2,
+   "latest_news": {
+    "title": "Kaasava eelarve koore riisusid Kabala ja Türi",
+    "title_original": "Kaasava eelarve koore riisusid Kabala ja Türi",
+    "date": "2026-10-27",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVnltYzRVdHVwaHdDZWpQbFVEbTZaTE81MzZiSDhpRkpuNm5FOXV1Sm5LY0NHWHlFOHRGR0IwekZyaVc4NlhTWEw0ZWRBcXhZLWljZHJNWVVwazhWSGxWQjFQWnctaS1JcEo0Tld5TDlWc1VLOUprZS1VdS1CR1ZwUXJjUlppWmxBTFBHaTE4RXY?oc=5",
+    "source": "Järva Teataja"
+   },
+   "activity_date": "2026-10-27"
+  },
+  {
+   "iso3": "FIN",
+   "name_en": "Finland",
+   "name_ko": "핀란드",
+   "region": "Europe",
+   "tracking_status": "verified",
+   "base_signal": "54개 선정 프로젝트가 2026년 가을부터 이행 단계로 진행",
+   "base_signal_date": "2026-09-01",
+   "primary_source": "https://omastadi.hel.fi/?locale=en",
+   "base_status": "institutionalized/local",
+   "aliases": [
+    "espoo",
+    "finland",
+    "helsinki",
+    "lahti",
+    "omastadi",
+    "suomi",
+    "tampere",
+    "핀란드"
+   ],
+   "coord": [
+    64,
+    26
+   ],
+   "news_30d": 2,
+   "news_365d": 2,
+   "latest_news": {
+    "title": "Pian etsitään ideoita osallistuvaan budjetointiin",
+    "title_original": "Pian etsitään ideoita osallistuvaan budjetointiin",
+    "date": "2026-11-14",
+    "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1BSTzEzU2F5THA4YWY1RFZaUXB1YzZBeXFvSndnaVdDblQ4MXBadi1WRzNWTXpxRzZocWhhUFhUeVZsQkpqODJ5N24yejJjNWdwaGFELV9lTnpUVi1uaXVjVnBZNGkwZWNPc3hXeng3blJCcllRSWkxYTJEZlUzUDBqMUM1NDhuTHg5eUdn?oc=5",
+    "source": "Raahen Seutu"
+   },
+   "activity_date": "2026-11-14"
+  },
+  {
+   "iso3": "FRA",
+   "name_en": "France",
+   "name_ko": "프랑스",
+   "region": "Europe",
+   "tracking_status": "verified",
+   "base_signal": "OIDP가 리옹 제2차 참여예산을 최근 사례로 수록",
+   "base_signal_date": "2026-09-01",
+   "primary_source": "https://www.oidp.net/en/",
+   "base_status": "multi-local",
+   "aliases": [
+    "bordeaux",
+    "france",
+    "grenoble",
+    "lille",
+    "lyon",
+    "marseille",
+    "nantes",
+    "paris",
+    "rennes",
+    "toulouse",
+    "프랑스"
+   ],
+   "coord": [
+    46.2,
+    2.2
+   ],
+   "news_30d": 39,
+   "news_365d": 39,
+   "latest_news": {
+    "title": "Un budget participatif et un appel à projets lancés à Amanlis",
+    "title_original": "Un budget participatif et un appel à projets lancés à Amanlis",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPanpwejhkZEZTRDhvZ3pYQmkyZThhRjRhM1AtTk1VSUE5cVBxcW5obnN5WEJqUHpueWphYkdxMzFTZ3ZWWFVDN0lZOTYzd19OMVk3M2lQdnB3bFFCdHNPc3hrOU9rRXExeDY3aXZzSmUtZkZNcUQybHljQ3A5dnZCd0F2ME1sLWFCZzQzWHRxdEZKb1oyNjFkc3BBczdFUTl2VmFlenlrRVJicUtrSjRJTmtWS2ZIbEFrYktuWDZzZjlxVGxiNVFsR1k3dmxwSFVXTXJBQXFOWFl4clZkeEo3UWtNTQ?oc=5",
+    "source": "Ouest-France"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "DEU",
+   "name_en": "Germany",
+   "name_ko": "독일",
+   "region": "Europe",
+   "tracking_status": "documented",
+   "base_signal": "역사적·반복형 지방정부 모델을 확인했으며 독일어 일일 피드로 현행 회차를 추적",
+   "base_signal_date": "2019-01-01",
+   "primary_source": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2019",
+   "base_status": "multi-local",
+   "aliases": [
+    "berlin",
+    "deutschland",
+    "frankfurt",
+    "germany",
+    "hamburg",
+    "köln",
+    "münchen",
+    "독일"
+   ],
+   "coord": [
+    51,
+    10
+   ],
+   "news_30d": 20,
+   "news_365d": 20,
+   "latest_news": {
+    "title": "10.000 Euro Bürgerbudget pro Stadtteil: Menschen aus Herten entscheiden über Projekte",
+    "title_original": "10.000 Euro Bürgerbudget pro Stadtteil: Menschen aus Herten entscheiden über Projekte",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORFR0VHVxYVdlU3BzVFhtUlVRMUdRVC1RZjlHMERidWxZYVpYUUloN0FTNF9OMEtkVGFZcHZVN1dVVy1pQmMxOEllR3ZfNzMtSTVMc014OG9JemczdlctY1haanlyallQa1dKSXF3S3BKRHJvMF9KSGhhRUNkdXhFblM2eXF5X3V3MzRYSVpoa0tWSkZydURPcjl2MzhxWGk0NTZfZExFVU8tMmV5MXoxWXpxTUhjOVl4eDBRTHVURVMzZnZQd0IwY0szVjNYUQ?oc=5",
+    "source": "Hertener Allgemeine"
+   },
+   "activity_date": "2026-11-16"
+  },
+  {
+   "iso3": "GRC",
+   "name_en": "Greece",
+   "name_ko": "그리스",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "athens",
+    "greece",
+    "αθήνα",
+    "ελλάδα",
+    "그리스"
+   ],
+   "coord": [
+    39,
+    22
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "HUN",
+   "name_en": "Hungary",
+   "name_ko": "헝가리",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "budapest",
+    "hungary",
+    "magyarország",
+    "헝가리"
+   ],
+   "coord": [
+    47.1,
+    19.5
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "ISL",
+   "name_en": "Iceland",
+   "name_ko": "아이슬란드",
+   "region": "Europe",
+   "tracking_status": "documented",
+   "base_signal": "People Powered 영향 연구 종합에서 사례 확인",
+   "base_signal_date": "2025-03-01",
+   "primary_source": "https://www.peoplepowered.org/research-data",
+   "base_status": "multi-local",
+   "aliases": [
+    "iceland",
+    "reykjavik",
+    "reykjavík",
+    "ísland",
+    "아이슬란드"
+   ],
+   "coord": [
+    65,
+    -19
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2025-03-01"
+  },
+  {
+   "iso3": "IRL",
+   "name_en": "Ireland",
+   "name_ko": "아일랜드",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "dublin",
+    "ireland",
+    "아일랜드"
+   ],
+   "coord": [
+    53,
+    -8
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "ITA",
+   "name_en": "Italy",
+   "name_ko": "이탈리아",
+   "region": "Europe",
+   "tracking_status": "documented",
+   "base_signal": "이탈리아 학교 참여예산 이니셔티브가 2025년 5월 Participedia에서 갱신됨",
+   "base_signal_date": "2025-05-16",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "local + school PB",
+   "aliases": [
+    "bologna",
+    "italia",
+    "italy",
+    "milano",
+    "roma",
+    "torino",
+    "이탈리아"
+   ],
+   "coord": [
+    42.5,
+    12.5
+   ],
+   "news_30d": 19,
+   "news_365d": 19,
+   "latest_news": {
+    "title": "Bilancio partecipativo: incontro con i cittadini per L’Isola dei bambini a Pescara",
+    "title_original": "Bilancio partecipativo: incontro con i cittadini per L’Isola dei bambini a Pescara",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMlZvZmdsWnpMdFhpLUxUNjNNRDVIb2dyak9COEFUVHRRMFBEY1FrN1Z1NzdpR2ZqanVvcmRDQllsRkdMLU9Ec0hqSXd2enJaWVcwVFJ1VG5MSjBFTnZJSmltRURINUxsSGlCNEdscmdjQXltUU1PQUJjdmVfNDZpTjRzOEY4RmFOa1UzMTlzazdVOW05a1ZER212X0JuTU0xdF9USklLTndMc1dXTXlCcThlY3hpVEh5X0VITlNWTWNRQmRp?oc=5",
+    "source": "NUOVO Cityrumors Abruzzo"
+   },
+   "activity_date": "2026-11-16"
+  },
+  {
+   "iso3": "LVA",
+   "name_en": "Latvia",
+   "name_ko": "라트비아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "latvia",
+    "latvija",
+    "riga",
+    "rīga",
+    "라트비아"
+   ],
+   "coord": [
+    57,
+    24.6
+   ],
+   "news_30d": 8,
+   "news_365d": 8,
+   "latest_news": {
+    "title": "Rīgas pašvaldības līdzdalības budžeta konkursa balsojumā vadībā projekti Āgenskalnā, Pļavniekos un Sarkandaugavā",
+    "title_original": "Rīgas pašvaldības līdzdalības budžeta konkursa balsojumā vadībā projekti Āgenskalnā, Pļavniekos un Sarkandaugavā",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWW5ObElmSFNpWm9rSjdQUG9IQTVUcXB4MWNZaEViRDJsZmRiMXVnT0hNT3FlWHdXdXNhbzdGaGoxTTF0YWhsdDV6dkZhNWg1YXczaTd0TTdweDFoZkNPMkV6RXl4NnVIV3B3TXprdUNDWFJNaVpXNlVDamFJcGtYUUJ1c3REYW9jOGxzMVdqY0V6MS02NjRhWER0alhHa1RLQzR3bGpPMW03amJLcFFDNkhlUWhDbG1ZWWowRTVOWXc0Umk2Ul91UHZEOGhJZWFpOXBpbUNJUnhJUQ?oc=5",
+    "source": "Rīgas valstspilsētas pašvaldība"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "LTU",
+   "name_en": "Lithuania",
+   "name_ko": "리투아니아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": "2023-07-28",
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "lietuva",
+    "lithuania",
+    "vilnius",
+    "리투아니아"
+   ],
+   "coord": [
+    55.2,
+    24
+   ],
+   "news_30d": 2,
+   "news_365d": 2,
+   "latest_news": {
+    "title": "Dalyvaujamojo biudžeto iniciatyva: paskelbta laimėjusi idėja!",
+    "title_original": "Dalyvaujamojo biudžeto iniciatyva: paskelbta laimėjusi idėja!",
+    "date": "2026-11-15",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNUZWc0tUZzA1Nm9kbW9xNXplSmZhRk1RWVJ3ZHJjYzRFOTQtWmZWV1M1dHpFdlAwdEppTTl2TTZESHNncWYyMkQ0ZC1DdjBnSW9oN3dKVWNxS1lNVnZDcXQ1bGpMUVZFNkhILTBMTXBneDNfU2JhVjI1VThtN0x3aDNCN28zTFVya2hGX21kLWEtMVFyT21nNHRqYkktbURpZFdPS0t2MnJrUGk5MDVBTGhOUUR6SHRxbmkzOXpFcTI0QjFCQ2dUQW9EZnd1Wld3bFE?oc=5",
+    "source": "Vilniaus Martyno Mažvydo progimnazija"
+   },
+   "activity_date": "2026-11-15"
+  },
+  {
+   "iso3": "LUX",
+   "name_en": "Luxembourg",
+   "name_ko": "룩셈부르크",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "luxembourg",
+    "룩셈부르크"
+   ],
+   "coord": [
+    49.8,
+    6.1
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "MDA",
+   "name_en": "Moldova",
+   "name_ko": "몰도바",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "chișinău",
+    "moldova",
+    "몰도바"
+   ],
+   "coord": [
+    47,
+    28.6
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "NLD",
+   "name_en": "Netherlands",
+   "name_ko": "네덜란드",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": "2022-09-05",
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "amsterdam",
+    "maastricht",
+    "nederland",
+    "netherlands",
+    "rotterdam",
+    "네덜란드"
+   ],
+   "coord": [
+    52.2,
+    5.3
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2022-09-05"
+  },
+  {
+   "iso3": "MKD",
+   "name_en": "North Macedonia",
+   "name_ko": "북마케도니아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "north macedonia",
+    "skopje",
+    "북마케도니아"
+   ],
+   "coord": [
+    41.6,
+    21.7
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "NOR",
+   "name_en": "Norway",
+   "name_ko": "노르웨이",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "norge",
+    "norway",
+    "oslo",
+    "노르웨이"
+   ],
+   "coord": [
+    61,
+    8
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "POL",
+   "name_en": "Poland",
+   "name_ko": "폴란드",
+   "region": "Europe",
+   "tracking_status": "documented",
+   "base_signal": "크라쿠프 2014~2024 참여예산 사례가 2025년 5월 갱신됐고 2026년 OIDP 국제회의 개최지로 확인",
+   "base_signal_date": "2025-05-20",
+   "primary_source": "https://www.oidp.net/en/",
+   "base_status": "institutionalized/local",
+   "aliases": [
+    "gdańsk",
+    "krakow",
+    "kraków",
+    "poland",
+    "polska",
+    "poznań",
+    "sopot",
+    "warsaw",
+    "warszawa",
+    "wrocław",
+    "łódź",
+    "폴란드"
+   ],
+   "coord": [
+    52,
+    19
+   ],
+   "news_30d": 49,
+   "news_365d": 49,
+   "latest_news": {
+    "title": "Rawski Budżet Obywatelski 2027. Trwa głosowanie na projekty mieszkańców",
+    "title_original": "Rawski Budżet Obywatelski 2027. Trwa głosowanie na projekty mieszkańców",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbDVLdW8xZWFDNnhMX24zSk9JS1Jpb0I2cnZ2akIxTTREdmxCX2FBb0YxeDZ4SGFKWkZoNDVjWFdmZGRoNHN2NU8tZ2dLYWliOHlPeTBoVjBRNkROelBQZnJVZzZOeUEzdEZkdkt5NHJNbnBSVVczRElUYVpEbWd1ZmFiOENhemhhaG5zU1ZMeUYwSThybzNsdkVYOTN0OTQ5RldOZDcwdW1KbWRUSDFLc2xxUQ?oc=5",
+    "source": "Dziennik Łódzki"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "PRT",
+   "name_en": "Portugal",
+   "name_ko": "포르투갈",
+   "region": "Europe",
+   "tracking_status": "verified",
+   "base_signal": "팔멜라 참여예산 사례가 2026년 3월 갱신됨",
+   "base_signal_date": "2026-03-22",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "national-history + local",
+   "aliases": [
+    "cascais",
+    "lisboa",
+    "lisbon",
+    "palmela",
+    "porto",
+    "portugal",
+    "português",
+    "포르투갈"
+   ],
+   "coord": [
+    39.5,
+    -8
+   ],
+   "news_30d": 45,
+   "news_365d": 45,
+   "latest_news": {
+    "title": "Azambuja Orçamento Participativo",
+    "title_original": "Azambuja Orçamento Participativo",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SMzFlS0dPYnZhTzJTX21Rcm95MXQtRl9tM01ob3N3VHhmVlN4Z3M3NklBaGRvUmRqSGdBa2czUnk1NExoOVFpRV9uUUFDZlU?oc=5",
+    "source": "Tejo FM"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "ROU",
+   "name_en": "Romania",
+   "name_ko": "루마니아",
+   "region": "Europe",
+   "tracking_status": "documented",
+   "base_signal": "People Powered 영향 연구 종합에서 사례 확인",
+   "base_signal_date": "2025-03-01",
+   "primary_source": "https://www.peoplepowered.org/research-data",
+   "base_status": "multi-local",
+   "aliases": [
+    "bucharest",
+    "bucurești",
+    "cluj",
+    "iași",
+    "romania",
+    "românia",
+    "루마니아"
+   ],
+   "coord": [
+    45.8,
+    24.9
+   ],
+   "news_30d": 7,
+   "news_365d": 7,
+   "latest_news": {
+    "title": "Bugetare participativă la Cisnădie: Curtea Grădiniței nr. 6 din Cisnădie are un spațiu educațional interactiv nou",
+    "title_original": "Bugetare participativă la Cisnădie: Curtea Grădiniței nr. 6 din Cisnădie are un spațiu educațional interactiv nou",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeWNHOFM1TXN5aXJhZlRYampwYzBMRWl1VVlTRFVhaTR5R3J0OUEwRzhSR1hKeUtaNk5YQ2pTVDBaRVVLN3g1QkFSb2lIeUo2MjRUVzBrY01PdkUyN1VHR3VhNEhPQ2ZraTE5M2dXdTJnelFUM2pzSkVyeC01TkJMbVhoeURrMG9vTFd0RVUtd0FYd09URldLMExCSXhjLW1oVlp4dWpxakZfMmlEaC1TcWxhZmxsbnRMODg1SDJiU3ZzenZlcmxrRlhTcDdNUWxqVWdMcG5rc29QUmdCY3BCNnZ4MWhiQU9H?oc=5",
+    "source": "Turnul Sfatului"
+   },
+   "activity_date": "2026-11-16"
+  },
+  {
+   "iso3": "SRB",
+   "name_en": "Serbia",
+   "name_ko": "세르비아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "belgrade",
+    "beograd",
+    "serbia",
+    "србија",
+    "세르비아"
+   ],
+   "coord": [
+    44,
+    21
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "SVK",
+   "name_en": "Slovakia",
+   "name_ko": "슬로바키아",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bratislava",
+    "košice",
+    "slovakia",
+    "slovensko",
+    "슬로바키아"
+   ],
+   "coord": [
+    48.7,
+    19.5
+   ],
+   "news_30d": 2,
+   "news_365d": 2,
+   "latest_news": {
+    "title": "V Brne postúpilo do finále participatívneho rozpočtu rekordných 88 projektov",
+    "title_original": "V Brne postúpilo do finále participatívneho rozpočtu rekordných 88 projektov",
+    "date": "2026-11-08",
+    "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS1JrYnhSQ2hUVi12X2NpQjZhVm9SNEhzWkE4cEc2U25CRmx6X1F0U1c5ckhSdlU4WXdCVWg4cWVIbmlmNkpuZmVWWGQ1X0ZqYnNSYW1NcGZDZEt2Y2VMXzBDcTUzVjhPaHRyZ3ZyTWRCVzlpTkV3ajA0UV95ZDRiMGR2S3EyNkFxRDZRUG5lS3RSY2lzdjVHdzlyU180c25hWjJDTzdnU2M?oc=5",
+    "source": "Stisk online"
+   },
+   "activity_date": "2026-11-08"
+  },
+  {
+   "iso3": "SVN",
+   "name_en": "Slovenia",
+   "name_ko": "슬로베니아",
+   "region": "Europe",
+   "tracking_status": "documented",
+   "base_signal": "People Powered 영향 연구 종합에서 사례 확인",
+   "base_signal_date": "2025-03-01",
+   "primary_source": "https://www.peoplepowered.org/research-data",
+   "base_status": "multi-local",
+   "aliases": [
+    "ljubljana",
+    "maribor",
+    "slovenia",
+    "slovenija",
+    "슬로베니아"
+   ],
+   "coord": [
+    46.1,
+    14.8
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2025-03-01"
+  },
+  {
+   "iso3": "ESP",
+   "name_en": "Spain",
+   "name_ko": "스페인",
+   "region": "Europe",
+   "tracking_status": "verified",
+   "base_signal": "공식 지방정부 플랫폼과 다국어 뉴스 피드로 추적",
+   "base_signal_date": "2026-09-01",
+   "primary_source": "https://decide.madrid.es/",
+   "base_status": "multi-local",
+   "aliases": [
+    "barcelona",
+    "bilbao",
+    "españa",
+    "madrid",
+    "sevilla",
+    "spain",
+    "valencia",
+    "스페인"
+   ],
+   "coord": [
+    40.3,
+    -3.7
+   ],
+   "news_30d": 45,
+   "news_365d": 45,
+   "latest_news": {
+    "title": "Alboraya abre sus terceros Presupuestos Participativos",
+    "title_original": "Alboraya abre sus terceros Presupuestos Participativos",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXplWk5rWU1YOF9VTGdFUGg5azFUNWtianBHOHNvZDJERzdERHFvSXl1cHlfRWNKSUtacXFIVFd2SHNTWWFLNEZYUTJuS1lJTDljWUNMVzNTRVIycHhrU3F5d096WkhJamdGdUhOVUx6Sm1rTEtwX2VjLUVVaFRsbFpaR2tYaWpOR1V3TlkwbDVYOWtZS1NLVFZVT2Y5WFpGWWVheW9uYWZyQUdxbi11NzRUMEx5ODBVMVJTOTVzWGRROGpla2RyYzNlSjVXT2tLYktCMmFJdw?oc=5",
+    "source": "El Meridiano L´Horta"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "SWE",
+   "name_en": "Sweden",
+   "name_ko": "스웨덴",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "göteborg",
+    "stockholm",
+    "sverige",
+    "sweden",
+    "스웨덴"
+   ],
+   "coord": [
+    62,
+    15
+   ],
+   "news_30d": 2,
+   "news_365d": 2,
+   "latest_news": {
+    "title": "Så blev medborgarbudgeten i sydväst",
+    "title_original": "Så blev medborgarbudgeten i sydväst",
+    "date": "2026-11-06",
+    "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSmd4Qk1Pc0tDUV9KamlSbzRRN0dDYUlCMEotYzdpdlQwR0lKWV9vX1cxNXZMTjk1Y2J3NEZqVXpQWENpdTA3bUNyQjZrT1AxRU00SUV0Q1Q5NHRFNW1ZdFFIb2F2d09rY2hKMmJnSGo2aXRTYXlSREU1aXg1WjZnazZNWDJvS3Ffc0Z1bg?oc=5",
+    "source": "Lokalpressen"
+   },
+   "activity_date": "2026-11-06"
+  },
+  {
+   "iso3": "CHE",
+   "name_en": "Switzerland",
+   "name_ko": "스위스",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "genève",
+    "lausanne",
+    "schweiz",
+    "suisse",
+    "switzerland",
+    "zürich",
+    "스위스"
+   ],
+   "coord": [
+    47,
+    8.2
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "UKR",
+   "name_en": "Ukraine",
+   "name_ko": "우크라이나",
+   "region": "Europe",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "kyiv",
+    "ukraine",
+    "київ",
+    "львів",
+    "україна",
+    "харків",
+    "우크라이나"
+   ],
+   "coord": [
+    49,
+    32
+   ],
+   "news_30d": 32,
+   "news_365d": 32,
+   "latest_news": {
+    "title": "Арцизька громада за підтримки Ради Європи запускає інклюзивний шкільний громадський бюджет",
+    "title_original": "Арцизька громада за підтримки Ради Європи запускає інклюзивний шкільний громадський бюджет",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQnUzTHhla0h0S1dGb0hDZHNqSFhEaklQbXU3TkZZOGtEWWh3c3prQjRWQkVFVHdnRGtZNS1XX1lYZzdSNTdaTDZGRG56YVVvUnNWSkotckdlRDZEVGZack1oV0M4VlBoZnhlOWZnZXhkeUI0TWI5eXNCU1BkNWtieVRQZzlaWlRXT2EtYVJvUFhhQUxfYldldlNnU2lzUjZHU1Z3dHdQOWZka1NXWW1yZGtFVmNMdw?oc=5",
+    "source": "Times.od.UA"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "GBR",
+   "name_en": "United Kingdom",
+   "name_ko": "영국",
+   "region": "Europe",
+   "tracking_status": "verified",
+   "base_signal": "랭커스터와 맨체스터 참여예산 사례가 2026년 6월 갱신됨",
+   "base_signal_date": "2026-06-04",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "multi-local",
+   "aliases": [
+    "britain",
+    "dundee",
+    "edinburgh",
+    "england",
+    "glasgow",
+    "lancaster",
+    "london",
+    "manchester",
+    "scotland",
+    "uk",
+    "united kingdom",
+    "wales",
+    "영국"
+   ],
+   "coord": [
+    54,
+    -2
+   ],
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "Only one week to go for Participatory Budgeting voting!",
+    "title_original": "Only one week to go for Participatory Budgeting voting!",
+    "date": "2026-10-29",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qdzZNbFFWOEhKQjFxLThjOUdlX091bEdlU1FGcHJGdDZzZEprdkdYYUhxSXRHUlVlamhJZEc1eGJDZHhtQ1FiZmlQa3hmMmZ3THRLdXBIUHR1RURaXzhDcnZRd2Y3LWdpYzNydnRB?oc=5",
+    "source": "North Ayrshire Council"
+   },
+   "activity_date": "2026-10-29"
+  },
+  {
+   "iso3": "ARG",
+   "name_en": "Argentina",
+   "name_ko": "아르헨티나",
+   "region": "South America",
+   "tracking_status": "documented",
+   "base_signal": "로사리오 사례가 국제 영향 연구에서 반복적으로 확인됨",
+   "base_signal_date": "2025-03-01",
+   "primary_source": "https://www.peoplepowered.org/research-data",
+   "base_status": "long-running/multi-local",
+   "aliases": [
+    "argentina",
+    "buenos aires",
+    "córdoba",
+    "rosario",
+    "아르헨티나"
+   ],
+   "coord": [
+    -34,
+    -64
+   ],
+   "news_30d": 9,
+   "news_365d": 9,
+   "latest_news": {
+    "title": "Orçamento participativo: a prefeitura fez a entrega de um desfibrilador externo automático à UTN Concordia",
+    "title_original": "Orçamento participativo: a prefeitura fez a entrega de um desfibrilador externo automático à UTN Concordia",
+    "date": "2026-11-14",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeHBYOENPaWRTX2twWU9CMUpWN3FiWWotaXE0WS1CRUIyQW5ucWtJQjdpWGNfYlYwc2s3TE13d2R5c24wM0dZZ1RNUmFLQ09xVE1zMERhdEEtREp4WjlRdkNjSmJOeFFnX1FzSWpnZm5OQWVJb21hRkhHMnUtdnZObEJQTHRta3gyVzF5TU1BbThBWVVObmpxcXlsbGpveDg1S3dxbklRbHhzd3ZVano1NWcxWXljU0FySkNjWUdfTTRpQQ?oc=5",
+    "source": "Municipalidad de Concordia"
+   },
+   "activity_date": "2026-11-14"
+  },
+  {
+   "iso3": "BOL",
+   "name_en": "Bolivia",
+   "name_ko": "볼리비아",
+   "region": "South America",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bolivia",
+    "cochabamba",
+    "la paz",
+    "볼리비아"
+   ],
+   "coord": [
+    -17,
+    -65
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "BRA",
+   "name_en": "Brazil",
+   "name_ko": "브라질",
+   "region": "South America",
+   "tracking_status": "verified",
+   "base_signal": "산타카타리나와 플로리아노폴리스 사례가 2026년 Participedia에서 갱신됨",
+   "base_signal_date": "2026-05-14",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "long-running/multi-local",
+   "aliases": [
+    "belo horizonte",
+    "brasil",
+    "brazil",
+    "florianópolis",
+    "porto alegre",
+    "recife",
+    "rio de janeiro",
+    "santa catarina",
+    "sao paulo",
+    "são paulo",
+    "브라질"
+   ],
+   "coord": [
+    -10,
+    -52
+   ],
+   "news_30d": 15,
+   "news_365d": 15,
+   "latest_news": {
+    "title": "Vídeo: Orçamento participativo em Porto Alegre | Vídeos - RBS Notícias",
+    "title_original": "Vídeo: Orçamento participativo em Porto Alegre | Vídeos - RBS Notícias",
+    "date": "2026-11-18",
+    "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOblQwak4xSUJhdEdKWUtSb19JRUhYM0ZPdmZ4cGdWMklHME9weGJqTENKNTJjb1p0aGNwbWVlMDI0MVFDamVnLUJNX0VSQU85RlJRdWRucDlzZnd0WmpBVldjUy0xRGNLVUpVZUNPb3R0V0J4R0VVQS0wY3pzTnVVaVNLLWtVVVE1VGF0UTNJbTR5WmVqM1g1S0U5Q2tqMlktX0gydElVc09ndEl0SUJnaGhuajR6T2M5UW1ocWZDdw?oc=5",
+    "source": "G1"
+   },
+   "activity_date": "2026-11-18"
+  },
+  {
+   "iso3": "CAN",
+   "name_en": "Canada",
+   "name_ko": "캐나다",
+   "region": "North America",
+   "tracking_status": "documented",
+   "base_signal": "궬프 사례가 국제 참여예산 영향 연구에서 확인됨",
+   "base_signal_date": "2025-03-01",
+   "primary_source": "https://www.peoplepowered.org/research-data",
+   "base_status": "local/community",
+   "aliases": [
+    "canada",
+    "guelph",
+    "halifax",
+    "montreal",
+    "montréal",
+    "toronto",
+    "victoria",
+    "캐나다"
+   ],
+   "coord": [
+    56,
+    -106
+   ],
+   "news_30d": 10,
+   "news_365d": 10,
+   "latest_news": {
+    "title": "Tras la victoria en el Presupuesto Participativo, se inauguró el SUM del Barrio Janssen de Alem",
+    "title_original": "Tras la victoria en el Presupuesto Participativo, se inauguró el SUM del Barrio Janssen de Alem",
+    "date": "2026-11-16",
+    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlR4ZFZKcTJwNG92QW1VUkUyUjhleTRacXRmUGk5TGprSkZsUndfZDBLS2JybG04V2J4OUs4ZGZaVnJIb281dVpiWVFIN2NDdDhOOFlodjlGcm9Sc3dxa3FtQmJ2cGo1Sy1IQXBObHJzWGFmU0w1Qm9ZNFJ0Z1FhbDdja2xDUExKcWw3bENXVEdSQy1NUE9iY1JlQUFYaUlZaS02bTVhOEdpNFFnZTRhUHZCajFMN3B4SHRxTk9TZ0p5ckVKVWlv?oc=5",
+    "source": "MisionesOpina"
+   },
+   "activity_date": "2026-11-16"
+  },
+  {
+   "iso3": "CHL",
+   "name_en": "Chile",
+   "name_ko": "칠레",
+   "region": "South America",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "chile",
+    "santiago",
+    "칠레"
+   ],
+   "coord": [
+    -33.4,
+    -70.6
+   ],
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "VIII Encuentro Ibérico de Presupuestos Participativos | María Rozas reivindica el protagonismo de la juventud en las políticas públicas de Santiago",
+    "title_original": "VIII Encuentro Ibérico de Presupuestos Participativos | María Rozas reivindica el protagonismo de la juventud en las políticas públicas de Santiago",
+    "date": "2026-11-09",
+    "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPVldrRDM4VzdGV1BpaFRPajFRQ0Y5UjhZQmY0NWhVN2JJc3dPZXJtM1dwRDg4Vi0xXy1CRnVtWUJOSm04SGEyNHBoaGpqMjFHZ0lUbWE1MXFZUENnMDFvbkV2d0lCUGVjbHhxSUxPUVVzQ25hZWRtcGxicnBtVVZ6R0NsSG1WSFNGdWNtaG5fVkZsYXMzZ1pvZEhmRHhRVml3XzZJcmJ4TkhsZkNKMGpadkE0ZERvV1FSZk1Pb013WVo2bU8xb0lnZE9ZNS1CX3RTVUxzQzdkR2hPdU9rR28xY2N2dmRqX2c5ZHpzcUo5ZFdBbXRxUmVrSUVhQU96cWtMbWU2ZmhoeXcyVGpHOUJSY2diVHpIdw?oc=5",
+    "source": "Diario de Santiago"
+   },
+   "activity_date": "2026-11-09"
+  },
+  {
+   "iso3": "COL",
+   "name_en": "Colombia",
+   "name_ko": "콜롬비아",
+   "region": "South America",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bogota",
+    "bogotá",
+    "cali",
+    "colombia",
+    "medellin",
+    "medellín",
+    "콜롬비아"
+   ],
+   "coord": [
+    4,
+    -72
+   ],
+   "news_30d": 4,
+   "news_365d": 4,
+   "latest_news": {
+    "title": "Cali avanza con el proyecto de Presupuesto Participativo que beneficia a las personas mayores y fortalece a sus cuidadores",
+    "title_original": "Cali avanza con el proyecto de Presupuesto Participativo que beneficia a las personas mayores y fortalece a sus cuidadores",
+    "date": "2026-11-13",
+    "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObU02WmtETVZRUUZEbkpOR0ZiandGd0lBbGo2NURvQTFyVHBJZ0xiWU9mZHktd01KZXh1QkhVXzM1dmF4OEwzLW1TbUlSYXlBdFFfQUNmY19iRGFuWmNuWGxZVHVFdUVLSWVJMk1keG9NNkFzbm5rTzBfSGNIV0JWN1VrVWRuR0hVTU1yRzBfVkNGbF9HOGFlX2tMZ1ZwbWxJM3pSTWk0eVR6V2xycERKQllOam5jZU5qYjZBa2VtQ0JOanN3T0VPdkRiOVp2UVdpR1ZpRjBlS2JFcjFxT0JaUGt6eF9OZmZNSHhFNHNPLWJ0UmlBbm93WEZKUGFaUll4UVdTdHJFRURNUQ?oc=5",
+    "source": "Alcaldía de Santiago de Cali"
+   },
+   "activity_date": "2026-11-13"
+  },
+  {
+   "iso3": "CRI",
+   "name_en": "Costa Rica",
+   "name_ko": "코스타리카",
+   "region": "Central America & Caribbean",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "costa rica",
+    "san josé",
+    "코스타리카"
+   ],
+   "coord": [
+    10,
+    -84
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "DOM",
+   "name_en": "Dominican Republic",
+   "name_ko": "도미니카공화국",
+   "region": "Central America & Caribbean",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": "2026-09-07",
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "dominican republic",
+    "república dominicana",
+    "santo domingo",
+    "도미니카공화국"
+   ],
+   "coord": [
+    19,
+    -70.7
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2026-09-07"
+  },
+  {
+   "iso3": "ECU",
+   "name_en": "Ecuador",
+   "name_ko": "에콰도르",
+   "region": "South America",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "cuenca",
+    "ecuador",
+    "guayaquil",
+    "quito",
+    "에콰도르"
+   ],
+   "coord": [
+    -1.5,
+    -78
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "SLV",
+   "name_en": "El Salvador",
+   "name_ko": "엘살바도르",
+   "region": "Central America & Caribbean",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "el salvador",
+    "san salvador",
+    "엘살바도르"
+   ],
+   "coord": [
+    13.8,
+    -88.9
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "GTM",
+   "name_en": "Guatemala",
+   "name_ko": "과테말라",
+   "region": "Central America & Caribbean",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "guatemala",
+    "과테말라"
+   ],
+   "coord": [
+    15.5,
+    -90.3
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "HND",
+   "name_en": "Honduras",
+   "name_ko": "온두라스",
+   "region": "Central America & Caribbean",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "honduras",
+    "tegucigalpa",
+    "온두라스"
+   ],
+   "coord": [
+    15,
+    -86.5
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "MEX",
+   "name_en": "Mexico",
+   "name_ko": "멕시코",
+   "region": "North America",
+   "tracking_status": "verified",
+   "base_signal": "선거·시민참여 기관과 스페인어 피드로 추적",
+   "base_signal_date": "2026-09-01",
+   "primary_source": "https://www.iecm.mx/participacionciudadana/presupuesto-participativo/",
+   "base_status": "institutionalized/local",
+   "aliases": [
+    "cdmx",
+    "ciudad de méxico",
+    "guadalajara",
+    "mexico",
+    "monterrey",
+    "méxico",
+    "멕시코"
+   ],
+   "coord": [
+    23,
+    -102
+   ],
+   "news_30d": 39,
+   "news_365d": 39,
+   "latest_news": {
+    "title": "Participa desde tu celular en la Consulta del Presupuesto Participativo 2027",
+    "title_original": "Participa desde tu celular en la Consulta del Presupuesto Participativo 2027",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUGEyUE5BaThMSlFzZmlXa3RfOTBOUjBmd3lMd3JkbTcxZlRYYVZ6NVVMcG5ZQkNRZWVHLWNCMHJmQW1pT3lEVEd5bmwwNUwxc1M3cktSMExCZWhPb0tnbS1NMmJfM0p6UEpXWURIanltOGhSaG5jUE1JZ0czNC1wZ1h6OGo2b0NiZnFwR0ZpYkFQZEc4UkFBZnlqQ0I0NHpXOHplbWctbw?oc=5",
+    "source": "La Jiribilla"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "NIC",
+   "name_en": "Nicaragua",
+   "name_ko": "니카라과",
+   "region": "Central America & Caribbean",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "managua",
+    "nicaragua",
+    "니카라과"
+   ],
+   "coord": [
+    13,
+    -85
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "PAN",
+   "name_en": "Panama",
+   "name_ko": "파나마",
+   "region": "Central America & Caribbean",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "panama",
+    "panamá",
+    "파나마"
+   ],
+   "coord": [
+    8.5,
+    -80
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "PRY",
+   "name_en": "Paraguay",
+   "name_ko": "파라과이",
+   "region": "South America",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "asunción",
+    "paraguay",
+    "파라과이"
+   ],
+   "coord": [
+    -23.5,
+    -58.5
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "PER",
+   "name_en": "Peru",
+   "name_ko": "페루",
+   "region": "South America",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": "2026-09-07",
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "arequipa",
+    "lima",
+    "peru",
+    "perú",
+    "san borja",
+    "페루"
+   ],
+   "coord": [
+    -9,
+    -75
+   ],
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "4.ª edição do Orçamento Participativo de Ponte de Lima entra na fase de votação",
+    "title_original": "4.ª edição do Orçamento Participativo de Ponte de Lima entra na fase de votação",
+    "date": "2026-11-06",
+    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTFVMWdKTG5CWmpqOEQyRTV2SGdDM2dxeDZCRHlseVpxTTNXTW5femhNM1U0RTVWMGFrVDZTd1Y0OWsxU1JrVGNUeTRDNVVrc3kyRVJkUVljVnhFbF9mQjNvUjZSeVNubUxvVjBwZ3JzRHZlVXU5Zlp0NW5nTTZMWENWUEFDZ2FneHY3OXpUVmd5czRYNjBNSDBSTmttVUdMRG14cEJ4MXp5LVVzSVVsaU5oQkJZYjRPS2FYUmN5NUV4bFdPbjJDRHQ0c2hONkZ0SHR1bDgzaFdDeFpSRUJB?oc=5",
+    "source": "CM Ponte de Lima"
+   },
+   "activity_date": "2026-11-06"
+  },
+  {
+   "iso3": "URY",
+   "name_en": "Uruguay",
+   "name_ko": "우루과이",
+   "region": "South America",
+   "tracking_status": "documented",
+   "base_signal": "몬테비데오 사례가 국제 참여예산 영향 연구에서 확인됨",
+   "base_signal_date": "2025-03-01",
+   "primary_source": "https://www.peoplepowered.org/research-data",
+   "base_status": "long-running/local",
+   "aliases": [
+    "montevideo",
+    "uruguay",
+    "우루과이"
+   ],
+   "coord": [
+    -33,
+    -56
+   ],
+   "news_30d": 7,
+   "news_365d": 7,
+   "latest_news": {
+    "title": "La participación digital en las elecciones del Presupuesto Participativo y los concejos vecinales creció 80%",
+    "title_original": "La participación digital en las elecciones del Presupuesto Participativo y los concejos vecinales creció 80%",
+    "date": "2026-11-13",
+    "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONm1UbGVjRHEyc1FJazdEU3NCamVsUmE1eFJfY0NhU1N3R2xOOC0teEJla2luNnBXNmo4UDRqM285UndrTHdLUTBsUktESC1haFpmVEJUNHBsLUNWdFc4WVlZTmo4dnN5Tk1vVzZRQ2k5TS0xNkUtMUw1dml0T1ZNMVpiZDg1SjI4V0E1LWZnRks1cGd4SFotZm9qUnd2OXg1SWNDblpqY1lCNnc1SHNSU0tvd200VmdpX0Mtem0xZkNydXoxemZpRFl3emd6R1ZuTTg3U05qY2wzRERVS2tjX3BrSGRKOFhlOHNidS1EY9IB_wFBVV95cUxOMEpSTHdtYm1jeDZSQXNHRTVUQWJIdU1XR1pnRDFqUkdzR1dLWXBXSEVZVy01UWdLeFlDY0p6N1FrcGF3d3N2NHk1X0tnRUFYaVNXeVktb002ZjZaMXh6SWZDb183QW9GUkdVYmpOLWdhTUtNNnpsamVQSURQNlBQOFV1MDlmZVBHUlJQdXN1dy1VbnkwVHV1Y3loQ1NXVUdrbUgtdXVtRFozeXJXSWx1TmN3c2VJTG85MmNkUEpXNWk5dnpxUjBMdmlZOTdtR3hSb25tZnFaUXBPUlF2d004cEd5Z042R1NENlBNc2F4WUl4dUpPUlJJU2lwR2I5V2M?oc=5",
+    "source": "la diaria"
+   },
+   "activity_date": "2026-11-13"
+  },
+  {
+   "iso3": "USA",
+   "name_en": "United States",
+   "name_ko": "미국",
+   "region": "North America",
+   "tracking_status": "verified",
+   "base_signal": "2026년 5~6월 134,418명이 투표했고 20개 아이디어가 선정됨",
+   "base_signal_date": "2026-06-21",
+   "primary_source": "https://www.participate.nyc.gov/processes/Citywidepb2025",
+   "base_status": "institutionalized/local",
+   "aliases": [
+    "boston",
+    "bronx",
+    "brooklyn",
+    "cambridge",
+    "chicago",
+    "detroit",
+    "durham",
+    "harlem",
+    "los angeles",
+    "minneapolis",
+    "new york",
+    "nyc",
+    "oakland",
+    "phoenix",
+    "queens",
+    "seattle",
+    "st. louis",
+    "u.s.",
+    "united states",
+    "usa",
+    "vallejo",
+    "미국"
+   ],
+   "coord": [
+    39.8,
+    -98.6
+   ],
+   "news_30d": 4,
+   "news_365d": 4,
+   "latest_news": {
+    "title": "Detroit Participatory Budgeting Pilot Gives Residents $250K",
+    "title_original": "Detroit Participatory Budgeting Pilot Gives Residents $250K",
+    "date": "2026-11-14",
+    "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdm5nRUdjOFhIbEtfM1k2bXFmd1E5ZGlJSWdDTFBqeC1fSTFaMVpYeXVPdFlTUlp0QmU3OHNRS21BaTkxYlFtRDJMQ1JkemJVdUZwUVlDSzZ2LTBMZnJNUzVhNFR1cVlCY3RiRGlvSWVQUFI5ZzlweWVYUEdXYWdLRGN3cUVHcXM3ZllGbWFfUTM?oc=5",
+    "source": "Hoodline"
+   },
+   "activity_date": "2026-11-14"
+  },
+  {
+   "iso3": "VEN",
+   "name_en": "Venezuela",
+   "name_ko": "베네수엘라",
+   "region": "South America",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "caracas",
+    "venezuela",
+    "베네수엘라"
+   ],
+   "coord": [
+    7,
+    -66
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "BGD",
+   "name_en": "Bangladesh",
+   "name_ko": "방글라데시",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bangladesh",
+    "dhaka",
+    "방글라데시"
+   ],
+   "coord": [
+    24,
+    90
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "CHN",
+   "name_en": "China",
+   "name_ko": "중국",
+   "region": "Asia",
+   "tracking_status": "documented",
+   "base_signal": "청두 대규모 참여예산 사례는 2018년까지 문헌 확인, 현재 지속 여부는 추가 검증 필요",
+   "base_signal_date": "2024-05-01",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "large-scale historical/local",
+   "aliases": [
+    "chengdu",
+    "china",
+    "中国",
+    "成都",
+    "중국"
+   ],
+   "coord": [
+    35,
+    104
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2024-05-01"
+  },
+  {
+   "iso3": "IND",
+   "name_en": "India",
+   "name_ko": "인도",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bengaluru",
+    "india",
+    "kerala",
+    "pune",
+    "인도"
+   ],
+   "coord": [
+    22,
+    79
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "IDN",
+   "name_en": "Indonesia",
+   "name_ko": "인도네시아",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "indonesia",
+    "jakarta",
+    "인도네시아"
+   ],
+   "coord": [
+    -2,
+    118
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "JPN",
+   "name_en": "Japan",
+   "name_ko": "일본",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "japan",
+    "日本",
+    "東京",
+    "일본"
+   ],
+   "coord": [
+    36,
+    138
+   ],
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "【葛飾区】行政をどうチェックし、区民参加をどう強めるか――参加型予算と委託事業の第三者評価（n...",
+    "title_original": "【葛飾区】行政をどうチェックし、区民参加をどう強めるか――参加型予算と委託事業の第三者評価（n...",
+    "date": "2026-11-01",
+    "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRTklBanpCVTZkVEpXVzJpMGRPWnN1OEZGQWQ5Mmdoc0o2ZDR6dG5KV3ZsclJYYjJXNG54N1lPVDZNY21zMWh2bGNSRjBMRXdoLWhLYkxnQWd3Wkw5QVgw?oc=5",
+    "source": "選挙ドットコム"
+   },
+   "activity_date": "2026-11-01"
+  },
+  {
+   "iso3": "KAZ",
+   "name_en": "Kazakhstan",
+   "name_ko": "카자흐스탄",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "almaty",
+    "astana",
+    "kazakhstan",
+    "казахстан",
+    "қазақстан",
+    "카자흐스탄"
+   ],
+   "coord": [
+    48,
+    67
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "KGZ",
+   "name_en": "Kyrgyzstan",
+   "name_ko": "키르기스스탄",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bishkek",
+    "kyrgyzstan",
+    "кыргызстан",
+    "키르기스스탄"
+   ],
+   "coord": [
+    41.2,
+    74.8
+   ],
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "В Кыргызстане педагогов и руководителей школ обучают инициативному бюджетированию",
+    "title_original": "В Кыргызстане педагогов и руководителей школ обучают инициативному бюджетированию",
+    "date": "2026-11-04",
+    "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DUEZLNnl6Zl91WmpBLXBuMXNvX2dfem9ldGQxQ3dEbmloNW9GZUJIMVlvR2JwVURqSFhrZ0dTcjlCQk4tZ3JNX3BnVzVxaGQ1YWFQbVhWc3BQdXEwbWN5OHJhX3dQY1BmQnU2a2tFdEppX24w?oc=5",
+    "source": "Economist.kg"
+   },
+   "activity_date": "2026-11-04"
+  },
+  {
+   "iso3": "MYS",
+   "name_en": "Malaysia",
+   "name_ko": "말레이시아",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "kuala lumpur",
+    "malaysia",
+    "말레이시아"
+   ],
+   "coord": [
+    4,
+    102
+   ],
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "City Hall must publish participatory budgeting guidelines by end-2026",
+    "title_original": "City Hall must publish participatory budgeting guidelines by end-2026",
+    "date": "2026-11-10",
+    "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORmtRSUE1c2ZHbkVJVkZodXk4T0c0WmZHbE5aeXAyZVhSZzZRLWVNUDQtU2VwU1Nhb2hfUWtYYXRRRWptb05DRWdlVTI1RHczcWc1VXhkcHhSTFQ1M2xPOG16SnBWUkx2eWhZNVA3YnJUVlM1M0toYzZJNV9USVQtNTdURHZmT1ZfRl9DN04xYkFQLWxwODNtQ1U2UndiVG9ZZFEwa3FEb2stZnJRWHNfbVhuLUVDNkxqcGRDUndSaFJfdw?oc=5",
+    "source": "The Star"
+   },
+   "activity_date": "2026-11-10"
+  },
+  {
+   "iso3": "MNG",
+   "name_en": "Mongolia",
+   "name_ko": "몽골",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "mongolia",
+    "ulaanbaatar",
+    "몽골"
+   ],
+   "coord": [
+    46,
+    104
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "NPL",
+   "name_en": "Nepal",
+   "name_ko": "네팔",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "kathmandu",
+    "nepal",
+    "네팔"
+   ],
+   "coord": [
+    28.2,
+    84
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "PAK",
+   "name_en": "Pakistan",
+   "name_ko": "파키스탄",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "karachi",
+    "lahore",
+    "pakistan",
+    "파키스탄"
+   ],
+   "coord": [
+    30,
+    69
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "PHL",
+   "name_en": "Philippines",
+   "name_ko": "필리핀",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "manila",
+    "philippines",
+    "pilipinas",
+    "quezon",
+    "필리핀"
+   ],
+   "coord": [
+    13,
+    122
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "KOR",
+   "name_en": "South Korea",
+   "name_ko": "대한민국",
+   "region": "Asia",
+   "tracking_status": "verified",
+   "base_signal": "국민참여예산 공식 포털과 한국어 피드로 추적",
+   "base_signal_date": "2026-09-07",
+   "primary_source": "https://www.mybudget.go.kr/",
+   "base_status": "national + local",
+   "aliases": [
+    "busan",
+    "korea",
+    "seoul",
+    "south korea",
+    "국민참여예산",
+    "대한민국",
+    "부산",
+    "서울",
+    "주민참여예산",
+    "한국"
+   ],
+   "coord": [
+    36.5,
+    127.8
+   ],
+   "news_30d": 63,
+   "news_365d": 63,
+   "latest_news": {
+    "title": "[행감인물] 이성원 경기도의원 “‘500억 규모’ 주민참여예산, 선정률은 10%뿐”",
+    "title_original": "[행감인물] 이성원 경기도의원 “‘500억 규모’ 주민참여예산, 선정률은 10%뿐”",
+    "date": "2026-11-17",
+    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lRW5fOG5Ub2g4SDRfMTNMTGV1VHJkdG9ITUY0WFJXSk5zcDhyWXYyaW5mRnBLVmdfREJmVGpHWGlqdFE1eE5CSkUxbl95Y014TERMZmZNM01JTE9Db2VsVkhhbGM3RmphN2JBc3hlQQ?oc=5",
+    "source": "중부일보"
+   },
+   "activity_date": "2026-11-17"
+  },
+  {
+   "iso3": "LKA",
+   "name_en": "Sri Lanka",
+   "name_ko": "스리랑카",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "colombo",
+    "sri lanka",
+    "스리랑카"
+   ],
+   "coord": [
+    7.5,
+    80.7
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "THA",
+   "name_en": "Thailand",
+   "name_ko": "태국",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bangkok",
+    "thailand",
+    "ประเทศไทย",
+    "태국"
+   ],
+   "coord": [
+    15,
+    101
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "VNM",
+   "name_en": "Vietnam",
+   "name_ko": "베트남",
+   "region": "Asia",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "hà nội",
+    "vietnam",
+    "việt nam",
+    "베트남"
+   ],
+   "coord": [
+    16,
+    107
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "AGO",
+   "name_en": "Angola",
+   "name_ko": "앙골라",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "angola",
+    "luanda",
+    "앙골라"
+   ],
+   "coord": [
+    -12.3,
+    17.5
+   ],
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "Orçamento Participativo leva mais acções sociais na Conda",
+    "title_original": "Orçamento Participativo leva mais acções sociais na Conda",
+    "date": "2026-10-26",
+    "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM1lHTkZfM2hoWHZGYlUyQlcxcjRISGwxeldEazNkbVBGakFtZkQxbDctMjR3eHpCSlBMNG95Q3EwUlZIVjNnTWhBN2t1TmsyN1JmUFlKaG81NHU0NnU2V192RWM2c1NvWVVUSXdIcDVXOUUtSXJyZFdIQmZ0U0pySjRRcXVLSUtXVnVsVW5yc2h1WkdiMjF6Uzd6QkxfY191NXp0dHJTOU5YRjFsNC1BRDJPWEZ2ZlZZdWJhc0RMcUswX3Vf?oc=5",
+    "source": "Jornal de Angola"
+   },
+   "activity_date": "2026-10-26"
+  },
+  {
+   "iso3": "BEN",
+   "name_en": "Benin",
+   "name_ko": "베냉",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "benin",
+    "bénin",
+    "cotonou",
+    "베냉"
+   ],
+   "coord": [
+    9.3,
+    2.3
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "BFA",
+   "name_en": "Burkina Faso",
+   "name_ko": "부르키나파소",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "burkina faso",
+    "ouagadougou",
+    "부르키나파소"
+   ],
+   "coord": [
+    12.2,
+    -1.6
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "CMR",
+   "name_en": "Cameroon",
+   "name_ko": "카메룬",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "cameroon",
+    "cameroun",
+    "yaoundé",
+    "카메룬"
+   ],
+   "coord": [
+    5.7,
+    12.4
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "CPV",
+   "name_en": "Cape Verde",
+   "name_ko": "카보베르데",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "cabo verde",
+    "cape verde",
+    "praia",
+    "카보베르데"
+   ],
+   "coord": [
+    15.1,
+    -23.6
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "GHA",
+   "name_en": "Ghana",
+   "name_ko": "가나",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "accra",
+    "ghana",
+    "가나"
+   ],
+   "coord": [
+    8,
+    -1.2
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "KEN",
+   "name_en": "Kenya",
+   "name_ko": "케냐",
+   "region": "Africa",
+   "tracking_status": "documented",
+   "base_signal": "2025년 사례 신호 확인, 엄격한 참여예산 분류 여부는 수동 검토",
+   "base_signal_date": "2025-03-20",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "county/community participation",
+   "aliases": [
+    "kenya",
+    "kwale",
+    "makueni",
+    "nairobi",
+    "케냐"
+   ],
+   "coord": [
+    0.5,
+    37.9
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2025-03-20"
+  },
+  {
+   "iso3": "MDG",
+   "name_en": "Madagascar",
+   "name_ko": "마다가스카르",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "antananarivo",
+    "madagascar",
+    "마다가스카르"
+   ],
+   "coord": [
+    -19,
+    46.9
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "MLI",
+   "name_en": "Mali",
+   "name_ko": "말리",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "bamako",
+    "mali",
+    "말리"
+   ],
+   "coord": [
+    17.6,
+    -4
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "MAR",
+   "name_en": "Morocco",
+   "name_ko": "모로코",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "maroc",
+    "morocco",
+    "모로코"
+   ],
+   "coord": [
+    31.8,
+    -7.1
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "MOZ",
+   "name_en": "Mozambique",
+   "name_ko": "모잠비크",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "maputo",
+    "mozambique",
+    "moçambique",
+    "모잠비크"
+   ],
+   "coord": [
+    -18.7,
+    35.5
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "NGA",
+   "name_en": "Nigeria",
+   "name_ko": "나이지리아",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "lagos",
+    "nigeria",
+    "나이지리아"
+   ],
+   "coord": [
+    9,
+    8
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "SEN",
+   "name_en": "Senegal",
+   "name_ko": "세네갈",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "dakar",
+    "senegal",
+    "sénégal",
+    "세네갈"
+   ],
+   "coord": [
+    14,
+    -14
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "ZAF",
+   "name_en": "South Africa",
+   "name_ko": "남아프리카공화국",
+   "region": "Africa",
+   "tracking_status": "documented",
+   "base_signal": "직접 배분 근거가 확인되기 전까지 인접한 공공예산 참여 사례로 분류",
+   "base_signal_date": "2025-11-16",
+   "primary_source": "https://participedia.net/search?method_types=public&selectedCategory=case",
+   "base_status": "participatory-public-finance adjacent",
+   "aliases": [
+    "cape town",
+    "johannesburg",
+    "south africa",
+    "남아프리카공화국"
+   ],
+   "coord": [
+    -30,
+    25
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2025-11-16"
+  },
+  {
+   "iso3": "TZA",
+   "name_en": "Tanzania",
+   "name_ko": "탄자니아",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "dar es salaam",
+    "tanzania",
+    "탄자니아"
+   ],
+   "coord": [
+    -6,
+    35
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "TUN",
+   "name_en": "Tunisia",
+   "name_ko": "튀니지",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "tunisia",
+    "tunisie",
+    "튀니지"
+   ],
+   "coord": [
+    34,
+    9
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "UGA",
+   "name_en": "Uganda",
+   "name_ko": "우간다",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": "2023-05-07",
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "kampala",
+    "uganda",
+    "wamala",
+    "우간다"
+   ],
+   "coord": [
+    1.3,
+    32.3
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2023-05-07"
+  },
+  {
+   "iso3": "ZMB",
+   "name_en": "Zambia",
+   "name_ko": "잠비아",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "lusaka",
+    "zambia",
+    "잠비아"
+   ],
+   "coord": [
+    -13.1,
+    27.8
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "ZWE",
+   "name_en": "Zimbabwe",
+   "name_ko": "짐바브웨",
+   "region": "Africa",
+   "tracking_status": "monitoring",
+   "base_signal": "자동 탐색 대기/수집 중",
+   "base_signal_date": null,
+   "primary_source": null,
+   "base_status": "discovery-monitoring",
+   "aliases": [
+    "harare",
+    "zimbabwe",
+    "짐바브웨"
+   ],
+   "coord": [
+    -19,
+    29.1
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  },
+  {
+   "iso3": "AUS",
+   "name_en": "Australia",
+   "name_ko": "호주",
+   "region": "Oceania",
+   "tracking_status": "documented",
+   "base_signal": "세계 참여예산 아틀라스의 역사적 사례에 포함되며 현행 신호는 뉴스 피드로 추적",
+   "base_signal_date": "2019-01-01",
+   "primary_source": "https://oficina-atlas.onesource.pt/en/pb-world-atlas-2019",
+   "base_status": "local/historical",
+   "aliases": [
+    "australia",
+    "brisbane",
+    "melbourne",
+    "sydney",
+    "호주"
+   ],
+   "coord": [
+    -25,
+    133
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": "2019-01-01"
+  },
+  {
+   "iso3": "NZL",
+   "name_en": "New Zealand",
+   "name_ko": "뉴질랜드",
+   "region": "Oceania",
+   "tracking_status": "documented",
+   "base_signal": "현재 직접 배분 근거가 추가로 필요한 모니터링 상태",
+   "base_signal_date": null,
+   "primary_source": "https://www.peoplepowered.org/about/members",
+   "base_status": "local/emerging",
+   "aliases": [
+    "auckland",
+    "new zealand",
+    "wellington",
+    "뉴질랜드"
+   ],
+   "coord": [
+    -41,
+    174
+   ],
+   "news_30d": 0,
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null
+  }
+ ]
+}
