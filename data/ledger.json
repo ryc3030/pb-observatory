@@ -104,6 +104,16 @@
   "observed_at": "2026-11-18"
  },
  {
+  "key": "unreported:PER:2026-11-18",
+  "date": "2026-11-18",
+  "iso3": "PER",
+  "type": "보도 확인 해제",
+  "label": "페루",
+  "text": "페루: 최근 6개월 보도 근거가 부족해 탐색 모니터링으로 되돌림",
+  "url": "",
+  "observed_at": "2026-11-18"
+ },
+ {
   "key": "news:FRA:79d42724080845",
   "date": "2026-11-18",
   "iso3": "FRA",
@@ -471,6 +481,16 @@
   "label": "Innovation The European Journal of Social Science Research",
   "text": "Artificial intelligence and online participation: feasibility analysis in Sao Paulo's participatory budgeting",
   "url": "https://doi.org/10.1080/13511610.2026.2750568",
+  "observed_at": "2026-11-11"
+ },
+ {
+  "key": "news:CAN:4d9bbd93cab6a3",
+  "date": "2026-11-18",
+  "iso3": "CAN",
+  "type": "뉴스 신호",
+  "label": "캐나다",
+  "text": "참여예산: 우승 프로젝트 발표",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVm9UdTNhU0xuUGRFOHo3ZEtfeEhTSlRIUWJGdUhndUw4RndjUFVfS0RzVVRCd0JGRTUtdEtGa2lWMW5sdmxGZlBsOXZVOVNPRXd0YTFOczlSUzZ6WkNtOGlqU0lkV2tFZVo2SmM5T3VRaHlHLXJ4TXlIY0RJcUtobTB2NVp4d3NOOGlaSUFUSDdSV2JpdWd0ZDFxT1hXZWhVTl9Hckljc3hoZkMw?oc=5",
   "observed_at": "2026-11-11"
  },
  {
@@ -952,6 +972,16 @@
   "text": "All Ireland Award for Ballymena Schools Participatory Budgeting Project",
   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHI4bE1WaXNIQm8zT3BCeVhGSVA0UUVWcEJ0SnR4MFJZTjZhc01kZzlXZG5NWW5GX0xOMEhzZElEV1lKb3YzOHVpblpFRnJSZ1k2SWUtWHZoWFY2c1BSNUdHZWRlU1IxUGYtU1IySE9kelRmdzZPUVZiUmdEQS13S2VSUjVxTHJ4VFlldWJZT2Z3U1QtQzBrMWlnWmhYQUNMX050X0loSnBGOVc5VmZEdW9nZ0tiX0JnSlhmTm5BT3J3aTg?oc=5",
   "observed_at": "2026-03-30"
+ },
+ {
+  "key": "news:PER:16ac38f61b28ea",
+  "date": "2026-11-18",
+  "iso3": "PER",
+  "type": "뉴스 신호",
+  "label": "페루",
+  "text": "Vecinos priorizaron necesidades en 2do taller del Presupuesto Participativo 2027",
+  "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSXlvc05aM3FCU3A4Z2I1S2Uyclh5a0MwcXF5Qy01TEpfV29oNUthSHBHU1BZajlLVUJ4VDhwQ1pQRmNOWG83VDBXZVdXNGZlNGVKWHR5cDZBdHRYZ3Vid3hIcUNDcUlsaDF5MWpvQUlpT0p6cjhZQjB2RkR3ajE5c1hqNUNianZNWmwyZ3E1VUNEMkhvaUljLXJNTmhWLW8zVTRsT1VwcFhrY3ZFc2U2aA?oc=5",
+  "observed_at": "2026-02-27"
  },
  {
   "key": "news:CRI:8113e10ac35106",

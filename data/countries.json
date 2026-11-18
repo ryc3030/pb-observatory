@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T08:14:10.865327+00:00",
+ "updated_at": "2026-11-18T08:33:33.456632+00:00",
  "count": 92,
  "items": [
   {
@@ -1508,7 +1508,8 @@
     "porto",
     "portugal",
     "português",
-    "포르투갈"
+    "포르투갈",
+    "ponte de lima"
    ],
    "coord": [
     39.5,
@@ -1517,9 +1518,9 @@
    "seed_status": "verified",
    "press": {
     "confirmed": true,
-    "stories": 70,
+    "stories": 72,
     "multi_outlet": 8,
-    "stories_12m": 85,
+    "stories_12m": 88,
     "multi_outlet_12m": 8,
     "months_12m": 12,
     "last": "2026-11-17",
@@ -1548,8 +1549,8 @@
      }
     ]
    },
-   "news_30d": 48,
-   "news_365d": 108,
+   "news_30d": 49,
+   "news_365d": 111,
    "latest_news": {
     "title": "아잠부자 주민참여예산",
     "title_original": "Azambuja Orçamento Participativo",
@@ -1594,9 +1595,9 @@
     "confirmed": true,
     "stories": 17,
     "multi_outlet": 0,
-    "stories_12m": 18,
+    "stories_12m": 19,
     "multi_outlet_12m": 0,
-    "months_12m": 7,
+    "months_12m": 8,
     "last": "2026-11-16",
     "window_days": 183,
     "evidence": [
@@ -1624,7 +1625,7 @@
     ]
    },
    "news_30d": 7,
-   "news_365d": 18,
+   "news_365d": 19,
    "latest_news": {
     "title": "치스나디에의 참여예산: 치스나디에 제6유치원의 마당에 새로운 상호작용식 교육 공간이 생겼는다",
     "title_original": "Bugetare participativă la Cisnădie: Curtea Grădiniței nr. 6 din Cisnădie are un spațiu educațional interactiv nou",
@@ -2208,9 +2209,9 @@
    "seed_status": "documented",
    "press": {
     "confirmed": true,
-    "stories": 30,
+    "stories": 31,
     "multi_outlet": 1,
-    "stories_12m": 39,
+    "stories_12m": 40,
     "multi_outlet_12m": 1,
     "months_12m": 11,
     "last": "2026-11-17",
@@ -2224,23 +2225,23 @@
       "outlets": 2
      },
      {
+      "title": "참여예산안 통과 후 알렘의 얀센 지구에 다목적실 개소",
+      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlR4ZFZKcTJwNG92QW1VUkUyUjhleTRacXRmUGk5TGprSkZsUndfZDBLS2JybG04V2J4OUs4ZGZaVnJIb281dVpiWVFIN2NDdDhOOFlodjlGcm9Sc3dxa3FtQmJ2cGo1Sy1IQXBObHJzWGFmU0w1Qm9ZNFJ0Z1FhbDdja2xDUExKcWw3bENXVEdSQy1NUE9iY1JlQUFYaUlZaS02bTVhOEdpNFFnZTRhUHZCajFMN3B4SHRxTk9TZ0p5ckVKVWlv?oc=5",
+      "source": "MisionesOpina",
+      "date": "2026-11-16",
+      "outlets": 1
+     },
+     {
       "title": "참여예산: 시청에서 UTN 콘코르디아에 자동 외부 제세동기를 기증",
       "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPeHBYOENPaWRTX2twWU9CMUpWN3FiWWotaXE0WS1CRUIyQW5ucWtJQjdpWGNfYlYwc2s3TE13d2R5c24wM0dZZ1RNUmFLQ09xVE1zMERhdEEtREp4WjlRdkNjSmJOeFFnX1FzSWpnZm5OQWVJb21hRkhHMnUtdnZObEJQTHRta3gyVzF5TU1BbThBWVVObmpxcXlsbGpveDg1S3dxbklRbHhzd3ZVano1NWcxWXljU0FySkNjWUdfTTRpQQ?oc=5",
       "source": "Municipalidad de Concordia",
       "date": "2026-11-14",
       "outlets": 1
-     },
-     {
-      "title": "콘코르디아를 모델로: 더 많은 주민참여예산, 더 많은 공사, 더 많은 민주주의",
-      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBhTHZmNjJUeGRWN2hzVngyT19ockRsMThubHg0UGwxMEFFZERNcnRscGpoMnp6ZE5BUEhBZUJaUlo1Ti16aHNQcFdXZHFOQ2MwdWZTTGRodGdwNWRFSG9BaUUyQ3JBYUxJcnNHZ2p1dHFLdXUxVk9CSGFTZw?oc=5",
-      "source": "Municipalidad de Concordia",
-      "date": "2026-11-13",
-      "outlets": 1
      }
     ]
    },
-   "news_30d": 12,
-   "news_365d": 41,
+   "news_30d": 13,
+   "news_365d": 42,
    "latest_news": {
     "title": "2026년 주민참여예산: 1~6구역 수혜자에게 자재 전달",
     "title_original": "Presupuesto Participativo 2026: entregan materiales a beneficiarios de las zonas 1 a 6",
@@ -2407,21 +2408,14 @@
    "seed_status": "documented",
    "press": {
     "confirmed": true,
-    "stories": 12,
+    "stories": 11,
     "multi_outlet": 0,
-    "stories_12m": 19,
+    "stories_12m": 18,
     "multi_outlet_12m": 0,
     "months_12m": 7,
-    "last": "2026-11-16",
+    "last": "2026-11-11",
     "window_days": 183,
     "evidence": [
-     {
-      "title": "참여예산안 통과 후 알렘의 얀센 지구에 다목적실 개소",
-      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlR4ZFZKcTJwNG92QW1VUkUyUjhleTRacXRmUGk5TGprSkZsUndfZDBLS2JybG04V2J4OUs4ZGZaVnJIb281dVpiWVFIN2NDdDhOOFlodjlGcm9Sc3dxa3FtQmJ2cGo1Sy1IQXBObHJzWGFmU0w1Qm9ZNFJ0Z1FhbDdja2xDUExKcWw3bENXVEdSQy1NUE9iY1JlQUFYaUlZaS02bTVhOEdpNFFnZTRhUHZCajFMN3B4SHRxTk9TZ0p5ckVKVWlv?oc=5",
-      "source": "MisionesOpina",
-      "date": "2026-11-16",
-      "outlets": 1
-     },
      {
       "title": "참여예산: 우승 프로젝트 발표",
       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVm9UdTNhU0xuUGRFOHo3ZEtfeEhTSlRIUWJGdUhndUw4RndjUFVfS0RzVVRCd0JGRTUtdEtGa2lWMW5sdmxGZlBsOXZVOVNPRXd0YTFOczlSUzZ6WkNtOGlqU0lkV2tFZVo2SmM5T3VRaHlHLXJ4TXlIY0RJcUtobTB2NVp4d3NOOGlaSUFUSDdSV2JpdWd0ZDFxT1hXZWhVTl9Hckljc3hoZkMw?oc=5",
@@ -2435,19 +2429,26 @@
       "source": "Ville de Shawinigan",
       "date": "2026-11-06",
       "outlets": 1
+     },
+     {
+      "title": "참여예산: 투표, 11월 5일 목요일에 종료",
+      "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxONDhKSHJZQ2RJaEpJZTF2X1lwdTNidGxFdFBmYTc2aUNiN2duSW1tS0JQSndLdHgzdVI5Vkk1VnZJNklJSFFHVFlQVTVzaVN0U3U2TkJKZWtDNVdQdTlva2ZqYWhxWXFaMXJkX0JmMUR0cVpnbi1yNEM1RFAzS1FNNWF3UDhUTkZZSkRHcEh0MWtrS2VRSk9VNnhUdXJrSmFqTXVjQmh1SlBoUnlTWnVlU0tzelA5WjZw?oc=5",
+      "source": "Ville de Shawinigan",
+      "date": "2026-11-03",
+      "outlets": 1
      }
     ]
    },
-   "news_30d": 9,
-   "news_365d": 19,
+   "news_30d": 8,
+   "news_365d": 18,
    "latest_news": {
-    "title": "참여예산안 통과 후 알렘의 얀센 지구에 다목적실 개소",
-    "title_original": "Tras la victoria en el Presupuesto Participativo, se inauguró el SUM del Barrio Janssen de Alem",
-    "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlR4ZFZKcTJwNG92QW1VUkUyUjhleTRacXRmUGk5TGprSkZsUndfZDBLS2JybG04V2J4OUs4ZGZaVnJIb281dVpiWVFIN2NDdDhOOFlodjlGcm9Sc3dxa3FtQmJ2cGo1Sy1IQXBObHJzWGFmU0w1Qm9ZNFJ0Z1FhbDdja2xDUExKcWw3bENXVEdSQy1NUE9iY1JlQUFYaUlZaS02bTVhOEdpNFFnZTRhUHZCajFMN3B4SHRxTk9TZ0p5ckVKVWlv?oc=5",
-    "source": "MisionesOpina"
+    "title": "참여예산: 우승 프로젝트 발표",
+    "title_original": "Budget participatif : dévoilement du projet gagnant",
+    "date": "2026-11-11",
+    "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVm9UdTNhU0xuUGRFOHo3ZEtfeEhTSlRIUWJGdUhndUw4RndjUFVfS0RzVVRCd0JGRTUtdEtGa2lWMW5sdmxGZlBsOXZVOVNPRXd0YTFOczlSUzZ6WkNtOGlqU0lkV2tFZVo2SmM5T3VRaHlHLXJ4TXlIY0RJcUtobTB2NVp4d3NOOGlaSUFUSDdSV2JpdWd0ZDFxT1hXZWhVTl9Hckljc3hoZkMw?oc=5",
+    "source": "Ville de Shawinigan"
    },
-   "activity_date": "2026-11-16",
+   "activity_date": "2026-11-11",
    "registry": {
     "participedia": 10,
     "participedia_verified": 0,
@@ -3113,7 +3114,7 @@
    "name_en": "Peru",
    "name_ko": "페루",
    "region": "South America",
-   "tracking_status": "reported",
+   "tracking_status": "monitoring",
    "base_signal": "원문 근거를 찾는 중",
    "base_signal_date": "2026-09-07",
    "primary_source": null,
@@ -3132,55 +3133,55 @@
    ],
    "seed_status": "monitoring",
    "press": {
-    "confirmed": true,
-    "stories": 2,
+    "confirmed": false,
+    "stories": 0,
     "multi_outlet": 0,
-    "stories_12m": 7,
+    "stories_12m": 4,
     "multi_outlet_12m": 0,
-    "months_12m": 6,
-    "last": "2026-11-06",
+    "months_12m": 3,
+    "last": "2026-02-27",
     "window_days": 183,
     "evidence": [
      {
-      "title": "폰치지-지-리마 참여예산 4차 투표 단계 돌입",
-      "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTFVMWdKTG5CWmpqOEQyRTV2SGdDM2dxeDZCRHlseVpxTTNXTW5femhNM1U0RTVWMGFrVDZTd1Y0OWsxU1JrVGNUeTRDNVVrc3kyRVJkUVljVnhFbF9mQjNvUjZSeVNubUxvVjBwZ3JzRHZlVXU5Zlp0NW5nTTZMWENWUEFDZ2FneHY3OXpUVmd5czRYNjBNSDBSTmttVUdMRG14cEJ4MXp5LVVzSVVsaU5oQkJZYjRPS2FYUmN5NUV4bFdPbjJDRHQ0c2hONkZ0SHR1bDgzaFdDeFpSRUJB?oc=5",
-      "source": "CM Ponte de Lima",
-      "date": "2026-11-06",
+      "title": "Vecinos priorizaron necesidades en 2do taller del Presupuesto Participativo 2027",
+      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSXlvc05aM3FCU3A4Z2I1S2Uyclh5a0MwcXF5Qy01TEpfV29oNUthSHBHU1BZajlLVUJ4VDhwQ1pQRmNOWG83VDBXZVdXNGZlNGVKWHR5cDZBdHRYZ3Vid3hIcUNDcUlsaDF5MWpvQUlpT0p6cjhZQjB2RkR3ajE5c1hqNUNianZNWmwyZ3E1VUNEMkhvaUljLXJNTmhWLW8zVTRsT1VwcFhrY3ZFc2U2aA?oc=5",
+      "source": "Municipalidad de Miraflores",
+      "date": "2026-02-27",
       "outlets": 1
      },
      {
-      "title": "2026년 주민참여예산 – 폰치지 드 리마 주민참여예산 – 제외된 제안의 임시 목록 공고",
-      "url": "https://news.google.com/rss/articles/CBMiggJBVV95cUxNV2Qyekh0VFFlWU4yRVdFTzFwalFraXRHWmxVVzhXWFI4a0x6dk44bTZGQlg3V05QdnJjQzRJR2NWQXZ3OHdRWkxsbEYwNGdnM1pyUWZRWVFudTVQUTc3enV2SHMySzNucHlEZDRSRWNJUkFOa2gzTDRXWm1vdjBoWHdZelE3anNIbi1lS2FxQ2lGTjlqSE9yQnZrMVlIUVBTVjV2QndMUUdaS0o4dWp2NF8tQldtd0xfakJGY1dfZm1UZnJwdU5JdHZfWkp5dUkyRXQwNHZpb1BYR2hxdW9VdnQ2V2tFQW11RzBmNkZmY0VHc0dkS2pGejN5SkdsWEFnZGc?oc=5",
-      "source": "CM Ponte de Lima",
-      "date": "2026-10-13",
+      "title": "Municipalidad de Miraflores anuncia convocatoria para definir Presupuesto Participativo 2027",
+      "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNQ1JOSWRfalE0NVRHbVRTS2pRRlBmWFRYa2NuQWU1WGZKbDgwNTFiaExsd3REMWhQM0hGSXZyX3dNMjNoMUo5Zmo5ZnFjMHN4YnhzcU9uNHpEQms3WmNuNUxkYUtBck1wRGtUemwxZW1IbGkyVzJJeWhnUzN1a2NneWVYQkFlNUdHTUdIS2hUclAyOVlQa29rN2tMRVBYVERJVXk4V0UxWnJMWjV6NUJkdnZSZjloanZ5ZjRuWk5STGM?oc=5",
+      "source": "Municipalidad de Miraflores",
+      "date": "2026-02-02",
       "outlets": 1
      },
      {
-      "title": "Município de Ponte de Lima lança 4ª Edição do Orçamento Participativo no valor de 60.000€",
-      "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxOdHFfVlIweGhfV1ZtcXFPMjdYam9SQmMzYW9vd082dV9GVF9IQ3l2X3JWTWRQREgzY3ZiZ2dwN2I2NklDN09VMjZrcTVRQ05xWF9CcDg4VmZUTU9jWUE3aklvVE1kV2pObndyNEY4WUVqdURaQTY0Y25id1JmZlhEZXZ6SUFkTlNrYlVFVUNmSmoxczZKaFhCMnNWZV95MHQtMWs1d20zbHRKOGVUa2tfTDgyVVNIVVdKUHp4WWlQckQ0bnRKZGduU2c0NnRxYmpTU01xTDNVZWx2Y2FCdTUzUHgzM0NmbGp4cGxEcQ?oc=5",
-      "source": "CM Ponte de Lima",
-      "date": "2026-03-18",
+      "title": "Noema Flores Roque - SUB GERENCIA DE PLANES, PRESUPUESTO PARTICIPATIVO Y RACIONALIZACIÓN",
+      "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQeENwdTNfYVozeFFSMDdoYlV4ZGhZWU1UUUhIbDZaRjU2Q0dhUU9iay1nMEtXTTdzZFRoY2tCQUE5dFhkWjZrUjRJNjI5a19lS0Q5R21IcVpHOURESGlrdnRoUVAwM0IyV2FlMEg2SWtMN2RHOEZyUF9UZ3VDX0s1Ym1UeTVDQWZhZUJmQlpzb1Y?oc=5",
+      "source": "Plataforma del Estado Peruano — gob.pe",
+      "date": "2026-01-01",
       "outlets": 1
      }
     ]
    },
-   "news_30d": 1,
-   "news_365d": 7,
+   "news_30d": 0,
+   "news_365d": 4,
    "latest_news": {
-    "title": "폰치지-지-리마 참여예산 4차 투표 단계 돌입",
-    "title_original": "4.ª edição do Orçamento Participativo de Ponte de Lima entra na fase de votação",
-    "date": "2026-11-06",
-    "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTFVMWdKTG5CWmpqOEQyRTV2SGdDM2dxeDZCRHlseVpxTTNXTW5femhNM1U0RTVWMGFrVDZTd1Y0OWsxU1JrVGNUeTRDNVVrc3kyRVJkUVljVnhFbF9mQjNvUjZSeVNubUxvVjBwZ3JzRHZlVXU5Zlp0NW5nTTZMWENWUEFDZ2FneHY3OXpUVmd5czRYNjBNSDBSTmttVUdMRG14cEJ4MXp5LVVzSVVsaU5oQkJZYjRPS2FYUmN5NUV4bFdPbjJDRHQ0c2hONkZ0SHR1bDgzaFdDeFpSRUJB?oc=5",
-    "source": "CM Ponte de Lima"
+    "title": "Vecinos priorizaron necesidades en 2do taller del Presupuesto Participativo 2027",
+    "title_original": "Vecinos priorizaron necesidades en 2do taller del Presupuesto Participativo 2027",
+    "date": "2026-02-27",
+    "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQSXlvc05aM3FCU3A4Z2I1S2Uyclh5a0MwcXF5Qy01TEpfV29oNUthSHBHU1BZajlLVUJ4VDhwQ1pQRmNOWG83VDBXZVdXNGZlNGVKWHR5cDZBdHRYZ3Vid3hIcUNDcUlsaDF5MWpvQUlpT0p6cjhZQjB2RkR3ajE5c1hqNUNianZNWmwyZ3E1VUNEMkhvaUljLXJNTmhWLW8zVTRsT1VwcFhrY3ZFc2U2aA?oc=5",
+    "source": "Municipalidad de Miraflores"
    },
-   "activity_date": "2026-11-06",
+   "activity_date": "2026-09-07",
    "registry": {
     "participedia": 3,
     "participedia_verified": 0,
     "pabulib": 0,
     "pabulib_units": 0
    },
-   "review_hint": null
+   "review_hint": "플랫폼 사례 3건"
   },
   {
    "iso3": "URY",
@@ -3500,31 +3501,17 @@
     "confirmed": false,
     "stories": 0,
     "multi_outlet": 0,
-    "stories_12m": 1,
+    "stories_12m": 0,
     "multi_outlet_12m": 0,
-    "months_12m": 1,
-    "last": "2026-05-04",
+    "months_12m": 0,
+    "last": null,
     "window_days": 183,
-    "evidence": [
-     {
-      "title": "Bugetare participativa 2026. Primaria Oradea pune la bataie 1,5 milioane...",
-      "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxON0RNT1VRb2d5MWpWdlVCenZlYXVPaUlwXzIyNWpJeEVvV1VHTGVKZEI1cXlBWGg5MGZiVmUzSEFkYkZhZ2hlMU9JNDAzSk9aWGdCNlBQZzBGVVF5ei1DUmRGYVZSZHplMkthTGdPNFN3NzhXdUREQk9NV0pfYlo4S1lOQ3gweHdSdDl1TnRmV2dseTIyT3dwa0I0clI4SDBCQWFyVW54MWlVVk9VUjAzQzBiYzBHR1h3b3l2T2l0MFViaElxcXFLOGg2blQwanFVNzlfb3c3ZVBCbTlkZGlBX2VJSFc0c0R2bGVvZkYyLXBKc2NkbkhvejE3Nkg?oc=5",
-      "source": "Bihoreanul",
-      "date": "2026-05-04",
-      "outlets": 1
-     }
-    ]
+    "evidence": []
    },
    "news_30d": 0,
-   "news_365d": 1,
-   "latest_news": {
-    "title": "Bugetare participativa 2026. Primaria Oradea pune la bataie 1,5 milioane...",
-    "title_original": "Bugetare participativa 2026. Primaria Oradea pune la bataie 1,5 milioane...",
-    "date": "2026-05-04",
-    "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxON0RNT1VRb2d5MWpWdlVCenZlYXVPaUlwXzIyNWpJeEVvV1VHTGVKZEI1cXlBWGg5MGZiVmUzSEFkYkZhZ2hlMU9JNDAzSk9aWGdCNlBQZzBGVVF5ei1DUmRGYVZSZHplMkthTGdPNFN3NzhXdUREQk9NV0pfYlo4S1lOQ3gweHdSdDl1TnRmV2dseTIyT3dwa0I0clI4SDBCQWFyVW54MWlVVk9VUjAzQzBiYzBHR1h3b3l2T2l0MFViaElxcXFLOGg2blQwanFVNzlfb3c3ZVBCbTlkZGlBX2VJSFc0c0R2bGVvZkYyLXBKc2NkbkhvejE3Nkg?oc=5",
-    "source": "Bihoreanul"
-   },
-   "activity_date": "2026-05-04",
+   "news_365d": 0,
+   "latest_news": null,
+   "activity_date": null,
    "registry": {
     "participedia": 1,
     "participedia_verified": 0,

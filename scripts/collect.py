@@ -211,6 +211,10 @@ def build_matcher(countries):
                 continue
             if re.search(r"[぀-鿿가-힯]", a):  # CJK·한글: 경계 없이
                 pats.append((re.compile(re.escape(a)), c["iso3"], len(a)))
+            elif re.match(r"[^\W\d_]", a):
+                # 라틴 문자 지명은 첫 글자가 대문자일 때만 지명으로 본다(루마니아어 동사 pune → 인도 Pune, 스페인어 la victoria → 캐나다 Victoria 오판 방지)
+                head, rest = a[0], a[1:]
+                pats.append((re.compile(r"(?<![\w])[" + re.escape(head.upper()) + r"](?i:" + re.escape(rest) + r")(?![\w])"), c["iso3"], len(a)))
             else:
                 pats.append((re.compile(r"(?<![\w])" + re.escape(a) + r"(?![\w])", re.I), c["iso3"], len(a)))
     pats.sort(key=lambda x: -x[2])

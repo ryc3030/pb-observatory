@@ -505,7 +505,7 @@ function pressLine(c) {
   const year = `최근 1년 ${y}건${p.months_12m > 1 ? `(${p.months_12m}개월에 걸쳐)` : ""}`;
   const head = p.confirmed
     ? `<b>보도 확인</b> 최근 6개월 소식 ${p.stories}건${p.multi_outlet ? `(여러 매체가 다룬 소식 ${p.multi_outlet}건)` : ""} · ${year} · 정부 원문은 아직 확인 전${p.stories === 1 && !p.multi_outlet ? " · 근거 기사 1건이므로 원문으로 확인하십시오" : ""}`
-    : `<b>최근 1년 보도</b> 소식 ${y}건 · 마지막 보도 ${esc(p.last || "—")} · 6개월이 지나 '보도 확인'에서 내려갔습니다`;
+    : `<b>최근 1년 보도</b> 소식 ${y}건 · 마지막 보도 ${esc(p.last || "—")} · 최근 6개월 보도가 없어 '보도 확인'에는 들지 않습니다`;
   return `<li>${svg("ci", "mk2")}<span>${head}${ev ? `<br>${ev}` : ""}</span></li>`;
 }
 
