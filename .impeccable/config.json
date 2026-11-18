@@ -1,0 +1,26 @@
+{
+  "detector": {
+    "ignoreRules": [],
+    "ignoreFiles": [],
+    "ignoreValues": [
+      {
+        "rule": "cramped-padding",
+        "value": "*",
+        "files": [
+          "index.html"
+        ],
+        "createdAt": "2026-11-18T03:26:04.110Z",
+        "reason": "Claude: JS 렌더 전 정적 분석; 렌더 후 statusline 8px·표 셀 10/12px 패딩, 리뷰어 캡처로 확인"
+      },
+      {
+        "rule": "border-accent-on-rounded",
+        "value": "*",
+        "files": [
+          "assets/style.css"
+        ],
+        "createdAt": "2026-11-18T03:26:09.379Z",
+        "reason": "Claude: 투표용지 먹선(계약 OWN-WORLD), 해당 요소 border-radius 0 — 렌더 확인"
+      }
+    ]
+  }
+}

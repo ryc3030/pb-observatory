@@ -81,7 +81,7 @@ section[id]{scroll-margin-top:72px}
 .tabs{display:flex;gap:2px;margin-left:auto;height:100%}
 .tabs a{display:flex;align-items:center;padding:0 12px;color:var(--shell-muted);text-decoration:none;font-weight:600;font-size:14px;border-bottom:3px solid transparent;border-top:3px solid transparent;transition:color .15s,border-color .15s}
 .tabs a:hover{color:var(--shell-ink)}
-.tabs a[aria-current="true"]{color:#fff;border-bottom-color:#f0574c}
+.tabs a[aria-current="true"]{color:#fff;border-bottom-color:#fff}
 .tabs a:focus-visible{outline-color:#fff;outline-offset:-4px}
 .shell-search{position:relative;width:230px;flex:none}
 .shell-search svg{position:absolute;left:10px;top:50%;width:16px;height:16px;transform:translateY(-50%);color:var(--shell-muted)}
@@ -344,12 +344,12 @@ details.crow[open]>summary{background:var(--hover)}
 .ledger li:first-child{border-top:0}
 .ledger .m{display:block;font-size:12.5px;color:var(--muted)}
 .ledger a{color:var(--ink);text-decoration:none}
-.ledger a:hover{color:var(--signal);text-decoration:underline}
+.ledger a:hover{color:var(--ink);text-decoration:underline}
 .refs{display:grid;gap:var(--s2)}
 .refs a{display:grid;padding:var(--s2) 0;border-top:1px solid var(--hair);color:var(--ink);text-decoration:none;font-size:13.5px}
 .refs a:first-child{border-top:0}
 .refs a span{color:var(--muted);font-size:12.5px}
-.refs a:hover b{color:var(--signal);text-decoration:underline}
+
 
 /* ---------- 푸터 ---------- */
 .footer{background:var(--shell);color:var(--shell-muted);font-size:13.5px;margin-top:var(--s7)}

@@ -1,0 +1,543 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-18T03:25:59+00:00",
+  "title": "Design System: 세계 참여예산 관측소",
+  "extensions": {
+    "colorMeta": {
+      "paper": {
+        "role": "neutral",
+        "displayName": "용지",
+        "canonical": "#ffffff",
+        "dark": "#161b22",
+        "tonalRamp": [
+          "#262626",
+          "#404040",
+          "#595959",
+          "#737373",
+          "#949494",
+          "#b8b8b8",
+          "#d9d9d9",
+          "#f2f2f2"
+        ]
+      },
+      "hover": {
+        "role": "neutral",
+        "displayName": "행 hover",
+        "canonical": "#f3f5f8",
+        "dark": "#1e252e",
+        "tonalRamp": [
+          "#20252c",
+          "#343d4b",
+          "#46556d",
+          "#566d8f",
+          "#7a8fad",
+          "#aab5c5",
+          "#d3d8df",
+          "#f1f2f4"
+        ]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "먹",
+        "canonical": "#14181d",
+        "dark": "#e9edf2",
+        "tonalRamp": [
+          "#22262a",
+          "#383f48",
+          "#4c5867",
+          "#5f7187",
+          "#8292a6",
+          "#aeb7c1",
+          "#d5d8dd",
+          "#f1f2f3"
+        ]
+      },
+      "ink-2": {
+        "role": "neutral",
+        "displayName": "엷은 먹",
+        "canonical": "#39414b",
+        "dark": "#c6ccd5",
+        "tonalRamp": [
+          "#232629",
+          "#3a3f46",
+          "#4f5863",
+          "#647181",
+          "#8792a1",
+          "#b0b7bf",
+          "#d6d8dc",
+          "#f1f2f3"
+        ]
+      },
+      "muted": {
+        "role": "neutral",
+        "displayName": "회먹",
+        "canonical": "#58616c",
+        "dark": "#9aa4b1",
+        "tonalRamp": [
+          "#242629",
+          "#3b3f44",
+          "#525961",
+          "#68727e",
+          "#8a939e",
+          "#b2b7bd",
+          "#d6d9db",
+          "#f2f2f3"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "먹선",
+        "canonical": "#14181d",
+        "dark": "#c6ccd5",
+        "tonalRamp": [
+          "#22262a",
+          "#383f48",
+          "#4c5867",
+          "#5f7187",
+          "#8292a6",
+          "#aeb7c1",
+          "#d5d8dd",
+          "#f1f2f3"
+        ]
+      },
+      "hair": {
+        "role": "neutral",
+        "displayName": "실선",
+        "canonical": "#d6dbe1",
+        "dark": "#323a45",
+        "tonalRamp": [
+          "#23262a",
+          "#393f47",
+          "#4e5865",
+          "#627183",
+          "#8593a3",
+          "#afb7c0",
+          "#d5d8dc",
+          "#f1f2f3"
+        ]
+      },
+      "hair-2": {
+        "role": "neutral",
+        "displayName": "옅은 실선",
+        "canonical": "#e7eaee",
+        "dark": "#252c35",
+        "tonalRamp": [
+          "#22262a",
+          "#383f47",
+          "#4d5766",
+          "#607085",
+          "#8392a4",
+          "#afb6c1",
+          "#d5d8dd",
+          "#f1f2f3"
+        ]
+      },
+      "shell": {
+        "role": "neutral",
+        "displayName": "기표소 남색",
+        "canonical": "#1b2a4a",
+        "dark": "#121d33",
+        "tonalRamp": [
+          "#1c2331",
+          "#2b3855",
+          "#374d7b",
+          "#4161a5",
+          "#6784c1",
+          "#9fafd0",
+          "#ced5e3",
+          "#f0f1f5"
+        ]
+      },
+      "shell-2": {
+        "role": "neutral",
+        "displayName": "기표소 남색 2",
+        "canonical": "#25385f",
+        "dark": "#1b2944",
+        "tonalRamp": [
+          "#1d2330",
+          "#2c3953",
+          "#394e79",
+          "#4362a2",
+          "#6985be",
+          "#a1b0cf",
+          "#cfd5e2",
+          "#f0f1f5"
+        ]
+      },
+      "shell-ink": {
+        "role": "neutral",
+        "displayName": "셸 글자",
+        "canonical": "#eef2f8",
+        "dark": "#eef2f8",
+        "tonalRamp": [
+          "#1d242f",
+          "#2d3c52",
+          "#3b5378",
+          "#466aa0",
+          "#6c8cbc",
+          "#a2b3cd",
+          "#d0d7e2",
+          "#f0f2f5"
+        ]
+      },
+      "shell-muted": {
+        "role": "neutral",
+        "displayName": "셸 회색",
+        "canonical": "#b6c1d6",
+        "dark": "#b6c1d6",
+        "tonalRamp": [
+          "#20242c",
+          "#333c4c",
+          "#45536e",
+          "#546991",
+          "#798baf",
+          "#a9b3c6",
+          "#d3d7df",
+          "#f1f2f4"
+        ]
+      },
+      "seal": {
+        "role": "primary",
+        "displayName": "인주 주홍",
+        "canonical": "#c9241b",
+        "dark": "#f0574c",
+        "tonalRamp": [
+          "#371715",
+          "#62211e",
+          "#912721",
+          "#c52920",
+          "#de524a",
+          "#e0948f",
+          "#eacac8",
+          "#f7eeee"
+        ]
+      },
+      "docu": {
+        "role": "neutral",
+        "displayName": "문헌 먹",
+        "canonical": "#2e3a4d",
+        "dark": "#c6ccd5",
+        "tonalRamp": [
+          "#21252c",
+          "#353d4b",
+          "#47556c",
+          "#586d8e",
+          "#7b8eac",
+          "#aab5c5",
+          "#d3d7de",
+          "#f1f2f4"
+        ]
+      },
+      "signal": {
+        "role": "secondary",
+        "displayName": "개표 청색",
+        "canonical": "#1d5bb8",
+        "dark": "#79a8f5",
+        "tonalRamp": [
+          "#162336",
+          "#1f3960",
+          "#244f8f",
+          "#2463c1",
+          "#4d86da",
+          "#91b0de",
+          "#c9d6e9",
+          "#eef1f7"
+        ]
+      },
+      "signal-soft": {
+        "role": "secondary",
+        "displayName": "신호 옅은 바탕",
+        "canonical": "#e5eefb",
+        "dark": "#1a2740",
+        "tonalRamp": [
+          "#162337",
+          "#1f3a60",
+          "#244f8f",
+          "#2464c2",
+          "#4d87db",
+          "#91b1de",
+          "#c8d6e9",
+          "#eef1f7"
+        ]
+      },
+      "ok": {
+        "role": "neutral",
+        "displayName": "정상 녹색",
+        "canonical": "#1f7a4d",
+        "dark": "#5fc48f",
+        "tonalRamp": [
+          "#193326",
+          "#255a40",
+          "#2e855a",
+          "#33b373",
+          "#5acd95",
+          "#98d7b8",
+          "#cce6d9",
+          "#eff6f2"
+        ]
+      },
+      "focus": {
+        "role": "neutral",
+        "displayName": "포커스",
+        "canonical": "#1b2a4a",
+        "dark": "#e9edf2",
+        "tonalRamp": [
+          "#1c2331",
+          "#2b3855",
+          "#374d7b",
+          "#4161a5",
+          "#6784c1",
+          "#9fafd0",
+          "#ced5e3",
+          "#f0f1f5"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "페이지 첫 제목 하나. 640px 이하 25px."
+      },
+      "headline": {
+        "displayName": "Headline",
+        "purpose": "섹션 제목."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "패널 머리, 뉴스·논문 제목, 국가 행 이름."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "기본 본문, keep-all."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "날짜·출처·국가 메타, 범례, 결과 줄."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "필터 필드 라벨."
+      },
+      "count": {
+        "displayName": "Count",
+        "purpose": "집계 행 국가 수, 고정폭."
+      }
+    },
+    "shadows": [
+      {
+        "name": "overlay",
+        "value": "0 1px 2px rgba(20,24,29,.06),0 4px 14px rgba(20,24,29,.06)",
+        "dark": "0 1px 2px rgba(0,0,0,.3),0 6px 18px rgba(0,0,0,.25)",
+        "purpose": "떠 있는 것(바로가기 링크, 지도 팝업)에만."
+      }
+    ],
+    "rules": [
+      {
+        "name": "hair",
+        "value": "1px solid var(--hair)",
+        "purpose": "같은 묶음 안 항목 사이"
+      },
+      {
+        "name": "frame",
+        "value": "1.5px solid var(--rule)",
+        "purpose": "투표용지·지도 패널·기표란 테두리"
+      },
+      {
+        "name": "row",
+        "value": "2px solid var(--rule)",
+        "purpose": "투표용지 행·국가 행·날짜 머리·표 머리"
+      },
+      {
+        "name": "head",
+        "value": "3px solid var(--rule)",
+        "purpose": "용지 머리선"
+      }
+    ],
+    "motion": [
+      {
+        "name": "press",
+        "value": "200ms cubic-bezier(.3,.7,.4,1); scale 1.7 rotate -14deg opacity 0 → 0.9 -2deg → 1 -3deg",
+        "purpose": "필터·집계 행으로 상태가 바뀔 때만 공식·문헌 도장에."
+      },
+      {
+        "name": "state",
+        "value": "150ms",
+        "purpose": "색·테두리 전환."
+      },
+      {
+        "name": "disclosure",
+        "value": "180ms",
+        "purpose": "펼침 화살표 회전."
+      },
+      {
+        "name": "reduced",
+        "value": "prefers-reduced-motion: 모든 애니메이션·전환 끔",
+        "purpose": "접근성"
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "wide",
+        "value": "1100px"
+      },
+      {
+        "name": "tablet",
+        "value": "860px"
+      },
+      {
+        "name": "phone",
+        "value": "640px"
+      }
+    ],
+    "mapMarkers": {
+      "source": "assets/app.js stampImage()",
+      "seal": "paper disc + seal ring 3.6px r15 + 卜 3.8px",
+      "docu": "paper disc + docu ring 2.6px r13 + 卜 2.8px",
+      "monitoring": "22px paper square, muted dashed 1.6px [3,2.5]",
+      "signal": "transparent circle, signal stroke 1.2px opacity .7, r 13+min(7, .25*news30), beneath stamps",
+      "rotate": "-6deg",
+      "order": "verified > documented > monitoring",
+      "basemap": "Carto positron / dark-matter"
+    }
+  },
+  "components": [
+    {
+      "name": "셸 (기표소)",
+      "kind": "nav",
+      "refersTo": "shell",
+      "description": "남색 상단 셸: 로고 도장, 탭, 검색. 탭을 바꿔도 남는다.",
+      "html": "<header class=\"ds-shell\"><span class=\"ds-brand\"><span class=\"ds-brand-stamp\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><circle cx=\"16\" cy=\"16\" r=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\"/><path d=\"M15 7.5v17M15.6 14.2l5.6 3.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span>세계 참여예산 관측소</span><nav class=\"ds-tabs\"><a href=\"#\" aria-current=\"true\">현황</a><a href=\"#\">PB 데일리</a><a href=\"#\">논문</a></nav><input class=\"ds-shell-search\" type=\"search\" placeholder=\"국가·도시·프로그램 검색…\" aria-label=\"검색\"></header>",
+      "css": "font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;.ds-shell{display:flex;align-items:center;gap:24px;height:60px;padding:0 24px;background:var(--shell,#1b2a4a);color:var(--shell-ink,#eef2f8);font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;}.ds-brand{display:flex;align-items:center;gap:10px;font-weight:700;font-size:16px}.ds-brand-stamp{width:30px;height:30px;color:#f0574c;display:grid}.ds-brand-stamp svg{width:30px;height:30px}.ds-tabs{display:flex;gap:2px;margin-left:auto;height:100%}.ds-tabs a{display:flex;align-items:center;padding:0 12px;color:var(--shell-muted,#b6c1d6);text-decoration:none;font-weight:600;font-size:14px;border-top:3px solid transparent;border-bottom:3px solid transparent;transition:color .15s}.ds-tabs a:hover{color:var(--shell-ink,#eef2f8)}.ds-tabs a[aria-current=true]{color:#fff;border-bottom-color:currentColor}.ds-tabs a:focus-visible{outline:2px solid #fff;outline-offset:-4px}.ds-shell-search{width:230px;height:36px;border:1px solid rgba(255,255,255,.18);background:var(--shell-2,#25385f);color:var(--shell-ink,#eef2f8);border-radius:4px;padding:0 10px;font:inherit;font-size:14px}.ds-shell-search::placeholder{color:var(--shell-muted,#b6c1d6)}.ds-shell-search:focus-visible{outline:2px solid #fff;outline-offset:2px}"
+    },
+    {
+      "name": "근거 집계 행 + 기표란",
+      "kind": "custom",
+      "refersTo": "ballot-row",
+      "description": "투표용지 한 줄: 기호 번호, 구분, 국가 수, 기표란 도장. 누르면 도장이 찍힌다.",
+      "html": "<ol class=\"ds-ballot\"><li><button class=\"ds-brow\" type=\"button\"><span class=\"ds-no\">기호<b>1</b></span><span class=\"ds-lab\">공식·검증<small>정부·공식 기관 원문으로 확인</small></span><span class=\"ds-cnt\">10<small>개국</small></span><span class=\"ds-slot ds-seal\" role=\"img\" aria-label=\"근거 상태: 공식·검증\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><circle cx=\"16\" cy=\"16\" r=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\"/><path d=\"M15 7.5v17M15.6 14.2l5.6 3.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span></button></li><li><button class=\"ds-brow\" type=\"button\"><span class=\"ds-no\">기호<b>2</b></span><span class=\"ds-lab\">문헌·플랫폼<small>연구·국제 플랫폼 문헌으로 확인</small></span><span class=\"ds-cnt\">15<small>개국</small></span><span class=\"ds-slot ds-docu\" role=\"img\" aria-label=\"근거 상태: 문헌·플랫폼\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><circle cx=\"16\" cy=\"16\" r=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\"/><path d=\"M15 7.5v17M15.6 14.2l5.6 3.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span></button></li><li><button class=\"ds-brow\" type=\"button\"><span class=\"ds-no\">기호<b>3</b></span><span class=\"ds-lab\">탐색 모니터링<small>근거 탐색 중, 신호만 관측</small></span><span class=\"ds-cnt\">67<small>개국</small></span><span class=\"ds-slot ds-mon\" role=\"img\" aria-label=\"근거 상태: 탐색 모니터링\"></span></button></li></ol>",
+      "css": ".ds-ballot{list-style:none;margin:0;padding:0;border:1.5px solid var(--rule,#14181d);border-radius:0;background:var(--paper,#fff);max-width:380px;font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;font-feature-settings:'tnum' 1}.ds-ballot li+li{border-top:2px solid var(--rule,#14181d)}.ds-brow{width:100%;display:grid;grid-template-columns:40px 1fr auto 56px;align-items:center;gap:12px;padding:12px 16px;background:none;border:0;text-align:left;cursor:pointer;font:inherit;color:var(--ink,#14181d)}.ds-brow:hover{background:var(--hover,#f3f5f8)}.ds-brow:focus-visible{outline:2px solid var(--focus,#1b2a4a);outline-offset:2px}.ds-no{font-size:12px;color:var(--muted,#58616c);line-height:1.2}.ds-no b{display:block;font-size:20px;color:var(--ink,#14181d)}.ds-lab{font-weight:700;font-size:15px}.ds-lab small{display:block;font-weight:400;font-size:12.5px;color:var(--muted,#58616c)}.ds-cnt{font-size:22px;font-weight:800;font-variant-numeric:tabular-nums}.ds-cnt small{font-size:13px;font-weight:600;color:var(--muted,#58616c);margin-left:2px}.ds-slot{width:48px;height:48px;border:1.5px solid var(--rule,#14181d);border-radius:2px;display:grid;place-items:center}.ds-slot svg{width:36px;height:36px;transform:rotate(-3deg)}.ds-seal{color:var(--seal,#c9241b)}.ds-docu{color:var(--docu,#2e3a4d)}.ds-docu svg{opacity:.75}.ds-mon{border-style:dashed;border-color:var(--muted,#58616c)}.ds-brow:active .ds-slot svg{animation:ds-press .2s cubic-bezier(.3,.7,.4,1) both}@keyframes ds-press{0%{transform:scale(1.7) rotate(-14deg);opacity:0}55%{transform:scale(.9) rotate(-2deg);opacity:1}100%{transform:scale(1) rotate(-3deg);opacity:1}}"
+    },
+    {
+      "name": "국가 행",
+      "kind": "custom",
+      "refersTo": "country-row",
+      "description": "탐색기 투표용지의 펼침 행: 번호, 이름, 사실, 날짜, 기표란.",
+      "html": "<div class=\"ds-ctable\"><details class=\"ds-crow\"><summary><span class=\"ds-cno\">001</span><span class=\"ds-cname\"><b>브라질</b><small>Brazil · 남미</small></span><span class=\"ds-facts\">프로그램 3 <span class=\"ds-s\">신호 42</span></span><span class=\"ds-when\">2026-11-18</span><span class=\"ds-slot2\" role=\"img\" aria-label=\"근거 상태: 공식·검증\"><svg viewBox=\"0 0 32 32\" aria-hidden=\"true\"><circle cx=\"16\" cy=\"16\" r=\"13\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.6\"/><path d=\"M15 7.5v17M15.6 14.2l5.6 3.4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2.8\" stroke-linecap=\"round\"/></svg></span></summary><p class=\"ds-cbody\">기준 근거 · <a class=\"ds-src\" href=\"#\">출처</a></p></details></div>",
+      "css": ".ds-ctable{border-top:3px solid var(--rule,#14181d);font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;color:var(--ink,#14181d)}.ds-crow summary{list-style:none;display:grid;grid-template-columns:52px minmax(0,1.6fr) minmax(0,1fr) 120px 64px;align-items:center;gap:16px;padding:12px 16px;cursor:pointer}.ds-crow summary::-webkit-details-marker{display:none}.ds-crow summary:hover,.ds-crow[open] summary{background:var(--hover,#f3f5f8)}.ds-crow summary:focus-visible{outline:2px solid var(--focus,#1b2a4a);outline-offset:2px}.ds-cno,.ds-when{font-size:13px;color:var(--muted,#58616c);font-variant-numeric:tabular-nums}.ds-cname b{font-size:16px}.ds-cname small{display:block;font-size:12.5px;color:var(--muted,#58616c)}.ds-facts{font-size:13px;color:var(--ink-2,#39414b)}.ds-s{color:var(--signal,#1d5bb8);font-weight:700}.ds-slot2{width:44px;height:44px;justify-self:end;border:1.5px solid var(--rule,#14181d);border-radius:2px;display:grid;place-items:center;color:var(--seal,#c9241b)}.ds-slot2 svg{width:32px;height:32px;transform:rotate(-3deg)}.ds-cbody{margin:0;padding:16px 16px 24px 84px;font-size:14px}.ds-src{color:var(--ink,#14181d);text-decoration:underline;text-decoration-color:var(--muted,#58616c)}.ds-src:hover{text-decoration-color:var(--ink,#14181d)}"
+    },
+    {
+      "name": "뉴스 목록",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "날짜 머리 줄 + 신호 항목(번역 제목, 원문 제목, 메타).",
+      "html": "<ol class=\"ds-news\"><li class=\"ds-dhead\">11월 18일 화요일</li><li><h3><a href=\"#\">두랑고 주민참여예산, 제5회에 1억 5천만 페소 편성</a></h3><p class=\"ds-orig\">Presupuesto participativo de Durango…</p><p class=\"ds-meta\"><span class=\"ds-cty\">멕시코</span><span>El Sol de México</span><span class=\"ds-sigtag\">신호</span></p></li></ol>",
+      "css": ".ds-news{list-style:none;margin:0;padding:0;border-top:3px solid var(--rule,#14181d);font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;word-break:keep-all}.ds-news>li{padding:16px 0 16px 4px;border-top:1px solid var(--hair,#d6dbe1)}.ds-news>li.ds-dhead{padding:12px 0 6px;border-top:2px solid var(--rule,#14181d);font-size:13px;font-weight:800;color:var(--ink,#14181d)}.ds-news>li.ds-dhead+li,.ds-news>li:first-child{border-top:0}.ds-news h3{margin:0;font-size:16px;font-weight:700;line-height:1.45}.ds-news h3 a{color:var(--ink,#14181d);text-decoration:none}.ds-news h3 a:hover{color:var(--signal,#1d5bb8);text-decoration:underline}.ds-orig{margin:2px 0 0;font-size:13.5px;color:var(--muted,#58616c)}.ds-meta{display:flex;flex-wrap:wrap;gap:4px 10px;margin:6px 0 0;font-size:12.5px;color:var(--muted,#58616c)}.ds-cty{color:var(--ink-2,#39414b);font-weight:700}.ds-sigtag{display:inline-flex;align-items:center;gap:4px;color:var(--signal,#1d5bb8);font-weight:700}.ds-sigtag::before{content:'';width:7px;height:7px;border-radius:50%;border:2px solid currentColor}"
+    },
+    {
+      "name": "개표 집계표",
+      "kind": "custom",
+      "refersTo": null,
+      "description": "묶음 머리 + 먹 막대 + 고정폭 값. 근거 지표라 청색을 쓰지 않는다.",
+      "html": "<table class=\"ds-tally\"><tbody><tr><th scope=\"rowgroup\" colspan=\"3\">근거 완성도 (프로그램 수)</th></tr><tr><td>75–100%</td><td><span class=\"ds-t\"><span class=\"ds-f\" style=\"width:30%\"></span></span></td><td class=\"ds-v\">6</td></tr><tr><td>0%</td><td><span class=\"ds-t\"><span class=\"ds-f\" style=\"width:100%\"></span></span></td><td class=\"ds-v\">20</td></tr></tbody></table>",
+      "css": ".ds-tally{width:100%;max-width:760px;border-collapse:collapse;font-size:14px;font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;color:var(--ink,#14181d);font-variant-numeric:tabular-nums}.ds-tally th{text-align:left;font-size:13px;font-weight:800;padding:16px 0 6px}.ds-tally td{padding:7px 0;border-top:1px solid var(--hair,#d6dbe1)}.ds-tally td:first-child{width:180px;color:var(--ink-2,#39414b);padding-right:16px}.ds-v{width:64px;text-align:right;font-weight:700}.ds-t{display:block;height:12px;background:var(--hair-2,#e7eaee)}.ds-f{display:block;height:100%;background:var(--ink,#14181d)}"
+    },
+    {
+      "name": "기본 버튼",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "먹 바탕 버튼(더 보기 등).",
+      "html": "<button class=\"ds-btn\" type=\"button\">기사 더 보기</button>",
+      "css": ".ds-btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;min-height:40px;padding:0 16px;border:1px solid var(--ink,#14181d);background:var(--ink,#14181d);color:var(--paper,#fff);border-radius:4px;font-weight:700;font-size:14px;cursor:pointer;transition:background .15s,color .15s;font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;}.ds-btn:hover{background:var(--ink-2,#39414b);border-color:var(--ink-2,#39414b)}.ds-btn:focus-visible{outline:2px solid var(--focus,#1b2a4a);outline-offset:2px}"
+    },
+    {
+      "name": "고스트 버튼",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "용지 바탕 보조 버튼(공식·검증 국가 펼치기).",
+      "html": "<button class=\"ds-btn-ghost\" type=\"button\">공식·검증 국가 펼치기</button>",
+      "css": ".ds-btn-ghost{display:inline-flex;align-items:center;min-height:40px;padding:0 16px;border:1px solid var(--hair,#d6dbe1);background:var(--paper,#fff);color:var(--ink,#14181d);border-radius:4px;font-weight:700;font-size:14px;cursor:pointer;transition:border-color .15s;font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;}.ds-btn-ghost:hover{border-color:var(--ink,#14181d)}.ds-btn-ghost:focus-visible{outline:2px solid var(--focus,#1b2a4a);outline-offset:2px}"
+    },
+    {
+      "name": "필드",
+      "kind": "input",
+      "refersTo": "field",
+      "description": "라벨 위, 40px 입력 아래.",
+      "html": "<label class=\"ds-field\"><span>제목 검색</span><input type=\"search\" placeholder=\"예: 투표, Kraków…\"></label>",
+      "css": ".ds-field{display:grid;gap:4px;font-size:12.5px;font-weight:700;color:var(--ink-2,#39414b);max-width:260px;font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;}.ds-field input{height:40px;border:1px solid var(--hair,#d6dbe1);background:var(--paper,#fff);border-radius:4px;padding:0 10px;font:inherit;font-size:14px;font-weight:400;color:var(--ink,#14181d)}.ds-field input:hover{border-color:var(--muted,#58616c)}.ds-field input::placeholder{color:var(--muted,#58616c)}.ds-field input:focus-visible{outline:2px solid var(--focus,#1b2a4a);outline-offset:2px}"
+    },
+    {
+      "name": "빠른 국가 칩",
+      "kind": "chip",
+      "refersTo": "quick-chip",
+      "description": "알약형 필터 칩, 눌림은 먹 바탕.",
+      "html": "<div class=\"ds-quick\"><button type=\"button\" aria-pressed=\"true\">멕시코<span class=\"ds-c\">88</span></button><button type=\"button\" aria-pressed=\"false\">브라질<span class=\"ds-c\">41</span></button></div>",
+      "css": ".ds-quick{display:flex;gap:6px;flex-wrap:wrap;font-family:\"Pretendard Variable\",Pretendard,-apple-system,\"Apple SD Gothic Neo\",\"Malgun Gothic\",system-ui,sans-serif;}.ds-quick button{border:1px solid var(--hair,#d6dbe1);background:var(--paper,#fff);border-radius:999px;padding:4px 10px;font:inherit;font-size:13px;cursor:pointer;color:var(--ink-2,#39414b)}.ds-quick button:hover{border-color:var(--ink,#14181d)}.ds-quick button:focus-visible{outline:2px solid var(--focus,#1b2a4a);outline-offset:2px}.ds-quick button[aria-pressed=true]{background:var(--ink,#14181d);color:var(--paper,#fff);border-color:var(--ink,#14181d)}.ds-c{color:var(--muted,#58616c);margin-left:3px;font-variant-numeric:tabular-nums}.ds-quick button[aria-pressed=true] .ds-c{color:inherit;opacity:.75}"
+    }
+  ],
+  "narrative": {
+    "northStar": "투표용지와 기표",
+    "overview": "참여예산의 의식은 투표다. 이 화면에서 모든 근거 레코드는 투표용지의 한 줄이고, 근거 상태는 그 줄 오른쪽 기표란에 찍힌 卜 도장으로 읽는다. 흰 용지 위에 먹색 글자를 쓰고, 행과 행은 굵은 먹선으로 가르며, 화면 맨 위 남색 셸은 기표소 칸막이다. 인주 주홍은 '공식·검증' 도장 한 가지에만 쓰고, 문헌 근거는 같은 도장을 먹색 테두리로만 찍으며, 탐색 모니터링은 아무것도 찍히지 않은 점선 기표란으로 남긴다.\n\n매일 들어오는 뉴스와 논문은 '신호'다. 신호는 개표 청색 한 색으로만 표시하고 근거 표시에는 끼어들지 않는다. 지도에서도 신호 고리는 도장 층 아래에 얇고 옅게 깔린다. 바탕 층(근거)을 신호 층이 덮어쓰지 못한다는 규율이 색과 층 순서 모두에 걸려 있다.\n\n밀도는 높다. 연구자와 실무자가 사무실 데스크톱에서 숫자와 출처를 훑는 화면이라, 숫자는 모두 고정폭으로 맞추고 표·목록이 장식 없이 이어진다. 그림자와 카드 대신 선 굵기(1px 실선, 1.5px 테두리, 2px 행 구분, 3px 머리선)로 위계를 만든다.",
+    "keyCharacteristics": [
+      "흰 용지 바탕 + 먹색 글자 + 남색 기표소 셸, 세 겹으로 끝나는 바탕",
+      "기표란 열: 국가·프로그램·집계 행의 오른쪽 끝에 도장 상태가 찍힌다",
+      "색은 의미에만: 주홍 = 공식·검증, 청색 = 신호, 그 밖의 모든 것은 먹색 계열",
+      "선 굵기 위계(1 / 1.5 / 2 / 3px)가 그림자를 대신한다",
+      "서체는 Pretendard 하나, 숫자는 전부 고정폭",
+      "움직임은 단 하나: 필터를 바꿀 때 도장이 눌리듯 찍히는 200ms"
+    ],
+    "rules": [
+      {
+        "name": "인주는 공식에만 Rule",
+        "body": "주홍은 '공식·검증' 도장과 그 도장으로 된 로고에만 쓴다. 경고, 강조, 활성 상태, 오류 표시에 주홍을 빌려 쓰지 않는다.",
+        "section": "colors"
+      },
+      {
+        "name": "신호는 근거를 덮지 못한다 Rule",
+        "body": "청색은 뉴스·논문 신호에만 쓰고 근거 상태 표시에는 절대 쓰지 않는다. 지도에서 신호 층은 도장 층 아래, 1.2px·불투명도 0.7로 깔린다.",
+        "section": "colors"
+      },
+      {
+        "name": "출처는 먹 밑줄 Rule",
+        "body": "근거의 출처 링크(`src`: 국가 기준 근거 '출처', 비교표 '원문')는 먹색 글자에 회먹 밑줄, hover 때 밑줄만 먹으로 진해진다. 프로그램 출처 링크와 원장·참고문헌 링크도 먹색이다. 근거 쪽 링크를 청색으로 칠하면 신호처럼 보인다.",
+        "section": "colors"
+      },
+      {
+        "name": "숫자는 고정폭 Rule",
+        "body": "`body` 전체에 `\"tnum\" 1`을 걸고, 숫자 요소에는 `font-variant-numeric: tabular-nums`를 다시 건다. 날짜(`time`), 개수, 비율은 세로로 줄이 맞아야 한다.",
+        "section": "typography"
+      },
+      {
+        "name": "어절은 끊지 않는다 Rule",
+        "body": "본문은 `word-break: keep-all` + `overflow-wrap: break-word`. 제목은 `text-wrap: balance`. 다국어 원문 제목·URL처럼 긴 문자열만 `overflow-wrap: anywhere`로 푼다.",
+        "section": "typography"
+      },
+      {
+        "name": "자동 번역은 원문과 함께 Rule",
+        "body": "번역 제목(Title) 바로 아래 원문 제목을 Meta 크기 회먹으로 붙인다.",
+        "section": "typography"
+      },
+      {
+        "name": "선 굵기가 위계 Rule",
+        "body": "1px `hair` = 같은 묶음 안 항목 사이. 1.5px `rule` = 투표용지·지도 패널 테두리, 기표란 테두리. 2px `rule` = 투표용지 행 사이, 국가 행 사이, 뉴스 날짜 머리, 표 머리 아래, 집계표 묶음 머리. 3px `rule` = 용지 머리선(투표용지 머리 아래, 신호 상자 위, 뉴스·논문·국가 표·데이터 표·근거 열의 맨 위).",
+        "section": "elevation"
+      }
+    ],
+    "dos": [
+      "**Do** 근거 레코드는 투표용지 행으로 만들고, 상태는 오른쪽 기표란 도장으로 보여 준다(공식 = 주홍 도장, 문헌 = 문헌 먹 도장, 모니터링 = 빈 점선 기표란).",
+      "**Do** 위계는 먹선 굵기로 만든다: 1px 실선, 1.5px 테두리, 2px 행 구분, 3px 머리선.",
+      "**Do** 투표용지·패널·표·필터 막대는 반경 0, 조작 요소만 4px.",
+      "**Do** 모든 숫자에 고정폭 숫자를 쓰고, 본문에는 `word-break: keep-all`.",
+      "**Do** 근거 출처 링크는 먹 글자 + 회먹 밑줄(`src`)로 쓴다.",
+      "**Do** 자동 번역 제목 아래에 원문 제목을 붙이고, 모르는 값은 '확인 중'으로 쓴다.",
+      "**Do** 도장 찍기 움직임은 상태가 바뀔 때만(200ms) 쓴다."
+    ],
+    "donts": [
+      "**Don't** 주홍을 공식·검증 도장 밖(활성 상태, 경고, 강조, 버튼)에 쓰지 않는다.",
+      "**Don't** 청색을 근거 상태·근거 막대·출처 링크에 쓰지 않는다. 신호 층이 근거 층을 덮지 않는다.",
+      "**Don't** 패널과 행에 그림자를 깔거나 카드로 띄우지 않는다. 그림자는 바로가기 링크와 지도 팝업 같은 떠 있는 것에만.",
+      "**Don't** Pretendard 밖의 두 번째 서체를 들이지 않는다.",
+      "**Don't** 다크 지도 + KPI 카드 + 신문형 뉴스라는 범주 기본 배치로 돌아가지 않는다.",
+      "**Don't** 처음 그릴 때나 스크롤 때 도장을 찍지 않는다. 장식용 움직임을 더하지 않는다."
+    ]
+  }
+}
