@@ -33,7 +33,8 @@ DATA = ROOT / "data"
 NOW = datetime.now(timezone.utc)
 TODAY = NOW.date().isoformat()
 UA = "Mozilla/5.0 (compatible; PB-Observatory/4.0; +https://github.com)"
-MAILTO = os.environ.get("OPENALEX_MAILTO", "pb-observatory@example.org")
+MAILTO = os.environ.get("OPENALEX_MAILTO") or "pb-observatory@example.org"
+REAL_MAILTO = "@" in MAILTO and not MAILTO.endswith("example.org")
 TRANSLATE = os.environ.get("PB_TRANSLATE", "1") == "1"
 NEWS_KEEP_DAYS = 400
 NEWS_MAX = 1500
@@ -140,7 +141,10 @@ def _google(text, src):
 
 
 def _mymemory(text, src):
-    q = urllib.parse.urlencode({"q": text[:480], "langpair": f"{src or 'en'}|ko", "de": MAILTO})
+    params = {"q": text[:480], "langpair": f"{src or 'en'}|ko"}
+    if REAL_MAILTO:  # 실제 이메일이 있으면 일일 한도 5천→5만 자
+        params["de"] = MAILTO
+    q = urllib.parse.urlencode(params)
     j = json.loads(http_get("https://api.mymemory.translated.net/get?" + q, timeout=20, retries=0))
     if j.get("quotaFinished"):
         raise RuntimeError("MyMemory quota finished")
