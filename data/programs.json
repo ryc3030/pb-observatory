@@ -10,7 +10,10 @@
    "program_name": "국민참여예산",
    "stage": "annual cycle",
    "budget": {
-    "display": "확인 중"
+    "display": "3,010억 원(2027년 정부 예산안, 21개 사업, 국회 심의 전)",
+    "amount": 301000000000,
+    "currency": "KRW",
+    "source_url": "https://eiec.kdi.re.kr/policy/materialView.do?num=286453"
    },
    "participants": {
     "count": null,
@@ -22,7 +25,7 @@
    },
    "primary_url": "https://www.mybudget.go.kr/",
    "source_type": "official",
-   "last_verified": null,
+   "last_verified": "2026-11-18",
    "lat": 36.48,
    "lon": 127.29,
    "tracking_status": "verified",
@@ -233,11 +236,7 @@
    "program_name": "OmaStadi",
    "stage": "implementation",
    "budget": {
-    "display": "€10,000,000 (Participatory budgeting 2025-2026, 공식 API)",
-    "amount": 10000000,
-    "currency": "EUR",
-    "source": "official_api",
-    "source_url": "https://omastadi.hel.fi/processes/osbu-2025"
+    "display": "확인 중"
    },
    "participants": {
     "count": null,
@@ -414,11 +413,7 @@
    "program_name": "Budżet Obywatelski Miasta Krakowa",
    "stage": "annual cycle",
    "budget": {
-    "display": "37,999,992 zł (2022년 19개 투표 합계, Pabulib)",
-    "amount": 37999992,
-    "currency": "PLN",
-    "source": "pabulib",
-    "source_url": "https://pabulib.org/"
+    "display": "확인 중"
    },
    "participants": {
     "count": null,
