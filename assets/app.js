@@ -199,6 +199,7 @@ function setupShell() {
     setTheme();
     try { localStorage.setItem("pb-theme", document.documentElement.classList.contains("dark") ? "dark" : "light"); } catch {}
     if (evMap) evMap.setStyle(mapStyle(), { diff: false });
+    if (histMap) histMap.setStyle(mapStyle(), { diff: false });
     renderTrend();
   };
   $("#globalSearch").addEventListener("keydown", (e) => {
@@ -298,6 +299,7 @@ function renderMap() {
   evMap = new maplibregl.Map({ container: "map2d", style: mapStyle(), center: [10, 22], zoom: 0.9, minZoom: 0.5, maxZoom: 7,
     renderWorldCopies: false, attributionControl: { compact: true }, cooperativeGestures: matchMedia("(pointer:coarse)").matches });
   evMap.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  evMap.getCanvas().setAttribute("aria-label", "근거 지도");
   evPopup = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12 });
   evMap.on("load", () => evMap.fitBounds([[-165, -50], [178, 72]], { padding: 16, duration: 0 }));
   evMap.on("style.load", addMapLayers);
@@ -535,6 +537,66 @@ function renderHistory() {
         <div class="src"><b>근거</b>${(i.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("")}</div></li>`).join("")}</ol></section>`;
   }).join("") || '<p class="empty">연표 자료를 불러오지 못했습니다.</p>';
   const f = $('#timeline [data-viz="poa"]'); if (f) bindPOA(f);
+  updateHistMap();
+}
+
+
+/* 역사 지도 */
+let histMap = null, histEra = "all";
+function histGeo() {
+  const ko = $("#koOnly").checked, origin = [-51.22, -30.03];
+  const groups = {};
+  TL.items.forEach((it, n) => {
+    if (!it.coord) return;
+    const k = it.coord.join(",");
+    (groups[k] ??= { coord: it.coord, place: it.place, list: [] }).list.push({ it, n });
+  });
+  const pts = [], lines = [];
+  Object.values(groups).forEach((g) => {
+    const vis = g.list.filter(({ it }) => (histEra === "all" || it.era === histEra) && (!ko || it.iso3 === "KOR"));
+    const first = g.list[0];
+    pts.push({ type: "Feature", geometry: { type: "Point", coordinates: [g.coord[1], g.coord[0]] },
+      properties: { place: g.place, count: g.list.length, on: vis.length ? 1 : 0, kr: first.it.iso3 === "KOR" ? 1 : 0,
+        target: tlId((vis[0] || first).it, (vis[0] || first).n),
+        html: g.list.map(({ it }) => `<div${(histEra === "all" || it.era === histEra) && (!ko || it.iso3 === "KOR") ? "" : ' style="opacity:.55"'}><b style="display:inline">${esc(it.year)}</b> ${esc(it.title)}</div>`).join("") } });
+    if (vis.length && g.place !== "포르투알레그리") lines.push({ type: "Feature", geometry: { type: "LineString", coordinates: [origin, [g.coord[1], g.coord[0]]] }, properties: {} });
+  });
+  return { pts: { type: "FeatureCollection", features: pts }, lines: { type: "FeatureCollection", features: lines } };
+}
+function addHistLayers() {
+  const cs = getComputedStyle(document.documentElement), v = (n) => cs.getPropertyValue(n).trim();
+  if (histMap.getSource("hp")) return;
+  const g = histGeo();
+  histMap.addSource("hl", { type: "geojson", data: g.lines });
+  histMap.addSource("hp", { type: "geojson", data: g.pts });
+  histMap.addLayer({ id: "hl", type: "line", source: "hl", paint: { "line-color": v("--ink"), "line-width": 1, "line-opacity": 0.35 } });
+  histMap.addLayer({ id: "hp", type: "circle", source: "hp", paint: {
+    "circle-radius": ["+", 5, ["*", 2.2, ["get", "count"]]],
+    "circle-color": ["case", ["==", ["get", "on"], 1], v("--ink"), v("--paper")],
+    "circle-opacity": ["case", ["==", ["get", "on"], 1], 0.9, 1],
+    "circle-stroke-width": 2, "circle-stroke-color": ["case", ["==", ["get", "on"], 1], v("--paper"), v("--muted")] } });
+}
+function updateHistMap() {
+  if (!histMap || !histMap.getSource("hp")) return;
+  const g = histGeo();
+  histMap.getSource("hp").setData(g.pts); histMap.getSource("hl").setData(g.lines);
+}
+function renderHistMap() {
+  const eras = [{ id: "all", label: "전체" }, ...TL.eras];
+  $("#tlEraSeg").innerHTML = eras.map((e) => `<button type="button" data-era="${esc(e.id)}" aria-pressed="${e.id === histEra}">${esc(e.label)}</button>`).join("");
+  $$("#tlEraSeg button").forEach((b) => (b.onclick = () => { histEra = b.dataset.era; $$("#tlEraSeg button").forEach((x) => x.setAttribute("aria-pressed", x === b)); updateHistMap(); }));
+  if (!window.maplibregl) { $("#tlMap").innerHTML = '<p class="empty">지도를 불러오지 못했습니다. 아래 연표에 같은 내용이 있습니다.</p>'; return; }
+  histMap = new maplibregl.Map({ container: "tlMap", style: mapStyle(), center: [10, 20], zoom: 0.8, minZoom: 0.5, maxZoom: 6, renderWorldCopies: false,
+    attributionControl: { compact: true }, cooperativeGestures: matchMedia("(pointer:coarse)").matches });
+  histMap.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+  histMap.getCanvas().setAttribute("aria-label", "참여예산 역사 지도");
+  histMap.on("load", () => histMap.fitBounds([[-110, -40], [140, 62]], { padding: 20, duration: 0 }));
+  histMap.on("style.load", addHistLayers);
+  const pop = new maplibregl.Popup({ closeButton: false, closeOnClick: false, offset: 12, maxWidth: "320px" });
+  histMap.on("mouseenter", "hp", () => (histMap.getCanvas().style.cursor = "pointer"));
+  histMap.on("mousemove", "hp", (e) => { const p = e.features?.[0]?.properties; if (p) pop.setLngLat(e.lngLat).setHTML(`<b>${esc(p.place)}</b><div style="margin-top:4px;display:grid;gap:3px">${p.html}</div>`).addTo(histMap); });
+  histMap.on("mouseleave", "hp", () => { histMap.getCanvas().style.cursor = ""; pop.remove(); });
+  histMap.on("click", "hp", (e) => { const p = e.features?.[0]?.properties; if (!p) return; const el = document.getElementById(p.target); if (el) { if ($("#koOnly").checked && !el) return; el.scrollIntoView({ block: "start" }); location.hash = p.target; } });
 }
 
 /* ---------- 분석 ---------- */
@@ -641,7 +703,7 @@ function bind() {
   setupShell(); bind(); setupNews();
   renderAnalytics();
   const openIso = restoreURL();
-  renderBallot(); renderMap(); renderNews(); renderResearch(); renderTree(); renderHistory(); renderEvidence();
+  renderBallot(); renderMap(); renderNews(); renderResearch(); renderTree(); renderHistory(); renderHistMap(); renderEvidence();
   $("#koOnly").onchange = renderHistory;
   if (openIso && byISO[openIso]) openCountry(openIso);
 })();
