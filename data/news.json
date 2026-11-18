@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-18T02:08:34.842280+00:00",
- "count": 510,
+ "updated_at": "2026-11-18T02:13:59.152891+00:00",
+ "count": 513,
  "items": [
   {
    "id": "174c7cbe2c2ccd",
@@ -2175,7 +2175,8 @@
    "published_at": "2026-11-12T22:14:37+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "d2171097d1911e",
@@ -2190,7 +2191,8 @@
    "published_at": "2026-11-12T18:43:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "c189696c8ce81b",
@@ -2205,7 +2207,8 @@
    "published_at": "2026-11-12T17:37:34+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "72ffff0df6959d",
@@ -2220,7 +2223,8 @@
    "published_at": "2026-11-12T17:32:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "059a28d899ad2d",
@@ -2235,7 +2239,8 @@
    "published_at": "2026-11-12T16:01:23+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "d38a389d0a3a8c",
@@ -2250,7 +2255,8 @@
    "published_at": "2026-11-12T16:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "6d8fdb2c7a8574",
@@ -2265,7 +2271,8 @@
    "published_at": "2026-11-12T14:34:35+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "587f36b6b7a5f2",
@@ -2280,7 +2287,8 @@
    "published_at": "2026-11-12T13:18:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "97a311e2a37cd1",
@@ -2295,7 +2303,8 @@
    "published_at": "2026-11-12T11:40:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "f9c3103033eff3",
@@ -2310,7 +2319,8 @@
    "published_at": "2026-11-12T03:08:15+00:00",
    "country_iso3": "USA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "32dd94fd2f23af",
@@ -2325,7 +2335,8 @@
    "published_at": "2026-11-12T00:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "7ce54733812d46",
@@ -2340,7 +2351,8 @@
    "published_at": "2026-11-11T22:27:41+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "5f1a213ed41759",
@@ -2355,7 +2367,8 @@
    "published_at": "2026-11-11T17:47:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "903eab4d877122",
@@ -2370,7 +2383,8 @@
    "published_at": "2026-11-11T16:46:36+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "b41c97c182475e",
@@ -2385,7 +2399,8 @@
    "published_at": "2026-11-11T15:20:07+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "13718834dbcd2a",
@@ -2400,7 +2415,8 @@
    "published_at": "2026-11-11T13:02:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "24805abdc3b3c6",
@@ -2415,7 +2431,8 @@
    "published_at": "2026-11-11T11:04:20+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "3681572e59166d",
@@ -2430,7 +2447,8 @@
    "published_at": "2026-11-11T08:31:23+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "de60c4b2bfd14a",
@@ -2445,7 +2463,8 @@
    "published_at": "2026-11-11T06:39:23+00:00",
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "75e6094472b56e",
@@ -2490,7 +2509,8 @@
    "published_at": "2026-11-11T00:17:30+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "397aa4fb3ca4d8",
@@ -2505,7 +2525,8 @@
    "published_at": "2026-11-11T00:15:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "4d9bbd93cab6a3",
@@ -2520,7 +2541,8 @@
    "published_at": "2026-11-11T00:13:28+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "d094eb90a4a2c1",
@@ -2535,7 +2557,8 @@
    "published_at": "2026-11-10T23:47:42+00:00",
    "country_iso3": "MYS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "cfb869d47e60cf",
@@ -2550,7 +2573,8 @@
    "published_at": "2026-11-10T20:21:57+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "74abebf20837ae",
@@ -2565,7 +2589,8 @@
    "published_at": "2026-11-10T19:59:52+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "69e7310899d98c",
@@ -2580,7 +2605,8 @@
    "published_at": "2026-11-10T19:27:33+00:00",
    "country_iso3": "COL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "e1708b2823b084",
@@ -2595,7 +2621,8 @@
    "published_at": "2026-11-10T17:31:10+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "ee12bf31bd761b",
@@ -2610,7 +2637,8 @@
    "published_at": "2026-11-10T16:13:41+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:59:42.392219+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "88af6fb58bd349",
@@ -2625,7 +2653,8 @@
    "published_at": "2026-11-10T14:23:31+00:00",
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "906c48c6a343ff",
@@ -2640,7 +2669,8 @@
    "published_at": "2026-11-10T12:49:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "_tr_tried": false
   },
   {
    "id": "dd516143ea4abb",
@@ -3285,6 +3315,21 @@
    "published_at": "2026-11-07T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
+   "kind": "signal"
+  },
+  {
+   "id": "96437f302f11df",
+   "title": "Giżycki Budżet Obywatelski - Głosowanie",
+   "title_ko": null,
+   "lang": "pl",
+   "source": "Giżycko.pl -",
+   "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFByNzRUeTdjMUkxS3ltR2JDWjBIOFpWVm0wSG5tbXQ1ZzMxUll6NmZNYTR1aFhxd01TeEo2U2RWeUg0d0NqSnRDbUs0cXY5RFhBRWRUMFQ3N0hVYjZISE02dXhnUjYwLVJDVUE?oc=5",
+   "source_url": "https://gizycko.pl",
+   "gl": "PL",
+   "default_iso": "POL",
+   "published_at": "2026-11-06T23:16:17+00:00",
+   "country_iso3": "POL",
+   "collected_at": "2026-11-18T02:13:59.152891+00:00",
    "kind": "signal"
   },
   {
@@ -4230,6 +4275,21 @@
    "published_at": "2026-11-03T17:32:58+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
+   "kind": "signal"
+  },
+  {
+   "id": "b09d6101bfb930",
+   "title": "Orquestra de Castro Verde ganha carrinha graças a Orçamento Participativo",
+   "title_ko": null,
+   "lang": "pt",
+   "source": "Notícias ao Minuto",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNWm9ZREF2T2VxYjlZX2U0QnNtalNRTGdyRFhpU19mMmtsSTBtcWx4bGxLSndlRjd1ODBhNzFpREFtV21RaVBwVzBoUUQyeTczWTBWUWwyZno0TG5INy1vUUZJaVdxaGw1ZGFHZEhqdDlrTFFGZkc4WWdrT21EYmt2cXd5dWV6T29fZmttZFRQajFFbHpoeDA4ckZhRktycEl4NTRzVjRocGs5RzV0MXpsNHM1clp2aklJZFd2RWs3Rk80d1l0aHZn?oc=5",
+   "source_url": "https://www.noticiasaominuto.com",
+   "gl": "PT",
+   "default_iso": "PRT",
+   "published_at": "2026-11-03T11:28:00+00:00",
+   "country_iso3": "PRT",
+   "collected_at": "2026-11-18T02:13:59.152891+00:00",
    "kind": "signal"
   },
   {
@@ -5655,6 +5715,21 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
+   "kind": "signal"
+  },
+  {
+   "id": "ef8320fd880493",
+   "title": "거제시, 경남 주민참여예산 8개 사업 선정…10억700만원 확보",
+   "title_ko": null,
+   "lang": "ko",
+   "source": "거제신문",
+   "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1NalhuMUpwakQwOGMzLTRkaWRCZHFLVTViWTgtbEZYeVc0VWpFT2VJT1A0ZFRZRGhobkJreXVNYk9IWmdMbHY3WF9yVzduamlWNkNFM0h6cG9mUUhDOHZXbFc4NFpBazB2dVhXaFh3?oc=5",
+   "source_url": "https://www.geojenews.co.kr",
+   "gl": "KR",
+   "default_iso": "KOR",
+   "published_at": "2026-10-29T07:00:00+00:00",
+   "country_iso3": "KOR",
+   "collected_at": "2026-11-18T02:13:59.152891+00:00",
    "kind": "signal"
   },
   {

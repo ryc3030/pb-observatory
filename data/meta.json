@@ -1,12 +1,12 @@
 {
- "updated_at": "2026-11-18T02:08:34.842280+00:00",
+ "updated_at": "2026-11-18T02:13:59.152891+00:00",
  "version": "4.0",
  "counts": {
   "countries": 92,
   "programs": 39,
-  "news": 510,
+  "news": 513,
   "papers": 222,
   "ledger": 56,
-  "news_added_today": 0
+  "news_added_today": 3
  }
 }
