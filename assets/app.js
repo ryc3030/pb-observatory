@@ -109,6 +109,7 @@ const svg = (id, cls = "") => `<svg${cls ? ` class="${cls}"` : ""} aria-hidden="
 const nf = new Intl.NumberFormat("ko-KR");
 
 let META = {}, countries = [], programs = [], news = [], papers = [], ledger = [], health = {}, snaps = [], refs = [], TL = { eras: [], items: [] };
+let cases = [], units = [];
 let byISO = {};
 const ORDER = ["verified", "documented", "monitoring"];
 const statusName = { verified: "공식·검증", documented: "문헌·플랫폼", monitoring: "탐색 모니터링" };
@@ -165,11 +166,13 @@ async function getJSON(name, fb) {
   }
 }
 async function loadAll() {
-  const [m, c, p, n, pa, l, h, hi, rf] = await Promise.all([
+  const [m, c, p, n, pa, l, h, hi, rf, cs, el] = await Promise.all([
     getJSON("meta.json", {}), getJSON("countries.json", { items: [] }), getJSON("programs.json", { items: [] }),
     getJSON("news.json", { items: [] }), getJSON("papers.json", { items: [] }), getJSON("ledger.json", []),
     getJSON("health.json", {}), getJSON("history.json", []), getJSON("timeline.json", { eras: [], items: [] }),
+    getJSON("cases.json", { items: [] }), getJSON("elections.json", { units: [] }),
   ]);
+  cases = cs.items || []; units = el.units || [];
   META = m; countries = c.items || []; programs = p.items || []; news = n.items || []; papers = pa.items || [];
   ledger = l || []; health = h || {}; snaps = hi || []; TL = rf && rf.items ? rf : TL;
   byISO = Object.fromEntries(countries.map((x) => [x.iso3, x]));
@@ -376,7 +379,7 @@ function renderNews() {
     return `${head}<li><div>
       <h3><a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(strip(ko ? x.title_ko : x.title))}</a></h3>
       ${ko ? `<p class="orig" lang="${esc(x.lang)}">${esc(x.title)}</p>` : ""}
-      <p class="meta"><span class="sigtag">신호</span><span class="cty">${esc(countryName(x.country_iso3))}</span><span>${esc(LANG_KO[x.lang] || x.lang)}</span><span>${esc(x.source || "")}</span></p>${dup}</div></li>`;
+      <p class="meta"><span class="sigtag">신호</span><span class="cty"${x.iso_basis ? ` title="국가 판정 근거: ${esc(x.iso_basis)}"` : ""}>${esc(countryName(x.country_iso3))}${x.iso_basis && x.iso_basis !== "제목" ? `<small> (${esc(x.iso_basis)})</small>` : ""}</span><span>${esc(LANG_KO[x.lang] || x.lang)}</span><span>${esc(x.source || "")}</span></p>${dup}</div></li>`;
   }).join("");
 }
 
@@ -403,7 +406,7 @@ function renderTree(press = false) {
   const region = $("#region").value, tracking = $("#tracking").value, has = $("#hasProgram").value, q = $("#search").value.trim().toLowerCase();
   const filtered = countries.filter((c) => {
     if (region !== "all" && c.region !== region) return false;
-    if (tracking !== "all" && status(c) !== tracking) return false;
+    if (tracking === "review" ? !c.review_hint : tracking !== "all" && status(c) !== tracking) return false;
     const ps = programs.filter((p) => p.country_iso3 === c.iso3);
     if (has === "with" && !ps.length) return false;
     if (has === "without" && ps.length) return false;
@@ -429,11 +432,12 @@ function renderTree(press = false) {
     const marks = `<ul class="mark-list">
       <li>${svg("sq", "mk2")}<span><b>기준 근거</b> ${esc(c.base_signal || "—")}${c.primary_source ? ` · <a class="src" href="${esc(c.primary_source)}" target="_blank" rel="noopener">출처</a>` : ""}${c.base_signal_date ? ` <span class="note">(${esc(c.base_signal_date)})</span>` : ""}</span></li>
       ${ln ? `<li>${svg("ci", "mk2")}<span><b>최근 뉴스 신호</b> <a href="${esc(ln.url)}" target="_blank" rel="noopener">${esc(ln.title)}</a> <span class="note">${esc(ln.source)} · ${esc(ln.date)}</span></span></li>` : ""}
-      <li>${svg("ci", "mk2")}<span><b>신호 집계</b> 최근 30일 기사 ${c.news_30d || 0}건 · 1년 ${c.news_365d || 0}건</span></li></ul>`;
+      <li>${svg("ci", "mk2")}<span><b>신호 집계</b> 최근 30일 기사 ${c.news_30d || 0}건 · 1년 ${c.news_365d || 0}건</span></li>
+      ${registryLine(c)}</ul>`;
     return `<details class="crow" data-status="${status(c)}" data-iso="${c.iso3}">
       <summary><span class="no">${i + 1}</span>
         <span class="name"><b>${esc(c.name_ko)}</b><small>${esc(regionName(c.region))} · ${esc(c.name_en)}</small></span>
-        <span class="facts"><span>프로그램 ${ps.length}</span>${c.news_30d ? `<span class="s">30일 신호 ${c.news_30d}</span>` : '<span class="note">신호 없음</span>'}</span>
+        <span class="facts"><span>프로그램 ${ps.length}</span>${c.review_hint ? '<span class="rv" title="레지스트리에 사례가 있어 근거 상태를 사람이 검토할 대상">검토 필요</span>' : ""}${c.news_30d ? `<span class="s">30일 신호 ${c.news_30d}</span>` : '<span class="note">신호 없음</span>'}</span>
         <span class="when">${c.activity_date ? "최근 " + esc(c.activity_date) : "—"}</span>
         ${slot(status(c))}</summary>
       <div class="cbody">${marks}${ps.length ? `<div class="progs">${ps.map(renderProgram).join("")}</div>` : `<p class="note">아직 프로그램 단위 근거가 없습니다. 원문 근거가 확인되면 프로그램 레지스트리(data/programs.seed.json)에 추가됩니다.</p>`}</div></details>`;
@@ -446,16 +450,47 @@ function renderProgram(p) {
   const legal = p.legal_basis?.title ? esc(p.legal_basis.title) + (p.legal_basis.year ? ` (${p.legal_basis.year})` : "") : "확인 중";
   const seen = new Set();
   const rel = (p.related_news || []).filter((n) => !seen.has(n.title) && seen.add(n.title)).map((n) => `<a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.date)} · ${esc(n.title)}</a>`).join("");
-  return `<article class="prog"><header style="display:flex;justify-content:space-between;gap:12px"><div><h4>${esc(programName(p))}</h4><p class="sub">${esc(p.jurisdiction_name)} · ${esc(levelName(p.jurisdiction_level))} · ${esc(stageName(p.stage))}</p></div>${slot(p.tracking_status || "monitoring")}</header>
+  return `<article class="prog"><header style="display:flex;justify-content:space-between;gap:12px"><div><h3>${esc(programName(p))}</h3><p class="sub">${esc(p.jurisdiction_name)} · ${esc(levelName(p.jurisdiction_level))} · ${esc(stageName(p.stage))}</p></div>${slot(p.tracking_status || "monitoring")}</header>
     <dl class="fields">
-      <dt class="${f.예산 ? "on" : ""}">예산</dt><dd class="${f.예산 ? "" : "unk"}">${esc(p.budget?.display || "확인 중")}</dd>
+      <dt class="${f.예산 ? "on" : ""}">예산</dt><dd class="${f.예산 ? "" : "unk"}">${esc(p.budget?.display || "확인 중")}${p.budget?.source_url ? ` <a class="src" href="${esc(p.budget.source_url)}" target="_blank" rel="noopener">근거</a>` : ""}</dd>
       <dt class="${f.참여 ? "on" : ""}">참여</dt><dd class="${f.참여 ? "" : "unk"}">${part}</dd>
       <dt class="${f.단계 ? "on" : ""}">단계</dt><dd class="${f.단계 ? "" : "unk"}">${esc(stageName(p.stage))}</dd>
       <dt class="${f.법적근거 ? "on" : ""}">법적근거</dt><dd class="${f.법적근거 ? "" : "unk"}">${legal}</dd>
     </dl>
     <div class="complete" title="예산·참여·단계·법적근거 중 확인된 필드 비율"><span>근거 완성도</span><span class="track"><span class="fill" style="width:${score}%;display:block"></span></span><b>${score}%</b></div>
+    ${officialBlock(p)}${pabuLine(p.pabulib)}
+    ${p.cases?.length ? `<div class="relnews cases"><span class="note">Participedia 사례</span>${p.cases.map((x) => `<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join("")}</div>` : ""}
     ${rel ? `<div class="relnews"><span class="note">관련 신호</span>${rel}</div>` : ""}
     <footer><span>${esc(sourceName(p.source_type))}${p.last_verified ? " · " + esc(p.last_verified) + " 확인" : " · 확인일 미기재"}</span>${p.primary_url ? `<a href="${esc(p.primary_url)}" target="_blank" rel="noopener">출처 ${svg("out")}</a>` : ""}</footer></article>`;
+}
+
+/* ---------- 외부 레지스트리 근거 ---------- */
+const money = (v, cur) => v == null ? "—" : cur === "EUR" ? `€${nf.format(v)}` : cur === "PLN" ? `${nf.format(v)} zł` : nf.format(v);
+const CUR = { FIN: "EUR", NLD: "EUR", FRA: "EUR", POL: "PLN" };
+function pabuLine(u) {
+  if (!u) return "";
+  const l = u.latest || {}, cur = CUR[u.iso3];
+  const y = u.last_year_total;
+  return `<p class="regline"><span class="note">Pabulib 투표 기록</span> ${esc(u.unit)} ${u.elections}회(${u.first_year}–${u.last_year}) · 누적 투표지 ${nf.format(u.votes)}${y ? ` · ${u.last_year}년 ${y.elections}개 투표 예산 합계 ${esc(money(y.budget, cur))}, 후보 사업 ${nf.format(y.projects)}건` : ""} <a class="src" href="https://pabulib.org/" target="_blank" rel="noopener">출처</a></p>`;
+}
+function officialBlock(p) {
+  const o = p.official_api;
+  if (!o?.cycles?.length) return "";
+  const cur = CUR[p.country_iso3];
+  const hasNum = o.cycles.some((c) => c.budget_total != null);
+  const rows = o.cycles.slice(0, 5).map((c) => `<tr><th scope="row"><a href="${esc(c.url)}" target="_blank" rel="noopener">${esc(c.title || c.slug)}</a></th><td>${esc(String(c.start || "").slice(0, 7))}</td>${hasNum ? `<td>${esc(money(c.budget_total, cur))}</td><td>${c.projects != null ? nf.format(c.projects) : "—"}</td><td>${c.selected != null ? nf.format(c.selected) : "—"}</td>` : ""}</tr>`).join("");
+  return `<div class="official"><p class="note">공식 플랫폼 API(${esc(o.platform)}) · ${esc(fmtDate(o.checked_at))} 조회</p>
+    <table class="ctable"><thead><tr><th scope="col">회차</th><th scope="col">시작</th>${hasNum ? '<th scope="col">예산</th><th scope="col">제안</th><th scope="col">선정</th>' : ""}</tr></thead><tbody>${rows}</tbody></table></div>`;
+}
+function registryLine(c) {
+  const r = c.registry;
+  if (!r || (!r.participedia && !r.pabulib)) return "";
+  const cs = cases.filter((x) => x.iso3 === c.iso3).slice(0, 3);
+  const us = units.filter((u) => u.iso3 === c.iso3).slice(0, 4);
+  const links = cs.map((x) => `<a class="src" href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.title)}</a>`).join(" · ");
+  const pabu = us.length ? ` · Pabulib 투표 기록 ${nf.format(r.pabulib)}회(${us.map((u) => esc(u.unit)).join(", ")}${c.registry.pabulib_units > us.length ? " 등" : ""})` : "";
+  const more = r.participedia > cs.length ? ` <a class="src" href="https://participedia.net/search?selectedCategory=case&query=participatory%20budgeting%20${encodeURIComponent(c.name_en)}" target="_blank" rel="noopener">사례 ${r.participedia}건 모두 보기</a>` : "";
+  return `<li>${svg("sq", "mk2")}<span><b>플랫폼 근거</b> Participedia 사례 ${r.participedia}건${r.participedia_verified ? `(검수 ${r.participedia_verified})` : ""}${pabu}${links ? `<br>${links}` : ""}${more}${c.review_hint ? `<br><span class="note">모니터링 국가에서 레지스트리 근거가 보여 검토 대상으로 표시했습니다. 상태는 자동으로 바뀌지 않습니다.</span>` : ""}</span></li>`;
 }
 
 /* ---------- 역사 연표 ---------- */
@@ -654,11 +689,20 @@ function renderCompare() {
 
 /* ---------- 근거·출처 ---------- */
 function renderEvidence() {
-  const hs = ["news", "papers", "build"].map((k) => health[k]).filter(Boolean);
+  const hs = ["news", "gdelt", "papers", "participedia", "pabulib", "decidim", "build"].map((k) => health[k]).filter(Boolean);
   $("#health").innerHTML = hs.length ? hs.map((x) => {
-    const detail = x.queries != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 오늘 새 기사 ${x.added} · 보관 ${nf.format(x.total)}` : x.fetched != null ? `오늘 수집 ${x.fetched} · 보관 ${nf.format(x.total)}` : "";
+    const detail = x.added != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 오늘 새 기사 ${x.added}${x.gdelt_added ? ` (GDELT ${x.gdelt_added})` : ""} · 보관 ${nf.format(x.total)}` : x.queries != null ? `검색어 ${x.queries_ok}/${x.queries} 성공 · 수집 ${x.fetched}` : x.fetched != null ? `오늘 수집 ${x.fetched} · 보관 ${nf.format(x.total)}` : "";
     return `<div class="hrow"><span class="st ${x.ok ? "" : "bad"}" aria-hidden="true"></span><b>${esc(x.name)} — ${x.ok ? "정상" : "실패"}</b><p>${esc(fmtDate(x.checked_at, { month: "numeric", day: "numeric", hour: "numeric", minute: "2-digit" }))}${detail ? " · " + esc(detail) : ""}${!x.ok && x.last_success_at ? " · 마지막 성공 " + esc(fmtDate(x.last_success_at)) : ""}</p></div>`;
   }).join("") : '<p class="note">수집 상태 정보가 아직 없습니다.</p>';
+  const SRC = [
+    ["Google News RSS", "https://news.google.com/", "27개 검색어·24개 언어 기사 제목", "PB 데일리, 국가 신호", "news"],
+    ["GDELT DOC 2.0", "https://www.gdeltproject.org/", "원문 직링크·발행국·언어", "PB 데일리 보강, 국가 판정(발행국)", "gdelt"],
+    ["OpenAlex · Crossref", "https://openalex.org/", "논문 서지·초록·DOI", "논문", "papers"],
+    ["Participedia", "https://participedia.net/", `PB 사례 ${nf.format(cases.length)}건(좌표·검수 여부)`, "국가·프로그램 '플랫폼 근거', 검토 필요 표시", "participedia"],
+    ["Pabulib (pabuviz)", "https://pabulib.org/", `투표 기록 ${nf.format(units.reduce((a, u) => a + u.elections, 0))}회(예산·사업·투표 수)`, "폴란드·네덜란드·프랑스 도시 근거", "pabulib"],
+    ["Decidim GraphQL", "https://docs.decidim.org/en/develop/develop/api/", "회차별 예산·제안·선정 사업", "헬싱키 OmaStadi, 뉴욕 The People's Money 공식 수치", "decidim"],
+  ];
+  $("#srcRows").innerHTML = SRC.map(([n, u, what, where, k]) => { const h = health[k]; return `<tr><th scope="row"><a class="src" href="${u}" target="_blank" rel="noopener">${esc(n)}</a></th><td>${esc(what)}</td><td>${esc(where)}</td><td>${h ? (h.ok ? "정상" : "실패") + " · " + esc(fmtDate(h.checked_at, { month: "numeric", day: "numeric" })) : "첫 수집 대기"}</td></tr>`; }).join("");
   $("#ledger").innerHTML = ledger.slice(0, 12).map((o) => `<li><a href="${esc(o.url)}" target="_blank" rel="noopener">${esc(strip(o.text).slice(0, 110))}</a><span class="m">${esc(o.type)} · ${esc(o.label)} · 관측 ${esc(o.observed_at || "—")} · 기록 ${esc(o.date)}</span></li>`).join("") || '<li class="note">원장 기록이 아직 없습니다.</li>';
 }
 

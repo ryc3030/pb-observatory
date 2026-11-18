@@ -1,0 +1,619 @@
+{
+ "updated_at": "2026-11-18T05:20:47.525437+00:00",
+ "source": "Pabulib",
+ "source_url": "https://pabulib.org/",
+ "count": 851,
+ "by_iso": {
+  "POL": 812,
+  "NLD": 38,
+  "FRA": 1
+ },
+ "units": [
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Warszawa",
+   "elections": 344,
+   "votes": 1171453,
+   "projects": 10870,
+   "latest": {
+    "name": "Warszawa, 2023, 2022-06",
+    "subunit": "",
+    "instance": "2023",
+    "budget": 30339246.0,
+    "num_projects": 138,
+    "num_votes": 78904,
+    "date_begin": "2022-06-15",
+    "date_end": "2022-06-30",
+    "ballot_type": "approval",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2022": {
+     "elections": 19,
+     "budget": 101130815,
+     "votes": 166042,
+     "projects": 1327
+    },
+    "2021": {
+     "elections": 19,
+     "budget": 93575094,
+     "votes": 172804,
+     "projects": 1429
+    },
+    "2020": {
+     "elections": 19,
+     "budget": 83111363,
+     "votes": 203631,
+     "projects": 1503
+    },
+    "2019": {
+     "elections": 19,
+     "budget": 83111363,
+     "votes": 191662,
+     "projects": 1425
+    },
+    "2018": {
+     "elections": 90,
+     "budget": 64784225,
+     "votes": 128682,
+     "projects": 1628
+    },
+    "2017": {
+     "elections": 92,
+     "budget": 62507463,
+     "votes": 163052,
+     "projects": 1808
+    },
+    "2016": {
+     "elections": 86,
+     "budget": 58588890,
+     "votes": 145580,
+     "projects": 1750
+    }
+   },
+   "first_year": 2016,
+   "last_year": 2022,
+   "last_year_total": {
+    "elections": 19,
+    "budget": 101130815,
+    "votes": 166042,
+    "projects": 1327
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Wrocław",
+   "elections": 99,
+   "votes": 1693979,
+   "projects": 2399,
+   "latest": {
+    "name": "Wrocław, 2022, 2022-09",
+    "subunit": "",
+    "instance": "2022",
+    "budget": 20000000.0,
+    "num_projects": 73,
+    "num_votes": 80694,
+    "date_begin": "2022-09-23",
+    "date_end": "2022-10-10",
+    "ballot_type": "approval",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2022": {
+     "elections": 2,
+     "budget": 29700000,
+     "votes": 160432,
+     "projects": 167
+    },
+    "2021": {
+     "elections": 2,
+     "budget": 25000000,
+     "votes": 168339,
+     "projects": 173
+    },
+    "2020": {
+     "elections": 2,
+     "budget": 25000000,
+     "votes": 178164,
+     "projects": 199
+    },
+    "2019": {
+     "elections": 2,
+     "budget": 25000000,
+     "votes": 160941,
+     "projects": 235
+    },
+    "2018": {
+     "elections": 30,
+     "budget": 25250000,
+     "votes": 223027,
+     "projects": 263
+    },
+    "2017": {
+     "elections": 29,
+     "budget": 25020000,
+     "votes": 213365,
+     "projects": 372
+    },
+    "2016": {
+     "elections": 29,
+     "budget": 26025000,
+     "votes": 221661,
+     "projects": 445
+    },
+    "2015": {
+     "elections": 3,
+     "budget": 20485000,
+     "votes": 368050,
+     "projects": 545
+    }
+   },
+   "first_year": 2015,
+   "last_year": 2022,
+   "last_year_total": {
+    "elections": 2,
+    "budget": 29700000,
+    "votes": 160432,
+    "projects": 167
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Kraków",
+   "elections": 95,
+   "votes": 438872,
+   "projects": 2715,
+   "latest": {
+    "name": "Kraków, PODGÓRZE, PODGÓRZE, 2022, 2022-09",
+    "subunit": "PODGÓRZE",
+    "instance": "2022",
+    "budget": 2255001.0,
+    "num_projects": 30,
+    "num_votes": 4255,
+    "date_begin": "2022-09-30",
+    "date_end": "2022-10-14",
+    "ballot_type": "ordinal",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2022": {
+     "elections": 19,
+     "budget": 37999992,
+     "votes": 85930,
+     "projects": 558
+    },
+    "2021": {
+     "elections": 19,
+     "budget": 34999991,
+     "votes": 102458,
+     "projects": 596
+    },
+    "2020": {
+     "elections": 19,
+     "budget": 32000000,
+     "votes": 84560,
+     "projects": 574
+    },
+    "2019": {
+     "elections": 19,
+     "budget": 30000000,
+     "votes": 100008,
+     "projects": 557
+    },
+    "2018": {
+     "elections": 19,
+     "budget": 12455000,
+     "votes": 65916,
+     "projects": 430
+    }
+   },
+   "first_year": 2018,
+   "last_year": 2022,
+   "last_year_total": {
+    "elections": 19,
+    "budget": 37999992,
+    "votes": 85930,
+    "projects": 558
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Łódź",
+   "elections": 74,
+   "votes": 328265,
+   "projects": 1297,
+   "latest": {
+    "name": "Łódź, Andrzejów, Widzew, 2022, 2022-10",
+    "subunit": "Andrzejów",
+    "instance": "2022",
+    "budget": 461000.0,
+    "num_projects": 7,
+    "num_votes": 1044,
+    "date_begin": "2022-10-07",
+    "date_end": "2022-10-31",
+    "ballot_type": "approval",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2022": {
+     "elections": 37,
+     "budget": 26812868,
+     "votes": 195096,
+     "projects": 696
+    },
+    "2020": {
+     "elections": 37,
+     "budget": 25115627,
+     "votes": 133169,
+     "projects": 601
+    }
+   },
+   "first_year": 2020,
+   "last_year": 2022,
+   "last_year_total": {
+    "elections": 37,
+    "budget": 26812868,
+    "votes": 195096,
+    "projects": 696
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Katowice",
+   "elections": 46,
+   "votes": 158326,
+   "projects": 576,
+   "latest": {
+    "name": "Katowice, Podlesie, Podlesie, 2021, 2021-09",
+    "subunit": "Podlesie",
+    "instance": "2021",
+    "budget": 429280.0,
+    "num_projects": 13,
+    "num_votes": 2041,
+    "date_begin": "2021-09-06",
+    "date_end": "2021-09-19",
+    "ballot_type": "cumulative",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2021": {
+     "elections": 23,
+     "budget": 15644274,
+     "votes": 77839,
+     "projects": 257
+    },
+    "2020": {
+     "elections": 23,
+     "budget": 15000000,
+     "votes": 80487,
+     "projects": 319
+    }
+   },
+   "first_year": 2020,
+   "last_year": 2021,
+   "last_year_total": {
+    "elections": 23,
+    "budget": 15644274,
+    "votes": 77839,
+    "projects": 257
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Gdynia",
+   "elections": 43,
+   "votes": 81565,
+   "projects": 282,
+   "latest": {
+    "name": "Gdynia, Obłuże | small, Obłuże, 2020, 2020-06",
+    "subunit": "Obłuże | small",
+    "instance": "2020",
+    "budget": 51900.0,
+    "num_projects": 5,
+    "num_votes": 1811,
+    "date_begin": "2020-06-08",
+    "date_end": "2020-06-22",
+    "ballot_type": "approval",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2020": {
+     "elections": 43,
+     "budget": 10610712,
+     "votes": 81565,
+     "projects": 282
+    }
+   },
+   "first_year": 2020,
+   "last_year": 2020,
+   "last_year_total": {
+    "elections": 43,
+    "budget": 10610712,
+    "votes": 81565,
+    "projects": 282
+   }
+  },
+  {
+   "iso3": "NLD",
+   "country": "Netherlands",
+   "unit": "Amsterdam",
+   "elections": 38,
+   "votes": 150049,
+   "projects": 1242,
+   "latest": {
+    "name": "Amsterdam, Zuid, 588, 2022-01",
+    "subunit": "",
+    "instance": "588",
+    "budget": 100000.0,
+    "num_projects": 15,
+    "num_votes": 212,
+    "date_begin": "2022-01-01",
+    "date_end": "2022-01-01",
+    "ballot_type": "approval",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2022": {
+     "elections": 12,
+     "budget": 2599162,
+     "votes": 33619,
+     "projects": 337
+    },
+    "2021": {
+     "elections": 11,
+     "budget": 2059000,
+     "votes": 47346,
+     "projects": 242
+    },
+    "2020": {
+     "elections": 14,
+     "budget": 3080000,
+     "votes": 68658,
+     "projects": 611
+    },
+    "2019": {
+     "elections": 1,
+     "budget": 250000,
+     "votes": 426,
+     "projects": 52
+    }
+   },
+   "first_year": 2019,
+   "last_year": 2022,
+   "last_year_total": {
+    "elections": 12,
+    "budget": 2599162,
+    "votes": 33619,
+    "projects": 337
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Zabrze",
+   "elections": 38,
+   "votes": 43823,
+   "projects": 130,
+   "latest": {
+    "name": "Zabrze, Helenka, Helenka, 2021, 2020-10",
+    "subunit": "Helenka",
+    "instance": "2021",
+    "budget": 310000.0,
+    "num_projects": 2,
+    "num_votes": 414,
+    "date_begin": "2020-10-15",
+    "date_end": "2020-10-30",
+    "ballot_type": "approval",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2020": {
+     "elections": 19,
+     "budget": 4685000,
+     "votes": 20344,
+     "projects": 59
+    },
+    "2019": {
+     "elections": 19,
+     "budget": 4550000,
+     "votes": 23479,
+     "projects": 71
+    }
+   },
+   "first_year": 2019,
+   "last_year": 2020,
+   "last_year_total": {
+    "elections": 19,
+    "budget": 4685000,
+    "votes": 20344,
+    "projects": 59
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Gdańsk",
+   "elections": 36,
+   "votes": 66149,
+   "projects": 331,
+   "latest": {
+    "name": "Gdańsk, PRZYMORZE MAŁE, PRZYMORZE MAŁE, 2020, 2019-09",
+    "subunit": "PRZYMORZE MAŁE",
+    "instance": "2020",
+    "budget": 476000.0,
+    "num_projects": 6,
+    "num_votes": 964,
+    "date_begin": "2019-09-09",
+    "date_end": "2019-09-23",
+    "ballot_type": "cumulative",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2019": {
+     "elections": 36,
+     "budget": 18543608,
+     "votes": 66149,
+     "projects": 331
+    }
+   },
+   "first_year": 2019,
+   "last_year": 2019,
+   "last_year_total": {
+    "elections": 36,
+    "budget": 18543608,
+    "votes": 66149,
+    "projects": 331
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Czestochowa",
+   "elections": 21,
+   "votes": 33088,
+   "projects": 423,
+   "latest": {
+    "name": "Czestochowa, Północ, Północ, 2020, 2019-09",
+    "subunit": "Północ",
+    "instance": "2020",
+    "budget": 680264.0,
+    "num_projects": 20,
+    "num_votes": 1516,
+    "date_begin": "2019-09-06",
+    "date_end": "2019-09-25",
+    "ballot_type": "cumulative",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2019": {
+     "elections": 21,
+     "budget": 9468489,
+     "votes": 33088,
+     "projects": 423
+    }
+   },
+   "first_year": 2019,
+   "last_year": 2019,
+   "last_year_total": {
+    "elections": 21,
+    "budget": 9468489,
+    "votes": 33088,
+    "projects": 423
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Poznań",
+   "elections": 15,
+   "votes": 236152,
+   "projects": 127,
+   "latest": {
+    "name": "Poznań, 10 - Świerczewo, Wilda, Zielony Dębiec, 10 - Świerczewo, Wilda, Zielony Dębiec, 2023, 2022-10",
+    "subunit": "10 - Świerczewo, Wilda, Zielony Dębiec",
+    "instance": "2023",
+    "budget": 1640000.0,
+    "num_projects": 8,
+    "num_votes": 10923,
+    "date_begin": "2022-10-10",
+    "date_end": "2022-10-31",
+    "ballot_type": "approval",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2022": {
+     "elections": 15,
+     "budget": 25000000,
+     "votes": 236152,
+     "projects": 127
+    }
+   },
+   "first_year": 2022,
+   "last_year": 2022,
+   "last_year_total": {
+    "elections": 15,
+    "budget": 25000000,
+    "votes": 236152,
+    "projects": 127
+   }
+  },
+  {
+   "iso3": "POL",
+   "country": "Poland",
+   "unit": "Wieliczka",
+   "elections": 1,
+   "votes": 6586,
+   "projects": 64,
+   "latest": {
+    "name": "Wieliczka, Green Budget, 2023, 2023-04",
+    "subunit": "Green Budget",
+    "instance": "2023",
+    "budget": 1000000.0,
+    "num_projects": 64,
+    "num_votes": 6586,
+    "date_begin": "2023-04-03",
+    "date_end": "2023-04-21",
+    "ballot_type": "approval",
+    "rule": "mes_cost"
+   },
+   "by_year": {
+    "2023": {
+     "elections": 1,
+     "budget": 1000000,
+     "votes": 6586,
+     "projects": 64
+    }
+   },
+   "first_year": 2023,
+   "last_year": 2023,
+   "last_year_total": {
+    "elections": 1,
+    "budget": 1000000,
+    "votes": 6586,
+    "projects": 64
+   }
+  },
+  {
+   "iso3": "FRA",
+   "country": "France",
+   "unit": "Toulouse",
+   "elections": 1,
+   "votes": 1494,
+   "projects": 30,
+   "latest": {
+    "name": "Toulouse, 2019, 2019-09",
+    "subunit": "",
+    "instance": "2019",
+    "budget": 1000000.0,
+    "num_projects": 30,
+    "num_votes": 1494,
+    "date_begin": "2019-09-11",
+    "date_end": "2019-10-15",
+    "ballot_type": "cumulative",
+    "rule": "greedy_cost"
+   },
+   "by_year": {
+    "2019": {
+     "elections": 1,
+     "budget": 1000000,
+     "votes": 1494,
+     "projects": 30
+    }
+   },
+   "first_year": 2019,
+   "last_year": 2019,
+   "last_year_total": {
+    "elections": 1,
+    "budget": 1000000,
+    "votes": 1494,
+    "projects": 30
+   }
+  }
+ ]
+}

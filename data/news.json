@@ -16,7 +16,9 @@
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "c070b718055f80",
@@ -32,7 +34,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f09cfc08940ec0",
@@ -48,7 +52,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1da22c4c9110dc",
@@ -64,7 +70,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "551664a05b3251",
@@ -80,7 +88,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d7a553f6ab188d",
@@ -96,7 +106,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b11563feea3d50",
@@ -112,7 +124,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4956f30143d27c",
@@ -128,7 +142,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "bff8aa0084bab1",
@@ -144,7 +160,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4e7e488792784f",
@@ -160,7 +178,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "eb9869d2dd31f2",
@@ -176,7 +196,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "edcd4cf63338ab",
@@ -192,7 +214,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e4b87a30d39e1d",
@@ -208,7 +232,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "79d42724080845",
@@ -224,7 +250,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d5d26a91f351b9",
@@ -240,7 +268,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "ee1e7ea09a50bc",
@@ -256,7 +286,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "10e1ac78884dbd",
@@ -272,7 +304,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "547d7a553afcf6",
@@ -288,7 +322,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "21a36ce413582c",
@@ -304,7 +340,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "cef9f8e9293edd",
@@ -320,7 +358,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6aa5227a0dad9c",
@@ -336,7 +376,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "72c461415c9b46",
@@ -352,7 +394,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7601b39552ee6e",
@@ -368,7 +412,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "482eae1c4580b3",
@@ -384,7 +430,9 @@
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "18e0e192b98e9e",
@@ -400,7 +448,9 @@
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "b503f7ecb427cb",
@@ -416,7 +466,9 @@
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d79f4b75e2bfa9",
@@ -432,7 +484,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f24cde1b149eff",
@@ -448,7 +502,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "09491b13d6cd50",
@@ -464,7 +520,9 @@
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:59:42.392219+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b70d64a6e4fd43",
@@ -480,7 +538,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "694f8acdcdc7f2",
@@ -496,7 +556,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "2239d27256dd0d",
@@ -512,7 +574,9 @@
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b476cd24b6db90",
@@ -528,7 +592,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "293b1bf0ad5a3c",
@@ -544,7 +610,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "120810d5ce545b",
@@ -560,7 +628,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "240f14f802a088",
@@ -576,7 +646,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "421471d7d8945f",
@@ -592,7 +664,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a8d41779420309",
@@ -607,7 +681,9 @@
    "published_at": "2026-11-17T08:59:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "422bd0bde83601",
@@ -622,7 +698,9 @@
    "published_at": "2026-11-17T08:50:58+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "c1ef9acb28ba6e",
@@ -637,7 +715,9 @@
    "published_at": "2026-11-17T08:22:14+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "f7fd361fb1767d",
@@ -653,7 +733,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "56d8504e653137",
@@ -669,7 +751,9 @@
    "country_iso3": "TUR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "ca19724d290f98",
@@ -684,7 +768,9 @@
    "published_at": "2026-11-17T08:02:03+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "932a8dd45dc0d3",
@@ -699,7 +785,9 @@
    "published_at": "2026-11-17T06:23:48+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "437400e17a50f4",
@@ -715,7 +803,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a663e2c61ffb29",
@@ -731,7 +821,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "746eb54b10b588",
@@ -746,7 +838,9 @@
    "published_at": "2026-11-17T03:27:38+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "2f9a14a27fec12",
@@ -762,7 +856,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "c4a15e9fe303c2",
@@ -778,7 +874,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2e239a8df7cd62",
@@ -793,7 +891,9 @@
    "published_at": "2026-11-17T02:33:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "ffdefd9546bbd7",
@@ -809,7 +909,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d2ebfd0e59be1b",
@@ -824,7 +926,9 @@
    "published_at": "2026-11-17T01:39:29+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "770055be85e15f",
@@ -840,7 +944,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "bc38bbbfc2aa95",
@@ -856,7 +962,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f73481726cd092",
@@ -872,7 +980,9 @@
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9594fadc316e24",
@@ -888,7 +998,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "4821082523dd2c",
@@ -904,7 +1016,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4d654d44bc1f83",
@@ -920,7 +1034,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "4df867c36eb60c",
@@ -936,7 +1052,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "86a33c90927e1a",
@@ -952,7 +1070,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "fbf78a8e71fd81",
@@ -968,7 +1088,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "dc13ae8242c4d8",
@@ -984,7 +1106,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9369473be784ff",
@@ -1000,7 +1124,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "ffcc5974ee3b9a",
@@ -1016,7 +1142,9 @@
    "country_iso3": "ROU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a3b4f8198a4632",
@@ -1032,7 +1160,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "e5fcd7c2a6a218",
@@ -1048,7 +1178,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "08aeb2e9a0aac1",
@@ -1064,7 +1196,9 @@
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7b671d90cfe6fb",
@@ -1080,7 +1214,9 @@
    "country_iso3": "ROU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2f37980a0941f8",
@@ -1096,7 +1232,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "aabc962aaaa961",
@@ -1112,7 +1250,9 @@
    "country_iso3": "TWN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "08ef7e81b9a417",
@@ -1128,7 +1268,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T02:20:58.231443+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "155cb732c8dfeb",
@@ -1144,7 +1286,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "3e41bfa2605e38",
@@ -1160,7 +1304,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3722fefb9ac608",
@@ -1176,7 +1322,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8e0f2dcdba243f",
@@ -1192,7 +1340,9 @@
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "cb28197a7a231e",
@@ -1208,7 +1358,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b5c394362bd0ba",
@@ -1224,7 +1376,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "21fc5975b9d365",
@@ -1240,7 +1394,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "50b99a5d23b279",
@@ -1256,7 +1412,9 @@
    "country_iso3": "ROU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d96e8489a0b7c3",
@@ -1272,7 +1430,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "160eec607f21a5",
@@ -1287,7 +1447,9 @@
    "published_at": "2026-11-16T09:15:36+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "fe1154d994f382",
@@ -1303,7 +1465,9 @@
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "40d8d557810a95",
@@ -1319,7 +1483,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "559c48feec5ab0",
@@ -1335,7 +1501,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1cd9e49da6bb61",
@@ -1351,7 +1519,9 @@
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "50e0f0d392f63e",
@@ -1366,7 +1536,9 @@
    "published_at": "2026-11-16T07:52:31+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "ba94f416986b61",
@@ -1382,7 +1554,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b365b278a45459",
@@ -1398,7 +1572,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7c8ef371f31dc8",
@@ -1413,7 +1589,9 @@
    "published_at": "2026-11-16T06:25:13+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "e4c3aaaf008d8a",
@@ -1428,7 +1606,9 @@
    "published_at": "2026-11-16T06:14:47+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d664672f66387b",
@@ -1444,7 +1624,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "88ea9c954d1b21",
@@ -1460,7 +1642,9 @@
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "aa422ca90e853d",
@@ -1475,7 +1659,9 @@
    "published_at": "2026-11-16T03:32:35+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:49:25.137881+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d8bdcfaffb5382",
@@ -1490,7 +1676,9 @@
    "published_at": "2026-11-16T02:33:44+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "692291b89b896e",
@@ -1505,7 +1693,9 @@
    "published_at": "2026-11-16T02:02:18+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "c6cbb8391265d1",
@@ -1521,7 +1711,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "330d4b094fe374",
@@ -1537,7 +1729,9 @@
    "country_iso3": "LTU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "eebfe3ddd70f89",
@@ -1553,7 +1747,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "75abfeaa8309ac",
@@ -1569,7 +1765,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "2731346a075948",
@@ -1584,7 +1782,9 @@
    "published_at": "2026-11-15T17:02:17+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "cb017879471504",
@@ -1600,7 +1800,9 @@
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "459d427e582ae4",
@@ -1616,7 +1818,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2531ecbacfcab3",
@@ -1632,7 +1836,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "0748b5878f80cc",
@@ -1648,7 +1854,9 @@
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "19f9e8b26e2d4d",
@@ -1664,7 +1872,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5c80e1c31e29ab",
@@ -1680,7 +1890,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e6a7b97b245461",
@@ -1696,7 +1908,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "425628105afe7d",
@@ -1712,7 +1926,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5131cc8cb16a4b",
@@ -1728,7 +1944,9 @@
    "country_iso3": "FIN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b885706de45429",
@@ -1744,7 +1962,9 @@
    "country_iso3": "USA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "12a234e20e08e7",
@@ -1760,7 +1980,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "bd77f622388ddf",
@@ -1776,7 +1998,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ab3fc4abac6172",
@@ -1792,7 +2016,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "a10cc46242358c",
@@ -1808,7 +2034,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "bbb5a170149048",
@@ -1824,7 +2052,9 @@
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "03b2612f863d7b",
@@ -1840,7 +2070,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "3b25b9f1f7c6e1",
@@ -1856,7 +2088,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d7cc3b52d9e528",
@@ -1872,7 +2106,9 @@
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "181c776ee403d8",
@@ -1888,7 +2124,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5f30abf4610f32",
@@ -1904,7 +2142,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a54d87f0da3b1d",
@@ -1920,7 +2160,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b3fce1beaf051a",
@@ -1936,7 +2178,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "1b0a507fa0a2ff",
@@ -1952,7 +2196,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "84d01e805753ac",
@@ -1968,7 +2214,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "97c2a09725eaba",
@@ -1984,7 +2232,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "105b27e4e141c7",
@@ -2000,7 +2250,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c5f668dde990d0",
@@ -2016,7 +2268,9 @@
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "b9d4a029da3b6d",
@@ -2032,7 +2286,9 @@
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "cfba15467ad56d",
@@ -2048,7 +2304,9 @@
    "country_iso3": "COL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "a018db9063ce4e",
@@ -2064,7 +2322,9 @@
    "country_iso3": "URY",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d16d798461f731",
@@ -2080,7 +2340,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "0e78ea422a6462",
@@ -2096,7 +2358,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "da1433c31da396",
@@ -2112,7 +2376,9 @@
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:49:25.137881+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "cae63b156ac268",
@@ -2128,7 +2394,9 @@
    "country_iso3": "USA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "36fc67a511ce12",
@@ -2144,7 +2412,9 @@
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6751d3a790bb4b",
@@ -2160,7 +2430,9 @@
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4a15cdd64876e0",
@@ -2176,7 +2448,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "773d6f9bafd932",
@@ -2192,7 +2466,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "d2171097d1911e",
@@ -2208,7 +2484,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c189696c8ce81b",
@@ -2224,7 +2502,9 @@
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "72ffff0df6959d",
@@ -2240,7 +2520,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "059a28d899ad2d",
@@ -2256,7 +2538,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "d38a389d0a3a8c",
@@ -2272,7 +2556,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6d8fdb2c7a8574",
@@ -2288,7 +2574,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "587f36b6b7a5f2",
@@ -2304,7 +2592,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "97a311e2a37cd1",
@@ -2320,7 +2610,9 @@
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f9c3103033eff3",
@@ -2336,7 +2628,9 @@
    "country_iso3": "USA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "32dd94fd2f23af",
@@ -2352,7 +2646,9 @@
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7ce54733812d46",
@@ -2368,7 +2664,9 @@
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5f1a213ed41759",
@@ -2384,7 +2682,9 @@
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "903eab4d877122",
@@ -2400,7 +2700,9 @@
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b41c97c182475e",
@@ -2416,7 +2718,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "13718834dbcd2a",
@@ -2432,7 +2736,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "24805abdc3b3c6",
@@ -2448,7 +2754,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "3681572e59166d",
@@ -2464,7 +2772,9 @@
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "de60c4b2bfd14a",
@@ -2480,7 +2790,9 @@
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "75e6094472b56e",
@@ -2495,7 +2807,9 @@
    "published_at": "2026-11-11T06:08:11+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "269cce5c0668e1",
@@ -2510,7 +2824,9 @@
    "published_at": "2026-11-11T03:30:25+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "45dd2e9834dd40",
@@ -2526,7 +2842,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "397aa4fb3ca4d8",
@@ -2542,7 +2860,9 @@
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4d9bbd93cab6a3",
@@ -2558,7 +2878,9 @@
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d094eb90a4a2c1",
@@ -2574,7 +2896,9 @@
    "country_iso3": "MYS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "cfb869d47e60cf",
@@ -2590,7 +2914,9 @@
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "74abebf20837ae",
@@ -2606,7 +2932,9 @@
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "69e7310899d98c",
@@ -2622,7 +2950,9 @@
    "country_iso3": "COL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e1708b2823b084",
@@ -2638,7 +2968,9 @@
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ee12bf31bd761b",
@@ -2654,7 +2986,9 @@
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:59:42.392219+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "88af6fb58bd349",
@@ -2670,7 +3004,9 @@
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": true
+   "_tr_tried": true,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "906c48c6a343ff",
@@ -2686,7 +3022,9 @@
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
    "kind": "signal",
-   "_tr_tried": false
+   "_tr_tried": false,
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "dd516143ea4abb",
@@ -2701,7 +3039,9 @@
    "published_at": "2026-11-10T12:27:53+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3a8ff19f0dafd4",
@@ -2716,7 +3056,9 @@
    "published_at": "2026-11-10T12:17:28+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9cd655af9dd956",
@@ -2731,7 +3073,9 @@
    "published_at": "2026-11-10T10:43:15+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "88f98cbcbdeadb",
@@ -2746,7 +3090,9 @@
    "published_at": "2026-11-10T09:40:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "46ff8011c50f49",
@@ -2761,7 +3107,9 @@
    "published_at": "2026-11-10T08:19:22+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8fb1222a99ce0e",
@@ -2776,7 +3124,9 @@
    "published_at": "2026-11-10T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "19e0920956e42e",
@@ -2791,7 +3141,9 @@
    "published_at": "2026-11-10T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "13be7c29d5561c",
@@ -2806,7 +3158,9 @@
    "published_at": "2026-11-10T07:39:37+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "89b8d29987811c",
@@ -2821,7 +3175,9 @@
    "published_at": "2026-11-10T07:00:04+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "50ef7e38820dbc",
@@ -2836,7 +3192,9 @@
    "published_at": "2026-11-10T06:57:32+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "6a11bde2d95810",
@@ -2851,7 +3209,9 @@
    "published_at": "2026-11-10T06:14:58+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d4e183c6244823",
@@ -2866,7 +3226,9 @@
    "published_at": "2026-11-10T05:31:24+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "904b8c6d475462",
@@ -2881,7 +3243,9 @@
    "published_at": "2026-11-10T05:30:03+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d05d6c9afea7eb",
@@ -2896,7 +3260,9 @@
    "published_at": "2026-11-10T05:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1a720033d5a1f6",
@@ -2911,7 +3277,9 @@
    "published_at": "2026-11-10T04:21:53+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "baacfddb3af645",
@@ -2926,7 +3294,9 @@
    "published_at": "2026-11-10T00:54:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "f49911e9cd443a",
@@ -2941,7 +3311,9 @@
    "published_at": "2026-11-09T23:22:45+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "161090fd9bd6b0",
@@ -2956,7 +3328,9 @@
    "published_at": "2026-11-09T22:46:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "539707259c681f",
@@ -2971,7 +3345,9 @@
    "published_at": "2026-11-09T19:23:38+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b9baac0fdd5676",
@@ -2986,7 +3362,9 @@
    "published_at": "2026-11-09T18:15:02+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "239f759eaf4611",
@@ -3001,7 +3379,9 @@
    "published_at": "2026-11-09T18:01:51+00:00",
    "country_iso3": "CHL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "3b67ad30b2315d",
@@ -3016,7 +3396,9 @@
    "published_at": "2026-11-09T14:04:16+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8790992dde47fe",
@@ -3031,7 +3413,9 @@
    "published_at": "2026-11-09T11:06:10+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "95f11147a5242f",
@@ -3046,7 +3430,9 @@
    "published_at": "2026-11-09T10:34:50+00:00",
    "country_iso3": "ROU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "a0259e79f263e3",
@@ -3061,7 +3447,9 @@
    "published_at": "2026-11-09T09:33:23+00:00",
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c1cf6d67f2dcb2",
@@ -3076,7 +3464,9 @@
    "published_at": "2026-11-09T09:33:03+00:00",
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "64e6653124178d",
@@ -3091,7 +3481,9 @@
    "published_at": "2026-11-09T09:13:18+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "ae61ad1e5731f4",
@@ -3106,7 +3498,9 @@
    "published_at": "2026-11-09T08:32:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9a90c3f93a625a",
@@ -3121,7 +3515,9 @@
    "published_at": "2026-11-09T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "25f977d857d845",
@@ -3136,7 +3532,9 @@
    "published_at": "2026-11-09T06:47:28+00:00",
    "country_iso3": "URY",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "06117e3a8f3ee0",
@@ -3151,7 +3549,9 @@
    "published_at": "2026-11-08T19:00:00+00:00",
    "country_iso3": "SVK",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "cd05ceb7502cd4",
@@ -3166,7 +3566,9 @@
    "published_at": "2026-11-08T08:00:00+00:00",
    "country_iso3": "URY",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a51a841c89a3fb",
@@ -3181,7 +3583,9 @@
    "published_at": "2026-11-08T08:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5e8ea6c4d015ad",
@@ -3196,7 +3600,9 @@
    "published_at": "2026-11-07T23:56:26+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2ab2ec9bd6972f",
@@ -3211,7 +3617,9 @@
    "published_at": "2026-11-07T15:20:55+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "660254fc66dfb1",
@@ -3226,7 +3634,9 @@
    "published_at": "2026-11-07T14:09:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5b2c6561ca756c",
@@ -3241,7 +3651,9 @@
    "published_at": "2026-11-07T13:26:36+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2fc16069971480",
@@ -3256,7 +3668,9 @@
    "published_at": "2026-11-07T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "bf22d006aab4cf",
@@ -3271,7 +3685,9 @@
    "published_at": "2026-11-07T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "f501af6a0886a0",
@@ -3286,7 +3702,9 @@
    "published_at": "2026-11-07T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ef1d2c68750e17",
@@ -3301,7 +3719,9 @@
    "published_at": "2026-11-07T08:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4ad8d52dffa569",
@@ -3316,7 +3736,9 @@
    "published_at": "2026-11-07T08:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2cf3eadbe7dcec",
@@ -3331,7 +3753,9 @@
    "published_at": "2026-11-07T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "96437f302f11df",
@@ -3346,7 +3770,9 @@
    "published_at": "2026-11-06T23:16:17+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T02:13:59.152891+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "57aace50185739",
@@ -3361,7 +3787,9 @@
    "published_at": "2026-11-06T15:41:29+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c125d4c8e58c82",
@@ -3376,7 +3804,9 @@
    "published_at": "2026-11-06T14:48:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1bd1ad281d86da",
@@ -3391,7 +3821,9 @@
    "published_at": "2026-11-06T13:16:27+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e94aba092af873",
@@ -3406,7 +3838,9 @@
    "published_at": "2026-11-06T11:19:26+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d8672fddb1a13d",
@@ -3421,7 +3855,9 @@
    "published_at": "2026-11-06T10:16:44+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1a0a89a86e60bf",
@@ -3436,7 +3872,9 @@
    "published_at": "2026-11-06T09:34:02+00:00",
    "country_iso3": "PER",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "fc865ab4d2f2a9",
@@ -3451,7 +3889,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "5fcc7c2f54efc5",
@@ -3466,7 +3906,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1089d7b85d7b42",
@@ -3481,7 +3923,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "dc950112ba26eb",
@@ -3496,7 +3940,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9c346652c18a31",
@@ -3511,7 +3957,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ecebfe48a1c4e9",
@@ -3526,7 +3974,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "ecb9c99a396b41",
@@ -3541,7 +3991,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "FIN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e496588d35237b",
@@ -3556,7 +4008,9 @@
    "published_at": "2026-11-06T08:00:00+00:00",
    "country_iso3": "SWE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "bb772ea23d9bcc",
@@ -3571,7 +4025,9 @@
    "published_at": "2026-11-05T23:14:12+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "760fa738213329",
@@ -3586,7 +4042,9 @@
    "published_at": "2026-11-05T19:06:59+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "66fa039fc443bb",
@@ -3601,7 +4059,9 @@
    "published_at": "2026-11-05T10:30:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "45d415d8554fa2",
@@ -3616,7 +4076,9 @@
    "published_at": "2026-11-05T10:06:13+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "236ac4d3a2e81d",
@@ -3631,7 +4093,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ca1cbbc87a2304",
@@ -3646,7 +4110,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "282046d67bfe81",
@@ -3661,7 +4127,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ccd9bbbc173149",
@@ -3676,7 +4144,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "12bb0a844a51da",
@@ -3691,7 +4161,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "d83c9cbe6d9895",
@@ -3706,7 +4178,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "55e515329c753e",
@@ -3721,7 +4195,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8ac4efebb629f9",
@@ -3736,7 +4212,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7c9e4dcbcaf491",
@@ -3751,7 +4229,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "44fe0fdd9bbf9e",
@@ -3766,7 +4246,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7a2d59e3f32b91",
@@ -3781,7 +4263,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d4d27fa9cafa46",
@@ -3796,7 +4280,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d6329bdb7a4a94",
@@ -3811,7 +4297,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "59d3a6a343237e",
@@ -3826,7 +4314,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9c6195d8d0e8c3",
@@ -3841,7 +4331,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a9e46ecc177ccb",
@@ -3856,7 +4348,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3cefca88f6e517",
@@ -3871,7 +4365,9 @@
    "published_at": "2026-11-05T08:00:00+00:00",
    "country_iso3": "SVK",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4007d8027c3649",
@@ -3886,7 +4382,9 @@
    "published_at": "2026-11-05T07:51:15+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "efda6305e1195f",
@@ -3901,7 +4399,9 @@
    "published_at": "2026-11-05T06:10:04+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "095027ac086ce1",
@@ -3916,7 +4416,9 @@
    "published_at": "2026-11-05T00:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5fcbb668b5a3ad",
@@ -3931,7 +4433,9 @@
    "published_at": "2026-11-04T19:31:27+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "a7c8b7f609fab2",
@@ -3946,7 +4450,9 @@
    "published_at": "2026-11-04T16:39:45+00:00",
    "country_iso3": "COL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b52e22c765d2cd",
@@ -3961,7 +4467,9 @@
    "published_at": "2026-11-04T15:46:42+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8d05be2888d377",
@@ -3976,7 +4484,9 @@
    "published_at": "2026-11-04T11:41:37+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b48e08688de6ea",
@@ -3991,7 +4501,9 @@
    "published_at": "2026-11-04T10:41:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "13c4a02b7f4094",
@@ -4006,7 +4518,9 @@
    "published_at": "2026-11-04T09:05:39+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "bb3b2a07ef6d14",
@@ -4021,7 +4535,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "18e9fc488b5748",
@@ -4036,7 +4552,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6dc3ee8c855346",
@@ -4051,7 +4569,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "fb252b0f5a95df",
@@ -4066,7 +4586,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9f13beda898840",
@@ -4081,7 +4603,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3f34be0eacecc4",
@@ -4096,7 +4620,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e2794ef584006d",
@@ -4111,7 +4637,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "b8a944178bd41f",
@@ -4126,7 +4654,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "89cf1e0e8154c9",
@@ -4141,7 +4671,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d1926a9d712dac",
@@ -4156,7 +4688,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "91c18905962196",
@@ -4171,7 +4705,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "dd02515f309f42",
@@ -4186,7 +4722,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "7e02ce826a4f60",
@@ -4201,7 +4739,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "817a860613c1f1",
@@ -4216,7 +4756,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "TWN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "df3c16703dc277",
@@ -4231,7 +4773,9 @@
    "published_at": "2026-11-04T08:00:00+00:00",
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:45:31.278168+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "0788d021922041",
@@ -4246,7 +4790,9 @@
    "published_at": "2026-11-04T07:11:10+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "2f560fa043acde",
@@ -4261,7 +4807,9 @@
    "published_at": "2026-11-04T07:08:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "feb131e8fe3e2b",
@@ -4276,7 +4824,9 @@
    "published_at": "2026-11-04T05:42:48+00:00",
    "country_iso3": "KGZ",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "faf4202109213e",
@@ -4291,7 +4841,9 @@
    "published_at": "2026-11-03T17:32:58+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "b09d6101bfb930",
@@ -4306,7 +4858,9 @@
    "published_at": "2026-11-03T11:28:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T02:13:59.152891+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "512ad3ae8de81a",
@@ -4321,7 +4875,9 @@
    "published_at": "2026-11-03T10:07:30+00:00",
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:45:31.278168+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "85f285bfda076c",
@@ -4336,7 +4892,9 @@
    "published_at": "2026-11-03T09:31:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4758cdafa2cfb1",
@@ -4351,7 +4909,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "1c58bed3ae28a3",
@@ -4366,7 +4926,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "42ada96b5cbf09",
@@ -4381,7 +4943,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "1ffe04ec98772c",
@@ -4396,7 +4960,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "77ae4d05963682",
@@ -4411,7 +4977,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9d54ca31292c76",
@@ -4426,7 +4994,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "12571cb71dd784",
@@ -4441,7 +5011,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ae05f8b43c2ff9",
@@ -4456,7 +5028,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "733336794ee12b",
@@ -4471,7 +5045,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c94e29413ea465",
@@ -4486,7 +5062,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "09395e1eabbddc",
@@ -4501,7 +5079,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "19b12bf0422dda",
@@ -4516,7 +5096,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d1bf6997c337b7",
@@ -4531,7 +5113,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "cb34ce940449a3",
@@ -4546,7 +5130,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "8467d1c6c3a9c9",
@@ -4561,7 +5147,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7f17f02aa730a4",
@@ -4576,7 +5164,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ff148d7ed836ef",
@@ -4591,7 +5181,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "73d4cf885e5876",
@@ -4606,7 +5198,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7ef66a405a65b9",
@@ -4621,7 +5215,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1d8b324be6a45b",
@@ -4636,7 +5232,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e999bc6d520a9b",
@@ -4651,7 +5249,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a54e34029ff1e9",
@@ -4666,7 +5266,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "fa42fe78fc7794",
@@ -4681,7 +5283,9 @@
    "published_at": "2026-11-03T08:00:00+00:00",
    "country_iso3": "TUR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "4f184f8f143d2c",
@@ -4696,7 +5300,9 @@
    "published_at": "2026-11-03T07:12:07+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b44f9be68e9829",
@@ -4711,7 +5317,9 @@
    "published_at": "2026-11-02T23:08:57+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "019403cd34f580",
@@ -4726,7 +5334,9 @@
    "published_at": "2026-11-02T13:03:12+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "601d4646b79478",
@@ -4741,7 +5351,9 @@
    "published_at": "2026-11-02T12:42:46+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "02ca6c948911bc",
@@ -4756,7 +5368,9 @@
    "published_at": "2026-11-02T12:17:00+00:00",
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6865d2eb67a2e5",
@@ -4771,7 +5385,9 @@
    "published_at": "2026-11-02T09:04:44+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "57dc41e1429c80",
@@ -4786,7 +5402,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "LTU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "3f61a7b96d113c",
@@ -4801,7 +5419,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "69ad12116c717e",
@@ -4816,7 +5436,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "0e5504bc8cdcae",
@@ -4831,7 +5453,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "345816357fba9f",
@@ -4846,7 +5470,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "a4758e05aa99b8",
@@ -4861,7 +5487,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "3672fe0f8087cd",
@@ -4876,7 +5504,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "657eab6a5789b0",
@@ -4891,7 +5521,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5ba59c65c55e86",
@@ -4906,7 +5538,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5e9cd31aa4d0b2",
@@ -4921,7 +5555,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c642deac2029c2",
@@ -4936,7 +5572,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8ac34d419c8309",
@@ -4951,7 +5589,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4d541c569c1a9e",
@@ -4966,7 +5606,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1739b429c7ff3e",
@@ -4981,7 +5623,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b19dd41714acd4",
@@ -4996,7 +5640,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "500f84822a42a0",
@@ -5011,7 +5657,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "aa71123f327bc3",
@@ -5026,7 +5674,9 @@
    "published_at": "2026-11-02T08:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:59:42.392219+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "79f7803e873281",
@@ -5041,7 +5691,9 @@
    "published_at": "2026-11-02T06:45:52+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6d2ef7d4af9513",
@@ -5056,7 +5708,9 @@
    "published_at": "2026-11-02T06:11:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "ec6cc01b695a21",
@@ -5071,7 +5725,9 @@
    "published_at": "2026-11-01T07:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "cd9d7778a094af",
@@ -5086,7 +5742,9 @@
    "published_at": "2026-11-01T07:00:00+00:00",
    "country_iso3": "JPN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "68f823e7d44647",
@@ -5101,7 +5759,9 @@
    "published_at": "2026-11-01T07:00:00+00:00",
    "country_iso3": "CZE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4957a106ffbf08",
@@ -5116,7 +5776,9 @@
    "published_at": "2026-10-31T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "69dd3509b6f4b8",
@@ -5131,7 +5793,9 @@
    "published_at": "2026-10-31T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "8c4141a0347638",
@@ -5146,7 +5810,9 @@
    "published_at": "2026-10-31T07:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a3f581af150569",
@@ -5161,7 +5827,9 @@
    "published_at": "2026-10-30T22:39:57+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "75384adb73d643",
@@ -5176,7 +5844,9 @@
    "published_at": "2026-10-30T20:36:57+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e18978665bf8e1",
@@ -5191,7 +5861,9 @@
    "published_at": "2026-10-30T14:24:12+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "1e1b58c9816fbf",
@@ -5206,7 +5878,9 @@
    "published_at": "2026-10-30T13:06:04+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4fc9752e34e1bb",
@@ -5221,7 +5895,9 @@
    "published_at": "2026-10-30T11:15:21+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4bc9f54372e296",
@@ -5236,7 +5912,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "7c20ae21b48d6d",
@@ -5251,7 +5929,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "2fba74d83dc25a",
@@ -5266,7 +5946,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f170fa3778397f",
@@ -5281,7 +5963,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "9d5df19786fed0",
@@ -5296,7 +5980,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "28f0072ec612ff",
@@ -5311,7 +5997,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "400a7d5ba3e8c0",
@@ -5326,7 +6014,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3e4a569e976a9d",
@@ -5341,7 +6031,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "cb6299cd66268a",
@@ -5356,7 +6048,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "853808f655b1b1",
@@ -5371,7 +6065,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "753882960ed96e",
@@ -5386,7 +6082,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c54aba1506f8bb",
@@ -5401,7 +6099,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "a4add3fe64b952",
@@ -5416,7 +6116,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "82cad3fd575550",
@@ -5431,7 +6133,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4d10388eb349ae",
@@ -5446,7 +6150,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "dc21a801003bfd",
@@ -5461,7 +6167,9 @@
    "published_at": "2026-10-30T07:00:00+00:00",
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "10ba749d84c4fe",
@@ -5476,7 +6184,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "GBR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d78cdb222f46f6",
@@ -5491,7 +6201,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9747b4d126004d",
@@ -5506,7 +6218,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "57c8c4c29b1e3f",
@@ -5521,7 +6235,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "66503cc7ea955e",
@@ -5536,7 +6252,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ba6b9d5f442824",
@@ -5551,7 +6269,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3c628cbebaa9bb",
@@ -5566,7 +6286,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "67009de822554d",
@@ -5581,7 +6303,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4f592805baf6be",
@@ -5596,7 +6320,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "879ccf6128d513",
@@ -5611,7 +6337,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "61345cd5ce9afc",
@@ -5626,7 +6354,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5a8cacf21c3bd1",
@@ -5641,7 +6371,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8bd16a6991a3c4",
@@ -5656,7 +6388,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b9f9144389e459",
@@ -5671,7 +6405,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "72254a98b5eb07",
@@ -5686,7 +6422,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "3c70a9448c64c8",
@@ -5701,7 +6439,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "f537969da93b4a",
@@ -5716,7 +6456,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "186ce334beb5be",
@@ -5731,7 +6473,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ef8320fd880493",
@@ -5746,7 +6490,9 @@
    "published_at": "2026-10-29T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T02:13:59.152891+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "a3106515e3c8b5",
@@ -5761,7 +6507,9 @@
    "published_at": "2026-10-29T05:14:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f38f46645a97a8",
@@ -5776,7 +6524,9 @@
    "published_at": "2026-10-28T10:08:35+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f8feae9946dda2",
@@ -5791,7 +6541,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5c61fe24450d4a",
@@ -5806,7 +6558,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "80e3533ea3d8b9",
@@ -5821,7 +6575,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "7ea00210038445",
@@ -5836,7 +6592,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "cf85651b374195",
@@ -5851,7 +6609,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d7dffaff2b15de",
@@ -5866,7 +6626,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8cacd44d877c56",
@@ -5881,7 +6643,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "3f6bd64ca3d347",
@@ -5896,7 +6660,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1eb9f53ab54b0f",
@@ -5911,7 +6677,9 @@
    "published_at": "2026-10-28T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:49:25.137881+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "05ba5838bfd081",
@@ -5926,7 +6694,9 @@
    "published_at": "2026-10-27T19:42:46+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "35194ed5d8e17e",
@@ -5941,7 +6711,9 @@
    "published_at": "2026-10-27T16:31:45+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b3d8524eee3d8e",
@@ -5956,7 +6728,9 @@
    "published_at": "2026-10-27T15:32:00+00:00",
    "country_iso3": "COL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e58b3c9ba08373",
@@ -5971,7 +6745,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "94a17b24e26774",
@@ -5986,7 +6762,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "105bac2e0c5513",
@@ -6001,7 +6779,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "BRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "6a46e5b5197f26",
@@ -6016,7 +6796,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "92f4e9e3b03042",
@@ -6031,7 +6813,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7f5331eaf0826e",
@@ -6046,7 +6830,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "059ec5fc1c9304",
@@ -6061,7 +6847,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "f314a1ddd81707",
@@ -6076,7 +6864,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "9137f98fe429f7",
@@ -6091,7 +6881,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "26b61694c0fc60",
@@ -6106,7 +6898,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "TWN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "7089d4700f8d5e",
@@ -6121,7 +6915,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "74cf502d9a5fdb",
@@ -6136,7 +6932,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3a672acc6bf1e0",
@@ -6151,7 +6949,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a1081df8fae85f",
@@ -6166,7 +6966,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "01e5d48127f4c8",
@@ -6181,7 +6983,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "SWE",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "564cbe1ec53d36",
@@ -6196,7 +7000,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "LVA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "fe968302faf5a8",
@@ -6211,7 +7017,9 @@
    "published_at": "2026-10-27T07:00:00+00:00",
    "country_iso3": "EST",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7c8846a821fe8c",
@@ -6226,7 +7034,9 @@
    "published_at": "2026-10-27T06:58:37+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "52d62db881df94",
@@ -6241,7 +7051,9 @@
    "published_at": "2026-10-27T06:43:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "b6f61ff83c70fd",
@@ -6256,7 +7068,9 @@
    "published_at": "2026-10-26T10:00:22+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "60f9e751c350db",
@@ -6271,7 +7085,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "720f8167cae0a0",
@@ -6286,7 +7102,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8f597a9a5d20de",
@@ -6301,7 +7119,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "URY",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e757ff23d0ae6f",
@@ -6316,7 +7136,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "URY",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "6dfeae4c0689e6",
@@ -6331,7 +7153,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "f426b80d1975b1",
@@ -6346,7 +7170,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "32313525fc05e2",
@@ -6361,7 +7187,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5d17155d4e0750",
@@ -6376,7 +7204,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2cf33cd7094513",
@@ -6391,7 +7221,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "e011ea97909a08",
@@ -6406,7 +7238,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "19498248a2875d",
@@ -6421,7 +7255,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4ed9901298d4d2",
@@ -6436,7 +7272,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "62fe092b4babb3",
@@ -6451,7 +7289,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "0828a2ffb14eb1",
@@ -6466,7 +7306,9 @@
    "published_at": "2026-10-26T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "13c78f0ff3100a",
@@ -6481,7 +7323,9 @@
    "published_at": "2026-10-26T05:00:05+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:59:42.392219+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "eb1a056d2f431a",
@@ -6496,7 +7340,9 @@
    "published_at": "2026-10-26T04:24:15+00:00",
    "country_iso3": "AGO",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "838bd4b8a1be0f",
@@ -6511,7 +7357,9 @@
    "published_at": "2026-10-26T00:00:01+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "215d811da98827",
@@ -6526,7 +7374,9 @@
    "published_at": "2026-10-25T07:00:00+00:00",
    "country_iso3": "URY",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "b45b3b03910058",
@@ -6541,7 +7391,9 @@
    "published_at": "2026-10-25T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b6197a61d42868",
@@ -6556,7 +7408,9 @@
    "published_at": "2026-10-25T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "b6b1054d07fce8",
@@ -6571,7 +7425,9 @@
    "published_at": "2026-10-25T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "65e2f0d0c772a7",
@@ -6586,7 +7442,9 @@
    "published_at": "2026-10-24T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "44b895d70fbe6f",
@@ -6601,7 +7459,9 @@
    "published_at": "2026-10-24T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "b7d438a19628b0",
@@ -6616,7 +7476,9 @@
    "published_at": "2026-10-24T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "41654bc50bf42e",
@@ -6631,7 +7493,9 @@
    "published_at": "2026-10-24T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "7f0b420fb806d5",
@@ -6646,7 +7510,9 @@
    "published_at": "2026-10-24T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "8fd9736cb31316",
@@ -6661,7 +7527,9 @@
    "published_at": "2026-10-23T08:53:33+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "4c993e7a741b28",
@@ -6676,7 +7544,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "272c59db4da822",
@@ -6691,7 +7561,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "36da04ba7844d3",
@@ -6706,7 +7578,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2dfe80a80f3c24",
@@ -6721,7 +7595,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "484d174610aa9a",
@@ -6736,7 +7612,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "e6eba34ef78ba9",
@@ -6751,7 +7629,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1c717b2da8b773",
@@ -6766,7 +7646,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5f0bb04e983602",
@@ -6781,7 +7663,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1bdb354aec0bb0",
@@ -6796,7 +7680,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "135b932ff1f42a",
@@ -6811,7 +7697,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8910504f23af92",
@@ -6826,7 +7714,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "ac65f5e1ffcb9f",
@@ -6841,7 +7731,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "4f01b3885ba405",
@@ -6856,7 +7748,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "1a376bc47bb479",
@@ -6871,7 +7765,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "31f3fcccb05dcf",
@@ -6886,7 +7782,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "485286c97d7110",
@@ -6901,7 +7799,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "dc26099dd33143",
@@ -6916,7 +7816,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "2d034b99572232",
@@ -6931,7 +7833,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "ROU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d94dfc555d2515",
@@ -6946,7 +7850,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "EST",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "18358ab5e2b413",
@@ -6961,7 +7867,9 @@
    "published_at": "2026-10-23T07:00:00+00:00",
    "country_iso3": "TUR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "1f00a956f04706",
@@ -6976,7 +7884,9 @@
    "published_at": "2026-10-22T13:41:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6e4a48b37dab84",
@@ -6991,7 +7901,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "USA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "9cc2dce1b8f2ca",
@@ -7006,7 +7918,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "866e7f3313acf5",
@@ -7021,7 +7935,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "d568187cb54916",
@@ -7036,7 +7952,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "a4b8dfa1a163b9",
@@ -7051,7 +7969,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "4d453c1ecf5ea2",
@@ -7066,7 +7986,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "1d07c2f8b01ea0",
@@ -7081,7 +8003,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "a6860101863bce",
@@ -7096,7 +8020,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "866667b897953d",
@@ -7111,7 +8037,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "72b51fb2eac5d9",
@@ -7126,7 +8054,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c5852e9950b0eb",
@@ -7141,7 +8071,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "4c71b093a1fa7c",
@@ -7156,7 +8088,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "3807d8992241c9",
@@ -7171,7 +8105,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "052f66574e917d",
@@ -7186,7 +8122,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a81fb91011349e",
@@ -7201,7 +8139,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "9f0632d2c9849b",
@@ -7216,7 +8156,9 @@
    "published_at": "2026-10-22T07:00:00+00:00",
    "country_iso3": "ROU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d7994f7a9ddcfc",
@@ -7231,7 +8173,9 @@
    "published_at": "2026-10-21T13:13:34+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "692ffff711acf3",
@@ -7246,7 +8190,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5d6e57cb904487",
@@ -7261,7 +8207,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "5231f656780d94",
@@ -7276,7 +8224,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "8cf684e0152aa9",
@@ -7291,7 +8241,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "bb41bf025df53f",
@@ -7306,7 +8258,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c921d5170eabf0",
@@ -7321,7 +8275,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "7b9d920bf49184",
@@ -7336,7 +8292,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "83da7acb2e073c",
@@ -7351,7 +8309,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "DEU",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "499190130d8d63",
@@ -7366,7 +8326,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "0d0afe5489b8fa",
@@ -7381,7 +8343,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d590f8b33ed2b1",
@@ -7396,7 +8360,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c080269410b831",
@@ -7411,7 +8377,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "2b0749453dbab8",
@@ -7426,7 +8394,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "6fef08d1026049",
@@ -7441,7 +8411,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "d2e43758a1a537",
@@ -7456,7 +8428,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "ROU",
    "collected_at": "2026-11-18T01:45:31.278168+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "afc31b2ce1a3ca",
@@ -7471,7 +8445,9 @@
    "published_at": "2026-10-21T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:49:25.137881+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "b9794b3ce82c6d",
@@ -7486,7 +8462,9 @@
    "published_at": "2026-10-20T17:49:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "b349583e119aad",
@@ -7501,7 +8479,9 @@
    "published_at": "2026-10-20T11:27:37+00:00",
    "country_iso3": "PRT",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "0b0a7fed1431f8",
@@ -7516,7 +8496,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "988ee415b87dbf",
@@ -7531,7 +8513,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "7d5fff30b704bc",
@@ -7546,7 +8530,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "MEX",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "57076f2ae44636",
@@ -7561,7 +8547,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "ARG",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "ed19052e088668",
@@ -7576,7 +8564,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "f29421faa78e66",
@@ -7591,7 +8581,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "3bc7b48d6ffbfd",
@@ -7606,7 +8598,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "ITA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "a36dba7e3f15d3",
@@ -7621,7 +8615,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "ac5a75b7c9c197",
@@ -7636,7 +8632,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "5aa6f00acfdf38",
@@ -7651,7 +8649,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "46b9431892da66",
@@ -7666,7 +8666,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "de89bac5487c78",
@@ -7681,7 +8683,9 @@
    "published_at": "2026-10-20T07:00:00+00:00",
    "country_iso3": "UKR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "검색어",
+   "via": "Google News"
   },
   {
    "id": "a57bc7fe040a39",
@@ -7696,7 +8700,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "3e7da690a60db1",
@@ -7711,7 +8717,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "URY",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "6eb4d3ce488082",
@@ -7726,7 +8734,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "dfe64b14129f27",
@@ -7741,7 +8751,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "09838aad60df5c",
@@ -7756,7 +8768,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "ESP",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "언어판",
+   "via": "Google News"
   },
   {
    "id": "80a7d449d7d75b",
@@ -7771,7 +8785,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": null,
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": null,
+   "via": "Google News"
   },
   {
    "id": "52cea251c11602",
@@ -7786,7 +8802,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "FRA",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "628857664857b1",
@@ -7801,7 +8819,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "CAN",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "888fad4248f035",
@@ -7816,7 +8836,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "POL",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "868dfaf0ed5a13",
@@ -7831,7 +8853,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   },
   {
    "id": "c2ea0c787bbbfc",
@@ -7846,7 +8870,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "KOR",
    "collected_at": "2026-11-18T01:35:35.824627+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "제목",
+   "via": "Google News"
   },
   {
    "id": "5e03882391408f",
@@ -7861,7 +8887,9 @@
    "published_at": "2026-10-19T07:00:00+00:00",
    "country_iso3": "RUS",
    "collected_at": "2026-11-18T01:45:31.278168+00:00",
-   "kind": "signal"
+   "kind": "signal",
+   "iso_basis": "도메인",
+   "via": "Google News"
   }
  ]
 }

@@ -53,5 +53,32 @@
   "ok": true,
   "checked_at": "2026-11-18T02:20:58.231443+00:00",
   "last_success_at": "2026-11-18T02:20:58.231443+00:00"
+ },
+ "participedia": {
+  "name": "Participedia 사례 레지스트리",
+  "ok": true,
+  "fetched": 240,
+  "total": 240,
+  "checked_at": "2026-11-18T05:20:47.525437+00:00",
+  "error": null,
+  "last_success_at": "2026-11-18T05:20:47.525437+00:00"
+ },
+ "pabulib": {
+  "name": "Pabulib 투표 기록 DB",
+  "ok": true,
+  "fetched": 851,
+  "total": 851,
+  "checked_at": "2026-11-18T05:20:47.525437+00:00",
+  "error": null,
+  "last_success_at": "2026-11-18T05:20:47.525437+00:00"
+ },
+ "decidim": {
+  "name": "Decidim 공식 플랫폼 API",
+  "ok": true,
+  "fetched": 2,
+  "total": 2,
+  "checked_at": "2026-11-18T05:20:47.525437+00:00",
+  "error": null,
+  "last_success_at": "2026-11-18T05:20:47.525437+00:00"
  }
 }

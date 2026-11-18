@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T02:20:58.231443+00:00",
+ "updated_at": "2026-11-18T05:20:47.525437+00:00",
  "count": 39,
  "items": [
   {
@@ -30,6 +30,8 @@
     "국민참여예산",
     "mybudget"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [
     {
      "title": "고작 ‘119억’ 반영했던 국민참여예산 확대…청년 목소리 대폭 담는다",
@@ -74,6 +76,8 @@
     "서울시 시민참여예산",
     "서울 주민참여예산"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [
     {
      "title": "서울시 시민참여예산, 제안액의 0.7%만 반영…시민투표 이후 104억 삭감 논란",
@@ -126,6 +130,91 @@
     "new york",
     "nyc"
    ],
+   "official_api": {
+    "platform": "Decidim GraphQL",
+    "api": "https://www.participate.nyc.gov/api",
+    "checked_at": "2026-11-18T05:20:47.525437+00:00",
+    "cycles": [
+     {
+      "slug": "Citywidepb2026",
+      "title": "The People's Money - 5th Cycle",
+      "start": "2026-10-14",
+      "end": "2028-12-31",
+      "budget_total": null,
+      "areas": null,
+      "projects": null,
+      "selected": null,
+      "selected_amount": null,
+      "url": "https://www.participate.nyc.gov/processes/Citywidepb2026"
+     },
+     {
+      "slug": "Citywidepb2025",
+      "title": "The People's Money - 4th Cycle",
+      "start": "2025-10-15",
+      "end": "2027-12-31",
+      "budget_total": null,
+      "areas": null,
+      "projects": null,
+      "selected": null,
+      "selected_amount": null,
+      "url": "https://www.participate.nyc.gov/processes/Citywidepb2025"
+     },
+     {
+      "slug": "Citywidepb2024",
+      "title": "The People's Money - 3rd Cycle",
+      "start": "2024-10-10",
+      "end": "2026-10-31",
+      "budget_total": null,
+      "areas": null,
+      "projects": null,
+      "selected": null,
+      "selected_amount": null,
+      "url": "https://www.participate.nyc.gov/processes/Citywidepb2024"
+     },
+     {
+      "slug": "Citywidepb2023",
+      "title": "The People's Money - 2nd Cycle",
+      "start": "2023-10-10",
+      "end": "2025-10-31",
+      "budget_total": null,
+      "areas": null,
+      "projects": null,
+      "selected": null,
+      "selected_amount": null,
+      "url": "https://www.participate.nyc.gov/processes/Citywidepb2023"
+     },
+     {
+      "slug": "Citywidepb",
+      "title": "The People's Money - 1st Cycle ",
+      "start": "2022-09-19",
+      "end": "2024-06-30",
+      "budget_total": null,
+      "areas": null,
+      "projects": null,
+      "selected": null,
+      "selected_amount": null,
+      "url": "https://www.participate.nyc.gov/processes/Citywidepb"
+     }
+    ]
+   },
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "The Peoples Money: NYC's First City-wide Deliberative Participatory Budgeting Process (2022-2023)",
+     "url": "https://participedia.net/case/13361",
+     "updated": "2025-08-21"
+    },
+    {
+     "title": "NYC Participatory Budgeting: The People’s Money Initiative",
+     "url": "https://participedia.net/case/13223",
+     "updated": "2024-04-22"
+    },
+    {
+     "title": "New York Participatory Budgeting Pilot (2012-2013)",
+     "url": "https://participedia.net/case/469",
+     "updated": "2021-12-21"
+    }
+   ],
    "related_news": [
     {
      "title": "뉴욕시 시민 참여 위원회, 11월 18일까지 주민참여예산 워크숍 개최",
@@ -144,7 +233,11 @@
    "program_name": "OmaStadi",
    "stage": "implementation",
    "budget": {
-    "display": "확인 중"
+    "display": "€10,000,000 (Participatory budgeting 2025-2026, 공식 API)",
+    "amount": 10000000,
+    "currency": "EUR",
+    "source": "official_api",
+    "source_url": "https://omastadi.hel.fi/processes/osbu-2025"
    },
    "participants": {
     "count": null,
@@ -163,6 +256,69 @@
    "keywords": [
     "omastadi",
     "helsinki"
+   ],
+   "official_api": {
+    "platform": "Decidim GraphQL",
+    "api": "https://omastadi.hel.fi/api",
+    "checked_at": "2026-11-18T05:20:47.525437+00:00",
+    "cycles": [
+     {
+      "slug": "osbu-2025",
+      "title": "Participatory budgeting 2025-2026",
+      "start": "2025-09-01",
+      "end": "2026-12-31",
+      "budget_total": 10000000,
+      "areas": 7,
+      "projects": 640,
+      "selected": 54,
+      "selected_amount": 9745000,
+      "url": "https://omastadi.hel.fi/processes/osbu-2025"
+     },
+     {
+      "slug": "osbu-2023",
+      "title": "Participatory budgeting 2023-2024",
+      "start": "2023-10-01",
+      "end": "2024-12-31",
+      "budget_total": 8800000,
+      "areas": 7,
+      "projects": 698,
+      "selected": 45,
+      "selected_amount": 8723241,
+      "url": "https://omastadi.hel.fi/processes/osbu-2023"
+     },
+     {
+      "slug": "osbu-2020",
+      "title": "Participatory budgeting 2020-2021",
+      "start": "2020-09-05",
+      "end": "2021-12-31",
+      "budget_total": 8800000,
+      "areas": 8,
+      "projects": 396,
+      "selected": 75,
+      "selected_amount": 8686000,
+      "url": "https://omastadi.hel.fi/processes/osbu-2020"
+     },
+     {
+      "slug": "osbu-2019",
+      "title": "Participatory budjeting 2018-2019",
+      "start": "2018-10-25",
+      "end": "2019-12-31",
+      "budget_total": 4395620,
+      "areas": 8,
+      "projects": 297,
+      "selected": 44,
+      "selected_amount": 4233000,
+      "url": "https://omastadi.hel.fi/processes/osbu-2019"
+     }
+    ]
+   },
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "OmaStadi - Participatory Budgeting in Helsinki, Finland (2018-ongoing)",
+     "url": "https://participedia.net/case/7806",
+     "updated": "2022-05-09"
+    }
    ],
    "related_news": [],
    "latest_signal_date": null
@@ -195,6 +351,19 @@
     "budget participatif de paris",
     "paris"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Paris, France",
+     "url": "https://participedia.net/case/5008",
+     "updated": "2021-06-27"
+    },
+    {
+     "title": "Improving Participatory Budgeting in Scotland: A Collaborative Research Project",
+     "url": "https://participedia.net/case/5744",
+     "updated": "2019-10-14"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -226,6 +395,14 @@
     "decide madrid",
     "madrid"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Decide.Madrid.es Online Participatory Budgeting",
+     "url": "https://participedia.net/case/4365",
+     "updated": "2019-11-30"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -237,7 +414,11 @@
    "program_name": "Budżet Obywatelski Miasta Krakowa",
    "stage": "annual cycle",
    "budget": {
-    "display": "확인 중"
+    "display": "37,999,992 zł (2022년 19개 투표 합계, Pabulib)",
+    "amount": 37999992,
+    "currency": "PLN",
+    "source": "pabulib",
+    "source_url": "https://pabulib.org/"
    },
    "participants": {
     "count": null,
@@ -257,6 +438,41 @@
     "kraków",
     "krakow",
     "budżet obywatelski krakowa"
+   ],
+   "pabulib": {
+    "iso3": "POL",
+    "country": "Poland",
+    "unit": "Kraków",
+    "elections": 95,
+    "votes": 438872,
+    "projects": 2715,
+    "latest": {
+     "name": "Kraków, PODGÓRZE, PODGÓRZE, 2022, 2022-09",
+     "subunit": "PODGÓRZE",
+     "instance": "2022",
+     "budget": 2255001.0,
+     "num_projects": 30,
+     "num_votes": 4255,
+     "date_begin": "2022-09-30",
+     "date_end": "2022-10-14",
+     "ballot_type": "ordinal",
+     "rule": "greedy_cost"
+    },
+    "first_year": 2018,
+    "last_year": 2022,
+    "last_year_total": {
+     "elections": 19,
+     "budget": 37999992,
+     "votes": 85930,
+     "projects": 558
+    }
+   },
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Kraków, Poland, 2014-2024",
+     "url": "https://participedia.net/case/14397",
+     "updated": "2025-05-20"
+    }
    ],
    "related_news": [
     {
@@ -294,6 +510,14 @@
    "keywords": [
     "palmela"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Palmela/Eu Participo Munícipes",
+     "url": "https://participedia.net/case/14803",
+     "updated": "2026-03-22"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -323,6 +547,19 @@
    "tracking_status": "verified",
    "keywords": [
     "porto alegre"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Porto Alegre Participatory Budgeting Cycle 2005-2007",
+     "url": "https://participedia.net/case/44",
+     "updated": "2021-06-25"
+    },
+    {
+     "title": "Participatory Budgeting in Porto Alegre 1989-present",
+     "url": "https://participedia.net/case/5524",
+     "updated": "2020-12-28"
+    }
    ],
    "related_news": [
     {
@@ -374,6 +611,19 @@
     "florianópolis",
     "florianopolis"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Santa Catarina state, Brazil",
+     "url": "https://participedia.net/case/14847",
+     "updated": "2026-05-14"
+    },
+    {
+     "title": "Participatory Budgeting in Florianópolis",
+     "url": "https://participedia.net/case/14743",
+     "updated": "2026-04-23"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -406,6 +656,8 @@
     "ciudad de méxico",
     "iecm"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [
     {
      "title": "IECM, 2026년 COPACO 선거 및 2026년과 2027년 주민 참여 예산 편성 의견 수렴 관련 서류 폐기 승인",
@@ -443,6 +695,8 @@
    "keywords": [
     "san borja"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -474,6 +728,8 @@
     "presupuesto participativo municipal",
     "república dominicana"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -504,6 +760,8 @@
     "praha",
     "prague"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -532,6 +790,14 @@
    "tracking_status": "documented",
    "keywords": [
     "cluj"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Youth Participatory Budgeting in Cluj-Napoca, Romania",
+     "url": "https://participedia.net/case/5556",
+     "updated": "2020-01-19"
+    }
    ],
    "related_news": [
     {
@@ -575,6 +841,14 @@
    "keywords": [
     "maribor"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Maribor, Slovenia",
+     "url": "https://participedia.net/case/5583",
+     "updated": "2020-01-18"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -606,6 +880,19 @@
     "reykjavik",
     "hverfið mitt"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Better Reykjavik: Iceland's Online Participation Platform",
+     "url": "https://participedia.net/case/5320",
+     "updated": "2019-07-04"
+    },
+    {
+     "title": "My Neighbourhood: Online Participatory Budgeting in Reykjavik, Iceland",
+     "url": "https://participedia.net/case/4225",
+     "updated": "2019-01-30"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -635,6 +922,19 @@
    "keywords": [
     "rosario"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Rosario, Argentina",
+     "url": "https://participedia.net/case/1115",
+     "updated": "2020-08-25"
+    },
+    {
+     "title": "Youth Participatory Budgeting in Rosario, Argentina",
+     "url": "https://participedia.net/case/2371",
+     "updated": "2020-08-24"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -663,6 +963,14 @@
    "tracking_status": "documented",
    "keywords": [
     "montevideo"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Montevideo Uruguay Participatory Budget",
+     "url": "https://participedia.net/case/511",
+     "updated": "2021-06-21"
+    }
    ],
    "related_news": [
     {
@@ -706,6 +1014,14 @@
    "keywords": [
     "guelph"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "The Guelph Neighbourhood Support Coalition's Participatory Budgeting",
+     "url": "https://participedia.net/case/4393",
+     "updated": "2019-01-27"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -735,6 +1051,14 @@
    "keywords": [
     "chengdu",
     "成都"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Large-Scale Participatory Budgeting in Chengdu (China)",
+     "url": "https://participedia.net/case/5969",
+     "updated": "2024-05-01"
+    }
    ],
    "related_news": [],
    "latest_signal_date": null
@@ -766,6 +1090,8 @@
    "keywords": [
     "kwale"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -795,6 +1121,8 @@
    "keywords": [
     "vulekamali"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -825,6 +1153,8 @@
     "bürgerhaushalt",
     "buergerhaushalt"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [
     {
      "title": "모두가 만족하나요? 얀스도르프에서 시민 예산이 동결된 이유는 무엇인가요?",
@@ -874,6 +1204,8 @@
     "bilancio partecipativo",
     "scuola"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [
     {
      "title": "참여 예산: 페스카라의 '아이들의 섬'을 위한 시민과의 만남",
@@ -922,6 +1254,8 @@
    "keywords": [
     "dalyvaujamasis biudžetas"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -952,6 +1286,14 @@
     "lancaster",
     "your pots"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "\"Your Pots\" Participatory Budgeting 2025",
+     "url": "https://participedia.net/case/14881",
+     "updated": "2026-06-04"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -981,6 +1323,14 @@
    "keywords": [
     "cheetham",
     "choose for cheetham"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Choose for Cheetham Youth Participatory Budgeting 2025",
+     "url": "https://participedia.net/case/14843",
+     "updated": "2026-06-03"
+    }
    ],
    "related_news": [],
    "latest_signal_date": null
@@ -1013,6 +1363,24 @@
     "dundee climate fund",
     "dundee"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Dundee Climate Fund 3.0",
+     "url": "https://participedia.net/case/14405",
+     "updated": "2025-08-13"
+    },
+    {
+     "title": "Participatory Budgeting : Dundee Climate Fund 3.0",
+     "url": "https://participedia.net/case/14322",
+     "updated": "2025-05-22"
+    },
+    {
+     "title": "Participatory Budgeting in Dundee, Scotland",
+     "url": "https://participedia.net/case/5535",
+     "updated": "2019-12-09"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -1041,6 +1409,14 @@
    "tracking_status": "documented",
    "keywords": [
     "trogir"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Trogir Participatory Budgeting",
+     "url": "https://participedia.net/case/14875",
+     "updated": "2026-06-04"
+    }
    ],
    "related_news": [],
    "latest_signal_date": null
@@ -1071,6 +1447,14 @@
    "keywords": [
     "tartu",
     "kaasav eelarve"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Tartu, Estonia",
+     "url": "https://participedia.net/case/7795",
+     "updated": "2022-05-09"
+    }
    ],
    "related_news": [],
    "latest_signal_date": null
@@ -1104,6 +1488,8 @@
     "riga",
     "līdzdalības budžets"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [
     {
      "title": "리가시 참여예산 공모 투표에서 아겐스칼스, 플라브니에키, 사르칸다우가바 지역의 프로젝트가 선두를 달리고 있습니다.",
@@ -1152,6 +1538,8 @@
    "keywords": [
     "maastricht"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -1182,6 +1570,14 @@
    "keywords": [
     "lahti"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory Budgeting in Lahti, Finland 2020-22",
+     "url": "https://participedia.net/case/8361",
+     "updated": "2024-10-29"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -1210,6 +1606,14 @@
    "tracking_status": "documented",
    "keywords": [
     "wamala"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Participatory budgeting in Wamala District, Uganda",
+     "url": "https://participedia.net/case/12215",
+     "updated": "2023-05-07"
+    }
    ],
    "related_news": [],
    "latest_signal_date": null
@@ -1241,6 +1645,14 @@
     "central falls",
     "voces con poder"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Voces Con Ponder- Participatory Budgeting in Central Falls School District",
+     "url": "https://participedia.net/case/13062",
+     "updated": "2024-01-16"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -1271,6 +1683,19 @@
     "so18",
     "big local"
    ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "SO18 Big Local – Participatory Budgeting",
+     "url": "https://participedia.net/case/13268",
+     "updated": "2024-05-30"
+    },
+    {
+     "title": "SO18 BIG LOCAL",
+     "url": "https://participedia.net/case/13267",
+     "updated": "2024-05-24"
+    }
+   ],
    "related_news": [],
    "latest_signal_date": null
   },
@@ -1299,6 +1724,24 @@
    "tracking_status": "documented",
    "keywords": [
     "australia"
+   ],
+   "pabulib": null,
+   "cases": [
+    {
+     "title": "Deliberative Participatory Budgeting in Greater Geraldton, Australia",
+     "url": "https://participedia.net/case/4334",
+     "updated": "2021-11-02"
+    },
+    {
+     "title": "Citizens' Jury for Participatory Budgeting in Darebin, Australia",
+     "url": "https://participedia.net/case/4385",
+     "updated": "2020-08-04"
+    },
+    {
+     "title": "The Robin Hood Project: Participatory Budgeting in Melville, Australia",
+     "url": "https://participedia.net/case/5542",
+     "updated": "2019-12-16"
+    }
    ],
    "related_news": [],
    "latest_signal_date": null
@@ -1330,6 +1773,8 @@
    "keywords": [
     "new zealand"
    ],
+   "pabulib": null,
+   "cases": [],
    "related_news": [],
    "latest_signal_date": null
   }

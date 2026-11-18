@@ -6,7 +6,9 @@
   "programs": 39,
   "news": 514,
   "papers": 222,
-  "ledger": 56,
-  "news_added_today": 1
+  "ledger": 57,
+  "news_added_today": 1,
+  "cases": 240,
+  "elections": 851
  }
 }

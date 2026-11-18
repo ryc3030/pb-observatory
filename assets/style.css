@@ -270,7 +270,7 @@ details.crow[open]>summary{background:var(--hover)}
 .prog .relnews,.prog footer{grid-column:1/-1}
 .prog .complete{grid-column:2;align-self:start;max-width:360px}
 .prog header{display:flex;justify-content:space-between;gap:var(--s3);align-items:start}
-.prog h4{margin:0;font-size:15px;font-weight:700;line-height:1.4}
+.prog h3{margin:0;font-size:15px;font-weight:700;line-height:1.4}
 .prog .sub{font-size:12.5px;color:var(--muted)}
 .prog .slot{width:36px;height:36px;flex:none}
 .prog .slot svg{width:26px;height:26px}
@@ -472,6 +472,7 @@ details.crow[open]>summary{background:var(--hover)}
   .principles{grid-template-columns:1fr;gap:var(--s3)}
   .evidence{grid-template-columns:1fr}
   .prog{grid-template-columns:1fr}
+  .prog .complete{grid-column:1;max-width:none}
   .tally td:first-child{width:110px}
   .filterbar.row{grid-template-columns:1fr 1fr}
   .filterbar.row .btn{grid-column:1/-1}
@@ -497,3 +498,23 @@ details.crow[open]>summary{background:var(--hover)}
 }
 @media print{.shell,.statusline,.filterbar,.btn,.map{display:none}body{background:#fff}}
 .tlviz .cross[hidden]{display:none}
+
+/* 외부 레지스트리 근거 */
+.rv{display:inline-flex;align-items:center;padding:0 6px;border:1.5px dashed var(--ink);font-size:12px;font-weight:700;color:var(--ink)}
+.meta .cty small{font-weight:400;color:var(--muted)}
+.prog .official,.prog .regline{grid-column:1/-1}
+.regline{font-size:13px;line-height:1.55;padding-top:var(--s2);border-top:1px dashed var(--hair)}
+.official{padding-top:var(--s2);border-top:1px dashed var(--hair)}
+.official .note{margin-bottom:6px}
+.ctable,.srctable{width:100%;border-collapse:collapse;font-size:13px;font-variant-numeric:tabular-nums}
+.ctable th,.ctable td,.srctable th,.srctable td{padding:6px 8px 6px 0;border-top:1px solid var(--hair);text-align:left;vertical-align:top}
+.ctable thead th,.srctable thead th{border-top:0;border-bottom:2px solid var(--rule);font-size:12px;color:var(--ink-2);font-weight:700}
+.ctable td{text-align:right;white-space:nowrap}
+.ctable thead th:not(:first-child){text-align:right}
+.ctable th[scope=row] a{color:var(--ink)}
+.sources{margin-top:var(--s6);border-top:3px solid var(--rule);padding-top:var(--s3)}
+.sources h3{font-size:15px;font-weight:700;margin-bottom:var(--s2)}
+.sources .note{margin-bottom:var(--s3)}
+.srctable th[scope=row]{white-space:nowrap;font-weight:700}
+@media (max-width:640px){.srctable thead{display:none}.srctable tr{display:grid;padding:var(--s2) 0;border-top:1px solid var(--hair)}.srctable th,.srctable td{border:0;padding:2px 0}}
+.relnews.cases a{color:var(--ink);text-decoration-thickness:1px}

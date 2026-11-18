@@ -4,13 +4,15 @@
 GitHub Actions가 매일 실행합니다. 외부 패키지 없이 표준 라이브러리만 씁니다.
 
 수집 대상
-  1) 뉴스 신호  : Google News RSS, 21개 언어 검색어
+  1) 뉴스 신호  : Google News RSS(27개 검색어·24개 언어) + GDELT DOC 2.0(원문 직링크·발행국)
   2) 연구 논문  : OpenAlex (실패 시 Crossref)
   3) 국가 신호  : 뉴스 제목을 국가 별칭과 대조해 국가별 최신 신호·30일 건수 산출
   4) 근거 원장  : 새로 관측된 국가 신호·논문을 날짜와 함께 누적
   5) 출처 상태  : 소스별 성공/실패, 건수, 시각
+  6) 외부 레지스트리 : Participedia(사례), Pabulib(투표 기록), Decidim GraphQL(공식 플랫폼 수치)
 
-원칙: 뉴스 신호는 국가의 근거 상태(verified/documented/monitoring)를 자동으로 올리지 않습니다.
+원칙: 뉴스·논문·레지스트리 신호는 국가의 근거 상태(verified/documented/monitoring)를 자동으로 올리지 않습니다.
+레지스트리에서 근거가 보이면 '검토 필요' 표시와 원장 기록만 남기고, 상태 변경은 사람이 seed 파일에서 합니다.
 """
 from __future__ import annotations
 
@@ -230,6 +232,88 @@ def edition_default(gl: str, lang: str):
     return {"ES": "ESP", "FR": "FRA", "DE": "DEU", "RU": "RUS", "TW": "TWN", "TR": "TUR", "HR": "HRV", "NL": "NLD"}.get(gl)
 
 
+NAME_ISO: dict[str, str] = {}  # 영문 국가명·별칭 → ISO3 (main에서 seed로 채움)
+NAME_ISO_EXTRA = {"united states": "USA", "united kingdom": "GBR", "south korea": "KOR", "korea": "KOR",
+                  "czech republic": "CZE", "czechia": "CZE", "tchéquia": "CZE", "germania": "DEU", "italia": "ITA",
+                  "taiwan": "TWN", "russia": "RUS", "turkey": "TUR", "türkiye": "TUR", "cape verde": "CPV",
+                  "dominican republic": "DOM", "ivory coast": "CIV", "côte d'ivoire": "CIV", "vietnam": "VNM",
+                  "democratic republic of the congo": "COD", "afghanistan": "AFG", "bosnia-herzegovina": "BIH",
+                  "macedonia": "MKD", "north macedonia": "MKD", "slovak republic": "SVK"}
+
+
+def name_iso(name: str):
+    n = (name or "").strip().lower()
+    return NAME_ISO.get(n) or NAME_ISO_EXTRA.get(n)
+
+
+def tag_country(row, match):
+    """국가 판정 우선순위: 제목 속 지명 → GDELT 발행국 → 출처 도메인 → 단일국가 검색어 → 언어판 기본값."""
+    t = match(row["title"])
+    if t:
+        return t, "제목"
+    if row.get("src_country_iso"):
+        return row["src_country_iso"], "발행국"
+    t = tld_country(row.get("source_url", "") or row.get("url", ""))
+    if t:
+        return t, "도메인"
+    if row.get("default_iso"):
+        return row["default_iso"], "검색어"
+    t = edition_default(row.get("gl", ""), row["lang"])
+    return (t, "언어판") if t else (None, None)
+
+
+GDELT_LANG = {"English": "en", "Spanish": "es", "Portuguese": "pt", "French": "fr", "German": "de", "Italian": "it",
+              "Polish": "pl", "Korean": "ko", "Japanese": "ja", "Chinese": "zh", "Russian": "ru", "Ukrainian": "uk",
+              "Czech": "cs", "Slovak": "sk", "Romanian": "ro", "Dutch": "nl", "Finnish": "fi", "Swedish": "sv",
+              "Lithuanian": "lt", "Latvian": "lv", "Estonian": "et", "Croatian": "hr", "Indonesian": "id", "Turkish": "tr"}
+GDELT_QUERIES = ['"participatory budgeting"', '"participatory budget"', '"presupuesto participativo"',
+                 '"presupuestos participativos"', '"orçamento participativo"', '"budget participatif"',
+                 '"bilancio partecipativo"', '"Bürgerhaushalt"', '"budżet obywatelski"']
+
+
+def fetch_gdelt(health):
+    """GDELT DOC 2.0 API (무료·무키). 5초당 1회 제한이 있어 6초 간격으로 호출."""
+    rows, ok, errs, fails = [], 0, [], 0
+    for q in GDELT_QUERIES:
+        if fails >= 3:  # 연속 실패 시 이번 실행은 중단(다른 소스 시간 확보)
+            errs.append("연속 실패로 나머지 생략")
+            break
+        url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
+            {"query": q, "mode": "artlist", "format": "json", "maxrecords": 250, "timespan": "30d", "sort": "datedesc"})
+        try:
+            raw = http_get(url, timeout=40, retries=0)
+            arts = json.loads(raw.decode("utf-8", "ignore") or "{}").get("articles", []) if raw.strip() else []
+            ok += 1
+            fails = 0
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"{q}: {str(e)[:60]}")
+            arts = []
+            fails += 1
+        for a in arts:
+            title = clean(a.get("title") or "")
+            link = a.get("url") or ""
+            # 본문 매칭만 된 기사는 제목이나 주소에 PB 용어가 있을 때만 채택
+            if not title or not (PB_TERMS.search(title) or PB_TERMS.search(link.replace("-", " "))):
+                continue
+            lang = GDELT_LANG.get(a.get("language", ""), "en")
+            try:
+                pub = datetime.strptime(a["seendate"], "%Y%m%dT%H%M%SZ").replace(tzinfo=timezone.utc).isoformat()
+            except Exception:  # noqa: BLE001
+                pub = NOW.isoformat()
+            dom = a.get("domain") or urllib.parse.urlparse(link).hostname or ""
+            nid = hashlib.sha1((re.sub(r"\W+", "", title.lower()) + "|" + dom.lower()).encode()).hexdigest()[:14]
+            rows.append({"id": nid, "title": title, "title_ko": None, "lang": lang, "source": dom, "url": link,
+                         "source_url": "https://" + dom, "gl": "", "default_iso": None, "published_at": pub,
+                         "src_country": a.get("sourcecountry") or None, "src_country_iso": name_iso(a.get("sourcecountry")),
+                         "collected_at": NOW.isoformat(), "kind": "signal", "via": "GDELT"})
+        time.sleep(6)
+    health["gdelt"] = {"name": "GDELT DOC 2.0 (원문 직링크)", "ok": ok > 0, "queries_ok": ok, "queries": len(GDELT_QUERIES),
+                       "fetched": len(rows), "checked_at": NOW.isoformat(), "error": "; ".join(errs)[:300] or None,
+                       "last_success_at": NOW.isoformat() if ok else (health.get("gdelt") or {}).get("last_success_at")}
+    log("gdelt", ok, "/", len(GDELT_QUERIES), "rows", len(rows))
+    return rows
+
+
 def parse_date(s: str) -> str:
     try:
         return email.utils.parsedate_to_datetime(s).astimezone(timezone.utc).isoformat()
@@ -267,13 +351,13 @@ def collect_news(countries, match, health):
             if nid in by_id:
                 continue
             src_url = src_el.get("url", "") if src_el is not None else ""
-            iso = match(title) or tld_country(src_url) or default_iso or edition_default(gl, lang)
+            iso = None  # 아래 재태깅에서 결정
             pub = parse_date(it.findtext("pubDate") or "")
             row = {
                 "id": nid, "title": title, "title_ko": None, "lang": lang, "source": source,
                 "url": link, "source_url": src_url, "gl": gl, "default_iso": default_iso,
                 "published_at": pub, "country_iso3": iso, "collected_at": NOW.isoformat(),
-                "kind": "signal",
+                "kind": "signal", "via": "Google News",
             }
             by_id[nid] = row
             added += 1
@@ -281,10 +365,21 @@ def collect_news(countries, match, health):
         per_lang[lang] = per_lang.get(lang, 0) + n
         time.sleep(1.2)
 
-    # 별칭 사전이 바뀌어도 반영되도록 전체 재태깅
+    # GDELT: 원문 직링크와 발행국(sourcecountry)을 주는 보조 뉴스 소스
+    gd = fetch_gdelt(health)
+    seen_titles = {norm_title(x["title"]) for x in by_id.values()}
+    for row in gd:
+        k = norm_title(row["title"])
+        if row["id"] in by_id or k in seen_titles:
+            continue
+        seen_titles.add(k)
+        by_id[row["id"]] = row
+        added += 1
+        per_lang["gdelt"] = per_lang.get("gdelt", 0) + 1
+
+    # 별칭 사전이 바뀌어도 반영되도록 전체 재태깅. 근거(iso_basis)를 함께 남겨 화면에서 판단 근거를 보여 줌
     for row in by_id.values():
-        row["country_iso3"] = (match(row["title"]) or tld_country(row.get("source_url", ""))
-                               or row.get("default_iso") or edition_default(row.get("gl", ""), row["lang"]))
+        row["country_iso3"], row["iso_basis"] = tag_country(row, match)
 
     # 신규 항목만 번역 (최대 120건/일)
     budget = 150
@@ -301,7 +396,7 @@ def collect_news(countries, match, health):
                    key=lambda x: x["published_at"], reverse=True)[:NEWS_MAX]
     save("news.json", {"updated_at": NOW.isoformat(), "count": len(items), "items": items})
     health["news"] = {
-        "name": "Google News RSS (다국어)", "ok": ok_q > 0, "queries_ok": ok_q, "queries": len(NEWS_QUERIES),
+        "name": "Google News RSS (다국어)", "ok": ok_q > 0, "gdelt_added": per_lang.get("gdelt", 0), "queries_ok": ok_q, "queries": len(NEWS_QUERIES),
         "added": added, "total": len(items), "checked_at": NOW.isoformat(),
         "languages": sorted({q[0] for q in NEWS_QUERIES}),
     }
@@ -537,6 +632,227 @@ def write_feed(news, countries):
     (ROOT / "feed.xml").write_text(xml, "utf-8")
 
 
+# ---------------------------------------------------------------- 6) 외부 레지스트리
+def http_post_json(url: str, payload: dict, timeout: int = 90):
+    req = urllib.request.Request(url, data=json.dumps(payload).encode(), method="POST",
+                                 headers={"User-Agent": UA, "Content-Type": "application/json", "Accept": "application/json"})
+    with urllib.request.urlopen(req, timeout=timeout) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+PB_CASE_RX = re.compile(r"particip\w*[ -]budget|presupuesto|orçamento|budget participatif|bilancio partecipativo|"
+                        r"bürgerhaushalt|budżet obywatelski|참여예산|\bPB\b", re.I)
+
+
+def collect_participedia(health):
+    """Participedia 검색 JSON(무키). 제목·요약에 PB 용어가 있는 사례만 남김."""
+    prev = load("cases.json", {"items": []})
+    items, errs, page, pages = {}, [], 1, 1
+    while page <= min(pages, 40):
+        url = "https://participedia.net/search?" + urllib.parse.urlencode(
+            {"selectedCategory": "case", "query": "participatory budgeting", "returns": "json", "page": page})
+        try:
+            d = json.loads(http_get(url, timeout=60, retries=1, accept="application/json"))
+            pages = int(d.get("pages") or 1)
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"p{page}: {str(e)[:60]}")
+            break
+        for r in d.get("results", []):
+            text = f"{r.get('title') or ''} {r.get('description') or ''}"
+            if not PB_CASE_RX.search(text):
+                continue
+            try:
+                lat, lon = float(r.get("latitude")), float(r.get("longitude"))
+            except (TypeError, ValueError):
+                lat = lon = None
+            items[str(r["id"])] = {
+                "id": str(r["id"]), "title": clean(r.get("title") or "")[:200], "city": r.get("city") or "",
+                "country": r.get("country") or "", "iso3": name_iso(r.get("country")), "lat": lat, "lon": lon,
+                "verified": str(r.get("verified")) == "True", "completeness": r.get("completeness") or "",
+                "updated": (r.get("updated_date") or "")[:10], "url": f"https://participedia.net/case/{r['id']}"}
+        page += 1
+        time.sleep(0.8)
+    ok = bool(items)
+    rows = sorted(items.values(), key=lambda x: x["updated"], reverse=True) if ok else prev.get("items", [])
+    by_iso = {}
+    for x in rows:
+        if x.get("iso3"):
+            by_iso[x["iso3"]] = by_iso.get(x["iso3"], 0) + 1
+    save("cases.json", {"updated_at": NOW.isoformat() if ok else prev.get("updated_at"), "source": "Participedia",
+                        "source_url": "https://participedia.net/", "count": len(rows), "by_iso": by_iso, "items": rows})
+    health["participedia"] = {"name": "Participedia 사례 레지스트리", "ok": ok, "fetched": len(items), "total": len(rows),
+                              "checked_at": NOW.isoformat(), "error": "; ".join(errs)[:300] or None,
+                              "last_success_at": NOW.isoformat() if ok else (health.get("participedia") or {}).get("last_success_at")}
+    log("participedia", len(items), "cases", len(by_iso), "countries")
+    return rows
+
+
+def collect_pabulib(health):
+    """Pabulib 투표 기록 DB(pabuviz API, 무키). 도시별 회차·투표 수·최근 회차 예산을 집계."""
+    prev = load("elections.json", {"units": []})
+    try:
+        d = json.loads(http_get("https://db.pabuviz.org/api/elections/?filters=%7B%7D", timeout=90, retries=1,
+                                accept="application/json"))
+        data = d.get("data") or []
+    except Exception as e:  # noqa: BLE001
+        data, err = [], str(e)[:200]
+    else:
+        err = None
+    units = {}
+    for x in data:
+        iso = name_iso(x.get("country"))
+        key = (iso or x.get("country"), x.get("unit") or "")
+        u = units.setdefault(key, {"iso3": iso, "country": x.get("country"), "unit": x.get("unit"), "elections": 0,
+                                   "years": set(), "votes": 0, "projects": 0, "latest": None, "by_year": {}})
+        u["elections"] += 1
+        yr = (x.get("date_begin") or x.get("date_end") or "")[:4]
+        if yr.isdigit():
+            u["years"].add(int(yr))
+            y = u["by_year"].setdefault(yr, {"elections": 0, "budget": 0, "votes": 0, "projects": 0})
+            y["elections"] += 1
+            y["budget"] += int(x.get("budget") or 0)
+            y["votes"] += int(x.get("num_votes") or 0)
+            y["projects"] += int(x.get("num_projects") or 0)
+        u["votes"] += int(x.get("num_votes") or 0)
+        u["projects"] += int(x.get("num_projects") or 0)
+        if not u["latest"] or (x.get("date_end") or "") > (u["latest"].get("date_end") or ""):
+            u["latest"] = {k: x.get(k) for k in ("name", "subunit", "instance", "budget", "num_projects", "num_votes",
+                                                  "date_begin", "date_end", "ballot_type", "rule")}
+    out = []
+    for u in units.values():
+        ys = sorted(u.pop("years"))
+        u["first_year"], u["last_year"] = (ys[0], ys[-1]) if ys else (None, None)
+        u["last_year_total"] = u["by_year"].get(str(ys[-1])) if ys else None
+        out.append(u)
+    out.sort(key=lambda u: -u["elections"])
+    ok = bool(out)
+    if not ok:
+        out = prev.get("units", [])
+    by_iso = {}
+    for u in out:
+        if u.get("iso3"):
+            by_iso[u["iso3"]] = by_iso.get(u["iso3"], 0) + u["elections"]
+    save("elections.json", {"updated_at": NOW.isoformat() if ok else prev.get("updated_at"), "source": "Pabulib",
+                            "source_url": "https://pabulib.org/", "count": sum(u["elections"] for u in out),
+                            "by_iso": by_iso, "units": out})
+    health["pabulib"] = {"name": "Pabulib 투표 기록 DB", "ok": ok, "fetched": len(data), "total": sum(u["elections"] for u in out),
+                         "checked_at": NOW.isoformat(), "error": err,
+                         "last_success_at": NOW.isoformat() if ok else (health.get("pabulib") or {}).get("last_success_at")}
+    log("pabulib", len(data), "elections", len(out), "units")
+    return out
+
+
+# 공식 플랫폼이 Decidim으로 운영되는 프로그램 → GraphQL API 주소
+DECIDIM = {"fin-helsinki-omastadi": "https://omastadi.hel.fi/api",
+           "usa-nyc-peoples-money": "https://www.participate.nyc.gov/api"}
+CURRENCY = {"FIN": ("EUR", "€{:,}"), "POL": ("PLN", "{:,} zł"), "NLD": ("EUR", "€{:,}"), "FRA": ("EUR", "€{:,}"),
+            "USA": ("USD", "${:,}")}
+
+
+def fill_from_official(p):
+    """seed에 '확인 중'인 예산 칸만 공식 API·투표 기록 값으로 채움. 사람이 적은 값은 덮어쓰지 않음."""
+    if "확인 중" not in (p.get("budget") or {}).get("display", "확인 중"):
+        return
+    cur = CURRENCY.get(p["country_iso3"])
+    cyc = next((c for c in (p.get("official_api") or {}).get("cycles", []) if c.get("budget_total")), None)
+    if cyc and cur:
+        p["budget"] = {"display": cur[1].format(cyc["budget_total"]) + f" ({cyc['title'] or cyc['slug']}, 공식 API)",
+                       "amount": cyc["budget_total"], "currency": cur[0], "source": "official_api", "source_url": cyc["url"]}
+        return
+    lt = (p.get("pabulib") or {}).get("last_year_total")
+    if lt and lt.get("budget") and cur:
+        y = p["pabulib"]["last_year"]
+        p["budget"] = {"display": cur[1].format(lt["budget"]) + f" ({y}년 {lt['elections']}개 투표 합계, Pabulib)",
+                       "amount": lt["budget"], "currency": cur[0], "source": "pabulib", "source_url": "https://pabulib.org/"}
+DECIDIM_Q = ('{ participatoryProcesses { slug startDate endDate title { translation(locale:"en") } components { '
+             '__typename ... on Budgets { budgets { nodes { total_budget projects { selected budget_amount } } } } } } }')
+
+
+def decidim_cycles(api: str):
+    d = http_post_json(api, {"query": DECIDIM_Q})
+    if d.get("errors"):
+        raise RuntimeError(str(d["errors"])[:200])
+    cycles = []
+    for pr in (d.get("data") or {}).get("participatoryProcesses") or []:
+        bs = [b for c in pr.get("components") or [] for b in (((c or {}).get("budgets") or {}).get("nodes") or [])]
+        projs = [x for b in bs for x in (b.get("projects") or [])]
+        cycles.append({
+            "slug": pr.get("slug"), "title": ((pr.get("title") or {}).get("translation") or "")[:120],
+            "start": pr.get("startDate"), "end": pr.get("endDate"),
+            "budget_total": sum(int(b.get("total_budget") or 0) for b in bs) if bs else None,
+            "areas": len(bs) or None, "projects": len(projs) or None,
+            "selected": sum(1 for x in projs if x.get("selected")) if projs else None,
+            "selected_amount": sum(int(x.get("budget_amount") or 0) for x in projs if x.get("selected")) if projs else None,
+            "url": api.rsplit("/api", 1)[0] + f"/processes/{pr.get('slug')}"})
+    return sorted(cycles, key=lambda c: c.get("start") or "", reverse=True)
+
+
+def collect_decidim(programs, health):
+    ok, errs = 0, []
+    for p in programs:
+        api = DECIDIM.get(p["id"])
+        if not api:
+            continue
+        try:
+            p["official_api"] = {"platform": "Decidim GraphQL", "api": api, "checked_at": NOW.isoformat(),
+                                 "cycles": decidim_cycles(api)}
+            ok += 1
+        except Exception as e:  # noqa: BLE001
+            errs.append(f"{p['id']}: {str(e)[:80]}")
+            old = next((x for x in load("programs.json", {"items": []}).get("items", []) if x["id"] == p["id"]), {})
+            if old.get("official_api"):
+                p["official_api"] = old["official_api"]
+    health["decidim"] = {"name": "Decidim 공식 플랫폼 API", "ok": ok > 0, "fetched": ok, "total": len(DECIDIM),
+                         "checked_at": NOW.isoformat(), "error": "; ".join(errs)[:300] or None,
+                         "last_success_at": NOW.isoformat() if ok else (health.get("decidim") or {}).get("last_success_at")}
+    log("decidim", ok, "/", len(DECIDIM), errs)
+
+
+def attach_registry(countries, programs, cases, units, ledger):
+    """레지스트리 근거를 국가·프로그램에 붙이고, 모니터링 국가에 근거가 보이면 '검토 필요'만 표시."""
+    seen = {e["key"] for e in ledger} | {k for e in ledger for k in e.get("keys", [])}
+    fresh = []
+    cby, uby = {}, {}
+    for x in cases:
+        if x.get("iso3"):
+            cby.setdefault(x["iso3"], []).append(x)
+    for u in units:
+        if u.get("iso3"):
+            uby.setdefault(u["iso3"], []).append(u)
+    for c in countries:
+        cs, us = cby.get(c["iso3"], []), uby.get(c["iso3"], [])
+        c["registry"] = {"participedia": len(cs), "participedia_verified": sum(1 for x in cs if x["verified"]),
+                         "pabulib": sum(u["elections"] for u in us), "pabulib_units": len(us)}
+        c["review_hint"] = None
+        if c["tracking_status"] == "monitoring" and (cs or us):
+            c["review_hint"] = f"플랫폼 사례 {len(cs)}건" + (f" · 투표 기록 {c['registry']['pabulib']}회" if us else "")
+            key = f"review:{c['iso3']}:{len(cs)}:{c['registry']['pabulib']}"
+            if key not in seen:
+                fresh.append({"key": key, "date": TODAY, "iso3": c["iso3"], "type": "검토 필요", "label": c["name_ko"],
+                              "text": f"{c['name_ko']}: 모니터링 국가에서 {c['review_hint']} 확인 — 근거 상태 검토 대상",
+                              "url": (cs[0]["url"] if cs else "https://pabulib.org/"), "observed_at": TODAY})
+                seen.add(key)
+    if len(fresh) > 5:  # 한꺼번에 많이 잡히면 원장에는 한 줄로 묶어 기록(뉴스 신호가 밀려나지 않게)
+        site = os.environ.get("PB_SITE_URL", "https://ryc3030.github.io/pb-observatory/")
+        ledger.append({"key": f"review-batch:{TODAY}", "keys": [e["key"] for e in fresh], "date": TODAY, "iso3": None,
+                       "type": "검토 필요", "label": f"{len(fresh)}개국",
+                       "text": f"모니터링 국가 {len(fresh)}곳에서 Participedia·Pabulib 근거 확인 — 근거 상태 검토 대상 "
+                               f"({', '.join(e['label'] for e in fresh[:6])} 등)",
+                       "url": site + "?status=review#explorer", "observed_at": TODAY})
+    else:
+        ledger.extend(fresh)
+    for p in programs:
+        kws = [k.lower() for k in p.get("keywords", []) if len(k) > 3]
+        rxs = [re.compile(r"(?<!\w)" + re.escape(k) + r"(?!\w)", re.I) for k in kws]
+        hit = [u for u in uby.get(p["country_iso3"], []) if (u.get("unit") or "").lower() in kws]
+        p["pabulib"] = {k: v for k, v in hit[0].items() if k != "by_year"} if hit else None
+        fill_from_official(p)
+        p["cases"] = [{"title": x["title"], "url": x["url"], "updated": x["updated"]}
+                      for x in cby.get(p["country_iso3"], [])
+                      if any(r.search(x["title"]) for r in rxs) or (x["city"] or "").lower() in kws][:3]
+    save("countries.json", {"updated_at": NOW.isoformat(), "count": len(countries), "items": countries})
+
+
 def main():
     DATA.mkdir(exist_ok=True)
     seed = load("countries.seed.json", [])
@@ -545,9 +861,17 @@ def main():
     health = load("health.json", {})
     ledger = load("ledger.json", [])
 
+    for c in seed:
+        for a in [c["name_en"], *c.get("aliases", [])]:
+            NAME_ISO.setdefault(a.strip().lower(), c["iso3"])
+
     news, added = collect_news(seed, match, health)
     papers = collect_papers(health)
     countries = build_countries(seed, news, papers, ledger)
+    cases = collect_participedia(health)
+    units = collect_pabulib(health)
+    collect_decidim(programs, health)
+    attach_registry(countries, programs, cases, units, ledger)
     attach_program_news(programs, news)
     write_feed(news, countries)
     snapshot_history(countries, news, papers, programs)
@@ -559,7 +883,8 @@ def main():
     save("meta.json", {
         "updated_at": NOW.isoformat(), "version": "4.0",
         "counts": {"countries": len(countries), "programs": len(programs), "news": len(news),
-                   "papers": len(papers), "ledger": len(ledger), "news_added_today": added},
+                   "papers": len(papers), "ledger": len(ledger), "news_added_today": added,
+                   "cases": len(cases), "elections": sum(u["elections"] for u in units)},
     })
     log("translated", "news", sum(1 for x in news if x.get("title_ko")), "papers", sum(1 for x in papers if x.get("title_ko")))
     log("done")

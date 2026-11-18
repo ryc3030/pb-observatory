@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T02:20:58.231443+00:00",
+ "updated_at": "2026-11-18T05:20:47.525437+00:00",
  "count": 92,
  "items": [
   {
@@ -25,7 +25,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "AUT",
@@ -51,7 +58,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "BEL",
@@ -80,7 +94,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "BIH",
@@ -105,7 +126,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "BGR",
@@ -130,7 +158,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "HRV",
@@ -157,7 +192,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2026-06-04"
+   "activity_date": "2026-06-04",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "CZE",
@@ -192,7 +234,14 @@
     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTG1pY1BNOWNQV1NfdXYzTU5SUng3blRiTFRlelN0V0FMaFNyaV80czlFYUdLdnhfaUxOQ3p5MHNRcGViaHF1eE1CNlNpMDhBV01DejhSck9ibkVoVTVrcndsVVd3QVBSUFhxNjhfMGVTNEQybXYtRFJzcjlYUG41YV81bldJbU9xbDh4LTlmbnNxT3BmdkRIQTgzdFpLbzNyRTZYS0dnNXNhZjg3bGtJVVdlLVpSV1VpVUxEUjZSdVF2allWc2d3UnB4TmY?oc=5",
     "source": "iROZHLAS"
    },
-   "activity_date": "2026-11-16"
+   "activity_date": "2026-11-16",
+   "registry": {
+    "participedia": 3,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "DNK",
@@ -217,7 +266,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "EST",
@@ -249,7 +305,14 @@
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQVnltYzRVdHVwaHdDZWpQbFVEbTZaTE81MzZiSDhpRkpuNm5FOXV1Sm5LY0NHWHlFOHRGR0IwekZyaVc4NlhTWEw0ZWRBcXhZLWljZHJNWVVwazhWSGxWQjFQWnctaS1JcEo0Tld5TDlWc1VLOUprZS1VdS1CR1ZwUXJjUlppWmxBTFBHaTE4RXY?oc=5",
     "source": "Järva Teataja"
    },
-   "activity_date": "2026-10-27"
+   "activity_date": "2026-10-27",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "FIN",
@@ -284,7 +347,14 @@
     "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb1BSTzEzU2F5THA4YWY1RFZaUXB1YzZBeXFvSndnaVdDblQ4MXBadi1WRzNWTXpxRzZocWhhUFhUeVZsQkpqODJ5N24yejJjNWdwaGFELV9lTnpUVi1uaXVjVnBZNGkwZWNPc3hXeng3blJCcllRSWkxYTJEZlUzUDBqMUM1NDhuTHg5eUdn?oc=5",
     "source": "Raahen Seutu"
    },
-   "activity_date": "2026-11-14"
+   "activity_date": "2026-11-14",
+   "registry": {
+    "participedia": 2,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "FRA",
@@ -322,7 +392,14 @@
     "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxPanpwejhkZEZTRDhvZ3pYQmkyZThhRjRhM1AtTk1VSUE5cVBxcW5obnN5WEJqUHpueWphYkdxMzFTZ3ZWWFVDN0lZOTYzd19OMVk3M2lQdnB3bFFCdHNPc3hrOU9rRXExeDY3aXZzSmUtZkZNcUQybHljQ3A5dnZCd0F2ME1sLWFCZzQzWHRxdEZKb1oyNjFkc3BBczdFUTl2VmFlenlrRVJicUtrSjRJTmtWS2ZIbEFrYktuWDZzZjlxVGxiNVFsR1k3dmxwSFVXTXJBQXFOWFl4clZkeEo3UWtNTQ?oc=5",
     "source": "Ouest-France"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 3,
+    "participedia_verified": 0,
+    "pabulib": 1,
+    "pabulib_units": 1
+   },
+   "review_hint": null
   },
   {
    "iso3": "DEU",
@@ -357,7 +434,14 @@
     "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxORFR0VHVxYVdlU3BzVFhtUlVRMUdRVC1RZjlHMERidWxZYVpYUUloN0FTNF9OMEtkVGFZcHZVN1dVVy1pQmMxOEllR3ZfNzMtSTVMc014OG9JemczdlctY1haanlyallQa1dKSXF3S3BKRHJvMF9KSGhhRUNkdXhFblM2eXF5X3V3MzRYSVpoa0tWSkZydURPcjl2MzhxWGk0NTZfZExFVU8tMmV5MXoxWXpxTUhjOVl4eDBRTHVURVMzZnZQd0IwY0szVjNYUQ?oc=5",
     "source": "Hertener Allgemeine"
    },
-   "activity_date": "2026-11-16"
+   "activity_date": "2026-11-16",
+   "registry": {
+    "participedia": 5,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "GRC",
@@ -383,7 +467,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "HUN",
@@ -408,7 +499,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "ISL",
@@ -434,7 +532,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2025-03-01"
+   "activity_date": "2025-03-01",
+   "registry": {
+    "participedia": 2,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "IRL",
@@ -458,7 +563,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "ITA",
@@ -492,7 +604,14 @@
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMlZvZmdsWnpMdFhpLUxUNjNNRDVIb2dyak9COEFUVHRRMFBEY1FrN1Z1NzdpR2ZqanVvcmRDQllsRkdMLU9Ec0hqSXd2enJaWVcwVFJ1VG5MSjBFTnZJSmltRURINUxsSGlCNEdscmdjQXltUU1PQUJjdmVfNDZpTjRzOEY4RmFOa1UzMTlzazdVOW05a1ZER212X0JuTU0xdF9USklLTndMc1dXTXlCcThlY3hpVEh5X0VITlNWTWNRQmRp?oc=5",
     "source": "NUOVO Cityrumors Abruzzo"
    },
-   "activity_date": "2026-11-16"
+   "activity_date": "2026-11-16",
+   "registry": {
+    "participedia": 18,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "LVA",
@@ -524,7 +643,14 @@
     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWW5ObElmSFNpWm9rSjdQUG9IQTVUcXB4MWNZaEViRDJsZmRiMXVnT0hNT3FlWHdXdXNhbzdGaGoxTTF0YWhsdDV6dkZhNWg1YXczaTd0TTdweDFoZkNPMkV6RXl4NnVIV3B3TXprdUNDWFJNaVpXNlVDamFJcGtYUUJ1c3REYW9jOGxzMVdqY0V6MS02NjRhWER0alhHa1RLQzR3bGpPMW03amJLcFFDNkhlUWhDbG1ZWWowRTVOWXc0Umk2Ul91UHZEOGhJZWFpOXBpbUNJUnhJUQ?oc=5",
     "source": "Rīgas valstspilsētas pašvaldība"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "LTU",
@@ -555,7 +681,14 @@
     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNUZWc0tUZzA1Nm9kbW9xNXplSmZhRk1RWVJ3ZHJjYzRFOTQtWmZWV1M1dHpFdlAwdEppTTl2TTZESHNncWYyMkQ0ZC1DdjBnSW9oN3dKVWNxS1lNVnZDcXQ1bGpMUVZFNkhILTBMTXBneDNfU2JhVjI1VThtN0x3aDNCN28zTFVya2hGX21kLWEtMVFyT21nNHRqYkktbURpZFdPS0t2MnJrUGk5MDVBTGhOUUR6SHRxbmkzOXpFcTI0QjFCQ2dUQW9EZnd1Wld3bFE?oc=5",
     "source": "Vilniaus Martyno Mažvydo progimnazija"
    },
-   "activity_date": "2026-11-15"
+   "activity_date": "2026-11-15",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "LUX",
@@ -578,7 +711,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "MDA",
@@ -602,7 +742,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "NLD",
@@ -629,7 +776,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2022-09-05"
+   "activity_date": "2022-09-05",
+   "registry": {
+    "participedia": 3,
+    "participedia_verified": 0,
+    "pabulib": 38,
+    "pabulib_units": 1
+   },
+   "review_hint": "플랫폼 사례 3건 · 투표 기록 38회"
   },
   {
    "iso3": "MKD",
@@ -653,7 +807,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "NOR",
@@ -678,7 +839,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "POL",
@@ -717,7 +885,14 @@
     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPbDVLdW8xZWFDNnhMX24zSk9JS1Jpb0I2cnZ2akIxTTREdmxCX2FBb0YxeDZ4SGFKWkZoNDVjWFdmZGRoNHN2NU8tZ2dLYWliOHlPeTBoVjBRNkROelBQZnJVZzZOeUEzdEZkdkt5NHJNbnBSVVczRElUYVpEbWd1ZmFiOENhemhhaG5zU1ZMeUYwSThybzNsdkVYOTN0OTQ5RldOZDcwdW1KbWRUSDFLc2xxUQ?oc=5",
     "source": "Dziennik Łódzki"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 3,
+    "participedia_verified": 0,
+    "pabulib": 812,
+    "pabulib_units": 11
+   },
+   "review_hint": null
   },
   {
    "iso3": "PRT",
@@ -752,7 +927,14 @@
     "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5SMzFlS0dPYnZhTzJTX21Rcm95MXQtRl9tM01ob3N3VHhmVlN4Z3M3NklBaGRvUmRqSGdBa2czUnk1NExoOVFpRV9uUUFDZlU?oc=5",
     "source": "Tejo FM"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 6,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "ROU",
@@ -786,7 +968,14 @@
     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPeWNHOFM1TXN5aXJhZlRYampwYzBMRWl1VVlTRFVhaTR5R3J0OUEwRzhSR1hKeUtaNk5YQ2pTVDBaRVVLN3g1QkFSb2lIeUo2MjRUVzBrY01PdkUyN1VHR3VhNEhPQ2ZraTE5M2dXdTJnelFUM2pzSkVyeC01TkJMbVhoeURrMG9vTFd0RVUtd0FYd09URldLMExCSXhjLW1oVlp4dWpxakZfMmlEaC1TcWxhZmxsbnRMODg1SDJiU3ZzenZlcmxrRlhTcDdNUWxqVWdMcG5rc29QUmdCY3BCNnZ4MWhiQU9H?oc=5",
     "source": "Turnul Sfatului"
    },
-   "activity_date": "2026-11-16"
+   "activity_date": "2026-11-16",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "SRB",
@@ -812,7 +1001,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "SVK",
@@ -844,7 +1040,14 @@
     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPS1JrYnhSQ2hUVi12X2NpQjZhVm9SNEhzWkE4cEc2U25CRmx6X1F0U1c5ckhSdlU4WXdCVWg4cWVIbmlmNkpuZmVWWGQ1X0ZqYnNSYW1NcGZDZEt2Y2VMXzBDcTUzVjhPaHRyZ3ZyTWRCVzlpTkV3ajA0UV95ZDRiMGR2S3EyNkFxRDZRUG5lS3RSY2lzdjVHdzlyU180c25hWjJDTzdnU2M?oc=5",
     "source": "Stisk online"
    },
-   "activity_date": "2026-11-08"
+   "activity_date": "2026-11-08",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "SVN",
@@ -870,7 +1073,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2025-03-01"
+   "activity_date": "2025-03-01",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "ESP",
@@ -905,7 +1115,14 @@
     "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxNeXplWk5rWU1YOF9VTGdFUGg5azFUNWtianBHOHNvZDJERzdERHFvSXl1cHlfRWNKSUtacXFIVFd2SHNTWWFLNEZYUTJuS1lJTDljWUNMVzNTRVIycHhrU3F5d096WkhJamdGdUhOVUx6Sm1rTEtwX2VjLUVVaFRsbFpaR2tYaWpOR1V3TlkwbDVYOWtZS1NLVFZVT2Y5WFpGWWVheW9uYWZyQUdxbi11NzRUMEx5ODBVMVJTOTVzWGRROGpla2RyYzNlSjVXT2tLYktCMmFJdw?oc=5",
     "source": "El Meridiano L´Horta"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 6,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "SWE",
@@ -937,7 +1154,14 @@
     "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxPSmd4Qk1Pc0tDUV9KamlSbzRRN0dDYUlCMEotYzdpdlQwR0lKWV9vX1cxNXZMTjk1Y2J3NEZqVXpQWENpdTA3bUNyQjZrT1AxRU00SUV0Q1Q5NHRFNW1ZdFFIb2F2d09rY2hKMmJnSGo2aXRTYXlSREU1aXg1WjZnazZNWDJvS3Ffc0Z1bg?oc=5",
     "source": "Lokalpressen"
    },
-   "activity_date": "2026-11-06"
+   "activity_date": "2026-11-06",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "CHE",
@@ -965,7 +1189,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "UKR",
@@ -999,7 +1230,14 @@
     "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOQnUzTHhla0h0S1dGb0hDZHNqSFhEaklQbXU3TkZZOGtEWWh3c3prQjRWQkVFVHdnRGtZNS1XX1lYZzdSNTdaTDZGRG56YVVvUnNWSkotckdlRDZEVGZack1oV0M4VlBoZnhlOWZnZXhkeUI0TWI5eXNCU1BkNWtieVRQZzlaWlRXT2EtYVJvUFhhQUxfYldldlNnU2lzUjZHU1Z3dHdQOWZka1NXWW1yZGtFVmNMdw?oc=5",
     "source": "Times.od.UA"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "GBR",
@@ -1039,7 +1277,14 @@
     "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE1qdzZNbFFWOEhKQjFxLThjOUdlX091bEdlU1FGcHJGdDZzZEprdkdYYUhxSXRHUlVlamhJZEc1eGJDZHhtQ1FiZmlQa3hmMmZ3THRLdXBIUHR1RURaXzhDcnZRd2Y3LWdpYzNydnRB?oc=5",
     "source": "North Ayrshire Council"
    },
-   "activity_date": "2026-10-29"
+   "activity_date": "2026-10-29",
+   "registry": {
+    "participedia": 72,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "ARG",
@@ -1071,7 +1316,14 @@
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxNS0NMWGFvUEVJY28tZF92eTY2VndoanhkNkZncnRGTmZRWlkxSXF0V3l0SlFaRExDUGctcndyajNac2hscF9lVmFaSEhZc0hLaTVBblBIQTY5TkRZd2F3eEtXZjJLbl9vZEJYdDhWUUVrYnVVUEtaOFJPVE05THctRzk0UVVFTEZySk1NdkNPVDNYT19oQ3llS3ZPZlc3ejl2ZEZBX29KamJFdWpyclRFVkZTV1pZenAxRFBkTXpkOWZSdw?oc=5",
     "source": "gualeguaychu.gov.ar"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 6,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "BOL",
@@ -1096,7 +1348,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "BRA",
@@ -1134,7 +1393,14 @@
     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOblQwak4xSUJhdEdKWUtSb19JRUhYM0ZPdmZ4cGdWMklHME9weGJqTENKNTJjb1p0aGNwbWVlMDI0MVFDamVnLUJNX0VSQU85RlJRdWRucDlzZnd0WmpBVldjUy0xRGNLVUpVZUNPb3R0V0J4R0VVQS0wY3pzTnVVaVNLLWtVVVE1VGF0UTNJbTR5WmVqM1g1S0U5Q2tqMlktX0gydElVc09ndEl0SUJnaGhuajR6T2M5UW1ocWZDdw?oc=5",
     "source": "G1"
    },
-   "activity_date": "2026-11-18"
+   "activity_date": "2026-11-18",
+   "registry": {
+    "participedia": 18,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "CAN",
@@ -1169,7 +1435,14 @@
     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNlR4ZFZKcTJwNG92QW1VUkUyUjhleTRacXRmUGk5TGprSkZsUndfZDBLS2JybG04V2J4OUs4ZGZaVnJIb281dVpiWVFIN2NDdDhOOFlodjlGcm9Sc3dxa3FtQmJ2cGo1Sy1IQXBObHJzWGFmU0w1Qm9ZNFJ0Z1FhbDdja2xDUExKcWw3bENXVEdSQy1NUE9iY1JlQUFYaUlZaS02bTVhOEdpNFFnZTRhUHZCajFMN3B4SHRxTk9TZ0p5ckVKVWlv?oc=5",
     "source": "MisionesOpina"
    },
-   "activity_date": "2026-11-16"
+   "activity_date": "2026-11-16",
+   "registry": {
+    "participedia": 10,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "CHL",
@@ -1199,7 +1472,14 @@
     "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPVldrRDM4VzdGV1BpaFRPajFRQ0Y5UjhZQmY0NWhVN2JJc3dPZXJtM1dwRDg4Vi0xXy1CRnVtWUJOSm04SGEyNHBoaGpqMjFHZ0lUbWE1MXFZUENnMDFvbkV2d0lCUGVjbHhxSUxPUVVzQ25hZWRtcGxicnBtVVZ6R0NsSG1WSFNGdWNtaG5fVkZsYXMzZ1pvZEhmRHhRVml3XzZJcmJ4TkhsZkNKMGpadkE0ZERvV1FSZk1Pb013WVo2bU8xb0lnZE9ZNS1CX3RTVUxzQzdkR2hPdU9rR28xY2N2dmRqX2c5ZHpzcUo5ZFdBbXRxUmVrSUVhQU96cWtMbWU2ZmhoeXcyVGpHOUJSY2diVHpIdw?oc=5",
     "source": "Diario de Santiago"
    },
-   "activity_date": "2026-11-09"
+   "activity_date": "2026-11-09",
+   "registry": {
+    "participedia": 3,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 3건"
   },
   {
    "iso3": "COL",
@@ -1233,7 +1513,14 @@
     "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObU02WmtETVZRUUZEbkpOR0ZiandGd0lBbGo2NURvQTFyVHBJZ0xiWU9mZHktd01KZXh1QkhVXzM1dmF4OEwzLW1TbUlSYXlBdFFfQUNmY19iRGFuWmNuWGxZVHVFdUVLSWVJMk1keG9NNkFzbm5rTzBfSGNIV0JWN1VrVWRuR0hVTU1yRzBfVkNGbF9HOGFlX2tMZ1ZwbWxJM3pSTWk0eVR6V2xycERKQllOam5jZU5qYjZBa2VtQ0JOanN3T0VPdkRiOVp2UVdpR1ZpRjBlS2JFcjFxT0JaUGt6eF9OZmZNSHhFNHNPLWJ0UmlBbm93WEZKUGFaUll4UVdTdHJFRURNUQ?oc=5",
     "source": "Alcaldía de Santiago de Cali"
    },
-   "activity_date": "2026-11-13"
+   "activity_date": "2026-11-13",
+   "registry": {
+    "participedia": 2,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 2건"
   },
   {
    "iso3": "CRI",
@@ -1257,7 +1544,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "DOM",
@@ -1282,7 +1576,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2026-09-07"
+   "activity_date": "2026-09-07",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "ECU",
@@ -1308,7 +1609,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "SLV",
@@ -1332,7 +1640,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "GTM",
@@ -1355,7 +1670,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "HND",
@@ -1379,7 +1701,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "MEX",
@@ -1413,7 +1742,14 @@
     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOUGEyUE5BaThMSlFzZmlXa3RfOTBOUjBmd3lMd3JkbTcxZlRYYVZ6NVVMcG5ZQkNRZWVHLWNCMHJmQW1pT3lEVEd5bmwwNUwxc1M3cktSMExCZWhPb0tnbS1NMmJfM0p6UEpXWURIanltOGhSaG5jUE1JZ0czNC1wZ1h6OGo2b0NiZnFwR0ZpYkFQZEc4UkFBZnlqQ0I0NHpXOHplbWctbw?oc=5",
     "source": "La Jiribilla"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "NIC",
@@ -1437,7 +1773,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "PAN",
@@ -1461,7 +1804,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "PRY",
@@ -1485,7 +1835,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "PER",
@@ -1518,7 +1875,14 @@
     "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQUTFVMWdKTG5CWmpqOEQyRTV2SGdDM2dxeDZCRHlseVpxTTNXTW5femhNM1U0RTVWMGFrVDZTd1Y0OWsxU1JrVGNUeTRDNVVrc3kyRVJkUVljVnhFbF9mQjNvUjZSeVNubUxvVjBwZ3JzRHZlVXU5Zlp0NW5nTTZMWENWUEFDZ2FneHY3OXpUVmd5czRYNjBNSDBSTmttVUdMRG14cEJ4MXp5LVVzSVVsaU5oQkJZYjRPS2FYUmN5NUV4bFdPbjJDRHQ0c2hONkZ0SHR1bDgzaFdDeFpSRUJB?oc=5",
     "source": "CM Ponte de Lima"
    },
-   "activity_date": "2026-11-06"
+   "activity_date": "2026-11-06",
+   "registry": {
+    "participedia": 3,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 3건"
   },
   {
    "iso3": "URY",
@@ -1548,7 +1912,14 @@
     "url": "https://news.google.com/rss/articles/CBMi7wFBVV95cUxONm1UbGVjRHEyc1FJazdEU3NCamVsUmE1eFJfY0NhU1N3R2xOOC0teEJla2luNnBXNmo4UDRqM285UndrTHdLUTBsUktESC1haFpmVEJUNHBsLUNWdFc4WVlZTmo4dnN5Tk1vVzZRQ2k5TS0xNkUtMUw1dml0T1ZNMVpiZDg1SjI4V0E1LWZnRks1cGd4SFotZm9qUnd2OXg1SWNDblpqY1lCNnc1SHNSU0tvd200VmdpX0Mtem0xZkNydXoxemZpRFl3emd6R1ZuTTg3U05qY2wzRERVS2tjX3BrSGRKOFhlOHNidS1EY9IB_wFBVV95cUxOMEpSTHdtYm1jeDZSQXNHRTVUQWJIdU1XR1pnRDFqUkdzR1dLWXBXSEVZVy01UWdLeFlDY0p6N1FrcGF3d3N2NHk1X0tnRUFYaVNXeVktb002ZjZaMXh6SWZDb183QW9GUkdVYmpOLWdhTUtNNnpsamVQSURQNlBQOFV1MDlmZVBHUlJQdXN1dy1VbnkwVHV1Y3loQ1NXVUdrbUgtdXVtRFozeXJXSWx1TmN3c2VJTG85MmNkUEpXNWk5dnpxUjBMdmlZOTdtR3hSb25tZnFaUXBPUlF2d004cEd5Z042R1NENlBNc2F4WUl4dUpPUlJJU2lwR2I5V2M?oc=5",
     "source": "la diaria"
    },
-   "activity_date": "2026-11-13"
+   "activity_date": "2026-11-13",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "USA",
@@ -1597,7 +1968,14 @@
     "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxNdm5nRUdjOFhIbEtfM1k2bXFmd1E5ZGlJSWdDTFBqeC1fSTFaMVpYeXVPdFlTUlp0QmU3OHNRS21BaTkxYlFtRDJMQ1JkemJVdUZwUVlDSzZ2LTBMZnJNUzVhNFR1cVlCY3RiRGlvSWVQUFI5ZzlweWVYUEdXYWdLRGN3cUVHcXM3ZllGbWFfUTM?oc=5",
     "source": "Hoodline"
    },
-   "activity_date": "2026-11-14"
+   "activity_date": "2026-11-14",
+   "registry": {
+    "participedia": 18,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "VEN",
@@ -1621,7 +1999,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "BGD",
@@ -1645,7 +2030,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "CHN",
@@ -1671,7 +2063,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2024-05-01"
+   "activity_date": "2024-05-01",
+   "registry": {
+    "participedia": 9,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "IND",
@@ -1697,7 +2096,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "IDN",
@@ -1721,7 +2127,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "JPN",
@@ -1752,7 +2165,14 @@
     "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBRTklBanpCVTZkVEpXVzJpMGRPWnN1OEZGQWQ5Mmdoc0o2ZDR6dG5KV3ZsclJYYjJXNG54N1lPVDZNY21zMWh2bGNSRjBMRXdoLWhLYkxnQWd3Wkw5QVgw?oc=5",
     "source": "選挙ドットコム"
    },
-   "activity_date": "2026-11-01"
+   "activity_date": "2026-11-01",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "KAZ",
@@ -1779,7 +2199,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "KGZ",
@@ -1810,7 +2237,14 @@
     "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE5DUEZLNnl6Zl91WmpBLXBuMXNvX2dfem9ldGQxQ3dEbmloNW9GZUJIMVlvR2JwVURqSFhrZ0dTcjlCQk4tZ3JNX3BnVzVxaGQ1YWFQbVhWc3BQdXEwbWN5OHJhX3dQY1BmQnU2a2tFdEppX24w?oc=5",
     "source": "Economist.kg"
    },
-   "activity_date": "2026-11-04"
+   "activity_date": "2026-11-04",
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "MYS",
@@ -1840,7 +2274,14 @@
     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxORmtRSUE1c2ZHbkVJVkZodXk4T0c0WmZHbE5aeXAyZVhSZzZRLWVNUDQtU2VwU1Nhb2hfUWtYYXRRRWptb05DRWdlVTI1RHczcWc1VXhkcHhSTFQ1M2xPOG16SnBWUkx2eWhZNVA3YnJUVlM1M0toYzZJNV9USVQtNTdURHZmT1ZfRl9DN04xYkFQLWxwODNtQ1U2UndiVG9ZZFEwa3FEb2stZnJRWHNfbVhuLUVDNkxqcGRDUndSaFJfdw?oc=5",
     "source": "The Star"
    },
-   "activity_date": "2026-11-10"
+   "activity_date": "2026-11-10",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "MNG",
@@ -1864,7 +2305,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "NPL",
@@ -1888,7 +2336,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "PAK",
@@ -1913,7 +2368,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "PHL",
@@ -1939,7 +2401,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "KOR",
@@ -1976,7 +2445,14 @@
     "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9lRW5fOG5Ub2g4SDRfMTNMTGV1VHJkdG9ITUY0WFJXSk5zcDhyWXYyaW5mRnBLVmdfREJmVGpHWGlqdFE1eE5CSkUxbl95Y014TERMZmZNM01JTE9Db2VsVkhhbGM3RmphN2JBc3hlQQ?oc=5",
     "source": "중부일보"
    },
-   "activity_date": "2026-11-17"
+   "activity_date": "2026-11-17",
+   "registry": {
+    "participedia": 2,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "LKA",
@@ -2000,7 +2476,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "THA",
@@ -2025,7 +2508,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "VNM",
@@ -2050,7 +2540,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "AGO",
@@ -2080,7 +2577,14 @@
     "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNM1lHTkZfM2hoWHZGYlUyQlcxcjRISGwxeldEazNkbVBGakFtZkQxbDctMjR3eHpCSlBMNG95Q3EwUlZIVjNnTWhBN2t1TmsyN1JmUFlKaG81NHU0NnU2V192RWM2c1NvWVVUSXdIcDVXOUUtSXJyZFdIQmZ0U0pySjRRcXVLSUtXVnVsVW5yc2h1WkdiMjF6Uzd6QkxfY191NXp0dHJTOU5YRjFsNC1BRDJPWEZ2ZlZZdWJhc0RMcUswX3Vf?oc=5",
     "source": "Jornal de Angola"
    },
-   "activity_date": "2026-10-26"
+   "activity_date": "2026-10-26",
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "BEN",
@@ -2105,7 +2609,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "BFA",
@@ -2129,7 +2640,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "CMR",
@@ -2154,7 +2672,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "CPV",
@@ -2179,7 +2704,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "GHA",
@@ -2203,7 +2735,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "KEN",
@@ -2229,7 +2768,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2025-03-20"
+   "activity_date": "2025-03-20",
+   "registry": {
+    "participedia": 4,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "MDG",
@@ -2253,7 +2799,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 2,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 2건"
   },
   {
    "iso3": "MLI",
@@ -2277,7 +2830,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "MAR",
@@ -2301,7 +2861,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "MOZ",
@@ -2326,7 +2893,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "NGA",
@@ -2350,7 +2924,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "SEN",
@@ -2375,7 +2956,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "ZAF",
@@ -2400,7 +2988,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2025-11-16"
+   "activity_date": "2025-11-16",
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "TZA",
@@ -2424,7 +3019,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "TUN",
@@ -2448,7 +3050,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "UGA",
@@ -2473,7 +3082,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2023-05-07"
+   "activity_date": "2023-05-07",
+   "registry": {
+    "participedia": 1,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 1건"
   },
   {
    "iso3": "ZMB",
@@ -2497,7 +3113,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "ZWE",
@@ -2521,7 +3144,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 2,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": "플랫폼 사례 2건"
   },
   {
    "iso3": "AUS",
@@ -2547,7 +3177,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": "2019-01-01"
+   "activity_date": "2019-01-01",
+   "registry": {
+    "participedia": 6,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   },
   {
    "iso3": "NZL",
@@ -2572,7 +3209,14 @@
    "news_30d": 0,
    "news_365d": 0,
    "latest_news": null,
-   "activity_date": null
+   "activity_date": null,
+   "registry": {
+    "participedia": 0,
+    "participedia_verified": 0,
+    "pabulib": 0,
+    "pabulib_units": 0
+   },
+   "review_hint": null
   }
  ]
 }
