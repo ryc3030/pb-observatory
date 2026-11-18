@@ -130,28 +130,47 @@ def clean(s: str) -> str:
 
 # ---------------------------------------------------------------- 번역 (선택)
 TRANS_CACHE: dict = {}
-TRANS_FAILS = [0]
+TRANS_FAILS = {"google": 0, "mymemory": 0}
 
 
-def to_ko(text: str, src: str = "auto") -> str | None:
-    if not TRANSLATE or not text or src == "ko" or TRANS_FAILS[0] >= 3:
+def _google(text, src):
+    q = urllib.parse.urlencode({"client": "gtx", "sl": src or "auto", "tl": "ko", "dt": "t", "q": text[:900]})
+    j = json.loads(http_get("https://translate.googleapis.com/translate_a/single?" + q, timeout=15, retries=0))
+    return "".join(seg[0] for seg in j[0] if seg and seg[0]).strip()
+
+
+def _mymemory(text, src):
+    q = urllib.parse.urlencode({"q": text[:480], "langpair": f"{src or 'en'}|ko", "de": MAILTO})
+    j = json.loads(http_get("https://api.mymemory.translated.net/get?" + q, timeout=20, retries=0))
+    if j.get("quotaFinished"):
+        raise RuntimeError("MyMemory quota finished")
+    out = (j.get("responseData") or {}).get("translatedText") or ""
+    if not out or "MYMEMORY WARNING" in out.upper() or "INVALID" in out.upper()[:20]:
+        raise RuntimeError("MyMemory: " + out[:80])
+    return html.unescape(out).strip()
+
+
+def to_ko(text: str, src: str | None = None) -> str | None:
+    """제목 자동 번역. Google → MyMemory 순으로 시도하고, 각 서비스가 3회 실패하면 이번 실행에서는 건너뜀."""
+    if not TRANSLATE or not text or src == "ko":
         return None
     key = hashlib.sha1(text.encode()).hexdigest()[:16]
-    if key in TRANS_CACHE:
+    if TRANS_CACHE.get(key):
         return TRANS_CACHE[key]
-    try:
-        q = urllib.parse.urlencode({"client": "gtx", "sl": src, "tl": "ko", "dt": "t", "q": text[:900]})
-        raw = http_get("https://translate.googleapis.com/translate_a/single?" + q, timeout=15, retries=0)
-        j = json.loads(raw)
-        out = "".join(seg[0] for seg in j[0] if seg and seg[0]).strip()
-        TRANS_CACHE[key] = out or None
-        TRANS_FAILS[0] = 0
-        time.sleep(0.4)
-        return out or None
-    except Exception as e:  # noqa: BLE001
-        TRANS_FAILS[0] += 1  # 3회 실패 시 이번 실행에서는 번역 중단
-        log("translate fail", type(e).__name__, str(e)[:120])
-        return None
+    for name, fn in (("google", _google), ("mymemory", _mymemory)):
+        if TRANS_FAILS[name] >= 3:
+            continue
+        try:
+            out = fn(text, src)
+            if out:
+                TRANS_CACHE[key] = out
+                TRANS_FAILS[name] = 0
+                time.sleep(0.5)
+                return out
+        except Exception as e:  # noqa: BLE001
+            TRANS_FAILS[name] += 1
+            log("translate fail", name, str(e)[:120])
+    return None
 
 
 # ---------------------------------------------------------------- 국가 매칭
@@ -264,7 +283,7 @@ def collect_news(countries, match, health):
                                or row.get("default_iso") or edition_default(row.get("gl", ""), row["lang"]))
 
     # 신규 항목만 번역 (최대 120건/일)
-    budget = 120
+    budget = 150
     for row in sorted(by_id.values(), key=lambda x: x["published_at"], reverse=True):
         if budget <= 0:
             break
@@ -411,7 +430,7 @@ def collect_papers(health):
         if budget <= 0:
             break
         if not row.get("_tr_tried"):
-            row["title_ko"] = to_ko(row["title"])
+            row["title_ko"] = to_ko(row["title"], (row.get("lang") or "en").split("-")[0])
             row["_tr_tried"] = row["title_ko"] is not None
             budget -= 1
 
