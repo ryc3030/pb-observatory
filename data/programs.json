@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-18T07:14:25.708331+00:00",
+ "updated_at": "2026-11-18T08:14:10.865327+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-18T07:14:25.708331+00:00",
+    "checked_at": "2026-11-18T08:14:10.865327+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -230,6 +230,12 @@
      "date": "2026-11-12",
      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOa3duOEhhazRZbUZ6NzdZeDFTSGlUaE9LTnVJTFFoOElEVVVIQi1PX1dnUHZRZzRMMk9nZ0QxTFZTZHpjdWpHcXZ1STJuMHBhaHUyRXVmeEEydnNpVHZDWmg4aFN3MXcwMWwwZnZuYTZxeUgtU3ppUWRZZVJ1NllnczYwS3ZlWmY4TGE4V2Y1anMwTDV5UVBaTEpaN2dQQ2pjXzRJWUM5OVhISVlsRmtVQ2FWeEU3cDRkZ2xkNm5jMElKOXljOTBPLU9TaF93blFPdFd3a0QwZjJCXzZuVjBSYTI5eWRSTGc?oc=5",
      "source": "Bushwick Daily"
+    },
+    {
+     "title": "What Detroit can learn from participatory budgeting processes in NYC, Boston and Brazil",
+     "date": "2026-04-01",
+     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQVd4QU5Od0hJT1lPMDJaRE11S0NIcWg3TEJ4cEpGU00yOVh3dWJOMWc5LWlyNWJkZzZzZDVwMlJLaFhZN29yNngyWXdNZHhWVzF1YkhNbVVYQUg1bWphY0dpMmEyRTZPWmRaWEZrU0E3ZmUtLW41dmJfUEFyQXc3empkSVJGaVRXd1lsTjZZRi1EbVpobS15ck1oWHJwM2x1N0RhSkZTWURaVmpBUXptM19wM2I2a2thQ1NTRkRn?oc=5",
+     "source": "The Conversation"
     }
    ],
    "latest_signal_date": "2026-11-12"
@@ -269,7 +275,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-18T07:14:25.708331+00:00",
+    "checked_at": "2026-11-18T08:14:10.865327+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -329,8 +335,21 @@
      "updated": "2022-05-09"
     }
    ],
-   "related_news": [],
-   "latest_signal_date": null
+   "related_news": [
+    {
+     "title": "Helsinkiläiset äänestivät OmaStadissa saunoja, vehreyttä sekä toimintaa nuorille",
+     "date": "2026-04-10",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxQc0xTLUc1NmNWWURheHE5S3p3NzczYjNaTHVWX0VJZmF0bkZHQXFxbFVnRF9IS1IwdllBY3kwc0Znd1U1b09oN1VJZmI3WE84N0phQlJ5MkozOVJCU3RGaVRVVFNPN3gwM1YyWFA2NDJEd2NHSTY3V3cxOWJweVRVX2g5VndOZjFaRDgzWk9Rb1c1OWZ0MGttNm9CTi1yN2luZkRXbldYczRaRWY5MGRjLXdzTGlxVXhsREl2bVU1eDNHLU5jcEI5SUFwcDdnenhJR0JKUnlxRndjQkJVNjFGTXlB?oc=5",
+     "source": "STT Info"
+    },
+    {
+     "title": "Kohtaamisia ja yhdessä kasvamista – OmaStadilla on tuotu yhteisöllisyyttä Helsinkiin",
+     "date": "2026-02-09",
+     "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOWVp4YXFKektoVXpJeFVxTDNWc19xWUlhZGdSc0Z5Z1NVd3lmWUNVYmJTSXduMVgzMTR1dVZyNmNKTmhLc2otQ2tNdTRDSjQ2NmNONEV1eDlOSWpWN2xLT0Jma1dZZjRscGFfLWg4SzFOMWJXdTdicEg1Qk40aFdybUVmeUVmLVhEQi1pRHdLOWRDVUc4eE12VTcxZG5mdmRtT3BIZTAwNVF6dlhQNVZpZ3Bn?oc=5",
+     "source": "Helsingin kaupunki"
+    }
+   ],
+   "latest_signal_date": "2026-04-10"
   },
   {
    "id": "fra-paris-bp",
@@ -373,8 +392,15 @@
      "updated": "2019-10-14"
     }
    ],
-   "related_news": [],
-   "latest_signal_date": null
+   "related_news": [
+    {
+     "title": "Budget participatif Eau de Paris 2026 : votez pour les projets !",
+     "date": "2026-03-20",
+     "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOXzRfal9waFhjLUdUdUdjcXlHSlBSWi1NM2tjVFBxVGF6Sks0ZlNBZ0pRSlN3UXpDSER6UGJPRHNWR0VPWi1wbXhTNFlKWHU3eGdKeHZpMjVnb2hpbS0td19WZmdaVXJLa2pPeVYxRDE3WExvM0dzVXpwSlhPRUFZVm5qYWF6SDhhRHFjZERfcnFDVWRwSTVGMFBfSkhHQTFDTmM0?oc=5",
+     "source": "Paris ZigZag"
+    }
+   ],
+   "latest_signal_date": "2026-03-20"
   },
   {
    "id": "esp-madrid-decide",
@@ -414,7 +440,7 @@
    ],
    "related_news": [
     {
-     "title": "Presupuestos participativos Madrid: proyectos vecinales",
+     "title": "마드리드 주민참여예산: 지역사회 프로젝트",
      "date": "2026-09-22",
      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNOFhHeVZZRmxFVTBQOFQyNFB2UDBndm9KZEdieHByWnhnU1J0YTBqWU5McDlQNktDYXI5MTRlcldaOExWdTRIaTYyYklONHhlSlZySWg3NnFLdG9KWEtvSWhnMm1hX3BlQ1NBdWZ3aTNQaDlldHY1ckQ1bXBxOXNEb3FfNzhpbEk?oc=5",
      "source": "Madrid Secreto"
@@ -424,6 +450,12 @@
      "date": "2026-06-08",
      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb1Z2R2UzWWF4Mk5IVkctZ0xYMUZkN2hIQTFiT1RXbkc2VUNkVHdMX3p1cjJhVlhGeEgyaEhVTF9UMWEtU3RJRU03LXM1bVhYUC1MNC1CbG51TEV1VnFnLVBoUlVTOEE2MEUya2hyN0FyWWZyRnNNbGlDSk1Xem5yRjlQSjI2MnFoMGd2RmxiUDhkNDlzSm52QUlyUElVZnhsdXJiak5JMlRoSWtLSFlreXVXYlktbTh5VmNVUV9DdHNqUEJfdUZTTWcwSlBmb2g3bUNaNUNyVnFxeTVOYnJFODZFemVNU1E1YXhEa3pkSEhVaGlmOXdWQ1BBdUJZS2_SAYQCQVVfeXFMTmNmeEo1N3VrOFZRQWEtdTBGakFOZFU0RFZKYlg3ZHRrZ2w0VkQxSEhGRVNOUVFrZGQxNHVPMjRfSl80VXFHZlpqbzE0U3l3WC12MldZZWZRVlBCYlVxZVpwM2VQZldPSHJQVm9JVER0akoxQTVYWHdBY1hFTXVpeXBtVG15c1VzUFpjb3B4SHEyeWwxcnNnWVk2c2hvMFhFek5oLVlmSkZhT0NqNkFXelAwNDFGUjhfeFlrSS1Jeml0VE1iQVNxckRhX2FLNWFPdVBYOGlUdEktTEdiaVZTc3ltcHZaa0t2OVNUVFRFTmFITGk4RHZIV25GQlAzeUc5VTRMRXQ?oc=5",
      "source": "El Diario de Madrid"
+    },
+    {
+     "title": "El Supremo deja sin efecto la decisión del Ayuntamiento de Madrid de declarar inviables 232 proyectos de los presupuestos participativos",
+     "date": "2026-05-14",
+     "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUVhzMV9TS2N6V2hQYndWZy15SUFnYUpwc3BoSUdKaFAwakwtNGZHZE9EeEZqYzRvS0l1Uk51VnliYnNLcm5nbkFxMnk3dlVMTXU1QTQ3NFB4NE9fSmdKZ0VlNGlyYUc1VG1PSE5KcUxzZmNXN3V5OU9fUGRscFlaa2NNZjl0aGVrbDhCNlZzQ2FEYUhRSkRGUHFRZmhHYjR2YmNrMFpXSUc5QnBlSXNIMnNDbFNRNEpYaTE4WEVOWWJjM0stdG1hd2VoMnU1Nkxad2k3RktMLVZDMHBhamRKeWZzemZ6SVRoMmJTaDZ3UUhDTGtVbmlfN0FuMHdnMnBwSV9sZk5CcHM1cDJaODVSZkVZZ9IBpwJBVV95cUxNYnFpb21qSlkyUUl6R1hkRi03WTNoODVQY2R1VkJMZUpROHBYc2ZNNC1wRGVTRXlGd0VqVGVsVDlYOUdWb3RGVVVydjRhLVl6OC1WeTFjRWJGQmo3Y01LeXpuV0VWQmE0Ry05eW8tWHY5ZHVWdncxZFNEdTR0eXUwZ0JIcU9ZdEdma0FKanF2R2UxNm9aR0pKVko2MlVxN19ISjZfT3BwNjhmVTQxMTJpS2lHYk1wVmg0bVhsbmJaeTRyZEgwVWc5d0R0V284SmpsVGpHeThaaktJajAxSFZFdTNOV3NyWE1NdXhBNGVKZ0hqY1VwWkhnanBtSGhGd1lwQ2FKb2hfRVNNelFHMmU5d2hvYk1vLTgzZ1V3ekUzaEtzWURaZ2xj?oc=5",
+     "source": "EL PAÍS"
     }
    ],
    "latest_signal_date": "2026-09-22"
@@ -508,6 +540,12 @@
      "date": "2026-08-05",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYW1tdGxHaW9ha3E2UGducndUSWNDUGhpOUhoZFBNanhJMkRpTy1UZDVOMXR1NmlLRFNWeURZSDU4TFd3OFR1UmI0d2Q2dnBVU2p0N0hraVNHT25Gb2RDcHVXM2wxSkh5bXJ5eE1YaExPMlprS28zNmhFdE5xUGNOUGtNYU5mNVgzV1ZteXlRVFgyenYtR1p5dGtuSkV6MWdGV2hzR2NxVEpnSDdZQVZhd2xjdnptNl9STUUxdmFlandBR01fdmpKbnRn?oc=5",
      "source": "Portal edukacyjny"
+    },
+    {
+     "title": "Budżet obywatelski trafi do szkół podstawowych w Krakowie",
+     "date": "2026-05-18",
+     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSDAyZ1ZxNFhuOHlyVTg3bW45b1BuWm9jU2N3WlFGWm1rUVU2bVpUM3E3UGZjdHp5RllNMC1uUDNVYjdHMXc3eEtNbnNycHE2YXNJakZKdVdvMU9fWm85NmZDX1FHOE9JN203Vk9lSG1MV0VwSHA1YUJiSnQtRGtoZHpJMUZrN1Jsck5KbGpZbw?oc=5",
+     "source": "TVP Kraków"
     }
    ],
    "latest_signal_date": "2026-11-06"
@@ -700,10 +738,10 @@
      "source": "Hoja de Ruta Digital"
     },
     {
-     "title": "SEDECO, 멕시코시티의 공공 시장 180곳을 개선하기 위한 주민참여예산 프로그램을 시작",
-     "date": "2026-10-14",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPMWlKbEhnRHBGaEl6OVA1S2RXS0lHS2xFeDU1Wkx5TjMzdHRtellXc2FVMlRRRDFIVTRPVlExVkg2bHotY3dJQWdiSVlTamFkSWI1b000R2c5WVA2a3dzRVFjV1VfWi1VMm1NcUdoMmJ3bDRuVWhqT3hUYVczMGI5YWM3bTZMczFhSzFiMnBLWTF3Z0xYX2VRUl9iYUVXVDh6amloUk5WSFZuVkdCV1J2NmtGa2dCT3MteUdlZUJaaEhpWXlTTmtsTXFfZw?oc=5",
-     "source": "Hoja de Ruta Digital"
+     "title": "IECM, 2026년 COPACO 선거 및 2026년과 2027년 주민참여예산 심의 관련 서류 폐기 승인",
+     "date": "2026-11-16",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxONTg5ZG9rN2RkTUQxMzJMaFFmbTZjUndsbVl6djVOUUZzbmdUdndhMkJfcnRZdUs0QnhZSUJNZzVpYjZGM1o4Q2FBSXpqMUpCUW9qQ1pYWUJqQzROcU9lVmZ3Y3VuRkZHSmloYjItdVhLWGRSaDdSSk5Pc3JlVnNRSFplNEtGSDk5elBfc0tXcm96ZTduek5iN0t0LVdDVERsT2gweFFnNWRsT3djeEFTX0g1ZkJvd2VFTXlUSGlDcURKU2puLXFvbXI1bUhKUXE4S3QwQ3BKMzhiRkF0VFlXZQ?oc=5",
+     "source": "IECM"
     }
    ],
    "latest_signal_date": "2026-11-17"
@@ -1296,8 +1334,27 @@
    ],
    "pabulib": null,
    "cases": [],
-   "related_news": [],
-   "latest_signal_date": null
+   "related_news": [
+    {
+     "title": "Dalyvaujamasis biudžetas: atrinktos gyventojų idėjos, kurios bus įgyvendinamos 2026 metais",
+     "date": "2026-05-18",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUkZfLXVKUUhQRUh2WldNcFN1RlhlWGJfSXVUc2lpZHpXQzh1T3p3dFBtZlZYUzYzbkdpTl9jSFVHUXdobjVtTGJQRDFVdmhjT3FhcjdLcEZ5azUyM3RqYjZLWHFBRlJXTG9obFlvRXVPRmhWbGpZNTROdUVMblNPMTdqVnowQXl4MllRNjZfZkFCYUJEb3JFM2NBcWFZLVNXdlpibVd6TUp5OHl2SkdYLWI3RWU0dHduNWtySjJYREpaQQ?oc=5",
+     "source": "Kalvarijos savivaldybė"
+    },
+    {
+     "title": "Dalyvaujamasis biudžetas",
+     "date": "2026-04-14",
+     "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE45RXNGLUZhaHVCRHlnS0hFTkkwYmZ5dGg4dnNVSWgzVFowWnE0NDFKTi1KT0ZTXzF6OTRyZWE0dEhJQ01yMTlEOFBxczJnLVZjM2FlZFEtcDAxOUhCeWV0SlROVHhSdw?oc=5",
+     "source": "Varėnos rajono savivaldybė"
+    },
+    {
+     "title": "Dalyvaujamasis biudžetas Jonavoje: kai gyventojų idėjos virsta vertingais pokyčiais",
+     "date": "2026-03-16",
+     "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxQMXBPdk8wdXJoS0Y3ZWhlbDZoUmstQ2M0TGN4cks5VVF6bGlZcXplSHBJRV8tV1VCcFBuS0dxMXdKM2Q0ZjNMSGYtWjc2dzZ6RlBNV3NFU2M5WVhHc216dTdmWml6bnFoSTkzMUtTWUNMc3RLcEJVNEp1QmlvYURaMGdNLWJFRTBoNngwTzJlcFhIRHB5VzVwRTJMM2pVdzJmRVJnZGRJRFZhcVc1UVRIb1JFcTNjS0owZDJpdFVZemR5anllbENsUldLbmFPMnFuTFljaXVWZFJHY0ZoWlhRZg?oc=5",
+     "source": "Jonavos rajono savivaldybė"
+    }
+   ],
+   "latest_signal_date": "2026-05-18"
   },
   {
    "id": "gbr-lancaster-pots",
@@ -1504,10 +1561,16 @@
      "source": "Tartu Postimees"
     },
     {
-     "title": "Tartu kaasava eelarve hääletus algab neljapäeval",
+     "title": "목요일부터 타르투 참여예산 투표 시작",
      "date": "2026-09-28",
      "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxOM0ozMWRGb2kwNzdreXFULVkyc3R5b19vb1RIeU5PQzV0RDRDdV9OZzBmeV9rbG0tZ2hkVEVnRS1jdW1meDFRZ0FJWTd2YkVLc0w1cXI0NWRjYnQzYl9UZUxtc044WEt0RmFBSzZPWDJJRndESVFxSUJQTF83UFhqN1hEc016SGhVS2xJ?oc=5",
      "source": "Tartu Postimees"
+    },
+    {
+     "title": "Tartu kaasav eelarve ootab ideid kuni 30. aprillini",
+     "date": "2026-04-27",
+     "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hQlNqUjF1bTdGZGRvU29wVGZmalRDdTRRbEZHTXdiVFFmZ3NnaEx3MktlVDlPTWpRVU5NWXhwMGFONkRQZVNmOVVGWUhCMUZUVzB3T1JwRUdlN0ItbXh1NXhxVV9VWjNLZFU3UzlSN0xZMW12WE56Q09MWQ?oc=5",
+     "source": "Head Uudised"
     }
    ],
    "latest_signal_date": "2026-10-06"
@@ -1605,6 +1668,12 @@
      "date": "2026-08-17",
      "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMWhaYks2U3RXWmV4ZTZ2SGF5QWVqWlVRbmU1WXlLN2hEZUctNVJlbGVQNUJLbkFTalRGb1Ywb1Rhd2tOblBkQjRGUl9uMFAzUmdBSTdSMWtyOU5DSUpuLTM0WWJldmF3ZHI4TFdIMTgtU21pcnl0dlI5NFlKYVFlemZUNFRYQW1jNUVWXzM2WElIY2VaMFlUMDBTUzdOZENxN0hLa1VfVVVPWENvUGxRdw?oc=5",
      "source": "AD.nl"
+    },
+    {
+     "title": "Burgerbegroting Maastricht: alleen nog stemronde voor verenigingsleven nodig",
+     "date": "2025-12-03",
+     "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOa3VUNi1rVWttMFlNZ0hteHZfRVNYQzZOR3FfQ0FROHJZMkEyamUySmNPLTVlRFNVd2xaSGZHZDFaLTNhMlVZT1VmSkpVazFxSlppeFRWTEhzT2dpcU1aWnA3VzFiNEJZMjBfSkhhcU02S0tabjFkZ25jbmY4VzVGR2xEZzBueEgxOTlxN3h6SEFVNjRkZkJFX1l0cF9TY2VDSk5Oa1prN3VTcmZVSk55MjdlN1N3YUhjSmJYS1FvcF9ON1NRaGx0X1N6REw?oc=5",
+     "source": "De Limburger"
     }
    ],
    "latest_signal_date": "2026-10-10"

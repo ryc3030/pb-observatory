@@ -94,6 +94,16 @@
   "observed_at": "2026-11-18"
  },
  {
+  "key": "news:POL:78c4159d5c560e",
+  "date": "2026-11-18",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "평가를 위한 슈렘 시민예산 – 주민들이 향후 규칙을 결정할 수 있다",
+  "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcnlzb05wS0N2VEVXMW1rVmF2MUhDN3BXcDZzeEJ5UFZXNmhiRVBFWkZyOVhiMy11MVk1QnZtY1JsRUtOeVllTHRlckpkZlFIR0M0Z1R6QWlNQkhhc19qS2otMGNQM1BET2t3OFYwbl8zS1E1ejlvVXItcUMweVhIRXRFWGpYbEZ6SXFDQXNMaG9YTEM5SDAzNmVVRzY4WTduUlJfQl9odEdTaE92UG85MzloRlhXczFF?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
   "key": "news:FRA:79d42724080845",
   "date": "2026-11-18",
   "iso3": "FRA",
@@ -912,5 +922,55 @@
   "text": "Bürgerbudget für Vereinsveranstaltungen",
   "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1xU2liYURyYWRhQ01SeXB0NEUxRzQzV1pjcEZsWVhnQkx6ZzFwTUd6UEpOcktKaTNkWXE5OUltUE5GWWRCQk9GbVE4OFhYWFd4Ukt0RQ?oc=5",
   "observed_at": "2026-07-04"
+ },
+ {
+  "key": "news:ECU:14b12fbba5e743",
+  "date": "2026-11-18",
+  "iso3": "ECU",
+  "type": "뉴스 신호",
+  "label": "에콰도르",
+  "text": "Desde cada barrio, los Presupuestos Participativos definen prioridades para Quito",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWDhWb0laVjJYdjYwemdraE5XWm1scFQ3OE9OSjhsajYzUFUxNlJuUWtQamM1QmFEWC1zMzR3czh6QXdDOGFwNEctdUZxekIySkF5Sk91U0wtcURlc0Fyb1dWTC1sRi1DT3FQZDNkRjBJSkY3UktQZU1VNV84SGlma1VBckF6OUlnV3V1RXk2czRlWWQ4Z1J2QWZFbmNQS1VOZFBDSWZYM19XZ1ZzdWZPUjZzQ29NUkUwbmZGcmxsTzgwdw?oc=5",
+  "observed_at": "2026-05-06"
+ },
+ {
+  "key": "news:IND:a8c8e0d57d0a88",
+  "date": "2026-11-18",
+  "iso3": "IND",
+  "type": "뉴스 신호",
+  "label": "인도",
+  "text": "Bugetare participativa 2026. Primaria Oradea pune la bataie 1,5 milioane...",
+  "url": "https://news.google.com/rss/articles/CBMi_AFBVV95cUxON0RNT1VRb2d5MWpWdlVCenZlYXVPaUlwXzIyNWpJeEVvV1VHTGVKZEI1cXlBWGg5MGZiVmUzSEFkYkZhZ2hlMU9JNDAzSk9aWGdCNlBQZzBGVVF5ei1DUmRGYVZSZHplMkthTGdPNFN3NzhXdUREQk9NV0pfYlo4S1lOQ3gweHdSdDl1TnRmV2dseTIyT3dwa0I0clI4SDBCQWFyVW54MWlVVk9VUjAzQzBiYzBHR1h3b3l2T2l0MFViaElxcXFLOGg2blQwanFVNzlfb3c3ZVBCbTlkZGlBX2VJSFc0c0R2bGVvZkYyLXBKc2NkbkhvejE3Nkg?oc=5",
+  "observed_at": "2026-05-04"
+ },
+ {
+  "key": "news:IRL:92e54c47cf6758",
+  "date": "2026-11-18",
+  "iso3": "IRL",
+  "type": "뉴스 신호",
+  "label": "아일랜드",
+  "text": "All Ireland Award for Ballymena Schools Participatory Budgeting Project",
+  "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNTHI4bE1WaXNIQm8zT3BCeVhGSVA0UUVWcEJ0SnR4MFJZTjZhc01kZzlXZG5NWW5GX0xOMEhzZElEV1lKb3YzOHVpblpFRnJSZ1k2SWUtWHZoWFY2c1BSNUdHZWRlU1IxUGYtU1IySE9kelRmdzZPUVZiUmdEQS13S2VSUjVxTHJ4VFlldWJZT2Z3U1QtQzBrMWlnWmhYQUNMX050X0loSnBGOVc5VmZEdW9nZ0tiX0JnSlhmTm5BT3J3aTg?oc=5",
+  "observed_at": "2026-03-30"
+ },
+ {
+  "key": "news:CRI:8113e10ac35106",
+  "date": "2026-11-18",
+  "iso3": "CRI",
+  "type": "뉴스 신호",
+  "label": "코스타리카",
+  "text": "Presupuesto Participativo Barrial: amplían el playón deportivo de barrio Residencial San José",
+  "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOdkZyNGhXTy1RSmFLMnI5MENWc3d5VmJQUHBVdUE3eTVYQUE3NnJrcGtuakxzMm9qdzJUY1U1YlJDajcyVzVleGt6UjJBdXdqazYtQ29MVDdOc2kzamZKTGZwbXVyWU9EY1RXSFNNcFRVb1EwbE1vM2ZmZ2NCY21wME1DRjl6Z3V4VHc?oc=5",
+  "observed_at": "2026-02-25"
+ },
+ {
+  "key": "news:PHL:51582da1af5fed",
+  "date": "2026-11-18",
+  "iso3": "PHL",
+  "type": "뉴스 신호",
+  "label": "필리핀",
+  "text": "Civil society urges participatory budgeting to strengthen public investment",
+  "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOVURKTU1ORVBXNFVwaVBiNHdTUnB1TVRQdHVZbnZDR0xibnh6UEtpVWhuaXdjbjM0V0dBLUhDbW1Yb3ozRC0yaklUb3p3M0Rmdjl1MW80OTZiY2twYXhad2pVS1JLdWpmR3RrSkhWMmFlSkptNDlQaXh1YmhXT0hQS0FhVDl0TGViVFJ3SC14TE5kOTYwTC02dVhfeHh6WDM0WFlqaWNoLWtNY003WFdVeU40X1ktRnVlb2hTcG9JXy1GUE9CTFE?oc=5",
+  "observed_at": "2025-12-18"
  }
 ]
