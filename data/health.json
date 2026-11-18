@@ -83,13 +83,15 @@
   "last_success_at": "2026-11-18T05:35:25.851839+00:00"
  },
  "gdelt": {
-  "name": "GDELT DOC 2.0 (원문 직링크)",
+  "name": "GDELT DOC 2.0 (하루 1회 요청)",
   "ok": false,
   "queries_ok": 0,
   "queries": 1,
   "fetched": 0,
-  "checked_at": "2026-11-18T05:35:25.851839+00:00",
-  "error": "HTTP Error 429: Too Many Requests (대기 0s 후); HTTP Error 429: Too Many Requests (대기 20s 후); HTTP Error 429: Too Many Requests (대기 60s 후)",
+  "checked_at": "2026-11-18T06:06:08.138346+00:00",
+  "error": "HTTP 429",
+  "fails_in_row": 1,
+  "timespan_days": 30,
   "last_success_at": null
  }
 }
