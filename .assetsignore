@@ -9,3 +9,4 @@ scripts
 artifact
 node_modules
 *.md
+worker

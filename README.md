@@ -68,3 +68,12 @@ GitHub → Actions → "일일 자동 수집" → Run workflow. 로컬에서는 
 - 본문·표: Pretendard (OFL, jsDelivr 동적 서브셋)
 - 표제(제목·연표 연도·큰 숫자): Paperlogy 7 Bold·8 ExtraBold (OFL). `assets/fonts/`에 라틴 + KS X 1001 한글 2,350자 + 사이트 문구로 줄인 woff2 서브셋과 라이선스(`OFL-Paperlogy.txt`)를 둠. 다시 만들려면 `pyftsubset Paperlogy-7Bold.ttf --text-file=글자목록.txt --flavor=woff2 --layout-features='*'`.
 - 에스코어 드림은 라이선스가 글꼴 파일의 수정을 금해(서브셋·woff2 변환 불가) 웹에 싣지 않음.
+
+## GDELT 대리 요청 (선택)
+
+GitHub Actions 러너 IP는 여럿이 함께 써서 GDELT가 요청 한 건에도 429로 막을 수 있다. 이때는 Cloudflare Worker(`worker/index.js`)가 `/api/gdelt`로 GDELT에 대신 요청한다. 검색식은 고정이고, 같은 날 같은 범위 요청은 Cloudflare 캐시로 답해 GDELT에는 하루 한 번만 간다.
+
+1. Cloudflare에서 이 저장소로 만든 Worker가 새로 배포됐는지 확인한다(주소 예: `https://pb-observatory.<계정>.workers.dev`).
+2. GitHub 저장소 Settings → Secrets and variables → Actions → Variables에 `GDELT_PROXY` = Worker 주소를 넣는다.
+3. 그 뒤 `scripts/gdelt.py`는 Worker로 먼저 한 번, 실패하면 직접 한 번 요청한다(IP마다 하루 한 건).
+

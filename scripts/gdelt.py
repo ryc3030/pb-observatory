@@ -43,9 +43,15 @@ def timespan_days(st) -> int:
     return max(1, min(MAX_DAYS, math.ceil(gap + 0.25)))  # 6시간 겹쳐 빠짐 방지
 
 
-def request(days: int):
-    url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
-        {"query": QUERY, "mode": "artlist", "format": "json", "maxrecords": 250, "timespan": f"{days}d", "sort": "datedesc"})
+PROXY = (os.environ.get("PB_GDELT_PROXY") or "").rstrip("/")  # 예: https://pb-observatory.<계정>.workers.dev
+
+
+def request(days: int, via_proxy: bool = False):
+    if via_proxy:
+        url = f"{PROXY}/api/gdelt?days={days}"
+    else:
+        url = "https://api.gdeltproject.org/api/v2/doc/doc?" + urllib.parse.urlencode(
+            {"query": QUERY, "mode": "artlist", "format": "json", "maxrecords": 250, "timespan": f"{days}d", "sort": "datedesc"})
     req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
     try:
         with urllib.request.urlopen(req, timeout=60) as r:
@@ -97,7 +103,17 @@ def main():
     match = C.build_matcher(seed)
     health = C.load("health.json", {})
     days = timespan_days(st)
-    arts, err = request(days)
+    # Cloudflare 대리 요청 주소가 있으면 그쪽(다른 IP)으로 먼저 한 번, 실패하면 직접 한 번. IP마다 하루 한 건이다.
+    route = "직접"
+    if PROXY:
+        arts, err = request(days, via_proxy=True)
+        route = "Cloudflare 대리"
+        if arts is None:
+            err_proxy = err
+            arts, err = request(days)
+            route = "직접(대리 실패: " + str(err_proxy)[:40] + ")"
+    else:
+        arts, err = request(days)
     st["last_attempt"] = C.NOW.isoformat()
     added = 0
     if arts is not None:
@@ -127,13 +143,13 @@ def main():
     else:
         st["fails_in_row"] = st.get("fails_in_row", 0) + 1
         C.log("gdelt 실패", err)
-    st["history"] = ([{"at": st["last_attempt"], "ok": arts is not None, "days": days,
+    st["history"] = ([{"at": st["last_attempt"], "ok": arts is not None, "days": days, "route": route,
                        "fetched": len(arts) if arts is not None else 0, "added": added, "error": err}]
                      + st.get("history", []))[:30]
     C.save("gdelt_state.json", st)
     health["gdelt"] = {"name": "GDELT DOC 2.0 (하루 1회 요청)", "ok": arts is not None, "queries_ok": 1 if arts is not None else 0,
                        "queries": 1, "fetched": added, "checked_at": C.NOW.isoformat(), "error": err,
-                       "fails_in_row": st["fails_in_row"], "timespan_days": days,
+                       "fails_in_row": st["fails_in_row"], "timespan_days": days, "route": route,
                        "last_success_at": st.get("last_success")}
     C.save("health.json", health)
 

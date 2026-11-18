@@ -29,6 +29,7 @@ jobs:
       - name: GDELT 요청 한 건
         env:
           PB_GDELT_FORCE: ${{ github.event.inputs.force }}
+          PB_GDELT_PROXY: ${{ vars.GDELT_PROXY }}   # 저장소 변수: Cloudflare Worker 주소(없으면 직접 요청)
         run: python scripts/gdelt.py
       - name: 변경분 커밋
         run: |
