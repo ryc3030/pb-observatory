@@ -22,14 +22,14 @@ colors:
   focus: "#1b2a4a"
 typography:
   display:
-    fontFamily: "Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, system-ui, sans-serif"
+    fontFamily: "Paperlogy, Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, system-ui, sans-serif"
     fontSize: "30px"
     fontWeight: 800
     lineHeight: 1.25
     letterSpacing: "-0.025em"
     fontFeature: "\"tnum\" 1"
   headline:
-    fontFamily: "Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, system-ui, sans-serif"
+    fontFamily: "Paperlogy, Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, Apple SD Gothic Neo, Malgun Gothic, system-ui, sans-serif"
     fontSize: "24px"
     fontWeight: 800
     letterSpacing: "-0.02em"
@@ -171,7 +171,7 @@ components:
 - 기표란 열: 국가·프로그램·집계 행의 오른쪽 끝에 도장 상태가 찍힌다
 - 색은 의미에만: 주홍 = 공식·검증, 청색 = 신호, 그 밖의 모든 것은 먹색 계열
 - 선 굵기 위계(1 / 1.5 / 2 / 3px)가 그림자를 대신한다
-- 서체는 Pretendard 하나, 숫자는 전부 고정폭
+- 서체는 둘: 표제(제목·연도·큰 숫자)는 Paperlogy, 본문·표·입력은 Pretendard. 숫자는 전부 고정폭
 - 움직임은 단 하나: 필터를 바꿀 때 도장이 눌리듯 찍히는 200ms
 
 ## Colors
@@ -211,10 +211,10 @@ components:
 
 ## Typography
 
-**Display Font:** Pretendard Variable (with Pretendard, -apple-system, Apple SD Gothic Neo, Malgun Gothic, system-ui)
-**Body Font:** 같은 Pretendard Variable 하나
+**Display Font:** Paperlogy 700·800 (자체 호스팅 woff2 서브셋: 라틴 + KS X 1001 한글 2,350자 + 사이트 문구, 각 약 110KB; 없으면 Pretendard로 대체)
+**Body Font:** Pretendard Variable (jsDelivr 동적 서브셋)
 
-**Character:** 서체 하나로 굵기(400·500·600·700·800)만 바꿔 위계를 만든다. 한국어 행정 문서처럼 담백하고, 숫자가 많은 화면에서 흔들리지 않는다.
+**Character:** 표제만 Paperlogy(한글은 G마켓 산스, 라틴은 Montserrat 계열)로 투표용지 머리글처럼 단단하게 세우고, 읽는 글과 표는 Pretendard로 담백하게 둔다. 적용 대상: 첫 제목, 섹션 제목, 패널 머리, 연표 시대 제목과 연도, 집계 큰 숫자, 브랜드명. 뉴스·논문·국가 이름처럼 매일 바뀌는 글은 서브셋 밖 글자가 나올 수 있어 Pretendard로 둔다. 에스코어 드림은 라이선스가 글꼴 파일 수정(서브셋·변환)을 금해 웹에는 싣지 않았다. Claude 아티팩트판은 외부 글꼴이 Google Fonts로 제한돼 Noto Sans KR로 대체한다.
 
 ### Hierarchy
 - **Display** (800, 30px, 1.25, -0.025em; 640px 이하 25px): 페이지 첫 제목 하나.

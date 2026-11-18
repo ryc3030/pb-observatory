@@ -13,6 +13,7 @@
 from __future__ import annotations
 
 import json
+import re
 import shutil
 from pathlib import Path
 
@@ -54,6 +55,9 @@ def build_css() -> None:
     c = (ROOT / "assets/style.css").read_text("utf-8")
     # 아티팩트는 Google Fonts만 외부 글꼴로 허용 → Noto Sans KR을 앞에 둠
     c = sub(c, '--font:"Pretendard Variable",Pretendard,', '--font:"Noto Sans KR","Pretendard Variable",Pretendard,')
+    # 자체 호스팅 표제 서체(Paperlogy)는 아티팩트에 싣지 않음 → @font-face를 빼고 Noto Sans KR로 대체
+    c = re.sub(r'@font-face\{font-family:"Paperlogy";[^}]*\}\n', "", c)
+    c = sub(c, '--display:"Paperlogy",', '--display:"Noto Sans KR",')
     (OUT / "assets/style.css").write_text(c, "utf-8")
 
 

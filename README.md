@@ -62,3 +62,9 @@ GitHub → Actions → "일일 자동 수집" → Run workflow. 로컬에서는 
 - 아티팩트는 외부 데이터·지도 타일을 못 불러오므로 `python scripts/build_artifact.py`가 `artifact/`에 전용판을 만든다
   (지도는 `artifact/assets/world.json`, 지도 스타일은 직접 쓴 `artifact/assets/map.css`, 글꼴은 Google Fonts의 Noto Sans KR).
 - 갱신: Claude에게 "아티팩트 갱신해줘"라고 하거나, 예약 작업(매일 오전 7시 12분 KST)을 켜면 이 저장소를 받아 빌드하고 아티팩트 파일을 바꿔 올린다.
+
+## 글꼴
+
+- 본문·표: Pretendard (OFL, jsDelivr 동적 서브셋)
+- 표제(제목·연표 연도·큰 숫자): Paperlogy 7 Bold·8 ExtraBold (OFL). `assets/fonts/`에 라틴 + KS X 1001 한글 2,350자 + 사이트 문구로 줄인 woff2 서브셋과 라이선스(`OFL-Paperlogy.txt`)를 둠. 다시 만들려면 `pyftsubset Paperlogy-7Bold.ttf --text-file=글자목록.txt --flavor=woff2 --layout-features='*'`.
+- 에스코어 드림은 라이선스가 글꼴 파일의 수정을 금해(서브셋·woff2 변환 불가) 웹에 싣지 않음.

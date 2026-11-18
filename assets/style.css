@@ -1,3 +1,5 @@
+@font-face{font-family:"Paperlogy";font-weight:700;font-style:normal;font-display:swap;src:url("fonts/Paperlogy-7Bold.subset.woff2") format("woff2")}
+@font-face{font-family:"Paperlogy";font-weight:800;font-style:normal;font-display:swap;src:url("fonts/Paperlogy-8ExtraBold.subset.woff2") format("woff2")}
 /* 세계 참여예산 관측소 v4 — 투표용지·기표 */
 :root{
   --paper:#ffffff;
@@ -23,6 +25,7 @@
   --focus:#1b2a4a;
   --radius:4px;
   --s1:4px;--s2:8px;--s3:12px;--s4:16px;--s5:24px;--s6:32px;--s7:48px;--s8:72px;
+  --display:"Paperlogy","Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
   --font:"Pretendard Variable",Pretendard,-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic",system-ui,sans-serif;
   --shadow:0 1px 2px rgba(20,24,29,.06),0 4px 14px rgba(20,24,29,.06);
   color-scheme:light;
@@ -518,3 +521,19 @@ details.crow[open]>summary{background:var(--hover)}
 .srctable th[scope=row]{white-space:nowrap;font-weight:700}
 @media (max-width:640px){.srctable thead{display:none}.srctable tr{display:grid;padding:var(--s2) 0;border-top:1px solid var(--hair)}.srctable th,.srctable td{border:0;padding:2px 0}}
 .relnews.cases a{color:var(--ink);text-decoration-thickness:1px}
+.brarc .legend{display:flex;gap:var(--s4);list-style:none;margin:0 0 6px;padding:0;font-size:12.5px;color:var(--ink-2)}
+.brarc .legend li{display:flex;align-items:center;gap:6px}
+.brarc .sw{display:inline-block;width:12px;height:12px;border:1.5px solid var(--ink)}
+.brarc .sw.pt{background:var(--ink)}
+.brarc .sw.oth{background:var(--paper)}
+.brarc .seg-pt{fill:var(--ink)}
+.brarc .seg-oth{fill:var(--paper);stroke:var(--ink);stroke-width:1.5}
+.brarc .hit{fill:transparent}
+.brarc .col:hover .seg-oth{fill:var(--hair-2)}
+.brarc .xt{font:500 11px var(--font);fill:var(--muted);font-variant-numeric:tabular-nums}
+/* 표제용 서체: Paperlogy(제목·연도·큰 숫자). 본문·표·입력은 Pretendard */
+.intro h1,.sechead h2,.era>header h3,.tl .yr,.brow .cnt,.baseline .bignum,.brand-name,.panelhead h2,.ballot-head h2,.trendbox h3,.chart h3,.evidence h3,.sources h3,.tablehead h3{font-family:var(--display)}
+.brand-name small{font-family:var(--font)}
+.tl-strip .band-label{font-family:var(--display)}
+.intro h1{letter-spacing:-.035em}
+.sechead h2,.era>header h3{letter-spacing:-.03em}

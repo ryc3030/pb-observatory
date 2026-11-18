@@ -559,6 +559,28 @@ function vizPercap() {
   const max = Math.max(...D.rows.map((r) => r[1]));
   return `<figure class="tlviz"><figcaption>${esc(D.title)}</figcaption>${D.rows.map(([k, v]) => `<div class="hbar"><span>${esc(k)}</span><span class="t"><span class="f" style="width:${(v / max) * 100}%"></span></span><b>${v}달러</b></div>`).join("")}<p class="srcline">출처: ${esc(D.source)}</p></figure>`;
 }
+function vizBrArc() {
+  const D = TL.data?.brarc; if (!D) return "";
+  const W = 640, H = 240, L = 40, R = 8, T = 22, B = 30, n = D.terms.length, max = 150;
+  const bw = (W - L - R) / n, w = Math.min(44, bw - 14), y = (v) => T + (1 - v / max) * (H - T - B);
+  const grid = [0, 50, 100, 150].map((g) => `<line x1="${L}" x2="${W - R}" y1="${y(g)}" y2="${y(g)}"/><text x="${L - 8}" y="${y(g) + 4}" text-anchor="end">${g}</text>`).join("");
+  const cols = D.terms.map((t, k) => {
+    const cx = L + bw * k + bw / 2, x0 = cx - w / 2, tot = D.total[k], pt = D.pt[k], oth = tot - pt;
+    const yPt = y(pt), yTop = y(tot);
+    return `<g class="col"><title>${esc(t)} · 전체 ${tot}곳 (노동자당 ${pt} · 다른 정당 ${oth})</title>
+      <rect class="hit" x="${cx - bw / 2}" y="${T}" width="${bw}" height="${H - T - B}"/>
+      ${pt ? `<rect class="seg-pt" x="${x0}" y="${yPt}" width="${w}" height="${y(0) - yPt}"/>` : ""}
+      ${oth ? `<rect class="seg-oth" x="${x0 + 0.75}" y="${yTop + 0.75}" width="${w - 1.5}" height="${Math.max(0, yPt - yTop - 2.5)}"/>` : ""}
+      <text class="lbl" x="${cx}" y="${yTop - 6}" text-anchor="middle">${tot}</text>
+      <text class="xt" x="${cx}" y="${H - 10}" text-anchor="middle">${esc(t)}</text></g>`;
+  }).join("");
+  const rows = D.terms.map((t, k) => `<tr><td>${esc(t)}</td><td>${D.total[k]}</td><td>${D.pt[k]}</td><td>${Math.round((D.pt[k] / D.total[k]) * 100)}%</td></tr>`).join("");
+  return `<figure class="tlviz brarc"><figcaption>${esc(D.title)} (곳)</figcaption>
+    <ul class="legend"><li><span class="sw pt" aria-hidden="true"></span>노동자당 시정부</li><li><span class="sw oth" aria-hidden="true"></span>다른 정당 시정부</li></ul>
+    <div class="chartwrap"><svg viewBox="0 0 ${W} ${H}" role="img" aria-label="브라질 참여예산 운영 도시 수는 1989–92년 12곳에서 2001–04년 138곳으로 정점을 찍은 뒤 2017–20년 43곳으로 줄었다. 노동자당 시정부 몫은 55곳에서 3곳으로 줄었다. 자세한 값은 아래 표에 있다.">
+      <g class="grid">${grid}</g>${cols}</svg></div>
+    <details><summary>표로 보기</summary><table><thead><tr><th scope="col">임기</th><th scope="col">전체</th><th scope="col">노동자당</th><th scope="col">노동자당 비중</th></tr></thead><tbody>${rows}</tbody></table><p class="srcline">출처: ${esc(D.source)}</p></details></figure>`;
+}
 function renderHistory() {
   const ko = $("#koOnly").checked;
   const items = TL.items.map((it, n) => ({ it, n })).filter(({ it }) => !ko || it.iso3 === "KOR");
@@ -568,7 +590,7 @@ function renderHistory() {
     if (!its.length) return "";
     return `<section class="era" id="era-${esc(e.id)}" aria-labelledby="era-h-${esc(e.id)}"><header><h3 id="era-h-${esc(e.id)}">${esc(e.label)}<span class="span">${esc(e.span)}</span></h3><p>${esc(e.summary)}</p></header>
       <ol class="tl">${its.map(({ it: i, n }) => `<li id="${tlId(i, n)}" class="${i.iso3 === "KOR" ? "kor" : ""}"><div class="yr">${esc(i.year)}${i.iso3 === "KOR" ? '<br><span class="kr">한국</span>' : `<small>${i.iso3 ? esc(countryName(i.iso3)) : "국제"}</small>`}</div>
-        <div><h4>${esc(i.title)}</h4><p class="body">${esc(i.body)}</p>${i.viz === "poa" ? vizPOA() : i.viz === "percap" ? vizPercap() : ""}</div>
+        <div><h4>${esc(i.title)}</h4><p class="body">${esc(i.body)}</p>${i.viz === "poa" ? vizPOA() : i.viz === "percap" ? vizPercap() : i.viz === "brarc" ? vizBrArc() : ""}</div>
         <div class="src"><b>근거</b>${(i.sources || []).map((s) => `<a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.label)}</a>`).join("")}</div></li>`).join("")}</ol></section>`;
   }).join("") || '<p class="empty">연표 자료를 불러오지 못했습니다.</p>';
   const f = $('#timeline [data-viz="poa"]'); if (f) bindPOA(f);
