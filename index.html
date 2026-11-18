@@ -1,37 +1,208 @@
 <!doctype html>
-<html lang="ko"><head>
+<html lang="ko">
+<head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="color-scheme" content="light dark">
-<meta name="theme-color" content="#eef1eb" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#081612" media="(prefers-color-scheme: dark)">
-<link rel="alternate" type="application/rss+xml" title="세계 참여예산 관측소 — PB 데일리" href="feed.xml">
-<link rel="preconnect" href="https://unpkg.com">
-<link rel="preconnect" href="https://basemaps.cartocdn.com">
 <title>세계 참여예산 관측소 | Global Participatory Budgeting Observatory</title>
-<meta name="description" content="92개국 참여예산(PB) 제도·프로그램 근거와 21개 언어 뉴스·최신 논문 신호를 매일 자동으로 갱신하는 공개 관측 대시보드">
+<meta name="description" content="92개국 참여예산(PB) 제도·프로그램 근거와 24개 언어 뉴스·최신 논문 신호를 매일 자동으로 갱신하는 공개 관측 대시보드">
 <meta property="og:title" content="세계 참여예산 관측소">
 <meta property="og:description" content="92개국 참여예산 근거 레지스트리 · 다국어 뉴스 신호 · 최신 논문 — 매일 자동 갱신">
 <meta property="og:type" content="website">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%230b5d4b'/%3E%3Ctext x='32' y='42' font-size='28' text-anchor='middle' fill='white' font-family='Georgia'%3EPB%3C/text%3E%3C/svg%3E">
-<link rel="stylesheet" href="assets/style.css">
-<link rel="stylesheet" href="assets/extra.css">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#1B2A4A">
+<link rel="icon" href="assets/stamp.svg" type="image/svg+xml">
+<link rel="alternate" type="application/rss+xml" title="세계 참여예산 관측소 — PB 데일리" href="feed.xml">
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link rel="preconnect" href="https://basemaps.cartocdn.com" crossorigin>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
 <link rel="stylesheet" href="https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.css">
+<link rel="stylesheet" href="assets/style.css">
+<script>try{var t=localStorage.getItem("pb-theme");if(t==="dark"||(t==null&&matchMedia("(prefers-color-scheme: dark)").matches))document.documentElement.classList.add("dark")}catch(e){}</script>
 </head>
-<body><a class="skip" href="#world">본문으로 이동</a>
-<header class="top"><div class="wrap topin"><a class="brand" href="#world"><span class="mark">PB</span><span><b>세계 참여예산 관측소</b><small>글로벌 참여예산 데이터 인텔리전스</small></span></a><nav class="nav" id="mainnav" aria-label="주요 메뉴"><a href="#world">현황판</a><a href="#daily">PB 데일리</a><a href="#research">최신 논문</a><a href="#explorer">국가·프로그램</a><a href="#analytics">분석</a><a href="#evidence">근거</a></nav><label class="topsearch" aria-label="전체 검색"><span>⌕</span><input id="globalSearch" type="search" placeholder="국가·도시·PB 프로그램…" autocomplete="off"></label><button class="iconbtn" id="theme" type="button" aria-label="어두운 화면으로 전환" aria-pressed="false">◐</button></div><nav class="mnav" aria-label="모바일 메뉴"><a href="#world">현황판</a><a href="#daily">PB 데일리</a><a href="#research">논문</a><a href="#explorer">국가</a><a href="#analytics">분석</a><a href="#evidence">근거</a></nav></header>
-<main>
-<section class="wrap hero" id="world"><div class="hero-grid"><div class="hero-copy"><div class="kicker"><span class="live"></span> 근거 우선 · 92개국 레지스트리 · 매일 자동 수집</div><h1>세계 참여예산을<br><em>읽을 수 있는 데이터</em>로.</h1><p>국가를 단순히 ‘시행/미시행’으로 색칠하지 않습니다. 국가 → 지방정부 → 개별 프로그램까지 내려가 예산, 참여자, 진행단계, 법적근거를 필드별 출처와 함께 추적합니다. 자동 수집된 뉴스 신호는 검증된 제도 데이터와 분리해 표시합니다.</p><div class="trustrow"><span>✓ 필드 단위 출처</span><span>✓ 자동값/검증값 분리</span><span>✓ 뉴스 신호 ≠ 전수 통계</span><span>✓ 접근성 우선 UI</span></div></div><aside class="pulse-card"><header><div><small>글로벌 근거 현황</small><h2>오늘의 관측 상태</h2></div><small id="buildDate">—</small></header><div><div class="pulse-num" id="pulseNum">—<span>개 추적 국가</span></div><small>확보된 증거 수준을 기준으로 한 추적 레지스트리</small></div><div class="donutrow"><div class="donut" id="donut"><strong id="verifiedShare">—</strong></div><div class="legendlist" id="statusLegend"></div></div></aside></div>
-<div class="mainboard"><section class="mapcard"><div class="maphead"><div><h2>글로벌 근거 지도</h2><p>국가 근거 상태(큰 점)와 개별 PB 프로그램 위치(작은 점)를 함께 표시합니다. 점 크기 테두리가 밝을수록 최근 30일 뉴스 신호가 많습니다. 클릭하면 국가 탐색기로 이동합니다.</p></div><div class="statuslegend"><span>● 공식/검증</span><span>● 문헌·플랫폼</span><span>● 탐색 모니터링</span></div></div><div class="map"><div id="map2d" role="region" aria-label="92개국 참여예산 근거 세계지도. 같은 내용은 아래 국가 탐색기에서 표로 볼 수 있습니다."></div><svg viewBox="0 0 1000 500" role="img" aria-hidden="true"><g opacity=".7"><line class="gridline" x1="100" y1="0" x2="100" y2="500"/><line class="gridline" x1="200" y1="0" x2="200" y2="500"/><line class="gridline" x1="300" y1="0" x2="300" y2="500"/><line class="gridline" x1="400" y1="0" x2="400" y2="500"/><line class="gridline" x1="500" y1="0" x2="500" y2="500"/><line class="gridline" x1="600" y1="0" x2="600" y2="500"/><line class="gridline" x1="700" y1="0" x2="700" y2="500"/><line class="gridline" x1="800" y1="0" x2="800" y2="500"/><line class="gridline" x1="900" y1="0" x2="900" y2="500"/><line class="gridline" x1="0" y1="100" x2="1000" y2="100"/><line class="gridline" x1="0" y1="200" x2="1000" y2="200"/><line class="gridline" x1="0" y1="300" x2="1000" y2="300"/><line class="gridline" x1="0" y1="400" x2="1000" y2="400"/></g><path class="continent" d="M42 130 C95 80 190 70 254 102 C302 126 315 170 274 195 C236 219 220 262 177 270 C120 282 73 238 51 206 Z"/><path class="continent" d="M245 270 C288 251 333 279 340 330 C347 380 317 449 276 475 C246 428 228 372 237 319 Z"/><path class="continent" d="M446 104 C515 63 637 61 714 93 C794 126 843 172 900 181 C938 189 963 218 931 239 C868 280 760 246 699 219 C646 195 592 200 546 221 C506 239 465 206 451 176 Z"/><path class="continent" d="M482 225 C552 208 621 241 633 307 C642 360 609 428 552 453 C513 418 482 364 470 306 Z"/><path class="continent" d="M805 350 C852 329 918 348 939 388 C917 424 848 435 806 405 Z"/><g id="dots"></g></svg><div class="tooltip" id="tip"></div></div></section><aside class="rail"><div class="kpis"><article class="kpi"><span>정밀 추적 국가</span><b id="kCountries">—</b></article><article class="kpi"><span>프로그램 레코드</span><b id="kPrograms">—</b></article><article class="kpi"><span>관할단위</span><b id="kJuris">—</b></article><article class="kpi"><span>필드 증거</span><b id="kObs">—</b></article></div><article class="insight"><h3>지역별 추적 범위</h3><div class="bars" id="regionBars"></div></article><article class="insight baseline"><h3>역사적 기준선</h3><strong>11,690–11,825</strong><p style="font-size:12px;margin:7px 0 0">World Atlas 2019가 제시한 참여예산 경험 범위입니다. 2026년 현재 프로그램 수와 직접 합산하지 않습니다.</p></article></aside></div>
-<div class="changebar"><b>최근 변화</b><div class="ticker" id="ticker">—</div></div><div class="methodband"><div><b>관측 원칙</b><span>뉴스·검색 결과는 ‘신호’로만 저장하며 제도화 수준을 자동 상향하지 않습니다.</span></div><div><b>검증 원칙</b><span>예산·참여자·단계·법적근거는 필드별 원문 출처를 우선합니다.</span></div><div><b>비교 원칙</b><span>통화·참여 지표가 다른 값은 무리하게 합산하지 않습니다.</span></div></div></section>
-<section class="wrap section newspaper" id="daily"><div class="mast"><small>세계 참여예산 관측소</small><h2>PB 데일리</h2><p>국가별로 묶지 않고 전 세계 참여예산 뉴스를 발행일 기준 최신순으로 표시합니다. 제목 번역은 자동 번역이며, 판단은 원문으로 하십시오.</p><div class="filters" style="margin-top:14px"><select id="newsLang" aria-label="뉴스 언어"><option value="all">전체 언어</option></select><select id="newsCountry" aria-label="뉴스 국가"><option value="all">전체 국가</option></select><label class="chk"><input type="checkbox" id="newsGroup" checked> 같은 소식 묶기</label><input id="newsSearch" type="search" autocomplete="off" placeholder="예: 투표, Kraków, 주민참여예산…" aria-label="뉴스 제목 검색"></div></div><div class="paperinfo"><span id="paperDate">—</span><span id="langCount">다국어 신호 탐색</span><span>매일 자동 수집 · <a href="feed.xml">RSS 구독</a></span></div><div class="newsgrid" id="newsgrid"></div><div style="text-align:center;margin-top:14px"><button class="btn ghost" id="moreNews">더 보기</button></div></section>
-<section class="wrap section panel research-section" id="research"><div class="sectionhead"><div><div class="eyebrow">RESEARCH WATCH · OPENALEX</div><h2>최신 참여예산 논문</h2></div><p style="margin:0;color:var(--muted);font-size:12px">OpenAlex·Crossref에서 매일 자동 수집한 참여예산 연구를 발표일 기준 최신순으로 표시합니다.</p></div><div class="research-grid" id="researchGrid"><p class="empty-research">연구 데이터를 불러오는 중…</p></div><div style="text-align:center;margin-top:14px"><button class="btn ghost" id="morePapers">더 보기</button></div></section>
-<section class="wrap section panel" id="explorer"><div class="sectionhead"><div><div class="eyebrow">국가 → 관할단위 → 프로그램</div><h2>국가·지방정부·PB 프로그램 탐색</h2></div><button class="btn ghost" type="button" id="openVerified">검증국만 펼치기</button></div><div class="filters"><select id="region" aria-label="지역"><option value="all">전체 지역</option></select><select id="tracking" aria-label="근거 상태"><option value="all">전체 증거상태</option><option value="verified">공식/검증</option><option value="documented">문헌·플랫폼</option><option value="monitoring">탐색 모니터링</option></select><select id="hasProgram" aria-label="프로그램 유무"><option value="all">프로그램 유무 전체</option><option value="with">프로그램 있음</option><option value="without">탐색 대기</option></select><input id="search" type="search" autocomplete="off" placeholder="국가·도시·프로그램 검색…" aria-label="국가·도시·프로그램 검색"></div><div style="font-size:12px;color:var(--muted);margin-top:9px" id="count" aria-live="polite"></div><div class="tree" id="tree"></div><div style="text-align:center;margin-top:14px"><button class="btn ghost" id="moreCountries" hidden></button></div></section>
-<section class="wrap section" id="analytics"><div class="sectionhead"><div><div class="eyebrow">포트폴리오 분석</div><h2>프로그램 포트폴리오 한눈에 보기</h2></div></div><div class="analytics"><article class="chartbox" style="grid-column:1/-1"><h3>관측 추이 (일별 스냅숏)</h3><div id="trend" style="height:150px"></div><p style="font-size:12px;color:var(--muted);margin:6px 0 0" id="trendNote"></p></article><article class="chartbox"><h3>근거 완성도</h3><div class="stagebars" id="completeBars"></div></article><article class="chartbox"><h3>프로그램 단계</h3><div class="stagebars" id="stageBars"></div></article><article class="chartbox"><h3>관할단위 유형</h3><div class="stagebars" id="levelBars"></div></article><article class="chartbox"><h3>검증 공백</h3><div class="stagebars" id="gapBars"></div></article></div></section>
-<section class="wrap section panel"><div class="sectionhead"><div><div class="eyebrow">프로그램 수치 비교</div><h2>수치 확보 프로그램 비교</h2></div><button class="btn" type="button" id="csv">CSV 내려받기</button></div><div class="tablewrap"><table class="compare"><thead><tr><th>국가 / 관할</th><th>프로그램</th><th>근거 완성도</th><th>예산·배분액</th><th>참여/투표</th><th>단계</th><th>법적근거</th><th>출처</th></tr></thead><tbody id="compare"></tbody></table></div></section>
-<section class="wrap section three" id="evidence"><article class="panel"><div class="eyebrow">출처 상태</div><h2 style="font-size:25px">출처 상태</h2><div id="health"></div></article><article class="panel"><div class="eyebrow">근거 원장</div><h2 style="font-size:25px">최근 증거 축적</h2><div id="ledger"></div></article><article class="panel"><div class="eyebrow">오픈소스 시민참여 설계 참고</div><h2 style="font-size:25px">설계 참고</h2><div class="opensource" id="refs"></div><ol class="method"><li><b>지도+카드 탐색</b><span>프로그램 발견과 근거 확인을 한 흐름으로</span></li><li><b>단계·예산 상태</b><span>운영 라운드의 진행상태를 비교 가능하게</span></li><li><b>자동요약은 신호</b><span>검증값을 자동 추출값이 덮어쓰지 않도록</span></li><li><b>접근성</b><span>details/summary, 키보드 포커스, 명시적 상태 라벨</span></li></ol></article></section>
-</main><footer class="footer"><div><b>세계 참여예산 관측소 v4</b><br>완전성보다 먼저 검증 가능성을 확보합니다.</div><div><span id="footUpdated">—</span><br>데이터: <a href="data/countries.json">국가</a> · <a href="data/programs.json">프로그램</a> · <a href="data/news.json">뉴스</a> · <a href="data/papers.json">논문</a> (JSON, 자유 이용)</div></footer>
+<body>
+<a class="skip" href="#main">본문으로 건너뛰기</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-stamp" viewBox="0 0 32 32"><circle cx="16" cy="16" r="13" fill="none" stroke="currentColor" stroke-width="2.6"/><path d="M15 7.5v17M15.6 14.2l5.6 3.4" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></symbol>
+    <symbol id="i-search" viewBox="0 0 24 24"><circle cx="10.5" cy="10.5" r="6.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="m15.5 15.5 5 5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 0 1 9.5 4a8 8 0 1 0 10.5 10.5Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+    <symbol id="i-sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4.2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 2.5v2.2M12 19.3v2.2M2.5 12h2.2M19.3 12h2.2M5.3 5.3l1.6 1.6M17.1 17.1l1.6 1.6M5.3 18.7l1.6-1.6M17.1 6.9l1.6-1.6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="i-out" viewBox="0 0 24 24"><path d="M14 5h5v5M19 5l-8 8M17 14v5H5V7h5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-rss" viewBox="0 0 24 24"><path d="M5 5a14 14 0 0 1 14 14M5 11a8 8 0 0 1 8 8" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><circle cx="6" cy="18" r="1.8" fill="currentColor"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 4v11m-5-5 5 5 5-5M5 20h14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+    <symbol id="i-sq" viewBox="0 0 16 16"><rect x="2" y="2" width="12" height="12" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-ci" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6" fill="none" stroke="currentColor" stroke-width="1.8"/></symbol>
+    <symbol id="i-chev" viewBox="0 0 24 24"><path d="m8 10 4 4 4-4" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  </defs>
+</svg>
+
+<header class="shell">
+  <div class="shell-in">
+    <a class="brand" href="#overview" aria-label="세계 참여예산 관측소 처음으로">
+      <svg class="brand-stamp" aria-hidden="true"><use href="#i-stamp"/></svg>
+      <span class="brand-name">세계 참여예산 관측소<small>Global PB Observatory</small></span>
+    </a>
+    <nav class="tabs" aria-label="주요 메뉴">
+      <a href="#overview">현황</a>
+      <a href="#daily">PB 데일리</a>
+      <a href="#research">논문</a>
+      <a href="#explorer">국가·프로그램</a>
+      <a href="#analytics">분석</a>
+      <a href="#evidence">근거·출처</a>
+    </nav>
+    <form class="shell-search" role="search" onsubmit="return false">
+      <label class="sr" for="globalSearch">국가·도시·프로그램 검색</label>
+      <svg aria-hidden="true"><use href="#i-search"/></svg>
+      <input id="globalSearch" type="search" placeholder="국가·도시·프로그램 검색…" autocomplete="off">
+    </form>
+    <button class="shell-btn" id="theme" type="button" aria-label="어두운 화면으로 전환" aria-pressed="false"><svg aria-hidden="true"><use href="#i-moon"/></svg></button>
+  </div>
+</header>
+
+<div class="statusline" role="status">
+  <div class="wrap statusline-in">
+    <span class="live-dot" aria-hidden="true"></span>
+    <span id="updatedLine">갱신 정보를 불러오는 중…</span>
+    <span class="statusline-links"><a href="feed.xml"><svg aria-hidden="true"><use href="#i-rss"/></svg>RSS</a><a href="https://github.com/ryc3030/pb-observatory/tree/main/data">데이터(JSON)</a></span>
+  </div>
+</div>
+
+<main id="main">
+
+<section class="wrap overview" id="overview" aria-labelledby="h-overview">
+  <div class="intro">
+    <h1 id="h-overview">전 세계 참여예산, 근거와 신호를 나눠 봅니다</h1>
+    <p>92개국의 참여예산 제도를 국가 → 관할 → 프로그램 단위로 추적합니다. 공식 문서로 확인된 근거에는 <span class="inline-stamp seal"><svg aria-hidden="true"><use href="#i-stamp"/></svg>도장을</span> 찍고, 매일 자동으로 모으는 뉴스·논문은 <span class="signal-word">신호</span>로만 따로 보여 줍니다.</p>
+  </div>
+
+  <div class="board">
+    <div class="mappanel">
+      <div class="panelhead">
+        <h2>근거 지도</h2>
+        <ul class="legend" aria-label="지도 범례">
+          <li><span class="mk seal"><svg aria-hidden="true"><use href="#i-stamp"/></svg></span>공식·검증</li>
+          <li><span class="mk docu"><svg aria-hidden="true"><use href="#i-stamp"/></svg></span>문헌·플랫폼</li>
+          <li><span class="mk mon" aria-hidden="true"></span>탐색 모니터링</li>
+          <li><span class="mk sig" aria-hidden="true"></span>30일 뉴스 신호</li>
+        </ul>
+      </div>
+      <div class="map" id="map2d" role="region" aria-label="92개국 참여예산 근거 지도. 같은 내용은 아래 국가·프로그램 표에서 볼 수 있습니다."></div>
+    </div>
+
+    <aside class="ballot" aria-labelledby="h-ballot">
+      <div class="ballot-head">
+        <h2 id="h-ballot">근거 집계</h2>
+        <span class="ballot-total"><b id="pulseNum">—</b>개국 추적</span>
+      </div>
+      <ol class="ballot-rows" id="statusRows"></ol>
+      <div class="signal-box">
+        <p class="signal-sum" id="signalSum">—</p>
+        <h3>오늘 들어온 신호</h3>
+        <ol class="signal-list" id="ticker"></ol>
+        <a class="textlink" href="#daily">PB 데일리 전체 보기</a>
+      </div>
+    </aside>
+  </div>
+
+  <ul class="principles" aria-label="관측 원칙">
+    <li><b>필드 단위 출처</b>예산·참여자·단계·법적근거마다 원문 출처를 붙입니다.</li>
+    <li><b>자동값과 검증값 분리</b>뉴스·검색 결과는 근거 상태를 올리지 않습니다.</li>
+    <li><b>뉴스 신호 ≠ 전수 통계</b>기사 수는 관심의 신호일 뿐 시행 규모가 아닙니다.</li>
+    <li><b>모르면 “확인 중”</b>원문으로 확인하기 전까지 수치를 채우지 않습니다.</li>
+  </ul>
+</section>
+
+<section class="wrap section" id="daily" aria-labelledby="h-daily">
+  <div class="sechead">
+    <h2 id="h-daily">PB 데일리</h2>
+    <p>전 세계 참여예산 기사를 발행일 순으로 모았습니다. 한국어 제목은 자동 번역이니, 판단은 원문으로 하십시오. <span id="langCount"></span></p>
+  </div>
+  <div class="split">
+    <div class="filterbar" role="group" aria-label="뉴스 거르기">
+      <label class="field"><span>언어</span><select id="newsLang"><option value="all">전체 언어</option></select></label>
+      <label class="field"><span>국가</span><select id="newsCountry"><option value="all">전체 국가</option></select></label>
+      <label class="field"><span>제목 검색</span><input id="newsSearch" type="search" autocomplete="off" placeholder="예: 투표, Kraków, 주민참여예산…"></label>
+      <label class="check"><input type="checkbox" id="newsGroup" checked> 같은 소식은 묶어서 보기</label>
+      <div class="quick" id="newsQuick" aria-label="많이 보도된 국가"></div>
+    </div>
+    <div>
+      <p class="resultline" id="newsResult" aria-live="polite"></p>
+      <ol class="newslist" id="newsgrid"></ol>
+      <button class="btn" type="button" id="moreNews">기사 더 보기</button>
+    </div>
+  </div>
+</section>
+
+<section class="wrap section" id="research" aria-labelledby="h-research">
+  <div class="sechead">
+    <h2 id="h-research">최신 참여예산 논문</h2>
+    <p>OpenAlex·Crossref에서 매일 모은 연구를 발표일 순으로 보여 줍니다. 제목 번역은 자동 번역입니다.</p>
+  </div>
+  <ol class="paperlist" id="researchGrid"><li class="empty">논문 목록을 불러오는 중…</li></ol>
+  <button class="btn" type="button" id="morePapers">논문 더 보기</button>
+</section>
+
+<section class="wrap section" id="explorer" aria-labelledby="h-explorer">
+  <div class="sechead">
+    <h2 id="h-explorer">국가·프로그램 근거</h2>
+    <p>오른쪽 기표란의 도장이 근거 상태입니다. 행을 펼치면 기준 근거, 최근 신호, 프로그램별 필드와 출처가 나옵니다.</p>
+  </div>
+  <div class="filterbar row" role="group" aria-label="국가 거르기">
+    <label class="field"><span>지역</span><select id="region"><option value="all">전체 지역</option></select></label>
+    <label class="field"><span>근거 상태</span><select id="tracking"><option value="all">전체</option><option value="verified">공식·검증</option><option value="documented">문헌·플랫폼</option><option value="monitoring">탐색 모니터링</option></select></label>
+    <label class="field"><span>프로그램</span><select id="hasProgram"><option value="all">전체</option><option value="with">프로그램 있음</option><option value="without">아직 없음</option></select></label>
+    <label class="field grow"><span>검색</span><input id="search" type="search" autocomplete="off" placeholder="국가·도시·프로그램 이름…"></label>
+    <button class="btn ghost" type="button" id="openVerified">공식·검증 국가 펼치기</button>
+  </div>
+  <p class="resultline" id="count" aria-live="polite"></p>
+  <div class="ballot-table" id="tree"></div>
+  <button class="btn" type="button" id="moreCountries" hidden></button>
+</section>
+
+<section class="wrap section" id="analytics" aria-labelledby="h-analytics">
+  <div class="sechead">
+    <h2 id="h-analytics">분석</h2>
+    <p>프로그램 레지스트리 39건의 근거 완성도와 빈칸, 그리고 매일 쌓이는 관측 추이입니다.</p>
+  </div>
+  <p class="trendnote" id="trendNote"></p>
+  <div id="trend" class="trend" hidden></div>
+  <table class="tally" id="tally" aria-label="개표 집계표: 프로그램 근거 완성도, 빈칸, 단계, 관할, 지역별 근거 확보">
+    <caption>역사적 기준선: World Atlas 2019가 제시한 세계 참여예산 경험 수는 <b class="tnum">11,690–11,825</b>건입니다. 지금 레지스트리의 프로그램 수와 합산하지 않습니다.</caption>
+  </table>
+  <div class="tablehead">
+    <h3>프로그램 수치 비교</h3>
+    <button class="btn ghost" type="button" id="csv"><svg aria-hidden="true"><use href="#i-down"/></svg>CSV 내려받기</button>
+  </div>
+  <div class="tablewrap" tabindex="0" role="region" aria-label="프로그램 수치 비교 표">
+    <table class="datatable">
+      <thead><tr><th scope="col">국가·관할</th><th scope="col">프로그램</th><th scope="col" class="num">완성도</th><th scope="col">예산·배분액</th><th scope="col">참여·투표</th><th scope="col">단계</th><th scope="col">법적근거</th><th scope="col">출처</th></tr></thead>
+      <tbody id="compare"></tbody>
+    </table>
+  </div>
+</section>
+
+<section class="wrap section" id="evidence" aria-labelledby="h-evidence">
+  <div class="sechead">
+    <h2 id="h-evidence">근거·출처</h2>
+    <p>자동 수집이 제대로 돌았는지, 어떤 신호가 언제 기록됐는지 확인합니다.</p>
+  </div>
+  <div class="evidence">
+    <div><h3>수집 상태</h3><div id="health"></div></div>
+    <div><h3>근거 원장 — 최근 기록</h3><ol class="ledger" id="ledger"></ol></div>
+  </div>
+</section>
+
+</main>
+
+<footer class="footer">
+  <div class="wrap footer-in">
+    <div><b>세계 참여예산 관측소 v4</b><p>완전성보다 먼저 검증 가능성을 확보합니다.</p></div>
+    <div><p id="footUpdated"></p><p>데이터: <a href="data/countries.json">국가</a> · <a href="data/programs.json">프로그램</a> · <a href="data/news.json">뉴스</a> · <a href="data/papers.json">논문</a> (JSON, 자유 이용) · <a href="https://github.com/ryc3030/pb-observatory">GitHub</a></p></div>
+  </div>
+</footer>
 
 <script src="https://unpkg.com/maplibre-gl@5.7.1/dist/maplibre-gl.js"></script>
 <script src="assets/app.js"></script>
-</body></html>
+</body>
+</html>
