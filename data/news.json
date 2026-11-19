@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19T02:36:17.815361+00:00",
- "count": 1279,
+ "updated_at": "2026-11-19T12:10:26.182681+00:00",
+ "count": 1281,
  "items": [
   {
    "id": "05718dda67ae46",
@@ -4779,6 +4779,27 @@
    "story": "f9c3103033eff3",
    "story_n": 1,
    "title_ko_mt": "뉴욕시 시민 참여 위원회, 11월 18일까지 주민참여예산 워크숍 개최"
+  },
+  {
+   "id": "8d97acc61cbc4f",
+   "title": "Evanston doubles traffic calming funds amid budget cuts",
+   "title_ko": "에번스턴, 예산 삭감 속에서도 교통 안정화 기금 2배로 증액",
+   "lang": "en",
+   "source": "evanstonnow.com",
+   "url": "https://evanstonnow.com/alders-debate-participatory-budgeting/",
+   "source_url": "https://evanstonnow.com",
+   "gl": "",
+   "default_iso": null,
+   "published_at": "2026-11-12T00:30:00+00:00",
+   "src_country": "United States",
+   "src_country_iso": "USA",
+   "collected_at": "2026-11-19T12:10:26.182681+00:00",
+   "kind": "signal",
+   "via": "GDELT",
+   "country_iso3": "USA",
+   "iso_basis": "발행국",
+   "_tr_tried": true,
+   "title_ko_mt": "에번스턴, 예산 삭감 속에서도 교통 안정화 기금 2배로 증액"
   },
   {
    "id": "32dd94fd2f23af",
@@ -12306,6 +12327,27 @@
    "iso_basis": "제목",
    "story": "658fe4ee240f5f",
    "story_n": 1
+  },
+  {
+   "id": "2e3349737149cd",
+   "title": "Koprčanke in Koprčani glasujejo o 83 predlogih participativnega proračuna",
+   "title_ko": "코페르 시민들, 참여예산의 83개 제안에 대해 투표",
+   "lang": "en",
+   "source": "primorske.si",
+   "url": "https://primorske.si/primorska/istra/koprcanke-in-koprcani-bodo-glasovali-o-83-predlogih-participativnega-proracuna-744723/",
+   "source_url": "https://primorske.si",
+   "gl": "",
+   "default_iso": null,
+   "published_at": "2026-10-20T20:00:00+00:00",
+   "src_country": "Slovenia",
+   "src_country_iso": "SVN",
+   "collected_at": "2026-11-19T12:10:26.182681+00:00",
+   "kind": "signal",
+   "via": "GDELT",
+   "country_iso3": "SVN",
+   "iso_basis": "발행국",
+   "_tr_tried": true,
+   "title_ko_mt": "코페르 시민들이 참여 예산의 83개 제안에 대해 투표합니다"
   },
   {
    "id": "b9794b3ce82c6d",

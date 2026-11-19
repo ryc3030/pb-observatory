@@ -1,8 +1,17 @@
 {
- "last_attempt": "2026-11-18T06:06:08.138346+00:00",
- "last_success": null,
- "fails_in_row": 1,
+ "last_attempt": "2026-11-19T12:10:26.182681+00:00",
+ "last_success": "2026-11-19T12:10:26.182681+00:00",
+ "fails_in_row": 0,
  "history": [
+  {
+   "at": "2026-11-19T12:10:26.182681+00:00",
+   "ok": true,
+   "days": 30,
+   "route": "직접",
+   "fetched": 12,
+   "added": 2,
+   "error": null
+  },
   {
    "at": "2026-11-18T06:06:08.138346+00:00",
    "ok": false,

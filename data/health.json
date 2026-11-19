@@ -84,15 +84,16 @@
  },
  "gdelt": {
   "name": "GDELT DOC 2.0 (하루 1회 요청)",
-  "ok": false,
-  "queries_ok": 0,
+  "ok": true,
+  "queries_ok": 1,
   "queries": 1,
-  "fetched": 0,
-  "checked_at": "2026-11-18T06:06:08.138346+00:00",
-  "error": "HTTP 429",
-  "fails_in_row": 1,
+  "fetched": 2,
+  "checked_at": "2026-11-19T12:10:26.182681+00:00",
+  "error": null,
+  "fails_in_row": 0,
   "timespan_days": 30,
-  "last_success_at": null
+  "route": "직접",
+  "last_success_at": "2026-11-19T12:10:26.182681+00:00"
  },
  "orgs": {
   "name": "참여예산 기관 소식 피드",
