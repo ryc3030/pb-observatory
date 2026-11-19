@@ -1,5 +1,135 @@
 [
  {
+  "key": "news:MEX:d620512d43506b",
+  "date": "2026-11-19",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "그들, 2027년 참여예산에 3억 5400만 페소 이상을 할당할 전망",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPang1Mm1MeERNNmZmUl9CMmpYVFQweVRBTC1aTWxnTlNxeGlqY1prRWE2eVNtVFVITGdsaERDQkdjUUpaX1lfdnlvUHQtRTVKdkUybmdTUGNIUFlwakI3UlNJaUEzNXJzYzRfZTJuNkRVRnY3eXBfbVc5NlBtZFJOQW16UnhBVEhldmExblNUcnB4RzdlQ2tjbFJGZmE3YWI5VEoyNi1EN0gyaGR5VlMwYnVvU3RUenU4dEx0dUNRbGXSAcYBQVVfeXFMTmEyMlc4ZHN5THliVWVqQm1sdU1BcFRaRE4tRWVnbzJxNWFobFNvZ2Z0ZkJmeDhXM0NxR1piTG1sT25MR1ZMaF83VUNnT3k3aHFsMnJoQkxxUWdxb2pMZDUtWXN4RFFiWkx6SFRkanRaNDlOOEhKcWhYYV83a3lIZzhDa2d0dXNVbVZQMW1qemN5Zm9KT214ZkZUdTRRWmVfbVhDckhxalNPU3ZmODB5YUVzWUtRNTNvdENnQkRiN1M2dDFMV3d3?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:KOR:05718dda67ae46",
+  "date": "2026-11-19",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "완도군, ‘주민참여예산위원회’ 출범…“투명성 높인다”",
+  "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9mVi1pWnA4TVBFemxNMlhZVndDLXcyOHN1RGhGcUp4Ml9oa3VpRmhSdzY1bG1ZYUdZQkd4Zm5xN0pzMnBrWUxLWGlJaVJnb2tiNUN3aVV2Mzl1bFM4ZWd3UjE3ZmljUQ?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:FRA:4a2dc8b95777ae",
+  "date": "2026-11-19",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "Saint-Jérôme의 참여예산: 귀하의 도시에서 수행할 프로젝트를 선택하는 것은 귀하에게 달려 있다",
+  "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxOOFYtUHBRUk9PdzJheTR5dWpPTEtmUTFEY1Rxb2RtaUhxekhnaGE3RG5Eb3hFbEp6aFlsMHBkUDZhZ3dVV0NiaURJYUVHbkNRR1dXZ2Vzb25sNVRHSFdTaGNPU1ptbF9TWjdiTDZwdjgyX1VDaWFRb3h5ZFJhSGVwbkVzNy1EaGk1R1RucDlVelVRZ3hiQWFPY3lKeG40VGcwdkF3dllCOGozc05KcE9mazdRZEw1c1RLLWt6Y0x3b2RkbHFLa1d4bjhlcmR3UQ?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:DEU:b0c53756b8b758",
+  "date": "2026-11-19",
+  "iso3": "DEU",
+  "type": "뉴스 신호",
+  "label": "독일",
+  "text": "참여예산 포츠담: 두 번째 주택세 인상 및 임대료 모니터가 높아졌다",
+  "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWWtRZ0xGRE4wTDgyQThhN2NEMUpwRUc5VS05M1RaNDdYWEthVi1wY25HT1lIZGNTM0FqQjd3UzJXRjlPbnAyLWxyYmJxb3IxdVQwQUVDcnZ5TEFCSEZZY2JUYUFnZzVYX01uVm4yc3ZEMGx4V2E5R0RLSVM5bVJtTl9sRTloTmxDMnVDeWZjWXoxX2p5VTRlTWdHcTVfZE9vX2RiQkJLOUZYNUhYaWpkR1FoMk5GdVBiNXB4dmc2TVZuQ05DTDdMa3pEMkNMTHhyUW9RWWNwN045VWRJRWFYSDZ3?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:POL:057d02663807af",
+  "date": "2026-11-19",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "Kościerzyna 시민예산 2027. 주민들은 PLN 450,000를 나눈다. PLN – Klëka Kòscérzna - 90.1 FM",
+  "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOeUVvWmdFZklKTkJIZUowdTlWNGNFZjNPNjdkSjBvWlNacUY3V0gzNkxJU0Roa2JJM1pDRXZON2VFcjAtRHVBTW13WS1qX3J3S0RhTkNGMmlUMzZkSFJnUnoxUkF3OFRRTlZXMDU2VkVQaVI5QlF0V0t1eDVMRlpIRHgzYjBPT044X1dEVEdCUUFqcldiX2cyX25mQ3dxXzhh?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:PRT:ad63076fdfa0b7",
+  "date": "2026-11-19",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "2026년 참여예산 투표",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPVmhieUF5eHdGNFF4SkUzaFR3eFNJZHV3SnJYVWZLdkotYXdiMVVReWQtTGtGWHB4Uy1WZ1dSNjhoUUJKdUsxOTJVcWxNWDkyLTFJaEU4UGRkRFJ2cWRfZUR2RTVwNnhXOGFENUJLOTBRaHA1eXpEaWFGLUdRLW1LYnpLTE5jb1FyZ3ZUY245MUhTUl9mQ3otWHZB?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:ESP:f229a60d9ecae1",
+  "date": "2026-11-19",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "PSOE, 그라게라가 20만 유로의 참여예산을 집행하지 않은 채 방치했다고 비난",
+  "url": "https://news.google.com/rss/articles/CBMi-gFBVV95cUxPT0NrdFNGZXdrZGhWT3c3eEpQRWJfWDNKS2JQV0plUmJRem5zUlpWbzlZVEFmc05EVThud0tzcHNIUk1NMnBrY1NvNVNxa2FrQWpTd2JpMXVxWVYzbE5EZ3RSeWctVUE5Y0hBZ1FjRTZ4SzcxVkhCU3lHM280OVdMTDVkV0tnMWhYNlBEdkdiNE1tQjVlVGZOMjFlek5yS3VDaUM2TXhNdmNfdEQ0S01iYmNCNklwMnRCZmtqanIwdTJzcTRzZGh3VE9hdHJEa29uZThWbUlPRkNXZFJQNU5yYVZfMW5rS0VJYVRfdlgta2xmcm92VUFtNXNn?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:ARG:918a589af534e4",
+  "date": "2026-11-19",
+  "iso3": "ARG",
+  "type": "뉴스 신호",
+  "label": "아르헨티나",
+  "text": "그들, 참여예산 기금이 Viedma 지역에 어떻게 분배되는지 검토할 것을 주장",
+  "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOXU1cW95MzBXUlhNUFotd2paMkJlb3dUSmx4Q3ZSQzVERlAtSmphWTNreGpSSEtQNFRVODEyTkgyTHN3VmdFdzFtZ0tuSnV3OGJaYTZTdmlFSFpldWtLTmFUTWRhT0xxMjUxMUJIdkk1QUFNZEVKdFZCWUZhLUhncmdNckdoOWg4bXU1X2xtWFpscjFJOVV0MHhiSGRPNE1ST3FsZ3BGcFlkaHFGVUtROHZnQTR3N284LUNveXAwVDFreV9KWF91NVdmbi1zRTBsenllelZtS0JZN2lJY0U1OUZLYnZwVDVhMURsa1hNOVFCZXd4OXfSAfsBQVVfeXFMTWNJMURKVDA3MF81MWNhSnMwb0tpSFdvVVI1dUFfUE84Sk41c0dWNnlINFRMblBsUDhDcmFVU2YyZG1Dd1hDeTJNQllNN09PaFRwek44cXJRMDdicm01M1FQdW5pSzRuc2dhSXU2UmxvTldTSWhuODU4bC1jXzg5UjZKV1dvdmRDRFRPVW95NGNHeDhaOUFtZWt2ZURmcFViWTZidi1mQnFxWTR5U2t4UFpqZldoUDhQeWxYaGRWRDIxaFZiVlpyd19qazAxeUp5NmVOejNZWGtVWE9oWVdhcnZWOFQ0Rkhqb3lWNkdPYkN5SW5WOERsQUhtV1k?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:COL:ea0b737577a717",
+  "date": "2026-11-19",
+  "iso3": "COL",
+  "type": "뉴스 신호",
+  "label": "콜롬비아",
+  "text": "메데인 참여예산을 통해 아빠에서 슈퍼 히어로로",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNejllRXEzXy1hVEZKZFRURzI4RmFqWkJqbjdYbmZXeDVuaDRrRWw2T3A2VmhBSktxLUlJekloUVRzOEhacmF5dlZ2Z3hKSlZzTklISDdDVXd4NlVvRC14Wi05cXEwSk4td2ZucVU1R1BmRmo2cUc3dW9oNEpONnc3ZnBQSmxPYUg5NjRaTEg3SFpVT2tGc2FPU2hpa0ZuNi1vYzlCZjBzbzdsZ0FtMWIwVndzQ0FlOUU5dEpXWjh3?oc=5",
+  "observed_at": "2026-11-17"
+ },
+ {
+  "key": "news:EST:0ca21aa961dcf6",
+  "date": "2026-11-19",
+  "iso3": "EST",
+  "type": "뉴스 신호",
+  "label": "에스토니아",
+  "text": "Häademeeste 지방자치단체에서 포용예산에 대한 국민투표 시작",
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQOTc1alpYYWF5TUo0b3RkcnB0a09RVzlWTjQxYzFIUEFXTURiVkxsRG9pcGtXQVVudE5XWU5LN1Q2VnhVZUc0bEhlbC1GXzBjdzk1MktlZGJlb3RhTzB5X1JqZEotbTFfRkRHbVpLRGt0U0V6c2JVSHotdVJ4OVIxS2YxRGVzWUttVC1BeEFHa3pRUmM?oc=5",
+  "observed_at": "2026-11-16"
+ },
+ {
+  "key": "news:USA:9be7a7c8561990",
+  "date": "2026-11-19",
+  "iso3": "USA",
+  "type": "뉴스 신호",
+  "label": "미국",
+  "text": "Julie Menin 의장과 NYC 의회는 2026-2027 회계연도 참여예산 개시",
+  "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNR3NfT1VzX3FhYUZPVTBlNkk1aEp0WWRTd0tFenJmeWVyT3QtMW8zaVBRenA5aU50Ti15ckx1b25uSUNIaC1mYm9nUUljZUVaQXZYZUhmcTlGcl9lQTVfLXZGWnhPWmJMQW1YVXYzZFNYOVFBVUVYck44b1VfV016Y255WVRfTW12Vy1VaXpoa2x5bTFUVHNLRktmak5tYlNXbjZmNHl0aEl0QnIwT0JJeGtaUmZXbVBfYjRVOU43b2pwX25RTllZODAyMWU0RDdfeHJvcFBsSzVOb2lnOTRmOA?oc=5",
+  "observed_at": "2026-11-16"
+ },
+ {
+  "key": "paper:doi:10.1177/0160323x261503156",
+  "date": "2026-11-19",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "State and Local Government Review",
+  "text": "반응형 참여예산 시스템을 통한 사회적 형평성 향상: 미국 및 캐나다 관할권의 증거",
+  "url": "https://doi.org/10.1177/0160323x261503156",
+  "observed_at": "2026-11-16"
+ },
+ {
+  "key": "paper:doi:10.1257/rct.20253",
+  "date": "2026-11-19",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "AEA Randomized Controlled Trials",
+  "text": "저소득층의 의료비 지출에 대한 선호도 공개: 케냐의 카운티 예산 참여 증거",
+  "url": "https://doi.org/10.1257/rct.20253",
+  "observed_at": "2026-11-14"
+ },
+ {
   "key": "news:BRA:174c7cbe2c2ccd",
   "date": "2026-11-18",
   "iso3": "BRA",

@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-18T08:14:10.865327+00:00",
- "count": 222,
+ "updated_at": "2026-11-19T02:36:17.815361+00:00",
+ "count": 224,
  "items": [
   {
    "id": "doi:10.69733/clad.ryd.n96.a934",
@@ -11,25 +11,56 @@
     "Daniela Ostrá",
     "Agnieszka Zogata-Kusz"
    ],
-   "venue": "Revista del CLAD Reforma y Democracia",
+   "venue": "Reforma y democracia.",
    "published_at": "2026-11-17",
    "doi": "10.69733/clad.ryd.n96.a934",
    "url": "https://doi.org/10.69733/clad.ryd.n96.a934",
-   "open_access": null,
-   "lang": null,
+   "open_access": true,
+   "lang": "en",
    "cited_by": 0,
    "abstract_snippet": "Participatory budgeting (PB) has become the most widespread democratic innovation in the world, yet research has long focused on successful cases rather than on failures. This study addresses the gap with a configurational analysis of PB termination in Central Europe. Drawing on the literature, we identify five types of factors that contribute to PB failure and consolidate them into three conditions: political-bureau",
-   "source": "Crossref",
-   "type": "journal-article",
-   "concepts": [],
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Political Theory and Democracy",
+    "Electoral Systems and Political Participation",
+    "Politics and Society in Latin America"
+   ],
    "first_seen": "2026-11-18",
    "title_ko": "참여예산제의 실패를 이해하기",
    "_tr_tried": true,
    "title_ko_mt": "참여예산제의 실패를 이해하기"
   },
   {
+   "id": "doi:10.1177/0160323x261503156",
+   "title": "Advancing Social Equity Through Responsive Participatory Budgeting Systems: Evidence From United States and Canadian Jurisdictions",
+   "authors": [
+    "Juan Pablo Martínez Guzmán",
+    "Michelle L. Lofton"
+   ],
+   "venue": "State and Local Government Review",
+   "published_at": "2026-11-16",
+   "doi": "10.1177/0160323x261503156",
+   "url": "https://doi.org/10.1177/0160323x261503156",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Participatory budgeting (PB) complements representative democracy by empowering underrepresented minorities, yet significant participation barriers persist. This study utilizes survey and interview data from twenty-seven jurisdictions in the United States and Canada to address: (1) recruitment strategies for reaching minority communities; (2) how PB structural designs mitigate or reinforce participation barriers; and",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Political Theory and Democracy",
+    "Public Policy and Administration Research",
+    "Electoral Systems and Political Participation"
+   ],
+   "first_seen": "2026-11-19",
+   "title_ko": "반응형 참여예산 시스템을 통한 사회적 형평성 향상: 미국 및 캐나다 관할권의 증거",
+   "_tr_tried": true,
+   "title_ko_mt": "반응형 참여 예산 시스템을 통한 사회적 형평성 향상: 미국 및 캐나다 관할권의 증거"
+  },
+  {
    "id": "doi:10.34135/cejpp.380",
-   "title": "Participatory Budgeting Research: A Systematic Literature Review of Determinants, Impacts, and Future Research Directions",
+   "title": "Participatory Budgeting Research: A Systematic Literature Review of Determinants, Impacts, and Future Research Directions.",
    "authors": [
     "Dheni Indra Kusuma",
     "Baldric Siregar",
@@ -136,6 +167,34 @@
    "title_ko_mt": "시민 참여 생태계 형성에 있어 주민참여예산제의 법적 및 제도적 장벽"
   },
   {
+   "id": "doi:10.1257/rct.20253",
+   "title": "Revealed Preferences for Health Spending in Low-Income Settings: Evidence from County Budget Participation in Kenya",
+   "authors": [
+    "Avi Ahuja",
+    "Jason Lakin",
+    "Gladys Wachira"
+   ],
+   "venue": "AEA Randomized Controlled Trials",
+   "published_at": "2026-11-14",
+   "doi": "10.1257/rct.20253",
+   "url": "https://doi.org/10.1257/rct.20253",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "We estimate citizens’ revealed preferences for county health spending by embedding a randomized health-information treatment within a participatory budgeting field experiment in five Kenyan counties. At the baseline interview, about half of all respondents, chosen at random, receive a county health profile showing per capita health spending, medicine stock-out rates and health workforce coverage relative to other cou",
+   "source": "OpenAlex",
+   "type": "study-registration",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Healthcare Systems and Reforms",
+    "Global Health Care Issues"
+   ],
+   "first_seen": "2026-11-19",
+   "title_ko": "저소득층의 의료비 지출에 대한 선호도 공개: 케냐의 카운티 예산 참여 증거",
+   "_tr_tried": true,
+   "title_ko_mt": "저소득층의 의료비 지출에 대한 선호도 공개: 케냐의 카운티 예산 참여 증거"
+  },
+  {
    "id": "doi:10.1146/annurev-publhealth-062325-064813",
    "title": "Participatory Budgeting in Public Health: Promise, Evidence, Challenges, and Opportunities",
    "authors": [
@@ -231,13 +290,13 @@
    "open_access": false,
    "lang": "en",
    "cited_by": 0,
-   "abstract_snippet": "",
+   "abstract_snippet": "Kenya’s 2010 Constitution and the Public Finance Management Act (2012) mandate public participation in county budgeting, yet participatory processes remain opaque, costly and skewed toward organized interests. Citizens, especially women, youth and informal-sector workers, often lack timely information on when and how to engage, struggle to interpret technical fiscal documents, and rarely learn whether their input mat",
    "source": "OpenAlex",
    "type": "study-registration",
    "concepts": [
-    "Electoral Systems and Political Participation",
-    "Local Government Finance and Decentralization",
-    "Political Theory and Democracy"
+    "E-Government and Public Services",
+    "Political Theory and Democracy",
+    "Electoral Systems and Political Participation"
    ],
    "first_seen": "2026-11-18",
    "title_ko": "케냐의 참여예산제도에서 시민 참여 증진: 카운티 예산 포럼 참여에 대한 다카운티 현장 실험",
@@ -3171,8 +3230,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "Efecto del presupuesto participativo en la responsabilidad social de los directivos mediado por la ética profesional",
+   "_tr_tried": true,
+   "title_ko_mt": "Efecto del presupuesto participativo en la responsabilidad social de los directivos mediado por la ética profesional"
   },
   {
    "id": "doi:10.69639/arandu.v12i4.1802",
@@ -3194,8 +3254,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "Presupuesto participativo y desarrollo barrial en Cuenca: un enfoque de gobernanza local y participación ciudadana",
+   "_tr_tried": true,
+   "title_ko_mt": "Presupuesto participativo y desarrollo barrial en Cuenca: un enfoque de gobernanza local y participación ciudadana"
   },
   {
    "id": "doi:10.56584/1560-8816-2026-1-318-324",
@@ -3220,8 +3281,9 @@
     "Political Theory and Democracy"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산 프로젝트의 사업 공동 자금조달",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 예산 프로젝트의 사업 공동 자금조달"
   },
   {
    "id": "doi:10.47538/ac-2026.30",
@@ -3245,8 +3307,9 @@
     "Public Policy and Governance"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "Suzano/SP의 주민참여예산과 대중교육",
+   "_tr_tried": true,
+   "title_ko_mt": "Suzano/SP의 주민참여예산과 대중교육"
   },
   {
    "id": "doi:10.2139/ssrn.6710919",
@@ -3270,8 +3333,9 @@
     "Public Administration in Developing Nations"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "앙골라 농촌 지역의 주민참여예산: Cuanza Norte Ngonguembo 지방자치단체의 시행 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "앙골라 농촌 지역의 주민참여 예산: Cuanza Norte Ngonguembo 지방자치단체의 시행 분석"
   },
   {
    "id": "doi:10.48021/978-65-288-0937-0",
@@ -3295,8 +3359,9 @@
     "Political Theory and Democracy"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "공공 정책은 논의되지 않습니다. 과연 그럴까요?: 민주주의를 급진화하고 참여예산의 의사결정 과정을 이해합니다.",
+   "_tr_tried": true,
+   "title_ko_mt": "공공 정책은 논의되지 않습니다. 과연 그럴까요?: 민주주의를 급진화하고 참여예산의 의사결정 과정을 이해합니다."
   },
   {
    "id": "doi:10.37885/260121129",
@@ -3321,8 +3386,9 @@
     "Politics and Society in Latin America"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산 구성에 대한 사회적 통제: 효율성과 전략적 제안에 대한 장벽",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산 구성에 대한 사회적 통제: 효율성과 전략적 제안에 대한 장벽"
   },
   {
    "id": "doi:10.1590/1984-92302025v33n0017en",
@@ -3349,8 +3415,9 @@
     "Public Policy and Governance"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "주민참여예산: 질적 사례 연구의 메타합성",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산: 질적 사례 연구의 메타합성"
   },
   {
    "id": "doi:10.1590/1984-92302025v33n0017pt",
@@ -3377,8 +3444,9 @@
     "Politics and Society in Latin America"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산: 질적 사례 연구의 메타 종합",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 예산: 질적 사례 연구의 메타 종합"
   },
   {
    "id": "doi:10.1590/0034-761220250044",
@@ -3402,8 +3470,9 @@
     "Local Government Finance and Decentralization"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "실패의 “블랙박스” 열기: 보고타의 관료적 역량과 주민참여예산 실행",
+   "_tr_tried": true,
+   "title_ko_mt": "실패의 “블랙박스” 열기: 보고타의 관료적 역량과 주민참여예산 실행"
   },
   {
    "id": "doi:10.29327/25955187.1192749",
@@ -3428,8 +3497,9 @@
     "Public Policy and Administration Research"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "포르토 알레그레의 참여예산의 불연속성에 대한 공공 행정 관리 이론의 영향",
+   "_tr_tried": true,
+   "title_ko_mt": "포르토 알레그레의 참여 예산의 불연속성에 대한 공공 행정 관리 이론의 영향"
   },
   {
    "id": "doi:10.29327/25955187.1191548",
@@ -3455,8 +3525,9 @@
     "Public Policy and Administration Research"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산과 민주적 운영: João Pessoa/PB의 “Você Mayor” 프로그램 경험(2021-2025)",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산과 민주적 운영: João Pessoa/PB의 “Você Mayor” 프로그램 경험(2021-2025)"
   },
   {
    "id": "doi:10.22350/9786552722843",
@@ -3480,8 +3551,9 @@
     "Political Theory and Democracy"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여의 약속: 브라질 남부의 참여예산(1989-2016)",
+   "_tr_tried": true,
+   "title_ko_mt": "참여의 약속: 브라질 남부의 참여예산(1989-2016)"
   },
   {
    "id": "doi:10.1590/0103-3352.2026.45.298657pt",
@@ -3505,8 +3577,9 @@
     "Latin American Urban Studies"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "Regimes politicos 및 Regimes urbanos nas relações de poder das cidades",
+   "_tr_tried": true,
+   "title_ko_mt": "Regimes politicos 및 Regimes urbanos nas relações de poder das cidades"
   },
   {
    "id": "oa:W7154544208",
@@ -3519,7 +3592,7 @@
    "published_at": "2026-01-01",
    "doi": null,
    "url": "https://depositum.uqat.ca/id/eprint/1779/",
-   "open_access": false,
+   "open_access": true,
    "lang": "fr",
    "cited_by": 0,
    "abstract_snippet": "Les retombées des projets issus du budget participatif de VVEQR ont été analysées, du point de vue des personnes aînées participantes. Bénéfices personnels découlant des projets • Meilleure santé mentale; • Création ou approfondissement de relations sociales; • Acquisition de connaissances; • Accès à de nouvelles ressources ou informations; • Incitation au mouvement, à l'activité physique. Bénéfices collectifs • Favo",
@@ -3531,8 +3604,9 @@
     "Technology Use by Older Adults"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "농촌 지역에서 함께 생활하고 노령화: 접근 방식의 이점에 대한 질적 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "농촌 지역에서 함께 생활하고 노령화: 접근 방식의 이점에 대한 질적 분석"
   },
   {
    "id": "doi:10.36871/ek.up.p.r.2026.07.05.023",
@@ -3556,8 +3630,9 @@
     "Public Policy and Administration Research"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "주 및 지방자치 행정에 대한 시민 참여를 위한 도구로서의 예산 계획",
+   "_tr_tried": true,
+   "title_ko_mt": "주 및 지방자치 행정에 대한 시민 참여를 위한 도구로서의 예산 계획"
   },
   {
    "id": "doi:10.46916/31082026-2-978-5-00276-157-9",
@@ -3581,8 +3656,9 @@
     "Fiscal Policies and Political Economy"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "러시아 연방의 예산안 발의의 법적 측면",
+   "_tr_tried": true,
+   "title_ko_mt": "러시아 연방의 예산안 발의의 법적 측면"
   },
   {
    "id": "doi:10.17323/1999-5431-2026-0-3-118-150",
@@ -3606,8 +3682,9 @@
     "Local Government Finance and Decentralization"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "인도, 중국, 러시아의 참여형(이니셔티브) 예산 제도화에 대한 비교 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "인도, 중국, 러시아의 참여형(이니셔티브) 예산 제도화에 대한 비교 분석"
   },
   {
    "id": "doi:10.2139/ssrn.7592712",
@@ -3628,8 +3705,9 @@
    "type": "posted-content",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산의 비례성과 지원 단조성",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산의 비례성과 지원 단조성"
   },
   {
    "id": "doi:10.2139/ssrn.7274322",
@@ -3649,8 +3727,9 @@
    "type": "posted-content",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "카디널리티 만족 및 완전히 단일 모듈화된 승인 매트릭스를 갖춘 참여예산의 핵심 존재",
+   "_tr_tried": true,
+   "title_ko_mt": "카디널리티 만족 및 완전히 단일 모듈화된 승인 매트릭스를 갖춘 참여예산의 핵심 존재"
   },
   {
    "id": "doi:10.2139/ssrn.6251728",
@@ -3671,8 +3750,9 @@
    "type": "posted-content",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "주민참여예산제도와 도시-농촌 소득격차: 중국의 증거",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여 예산제도와 도시-농촌 소득격차: 중국의 증거"
   },
   {
    "id": "doi:10.2139/ssrn.5974535",
@@ -3692,8 +3772,9 @@
    "type": "posted-content",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산을 위한 차등 개인 정보 보호: 우즈베키스탄의 공개 예산 시스템에서 유권자 개인 정보 보호",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 예산을 위한 차등 개인 정보 보호: 우즈베키스탄의 공개 예산 시스템에서 유권자 개인 정보 보호"
   },
   {
    "id": "doi:10.2139/ssrn.6292482",
@@ -3715,8 +3796,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "리치먼드의 참여예산",
+   "_tr_tried": true,
+   "title_ko_mt": "리치먼드의 참여예산"
   },
   {
    "id": "doi:10.2139/ssrn.6039414",
@@ -3736,8 +3818,9 @@
    "type": "posted-content",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "\"해동\" 권위주의적 맥락에서의 정책 기업가 정신: 참여예산 개혁의 내러티브 탐색",
+   "_tr_tried": true,
+   "title_ko_mt": "\"해동\" 권위주의적 맥락에서의 정책 기업가 정신: 참여예산 개혁의 내러티브 탐색"
   },
   {
    "id": "doi:10.1590/0034-761220250044x",
@@ -3757,8 +3840,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "실패의 “블랙박스” 열기: 보고타의 관료적 역량과 주민참여예산 시행",
+   "_tr_tried": true,
+   "title_ko_mt": "실패의 “블랙박스” 열기: 보고타의 관료적 역량과 주민참여예산 시행"
   },
   {
    "id": "doi:10.35774/sf2026.01.150",
@@ -3781,8 +3865,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산모델과 현대예산관리와의 통합",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산모델과 현대예산관리와의 통합"
   },
   {
    "id": "doi:10.1590/0034-761220250044y",
@@ -3802,8 +3887,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "Abriendo la “caja negra” del fracaso: capacidad burocrática e Implementación del presupuesto participativo en Bogotá",
+   "_tr_tried": true,
+   "title_ko_mt": "Abriendo la “caja negra” del fracaso: capacidad burocrática e Implementación del presupuesto participativo en Bogotá"
   },
   {
    "id": "doi:10.23900/edppc.978-65-84425-04-0_1",
@@ -3826,8 +3912,9 @@
    "type": "book-chapter",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "ORÇAMENTO PARTICIPATIVO DE PORTO VELHO: UMA ANÁLISE DA PARTICIPAÇÃO CIDADÃ NA ELABORAÇÃO DO ORÇAMENTO DE PORTO VELHO",
+   "_tr_tried": true,
+   "title_ko_mt": "ORÇAMENTO PARTICIPATIVO DE PORTO VELHO: UMA ANÁLISE DA PARTICIPAÇÃO CIDADÃ NA ELABORAÇÃO DO ORÇAMENTO DE PORTO VELHO"
   },
   {
    "id": "doi:10.47191/jefms/v8-i12-72",
@@ -3848,8 +3935,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "벵쿨루 지방정부 참여예산 과정에서 AI 추천이 여유 예산 행동과 직원 동기 부여에 미치는 영향",
+   "_tr_tried": true,
+   "title_ko_mt": "벵쿨루 지방정부 참여예산 과정에서 AI 추천이 여유 예산 행동과 직원 동기 부여에 미치는 영향"
   },
   {
    "id": "doi:10.3390/su18010399",
@@ -3872,8 +3960,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "조사 및 지출 변화: 참여예산이 지방 정부 부채를 줄이는 방법",
+   "_tr_tried": true,
+   "title_ko_mt": "조사 및 지출 변화: 참여 예산이 지방 정부 부채를 줄이는 방법"
   },
   {
    "id": "doi:10.15710/kgar.2025.23.3.1",
@@ -3920,8 +4009,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "지역 정책 도구로서의 참여예산: 우크라이나의 제도적 차원과 실행 관행",
+   "_tr_tried": true,
+   "title_ko_mt": "지역 정책 도구로서의 참여 예산: 우크라이나의 제도적 차원과 실행 관행"
   },
   {
    "id": "doi:10.1080/14719037.2025.2610747",
@@ -3943,8 +4033,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산제도와 손실회피: 중국의 실험적 증거",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산제도와 손실회피: 중국의 실험적 증거"
   },
   {
    "id": "doi:10.47460/minerva.v6isp.258",
@@ -3964,8 +4055,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "지방자치단체 운영에서 참여예산",
+   "_tr_tried": true,
+   "title_ko_mt": "지방자치단체 운영에 있어서 참여예산"
   },
   {
    "id": "doi:10.69664/kav.v17n2a544",
@@ -3985,8 +4077,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여 전제: incidir en la toma decisiones o brindar información para que el Estado decida",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 전제: incidir en la toma decisiones o brindar información para que el Estado decida"
   },
   {
    "id": "doi:10.56712/latam.v6i6.5065",
@@ -4008,8 +4101,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "코스타 델 에콰도르 지역 농촌 지역의 지역적 참여를 위한 다양한 기준 평가",
+   "_tr_tried": true,
+   "title_ko_mt": "코스타 델 에콰도르 지역 농촌 지역의 지역적 참여를 위한 다양한 기준 평가"
   },
   {
    "id": "doi:10.63391/ve9fwr57",
@@ -4033,8 +4127,9 @@
     "Political Dynamics in Latin America"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "참여예산의 감소: 연방지구와 전국 시나리오에서 얻은 증거",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산의 감소: 연방지구와 전국 시나리오에서 얻은 증거"
   },
   {
    "id": "doi:10.31743/sanp.18733",
@@ -4058,8 +4153,9 @@
     "Political Theory and Democracy"
    ],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "폴란드의 시민예산 집행 - 지방 정부 단위의 선별된 경험 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "폴란드의 시민 예산 집행 - 지방 정부 단위의 선별된 경험 분석"
   },
   {
    "id": "doi:10.21511/pmf.14(4).2025.06",
@@ -4074,7 +4170,7 @@
    "url": "https://doi.org/10.21511/pmf.14(4).2025.06",
    "open_access": null,
    "lang": null,
-   "cited_by": 7,
+   "cited_by": 8,
    "abstract_snippet": "Type of the article: Research Article AbstractThe Russian invasion of Ukraine has reshaped the functioning of local budgets, creating fiscal challenges for municipalities while simultaneously testing the resilience of the decentralization reform launched in the pre-war period. This study examines the dynamics of local public finance in Ukraine during wartime (2022–2024), focusing on revenue fluctuations, expenditure ",
    "source": "Crossref",
    "type": "journal-article",
