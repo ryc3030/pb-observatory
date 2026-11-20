@@ -6,8 +6,8 @@
   "queries": 27,
   "backfill_months": null,
   "added": 104,
-  "total": 2223,
-  "checked_at": "2026-11-19T02:36:17.815361+00:00",
+  "total": 2308,
+  "checked_at": "2026-11-20T02:21:33.638705+00:00",
   "languages": [
    "cs",
    "de",
@@ -34,53 +34,53 @@
    "uk",
    "zh"
   ],
-  "last_success_at": "2026-11-19T02:36:17.815361+00:00"
+  "last_success_at": "2026-11-20T02:21:33.638705+00:00"
  },
  "papers": {
   "name": "학술 DB (OpenAlex·Crossref)",
   "ok": true,
-  "fetched": 273,
+  "fetched": 302,
   "by_source": {
-   "OpenAlex": 166,
-   "Crossref": 107
+   "OpenAlex": 194,
+   "Crossref": 108
   },
-  "total": 224,
-  "checked_at": "2026-11-19T02:36:17.815361+00:00",
-  "error": "OpenAlex[bilancio partecipativo]: HTTP Error 429: Too Many Requests",
-  "last_success_at": "2026-11-19T02:36:17.815361+00:00"
+  "total": 226,
+  "checked_at": "2026-11-20T02:21:33.638705+00:00",
+  "error": null,
+  "last_success_at": "2026-11-20T02:21:33.638705+00:00"
  },
  "build": {
   "name": "일일 빌드",
   "ok": true,
-  "checked_at": "2026-11-19T02:36:17.815361+00:00",
-  "last_success_at": "2026-11-19T02:36:17.815361+00:00"
+  "checked_at": "2026-11-20T02:21:33.638705+00:00",
+  "last_success_at": "2026-11-20T02:21:33.638705+00:00"
  },
  "participedia": {
   "name": "Participedia 사례 레지스트리",
   "ok": true,
   "fetched": 240,
   "total": 240,
-  "checked_at": "2026-11-19T02:36:17.815361+00:00",
+  "checked_at": "2026-11-20T02:21:33.638705+00:00",
   "error": null,
-  "last_success_at": "2026-11-19T02:36:17.815361+00:00"
+  "last_success_at": "2026-11-20T02:21:33.638705+00:00"
  },
  "pabulib": {
   "name": "Pabulib 투표 기록 DB",
   "ok": true,
   "fetched": 851,
   "total": 851,
-  "checked_at": "2026-11-19T02:36:17.815361+00:00",
+  "checked_at": "2026-11-20T02:21:33.638705+00:00",
   "error": null,
-  "last_success_at": "2026-11-19T02:36:17.815361+00:00"
+  "last_success_at": "2026-11-20T02:21:33.638705+00:00"
  },
  "decidim": {
   "name": "Decidim 공식 플랫폼 API",
   "ok": true,
-  "fetched": 2,
+  "fetched": 1,
   "total": 2,
-  "checked_at": "2026-11-19T02:36:17.815361+00:00",
-  "error": null,
-  "last_success_at": "2026-11-19T02:36:17.815361+00:00"
+  "checked_at": "2026-11-20T02:21:33.638705+00:00",
+  "error": "fin-helsinki-omastadi: HTTP Error 403: Forbidden",
+  "last_success_at": "2026-11-20T02:21:33.638705+00:00"
  },
  "gdelt": {
   "name": "GDELT DOC 2.0 (하루 1회 요청)",
@@ -102,8 +102,8 @@
   "queries": 6,
   "added": 21,
   "total": 29,
-  "checked_at": "2026-11-19T02:36:17.815361+00:00",
+  "checked_at": "2026-11-20T02:21:33.638705+00:00",
   "error": null,
-  "last_success_at": "2026-11-19T02:36:17.815361+00:00"
+  "last_success_at": "2026-11-20T02:21:33.638705+00:00"
  }
 }

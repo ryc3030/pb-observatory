@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-19T02:36:17.815361+00:00",
- "count": 224,
+ "updated_at": "2026-11-20T02:21:33.638705+00:00",
+ "count": 226,
  "items": [
   {
    "id": "doi:10.69733/clad.ryd.n96.a934",
@@ -57,6 +57,61 @@
    "title_ko": "반응형 참여예산 시스템을 통한 사회적 형평성 향상: 미국 및 캐나다 관할권의 증거",
    "_tr_tried": true,
    "title_ko_mt": "반응형 참여 예산 시스템을 통한 사회적 형평성 향상: 미국 및 캐나다 관할권의 증거"
+  },
+  {
+   "id": "doi:10.22169/cadjud.v9n2.3957",
+   "title": "Orçamento Participativo e Democracia Direta: reflexões sobre a participação cidadã na gestão pública municipal",
+   "authors": [
+    "Andréa Cristina Santos de Jesus",
+    "Max Leandro de Araujo Brito",
+    "Arnaldo Barbosa Neto"
+   ],
+   "venue": "Caderno da Escola Superior de Gestão Pública Política Jurídica e Segurança",
+   "published_at": "2026-11-16",
+   "doi": "10.22169/cadjud.v9n2.3957",
+   "url": "https://doi.org/10.22169/cadjud.v9n2.3957",
+   "open_access": true,
+   "lang": "pt",
+   "cited_by": 0,
+   "abstract_snippet": "Este artigo reflexivo analisa o Orçamento Participativo (OP) como mecanismo de democracia direta e instrumento de participação cidadã na gestão pública municipal. A partir da experiência de implementação do OP como projeto-piloto de extensão universitária, discutem-se os fundamentos teóricos da democracia participativa, os desafios operacionais enfrentados no processo e as potencialidades dessa ferramenta como mediad",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Public Policy and Governance",
+    "Politics and Society in Latin America",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-20",
+   "title_ko": "참여예산과 직접민주주의: 지방정부 관리에 대한 시민참여에 대한 고찰",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산과 직접민주주의: 지방정부 관리에 대한 시민참여에 대한 고찰"
+  },
+  {
+   "id": "oa:W7236517001",
+   "title": "ЛИЧНЫЕ ФИНАНСЫ И ИНИЦИАТИВНОЕ БЮДЖЕТИРОВАНИЕ: ОЦЕНКА ВЗАИМОСВЯЗИ В РЕГИОНАЛЬНОМ АСПЕКТЕ",
+   "authors": [
+    "Руслана Станиславовна Дугар-Жабон",
+    "Anna Kirichenko"
+   ],
+   "venue": "Financial management",
+   "published_at": "2026-11-16",
+   "doi": null,
+   "url": "https://finance-man.ru/index.php/journal/article/view/3092",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "Citizens' personal finance acts as a crucial financial resource and a catalyst for the development of participatory budgeting, providing co-financing and genuine public involvement in the budgetary process. The article examines the relationship between the state of personal finance among the population of the regions of the Siberian Federal District, which are leaders in the financial support of participatory budgeti",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Economic and Fiscal Studies",
+    "Fiscal Policies and Political Economy"
+   ],
+   "first_seen": "2026-11-20",
+   "title_ko": "ЛИЧНЫЕ ФИНАНСЫ И ИНИЦИАТИВНОЕ БЮДЖЕТИРОВАНИЕ: ОЦЕНКА ВЗАИМОСВЯЗИ В РЕГИОНАЛЬНОМ АСПЕКТЕ",
+   "_tr_tried": true,
+   "title_ko_mt": "ЛИЧНЫЕ ФИНАНСЫ И ИНИЦИАТИВНОЕ БЮДЖЕТИРОВАНИЕ: ОЦЕНКА ВЗАИМОСВЯЗИ В РЕГИОНАЛЬНОМ АСПЕКТЕ"
   },
   {
    "id": "doi:10.34135/cejpp.380",
@@ -4176,8 +4231,9 @@
    "type": "journal-article",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "전시 우크라이나의 지방예산: 과제, 적응 전략, 참여예산의 역할",
+   "_tr_tried": true,
+   "title_ko_mt": "전시 우크라이나의 지방예산: 과제, 적응 전략, 참여예산의 역할"
   },
   {
    "id": "doi:10.1007/978-3-031-99824-9_12",
@@ -4197,8 +4253,9 @@
    "type": "book-chapter",
    "concepts": [],
    "first_seen": "2026-11-18",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "폴란드의 참여예산",
+   "_tr_tried": true,
+   "title_ko_mt": "폴란드의 참여예산"
   },
   {
    "id": "doi:10.5007/1518-2924.2025.e107918",
@@ -4222,7 +4279,10 @@
     "Politics and Society in Latin America",
     "Local Government Finance and Decentralization"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "브라질의 참여예산: 그 효과성에 대한 주요 과제",
+   "_tr_tried": true,
+   "title_ko_mt": "브라질의 참여예산: 그 효과성에 대한 주요 과제"
   },
   {
    "id": "doi:10.7206/cid.3071-7973.7",
@@ -4241,7 +4301,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산의 비용 고려사항: 배낭과 승인 투표의 실증적 비교",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산의 비용 고려사항: 배낭과 승인 투표의 실증적 비교"
   },
   {
    "id": "doi:10.61164/bsbm8c47",
@@ -4265,7 +4328,10 @@
     "Politics and Society in Latin America",
     "Public Policy and Administration Research"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "한 발로, 한 발로: 파라이바의 민주 예산에서 자원 봉사 활동과 시민권 실천에 대한 동기",
+   "_tr_tried": true,
+   "title_ko_mt": "한 발로, 한 발로: 파라이바의 민주 예산에서 자원 봉사 활동과 시민권 실천에 대한 동기"
   },
   {
    "id": "doi:10.5209/cgap.103611",
@@ -4285,7 +4351,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Instituciones informales efectivas y arraigo de la participación: Presupuesto Representative escolar en la Universidad Nacional de Rosario (2020-2023)",
+   "_tr_tried": true,
+   "title_ko_mt": "Instituciones informales efectivas y arraigo de la participación: Presupuesto Representative escolar en la Universidad Nacional de Rosario (2020-2023)"
   },
   {
    "id": "oa:W7215258731",
@@ -4308,7 +4377,10 @@
     "Local Government Finance and Decentralization",
     "Economic Growth and Fiscal Policies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "CRICIÚMA의 예산 변화와 지방 자치 사회 통제에서 참여예산의 역할",
+   "_tr_tried": true,
+   "title_ko_mt": "CRICIÚMA의 예산 변화와 지방 자치 사회 통제에서 참여 예산의 역할"
   },
   {
    "id": "oa:W7215442849",
@@ -4331,7 +4403,10 @@
     "Politics and Society in Latin America",
     "Brazilian Legal Issues"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "브라질의 참여예산: 새로운 제도적 틀에 대한 전망과 전망 진단",
+   "_tr_tried": true,
+   "title_ko_mt": "브라질의 참여예산: 새로운 제도적 틀에 대한 전망과 전망 진단"
   },
   {
    "id": "doi:10.1371/journal.pone.0324411",
@@ -4351,7 +4426,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산제도가 정부부채위험을 완화할 수 있는가? - 국가간 패널데이터를 활용한 실증분석",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산제도가 정부부채위험을 완화할 수 있는가? - 국가간 패널데이터를 활용한 실증분석"
   },
   {
    "id": "doi:10.35305/ese.v11i22.400",
@@ -4371,7 +4449,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Algunos Aspecto relativos a la Implementación del Presupuesto Representative en dos municipios de la Costa Bonaerense(2008-2014)",
+   "_tr_tried": true,
+   "title_ko_mt": "Algunos Aspecto relativos a la Implementación del Presupuesto Representative en dos municipios de la Costa Bonaerense(2008-2014)"
   },
   {
    "id": "doi:10.25965/trahs.7532",
@@ -4390,7 +4471,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Resignificar la 민주주의 desde lo local: 분석, desafíos 및 고려 사항은 torno al modelo de presupuesto participativo",
+   "_tr_tried": true,
+   "title_ko_mt": "Resignificar la 민주주의 desde lo local: 분석, desafíos 및 고려 사항은 torno al modelo de presupuesto participativo"
   },
   {
    "id": "doi:10.2478/eual-2025-0007",
@@ -4409,7 +4493,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여 설계: 브르노와 브라티슬라바의 참여예산의 제도적, 사회기술적 결정요인",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 설계: 브르노와 브라티슬라바의 참여예산의 제도적, 사회기술적 결정요인"
   },
   {
    "id": "doi:10.2478/nispa-2025-0018",
@@ -4431,7 +4518,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산: 체코와 슬로바키아의 최신 개발",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산: 체코와 슬로바키아의 최신 개발"
   },
   {
    "id": "doi:10.11606/1980-5330/ea216901",
@@ -4455,7 +4545,10 @@
     "Public Policy and Governance",
     "Economic Growth and Fiscal Policies"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산과 지방자치지출: 인과추론을 위한 매칭방법을 이용한 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산과 지방자치지출: 인과추론을 위한 매칭방법을 이용한 분석"
   },
   {
    "id": "doi:10.70577/rps.v3i4.109",
@@ -4475,7 +4568,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Presupuesto participativo y efficiencia administrativa en el Gobierno Autónomo Descentralizado Parroquial Rural El Anegado",
+   "_tr_tried": true,
+   "title_ko_mt": "Presupuesto participativo y efficiencia administrativa en el Gobierno Autónomo Descentralizado Parroquial Rural El Anegado"
   },
   {
    "id": "doi:10.1017/s1049096524001343",
@@ -4495,7 +4591,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산, 탈퇴 및 정당: 나이로비 키브라 선거구의 증거",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산, 탈퇴 및 정당: 나이로비 키브라 선거구의 증거"
   },
   {
    "id": "doi:10.31243/bcoyu.47.2025.2973",
@@ -4517,7 +4616,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Análisis de la Participación Ciudadana en el Proceso de Presupuesto Representative en GADs de la Zona Central de Manabí",
+   "_tr_tried": true,
+   "title_ko_mt": "Análisis de la Participación Ciudadana en el Proceso de Presupuesto Representative en GADs de la Zona Central de Manabí"
   },
   {
    "id": "doi:10.5281/zenodo.17622311",
@@ -4540,7 +4642,10 @@
     "Legal and Policy Issues",
     "Administrative Law and Governance"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주예산의 참여예산",
+   "_tr_tried": true,
+   "title_ko_mt": "주예산의 참여예산"
   },
   {
    "id": "doi:10.1007/s11238-025-10097-1",
@@ -4562,7 +4667,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "누적투표를 통한 참여예산 편성",
+   "_tr_tried": true,
+   "title_ko_mt": "누적투표를 통한 참여예산 편성"
   },
   {
    "id": "doi:10.15678/pg.2025.73.3.01",
@@ -4581,7 +4689,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민의 요구에 귀를 기울이는 조직의 현대적 도구로서의 참여예산",
+   "_tr_tried": true,
+   "title_ko_mt": "주민의 요구에 귀를 기울이는 조직의 현대적 도구로서의 참여예산"
   },
   {
    "id": "doi:10.34739/maj.2025.04.02",
@@ -4604,7 +4715,10 @@
     "Local Governance and Planning",
     "Political Theory and Democracy"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "조직이 주민의 요구에 귀를 기울이기 위한 이유로 폴란드에서 시민의 예산을 실행하기 위한 모델: 관행의 다양성 및 법적 결과",
+   "_tr_tried": true,
+   "title_ko_mt": "조직이 주민의 요구에 귀를 기울이기 위한 이유로 폴란드에서 시민의 예산을 실행하기 위한 모델: 관행의 다양성 및 법적 결과"
   },
   {
    "id": "doi:10.54899/dcs.v22i83.3575",
@@ -4625,7 +4739,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "INOVAÇÃO E O ORÇAMENTO PARTICIPATIVO DIGITAL DO PIAUÍ: ANÁLISE DO 토론 A LUZ DE NORMAN FAIRCLOUGH",
+   "_tr_tried": true,
+   "title_ko_mt": "INOVAÇÃO E O ORÇAMENTO PARTICIPATIVO DIGITAL DO PIAUÍ: ANÁLISE DO 토론 A LUZ DE NORMAN FAIRCLOUGH"
   },
   {
    "id": "doi:10.56238/edimpacto2025.040-006",
@@ -4645,7 +4762,10 @@
    "source": "Crossref",
    "type": "book-chapter",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "민주주의 강화를 위한 참여예산 편성",
+   "_tr_tried": true,
+   "title_ko_mt": "민주주의 강화를 위한 참여예산 편성"
   },
   {
    "id": "doi:10.70577/rps.v3i4.110",
@@ -4665,7 +4785,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Presupuesto participativo en la eficacia administrativa: Gobierno Autónomo Descentralizado Parroquial La América",
+   "_tr_tried": true,
+   "title_ko_mt": "Presupuesto participativo en la eficacia administrativa: Gobierno Autónomo Descentralizado Parroquial La América"
   },
   {
    "id": "doi:10.70634/reid.v4i16.606",
@@ -4684,7 +4807,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Participação da sociedade Civil no orçamento participativo do Distrito de Nacarôa",
+   "_tr_tried": true,
+   "title_ko_mt": "Participação da sociedade Civil no orçamento participativo do Distrito de Nacarôa"
   },
   {
    "id": "doi:10.1108/jpbafm-09-2024-0188",
@@ -4703,7 +4829,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산 제도의 행정 부담을 줄이기 위한 머신러닝의 잠재력 탐색: 서울 사례 연구",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산 제도의 행정 부담을 줄이기 위한 머신러닝의 잠재력 탐색: 서울 사례 연구"
   },
   {
    "id": "doi:10.46845/2071-5331-2025-3-73-77-82",
@@ -4727,7 +4856,10 @@
     "Legal and Policy Issues",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "칼리닌그라드 지역의 예를 들어 이니셔티브 예산 책정의 실천과 이를 개선하는 방법",
+   "_tr_tried": true,
+   "title_ko_mt": "칼리닌그라드 지역의 예를 들어 이니셔티브 예산 책정의 실천과 이를 개선하는 방법"
   },
   {
    "id": "doi:10.5007/1983-4535.2025.e105130",
@@ -4748,7 +4880,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여 기회: uma análise de sua Implementação nas universidades federais brasileiras",
+   "_tr_tried": true,
+   "title_ko_mt": "참여 기회: uma análise de sua Implementação nas universidades federais brasileiras"
   },
   {
    "id": "doi:10.5007/1983-4535.2025.e106455",
@@ -4769,7 +4904,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Orçamento 참여: um caminho possível para Democraticar a Gestão Orçamentária na UNIR - Zona da Mata",
+   "_tr_tried": true,
+   "title_ko_mt": "Orçamento 참여: um caminho possível para Democraticar a Gestão Orçamentária na UNIR - Zona da Mata"
   },
   {
    "id": "doi:10.61384/r.c.a..v5i3.1435",
@@ -4790,7 +4928,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Gestión del Presupuesto 참여 en el GAD Municipal de Quevedo y su Impacto en el Desarrollo Infantil 2023-2024",
+   "_tr_tried": true,
+   "title_ko_mt": "Gestión del Presupuesto 참여 en el GAD Municipal de Quevedo y su Impacto en el Desarrollo Infantil 2023-2024"
   },
   {
    "id": "doi:10.2307/jj.25762886.13",
@@ -4807,7 +4948,10 @@
    "source": "Crossref",
    "type": "book-chapter",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산 초대",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산 초대"
   },
   {
    "id": "doi:10.58344/locus.v4i9.4259",
@@ -4827,7 +4971,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Konsep 참여예산 Sebagai Upaya Peningkatan Transparansi dan Akuntabilitas Anggaran",
+   "_tr_tried": true,
+   "title_ko_mt": "Konsep 참여예산 Sebagai Upaya Peningkatan Transparansi dan Akuntabilitas Anggaran"
   },
   {
    "id": "doi:10.55813/gaea/rcym/v3/n3/79",
@@ -4848,7 +4995,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "2024년 기간 동안 지역 칸톤 벤타나스 지역의 정부 관리에 대한 참여를 위한 전제 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "2024년 기간 동안 지역 칸톤 벤타나스 지역의 정부 관리에 대한 참여를 위한 전제 분석"
   },
   {
    "id": "doi:10.32651/259-114",
@@ -4874,7 +5024,10 @@
     "Local Government Finance and Decentralization",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "지역 농촌 지역의 종합적인 개발을 위한 주도적 예산 편성",
+   "_tr_tried": true,
+   "title_ko_mt": "지역 농촌 지역의 종합적인 개발을 위한 주도적 예산 편성"
   },
   {
    "id": "doi:10.1016/j.tcs.2025.115370",
@@ -4894,7 +5047,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "하위 모듈형 참여예산 편성",
+   "_tr_tried": true,
+   "title_ko_mt": "하위 모듈형 참여 예산 편성"
   },
   {
    "id": "doi:10.59876/a-rjjp-1c0n",
@@ -4914,7 +5070,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "예산 참여: 모드에 따른 효과성 조직 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "예산 참여: 모드에 따른 효과성 조직 분석"
   },
   {
    "id": "doi:10.4324/9781003528456-14",
@@ -4933,7 +5092,10 @@
    "source": "Crossref",
    "type": "book-chapter",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "동독 지역 주민참여예산제도의 새로운 물결",
+   "_tr_tried": true,
+   "title_ko_mt": "동독 지역 주민참여 예산제도의 새로운 물결"
   },
   {
    "id": "doi:10.4324/9781003528456-15",

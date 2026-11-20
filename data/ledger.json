@@ -1,5 +1,125 @@
 [
  {
+  "key": "news:ESP:bb8685bde7536b",
+  "date": "2026-11-20",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "El Paso, 6개 프로젝트에 대해 344,000유로로 2026년 참여예산을 마무리",
+  "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTWlBeVNIRnVOWlhZUjRmQ3ljdm9oM3U5TS1GVHRxcG9KWGNlTGRvc2dtSS1Td1JTelZEUXdwT05hbmYtM3VwaEJpTkxrRWRaNlhNWnlNVGpFOTNJY3BQRkllMVdPeXZfY2k4alBxQTN5bkNpMzVLa2xSaHh4NkFhZ2Z3NnBxdDU1MVJlUDNMbS1UQS1wWmFaMW9TWEZQLWtBVU16OUNYR2FhR3dOMUhpOWFTVmZwdW43TUE?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:FRA:19b8380d51cd47",
+  "date": "2026-11-20",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "생폴쉬르우바예. 1차 주민참여예산 : 주민이 결정",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYUtJd3FYV05LU1V3ZkxrSWMtTXpUeDV0aEluc3BhMlJQTWVFNXR0QS1ZTmNFWDZSRHpsOUtocnJ3Mmh0MjF5OWJINDBaZlliRHAtdl9qM2dacy0yeEpoX0NWLWpWQzdJaDlsZ05tb3VXT1dQdjl3clEzR3lCOVlJRjhPZHBLUzVnZWVmOXJyZ1FtRXBrVHF4dDZ5cmpDRDVabzFr?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:POL:8f32dfc8377d53",
+  "date": "2026-11-20",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "슈체친의 시민예산. 31,000명 이상의 유권자",
+  "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUG40ZTNfRlFqZFl1Z1BjU1ZMRTFqMjMzYlh4am05QmVYQ3U5R1JfVmtEb19PMlNoOUdKOFBaZ2oxelAzNjNqUXd1UHZUQVFKUldKTktfV0J6cENmZWI0bUFHYkFadXdPZVJfQWUzeTZ1d0ZOMjZFTnNUTnhwNUVsZEh6di1nRFMwLXlXelk5cmhZS3NJejdCTXBleFFNaFk?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:PRT:d2b96b9d818101",
+  "date": "2026-11-20",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "Odemira의 참여예산, 4개의 재인증 프로젝트에 30만 유로를 투자",
+  "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQlBlUDlwWnR6b0Z3TGlWY0hyYktuZXdIcmktTlB1Mkw2N2dPamZ5T3JhZUl4dS1pUnF6elF5b3d4cHBsLW11NW1QNENxUW9JdW5KRWxyaXJRNUF1dFVOUENNM3UyQ0J0aEhZX19JUmxyZ1NXcW9YX0pWLWRSaFpfT3NMVl9GTEE0VVhsYS1Udmxzc2laTFpOeFNmM3V2YVNsUl9MbUxTMWMxbUVtd1lVcVhRRjhpWTVlazE3TWtMX1UtVHM4QWp3cQ?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:ROU:d6abef615ce581",
+  "date": "2026-11-20",
+  "iso3": "ROU",
+  "type": "뉴스 신호",
+  "label": "루마니아",
+  "text": "참여예산을 통해 마련한 Cisnădie의 6번 유치원 마당에 있는 놀이 및 학습 공간",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQeU9fZEE3bGJsbkpaUFRnUS1veHBpM3pHdDJFa0pueF9lMXowQWxNQ3RaTnY5N1QtVXN2N0x2SW1jOV9JdU4wZmhJZjVPcWV1QnJDOWlWd1c4cEYxTFNrd0xHV1VXUGtwREtqWlpoM1hQb0UxV2F5X09PYk41QkF4YVVLME5RamVqQllFdEdzNDRfSFptcHo3Q2xJV0hFM0Y0aFg2akE3ekQ2bjJZNjJzdmpwcGEwTVo4TTNwdk1YNTlZSkdzSEdqYVl4UTdCQVp5SWg5NTdkdGUxWWM?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:MEX:897fda5adbcc70",
+  "date": "2026-11-20",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "IECM, 2025년 주민참여예산협의회 통계분석 발표",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZmJBNXhKMFhQS1JfbGhXWnhmdDVLa1E5Z1JRLThYLVBVZWxzOFIyY25naHZyUVhRWkJnQXpNZzEwc1dlTXNEWE5JcDhjQ3BvMV9pXzdpaDB5a3l1cGhhdWNuRldsdW1MdW5TMTdJZDFqLVFSZjdGdXpROHFLeWUtb0Vrd3IxbTJuRWx4LTE4VS1pZUVHT3pTWUllekNkZzRzRWhsYlVaWjZfM2ZVVTdv?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:KOR:80cc02346876ec",
+  "date": "2026-11-20",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "완도군, '주민참여예산위원회' 출범...재정 운영 투명성 높인다",
+  "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93WXhQbmUyc0ZrNDJFUkw5X1JhRF9LVHVvb1doZFBiM1dhUHNkSS1fMzF2YTBkMUUwYVp1V1g0UG9WNHFVbUdMcGk2X1lBMWQ3QV9vMHF4ZXV3YjZRY05Sdg?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
+  "key": "news:LTU:4b319a5d56d44d",
+  "date": "2026-11-20",
+  "iso3": "LTU",
+  "type": "뉴스 신호",
+  "label": "리투아니아",
+  "text": "꼬리표: 참여예산 Kėdainiai",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WeTJ0SVc0NzA3OEgzVHZwNjVYelZfZ1MzTm1hTTdTNXZIQm0zNE5NR0xHRC1wX05hQWgyVkdHRXpNcUswcmtadUtZNmE5YmZ0M01OdThpNjg0ODVHajNRamUyY0hkVG1mdUpHZEdoT1o?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "news:UKR:8c4a7ccfb7ff8e",
+  "date": "2026-11-20",
+  "iso3": "UKR",
+  "type": "뉴스 신호",
+  "label": "우크라이나",
+  "text": "Ternopil 커뮤니티의 2027년 공공 예산 수상자",
+  "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdnhmREk3eVZaSDNoRWhtdTdZZ0N2Vms0S1VGUGFEMm4wRTlXSlgyOHdKYlpTTVYxTm1NRlc5d0xVRGJzSVN0ZWpDdlRFVmxnX0M2MHBHQ1M4RmtTbFA4UGRDcERhdlFLamJUUmZkS2UtTlJzTDFnbm9YNWNFMEtzMTdUSERad3g4Vl9vMjFtMUNlTDR0?oc=5",
+  "observed_at": "2026-11-18"
+ },
+ {
+  "key": "paper:doi:10.22169/cadjud.v9n2.3957",
+  "date": "2026-11-20",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Caderno da Escola Superior de Gestão Pública Política Jurídi",
+  "text": "참여예산과 직접민주주의: 지방정부 관리에 대한 시민참여에 대한 고찰",
+  "url": "https://doi.org/10.22169/cadjud.v9n2.3957",
+  "observed_at": "2026-11-16"
+ },
+ {
+  "key": "paper:oa:W7236517001",
+  "date": "2026-11-20",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Financial management",
+  "text": "ЛИЧНЫЕ ФИНАНСЫ И ИНИЦИАТИВНОЕ БЮДЖЕТИРОВАНИЕ: ОЦЕНКА ВЗАИМОСВЯЗИ В РЕГИОНАЛЬНОМ АСПЕКТЕ",
+  "url": "https://finance-man.ru/index.php/journal/article/view/3092",
+  "observed_at": "2026-11-16"
+ },
+ {
+  "key": "news:SVN:2e3349737149cd",
+  "date": "2026-11-20",
+  "iso3": "SVN",
+  "type": "뉴스 신호",
+  "label": "슬로베니아",
+  "text": "코페르 시민들, 참여예산의 83개 제안에 대해 투표",
+  "url": "https://primorske.si/primorska/istra/koprcanke-in-koprcani-bodo-glasovali-o-83-predlogih-participativnega-proracuna-744723/",
+  "observed_at": "2026-10-20"
+ },
+ {
   "key": "news:MEX:d620512d43506b",
   "date": "2026-11-19",
   "iso3": "MEX",
