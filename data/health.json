@@ -88,10 +88,10 @@
   "queries_ok": 0,
   "queries": 1,
   "fetched": 0,
-  "checked_at": "2026-11-20T12:12:25.890962+00:00",
+  "checked_at": "2026-11-21T11:47:52.211745+00:00",
   "error": "HTTP 429",
-  "fails_in_row": 1,
-  "timespan_days": 2,
+  "fails_in_row": 2,
+  "timespan_days": 3,
   "route": "직접",
   "last_success_at": "2026-11-19T12:10:26.182681+00:00"
  },
