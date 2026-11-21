@@ -1,7 +1,34 @@
 {
- "updated_at": "2026-11-20T02:21:33.638705+00:00",
- "count": 226,
+ "updated_at": "2026-11-21T02:19:43.753935+00:00",
+ "count": 228,
  "items": [
+  {
+   "id": "doi:10.18572/2500-0349-2026-4-20-25",
+   "title": "Identifying Sustainable Models of Participation in Participatory Budgeting on the Example of Omsk",
+   "authors": [
+    "Andrey V. Bem",
+    "Антон Владимирович Тимофеев"
+   ],
+   "venue": "Municipal property economics law management",
+   "published_at": "2026-12-10",
+   "doi": "10.18572/2500-0349-2026-4-20-25",
+   "url": "https://doi.org/10.18572/2500-0349-2026-4-20-25",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This article examines the transition from sporadic to systematic citizen participation in participatory budgeting, based on an analysis of the experience of the Autonomous Non-Profit Organization “Delai gorod” in Omsk from 2023 to 2026. The study aims to introduce the concept of a “sustainable model of participation in participatory budgeting” into the academic debate and elucidate its essence. It also identifies org",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Governance and Planning",
+    "Political Theory and Democracy",
+    "Public Policy and Administration Research"
+   ],
+   "first_seen": "2026-11-21",
+   "title_ko": "옴스크(Omsk)의 사례를 통해 참여예산 참여의 지속 가능한 모델 식별",
+   "_tr_tried": true,
+   "title_ko_mt": "옴스크(Omsk)의 사례를 통해 참여 예산 참여의 지속 가능한 모델 식별"
+  },
   {
    "id": "doi:10.69733/clad.ryd.n96.a934",
    "title": "Understanding the Failure of Participatory Budgeting",
@@ -568,7 +595,7 @@
    "open_access": true,
    "lang": "en",
    "cited_by": 0,
-   "abstract_snippet": "ABSTRACT E‐government has been widely adopted to enhance citizen participation and improve transparency in public decision making. Yet, its effects on engagement remain context‐dependent and insufficiently theorized, particularly in Global South settings. To address this gap, this study explains how e‐government reshapes the conditions under which citizen participation occurs in Participatory Budgeting processes. The",
+   "abstract_snippet": "E‐government has been widely adopted to enhance citizen participation and improve transparency in public decision making. Yet, its effects on engagement remain context‐dependent and insufficiently theorized, particularly in Global South settings. To address this gap, this study explains how e‐government reshapes the conditions under which citizen participation occurs in Participatory Budgeting processes. The study co",
    "source": "OpenAlex",
    "type": "article",
    "concepts": [
@@ -580,6 +607,35 @@
    "title_ko": "전자정부가 참여예산제에 대한 시민 참여를 형성하는 방식",
    "_tr_tried": true,
    "title_ko_mt": "전자정부가 참여예산제에 대한 시민 참여를 형성하는 방식"
+  },
+  {
+   "id": "doi:10.1016/j.artint.2026.104661",
+   "title": "Fair Lotteries for Collective Choice",
+   "authors": [
+    "Haris Aziz",
+    "Xinhang Lu",
+    "Mashbat Suzuki",
+    "Jeremy Vollen"
+   ],
+   "venue": "Artificial Intelligence",
+   "published_at": "2026-11-01",
+   "doi": "10.1016/j.artint.2026.104661",
+   "url": "https://doi.org/10.1016/j.artint.2026.104661",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "We study a hierarchy of collective choice settings, including participatory budgeting (PB) and committee voting under both binary and general additive utilities. In these settings, fairness guarantees are typically limited to groups of voters with sufficiently cohesive preferences. In pursuit of outcomes with broader fairness guarantees, we study lotteries over discrete outcomes in our collective choice settings. Sin",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Game Theory and Voting Systems",
+    "Political Philosophy and Ethics",
+    "Electoral Systems and Political Participation"
+   ],
+   "first_seen": "2026-11-21",
+   "title_ko": "집단적 선택을 위한 공정한 복권",
+   "_tr_tried": true,
+   "title_ko_mt": "집단적 선택을 위한 공정한 복권"
   },
   {
    "id": "doi:10.5281/zenodo.23842770",
@@ -1532,7 +1588,7 @@
    "open_access": true,
    "lang": "en",
    "cited_by": 0,
-   "abstract_snippet": "Abstract Participatory institutions are no longer confined to liberal democracies as autocrats around the world experiment with ‘authoritarian participation’. This also applies to the most successful democratic innovation of recent decades: participatory budgeting (PB). But what should we make of a practice that can seemingly accommodate any political system and serve as a vehicle for what often are diametrically opp",
+   "abstract_snippet": "Participatory institutions are no longer confined to liberal democracies as autocrats around the world experiment with ‘authoritarian participation’. This also applies to the most successful democratic innovation of recent decades: participatory budgeting (PB). But what should we make of a practice that can seemingly accommodate any political system and serve as a vehicle for what often are diametrically opposed obje",
    "source": "OpenAlex",
    "type": "article",
    "concepts": [
@@ -1655,6 +1711,32 @@
    "title_ko_mt": "페루 지방자치단체의 수혜자 대상 참여예산제 및 삶의 질, 2024년"
   },
   {
+   "id": "doi:10.53641/junta.v9i1.170",
+   "title": "Participación ciudadana y gestión del presupuesto participativo en gobiernos locales de la región Amazonas, Perú",
+   "authors": [
+    "Yeny Reyna Zavaleta"
+   ],
+   "venue": "Revista la Junta",
+   "published_at": "2026-06-30",
+   "doi": "10.53641/junta.v9i1.170",
+   "url": "https://doi.org/10.53641/junta.v9i1.170",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "The objective of the research was to determine the relationship between citizen participation and participatory budget management in the Municipalities of the Amazonas Region, 2022. The methodology used was quantitative and basic, non-experimental design at a correlational level. The instrument used was the questionnaire applied to 505 older people between 18 and 70 years of age residing in the capital of each provin",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Public Policy and Governance",
+    "Politics and Society in Latin America",
+    "Local Government Finance and Decentralization"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": "페루 아마조나스 지역 지방 정부의 시민 참여 및 참여예산 관리",
+   "_tr_tried": true,
+   "title_ko_mt": "페루 아마조나스 지역 지방 정부의 시민 참여 및 참여 예산 관리"
+  },
+  {
    "id": "doi:10.31274/geogames.25888",
    "title": "Spatializing Participatory Budgeting: Testing Municipal Facilitators in a Housing Policy Game",
    "authors": [
@@ -1701,32 +1783,6 @@
    "title_ko": "페넬라시의 참여예산제: 시민 참여, 프로젝트 실행 및 제도적 지속성",
    "_tr_tried": true,
    "title_ko_mt": "페넬라시의 참여예산제: 시민 참여, 프로젝트 실행 및 제도적 지속성"
-  },
-  {
-   "id": "doi:10.53641/junta.v9i1.170",
-   "title": "Participación ciudadana y gestión del presupuesto participativo en gobiernos locales de la región Amazonas, Perú",
-   "authors": [
-    "Yeny Reyna Zavaleta"
-   ],
-   "venue": "Revista la Junta",
-   "published_at": "2026-06-25",
-   "doi": "10.53641/junta.v9i1.170",
-   "url": "https://doi.org/10.53641/junta.v9i1.170",
-   "open_access": true,
-   "lang": "en",
-   "cited_by": 0,
-   "abstract_snippet": "The objective of the research was to determine the relationship between citizen participation and participatory budget management in the Municipalities of the Amazonas Region, 2022. The methodology used was quantitative and basic, non-experimental design at a correlational level. The instrument used was the questionnaire applied to 505 older people between 18 and 70 years of age residing in the capital of each provin",
-   "source": "OpenAlex",
-   "type": "article",
-   "concepts": [
-    "Public Policy and Governance",
-    "Politics and Society in Latin America",
-    "Local Government Finance and Decentralization"
-   ],
-   "first_seen": "2026-11-18",
-   "title_ko": "페루 아마조나스 지역 지방 정부의 시민 참여 및 참여예산 관리",
-   "_tr_tried": true,
-   "title_ko_mt": "페루 아마조나스 지역 지방 정부의 시민 참여 및 참여 예산 관리"
   },
   {
    "id": "doi:10.25587/2587-8778-2026-2-32-46",
@@ -3461,7 +3517,7 @@
    "open_access": true,
    "lang": "en",
    "cited_by": 1,
-   "abstract_snippet": "Abstract This article presents a meta-synthesis of qualitative case studies on Participatory Budgeting (PB), a democratic tool that enables citizens to engage in local budgetary decision-making. Based on a systematic review of 15 articles, this study examines how PB has been conceptualized and implemented across different countries, identifying the theoretical frameworks employed. The analysis highlights the diversit",
+   "abstract_snippet": "This article presents a meta-synthesis of qualitative case studies on Participatory Budgeting (PB), a democratic tool that enables citizens to engage in local budgetary decision-making. Based on a systematic review of 15 articles, this study examines how PB has been conceptualized and implemented across different countries, identifying the theoretical frameworks employed. The analysis highlights the diversity of cont",
    "source": "OpenAlex",
    "type": "article",
    "concepts": [
@@ -5030,6 +5086,33 @@
    "title_ko_mt": "지역 농촌 지역의 종합적인 개발을 위한 주도적 예산 편성"
   },
   {
+   "id": "doi:10.59876/a-rjjp-1c0n",
+   "title": "Le budget participatif : analyse des facteurs organisationnels de l’effectivité d’un dispositif à la mode",
+   "authors": [
+    "Céline Du Boys",
+    "Edina Soldo"
+   ],
+   "venue": "Management international",
+   "published_at": "2025-09-01",
+   "doi": "10.59876/a-rjjp-1c0n",
+   "url": "https://doi.org/10.59876/a-rjjp-1c0n",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 1,
+   "abstract_snippet": "This research examines the organizational and managerial effects of the implementation of participatory budgeting (BP), a rapidly developing mechanism in local governments. A qualitative study of two BP initiatives reveals the perception of several effects at the decision-making and political level, as well as the operational level. The mechanism reshapes public decision-making processes (balance of power, political ",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Public Policy and Administration Research",
+    "Political Theory and Democracy",
+    "Local Government Finance and Decentralization"
+   ],
+   "first_seen": "2026-11-18",
+   "title_ko": "예산 참여: 모드에 따른 효과성 조직 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "예산 참여: 모드에 따른 효과성 조직 분석"
+  },
+  {
    "id": "doi:10.1016/j.tcs.2025.115370",
    "title": "Submodular participatory budgeting",
    "authors": [
@@ -5051,29 +5134,6 @@
    "title_ko": "하위 모듈형 참여예산 편성",
    "_tr_tried": true,
    "title_ko_mt": "하위 모듈형 참여 예산 편성"
-  },
-  {
-   "id": "doi:10.59876/a-rjjp-1c0n",
-   "title": "Le budget participatif : analyse des facteurs organisationnels de l’effectivité d’un dispositif à la mode",
-   "authors": [
-    "Céline DU BOYS",
-    "Edina SOLDO"
-   ],
-   "venue": "Management international",
-   "published_at": "2025-09",
-   "doi": "10.59876/a-rjjp-1c0n",
-   "url": "https://doi.org/10.59876/a-rjjp-1c0n",
-   "open_access": null,
-   "lang": null,
-   "cited_by": 0,
-   "abstract_snippet": "This research examines the organizational and managerial effects of the implementation of participatory budgeting (BP), a rapidly developing mechanism in local governments. A qualitative study of two BP initiatives reveals the perception of several effects at the decision-making and political level, as well as the operational level. The mechanism reshapes public decision-making processes (balance of power, political ",
-   "source": "Crossref",
-   "type": "journal-article",
-   "concepts": [],
-   "first_seen": "2026-11-18",
-   "title_ko": "예산 참여: 모드에 따른 효과성 조직 분석",
-   "_tr_tried": true,
-   "title_ko_mt": "예산 참여: 모드에 따른 효과성 조직 분석"
   },
   {
    "id": "doi:10.4324/9781003528456-14",
@@ -5115,7 +5175,10 @@
    "source": "Crossref",
    "type": "book-chapter",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "포르투갈의 국민참여예산",
+   "_tr_tried": true,
+   "title_ko_mt": "포르투갈의 국민참여예산"
   },
   {
    "id": "doi:10.56238/arev7n8-273",
@@ -5135,7 +5198,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "ORÇAMENTO PARTICIPATIVO NO FORTALECIMENTO DEMOCRÁTICO",
+   "_tr_tried": true,
+   "title_ko_mt": "ORÇAMENTO PARTICIPATIVO NO FORTALECIMENTO DEMOCRÁTICO"
   },
   {
    "id": "doi:10.70577/rps.v3i3.60",
@@ -5155,7 +5221,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Presupuesto participativo y la efficiencia administrativa: GAD Parroquial La Unión",
+   "_tr_tried": true,
+   "title_ko_mt": "Presupuesto participativo y la efficiencia administrativa: GAD Parroquial La Unión"
   },
   {
    "id": "doi:10.46652/rgn.v10i47.1525",
@@ -5175,7 +5244,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Riobamba 지역의 공공 서비스에 대한 참여에 대한 영향력 평가",
+   "_tr_tried": true,
+   "title_ko_mt": "Riobamba 지역의 공공 서비스에 대한 참여에 대한 영향력 평가"
   },
   {
    "id": "doi:10.17268/sciendo.2025.025",
@@ -5196,7 +5268,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "지방자치단체 주민참여예산에 시민참여가 미치는 영향",
+   "_tr_tried": true,
+   "title_ko_mt": "지방자치단체 주민참여예산에 시민참여가 미치는 영향"
   },
   {
    "id": "doi:10.58691/man/207993",
@@ -5216,7 +5291,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산의 양적, 질적 측면 - 키엘체(Kielce) 사례 연구",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산의 양적, 질적 측면 - 키엘체(Kielce) 사례 연구"
   },
   {
    "id": "doi:10.55813/gaea/rcym/v3/n3/63",
@@ -5238,7 +5316,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "El presupuesto participativo en la gestión de los recursos de Quevedo, 2024",
+   "_tr_tried": true,
+   "title_ko_mt": "El presupuesto participativo en la gestión de los recursos de Quevedo, 2024"
   },
   {
    "id": "doi:10.3390/land14081588",
@@ -5260,7 +5341,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산의 토지 이용 패턴 및 소규모 투자 프로젝트 선호도: 폴란드 한 도시의 통찰",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산의 토지 이용 패턴 및 소규모 투자 프로젝트 선호도: 폴란드 한 도시의 통찰"
   },
   {
    "id": "doi:10.1016/j.econlet.2025.112472",
@@ -5279,7 +5363,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산의 핵심은 비어 있을 수 있습니다.",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산의 핵심은 비어 있을 수 있습니다."
   },
   {
    "id": "doi:10.1590/2236-9996.2025-6368227-pt",
@@ -5298,7 +5385,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "As relações entre Orçamento Competitionivo e justiça territorial: uma contribuição teórico-prática",
+   "_tr_tried": true,
+   "title_ko_mt": "As relações entre Orçamento Competitionivo e justiça territorial: uma contribuição teórico-prática"
   },
   {
    "id": "doi:10.1590/2236-9996.2025-6368227-en",
@@ -5317,7 +5407,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "주민참여예산과 영토 정의의 관계: 이론적, 실무적 기여",
+   "_tr_tried": true,
+   "title_ko_mt": "주민참여예산과 영토 정의의 관계: 이론적, 실무적 기여"
   },
   {
    "id": "doi:10.1080/00344893.2025.2534411",
@@ -5336,7 +5429,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "보는 사람의 눈으로: 일반 공공 정치 지원에 대한 지방 참여예산의 효과 설명",
+   "_tr_tried": true,
+   "title_ko_mt": "보는 사람의 눈으로: 일반 공공 정치 지원에 대한 지방 참여 예산의 효과 설명"
   },
   {
    "id": "doi:10.5354/0717-8980.2025.77800",
@@ -5356,7 +5452,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Presupuesto participativo con enfoque interculture: ¿realidad o simbolismo? Caso subnacional de Morona Santiago",
+   "_tr_tried": true,
+   "title_ko_mt": "Presupuesto participativo con enfoque interculture: ¿realidad o simbolismo? Caso subnacional de Morona Santiago"
   },
   {
    "id": "doi:10.36557/2009-3578.2025v11n2p919-951",
@@ -5376,7 +5475,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "O Orçamento Representative como Ferramenta de Transformação Social로 참여",
+   "_tr_tried": true,
+   "title_ko_mt": "O Orçamento Representative como Ferramenta de Transformação Social로 참여"
   },
   {
    "id": "doi:10.4102/apsdpr.v13i1.899",
@@ -5396,7 +5498,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "농촌 의회의 참여예산: 짐바브웨 망웨 지역 의회의 사례",
+   "_tr_tried": true,
+   "title_ko_mt": "농촌 의회의 참여예산: 짐바브웨 망웨 지역 의회의 사례"
   },
   {
    "id": "doi:10.23900/2359-1552v14n3-72-2025",
@@ -5418,7 +5523,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "ORÇAMENTO PARTICIPATIVO DE PORTO VELHO: UMA ANÁLISE DA PARTICIPAÇÃO CIDADÃ NA ELABORAÇÃO DO ORÇAMENTO DE PORTO VELHO (2019-2023)",
+   "_tr_tried": true,
+   "title_ko_mt": "ORÇAMENTO PARTICIPATIVO DE PORTO VELHO: UMA ANÁLISE DA PARTICIPAÇÃO CIDADÃ NA ELABORAÇÃO DO ORÇAMENTO DE PORTO VELHO (2019-2023)"
   },
   {
    "id": "doi:10.36629/2686-7788-2025-1-404-409",
@@ -5441,7 +5549,10 @@
     "Legal and Policy Issues",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "지역 차원의 계획적 예산 집행(앙가르스크 도시 지역의 예)",
+   "_tr_tried": true,
+   "title_ko_mt": "지역 차원의 계획적 예산 집행(앙가르스크 도시 지역의 예)"
   },
   {
    "id": "doi:10.22431/25005227.1213",
@@ -5461,7 +5572,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Relación entre los Objetivos de Desarrollo Sostenible y el Presupuesto Competitionivo: un círculo virtuoso",
+   "_tr_tried": true,
+   "title_ko_mt": "Relación entre los Objetivos de Desarrollo Sostenible y el Presupuesto Competitionivo: un círculo virtuoso"
   },
   {
    "id": "doi:10.23900/2359-1552v14n3-27-2025",
@@ -5482,7 +5596,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "O DIREITO À CIDADE E À DEMOCRACIA: A EFETIVAÇÃO A PARTIR DO ORÇAMENTO PARTICIPATIVO",
+   "_tr_tried": true,
+   "title_ko_mt": "O DIREITO À CIDADE E À DEMOCRACIA: A EFETIVAÇÃO A PARTIR DO ORÇAMENTO PARTICIPATIVO"
   },
   {
    "id": "doi:10.21667/978-5-7722-0429-0-226-230",
@@ -5507,7 +5624,10 @@
     "Legal and Policy Issues",
     "Local Governance and Planning"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "랴잔 시의 초기 예산 편성",
+   "_tr_tried": true,
+   "title_ko_mt": "랴잔 시의 초기 예산 편성"
   },
   {
    "id": "doi:10.16997/jdd.1464",
@@ -5526,7 +5646,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "참여예산 확산에 있어 미디어의 역할: 토픽 모델링을 활용한 1991년부터 2022년까지 한국의 뉴스 보도",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산 확산에 있어 미디어의 역할: 토픽 모델링을 활용한 1991년부터 2022년까지 한국의 뉴스 보도"
   },
   {
    "id": "doi:10.5281/zenodo.20039221",
@@ -5549,7 +5672,10 @@
     "Local Governance and Planning",
     "Local Governance and Development"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "Nowy Sącz의 참여예산 기능 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "Nowy Sącz의 참여 예산 기능 분석"
   },
   {
    "id": "doi:10.9715/kila.2025.53.3.001",
@@ -5572,7 +5698,10 @@
     "Local Governance and Planning",
     "Urban Planning and Governance"
    ],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "서울시 주민참여예산 적용 텍스트 분석을 활용한 도시공원에 대한 시민의 요구 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "서울시 주민참여예산 적용 텍스트 분석을 활용한 도시공원에 대한 시민의 요구 분석"
   },
   {
    "id": "doi:10.14505/jemt.v16.2(78).03",
@@ -5592,7 +5721,10 @@
    "source": "Crossref",
    "type": "journal-article",
    "concepts": [],
-   "first_seen": "2026-11-18"
+   "first_seen": "2026-11-18",
+   "title_ko": "유럽 ​​일부 도시의 주민참여예산의 환경적 측면",
+   "_tr_tried": true,
+   "title_ko_mt": "유럽 ​​일부 도시의 주민참여예산의 환경적 측면"
   }
  ]
 }

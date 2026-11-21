@@ -1,5 +1,145 @@
 [
  {
+  "key": "paper:doi:10.18572/2500-0349-2026-4-20-25",
+  "date": "2026-11-21",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Municipal property economics law management",
+  "text": "옴스크(Omsk)의 사례를 통해 참여예산 참여의 지속 가능한 모델 식별",
+  "url": "https://doi.org/10.18572/2500-0349-2026-4-20-25",
+  "observed_at": "2026-12-10"
+ },
+ {
+  "key": "news:PRT:8f5a4d2734e3f5",
+  "date": "2026-11-21",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "Odemira: 2026년 참여예산에 대한 4가지 우승 제안이 알려져 있다",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUmQxMkVIQVhhTXh1MXVrUmQ1SXYzZ2FzMm81aXdYMm9QWU9SQmZiYkY5NkJvOXhZVFVlTXNBTmZjVExMd2c3Zy1FQkRxTmJjOTE5aEtVSGl6VWpnOVZBaDc5OExfQlgzVHA0cnNmXzNib0ZudnBSb1FUTVVFaVNKd0tCcXVOS3pNX090NnpPb2JyZjFLT3hHbXpJZmxnNjQzeUYxQ1BsRHdmWWtvcXc?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:CZE:1819503c73b488",
+  "date": "2026-11-21",
+  "iso3": "CZE",
+  "type": "뉴스 신호",
+  "label": "체코",
+  "text": "\"나는 치킨을 만든다\" - 시의 참여예산",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0MU9iUjVFMmVHeE9RVzVzOVhXb3lqcWdfWUJZMDk3ME9kSExvRzU3NmtnTFYtYjl6c0VwSVZWd3pVU2k0TTFZa3ptYktiS3h2NU8zcjMwZ0JqbDZIWXc?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:FRA:bd4fc858cf2bde",
+  "date": "2026-11-21",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "젠리스. 2026년 참여예산: 11월 16일부터 12월 5일까지 투표",
+  "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPandjMEJ2MWdHdjd1ay10cFRkWWtUa1VkeEo0N2lDNmpsVjZhNHoxTHFNMmxlRDdYUWpEVEwtZ3JzUDdSVFdZbXRUeUVBUFRiMEFrRS1iYkh6VGVVV0s4cXdGMWFTWFU3RFRXVm9iSDA4NWxBdzlWQWc5ck9tUEhwcE90ek13OHlOSm5qXzJ6UFdQSXplRVVr?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "reported:MDA:2026-11-21",
+  "date": "2026-11-21",
+  "iso3": "MDA",
+  "type": "보도 확인",
+  "label": "몰도바",
+  "text": "몰도바: 최근 6개월 보도로 참여예산 운영 확인 — Soroca: 4개의 주민참여예산사업 완료. 프로그램 규정 변경",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkRHZXF1cnFabEtyM19vcXVOdzM5VzNZSllpeVlFa1cxWENtRWtkZmNEWU5pMWFDV3E2QkVGQm5DR0dxYS1nSlhWZTVlbC1IcUwxdWdaYS1Ra2JUODMxZzBMNkx1Wk1TNTVvek5keVcxQ2RLNW5JTmc5Z1h6d0VXUlVTMWk5OWdLai1ZTjhMdUpmYk1HTW83dEhYcDNlcGhJQkdJNnYtXzJybndyelB0RnJSV2s3TW5RVWVfM185MXhzUDN4QnFhUnZMVkU?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:MDA:f12e7605454616",
+  "date": "2026-11-21",
+  "iso3": "MDA",
+  "type": "뉴스 신호",
+  "label": "몰도바",
+  "text": "Soroca: 4개의 주민참여예산사업 완료. 프로그램 규정 변경",
+  "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkRHZXF1cnFabEtyM19vcXVOdzM5VzNZSllpeVlFa1cxWENtRWtkZmNEWU5pMWFDV3E2QkVGQm5DR0dxYS1nSlhWZTVlbC1IcUwxdWdaYS1Ra2JUODMxZzBMNkx1Wk1TNTVvek5keVcxQ2RLNW5JTmc5Z1h6d0VXUlVTMWk5OWdLai1ZTjhMdUpmYk1HTW83dEhYcDNlcGhJQkdJNnYtXzJybndyelB0RnJSV2s3TW5RVWVfM185MXhzUDN4QnFhUnZMVkU?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:POL:62735a2ae8a166",
+  "date": "2026-11-21",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "참여예산: 작년보다 더 많은 유권자와 더 많은 활동적인 여성. 결과는 언제 나오나요?",
+  "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOC12SHB1eDA2N3UybEluM2RtUTk0WElDQXFRNmpodFAyRlFkbDR0cmpmalA0b3N4ZlJhek1zUDYwcDE4a2ZTN3p4S0ZlRkhWRHdicVZaUkdtVElMZWtYeTg2RnRBODFRYXF5U25NYm1WYkJCRHA0QzVXdEhmdmcxWTVPdkVFNXBTd2FmVzRzSjJ2SEdCSWp4MnFXS1ZRY2g3QXpUN2NLTjFGLXIwbXdWa3VSUDBaZDlmcjItRGdB?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:ESP:bfabde681c84f2",
+  "date": "2026-11-21",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "참여예산은 3일 만에 22개의 프로젝트를 받는다",
+  "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVjU4NnBfUzRQUzllWVlTZWl4NUktTXpXNUlVOE8wUk15YzJtRV81WFlUNzM2c1ZvMVJFSXg3dmoxY3JIZFBqVnFnZXZXMXk1UGJ2aVJCOWRFMjFIT0VONjVpR2tBdk1fZnAzTEZpbmdoSW5uN1hjcjRPbG1KeGZCVkQyWlZER1RmZEZqTnluTEhOaE40enYycWlYT0lPdFgzS1JjeTdJTW9jSVlSd3BIcDhLaExhX0dRR01NZ2pHSFRoMkFoT0hjbTFxT3dNaVhBbi1yWg?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:UKR:575b17345b2547",
+  "date": "2026-11-21",
+  "iso3": "UKR",
+  "type": "뉴스 신호",
+  "label": "우크라이나",
+  "text": "새로운 정류장, 펌프 트랙 및 스포츠 공간: \"2027년 공공 예산\"의 우승자, Ternopil에서 결정",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZFF6S2pDVEcwMElXcGs0NDRUal9ERzRUeGJwNDR2dVBfalNEZHFEUHdNSGJSX1ROWENTcVA2YmRlbUd0bmhQZjQzdFZzeHVPdUJrcE0yWkJ4anpucGI0bkVTcEFkRTVXZE9zU2lxZWgzdVFwQUpnTDB2Tm9VendFLWlkcklhRGttZDVaakhfZ3BBeXdsbFJ3Rk4ycnBuT0ZKLU9ybTIyQTFnUkRaRXNlMXBCbUI2bzkweVBiSFlDZ0VKRlBQb3BsZVFhZVpaV1ZPb1J5T2wyVnBVd9IB2AFBVV95cUxQWmRBUThjeDRTb3hGRjZ1U21FaFE2S09Va21GUUI3b2VzUjhzc0FjdVhrZnJhZlA3T284LXpYbmdyeS1hZWR3UWl3a0w5R0JjS1B3dlhpLXF5S2NyMVFiR1oyX0QzR2hkT2FfOGdvUHlxTTNmWVg2N1VUUzI3TDQ0ZDhfMFk4eEJ0QS1nYkUtWncwVXF5QnVPOEkzdEpkQzBqM1pURUV3U2lORUpCZW5JOExzVV9hWkZXdm9ZSkJrM2ZidkhmZDhYLVlyZ2NSeU5HLTJfazR3T0E?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:ARG:0a1d7ba670753f",
+  "date": "2026-11-21",
+  "iso3": "ARG",
+  "type": "뉴스 신호",
+  "label": "아르헨티나",
+  "text": "참여예산: \"Ortiz Herrera de renueva\" 프로젝트, 세 번째 프로그램에서 우승",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2xIdFZjMUVfa0NjS3FoYjhCalVFcUluX2dmRjl5TFVtTXoyeldIMFBHY29mV2wxUG9EY2gtcklzYmNlVDRSdVY4NS1rSGlBYlRoUmUtTGhkN0xtOWVDeElpUkFaa1ItNTUxTDMtbnZ5bllDVDd0NnJlWExfTWdCRVlLN3JLakg1SkVQU1NOYU13LXpWWDI2d0pCdlNhSHBPbmV1QTRnRHd2bmJRYmV3NUtRQUptTGcteTVyYm1maWdCZER5Q04tQVQ2OTVMV3ZaOFE?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:COL:d4dee62f3d74d0",
+  "date": "2026-11-21",
+  "iso3": "COL",
+  "type": "뉴스 신호",
+  "label": "콜롬비아",
+  "text": "푸엔테 아란다 시장실, 프로젝트와 참여예산 집행에 관한 시민 대화를 실시할 예정",
+  "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1dsRlk1ZHNiR2N1Z0dHLW85Znc4R2VsWUlDSUhObm9hUU9oYlNYNlNXdHZtbHJ0U2ZLanBlUXVYN3RJS1V1YU92VXVPd0tGaWVMcVVfLTc4Z3hWMkNtLTE3OG91R1pOOV9zRlBoUDJOOTJjT0wxLXlkS1R0YkFRRHk3bV9TMWc?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:MEX:f175b4e2e0a628",
+  "date": "2026-11-21",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "그들, Camargo의 참여예산 중 1,300만 페소를 거리 재활에 할당할 것을 제안",
+  "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVlBwams5UEdhQ1RIY25qbVNlZlRrTjE5cEMwZWF2RHNuQkRIaWRQZm9OalRSUFZ6bjFTNGh0NG90ZnF6cHBDTUpqWGl5NmliUGdRdE54ZVJFVjR0S0xBcExyUzhNbFdRS0JBenlqYkRRQjA5eUpvdXFLUldvNVNBTjdnZFNuT1YwdldMdGRMZ1lEZm54MFZYR2dKMGpPR2ZyQmQ3clk1VHM1clZ0cDRSeUllWEI1b3k5TFdENG05cGQtb1NYYlJRelhHcFk0OURETTNTWi1xR2hpU29reXB0YUQxQzg?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:KOR:9e3754674c5124",
+  "date": "2026-11-21",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "경기도의회 성기황 의원, 주민참여예산 축소와 청소년 지원사업 일몰 비판",
+  "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KVzhsbENxY0hpVGhGb0x0MHJZV0k3cWg2TXQxdHpMb2xDa3RYc2dfb2FfdEN3dFlKRmZYeTlMeWNzMG5OX2ZqSWdpZ2xaVUZGcWlEOG85dGw0RHFWUklKVmx6ZVVxa2tDdFBwWVdXcXZOUQ?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "paper:doi:10.1016/j.artint.2026.104661",
+  "date": "2026-11-21",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Artificial Intelligence",
+  "text": "집단적 선택을 위한 공정한 복권",
+  "url": "https://doi.org/10.1016/j.artint.2026.104661",
+  "observed_at": "2026-11-01"
+ },
+ {
   "key": "news:ESP:bb8685bde7536b",
   "date": "2026-11-20",
   "iso3": "ESP",

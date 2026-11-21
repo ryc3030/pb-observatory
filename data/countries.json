@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-20T02:21:33.638705+00:00",
+ "updated_at": "2026-11-21T02:19:43.753935+00:00",
  "count": 92,
  "items": [
   {
@@ -342,12 +342,12 @@
    "seed_status": "documented",
    "press": {
     "confirmed": true,
-    "stories": 14,
+    "stories": 15,
     "multi_outlet": 1,
-    "stories_12m": 17,
+    "stories_12m": 18,
     "multi_outlet_12m": 1,
     "months_12m": 9,
-    "last": "2026-11-16",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
      {
@@ -358,31 +358,31 @@
       "outlets": 2
      },
      {
+      "title": "\"나는 치킨을 만든다\" - 시의 참여예산",
+      "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0MU9iUjVFMmVHeE9RVzVzOVhXb3lqcWdfWUJZMDk3ME9kSExvRzU3NmtnTFYtYjl6c0VwSVZWd3pVU2k0TTFZa3ptYktiS3h2NU8zcjMwZ0JqbDZIWXc?oc=5",
+      "source": "www.regionbrno.cz",
+      "date": "2026-11-20",
+      "outlets": 1
+     },
+     {
       "title": "자전거 도로, 공원 및 놀이터. 체스케부데요비체의 주민참여예산으로 8개 프로젝트에 대한 비용 지원",
       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTG1pY1BNOWNQV1NfdXYzTU5SUng3blRiTFRlelN0V0FMaFNyaV80czlFYUdLdnhfaUxOQ3p5MHNRcGViaHF1eE1CNlNpMDhBV01DejhSck9ibkVoVTVrcndsVVd3QVBSUFhxNjhfMGVTNEQybXYtRFJzcjlYUG41YV81bldJbU9xbDh4LTlmbnNxT3BmdkRIQTgzdFpLbzNyRTZYS0dnNXNhZjg3bGtJVVdlLVpSV1VpVUxEUjZSdVF2allWc2d3UnB4TmY?oc=5",
       "source": "iROZHLAS",
       "date": "2026-11-16",
       "outlets": 1
-     },
-     {
-      "title": "데친의 참여예산, 승자를 선정",
-      "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZVBIQ05vV1JEMUZlQ0JMYWJVUjhpWDA4cnNEY1dwLUdqeHpnLXJUdlFBZTdSLU5aV1NfY0ZlX0FtU0Q2aUthTTYyZXpsbEkyYXVfdWRjT29Ya0NPQ0dpTUtnYXRSOTM0Q0dtaUZ3eUN1WFJBNGtuRERrRkV4eDVyOHpZUWFVNTU5NGgwQzlXeEJ0RWxIY1FlQkZiOTE5Vjl5YkR2TjM5Nnl4LW5OajJFdEtocE1uYmFHNDN3WGpWMA?oc=5",
-      "source": "Metro.cz",
-      "date": "2026-11-16",
-      "outlets": 1
      }
     ]
    },
-   "news_30d": 9,
-   "news_365d": 18,
+   "news_30d": 10,
+   "news_365d": 19,
    "latest_news": {
-    "title": "자전거 도로, 공원 및 놀이터. 체스케부데요비체의 주민참여예산으로 8개 프로젝트에 대한 비용 지원",
-    "title_original": "Cyklostezka, park i hřiště. Participativní rozpočet v Českých Budějovicích zaplatí osm projektů",
-    "date": "2026-11-16",
-    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxOTG1pY1BNOWNQV1NfdXYzTU5SUng3blRiTFRlelN0V0FMaFNyaV80czlFYUdLdnhfaUxOQ3p5MHNRcGViaHF1eE1CNlNpMDhBV01DejhSck9ibkVoVTVrcndsVVd3QVBSUFhxNjhfMGVTNEQybXYtRFJzcjlYUG41YV81bldJbU9xbDh4LTlmbnNxT3BmdkRIQTgzdFpLbzNyRTZYS0dnNXNhZjg3bGtJVVdlLVpSV1VpVUxEUjZSdVF2allWc2d3UnB4TmY?oc=5",
-    "source": "iROZHLAS"
+    "title": "\"나는 치킨을 만든다\" - 시의 참여예산",
+    "title_original": "\"Tvořím Kuřim\" - participativní rozpočet města.",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTFB0MU9iUjVFMmVHeE9RVzVzOVhXb3lqcWdfWUJZMDk3ME9kSExvRzU3NmtnTFYtYjl6c0VwSVZWd3pVU2k0TTFZa3ptYktiS3h2NU8zcjMwZ0JqbDZIWXc?oc=5",
+    "source": "www.regionbrno.cz"
    },
-   "activity_date": "2026-11-16",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 3,
     "participedia_verified": 0,
@@ -614,12 +614,12 @@
    "seed_status": "verified",
    "press": {
     "confirmed": true,
-    "stories": 151,
+    "stories": 180,
     "multi_outlet": 4,
-    "stories_12m": 239,
+    "stories_12m": 268,
     "multi_outlet_12m": 5,
     "months_12m": 13,
-    "last": "2026-11-19",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
      {
@@ -645,16 +645,16 @@
      }
     ]
    },
-   "news_30d": 55,
-   "news_365d": 277,
+   "news_30d": 93,
+   "news_365d": 317,
    "latest_news": {
-    "title": "생폴쉬르우바예. 1차 주민참여예산 : 주민이 결정",
-    "title_original": "Saint-Paul-sur-Ubaye. Premier budget participatif : les habitants ont tranché",
-    "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOYUtJd3FYV05LU1V3ZkxrSWMtTXpUeDV0aEluc3BhMlJQTWVFNXR0QS1ZTmNFWDZSRHpsOUtocnJ3Mmh0MjF5OWJINDBaZlliRHAtdl9qM2dacy0yeEpoX0NWLWpWQzdJaDlsZ05tb3VXT1dQdjl3clEzR3lCOVlJRjhPZHBLUzVnZWVmOXJyZ1FtRXBrVHF4dDZ5cmpDRDVabzFr?oc=5",
-    "source": "Le Dauphiné Libéré"
+    "title": "젠리스. 2026년 참여예산: 11월 16일부터 12월 5일까지 투표",
+    "title_original": "Genlis. Budget participatif 2026 : vote du 16 nov. au 5 déc.",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxPandjMEJ2MWdHdjd1ay10cFRkWWtUa1VkeEo0N2lDNmpsVjZhNHoxTHFNMmxlRDdYUWpEVEwtZ3JzUDdSVFdZbXRUeUVBUFRiMEFrRS1iYkh6VGVVV0s4cXdGMWFTWFU3RFRXVm9iSDA4NWxBdzlWQWc5ck9tUEhwcE90ek13OHlOSm5qXzJ6UFdQSXplRVVr?oc=5",
+    "source": "Hebdo39"
    },
-   "activity_date": "2026-11-19",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 3,
     "participedia_verified": 0,
@@ -721,7 +721,7 @@
      }
     ]
    },
-   "news_30d": 22,
+   "news_30d": 20,
    "news_365d": 97,
    "latest_news": {
     "title": "참여예산 포츠담: 두 번째 주택세 인상 및 임대료 모니터가 높아졌다",
@@ -942,9 +942,9 @@
    "seed_status": "documented",
    "press": {
     "confirmed": true,
-    "stories": 43,
+    "stories": 44,
     "multi_outlet": 3,
-    "stories_12m": 58,
+    "stories_12m": 59,
     "multi_outlet_12m": 3,
     "months_12m": 12,
     "last": "2026-11-16",
@@ -974,7 +974,7 @@
     ]
    },
    "news_30d": 20,
-   "news_365d": 67,
+   "news_365d": 68,
    "latest_news": {
     "title": "참여예산: 페스카라의 '아이들의 섬'을 위한 시민과의 만남",
     "title_original": "Bilancio partecipativo: incontro con i cittadini per L’Isola dei bambini a Pescara",
@@ -1087,9 +1087,9 @@
    "seed_status": "monitoring",
    "press": {
     "confirmed": true,
-    "stories": 5,
+    "stories": 6,
     "multi_outlet": 0,
-    "stories_12m": 14,
+    "stories_12m": 15,
     "multi_outlet_12m": 0,
     "months_12m": 8,
     "last": "2026-11-18",
@@ -1103,23 +1103,23 @@
       "outlets": 1
      },
      {
+      "title": "참여예산: 시민 투표를 통해 최고의 아이디어 선정 시작",
+      "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTBSZHZWRkxfRXpEUl9RazI2OFR3czBIVVdjUmNHLVROd3NUT3FOUHhVemEtYWJNTkVpdW1qcXJUZ3QyNHdWcFh5TzZLTnFxb1IwWFExaDJzeklhdDBDdlZfRGNkOXUtZEtTa3dXcUZXUlBfWGZwSXFSTlR3b2hkNmJ6LWNyMVR6c2VXcHRZbENZRVNtdDhSbnpEbDNEVDVfNmw3T1NnYk96WEtVRGhCTkRLSXpYMG1EZ3dUN1R5blpNdzNLSnBpbXRYcXlGWmtlZk1aeURXSk0?oc=5",
+      "source": "Klaipėdos miesto savivaldybė",
+      "date": "2026-11-16",
+      "outlets": 1
+     },
+     {
       "title": "참여예산 이니셔티브: 당선된 아이디어 발표",
       "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxQNUZWc0tUZzA1Nm9kbW9xNXplSmZhRk1RWVJ3ZHJjYzRFOTQtWmZWV1M1dHpFdlAwdEppTTl2TTZESHNncWYyMkQ0ZC1DdjBnSW9oN3dKVWNxS1lNVnZDcXQ1bGpMUVZFNkhILTBMTXBneDNfU2JhVjI1VThtN0x3aDNCN28zTFVya2hGX21kLWEtMVFyT21nNHRqYkktbURpZFdPS0t2MnJrUGk5MDVBTGhOUUR6SHRxbmkzOXpFcTI0QjFCQ2dUQW9EZnd1Wld3bFE?oc=5",
       "source": "Vilniaus Martyno Mažvydo progimnazija",
       "date": "2026-11-15",
       "outlets": 1
-     },
-     {
-      "title": "2026년 11월 3일, 빌뉴스 주민참여예산 투표 시작",
-      "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85T1dadXRkMnc5bXhVN0Etc2pSV1VEc2FoNUhLSXFvdzdRZ21BejFHNGxFang4Zm04cU5LVmRQcFFDN00ycEQzNFlrUHp1NWJrWHViVkdmcDAyUUlxRVRWcUREdEJubjA2aXk1R3JncVVjZUhyU2lwRUNUYmN1Zmc?oc=5",
-      "source": "The Baltic Review",
-      "date": "2026-11-02",
-      "outlets": 1
      }
     ]
    },
-   "news_30d": 3,
-   "news_365d": 14,
+   "news_30d": 4,
+   "news_365d": 15,
    "latest_news": {
     "title": "꼬리표: 참여예산 Kėdainiai",
     "title_original": "Žyma : dalyvaujamasis biudžetas Kėdainiai",
@@ -1197,7 +1197,7 @@
    "name_en": "Moldova",
    "name_ko": "몰도바",
    "region": "Europe",
-   "tracking_status": "monitoring",
+   "tracking_status": "reported",
    "base_signal": "원문 근거를 찾는 중",
    "base_signal_date": null,
    "primary_source": null,
@@ -1213,20 +1213,34 @@
    ],
    "seed_status": "monitoring",
    "press": {
-    "confirmed": false,
-    "stories": 0,
+    "confirmed": true,
+    "stories": 1,
     "multi_outlet": 0,
-    "stories_12m": 0,
+    "stories_12m": 1,
     "multi_outlet_12m": 0,
-    "months_12m": 0,
-    "last": null,
+    "months_12m": 1,
+    "last": "2026-11-20",
     "window_days": 183,
-    "evidence": []
+    "evidence": [
+     {
+      "title": "Soroca: 4개의 주민참여예산사업 완료. 프로그램 규정 변경",
+      "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkRHZXF1cnFabEtyM19vcXVOdzM5VzNZSllpeVlFa1cxWENtRWtkZmNEWU5pMWFDV3E2QkVGQm5DR0dxYS1nSlhWZTVlbC1IcUwxdWdaYS1Ra2JUODMxZzBMNkx1Wk1TNTVvek5keVcxQ2RLNW5JTmc5Z1h6d0VXUlVTMWk5OWdLai1ZTjhMdUpmYk1HTW83dEhYcDNlcGhJQkdJNnYtXzJybndyelB0RnJSV2s3TW5RVWVfM185MXhzUDN4QnFhUnZMVkU?oc=5",
+      "source": "Observatorul de Nord",
+      "date": "2026-11-20",
+      "outlets": 1
+     }
+    ]
    },
-   "news_30d": 0,
-   "news_365d": 0,
-   "latest_news": null,
-   "activity_date": null,
+   "news_30d": 1,
+   "news_365d": 1,
+   "latest_news": {
+    "title": "Soroca: 4개의 주민참여예산사업 완료. 프로그램 규정 변경",
+    "title_original": "Soroca: Patru proiecte de bugetare participativă au fost finalizate. Regulamentul programului va fi modificat",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxNVkRHZXF1cnFabEtyM19vcXVOdzM5VzNZSllpeVlFa1cxWENtRWtkZmNEWU5pMWFDV3E2QkVGQm5DR0dxYS1nSlhWZTVlbC1IcUwxdWdaYS1Ra2JUODMxZzBMNkx1Wk1TNTVvek5keVcxQ2RLNW5JTmc5Z1h6d0VXUlVTMWk5OWdLai1ZTjhMdUpmYk1HTW83dEhYcDNlcGhJQkdJNnYtXzJybndyelB0RnJSV2s3TW5RVWVfM185MXhzUDN4QnFhUnZMVkU?oc=5",
+    "source": "Observatorul de Nord"
+   },
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 0,
     "participedia_verified": 0,
@@ -1427,12 +1441,12 @@
    "seed_status": "documented",
    "press": {
     "confirmed": true,
-    "stories": 154,
-    "multi_outlet": 6,
-    "stories_12m": 227,
-    "multi_outlet_12m": 7,
+    "stories": 157,
+    "multi_outlet": 5,
+    "stories_12m": 232,
+    "multi_outlet_12m": 6,
     "months_12m": 13,
-    "last": "2026-11-19",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
      {
@@ -1447,7 +1461,7 @@
       "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE93Q3RyYXZSWndzNk43MGFSQnhaaFQyRlc4MC05TklITVhvai1xZWxQWFNYZ0ZvcmNkcHlMU1k1OFVkQThYamxLSEJncUlDM1dCRll2anFEVWQ0MlNyY0tpNGpkTnhLUQ?oc=5",
       "source": "Urząd Dzielnicy Targówek",
       "date": "2026-11-19",
-      "outlets": 3
+      "outlets": 4
      },
      {
       "title": "라바 시민예산 2027. 주민 제안 프로젝트에 대한 투표 진행 중",
@@ -1458,16 +1472,16 @@
      }
     ]
    },
-   "news_30d": 71,
-   "news_365d": 278,
+   "news_30d": 74,
+   "news_365d": 283,
    "latest_news": {
-    "title": "슈체친의 시민예산. 31,000명 이상의 유권자",
-    "title_original": "Budżet obywatelski Szczecina. Ponad 31 tys. głosujących",
-    "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQUG40ZTNfRlFqZFl1Z1BjU1ZMRTFqMjMzYlh4am05QmVYQ3U5R1JfVmtEb19PMlNoOUdKOFBaZ2oxelAzNjNqUXd1UHZUQVFKUldKTktfV0J6cENmZWI0bUFHYkFadXdPZVJfQWUzeTZ1d0ZOMjZFTnNUTnhwNUVsZEh6di1nRFMwLXlXelk5cmhZS3NJejdCTXBleFFNaFk?oc=5",
-    "source": "TVP Szczecin"
+    "title": "참여예산: 작년보다 더 많은 유권자와 더 많은 활동적인 여성. 결과는 언제 나오나요?",
+    "title_original": "Budżet obywatelski: więcej głosujących niż w zeszłym roku i aktywniejsze kobiety. Kiedy wyniki?",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNOC12SHB1eDA2N3UybEluM2RtUTk0WElDQXFRNmpodFAyRlFkbDR0cmpmalA0b3N4ZlJhek1zUDYwcDE4a2ZTN3p4S0ZlRkhWRHdicVZaUkdtVElMZWtYeTg2RnRBODFRYXF5U25NYm1WYkJCRHA0QzVXdEhmdmcxWTVPdkVFNXBTd2FmVzRzSjJ2SEdCSWp4MnFXS1ZRY2g3QXpUN2NLTjFGLXIwbXdWa3VSUDBaZDlmcjItRGdB?oc=5",
+    "source": "wSzczecinie.pl"
    },
-   "activity_date": "2026-11-19",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 3,
     "participedia_verified": 0,
@@ -1504,12 +1518,12 @@
    "seed_status": "verified",
    "press": {
     "confirmed": true,
-    "stories": 80,
-    "multi_outlet": 10,
-    "stories_12m": 97,
-    "multi_outlet_12m": 10,
+    "stories": 83,
+    "multi_outlet": 12,
+    "stories_12m": 101,
+    "multi_outlet_12m": 12,
     "months_12m": 12,
-    "last": "2026-11-19",
+    "last": "2026-11-21",
     "window_days": 183,
     "evidence": [
      {
@@ -1535,16 +1549,16 @@
      }
     ]
    },
-   "news_30d": 58,
-   "news_365d": 121,
+   "news_30d": 62,
+   "news_365d": 127,
    "latest_news": {
-    "title": "Odemira의 참여예산, 4개의 재인증 프로젝트에 30만 유로를 투자",
-    "title_original": "Orçamento Participativo de Odemira investe 300 mil euros em quatro projetos de requalificação",
-    "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNQlBlUDlwWnR6b0Z3TGlWY0hyYktuZXdIcmktTlB1Mkw2N2dPamZ5T3JhZUl4dS1pUnF6elF5b3d4cHBsLW11NW1QNENxUW9JdW5KRWxyaXJRNUF1dFVOUENNM3UyQ0J0aEhZX19JUmxyZ1NXcW9YX0pWLWRSaFpfT3NMVl9GTEE0VVhsYS1Udmxzc2laTFpOeFNmM3V2YVNsUl9MbUxTMWMxbUVtd1lVcVhRRjhpWTVlazE3TWtMX1UtVHM4QWp3cQ?oc=5",
-    "source": "Rádio Sines"
+    "title": "Odemira: 2026년 참여예산에 대한 4가지 우승 제안이 알려져 있다",
+    "title_original": "Odemira: Conhecidas as quatro propostas vencedoras do Orçamento Participativo 2026.",
+    "date": "2026-11-21",
+    "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUmQxMkVIQVhhTXh1MXVrUmQ1SXYzZ2FzMm81aXdYMm9QWU9SQmZiYkY5NkJvOXhZVFVlTXNBTmZjVExMd2c3Zy1FQkRxTmJjOTE5aEtVSGl6VWpnOVZBaDc5OExfQlgzVHA0cnNmXzNib0ZudnBSb1FUTVVFaVNKd0tCcXVOS3pNX090NnpPb2JyZjFLT3hHbXpJZmxnNjQzeUYxQ1BsRHdmWWtvcXc?oc=5",
+    "source": "Lidador Noticias"
    },
-   "activity_date": "2026-11-19",
+   "activity_date": "2026-11-21",
    "registry": {
     "participedia": 6,
     "participedia_verified": 0,
@@ -1610,7 +1624,7 @@
      }
     ]
    },
-   "news_30d": 10,
+   "news_30d": 9,
    "news_365d": 22,
    "latest_news": {
     "title": "참여예산을 통해 마련한 Cisnădie의 6번 유치원 마당에 있는 놀이 및 학습 공간",
@@ -1697,7 +1711,7 @@
    "seed_status": "monitoring",
    "press": {
     "confirmed": true,
-    "stories": 6,
+    "stories": 5,
     "multi_outlet": 0,
     "stories_12m": 14,
     "multi_outlet_12m": 0,
@@ -1728,8 +1742,8 @@
      }
     ]
    },
-   "news_30d": 2,
-   "news_365d": 15,
+   "news_30d": 3,
+   "news_365d": 16,
    "latest_news": {
     "title": "브르노에서 기록적인 88개의 프로젝트, 주민참여예산의 최종 단계에 진출",
     "title_original": "V Brne postúpilo do finále participatívneho rozpočtu rekordných 88 projektov",
@@ -1834,7 +1848,7 @@
     "confirmed": true,
     "stories": 89,
     "multi_outlet": 2,
-    "stories_12m": 105,
+    "stories_12m": 106,
     "multi_outlet_12m": 4,
     "months_12m": 11,
     "last": "2026-11-20",
@@ -1845,7 +1859,7 @@
       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTWlBeVNIRnVOWlhZUjRmQ3ljdm9oM3U5TS1GVHRxcG9KWGNlTGRvc2dtSS1Td1JTelZEUXdwT05hbmYtM3VwaEJpTkxrRWRaNlhNWnlNVGpFOTNJY3BQRkllMVdPeXZfY2k4alBxQTN5bkNpMzVLa2xSaHh4NkFhZ2Z3NnBxdDU1MVJlUDNMbS1UQS1wWmFaMW9TWEZQLWtBVU16OUNYR2FhR3dOMUhpOWFTVmZwdW43TUE?oc=5",
       "source": "www.mundolapalma.es",
       "date": "2026-11-20",
-      "outlets": 2
+      "outlets": 3
      },
      {
       "title": "산 페드로 델 피나타르, 제10회 주민참여예산제 시행",
@@ -1855,22 +1869,22 @@
       "outlets": 2
      },
      {
-      "title": "El Paso, 6개 지역 프로젝트에 344,000유로를 투자. 이것이 참여예산의 5차 판을 마감하는 방법이다",
-      "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPY2VkamxydWFWbXQ5WFY5R2haV1U3SHAyQjlGRUtaRzhlMnFWVW9XSld1Nldsc2F1YzNiM2daWmFldFhEQUxiTC1tcmpJOEJRVGZjR2hkMThDSGxaNDZJTG5wNFVJNTZGMUJlRVpheWNYQ2JXZGMzLVpUNTAteTZHRlRURm1raXRz?oc=5",
-      "source": "El Faro de La Palma",
-      "date": "2026-11-19",
+      "title": "참여예산은 3일 만에 22개의 프로젝트를 받는다",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVjU4NnBfUzRQUzllWVlTZWl4NUktTXpXNUlVOE8wUk15YzJtRV81WFlUNzM2c1ZvMVJFSXg3dmoxY3JIZFBqVnFnZXZXMXk1UGJ2aVJCOWRFMjFIT0VONjVpR2tBdk1fZnAzTEZpbmdoSW5uN1hjcjRPbG1KeGZCVkQyWlZER1RmZEZqTnluTEhOaE40enYycWlYT0lPdFgzS1JjeTdJTW9jSVlSd3BIcDhLaExhX0dRR01NZ2pHSFRoMkFoT0hjbTFxT3dNaVhBbi1yWg?oc=5",
+      "source": "La Tribuna de Cuenca",
+      "date": "2026-11-20",
       "outlets": 1
      }
     ]
    },
    "news_30d": 74,
-   "news_365d": 230,
+   "news_365d": 232,
    "latest_news": {
-    "title": "El Paso, 6개 프로젝트에 대해 344,000유로로 2026년 참여예산을 마무리",
-    "title_original": "El Paso concluye los Presupuestos Participativos de 2026 con 344.000 euros para seis proyectos",
+    "title": "참여예산은 3일 만에 22개의 프로젝트를 받는다",
+    "title_original": "Los Presupuestos Participativos reciben 22 proyectos en tres días",
     "date": "2026-11-20",
-    "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQTWlBeVNIRnVOWlhZUjRmQ3ljdm9oM3U5TS1GVHRxcG9KWGNlTGRvc2dtSS1Td1JTelZEUXdwT05hbmYtM3VwaEJpTkxrRWRaNlhNWnlNVGpFOTNJY3BQRkllMVdPeXZfY2k4alBxQTN5bkNpMzVLa2xSaHh4NkFhZ2Z3NnBxdDU1MVJlUDNMbS1UQS1wWmFaMW9TWEZQLWtBVU16OUNYR2FhR3dOMUhpOWFTVmZwdW43TUE?oc=5",
-    "source": "www.mundolapalma.es"
+    "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQVjU4NnBfUzRQUzllWVlTZWl4NUktTXpXNUlVOE8wUk15YzJtRV81WFlUNzM2c1ZvMVJFSXg3dmoxY3JIZFBqVnFnZXZXMXk1UGJ2aVJCOWRFMjFIT0VONjVpR2tBdk1fZnAzTEZpbmdoSW5uN1hjcjRPbG1KeGZCVkQyWlZER1RmZEZqTnluTEhOaE40enYycWlYT0lPdFgzS1JjeTdJTW9jSVlSd3BIcDhLaExhX0dRR01NZ2pHSFRoMkFoT0hjbTFxT3dNaVhBbi1yWg?oc=5",
+    "source": "La Tribuna de Cuenca"
    },
    "activity_date": "2026-11-20",
    "registry": {
@@ -2055,14 +2069,21 @@
    "seed_status": "monitoring",
    "press": {
     "confirmed": true,
-    "stories": 48,
-    "multi_outlet": 4,
-    "stories_12m": 49,
-    "multi_outlet_12m": 4,
+    "stories": 49,
+    "multi_outlet": 5,
+    "stories_12m": 50,
+    "multi_outlet_12m": 5,
     "months_12m": 5,
-    "last": "2026-11-18",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
+     {
+      "title": "새로운 정류장, 펌프 트랙 및 스포츠 공간: \"2027년 공공 예산\"의 우승자, Ternopil에서 결정",
+      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZFF6S2pDVEcwMElXcGs0NDRUal9ERzRUeGJwNDR2dVBfalNEZHFEUHdNSGJSX1ROWENTcVA2YmRlbUd0bmhQZjQzdFZzeHVPdUJrcE0yWkJ4anpucGI0bkVTcEFkRTVXZE9zU2lxZWgzdVFwQUpnTDB2Tm9VendFLWlkcklhRGttZDVaakhfZ3BBeXdsbFJ3Rk4ycnBuT0ZKLU9ybTIyQTFnUkRaRXNlMXBCbUI2bzkweVBiSFlDZ0VKRlBQb3BsZVFhZVpaV1ZPb1J5T2wyVnBVd9IB2AFBVV95cUxQWmRBUThjeDRTb3hGRjZ1U21FaFE2S09Va21GUUI3b2VzUjhzc0FjdVhrZnJhZlA3T284LXpYbmdyeS1hZWR3UWl3a0w5R0JjS1B3dlhpLXF5S2NyMVFiR1oyX0QzR2hkT2FfOGdvUHlxTTNmWVg2N1VUUzI3TDQ0ZDhfMFk4eEJ0QS1nYkUtWncwVXF5QnVPOEkzdEpkQzBqM1pURUV3U2lORUpCZW5JOExzVV9hWkZXdm9ZSkJrM2ZidkhmZDhYLVlyZ2NSeU5HLTJfazR3T0E?oc=5",
+      "source": "Терен",
+      "date": "2026-11-20",
+      "outlets": 3
+     },
      {
       "title": "Ternopil의 공공 예산 중 가장 많은 표를 얻은 프로젝트는 무엇입니까?",
       "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOMjJqaFV0SGJTQ0xHdTZiQ0FjTmE2ZGhLUWt5ZXdSUmhIaGlfaXZqSG1SX3FuUUxwRzdPRVhnNXZXTlViZ292Zkx2SjBfWE1xZGJGblMtd0cxamR6UzdEQlhQRXl2M2l6V2NnamRKSU81VHlGdUY2bG12X3JsVVM5dXR1UllQT2laRGc?oc=5",
@@ -2076,26 +2097,19 @@
       "source": "Новини Тернопільщини",
       "date": "2026-11-02",
       "outlets": 2
-     },
-     {
-      "title": "공공 예산 -2027의 교육 프로젝트에 대한 투표, Ternopil에서 진행 중",
-      "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxQX0ZGTHM0WGtsNjZZbWZnNDFGQllXZU04d2h6bTF3b2NEaS1vNFA4VFpaODFlcXJCbFVHOUFxSFBPam9RUFF4Sk1oYnVveEhDYVNfdHZjTTFWS1JjLXAwWHNhVVNOUzVmUDNBRl9wTFJ6WTBLZkQ2WlZmNUtValEySzNTcHRtTzhsQ3BoMDVpZE05Y28?oc=5",
-      "source": "Газета Місто",
-      "date": "2026-10-28",
-      "outlets": 2
      }
     ]
    },
-   "news_30d": 46,
-   "news_365d": 76,
+   "news_30d": 48,
+   "news_365d": 79,
    "latest_news": {
-    "title": "Ternopil 커뮤니티의 2027년 공공 예산 수상자",
-    "title_original": "Переможці Громадського бюджету-2027 у Тернопільській громаді",
-    "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQdnhmREk3eVZaSDNoRWhtdTdZZ0N2Vms0S1VGUGFEMm4wRTlXSlgyOHdKYlpTTVYxTm1NRlc5d0xVRGJzSVN0ZWpDdlRFVmxnX0M2MHBHQ1M4RmtTbFA4UGRDcERhdlFLamJUUmZkS2UtTlJzTDFnbm9YNWNFMEtzMTdUSERad3g4Vl9vMjFtMUNlTDR0?oc=5",
-    "source": "Газета Місто"
+    "title": "새로운 정류장, 펌프 트랙 및 스포츠 공간: \"2027년 공공 예산\"의 우승자, Ternopil에서 결정",
+    "title_original": "Нові зупинки, памп-трек і спортивні простори: у Тернополі визначили переможців «Громадського бюджету-2027»",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOZFF6S2pDVEcwMElXcGs0NDRUal9ERzRUeGJwNDR2dVBfalNEZHFEUHdNSGJSX1ROWENTcVA2YmRlbUd0bmhQZjQzdFZzeHVPdUJrcE0yWkJ4anpucGI0bkVTcEFkRTVXZE9zU2lxZWgzdVFwQUpnTDB2Tm9VendFLWlkcklhRGttZDVaakhfZ3BBeXdsbFJ3Rk4ycnBuT0ZKLU9ybTIyQTFnUkRaRXNlMXBCbUI2bzkweVBiSFlDZ0VKRlBQb3BsZVFhZVpaV1ZPb1J5T2wyVnBVd9IB2AFBVV95cUxQWmRBUThjeDRTb3hGRjZ1U21FaFE2S09Va21GUUI3b2VzUjhzc0FjdVhrZnJhZlA3T284LXpYbmdyeS1hZWR3UWl3a0w5R0JjS1B3dlhpLXF5S2NyMVFiR1oyX0QzR2hkT2FfOGdvUHlxTTNmWVg2N1VUUzI3TDQ0ZDhfMFk4eEJ0QS1nYkUtWncwVXF5QnVPOEkzdEpkQzBqM1pURUV3U2lORUpCZW5JOExzVV9hWkZXdm9ZSkJrM2ZidkhmZDhYLVlyZ2NSeU5HLTJfazR3T0E?oc=5",
+    "source": "Терен"
    },
-   "activity_date": "2026-11-18",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 0,
     "participedia_verified": 0,
@@ -2215,12 +2229,12 @@
    "seed_status": "documented",
    "press": {
     "confirmed": true,
-    "stories": 36,
+    "stories": 37,
     "multi_outlet": 1,
-    "stories_12m": 45,
+    "stories_12m": 46,
     "multi_outlet_12m": 1,
     "months_12m": 11,
-    "last": "2026-11-18",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
      {
@@ -2231,31 +2245,31 @@
       "outlets": 2
      },
      {
-      "title": "그들, 참여예산 기금이 Viedma 지역에 어떻게 분배되는지 검토할 것을 주장",
-      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOXU1cW95MzBXUlhNUFotd2paMkJlb3dUSmx4Q3ZSQzVERlAtSmphWTNreGpSSEtQNFRVODEyTkgyTHN3VmdFdzFtZ0tuSnV3OGJaYTZTdmlFSFpldWtLTmFUTWRhT0xxMjUxMUJIdkk1QUFNZEVKdFZCWUZhLUhncmdNckdoOWg4bXU1X2xtWFpscjFJOVV0MHhiSGRPNE1ST3FsZ3BGcFlkaHFGVUtROHZnQTR3N284LUNveXAwVDFreV9KWF91NVdmbi1zRTBsenllelZtS0JZN2lJY0U1OUZLYnZwVDVhMURsa1hNOVFCZXd4OXfSAfsBQVVfeXFMTWNJMURKVDA3MF81MWNhSnMwb0tpSFdvVVI1dUFfUE84Sk41c0dWNnlINFRMblBsUDhDcmFVU2YyZG1Dd1hDeTJNQllNN09PaFRwek44cXJRMDdicm01M1FQdW5pSzRuc2dhSXU2UmxvTldTSWhuODU4bC1jXzg5UjZKV1dvdmRDRFRPVW95NGNHeDhaOUFtZWt2ZURmcFViWTZidi1mQnFxWTR5U2t4UFpqZldoUDhQeWxYaGRWRDIxaFZiVlpyd19qazAxeUp5NmVOejNZWGtVWE9oWVdhcnZWOFQ0Rkhqb3lWNkdPYkN5SW5WOERsQUhtV1k?oc=5",
-      "source": "NoticiasNet",
-      "date": "2026-11-18",
+      "title": "참여예산: \"Ortiz Herrera de renueva\" 프로젝트, 세 번째 프로그램에서 우승",
+      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2xIdFZjMUVfa0NjS3FoYjhCalVFcUluX2dmRjl5TFVtTXoyeldIMFBHY29mV2wxUG9EY2gtcklzYmNlVDRSdVY4NS1rSGlBYlRoUmUtTGhkN0xtOWVDeElpUkFaa1ItNTUxTDMtbnZ5bllDVDd0NnJlWExfTWdCRVlLN3JLakg1SkVQU1NOYU13LXpWWDI2d0pCdlNhSHBPbmV1QTRnRHd2bmJRYmV3NUtRQUptTGcteTVyYm1maWdCZER5Q04tQVQ2OTVMV3ZaOFE?oc=5",
+      "source": "Municipalidad de Bell Ville",
+      "date": "2026-11-20",
       "outlets": 1
      },
      {
-      "title": "로사리오 참여예산: 40,000명 이상의 이웃이 이미 투표했으며 12월 10일까지 시간이 있다",
-      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOS3RXdElwUm1aTXNoWjVfOFQ5eFQ4NUxZbUhtTV9hdDRyZDhoWmU2YmxNRHBHb1F1MENtUTVfdDFSUjBVU29jaHlfX3J2Xy05Z3BnZGhQLU5VSFJmUlhHWktvN09fS3hXdlc1QjhoYTZOLU1fM3FoejdnN01fZjN5NnBwRUZRRHdqNUxJbGZ2cVpSWTZ4ZFlVdFRTQjl6QVlaY2RmOVotSXM2SEtTa2xoYW9WbUtiUmtrOVM5NXRqdy1FTzNkSzc2MU5yUWFpTlpKd25pSnFn?oc=5",
-      "source": "Rosario la Ciudad",
+      "title": "그들, 참여예산 기금이 Viedma 지역에 어떻게 분배되는지 검토할 것을 주장",
+      "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOXU1cW95MzBXUlhNUFotd2paMkJlb3dUSmx4Q3ZSQzVERlAtSmphWTNreGpSSEtQNFRVODEyTkgyTHN3VmdFdzFtZ0tuSnV3OGJaYTZTdmlFSFpldWtLTmFUTWRhT0xxMjUxMUJIdkk1QUFNZEVKdFZCWUZhLUhncmdNckdoOWg4bXU1X2xtWFpscjFJOVV0MHhiSGRPNE1ST3FsZ3BGcFlkaHFGVUtROHZnQTR3N284LUNveXAwVDFreV9KWF91NVdmbi1zRTBsenllelZtS0JZN2lJY0U1OUZLYnZwVDVhMURsa1hNOVFCZXd4OXfSAfsBQVVfeXFMTWNJMURKVDA3MF81MWNhSnMwb0tpSFdvVVI1dUFfUE84Sk41c0dWNnlINFRMblBsUDhDcmFVU2YyZG1Dd1hDeTJNQllNN09PaFRwek44cXJRMDdicm01M1FQdW5pSzRuc2dhSXU2UmxvTldTSWhuODU4bC1jXzg5UjZKV1dvdmRDRFRPVW95NGNHeDhaOUFtZWt2ZURmcFViWTZidi1mQnFxWTR5U2t4UFpqZldoUDhQeWxYaGRWRDIxaFZiVlpyd19qazAxeUp5NmVOejNZWGtVWE9oWVdhcnZWOFQ0Rkhqb3lWNkdPYkN5SW5WOERsQUhtV1k?oc=5",
+      "source": "NoticiasNet",
       "date": "2026-11-18",
       "outlets": 1
      }
     ]
    },
    "news_30d": 17,
-   "news_365d": 47,
+   "news_365d": 48,
    "latest_news": {
-    "title": "그들, 참여예산 기금이 Viedma 지역에 어떻게 분배되는지 검토할 것을 주장",
-    "title_original": "Insisten en revisar cómo se distribuyen los fondos del Presupuesto Participativo en los barrios de Viedma",
-    "date": "2026-11-18",
-    "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxPOXU1cW95MzBXUlhNUFotd2paMkJlb3dUSmx4Q3ZSQzVERlAtSmphWTNreGpSSEtQNFRVODEyTkgyTHN3VmdFdzFtZ0tuSnV3OGJaYTZTdmlFSFpldWtLTmFUTWRhT0xxMjUxMUJIdkk1QUFNZEVKdFZCWUZhLUhncmdNckdoOWg4bXU1X2xtWFpscjFJOVV0MHhiSGRPNE1ST3FsZ3BGcFlkaHFGVUtROHZnQTR3N284LUNveXAwVDFreV9KWF91NVdmbi1zRTBsenllelZtS0JZN2lJY0U1OUZLYnZwVDVhMURsa1hNOVFCZXd4OXfSAfsBQVVfeXFMTWNJMURKVDA3MF81MWNhSnMwb0tpSFdvVVI1dUFfUE84Sk41c0dWNnlINFRMblBsUDhDcmFVU2YyZG1Dd1hDeTJNQllNN09PaFRwek44cXJRMDdicm01M1FQdW5pSzRuc2dhSXU2UmxvTldTSWhuODU4bC1jXzg5UjZKV1dvdmRDRFRPVW95NGNHeDhaOUFtZWt2ZURmcFViWTZidi1mQnFxWTR5U2t4UFpqZldoUDhQeWxYaGRWRDIxaFZiVlpyd19qazAxeUp5NmVOejNZWGtVWE9oWVdhcnZWOFQ0Rkhqb3lWNkdPYkN5SW5WOERsQUhtV1k?oc=5",
-    "source": "NoticiasNet"
+    "title": "참여예산: \"Ortiz Herrera de renueva\" 프로젝트, 세 번째 프로그램에서 우승",
+    "title_original": "Presupuesto Participativo: el proyecto “Ortiz Herrera de renueva” ganó la tercera edición del programa",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPa2xIdFZjMUVfa0NjS3FoYjhCalVFcUluX2dmRjl5TFVtTXoyeldIMFBHY29mV2wxUG9EY2gtcklzYmNlVDRSdVY4NS1rSGlBYlRoUmUtTGhkN0xtOWVDeElpUkFaa1ItNTUxTDMtbnZ5bllDVDd0NnJlWExfTWdCRVlLN3JLakg1SkVQU1NOYU13LXpWWDI2d0pCdlNhSHBPbmV1QTRnRHd2bmJRYmV3NUtRQUptTGcteTVyYm1maWdCZER5Q04tQVQ2OTVMV3ZaOFE?oc=5",
+    "source": "Municipalidad de Bell Ville"
    },
-   "activity_date": "2026-11-18",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 6,
     "participedia_verified": 0,
@@ -2338,9 +2352,9 @@
    "seed_status": "verified",
    "press": {
     "confirmed": true,
-    "stories": 58,
+    "stories": 59,
     "multi_outlet": 2,
-    "stories_12m": 73,
+    "stories_12m": 74,
     "multi_outlet_12m": 3,
     "months_12m": 13,
     "last": "2026-11-18",
@@ -2369,8 +2383,8 @@
      }
     ]
    },
-   "news_30d": 17,
-   "news_365d": 79,
+   "news_30d": 18,
+   "news_365d": 80,
    "latest_news": {
     "title": "동영상: 포르투알레그리의 참여예산제 | 동영상 - RBS 뉴스",
     "title_original": "Vídeo: Orçamento participativo em Porto Alegre | Vídeos - RBS Notícias",
@@ -2501,14 +2515,14 @@
       "outlets": 1
      },
      {
-      "title": "Concejo Municipal aprueba por unanimidad las Bases del Presupuesto Participativo del Deporte 2026",
+      "title": "시의회, 2026년 참여 스포츠 예산의 기반을 만장일치로 승인",
       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxPWmliN3IzQi1ycUJsdC1BSGgxZGxNY2ZSRG50X2tBTDlNai1ISzNodGl1dEVOaVdIU1FVZHp6Tk5YM3FtZFZZV0pkMmY4Mi1oYWREamJPeEtrcm9MSmRianJYM2lpTTQ0ZVBNZ1gzN2VjMUo0dks4UzRWNVc2enFONUpBUWl0eGViMFNyYjY3UURDb0VTWFJXZl9Ud1M0aGE2WjlyLUZmMU92S01SOGFOYTNQM3pjUXJXM3RKNGJYd0pHek55TGpsWHFRWUxMS2xX?oc=5",
       "source": "Municipalidad de Quillota",
       "date": "2026-07-31",
       "outlets": 1
      },
      {
-      "title": "Villa Alemana inicia la aprobación de proyectos del Programa de Presupuestos Participativos 2026",
+      "title": "Villa Alemana, 2026 참여예산 프로그램 프로젝트 승인 시작",
       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxNQTFWNHJWcVZheWI2TUtCQWY5V2Y5WHFzUUtPaDVkTlM4bE9kbUt5UjdfeEVvUHFmUGx0bGZSTlBSTmpsZU5DdGlPMk9CaFNETG9sejJLdGUyMDlneUZ1Z1UwMTNSdV8wMzYtczN1Y1FkYlZoRzYxQ292bnR2b3RpRnhpSUJsbzRZZDVSM2hDejRLQW5CdkQtZm5GOVpQWEFOYlNQWE1qc21RYzFPZ2VtRU8ycVdkS3c?oc=5",
       "source": "Ilustre Municipalidad de Villa Alemana",
       "date": "2026-07-30",
@@ -2560,47 +2574,47 @@
    "seed_status": "monitoring",
    "press": {
     "confirmed": true,
-    "stories": 23,
+    "stories": 26,
     "multi_outlet": 0,
-    "stories_12m": 39,
+    "stories_12m": 43,
     "multi_outlet_12m": 0,
     "months_12m": 12,
-    "last": "2026-11-17",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
      {
-      "title": "메데인 참여예산을 통해 아빠에서 슈퍼 히어로로",
-      "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNejllRXEzXy1hVEZKZFRURzI4RmFqWkJqbjdYbmZXeDVuaDRrRWw2T3A2VmhBSktxLUlJekloUVRzOEhacmF5dlZ2Z3hKSlZzTklISDdDVXd4NlVvRC14Wi05cXEwSk4td2ZucVU1R1BmRmo2cUc3dW9oNEpONnc3ZnBQSmxPYUg5NjRaTEg3SFpVT2tGc2FPU2hpa0ZuNi1vYzlCZjBzbzdsZ0FtMWIwVndzQ0FlOUU5dEpXWjh3?oc=5",
-      "source": "Alcaldía de Medellín",
-      "date": "2026-11-17",
+      "title": "푸엔테 아란다 시장실, 프로젝트와 참여예산 집행에 관한 시민 대화를 실시할 예정",
+      "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1dsRlk1ZHNiR2N1Z0dHLW85Znc4R2VsWUlDSUhObm9hUU9oYlNYNlNXdHZtbHJ0U2ZLanBlUXVYN3RJS1V1YU92VXVPd0tGaWVMcVVfLTc4Z3hWMkNtLTE3OG91R1pOOV9zRlBoUDJOOTJjT0wxLXlkS1R0YkFRRHk3bV9TMWc?oc=5",
+      "source": "Secretaría Distrital de Gobierno de Bogotá",
+      "date": "2026-11-20",
       "outlets": 1
      },
      {
-      "title": "칼리, 고령자를 지원하고 돌봄 제공자를 강화하는 주민참여예산제를 추진 중",
-      "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxObU02WmtETVZRUUZEbkpOR0ZiandGd0lBbGo2NURvQTFyVHBJZ0xiWU9mZHktd01KZXh1QkhVXzM1dmF4OEwzLW1TbUlSYXlBdFFfQUNmY19iRGFuWmNuWGxZVHVFdUVLSWVJMk1keG9NNkFzbm5rTzBfSGNIV0JWN1VrVWRuR0hVTU1yRzBfVkNGbF9HOGFlX2tMZ1ZwbWxJM3pSTWk0eVR6V2xycERKQllOam5jZU5qYjZBa2VtQ0JOanN3T0VPdkRiOVp2UVdpR1ZpRjBlS2JFcjFxT0JaUGt6eF9OZmZNSHhFNHNPLWJ0UmlBbm93WEZKUGFaUll4UVdTdHJFRURNUQ?oc=5",
-      "source": "Alcaldía de Santiago de Cali",
-      "date": "2026-11-13",
+      "title": "지역 프로젝트 2026: 참여예산의 책임성에 참여",
+      "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPS09BcXdkZ21fNkpycElYcW4yaHpacmFnb0Q2cUhjSnNEczdqYUlpZTkyTjhiZXlaMFl4M1RoeGQ0RTJ3UXozN2lfbWVVTktsQ3E3NE42SXFHZHJsT3p6NmUweTZiX09yUVJlcHhLYS1xcHdMbkIzdUVLTmhLclliQl9zRGdudnE4LWlGZlln?oc=5",
+      "source": "Secretaría Distrital de Gobierno de Bogotá",
+      "date": "2026-11-20",
       "outlets": 1
      },
      {
-      "title": "도스케브라다스 시청, 주민참여예산으로 산타 이사벨 공원 재단장하여 개장",
-      "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQb1BRTFlJNTRUbS1lSjVTcVduVXplanNuTWRkNXZxTzJfTzZHNzlUMUtndFc0U3VaaUNkcFRuMDh4c0k1OG1hQVBHUkNxN0N0VWJkNkE0Q1RLanA3VFdER3RmU29MWENlS3ZDSlJKUUQyTGt2TjhwUjMwUS1PZmFfa2R0UHM4T3p3ZUQ0ZllIN2JQTTNsUmxFY1N5c1RWUzZlSktxeDBUd0RJSGhsbGo2RTBHVG9xckdic3hMVGlYdlpwTjl6OWpRNEdGUTlJbWZXd3ktN1NPWFk3Q3ZFMGZ5eDY3cDVkNHV5b1JHVmRxa1hEclVHRnFJTDVEVldCd0xfc0VadFI0eWF1c0d6Zlh0WWt4NXVZc2g2MXhLR2tqR2RBb05DT2ZZNnBtSnBtLUF6QXc?oc=5",
-      "source": "Dosquebradas",
-      "date": "2026-11-11",
+      "title": "Rionegro는 첫 번째 참여예산 출시: 코뮌과 타운십에 1% 무료 할당",
+      "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxOSEZpbklkSkc5S1hfUW9hc2R4SklXOW9rWHE4Vi1WRjlQSTQ2aFZqWHYwb1RCdXVTMW1TTWFQYnBmbXdjWl8tdS1idThhMF8zdDl1NnJLNHdQY0ZZS0Rvd09rSlJoZ3J1NEdkZXY1U1NDNFoxZkNtczBTS0pOUXRCdWZMemhlTm9yYkJMVktVN0hBVXZWTjFoWTlnOHU1R3NacHB1QV9Xcjd5WDhTdG1fMzNfUWc4TFBfOU9mbVlGSE1xNkhicDlyVXdzTFZCWDAtTDlPeQ?oc=5",
+      "source": "Orientese co",
+      "date": "2026-11-20",
       "outlets": 1
      }
     ]
    },
-   "news_30d": 6,
-   "news_365d": 40,
+   "news_30d": 10,
+   "news_365d": 44,
    "latest_news": {
-    "title": "메데인 참여예산을 통해 아빠에서 슈퍼 히어로로",
-    "title_original": "De papá a superhéroe con el Presupuesto Participativo de Medellín",
-    "date": "2026-11-17",
-    "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxNejllRXEzXy1hVEZKZFRURzI4RmFqWkJqbjdYbmZXeDVuaDRrRWw2T3A2VmhBSktxLUlJekloUVRzOEhacmF5dlZ2Z3hKSlZzTklISDdDVXd4NlVvRC14Wi05cXEwSk4td2ZucVU1R1BmRmo2cUc3dW9oNEpONnc3ZnBQSmxPYUg5NjRaTEg3SFpVT2tGc2FPU2hpa0ZuNi1vYzlCZjBzbzdsZ0FtMWIwVndzQ0FlOUU5dEpXWjh3?oc=5",
-    "source": "Alcaldía de Medellín"
+    "title": "푸엔테 아란다 시장실, 프로젝트와 참여예산 집행에 관한 시민 대화를 실시할 예정",
+    "title_original": "Alcaldía Local de Puente Aranda realizará diálogo ciudadano sobre los proyectos y ejecución de los presupuestos participativos.",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPM1dsRlk1ZHNiR2N1Z0dHLW85Znc4R2VsWUlDSUhObm9hUU9oYlNYNlNXdHZtbHJ0U2ZLanBlUXVYN3RJS1V1YU92VXVPd0tGaWVMcVVfLTc4Z3hWMkNtLTE3OG91R1pOOV9zRlBoUDJOOTJjT0wxLXlkS1R0YkFRRHk3bV9TMWc?oc=5",
+    "source": "Secretaría Distrital de Gobierno de Bogotá"
    },
-   "activity_date": "2026-11-17",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 2,
     "participedia_verified": 0,
@@ -2937,12 +2951,12 @@
    "seed_status": "verified",
    "press": {
     "confirmed": true,
-    "stories": 110,
-    "multi_outlet": 9,
-    "stories_12m": 172,
-    "multi_outlet_12m": 9,
+    "stories": 116,
+    "multi_outlet": 10,
+    "stories_12m": 178,
+    "multi_outlet_12m": 10,
     "months_12m": 13,
-    "last": "2026-11-19",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
      {
@@ -2953,31 +2967,31 @@
       "outlets": 4
      },
      {
+      "title": "IECM, 2025년 주민참여예산협의회 통계분석 발표",
+      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZmJBNXhKMFhQS1JfbGhXWnhmdDVLa1E5Z1JRLThYLVBVZWxzOFIyY25naHZyUVhRWkJnQXpNZzEwc1dlTXNEWE5JcDhjQ3BvMV9pXzdpaDB5a3l1cGhhdWNuRldsdW1MdW5TMTdJZDFqLVFSZjdGdXpROHFLeWUtb0Vrd3IxbTJuRWx4LTE4VS1pZUVHT3pTWUllekNkZzRzRWhsYlVaWjZfM2ZVVTdv?oc=5",
+      "source": "Revista Zócalo",
+      "date": "2026-11-19",
+      "outlets": 3
+     },
+     {
       "title": "IECM, 2026년 COPACO 투표용지 및 2026년과 2027년 주민참여예산 투표용지 폐기 승인",
       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWi1TV1dRdlRfZUFrSWJlcEphN0ItN0FOYmJrUGN6aGNrai11cXRrV21BNXE5OURaSTRvQm5nUDdHaE4zSnlhbFZpcW1KRWxvVkpkT05tOUt3Q3NHN0JZLS1QV0ZhZW83STU0SFY3TF93YW04LS1nbDlsSEMxMy03LWtvYUQyOXMtSndmZHlWaXl2dHFqTkRaRTVNNENYcVc2Nlh2SVZwOHhkcUNmdzVOZlcycmZOdFlYMnlfTEN3YmpPZ013?oc=5",
       "source": "sdpnoticias",
       "date": "2026-11-17",
       "outlets": 3
-     },
-     {
-      "title": "IECM, 2025년 주민참여예산협의회 통계분석 발표",
-      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZmJBNXhKMFhQS1JfbGhXWnhmdDVLa1E5Z1JRLThYLVBVZWxzOFIyY25naHZyUVhRWkJnQXpNZzEwc1dlTXNEWE5JcDhjQ3BvMV9pXzdpaDB5a3l1cGhhdWNuRldsdW1MdW5TMTdJZDFqLVFSZjdGdXpROHFLeWUtb0Vrd3IxbTJuRWx4LTE4VS1pZUVHT3pTWUllekNkZzRzRWhsYlVaWjZfM2ZVVTdv?oc=5",
-      "source": "Revista Zócalo",
-      "date": "2026-11-19",
-      "outlets": 2
      }
     ]
    },
-   "news_30d": 54,
-   "news_365d": 190,
+   "news_30d": 61,
+   "news_365d": 198,
    "latest_news": {
-    "title": "IECM, 2025년 주민참여예산협의회 통계분석 발표",
-    "title_original": "Presenta IECM análisis estadístico de la Consulta de Presupuesto Participativo 2025",
-    "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZmJBNXhKMFhQS1JfbGhXWnhmdDVLa1E5Z1JRLThYLVBVZWxzOFIyY25naHZyUVhRWkJnQXpNZzEwc1dlTXNEWE5JcDhjQ3BvMV9pXzdpaDB5a3l1cGhhdWNuRldsdW1MdW5TMTdJZDFqLVFSZjdGdXpROHFLeWUtb0Vrd3IxbTJuRWx4LTE4VS1pZUVHT3pTWUllekNkZzRzRWhsYlVaWjZfM2ZVVTdv?oc=5",
-    "source": "Revista Zócalo"
+    "title": "그들, Camargo의 참여예산 중 1,300만 페소를 거리 재활에 할당할 것을 제안",
+    "title_original": "Proponen destinar los 13 millones de pesos del presupuesto participativo de Camargo a rehabilitación de calles",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxNVlBwams5UEdhQ1RIY25qbVNlZlRrTjE5cEMwZWF2RHNuQkRIaWRQZm9OalRSUFZ6bjFTNGh0NG90ZnF6cHBDTUpqWGl5NmliUGdRdE54ZVJFVjR0S0xBcExyUzhNbFdRS0JBenlqYkRRQjA5eUpvdXFLUldvNVNBTjdnZFNuT1YwdldMdGRMZ1lEZm54MFZYR2dKMGpPR2ZyQmQ3clk1VHM1clZ0cDRSeUllWEI1b3k5TFdENG05cGQtb1NYYlJRelhHcFk0OURETTNTWi1xR2hpU29reXB0YUQxQzg?oc=5",
+    "source": "Impacto Noticias"
    },
-   "activity_date": "2026-11-19",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 0,
     "participedia_verified": 0,
@@ -3211,9 +3225,9 @@
    "seed_status": "documented",
    "press": {
     "confirmed": true,
-    "stories": 17,
+    "stories": 19,
     "multi_outlet": 0,
-    "stories_12m": 20,
+    "stories_12m": 22,
     "multi_outlet_12m": 0,
     "months_12m": 8,
     "last": "2026-11-13",
@@ -3242,8 +3256,8 @@
      }
     ]
    },
-   "news_30d": 7,
-   "news_365d": 20,
+   "news_30d": 9,
+   "news_365d": 22,
    "latest_news": {
     "title": "참여예산 및 주민 자치 위원회 선거에 대한 디지털 참여, 80% 증가",
     "title_original": "La participación digital en las elecciones del Presupuesto Participativo y los concejos vecinales creció 80%",
@@ -4001,12 +4015,12 @@
    "seed_status": "verified",
    "press": {
     "confirmed": true,
-    "stories": 175,
-    "multi_outlet": 31,
-    "stories_12m": 231,
-    "multi_outlet_12m": 38,
+    "stories": 179,
+    "multi_outlet": 33,
+    "stories_12m": 235,
+    "multi_outlet_12m": 40,
     "months_12m": 12,
-    "last": "2026-11-19",
+    "last": "2026-11-20",
     "window_days": 183,
     "evidence": [
      {
@@ -4032,16 +4046,16 @@
      }
     ]
    },
-   "news_30d": 89,
-   "news_365d": 300,
+   "news_30d": 91,
+   "news_365d": 306,
    "latest_news": {
-    "title": "완도군, '주민참여예산위원회' 출범...재정 운영 투명성 높인다",
-    "title_original": "완도군, '주민참여예산위원회' 출범...재정 운영 투명성 높인다",
-    "date": "2026-11-19",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93WXhQbmUyc0ZrNDJFUkw5X1JhRF9LVHVvb1doZFBiM1dhUHNkSS1fMzF2YTBkMUUwYVp1V1g0UG9WNHFVbUdMcGk2X1lBMWQ3QV9vMHF4ZXV3YjZRY05Sdg?oc=5",
-    "source": "메트로신문"
+    "title": "경기도의회 성기황 의원, 주민참여예산 축소와 청소년 지원사업 일몰 비판",
+    "title_original": "경기도의회 성기황 의원, 주민참여예산 축소와 청소년 지원사업 일몰 비판",
+    "date": "2026-11-20",
+    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5KVzhsbENxY0hpVGhGb0x0MHJZV0k3cWg2TXQxdHpMb2xDa3RYc2dfb2FfdEN3dFlKRmZYeTlMeWNzMG5OX2ZqSWdpZ2xaVUZGcWlEOG85dGw0RHFWUklKVmx6ZVVxa2tDdFBwWVdXcXZOUQ?oc=5",
+    "source": "웹이코노미"
    },
-   "activity_date": "2026-11-19",
+   "activity_date": "2026-11-20",
    "registry": {
     "participedia": 2,
     "participedia_verified": 0,
