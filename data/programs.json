@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-21T02:19:43.753935+00:00",
+ "updated_at": "2026-11-22T01:22:06.883549+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-21T02:19:43.753935+00:00",
+    "checked_at": "2026-11-22T01:22:06.883549+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -281,7 +281,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-21T02:19:43.753935+00:00",
+    "checked_at": "2026-11-22T01:22:06.883549+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -732,6 +732,12 @@
    "cases": [],
    "related_news": [
     {
+     "title": "IECM, 2025년 주민참여예산제도 설문조사 통계 분석 발표",
+     "date": "2026-11-21",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOd0xNQzUtOXRsTjUtTlNHelZvcElLZ1pMQjZwc1JYUFBFMDk2LXJ4WkpiWFViX3dGa0pEWE9HSTZVRHRhZ0RsZ21zZ09VU0F6a0V6QU5LYmR1NTNQeGxqR1kyZlhVN1pibXV5b3dybE9YSXdfejJoaXh1WlFBemdTamtORmZVdm9aS3pPeWhTd0llZHB1ZnVNb1NrQVozRHdQSW9lRENZWVJFOGRuMGRoeENUMA?oc=5",
+     "source": "Hoja de Ruta Digital"
+    },
+    {
      "title": "IECM, 2025년 주민참여예산협의회 통계분석 발표",
      "date": "2026-11-19",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOZmJBNXhKMFhQS1JfbGhXWnhmdDVLa1E5Z1JRLThYLVBVZWxzOFIyY25naHZyUVhRWkJnQXpNZzEwc1dlTXNEWE5JcDhjQ3BvMV9pXzdpaDB5a3l1cGhhdWNuRldsdW1MdW5TMTdJZDFqLVFSZjdGdXpROHFLeWUtb0Vrd3IxbTJuRWx4LTE4VS1pZUVHT3pTWUllekNkZzRzRWhsYlVaWjZfM2ZVVTdv?oc=5",
@@ -742,15 +748,9 @@
      "date": "2026-11-19",
      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPZzZuQklXYmdVUF9XY1VTOVdTNjZYcmtidVc4QVNqMG1kWDBGaFJ5TjhLaXVTS3Q3Tkx5ZmQxYmI2Zmx2TjA0Rk1DNE45WWgzb0JJeVotSHFJMW1rTUNhbjlsQWh0aERud3huN2t2S2lTRUFnTHZtQl9lVlZLMGx3RVdJNVRUcDdlOWN0b1JyVDdhamxoU2pZM012dk83cXF5UC1IY21wUkljWnJlMXhxMXN1Y3kyMl9ONUEtTGFCMmNQQzhkblBLdVg0Q21sOWdoRzV5c1puRXZ5cHNjcENRVw?oc=5",
      "source": "La Crónica de Hoy"
-    },
-    {
-     "title": "IECM, 2025년 주민참여예산협의회 통계분석 발표",
-     "date": "2026-11-19",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPaElwTGRlWjdmTGZ6V2VqeVlOYXg3STItY3VXd01ncV93UGJNOGk5N3B4LWFuN3NVdVRSX2NqN1FEVGhobDNESnJTMmJHaUdZX1NNT1BtR0VyX0RZY3IwMER3djRuOE1JZWpQenBlZU9HT0t2eEZDel9CallFaUpFS2dKbTh4MkVsaVY0cW9QcDZsemZDUEI2dlBXWG1tLXRacnBtMF9Ndw?oc=5",
-     "source": "IECM"
     }
    ],
-   "latest_signal_date": "2026-11-19"
+   "latest_signal_date": "2026-11-21"
   },
   {
    "id": "per-san-borja-2026",
@@ -1254,25 +1254,25 @@
    "cases": [],
    "related_news": [
     {
-     "title": "참여예산 포츠담: 두 번째 주택세 인상 및 임대료 모니터가 높아졌다",
-     "date": "2026-11-18",
-     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxPWWtRZ0xGRE4wTDgyQThhN2NEMUpwRUc5VS05M1RaNDdYWEthVi1wY25HT1lIZGNTM0FqQjd3UzJXRjlPbnAyLWxyYmJxb3IxdVQwQUVDcnZ5TEFCSEZZY2JUYUFnZzVYX01uVm4yc3ZEMGx4V2E5R0RLSVM5bVJtTl9sRTloTmxDMnVDeWZjWXoxX2p5VTRlTWdHcTVfZE9vX2RiQkJLOUZYNUhYaWpkR1FoMk5GdVBiNXB4dmc2TVZuQ05DTDdMa3pEMkNMTHhyUW9RWWNwN045VWRJRWFYSDZ3?oc=5",
-     "source": "Tagesspiegel"
+     "title": "슈반 시민예산: 어떤 프로젝트가 실행되나요?",
+     "date": "2026-11-21",
+     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRDBaWlY2T1JIeXhKU1BNdWE2STU1amJuQ0dBSjBRZ0t3UG8zTFAyVXhGSkVHaWVlUzRrdVVKUWhWdVpXUGtMWmxJSEpXbGxlSmRpbXo1a29wSGtwT2VOR2FiZ3M1cGN3cHZBM2hfZVpZSW1MNkw2X2NwM0ZJT1pzS2pHMk0zY0xZRHRoajFua0h5VHJOVTlvMmtCT1BGOXdsU1M2SHkxRnpxTmNtb0x4cHJ1Tl9UMmlZQkJMaXFlZXZSUnZoa0tqaGtmNm1wandGX203MmZuc1VsSHBz?oc=5",
+     "source": "NDR.de"
     },
     {
-     "title": "모두가 만족하나요? 얀스도르프에서 시민예산이 동결된 이유는 무엇인가요?",
-     "date": "2026-11-13",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNU21IQnN0aWg3QnJhMlJwN2RnR0V1M2NzWExZdTJadGtCV29LZVF2Z25pLTJPN2dMRzFVVGt0X1FxTWhOc25nSG1FbW1PbnlIbEFYUHY1bVZ6bFFYN3pjallBV3ZVNUZObDlidm1fNExDTlpzZHBFN0s1NUkzMGVKZXRuZVgzRjEtNzN3QXpFTnd0OUJmdFZRdEpUZDZsWXByNzZ3VDB2XzhoQjhMSFU3OUVKdjZwRGpfVlpNREoxSm5ISGlQWW1Bb0lISUpudHF3OFltaHRjaFV2QQ?oc=5",
-     "source": "Freie Presse"
+     "title": "슈반 시민예산",
+     "date": "2026-11-21",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjJ0VkoxU2VwUDFxZjhrSW1qaldlYnVWcVdkTm5BZnAxRlhBejJmbE5KVGEtMVJLaTJrd2d2SWZaeUdCSkdqWE80UEF1RVdRSWp0QXFiQWdzcHlkRjJDTDBoVVhOR1VQWnVmRFZ1cjlZbDBuUVNQMzdmZHQtTmNmam1NTng0WGg4TkYxREJ1RlMxSzRVeU8wRkg4R3A0YVNPbHk5M183Yw?oc=5",
+     "source": "NDR.de"
     },
     {
-     "title": "스프렘베르크에서 시민예산 관리 그룹, 공개 회의를 개최",
-     "date": "2026-11-05",
-     "url": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQMUdQNFQ5cE9iVFFGTVBYQXB6c2JDNG5CbTUzZVZOU3NSSTVfek1mTlBwX2VQQUVqT3lRSFFzS3BiaWM0d2ZkSGhCTUxvM2tuYVlKWUozRWtXeVBaWG5ka2MzT0Y5LTY5emItRS1VRlVBTVFPMy0zUXljWmFwY3hBUGpSRXpzMHN6VjZsYUZPbmFEems1d05OZWF2anJQRmNZMWhJc0ZPY1pKcHZkOTE1VmFmRk1GUDBaOGNWNVhvVWpkRVdYdUYyOGtiSWdudERqLURWcG8yT3lTSTdocVVfVUMyUHJrWVpPXzA5dGNrSm1FSXYzbVRZNC1BSWwxNmtDalBJbXZn?oc=5",
-     "source": "NIEDERLAUSITZ aktuell"
+     "title": "인공지능, 전문가 및 시민예산이 있는 기업가들의 밤",
+     "date": "2026-11-21",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNFIyYjN4UDBLbEU5UWpEYWg4U0RlaWVhajBfVThtN3hjaGM5UXkwaW54MDRiVVB2RmhVZlJzQ0hZMF9maDFIY1pJdEcxQnFYVGx4WHgtTWpvN2RMTzRQRDluaHVjbjBYVUxseDFEQllxeDBlQVNqNVQ2NnZVSHc3eUJ1UjkweWF2UVFITG1XZHYtZDEteTJHdlNyYXcwWGJ4WDRlUmM3QUpESzg0MGszRU5vQ2RuNlB5WWFXXy0wbnRQZw?oc=5",
+     "source": "Nordkurier"
     }
    ],
-   "latest_signal_date": "2026-11-18"
+   "latest_signal_date": "2026-11-21"
   },
   {
    "id": "ita-school-pb",

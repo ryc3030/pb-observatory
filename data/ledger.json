@@ -1,5 +1,115 @@
 [
  {
+  "key": "news:DEU:49d4f4b7be83fb",
+  "date": "2026-11-22",
+  "iso3": "DEU",
+  "type": "뉴스 신호",
+  "label": "독일",
+  "text": "슈반 시민예산: 어떤 프로젝트가 실행되나요?",
+  "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRDBaWlY2T1JIeXhKU1BNdWE2STU1amJuQ0dBSjBRZ0t3UG8zTFAyVXhGSkVHaWVlUzRrdVVKUWhWdVpXUGtMWmxJSEpXbGxlSmRpbXo1a29wSGtwT2VOR2FiZ3M1cGN3cHZBM2hfZVpZSW1MNkw2X2NwM0ZJT1pzS2pHMk0zY0xZRHRoajFua0h5VHJOVTlvMmtCT1BGOXdsU1M2SHkxRnpxTmNtb0x4cHJ1Tl9UMmlZQkJMaXFlZXZSUnZoa0tqaGtmNm1wandGX203MmZuc1VsSHBz?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:PRT:2429a138c360c4",
+  "date": "2026-11-22",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "수몰 마을의 기억을 되살리, 프로젝트가 페헤이라 두 제제레(Ferreira do Zêzere) 주민참여예산 사업으로 선정",
+  "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxQRzNTbjFxUE10RVYtN2JKbDViYnB1WlE4U2tFZnVvbEJKc1VIRWpNd25ZMmtqQngyM3pvallraTQ5MElVSG4xVnhlbHUwS2pzcUsxNGtxclNvZy1iUGUxcnVOQW1EdnhWeGhhMElsSHd0dkdfakl2ZU02NlJnMGhEN0RsTjRNQ1MzWmdxMDNMbzQxQ0NGd0RRZVI5MWZEcHprQWhrSW8zMlNZR3QzYVNXYVJycHlxdWxKWVhTWE16QjZyNjdRcjZFdENmRDZpQ0VBVC02cVZKMEFPdTh3eW1RdjBvWXFibHpsUXc?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:ESP:638c8e1748a415",
+  "date": "2026-11-22",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "알메나라, 2027년 투자 제안을 결정하기 위한 주민참여예산제를 개시",
+  "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOTzI1Z0ljMzBMS3dDb0N3YW9La242NFh2ZW9zYldWMW9zR0JtcFlxM2F5M0lRZkc2NnA1c2pCeElnUWNMMENNdXFPcEU5SG1QTXdBR0xZUWpkeUxRYXE4dS1OMkI4cnVXSDMyRWpyUjN0anU3U0t1VFZJcEpoVmZlMFo3cmh2S2lYclIxWGpsVUx0cF9SRG01azhGa3cxX2pucGg4YXhUdnJzclV2elhKN3A1V3JnNTdLNm93TTdzMnNMcVFVZHp1WWl1eUZ4WlpXNVRXejVSREM?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:ARG:e02b3723f69e1a",
+  "date": "2026-11-22",
+  "iso3": "ARG",
+  "type": "뉴스 신호",
+  "label": "아르헨티나",
+  "text": "2026년 주민참여예산 270개 사업에 대한 자재 및 장비 납품",
+  "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOSFp6UEktMzJoYjFIc1VobHNodjlTZV81c3V0bjNwLUszSVRqcUduSWcwa010TURJSVdRR0JXOHlVVXVtcHpnS1Zfb0c1QzR3NDNxSFh1YmhyNDVxUTRUVlJZbnNpS01BaXlBakFEZmI1U1hBYk1ncE9vOUx6YzRXSkgtVGRxbzd2WTZYMTdrYTlLdVczTlprMzRqVnJyVlFabG9SRkhrcWNHUXlNSUZIZDRsMVdaaHVnM3FVVWhNRXpMNEFFVEpUQ0hXVTRGWXk2?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:COL:38928b7f7a8d60",
+  "date": "2026-11-22",
+  "iso3": "COL",
+  "type": "뉴스 신호",
+  "label": "콜롬비아",
+  "text": "참여예산의 지원을 받아 푸사가수가의 노르테 자치구 올림픽 개막",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE00czMxNy1lWEhZY1U1WDJKNGZpQXZXSGtHOFd6U0pWaWdSQmFkMWJwWjJLNWp4MzBsTUVwX01DR3VPVDQ5M3MzT19teUE4U3BUcmdGakhEZ185TG5SdUVYZURrdlBfdDZ4RU1iRm9Rb0twSkh4Qnc?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "reported:ECU:2026-11-22",
+  "date": "2026-11-22",
+  "iso3": "ECU",
+  "type": "보도 확인",
+  "label": "에콰도르",
+  "text": "에콰도르: 최근 6개월 보도로 참여예산 운영 확인 — 2026년 쿠엥카 주민참여예산: 11월 16일부터 22일까지 제안 접수",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORGE2YWNuSEgwTzBLLWJIUjJHSllSMDRNRmdCU1RHbEQwQWxILXdRQk1HRjN5cW9EYllwMUFNMWpubDVRaHFQLU05STRQYXdpSXQtM3FQRVNMV19EQzBuOTZILU9DcXVaWEt3aDhjWk5GR3NpOTF5Rm5WaFNyOTN5Nm1sRFlpQQ?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:ECU:9469d57fcea5ed",
+  "date": "2026-11-22",
+  "iso3": "ECU",
+  "type": "뉴스 신호",
+  "label": "에콰도르",
+  "text": "2026년 쿠엥카 주민참여예산: 11월 16일부터 22일까지 제안 접수",
+  "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxORGE2YWNuSEgwTzBLLWJIUjJHSllSMDRNRmdCU1RHbEQwQWxILXdRQk1HRjN5cW9EYllwMUFNMWpubDVRaHFQLU05STRQYXdpSXQtM3FQRVNMV19EQzBuOTZILU9DcXVaWEt3aDhjWk5GR3NpOTF5Rm5WaFNyOTN5Nm1sRFlpQQ?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:MEX:2d6c47a151e044",
+  "date": "2026-11-22",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "두랑고 주민들, 주민참여예산을 통해 거주 지역과 커뮤니티를 위한 사업을 결정",
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOOWdNemtvVUczVHQyeUd4V1FwdGVrdkpUMUlEcFh3S1Nfc3VXdjdzRWZOY3BwS3kya3Y3SDFScDh5Z2RVMDZzbzg5VE1LekNqOU1uaWVpZlZqRGh6OXpERk9UN3Q1RldnR3VRWXE3UXJBZ2hwNURySXZ5U09hTk5yNW1xX2FhdGk4S00tQWxFc2FRTnhpM1pHdWhaZFQ1SHVOQ3dnMlc1THdoaDVRS3FwLUZPNkFUaUpVeTNyV05aM0ZpV0piSjlMaE9tYXVmTjdDZFZIblhVRQ?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:KOR:35a2104954a204",
+  "date": "2026-11-22",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "성기황 경기도의원, 주민참여예산 대폭 축소 및 청소년 사업 일몰 비판 > 뉴스",
+  "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE11dTNXRjBIckFfMHdUR3lPTUhFenQ2Y0Zoc0E2Zmgxa3hxZi11MnU5WDZNUUNRMGNuNVJ3cm4zT0VvcUN2a3M1MXRRMA?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "news:UKR:00749a758c6069",
+  "date": "2026-11-22",
+  "iso3": "UKR",
+  "type": "뉴스 신호",
+  "label": "우크라이나",
+  "text": "로멘스카 공동체에 학교 공동체예산 도입",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5wdmwxRXV1eEtiSUFBdm9la0pMcmdCOEVZLTZoQmlfQWhlTDNzOEJKZklYZi1vNjB6bEtvVHJ5UzlwZWN2S2kzM2FNNzM0V0NUTmptYkFRRS1iU3p5c2pWbERB?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "paper:doi:10.4324/9781003769095-13",
+  "date": "2026-11-22",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Routledge eBooks",
+  "text": "현지화를 위한 지속 가능한 지역 거버넌스",
+  "url": "https://doi.org/10.4324/9781003769095-13",
+  "observed_at": "2026-11-20"
+ },
+ {
   "key": "paper:doi:10.18572/2500-0349-2026-4-20-25",
   "date": "2026-11-21",
   "iso3": null,

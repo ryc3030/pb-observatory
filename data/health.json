@@ -5,9 +5,9 @@
   "queries_ok": 27,
   "queries": 27,
   "backfill_months": null,
-  "added": 119,
-  "total": 2406,
-  "checked_at": "2026-11-21T02:19:43.753935+00:00",
+  "added": 65,
+  "total": 2450,
+  "checked_at": "2026-11-22T01:22:06.883549+00:00",
   "languages": [
    "cs",
    "de",
@@ -34,53 +34,53 @@
    "uk",
    "zh"
   ],
-  "last_success_at": "2026-11-21T02:19:43.753935+00:00"
+  "last_success_at": "2026-11-22T01:22:06.883549+00:00"
  },
  "papers": {
   "name": "학술 DB (OpenAlex·Crossref)",
   "ok": true,
-  "fetched": 300,
+  "fetched": 299,
   "by_source": {
    "OpenAlex": 193,
-   "Crossref": 107
+   "Crossref": 106
   },
-  "total": 228,
-  "checked_at": "2026-11-21T02:19:43.753935+00:00",
+  "total": 229,
+  "checked_at": "2026-11-22T01:22:06.883549+00:00",
   "error": null,
-  "last_success_at": "2026-11-21T02:19:43.753935+00:00"
+  "last_success_at": "2026-11-22T01:22:06.883549+00:00"
  },
  "build": {
   "name": "일일 빌드",
   "ok": true,
-  "checked_at": "2026-11-21T02:19:43.753935+00:00",
-  "last_success_at": "2026-11-21T02:19:43.753935+00:00"
+  "checked_at": "2026-11-22T01:22:06.883549+00:00",
+  "last_success_at": "2026-11-22T01:22:06.883549+00:00"
  },
  "participedia": {
   "name": "Participedia 사례 레지스트리",
   "ok": true,
   "fetched": 240,
   "total": 240,
-  "checked_at": "2026-11-21T02:19:43.753935+00:00",
+  "checked_at": "2026-11-22T01:22:06.883549+00:00",
   "error": null,
-  "last_success_at": "2026-11-21T02:19:43.753935+00:00"
+  "last_success_at": "2026-11-22T01:22:06.883549+00:00"
  },
  "pabulib": {
   "name": "Pabulib 투표 기록 DB",
   "ok": true,
   "fetched": 851,
   "total": 851,
-  "checked_at": "2026-11-21T02:19:43.753935+00:00",
+  "checked_at": "2026-11-22T01:22:06.883549+00:00",
   "error": null,
-  "last_success_at": "2026-11-21T02:19:43.753935+00:00"
+  "last_success_at": "2026-11-22T01:22:06.883549+00:00"
  },
  "decidim": {
   "name": "Decidim 공식 플랫폼 API",
   "ok": true,
   "fetched": 2,
   "total": 2,
-  "checked_at": "2026-11-21T02:19:43.753935+00:00",
+  "checked_at": "2026-11-22T01:22:06.883549+00:00",
   "error": null,
-  "last_success_at": "2026-11-21T02:19:43.753935+00:00"
+  "last_success_at": "2026-11-22T01:22:06.883549+00:00"
  },
  "gdelt": {
   "name": "GDELT DOC 2.0 (하루 1회 요청)",
@@ -102,8 +102,8 @@
   "queries": 6,
   "added": 21,
   "total": 29,
-  "checked_at": "2026-11-21T02:19:43.753935+00:00",
+  "checked_at": "2026-11-22T01:22:06.883549+00:00",
   "error": null,
-  "last_success_at": "2026-11-21T02:19:43.753935+00:00"
+  "last_success_at": "2026-11-22T01:22:06.883549+00:00"
  }
 }

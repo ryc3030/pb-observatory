@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-21T02:19:43.753935+00:00",
- "count": 228,
+ "updated_at": "2026-11-22T01:22:06.883549+00:00",
+ "count": 229,
  "items": [
   {
    "id": "doi:10.18572/2500-0349-2026-4-20-25",
@@ -30,6 +30,32 @@
    "title_ko_mt": "옴스크(Omsk)의 사례를 통해 참여 예산 참여의 지속 가능한 모델 식별"
   },
   {
+   "id": "doi:10.4324/9781003769095-13",
+   "title": "Sustainable Local Governance for Localisation",
+   "authors": [
+    "Lotfi Kaabi"
+   ],
+   "venue": "Routledge eBooks",
+   "published_at": "2026-11-20",
+   "doi": "10.4324/9781003769095-13",
+   "url": "https://doi.org/10.4324/9781003769095-13",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This chapter examines why SDG (Sustainable Development Goal) localisation at municipal scale often produces reporting sophistication without operational consequence. Voluntary Local Reviews, participatory budgeting, and digital twins proliferate while budgeting, procurement, and permitting routines remain largely unchanged. The chapter argues that citizen and stakeholder participation becomes institutionally conseque",
+   "source": "OpenAlex",
+   "type": "book-chapter",
+   "concepts": [
+    "Local Governance and Planning",
+    "Local Government Finance and Decentralization",
+    "Public Policy and Administration Research"
+   ],
+   "first_seen": "2026-11-22",
+   "title_ko": "현지화를 위한 지속 가능한 지역 거버넌스",
+   "_tr_tried": true,
+   "title_ko_mt": "현지화를 위한 지속 가능한 지역 거버넌스"
+  },
+  {
    "id": "doi:10.69733/clad.ryd.n96.a934",
    "title": "Understanding the Failure of Participatory Budgeting",
    "authors": [
@@ -44,7 +70,7 @@
    "url": "https://doi.org/10.69733/clad.ryd.n96.a934",
    "open_access": true,
    "lang": "en",
-   "cited_by": 0,
+   "cited_by": 1,
    "abstract_snippet": "Participatory budgeting (PB) has become the most widespread democratic innovation in the world, yet research has long focused on successful cases rather than on failures. This study addresses the gap with a configurational analysis of PB termination in Central Europe. Drawing on the literature, we identify five types of factors that contribute to PB failure and consolidate them into three conditions: political-bureau",
    "source": "OpenAlex",
    "type": "article",
@@ -1381,7 +1407,7 @@
    "url": "https://doi.org/10.36704/ppp.v19i37.10007",
    "open_access": true,
    "lang": "pt",
-   "cited_by": 0,
+   "cited_by": 1,
    "abstract_snippet": "O Orçamento Participativo (OP) é um mecanismo de gestão democrática que permite à população influenciar diretamente a alocação de recursos públicos. Este artigo analisa a concentração de projetos na área de Mobilidade Urbana e Urbanizações no Orçamento Participativo (OP) de Teresina-PI, evidenciando a defasagem histórica das políticas públicas de infraestrutura. Com base em dados do OPA 2024-2025, demonstra-se que ma",
    "source": "OpenAlex",
    "type": "article",
@@ -2776,7 +2802,7 @@
    "url": "https://doi.org/10.56712/latam.v7i2.5564",
    "open_access": true,
    "lang": "es",
-   "cited_by": 2,
+   "cited_by": 3,
    "abstract_snippet": "La investigación tuvo como objetivo principal analizar la relación entre la ejecución del presupuesto participativo y la eficacia de la gestión pública en el GADMSE[1] durante 2024. El estudio se desarrolló bajo un enfoque cuantitativo con diseño no experimental, transversal y de alcance descriptivo–correlacional. La población estuvo conformada por 39 funcionarios vinculados al proceso de formulación, ejecución y seg",
    "source": "OpenAlex",
    "type": "article",
