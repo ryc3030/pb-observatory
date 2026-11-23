@@ -1,13 +1,13 @@
 {
- "updated_at": "2026-11-22T01:22:06.883549+00:00",
+ "updated_at": "2026-11-23T01:46:21.548787+00:00",
  "version": "4.0",
  "counts": {
   "countries": 92,
   "programs": 39,
-  "news": 2450,
-  "papers": 229,
-  "ledger": 148,
-  "news_added_today": 65,
+  "news": 2490,
+  "papers": 233,
+  "ledger": 156,
+  "news_added_today": 61,
   "cases": 240,
   "elections": 851
  }

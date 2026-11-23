@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-22T01:22:06.883549+00:00",
- "count": 229,
+ "updated_at": "2026-11-23T01:46:21.548787+00:00",
+ "count": 233,
  "items": [
   {
    "id": "doi:10.18572/2500-0349-2026-4-20-25",
@@ -301,6 +301,34 @@
    "title_ko": "저소득층의 의료비 지출에 대한 선호도 공개: 케냐의 카운티 예산 참여 증거",
    "_tr_tried": true,
    "title_ko_mt": "저소득층의 의료비 지출에 대한 선호도 공개: 케냐의 카운티 예산 참여 증거"
+  },
+  {
+   "id": "doi:10.14488/cneg2026_cneg_pt_086_0705_23984",
+   "title": "Da regra ao dado real: a primeira aplicação assistida da metodologia de Gestão do Investimento Público (GIP) do Piauí",
+   "authors": [
+    "Tom Munique Marques Morais",
+    "RENAN JAVIAN NECO DE SOUSA",
+    "GABRIELA CELSO MELO SOARES DE VASCONCELOS",
+    "MARCIO JOUBERT DE SOUSA SAMPAIO"
+   ],
+   "venue": "Congresso Nacional de Excelência em Gestão",
+   "published_at": "2026-11-14",
+   "doi": "10.14488/cneg2026_cneg_pt_086_0705_23984",
+   "url": "https://doi.org/10.14488/cneg2026_cneg_pt_086_0705_23984",
+   "open_access": false,
+   "lang": "pt",
+   "cited_by": 0,
+   "abstract_snippet": "Este artigo descreve o modelo técnico da Metodologia de Gestão do Investimento Público (GIP) do Piauí e examina seu desempenho na primeira aplicação assistida: um piloto controlado entre a Secretaria de Estado do Planejamento e a Secretaria das Cidades (SECID) sobre 42 ações do Orçamento Participativo Aberto 2025/2026. Trata-se de estudo de caso único, descritivo e documental, de abordagem qualitativa, baseado no dec",
+   "source": "OpenAlex",
+   "type": "conference-paper",
+   "concepts": [
+    "Public Policy and Governance",
+    "Public Policy and Administration Research",
+    "Public Procurement and Policy"
+   ],
+   "first_seen": "2026-11-23",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.1146/annurev-publhealth-062325-064813",
@@ -702,7 +730,7 @@
    "open_access": false,
    "lang": "en",
    "cited_by": 0,
-   "abstract_snippet": "연구 목적: AI 증강형 참여예산에서 시민 목소리의 변환과 민주적 통제를 설명하는 제도설계 프레임워크를 제시한다.연구 방법: 후보자료 60건 중 학술문헌 30편을 원문 단위로 코딩하고, 고전 이론 10편과 국내외 사례 5건을 비교하며 지지 결과와 반대 결과를 대조하였다. 관련 법령과 주민참여예산 조례도 검토하였다.연구 내용: 원입력이 표현 지원, 분류, 요약, 숙의 지원, 선호 추론·추천, 집계·배분으로 이어지는 경로와 다차원 위험 요인을 분석하였다.결론 및 제언: 위험은 자율성뿐 아니라 과업 유형, 수정 가능성, 가역성, 데이터 민감성, 배분 영향, 제도적 권한의 결합으로 진단할 필요가 있다. 원입력과 변환 이력 보존, 소수·비판적 관점의 가시성, 집계 규칙 민감도 점검, 이유 제시와 재검토, 실질적 인간 결정권을 위험 수준에 맞추어 결합할",
+   "abstract_snippet": "This study develops an institutional design framework for citizen voice transformation and democratic control in AI-augmented participatory budgeting. Thirty academic sources were coded from 60 candidates and examined alongside 10 classical theoretical works and five domestic and international cases, with supporting and contrary findings compared. Relevant statutes and a participatory budgeting ordinance were also re",
    "source": "OpenAlex",
    "type": "article",
    "concepts": [
@@ -1277,6 +1305,31 @@
    "title_ko_mt": "참여예산제에서의 기관 행동 모델: 자원 의존성 관점"
   },
   {
+   "id": "doi:10.5281/zenodo.24411710",
+   "title": "COMPETITIVE PROCUREMENT, PARTICIPATORY BUDGETING, AND PERFORMANCE MEASUREMENT AS LEVERS OF BUDGET SPENDING EFFICIENCY IN UZBEKISTAN",
+   "authors": [
+    "Akmaljon Anvarjon o'g'li Sodiqov"
+   ],
+   "venue": "MUHANDISLIK VA IQTISODIYOT",
+   "published_at": "2026-09-05",
+   "doi": "10.5281/zenodo.24411710",
+   "url": "https://doi.org/10.5281/zenodo.24411710",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "This thesis examines three mechanisms for improving the efficiency of budget spending in Uzbekistan: competition in public procurement, citizen participation through the Initiative Budget, and performance measurement of spending units. Recent public procurement data, the scale of direct contracting by state-owned enterprises, and the results of the 2025 Initiative Budget are analysed. The author estimates the gap bet",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Public Procurement and Policy",
+    "Economic and Fiscal Studies",
+    "Local Government Finance and Decentralization"
+   ],
+   "first_seen": "2026-11-23",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
    "id": "doi:10.1145/3794786.3830735",
    "title": "Fair Feed Ranking for Participatory Budgeting",
    "authors": [
@@ -1783,6 +1836,32 @@
    "title_ko": "참여예산의 공간화: 주택 정책 게임에서 지자체 촉진자 테스트",
    "_tr_tried": true,
    "title_ko_mt": "참여형 예산 편성의 공간화: 주택 정책 게임에서 지자체 촉진자 테스트"
+  },
+  {
+   "id": "oa:W7221301107",
+   "title": "Les ateliers « Notre idée pour un·e chercheur·e », Parcours 2 : Participation citoyenne : l'idéal démocratique au contact du réel",
+   "authors": [
+    "Lionel Maillot",
+    "Frédéric Naudon"
+   ],
+   "venue": "HAL",
+   "published_at": "2026-06-29",
+   "doi": null,
+   "url": "https://hal.science/hal-05759119v1",
+   "open_access": true,
+   "lang": "fr",
+   "cited_by": 0,
+   "abstract_snippet": "Animé par Marie Péquignot, et Bastien Vergoni. Concernant la participation citoyenne dans les sciences et la culture, ainsi que les sciences et recherches participatives (jurys, budgets participatifs, sciences participatives et co-conception, …), plusieurs questions se posent : quels sont les freins à l'engagement et à la participation, et qu'est-ce qui permet d'agir plutôt que de rester simple spectateur ? Pourquoi ",
+   "source": "OpenAlex",
+   "type": "conference-paper",
+   "concepts": [
+    "Political Theory and Democracy",
+    "French Territorial Governance",
+    "Innovative Approaches in Technology and Social Development"
+   ],
+   "first_seen": "2026-11-23",
+   "title_ko": null,
+   "_tr_tried": false
   },
   {
    "id": "doi:10.60746/8_19_48014",
@@ -2620,7 +2699,7 @@
    "open_access": true,
    "lang": "pt",
    "cited_by": 0,
-   "abstract_snippet": "Este estudo analisa o papel do Orçamento Participativo Digital (OPA) como instrumento de fortalecimento da democracia participativa no estado do Piauí, buscando compreender como essa iniciativa reconfigura a relação entre governo e sociedade civil ao ampliar o acesso às decisões públicas por meio de tecnologias digitais. Parte-se da premissa de que a incorporação de ferramentas digitais pode ampliar a transparência, ",
+   "abstract_snippet": "This study analyzes the role of the Digital Participatory Budget (OPA) as an instrument for strengthening participatory democracy in the state of Piauí, Brazil, seeking to understand how this initiative reshapes the relationship between government and civil society by expanding access to public decision-making through digital technologies. It is grounded in the premise that the incorporation of digital tools can enha",
    "source": "OpenAlex",
    "type": "article",
    "concepts": [
@@ -3824,6 +3903,32 @@
    "title_ko_mt": "인도, 중국, 러시아의 참여형(이니셔티브) 예산 제도화에 대한 비교 분석"
   },
   {
+   "id": "oa:W7223545526",
+   "title": "Педагогические условия применения практики школьного инициативного бюджетирования в образовательном процессе",
+   "authors": [
+    "Гордиенко Татьяна Петровна",
+    "Макуха Юлия Николаевна"
+   ],
+   "venue": "Проблемы современного педагогического образования",
+   "published_at": "2026-01-01",
+   "doi": null,
+   "url": "https://cyberleninka.ru/article/n/pedagogicheskie-usloviya-primeneniya-praktiki-shkolnogo-initsiativnogo-byudzhetirovaniya-v-obrazovatelnom-protsesse",
+   "open_access": true,
+   "lang": "ru",
+   "cited_by": 0,
+   "abstract_snippet": "The article is devoted to the actual problem of integrating the mechanisms of civil participation into the school educational environment through the practice of school initiative budgeting (SIB). The potential of SIB as a pedagogical tool aimed at the formation of financial and budget literacy, project thinking, civic identity and social responsibility of students is investigated. The purpose of this work is to iden",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Citizenship Education and Democracy",
+    "Educational Practices and Policies",
+    "Values and Moral Education"
+   ],
+   "first_seen": "2026-11-23",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
    "id": "doi:10.2139/ssrn.7592712",
    "title": "Proportionality and Support Monotonicity in Participatory Budgeting",
    "authors": [
@@ -4788,7 +4893,7 @@
    "url": "https://doi.org/10.34739/maj.2025.04.02",
    "open_access": true,
    "lang": "pl",
-   "cited_by": 4,
+   "cited_by": 5,
    "abstract_snippet": "Budżet obywatelski, określany również jako budżet partycypacyjny, jest realizowany w Polsce od 2011 roku. Wówczas po raz pierwszy został wprowadzony w mieście Sopocie. Od tamtej pory mechanizm ten zyskał znaczną popularność i został zaadaptowany przez liczne jednostki samorządu terytorialnego. W 2018 roku nastąpiła istotna zmiana prawna, w wyniku której budżet obywatelski stał się obowiązkowym elementem zarządzania w",
    "source": "OpenAlex",
    "type": "article",

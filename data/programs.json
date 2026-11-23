@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-22T01:22:06.883549+00:00",
+ "updated_at": "2026-11-23T01:46:21.548787+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-22T01:22:06.883549+00:00",
+    "checked_at": "2026-11-23T01:46:21.548787+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -536,6 +536,12 @@
    ],
    "related_news": [
     {
+     "title": "Budżet Obywatelski w Krakowie. O 35,5 tys. mniej głosów papierowych",
+     "date": "2026-11-22",
+     "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNzlRVVFfRUxnRTlRc3kwOTBrT0M2bTRKYzZ3OUJEbXBGWkx6M3dQY0tOX1IxNzdaenZSeU1BNF9tcTBPbl83dnhjTE5LWUlEaWZ6VmlNQWNyRkpKRnVmX3JJSFFFOUd4OE0tTzc1a3hpbmJjeWNmVlFSdXhKN2lraXl5bFNnbEpIUGlqMHd2Wlh0RE1YQU1VT1VJU1pLc2U1Wk0ya1NibjNPei1kYTB6Q3FEQ1BScXRLUkVPRTVYUnF5aW9lS3pLM3lfSWhiQnVtUDRhSDlGNHJYZjVQVDFCa29B?oc=5",
+     "source": "KRKnews"
+    },
+    {
      "title": "공공 의견 수렴: 크라쿠프시 시민예산은 어떻게 변경해야 할까요?",
      "date": "2026-11-06",
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWFNxb3YwOWRORS04RHhfTlFxNkl5bjdQWnhVMkNsVzZOVTV5MnN2UjZrVnpNVnRlMnlleDV0VWIzSEpNTTVtUjdiVFRhY2c4bzQwZE9fMktrcm1fckJMTFE1bTBqNlk0bFd6dnpaTUlBYTBhN0VQdC03S3dWdkc2cnlPNHhhb0E4aVI5V1pZNENqRHdwRGpPTkV2RGNYclo3a1dCSmJEMXFqcWJJY0VEaFNrZkJfNFQyM3hGX3pLWTB1QkFLX3EzN05Idw?oc=5",
@@ -546,15 +552,9 @@
      "date": "2026-08-05",
      "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYW1tdGxHaW9ha3E2UGducndUSWNDUGhpOUhoZFBNanhJMkRpTy1UZDVOMXR1NmlLRFNWeURZSDU4TFd3OFR1UmI0d2Q2dnBVU2p0N0hraVNHT25Gb2RDcHVXM2wxSkh5bXJ5eE1YaExPMlprS28zNmhFdE5xUGNOUGtNYU5mNVgzV1ZteXlRVFgyenYtR1p5dGtuSkV6MWdGV2hzR2NxVEpnSDdZQVZhd2xjdnptNl9STUUxdmFlandBR01fdmpKbnRn?oc=5",
      "source": "Portal edukacyjny"
-    },
-    {
-     "title": "Budżet obywatelski trafi do szkół podstawowych w Krakowie",
-     "date": "2026-05-18",
-     "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOSDAyZ1ZxNFhuOHlyVTg3bW45b1BuWm9jU2N3WlFGWm1rUVU2bVpUM3E3UGZjdHp5RllNMC1uUDNVYjdHMXc3eEtNbnNycHE2YXNJakZKdVdvMU9fWm85NmZDX1FHOE9JN203Vk9lSG1MV0VwSHA1YUJiSnQtRGtoZHpJMUZrN1Jsck5KbGpZbw?oc=5",
-     "source": "TVP Kraków"
     }
    ],
-   "latest_signal_date": "2026-11-06"
+   "latest_signal_date": "2026-11-22"
   },
   {
    "id": "prt-palmela",

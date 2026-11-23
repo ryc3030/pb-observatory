@@ -1,5 +1,85 @@
 [
  {
+  "key": "news:COL:369f113639bac6",
+  "date": "2026-11-23",
+  "iso3": "COL",
+  "type": "뉴스 신호",
+  "label": "콜롬비아",
+  "text": "Bogotá presenta avances de Proyecta Local: ciudadanía conocerá resultados y próximos pasos de Presupuestos Participativos",
+  "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxPNkd4RDJRUmZ3clFzeHFZUGdMOVJlTk95V0NuclJlTnUxOW1YSk5NTE03UnFqYVlTcU5VY3VYNVdzRC12c0dxcVB2UW1tVHpuZy0xeTZKZnEya29JbUdtSTNUUXhmc3FaVVQzc3JZaktJQUIzcDd4Rl9jSm04TTAzTGxjOWFiaWJFdWdhUkw1dFoxYmE0TEd0dC1WUVpjdFNGTElBek9kOVB5QUNsSVMxMjhmLXlMZXlKRUw2SUpsbk4xVTFhUDktZzMwQ1J1MXBDTkNKajZHUnpFWUXSAeABQVVfeXFMUGQtWXkwSE1MaTMtTEQ1NG5Ec3R3bFgwYTcyV3BuRmJGdkY1OHJ6RDFjclItWEJqanltZl9WUURrTi05WEZHRVlMM2pzMUlWeHVfVUVDaWsyMmRnOW05MGtOYmNuUXZXQm9LQTkxM1k5dk00SmU1X0l4am16WjE5aGctTGp4LWxOSjZiS0JQRHQzRU9XSzdnajVheXZGaFhKSkRYaVJiemR1cUNzRjFiQlV5MGx4MUNMTm9xSXQ5ZnJHZ3pHUzg5enlUcU1vSFZpOEtudjBkQjViaWFyVnZZZlg?oc=5",
+  "observed_at": "2026-11-23"
+ },
+ {
+  "key": "news:KOR:e3d4696a7d7d1d",
+  "date": "2026-11-23",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "성기황 경기도의원, 주민참여예산 급감·청소년 지원 축소 질타",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE0xUE5pUFpaV2VQRVFLeTlqSUkxOENRSEdNT0NmUi1VUXJUckRMMmdvX3FWZnVQSml3dm56WTBnMHBXbVctNExUQk9lNlJJRko0NUg3Q1NrRWxCeVZ2QmlFVjZqWjFiMGNvTXVDajdB?oc=5",
+  "observed_at": "2026-11-23"
+ },
+ {
+  "key": "news:CZE:751a5eedd5cbb4",
+  "date": "2026-11-23",
+  "iso3": "CZE",
+  "type": "뉴스 신호",
+  "label": "체코",
+  "text": "Participativní rozpočet v Písku míří do finále. Podpořte svého favorita",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNaE11am9hbFBzb3BtTUl4UzlMS3JJWDZmN0xFTmZGUnV0ckpsWncwV1dwOTZDQTdndWYtSjZTQ0xkb1lhMFVTcmtYYTlnaWJDSzZ5VnNPY3Q5ZkVWX3dza0tHVzRvNmVtSmk5UGNqUGJJcWYxaHE3bGstT0phN21vZ1BqeW9mMHNsOERKNllaWExaR0I5UWVFSkV3X0RtSFVWSndRNU9mQk9uRFVOaEtj?oc=5",
+  "observed_at": "2026-11-22"
+ },
+ {
+  "key": "news:FRA:f8c4e0546a32d6",
+  "date": "2026-11-23",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "Budget participatif à Loudéac : une semaine de plus pour envoyer son dossier",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQR2dkUHFkVnBvYW5GeWI3WkxXdVBtZE01OGpCUWRvZW9BQ0RsSkVNSkJDVGxPRnF3ZmlkalAwaS1lWW8zWU00LU5PdVNlU25LZHZ3dFdiRnNTZ1lwSVlmUG5pVi1iMXU3aGNZVmY0V2dFeTVnZ20zM1c1a3dKZXVTc0pBTGJsOHlNd0RxeXdNY2RyLWdaczZLUUdqOVFnc0dZNFdiTDd6SlV0R2xOZEUzQjhWUUhKRGU4YXMtenBRb3lUMFNudkdILTFpOHpaTVBVMXNtWTc5WWY0UQ?oc=5",
+  "observed_at": "2026-11-22"
+ },
+ {
+  "key": "news:POL:b19603c2a7ff4b",
+  "date": "2026-11-23",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "Mieszkańcy mogą ocenić budżet obywatelski",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE1ndEpPbWlDRUxVUUtHeVQzdVZZTnkzSm5KZ0RCQmVrTWxobHd1eXRlMnBmbEU5N2xKSlZQbjlHZWhFUlNRVkRFOHFiNWVJdTNsUXBzUkR4Mk05dUhKaHZXS1U1cDNhS2NGMml0UGpGbGIzZmc2U09fRll0a01JUQ?oc=5",
+  "observed_at": "2026-11-22"
+ },
+ {
+  "key": "news:MEX:7eeb06d2d3a38e",
+  "date": "2026-11-23",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "Aprueba Comité 336 proyectos del Presupuesto Participativo",
+  "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNSUZPX19FNFcyMUE5b2xwWTZrV1lJOEdxVC1DbWlBX1ZHcGJsdEhsQzJRVTZ1WEVSNXZjYkF2eUZQWWJMRHJZSDRwZ0p1SnVWZWJQMkhvWGdVdm90cmY5ZFFUTTVxdGxqRmRpc3BYYktjdURjS3p5VktrYV9PMHNnTWhkRGU4NUhPVFpES0tzSE1WdGU3dGxmZ2hsbE5FdVdYbTBDZnFTVHpBa3M?oc=5",
+  "observed_at": "2026-11-22"
+ },
+ {
+  "key": "news:UKR:93d877a6f1313f",
+  "date": "2026-11-23",
+  "iso3": "UKR",
+  "type": "뉴스 신호",
+  "label": "우크라이나",
+  "text": "У Роменській громаді започаткують шкільний громадський бюджет. Читайте на UKR.NET",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTFA1ak9aVzFrYkZvWXE4NTBYWFVCX1dXZmNfY21HeXZoSTV1RGVPT3lLcUhpN2Z0UVdQWlRyWDF5U0dkbnU3bHVGQmMyNEpEMTlIOFFUSXJoemJMcWcyY1FZaFR3?oc=5",
+  "observed_at": "2026-11-21"
+ },
+ {
+  "key": "paper:doi:10.14488/cneg2026_cneg_pt_086_0705_23984",
+  "date": "2026-11-23",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Congresso Nacional de Excelência em Gestão",
+  "text": "Da regra ao dado real: a primeira aplicação assistida da metodologia de Gestão do Investimento Público (GIP) do Piauí",
+  "url": "https://doi.org/10.14488/cneg2026_cneg_pt_086_0705_23984",
+  "observed_at": "2026-11-14"
+ },
+ {
   "key": "news:DEU:49d4f4b7be83fb",
   "date": "2026-11-22",
   "iso3": "DEU",
