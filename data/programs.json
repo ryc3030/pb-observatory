@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-23T01:46:21.548787+00:00",
+ "updated_at": "2026-11-24T05:20:51.076855+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-23T01:46:21.548787+00:00",
+    "checked_at": "2026-11-24T05:20:51.076855+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -281,7 +281,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-22T01:22:06.883549+00:00",
+    "checked_at": "2026-11-24T05:20:51.076855+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -536,22 +536,22 @@
    ],
    "related_news": [
     {
-     "title": "Budżet Obywatelski w Krakowie. O 35,5 tys. mniej głosów papierowych",
+     "title": "크라쿠프의 시민예산. 종이 투표수가 35,500표 감소",
      "date": "2026-11-22",
      "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxNNzlRVVFfRUxnRTlRc3kwOTBrT0M2bTRKYzZ3OUJEbXBGWkx6M3dQY0tOX1IxNzdaenZSeU1BNF9tcTBPbl83dnhjTE5LWUlEaWZ6VmlNQWNyRkpKRnVmX3JJSFFFOUd4OE0tTzc1a3hpbmJjeWNmVlFSdXhKN2lraXl5bFNnbEpIUGlqMHd2Wlh0RE1YQU1VT1VJU1pLc2U1Wk0ya1NibjNPei1kYTB6Q3FEQ1BScXRLUkVPRTVYUnF5aW9lS3pLM3lfSWhiQnVtUDRhSDlGNHJYZjVQVDFCa29B?oc=5",
      "source": "KRKnews"
+    },
+    {
+     "title": "크라쿠프의 시민예산에 변화가 있을까요?",
+     "date": "2026-11-07",
+     "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPcDBnd29KaU5DSmhGSlllMVhjdndyaFh4Q1FYcWdJbVBxOHdIcDVHTUhBbzlQbWVyenhKLVp4bzVnd2JaT2RCeVZKeS1YY3lVVTZ3T0JpU0VoR3VtSWRFT0JWa0trdXRSWmkxTExqMkVBdHdUZWRZVFZTRWFEZWVXTA?oc=5",
+     "source": "Co w Krakowie"
     },
     {
      "title": "공공 의견 수렴: 크라쿠프시 시민예산은 어떻게 변경해야 할까요?",
      "date": "2026-11-06",
      "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNWFNxb3YwOWRORS04RHhfTlFxNkl5bjdQWnhVMkNsVzZOVTV5MnN2UjZrVnpNVnRlMnlleDV0VWIzSEpNTTVtUjdiVFRhY2c4bzQwZE9fMktrcm1fckJMTFE1bTBqNlk0bFd6dnpaTUlBYTBhN0VQdC03S3dWdkc2cnlPNHhhb0E4aVI5V1pZNENqRHdwRGpPTkV2RGNYclo3a1dCSmJEMXFqcWJJY0VEaFNrZkJfNFQyM3hGX3pLWTB1QkFLX3EzN05Idw?oc=5",
      "source": "Magiczny Kraków"
-    },
-    {
-     "title": "참가자들의 눈으로 본 학교참여예산 - 공식 도시 웹사이트 - Magic Kraków",
-     "date": "2026-08-05",
-     "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPYW1tdGxHaW9ha3E2UGducndUSWNDUGhpOUhoZFBNanhJMkRpTy1UZDVOMXR1NmlLRFNWeURZSDU4TFd3OFR1UmI0d2Q2dnBVU2p0N0hraVNHT25Gb2RDcHVXM2wxSkh5bXJ5eE1YaExPMlprS28zNmhFdE5xUGNOUGtNYU5mNVgzV1ZteXlRVFgyenYtR1p5dGtuSkV6MWdGV2hzR2NxVEpnSDdZQVZhd2xjdnptNl9STUUxdmFlandBR01fdmpKbnRn?oc=5",
-     "source": "Portal edukacyjny"
     }
    ],
    "latest_signal_date": "2026-11-22"
@@ -1254,6 +1254,12 @@
    "cases": [],
    "related_news": [
     {
+     "title": "글라우하우 주민예산: 실현되는 희망 사항과 실현되지 않는 희망 사항",
+     "date": "2026-11-24",
+     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX1ZuZHJkVzhGRHBZdXg2OFdwREo2OGtqdUlLckhEY1FWVFVtWk9SVjFvZVVzb2JJLTBEbnhpaklhUGlPNkNpYkREVGhSMEdWcUZJYzF4TVpIMDRlc1V5WW9Ta19pSEJiV05UX2hnM0lCUEhzb2UzMHVMMHl4akFjZS1uRVJFeHY5RHltOEIwUGhtbDFDcklPRmlyMnZ6MnZyaF96OUFpeDVrLUIwMkZVOTNWWkxTeXlFSThBLWplSlBTQzV1QmJTcF9Za3Q2cDY4dmc?oc=5",
+     "source": "Freie Presse"
+    },
+    {
      "title": "슈반 시민예산: 어떤 프로젝트가 실행되나요?",
      "date": "2026-11-21",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRDBaWlY2T1JIeXhKU1BNdWE2STU1amJuQ0dBSjBRZ0t3UG8zTFAyVXhGSkVHaWVlUzRrdVVKUWhWdVpXUGtMWmxJSEpXbGxlSmRpbXo1a29wSGtwT2VOR2FiZ3M1cGN3cHZBM2hfZVpZSW1MNkw2X2NwM0ZJT1pzS2pHMk0zY0xZRHRoajFua0h5VHJOVTlvMmtCT1BGOXdsU1M2SHkxRnpxTmNtb0x4cHJ1Tl9UMmlZQkJMaXFlZXZSUnZoa0tqaGtmNm1wandGX203MmZuc1VsSHBz?oc=5",
@@ -1264,15 +1270,9 @@
      "date": "2026-11-21",
      "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjJ0VkoxU2VwUDFxZjhrSW1qaldlYnVWcVdkTm5BZnAxRlhBejJmbE5KVGEtMVJLaTJrd2d2SWZaeUdCSkdqWE80UEF1RVdRSWp0QXFiQWdzcHlkRjJDTDBoVVhOR1VQWnVmRFZ1cjlZbDBuUVNQMzdmZHQtTmNmam1NTng0WGg4TkYxREJ1RlMxSzRVeU8wRkg4R3A0YVNPbHk5M183Yw?oc=5",
      "source": "NDR.de"
-    },
-    {
-     "title": "인공지능, 전문가 및 시민예산이 있는 기업가들의 밤",
-     "date": "2026-11-21",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPNFIyYjN4UDBLbEU5UWpEYWg4U0RlaWVhajBfVThtN3hjaGM5UXkwaW54MDRiVVB2RmhVZlJzQ0hZMF9maDFIY1pJdEcxQnFYVGx4WHgtTWpvN2RMTzRQRDluaHVjbjBYVUxseDFEQllxeDBlQVNqNVQ2NnZVSHc3eUJ1UjkweWF2UVFITG1XZHYtZDEteTJHdlNyYXcwWGJ4WDRlUmM3QUpESzg0MGszRU5vQ2RuNlB5WWFXXy0wbnRQZw?oc=5",
-     "source": "Nordkurier"
     }
    ],
-   "latest_signal_date": "2026-11-21"
+   "latest_signal_date": "2026-11-24"
   },
   {
    "id": "ita-school-pb",

@@ -1,5 +1,135 @@
 [
  {
+  "key": "news:DEU:a22f901c7050d3",
+  "date": "2026-11-24",
+  "iso3": "DEU",
+  "type": "뉴스 신호",
+  "label": "독일",
+  "text": "글라우하우 주민예산: 실현되는 희망 사항과 실현되지 않는 희망 사항",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX1ZuZHJkVzhGRHBZdXg2OFdwREo2OGtqdUlLckhEY1FWVFVtWk9SVjFvZVVzb2JJLTBEbnhpaklhUGlPNkNpYkREVGhSMEdWcUZJYzF4TVpIMDRlc1V5WW9Ta19pSEJiV05UX2hnM0lCUEhzb2UzMHVMMHl4akFjZS1uRVJFeHY5RHltOEIwUGhtbDFDcklPRmlyMnZ6MnZyaF96OUFpeDVrLUIwMkZVOTNWWkxTeXlFSThBLWplSlBTQzV1QmJTcF9Za3Q2cDY4dmc?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:POL:a02cc69f09b2fb",
+  "date": "2026-11-24",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "평가 설문조사 - 2027년 주민참여예산",
+  "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFBLR3dRRU5pQU1QT2ZqWnBEcEZCZ1dPNEN5aFoyTVFWcGpTcGY0eERkM1ZEU2RkUnlWT2g5dzJDamlRd1ROTEE?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:PRT:c33c56d5f7a9c8",
+  "date": "2026-11-24",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "오데미라, 주민참여예산제 우승 제안 발표",
+  "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNTG91ZkhuVnVrRDZQbEVTbjEtdDIyM2VNTVVnbUxvbG5KVGVtUUlobFY3Y3o1SDdMbjBLSFpGV3dScDNOb0R3eFo0andLTVFSSllESDRWcU50Qk9CWnhGVXhldUZETGxBZTlQUnpVNk5lZ2pKWHpMcGJVZmp3cEZ4UFZBckltZ3BLTkx6WjlOZWVNTGZrTG9jcWNR?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:MEX:e8e665bb1df623",
+  "date": "2026-11-24",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "아과스칼리엔테스시 2027년 주민참여예산에 프로젝트를 등록하는 방법",
+  "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxNQkxxU1UtQ3ZjMXp0b3hJQm1xLTU5aXJxa2ttbmtQTHpFbVdaUkRpWVhxWUI2SDllZGpBNVRLRVoxWk0wdHJuSk9mbDlEQnRvbU9URktXN0xGczhvMS1NQ1NZME1pTklpMTlac1NwSGM5cGhTWG9OejJ2THpRUk16R2MtT2hiZ2xZMVg4ajVqNHU3eExkSDNfbFNBcFVZaDhOcXRSRlcxWkl6SkVjMUVDcGRsaEtseVBxbVR3Rm1WbUV4Q3FjNld3V1hxb3dEOXdodHRlTlk1cVVjMkt3VWhZZEQ2bmlwZHdC?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:KOR:c7c9b419a98168",
+  "date": "2026-11-24",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "대구 서구, 주민참여예산 사업 46건 추진 실태 점검",
+  "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1RaHJaYzN5UjJibHhod2ZXSmRmQmZ3OVZZSElfWE84TENXbklEOFZYQWZrc2kzemtqNVhKemNwMGtOTENzVEg1TzUzRmQ0cUlWYXotSGN0c3Y5aGxmcUlMVTcxREszUFdsQWZjMlU1cjg?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:FRA:d2c6e33f4a7abf",
+  "date": "2026-11-24",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "참여예산: 여러분이 투표하세요",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxONW9KdzRDcllMMlM3aWxYYXpXaTZIdUxJZnBaV3pNYXJMWWp3d0FtV1RyNzV4bEhQOEp6dnRkWmRtb1NZYzV5NGFoc0h3MDFCckFhd1VTWm1WSUY5V1lSQzVwM2dXMUFYR0MyVUxZR1FXOVhXYXZiMTM2OUI2SDU0MmN5TQ?oc=5",
+  "observed_at": "2026-11-23"
+ },
+ {
+  "key": "news:LUX:b644b099e41060",
+  "date": "2026-11-24",
+  "iso3": "LUX",
+  "type": "뉴스 신호",
+  "label": "룩셈부르크",
+  "text": "시민의 손에 쥐어진 돈 | 자넴, 50,000유로의 첫 시민예산으로 시작",
+  "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQWXpUbGhuQkhManZ3Y0pqLXlqY1E2X1ozMkRsUGwzQ3p3dlJfckFNcWYzME96Z2dXMUZsTUlabTk0VFEzdHZwVHRZQUNxTnpDVFMzVVdDQXQ5OTNONC03R2c5Z0xvd1dYTnBRQ09HSmJEVUJsRUw4ZW1obkN5V3JIT0FGSHpyY292U1FnaFJPNDZwdUk3R1NkTDBZZWM3Y3hCdXR2X015UjVQZw?oc=5",
+  "observed_at": "2026-11-23"
+ },
+ {
+  "key": "news:ESP:452c15fb117e1a",
+  "date": "2026-11-24",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "타랑콘, 2027년 주민참여예산으로 오디토리움과 카사 데 피에드라 동굴의 접근성을 개선할 예정",
+  "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPVU5CbVdkdE1ya2QtenNSVmpWY0pqNkgteUlWR3htaGwzTHRaRW8teDRwSjA3Z3NqQjVMN2F4bVRnSE1CTm84OVg0WlllZkJtTE8tZUhNaVA3NzAxbk16OUVCVmFyMmszN2dqVG1fR2VhTlpGbEpwbnF3bnBkeUZhY2lFYlU2SG1VVE1qTEJXLTd3N05QMi1GTE16MDNVbDNiVjNWaFY2NlpNU0wyNnJOV05YckxlZ0U5YTR5bjZmZENTcUpuQUlGSWdhVndWeFlqZk1xN0oyYVFPYkZkZFhmZGhSX09PZ1gx?oc=5",
+  "observed_at": "2026-11-23"
+ },
+ {
+  "key": "news:URY:29c5db9f9a4efd",
+  "date": "2026-11-24",
+  "iso3": "URY",
+  "type": "뉴스 신호",
+  "label": "우루과이",
+  "text": "2026년 주민참여예산 우승 제안",
+  "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxPVDVuSkdIZHFsaTc1QzYzVTFqY0tMQ096Z2M3S2dhazlKUWJGUnVwdG9rMW9VU2hVYUoyNVV2cUpCRklfUlZrZGpRQ3NpaXpidjBmal91ZEhxWE5WeE41aXNVbWhjV0ZoTTZTcXRRRnNoS0hTTDJiOGZCNlR5SlI4WDlocUlLTEF3SzhYc3JraFJYc1E?oc=5",
+  "observed_at": "2026-11-23"
+ },
+ {
+  "key": "paper:doi:10.83842/participatbudsoc",
+  "date": "2026-11-24",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "논문",
+  "text": "참여예산제: 사회, 문화 및 변화",
+  "url": "https://doi.org/10.83842/participatbudsoc",
+  "observed_at": "2026-11-22"
+ },
+ {
+  "key": "paper:doi:10.54220/1994-0874.2026.68.90.005",
+  "date": "2026-11-24",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "Учет и статистика",
+  "text": "러시아 연방의 주민참여예산제 운영 사례 분석",
+  "url": "https://doi.org/10.54220/1994-0874.2026.68.90.005",
+  "observed_at": "2026-11-22"
+ },
+ {
+  "key": "news:LVA:4a5803a289dadd",
+  "date": "2026-11-24",
+  "iso3": "LVA",
+  "type": "뉴스 신호",
+  "label": "라트비아",
+  "text": "12월 13일까지 2026년 참여예산안에 투표하세요",
+  "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1ROEVpY3NxVDFFZzJFalpyVUZlaVdrMFJGQ25rc2hMYU1CM3F3MG1MbGxyNWVaS1k1bEpHX3lYd3FaaWF3RWVxbU5POFpEa282YXBScDFlUTVMVm5ZUkRBLTRLNllvVVdsRkQybVozUlRBNmVFRHc?oc=5",
+  "observed_at": "2026-11-20"
+ },
+ {
+  "key": "news:CHL:c7b571d8c83df0",
+  "date": "2026-11-24",
+  "iso3": "CHL",
+  "type": "뉴스 신호",
+  "label": "칠레",
+  "text": "세데이라(Cedeira), 산티아고에서 학교참여예산을 발표",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPOHdsNk5QYk9XeGRyak5ib2xjWlZYakY3MEhGMkw3RHVtcm9GZ1NaTjZpUUZLZHdKLThMVEFrSUQwazFuVnJNX05ESXhUbENTdlBMR1RzVEplMmVQQ3lPNnJoR1dvTW93Y3FscVhlYWR2cmdJZ2FaNkRJNW5faHpobF84WEdTYlVBWm5BcVpzM0QwTi03QmV6MTlEbWR0YmZVMUdnelRXem5yLXJ5ZWRyUDVXVQ?oc=5",
+  "observed_at": "2026-11-16"
+ },
+ {
   "key": "news:COL:369f113639bac6",
   "date": "2026-11-23",
   "iso3": "COL",

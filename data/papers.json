@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-23T01:46:21.548787+00:00",
- "count": 233,
+ "updated_at": "2026-11-24T05:20:51.076855+00:00",
+ "count": 236,
  "items": [
   {
    "id": "doi:10.18572/2500-0349-2026-4-20-25",
@@ -28,6 +28,57 @@
    "title_ko": "옴스크(Omsk)의 사례를 통해 참여예산 참여의 지속 가능한 모델 식별",
    "_tr_tried": true,
    "title_ko_mt": "옴스크(Omsk)의 사례를 통해 참여 예산 참여의 지속 가능한 모델 식별"
+  },
+  {
+   "id": "doi:10.83842/participatbudsoc",
+   "title": "Participatory Budgeting: Society, Culture and Change",
+   "authors": [],
+   "venue": "",
+   "published_at": "2026-11-22",
+   "doi": "10.83842/participatbudsoc",
+   "url": "https://doi.org/10.83842/participatbudsoc",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "OpenAlex",
+   "type": "paratext",
+   "concepts": [
+    "Political Theory and Democracy",
+    "Politics and Society in Latin America",
+    "Electoral Systems and Political Participation"
+   ],
+   "first_seen": "2026-11-24",
+   "title_ko": "참여예산제: 사회, 문화 및 변화",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산제: 사회, 문화 및 변화"
+  },
+  {
+   "id": "doi:10.54220/1994-0874.2026.68.90.005",
+   "title": "Анализ региональных практик инициативного бюджетирования в Российской Федерации",
+   "authors": [
+    "О.В. Андреева",
+    "K. A. Gerasimova"
+   ],
+   "venue": "Учет и статистика",
+   "published_at": "2026-11-22",
+   "doi": "10.54220/1994-0874.2026.68.90.005",
+   "url": "https://doi.org/10.54220/1994-0874.2026.68.90.005",
+   "open_access": false,
+   "lang": "ru",
+   "cited_by": 0,
+   "abstract_snippet": "Введение. Инициативное бюджетирование (ИБ) выступает ключевым инструментом вовлечения граждан в управление публичными финансами, способствуя повышению эффективности бюджетных расходов и развитию локальной инфраструктуры. В Российской Федерации ИБ охватывает 81 регион, однако многообразие региональных практик требует систематизации и компаративного анализа для выявления факторов успеха и направлений совершенствования.",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Local Government Finance and Decentralization",
+    "Economic Growth and Fiscal Policies",
+    "Economic and Fiscal Studies"
+   ],
+   "first_seen": "2026-11-24",
+   "title_ko": "러시아 연방의 주민참여예산제 운영 사례 분석",
+   "_tr_tried": true,
+   "title_ko_mt": "러시아 연방의 주민참여예산제 운영 사례 분석"
   },
   {
    "id": "doi:10.4324/9781003769095-13",
@@ -327,8 +378,9 @@
     "Public Procurement and Policy"
    ],
    "first_seen": "2026-11-23",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "규칙에서 실제 데이터로: 피아우이주 공공투자관리(GIP) 방법론의 첫 번째 지원 적용",
+   "_tr_tried": true,
+   "title_ko_mt": "규칙에서 실제 데이터로: 피아우이주 공공투자관리(GIP) 방법론의 첫 번째 지원 적용"
   },
   {
    "id": "doi:10.1146/annurev-publhealth-062325-064813",
@@ -1326,8 +1378,9 @@
     "Local Government Finance and Decentralization"
    ],
    "first_seen": "2026-11-23",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "우즈베키스탄의 예산 지출 효율성 제고 수단으로서의 경쟁 입찰, 참여예산, 성과 측정",
+   "_tr_tried": true,
+   "title_ko_mt": "우즈베키스탄의 예산 지출 효율성 제고 수단으로서의 경쟁 입찰, 참여형 예산 편성, 성과 측정"
   },
   {
    "id": "doi:10.1145/3794786.3830735",
@@ -1860,8 +1913,9 @@
     "Innovative Approaches in Technology and Social Development"
    ],
    "first_seen": "2026-11-23",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "'연구자를 위한 우리의 아이디어' 워크숍, 과정 2: 시민 참여: 현실과 맞닿은 민주주의적 이상",
+   "_tr_tried": true,
+   "title_ko_mt": "'연구자를 위한 우리의 아이디어' 워크숍, 과정 2: 시민 참여: 현실과 맞닿은 민주주의적 이상"
   },
   {
    "id": "doi:10.60746/8_19_48014",
@@ -3925,8 +3979,9 @@
     "Values and Moral Education"
    ],
    "first_seen": "2026-11-23",
-   "title_ko": null,
-   "_tr_tried": false
+   "title_ko": "교육 과정에서 학교 주도 예산 편성 관행 적용을 위한 교육적 조건",
+   "_tr_tried": true,
+   "title_ko_mt": "교육 과정에서 학교 주도 예산 편성 관행 적용을 위한 교육적 조건"
   },
   {
    "id": "doi:10.2139/ssrn.7592712",
@@ -4906,6 +4961,30 @@
    "title_ko": "조직이 주민의 요구에 귀를 기울이기 위한 이유로 폴란드에서 시민의 예산을 실행하기 위한 모델: 관행의 다양성 및 법적 결과",
    "_tr_tried": true,
    "title_ko_mt": "조직이 주민의 요구에 귀를 기울이기 위한 이유로 폴란드에서 시민의 예산을 실행하기 위한 모델: 관행의 다양성 및 법적 결과"
+  },
+  {
+   "id": "doi:10.1108/ijpsm-10-2024-0328",
+   "title": "The seesaw experience of participatory budgeting: the role of the institutional entrepreneur",
+   "authors": [
+    "Valentina Santolamazza",
+    "Giuseppe Grossi",
+    "Giorgia Mattei"
+   ],
+   "venue": "International Journal of Public Sector Management",
+   "published_at": "2025-10-28",
+   "doi": "10.1108/ijpsm-10-2024-0328",
+   "url": "https://doi.org/10.1108/ijpsm-10-2024-0328",
+   "open_access": null,
+   "lang": null,
+   "cited_by": 2,
+   "abstract_snippet": "Purpose Participatory budgeting (PB) offers public administrations a promising avenue to rebuild the relationship with citizens by actively involving them in public decision-making processes. However, the path to successful PB institutionalisation involves several challenges. This article examines how key internal actors shape PB across its operative phases. Design/methodology/approach The study employed a single-cas",
+   "source": "Crossref",
+   "type": "journal-article",
+   "concepts": [],
+   "first_seen": "2026-11-24",
+   "title_ko": "참여예산제의 요동치는 경험: 제도적 기업가의 역할",
+   "_tr_tried": true,
+   "title_ko_mt": "참여예산제의 요동치는 경험: 제도적 기업가의 역할"
   },
   {
    "id": "doi:10.54899/dcs.v22i83.3575",
