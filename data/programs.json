@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-24T05:20:51.076855+00:00",
+ "updated_at": "2026-11-25T04:14:53.340251+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-24T05:20:51.076855+00:00",
+    "checked_at": "2026-11-25T04:14:53.340251+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -281,7 +281,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-24T05:20:51.076855+00:00",
+    "checked_at": "2026-11-25T04:14:53.340251+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -1254,6 +1254,12 @@
    "cases": [],
    "related_news": [
     {
+     "title": "Schöneiche의 돈: 30,000유로에서 1000유로까지 - 참여예산제도에 미래가 있을까요?",
+     "date": "2026-11-24",
+     "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1NCU1FZTGhjSHRqNkJDa2hXODEtXzhFbGp2YzVDMnZUa1FJMzhWcUpDbDNycEJuT1UtVHlXRUVPSFhHdkRIVkJxbDdPWmNsODd2blVSNGpFOTZkS3Njb0Q1MUtwRkkzNEU0ZDlGV3A1OTNSOFRvbDZHX2lrZXNtQ2dOeGctSzBGVF9MNXpmdmxoZ0pkRnB6TUpRZGpWZWJnM2lXOWVvak9Lc2JpVHBVZE53bFVIUUVNcDRNUEEwd0o3azVlVXU0?oc=5",
+     "source": "MOZ.de"
+    },
+    {
      "title": "글라우하우 주민예산: 실현되는 희망 사항과 실현되지 않는 희망 사항",
      "date": "2026-11-24",
      "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX1ZuZHJkVzhGRHBZdXg2OFdwREo2OGtqdUlLckhEY1FWVFVtWk9SVjFvZVVzb2JJLTBEbnhpaklhUGlPNkNpYkREVGhSMEdWcUZJYzF4TVpIMDRlc1V5WW9Ta19pSEJiV05UX2hnM0lCUEhzb2UzMHVMMHl4akFjZS1uRVJFeHY5RHltOEIwUGhtbDFDcklPRmlyMnZ6MnZyaF96OUFpeDVrLUIwMkZVOTNWWkxTeXlFSThBLWplSlBTQzV1QmJTcF9Za3Q2cDY4dmc?oc=5",
@@ -1263,12 +1269,6 @@
      "title": "슈반 시민예산: 어떤 프로젝트가 실행되나요?",
      "date": "2026-11-21",
      "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRDBaWlY2T1JIeXhKU1BNdWE2STU1amJuQ0dBSjBRZ0t3UG8zTFAyVXhGSkVHaWVlUzRrdVVKUWhWdVpXUGtMWmxJSEpXbGxlSmRpbXo1a29wSGtwT2VOR2FiZ3M1cGN3cHZBM2hfZVpZSW1MNkw2X2NwM0ZJT1pzS2pHMk0zY0xZRHRoajFua0h5VHJOVTlvMmtCT1BGOXdsU1M2SHkxRnpxTmNtb0x4cHJ1Tl9UMmlZQkJMaXFlZXZSUnZoa0tqaGtmNm1wandGX203MmZuc1VsSHBz?oc=5",
-     "source": "NDR.de"
-    },
-    {
-     "title": "슈반 시민예산",
-     "date": "2026-11-21",
-     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOWjJ0VkoxU2VwUDFxZjhrSW1qaldlYnVWcVdkTm5BZnAxRlhBejJmbE5KVGEtMVJLaTJrd2d2SWZaeUdCSkdqWE80UEF1RVdRSWp0QXFiQWdzcHlkRjJDTDBoVVhOR1VQWnVmRFZ1cjlZbDBuUVNQMzdmZHQtTmNmam1NTng0WGg4TkYxREJ1RlMxSzRVeU8wRkg4R3A0YVNPbHk5M183Yw?oc=5",
      "source": "NDR.de"
     }
    ],
@@ -1305,25 +1305,25 @@
    "cases": [],
    "related_news": [
     {
+     "title": "Canicattini, 참여예산, 우승 프로젝트를 위해 10,000유로로 진행 중",
+     "date": "2026-11-24",
+     "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkI0VjNqenlCci1lVm1UeVZBY0o2dlMzLTIxMklsM1FHZWl4SjJOcElhUGxfZldOSXZXNG1FajVmS2tiZG1KclRuNjkxTFlXNFlEeU9SQU14NU45N1lZLXAyUlktemRKLWxWOFN4YWp1VTNkMW5WT2hTYTYyNFpXN3IwU2hYOWFwYmZ5Mmw5eDIwV2RWaGs4ZFlnYWUxaWhGUzgwaHo1THpZQ2ZkbmxZNjBBRlJ5ODdsZ2lEMHd4MA?oc=5",
+     "source": "Siracusa Press"
+    },
+    {
+     "title": "Canicattini, 참여예산으로 10,000유로. 12월 12일까지 신청 마감",
+     "date": "2026-11-24",
+     "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNNGxCN05TUFJQYTdIZHpTdi1ONmdpUGtDeEkya2pLd05IbDZ3Y3JzNHc0MUxQVm56MnF2TnVsMDJDbVpXbkREZ0RjV05zdGtrTElWVU8tZUFFWWxpZzZYTk5GWWZDR1BnSEVHNzV0bEQxa2x5U2QzSlJ0LWdyM0UxbThmWXdNeTNRUHNiVGo5MmdSZ05rQ0dSYjdvd2Q0RnNHSUdIbDJaVFJGYUgy?oc=5",
+     "source": "Iblei News"
+    },
+    {
      "title": "참여예산: 페스카라의 '아이들의 섬'을 위한 시민과의 만남",
      "date": "2026-11-16",
      "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNMlZvZmdsWnpMdFhpLUxUNjNNRDVIb2dyak9COEFUVHRRMFBEY1FrN1Z1NzdpR2ZqanVvcmRDQllsRkdMLU9Ec0hqSXd2enJaWVcwVFJ1VG5MSjBFTnZJSmltRURINUxsSGlCNEdscmdjQXltUU1PQUJjdmVfNDZpTjRzOEY4RmFOa1UzMTlzazdVOW05a1ZER212X0JuTU0xdF9USklLTndMc1dXTXlCcThlY3hpVEh5X0VITlNWTWNRQmRp?oc=5",
      "source": "NUOVO Cityrumors Abruzzo"
-    },
-    {
-     "title": "기록적인 참여예산: 36,000표 이상",
-     "date": "2026-11-13",
-     "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOWW1UVnQ4UUxoQTVPZVltUGpmVm9zSDJCRU9QVUtLQ0t5eWV0SXFldEJkUndXTm1saWdaZlpYdGRsRWg4a3JDamU1UGg5eFEwSU0tdFJiUV8tUWxnTTRlWE5VemNfN3JOd1ZpOS1zRWJ3VFAwSGxIMF9wWG1PYkRNVU1kZ2Fvc1VQNENjUG9VdE9VeVdmbGs4?oc=5",
-     "source": "Comune di Bologna"
-    },
-    {
-     "title": "참여예산, 투표 폭증: \"도시 오아시스 및 정원, 3만 6천 명이 선택한 12개 프로젝트\"",
-     "date": "2026-11-10",
-     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxPYm4wU1hZTy1hLWRyNFJ5T0RDZ3lBMTBDakZNMHRnaVlfcWJXXzVGbUZaT1psV0VoNWFiT3BDQnkzSmJvazZUaFdybzkxRzdHQnI1bnpDaHczdm56TzBfeUVFT09fTUJWWm5DZzlxdGFMeW9JNFNKVERvN2hPcjJEaHpXa2lIcXlHSlFnbEJqZ1hUemZ2WTNYRUwxcUpEbHlDX0Vldk1HaFdOOHVRVzd2QjFKanAxbTNHWUc3MzFObm9wQ1VYQ1VqNG1ubw?oc=5",
-     "source": "la Repubblica"
     }
    ],
-   "latest_signal_date": "2026-11-16"
+   "latest_signal_date": "2026-11-24"
   },
   {
    "id": "ltu-school-pb",
@@ -1355,25 +1355,25 @@
    "cases": [],
    "related_news": [
     {
+     "title": "주민들의 아이디어를 위한 수백만 유로: 참여예산 제도가 확산되고 있지만 그 혜택은 아직 측정되지 않았다",
+     "date": "2026-11-24",
+     "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVzVZMGtiZDdSa25vdkRmTnJXVEFRTURWQjR1aDRFVVg1b25EOUxiYlZXRHh5dDVlcW05TWpDUkZyY0xfUjkzeHY0XzJiUHdEUEpJckw3bjZrd1FNUV9CVGFfWWJ2X2ZLanBBNFVXOVFOeVhZMXgtT1RKWXBrZlRXc0FrYkVFU01ad0E2cGZMNXNHZ0syb1U2Z0huTmMwOWExSHBUSHBQWE14a2p5OFZV?oc=5",
+     "source": "Vakarų ekspresas"
+    },
+    {
+     "title": "국제 투명성(Transparency International): 참여예산이 증가하고 있지만 결과를 측정해야 한다",
+     "date": "2026-11-24",
+     "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTUlSYjVETHhHY1lSYkFtTmhieEF5X2x3aXBOeEVYTUlwSWtOd0NwLTNkT3pUU2pwMkctS3FuNFVacWV4NnVWcEpkLVExQzNoSFZwM1dpM2d5azRucGFUckUxMFppX3doOC1JWWo3SFN4bkpzRU5aY2RIZ2duNkgxU1NkX0QwMURQc3pZZ1ZnMG1yRVVnZHp5TmhveHlERG1tdWZDeERCblhWWmdCZWhqN0Q3dnBvaVNZUlRvR3FUbHJyU0lIRnNmakh2NGJhb3JCeDk3ZUY3b3NBTmJJQjJVcXVjVWZ4UU1C?oc=5",
+     "source": "15min.lt"
+    },
+    {
      "title": "꼬리표: 참여예산 Kėdainiai",
      "date": "2026-11-18",
      "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WeTJ0SVc0NzA3OEgzVHZwNjVYelZfZ1MzTm1hTTdTNXZIQm0zNE5NR0xHRC1wX05hQWgyVkdHRXpNcUswcmtadUtZNmE5YmZ0M01OdThpNjg0ODVHajNRamUyY0hkVG1mdUpHZEdoT1o?oc=5",
      "source": "rinkosaikste.lt"
-    },
-    {
-     "title": "참여예산: 시민 투표를 통해 최고의 아이디어 선정 시작",
-     "date": "2026-11-16",
-     "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxOVTBSZHZWRkxfRXpEUl9RazI2OFR3czBIVVdjUmNHLVROd3NUT3FOUHhVemEtYWJNTkVpdW1qcXJUZ3QyNHdWcFh5TzZLTnFxb1IwWFExaDJzeklhdDBDdlZfRGNkOXUtZEtTa3dXcUZXUlBfWGZwSXFSTlR3b2hkNmJ6LWNyMVR6c2VXcHRZbENZRVNtdDhSbnpEbDNEVDVfNmw3T1NnYk96WEtVRGhCTkRLSXpYMG1EZ3dUN1R5blpNdzNLSnBpbXRYcXlGWmtlZk1aeURXSk0?oc=5",
-     "source": "Klaipėdos miesto savivaldybė"
-    },
-    {
-     "title": "Dalyvaujamasis biudžetas: atrinktos gyventojų idėjos, kurios bus įgyvendinamos 2026 metais",
-     "date": "2026-05-18",
-     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQUkZfLXVKUUhQRUh2WldNcFN1RlhlWGJfSXVUc2lpZHpXQzh1T3p3dFBtZlZYUzYzbkdpTl9jSFVHUXdobjVtTGJQRDFVdmhjT3FhcjdLcEZ5azUyM3RqYjZLWHFBRlJXTG9obFlvRXVPRmhWbGpZNTROdUVMblNPMTdqVnowQXl4MllRNjZfZkFCYUJEb3JFM2NBcWFZLVNXdlpibVd6TUp5OHl2SkdYLWI3RWU0dHduNWtySjJYREpaQQ?oc=5",
-     "source": "Kalvarijos savivaldybė"
     }
    ],
-   "latest_signal_date": "2026-11-18"
+   "latest_signal_date": "2026-11-24"
   },
   {
    "id": "gbr-lancaster-pots",
@@ -1627,6 +1627,12 @@
    "cases": [],
    "related_news": [
     {
+     "title": "Pļavnieki, Āgenskaln 및 Sarkandaugava 프로젝트가 주도하는 예산 입찰 투표에 리가 자치단체 참여",
+     "date": "2026-11-24",
+     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYzg5Z0FicVNfY1NIblVjZXdTdlZvZFNsS3BtRVlCbmRrV1h2cGdRSmhPVDBtbEhDQjlOVVlEaWszOERrT2ZzazZsWkZUaFFyM1lnak5LQzU2TEMxUURocnIxZ2VBeHBRMjRqbHJGYmxXeUtxWVc4UEdnQnlhX3ExNmZ5ZVdTTWdNMFRwWXRNY2E4TURXUHJOMXI2TkpIWEo4WnBOTHRLMDNfSFlhVjVROU9jNXM5T2hGTXN0Y0dGN0RkVGVUMll4OUMwOVYxdlZGZUlpNDY4bGZrUQ?oc=5",
+     "source": "Rīgas valstspilsētas pašvaldība"
+    },
+    {
      "title": "리가시 참여예산 공모 투표에서 아겐스칼스, 플라브니에키, 사르칸다우가바 지역의 프로젝트가 선두를 달리고 있다",
      "date": "2026-11-17",
      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWW5ObElmSFNpWm9rSjdQUG9IQTVUcXB4MWNZaEViRDJsZmRiMXVnT0hNT3FlWHdXdXNhbzdGaGoxTTF0YWhsdDV6dkZhNWg1YXczaTd0TTdweDFoZkNPMkV6RXl4NnVIV3B3TXprdUNDWFJNaVpXNlVDamFJcGtYUUJ1c3REYW9jOGxzMVdqY0V6MS02NjRhWER0alhHa1RLQzR3bGpPMW03amJLcFFDNkhlUWhDbG1ZWWowRTVOWXc0Umk2Ul91UHZEOGhJZWFpOXBpbUNJUnhJUQ?oc=5",
@@ -1637,15 +1643,9 @@
      "date": "2026-11-10",
      "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQzNVaW14bmNPaGNmVmh4Zk1GUkd5YWFIbUFRMUhfWk5fYkNoNHpEMVFLZmtFcGZ1cUMyX0tkcUxTMk5LLW96U1dJV2FFTGxlZ3dMdE1xVDBOLWk1a0N4Z2pHSFNNbnd1U3dIRUYzRDlTUnhiU29LcXpfaFlCX25zZmtqdUJ6NUUtbEFUV2JqbUh6Q0JxTEV6MUZKTE84ZkpyTmh4MnU0VS1lVWoxV3A1ZnBuN0c5ZlBWY2otRWhiSDdLX2lycXFnajRCclNGSGR4RWtiTGZn?oc=5",
      "source": "Rīgas valstspilsētas pašvaldība"
-    },
-    {
-     "title": "2026년 리가 주민참여예산: 11월 30일까지 투표하는 방법",
-     "date": "2026-11-03",
-     "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFA1RGVSTG5TVXhwRjlFNXFfOEc2cUxVajJZczNuRHp0S05lRHM5Y2RGOVNmaVhkQjBJUTZRdkZhOERSNFBCSHU1Rzdmd3BjVGh4anpkZlViZWxobUg2aUo1TDA1ekdHUGZCNG9QQmFrNC1NNm8?oc=5",
-     "source": "Riga Talk"
     }
    ],
-   "latest_signal_date": "2026-11-17"
+   "latest_signal_date": "2026-11-24"
   },
   {
    "id": "nld-maastricht",

@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-24T05:20:51.076855+00:00",
- "count": 236,
+ "updated_at": "2026-11-25T04:14:53.340251+00:00",
+ "count": 238,
  "items": [
   {
    "id": "doi:10.18572/2500-0349-2026-4-20-25",
@@ -30,6 +30,26 @@
    "title_ko_mt": "옴스크(Omsk)의 사례를 통해 참여 예산 참여의 지속 가능한 모델 식별"
   },
   {
+   "id": "doi:10.83842/participatory_budgeting",
+   "title": "African Journal of Participatory Budgeting",
+   "authors": [],
+   "venue": "",
+   "published_at": "2026-11-23",
+   "doi": "10.83842/participatory_budgeting",
+   "url": "https://doi.org/10.83842/participatory_budgeting",
+   "open_access": false,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "",
+   "source": "OpenAlex",
+   "type": "paratext",
+   "concepts": [],
+   "first_seen": "2026-11-25",
+   "title_ko": "아프리카 참여예산 저널",
+   "_tr_tried": true,
+   "title_ko_mt": "아프리카 참여 예산 저널"
+  },
+  {
    "id": "doi:10.83842/participatbudsoc",
    "title": "Participatory Budgeting: Society, Culture and Change",
    "authors": [],
@@ -40,7 +60,7 @@
    "open_access": false,
    "lang": "en",
    "cited_by": 0,
-   "abstract_snippet": "",
+   "abstract_snippet": "Participatory Budgeting: Society, Culture and Change is a specialised research publication within Other social sciences, in the Social Sciences domain of Peer-Reviewed Academic Research Journals. Its editorial focus is interdisciplinary social research and closely related areas of Other social scien",
    "source": "OpenAlex",
    "type": "paratext",
    "concepts": [
@@ -64,7 +84,7 @@
    "published_at": "2026-11-22",
    "doi": "10.54220/1994-0874.2026.68.90.005",
    "url": "https://doi.org/10.54220/1994-0874.2026.68.90.005",
-   "open_access": false,
+   "open_access": true,
    "lang": "ru",
    "cited_by": 0,
    "abstract_snippet": "Введение. Инициативное бюджетирование (ИБ) выступает ключевым инструментом вовлечения граждан в управление публичными финансами, способствуя повышению эффективности бюджетных расходов и развитию локальной инфраструктуры. В Российской Федерации ИБ охватывает 81 регион, однако многообразие региональных практик требует систематизации и компаративного анализа для выявления факторов успеха и направлений совершенствования.",
@@ -72,7 +92,7 @@
    "type": "article",
    "concepts": [
     "Local Government Finance and Decentralization",
-    "Economic Growth and Fiscal Policies",
+    "Regional Public Finance and Local Taxation",
     "Economic and Fiscal Studies"
    ],
    "first_seen": "2026-11-24",
@@ -872,7 +892,7 @@
    "concepts": [
     "Public Policy and Governance",
     "Public Policy and Administration Research",
-    "Economic Growth and Fiscal Policies"
+    "Regional Public Finance and Local Taxation"
    ],
    "first_seen": "2026-11-18",
    "title_ko": "참여예산제의 공공 계획과의 연계: 페르남부쿠주 사례 연구",
@@ -1986,7 +2006,7 @@
    "concepts": [
     "Local Government Finance and Decentralization",
     "Public Policy and Governance",
-    "Economic Growth and Fiscal Policies"
+    "Regional Public Finance and Local Taxation"
    ],
    "first_seen": "2026-11-18",
    "title_ko": "2021년부터 2024년까지 에콰도르 GAD(자치정부)의 주민참여예산 효율성",
@@ -2630,7 +2650,7 @@
    "type": "article",
    "concepts": [
     "Local Government Finance and Decentralization",
-    "Economic Growth and Fiscal Policies",
+    "Regional Public Finance and Local Taxation",
     "Economic and Fiscal Studies"
    ],
    "first_seen": "2026-11-18",
@@ -2942,7 +2962,7 @@
    "concepts": [
     "Public Policy and Governance",
     "Local Government Finance and Decentralization",
-    "Economic Growth and Fiscal Policies"
+    "Regional Public Finance and Local Taxation"
    ],
    "first_seen": "2026-11-18",
    "title_ko": "참여예산제 및 공공관리의 효율성, 산타엘레나 자치분권 지방정부, 2024년",
@@ -3048,7 +3068,7 @@
    "concepts": [
     "Public Policy and Governance",
     "Local Government Finance and Decentralization",
-    "Economic Growth and Fiscal Policies"
+    "Regional Public Finance and Local Taxation"
    ],
    "first_seen": "2026-11-18",
    "title_ko": "바뇨 델 인카(Baño del Inca) 지구 자치구의 주민참여예산제 및 공공 지출의 질",
@@ -3074,7 +3094,7 @@
    "concepts": [
     "Public Policy and Governance",
     "Local Government Finance and Decentralization",
-    "Economic Growth and Fiscal Policies"
+    "Regional Public Finance and Local Taxation"
    ],
    "first_seen": "2026-11-18",
    "title_ko": "기획과 민주주의 사이: 예산, 주민 참여 및 GIS 주기",
@@ -3984,6 +4004,32 @@
    "title_ko_mt": "교육 과정에서 학교 주도 예산 편성 관행 적용을 위한 교육적 조건"
   },
   {
+   "id": "doi:10.1590/0103-3352.2026.45.298657en",
+   "title": "Political regimes and urban regimes in the power relations of cities",
+   "authors": [
+    "Luciano Joel Fedozzi"
+   ],
+   "venue": "Revista Brasileira de Ciência Política",
+   "published_at": "2026-01-01",
+   "doi": "10.1590/0103-3352.2026.45.298657en",
+   "url": "https://doi.org/10.1590/0103-3352.2026.45.298657en",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 1,
+   "abstract_snippet": "Resumo: O artigo aborda a relação entre os regimes políticos locais e os regimes urbanos, a partir da análise do caso emblemático de Porto Alegre. O foco do estudo são as transformações regressivas nas instituições participativas e nas políticas urbanas redistributivas. A análise demonstra que essa regressão democrática, que também se deu no Orçamento Participativo e nos Conselhos Municipais, representa uma adequação",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Urban Planning and Governance",
+    "Politics and Society in Latin America",
+    "Latin American Urban Studies"
+   ],
+   "first_seen": "2026-11-25",
+   "title_ko": "도시의 권력관계에서의 정치체제와 도시체제",
+   "_tr_tried": true,
+   "title_ko_mt": "도시의 권력관계에 있어서의 정치체제와 도시체제"
+  },
+  {
    "id": "doi:10.2139/ssrn.7592712",
    "title": "Proportionality and Support Monotonicity in Participatory Budgeting",
    "authors": [
@@ -4617,7 +4663,7 @@
    "concepts": [
     "Public Policy and Governance",
     "Local Government Finance and Decentralization",
-    "Economic Growth and Fiscal Policies"
+    "Regional Public Finance and Local Taxation"
    ],
    "first_seen": "2026-11-18",
    "title_ko": "CRICIÚMA의 예산 변화와 지방 자치 사회 통제에서 참여예산의 역할",

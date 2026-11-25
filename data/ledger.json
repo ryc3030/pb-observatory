@@ -1,5 +1,165 @@
 [
  {
+  "key": "news:ECU:92b473886ed88b",
+  "date": "2026-11-25",
+  "iso3": "ECU",
+  "type": "뉴스 신호",
+  "label": "에콰도르",
+  "text": "법원 및 거리 포장: 지자체, Chilibulo에서 참여예산 작업을 실행",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPT3NJbWEwTWRGUW01d1NFQWhDNThGXzVoSHNFZFFFbE16SUMyc3M5ZmtwenQzWlZ1YVQ3WFc5d0xkZWZ3T1hMcHZLajlOMi1CaXRXcU9Qd3BYaU5GS2w1Q2xwVWxRYzlxVlQ0aUxCa2lrbGpBdTg4OU43bGRscURjV0NSMGtxVVBoTTNzVm9BaWd6Zm1ucGJnbTJZWE1jYVZScnFOeVk2emJxdlp6SVNWMk9uWmNvR042cV8wT3FQZW9ERUdYQktvLWF0S2dnVDJadlFIQU9aNTY1QQ?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:KOR:bf3f6f3c1e0b66",
+  "date": "2026-11-25",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "인천 검단구의회 이현주 의원, 주민자치·주민참여예산 활성화 조례안 2건 대표발의",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5yZTRGUVRsWVFCRFgxSGdGRDBlZmJJNko1UVZsWU9PVllhSDlqbmpSVGc0YnB1cnBxU0pqTTJwWlZoVjgtMDZ6U3I2OU9JOFp6bGZ0dXRCd041cXBDMWZlMG12dU1VdUpIZWt0MVRXQQ?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:FRA:179bf32c4c3c6c",
+  "date": "2026-11-25",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "참여예산 2027",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE1vZi1GT3F6SlJXcnY4ZThxWm1wYmZxUWs4dEZwZ0YwWHFWWC1YQjlIV2RJTS1YSmE2UmM0VS1OcXlZR2xpUHZIeUxtSF9VU2xOaV92NHZJTHZEVDQ4Wi1Sd1lQVkhIYVJLNXpzYVhkZw?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:DEU:cdc7847b27fa1b",
+  "date": "2026-11-25",
+  "iso3": "DEU",
+  "type": "뉴스 신호",
+  "label": "독일",
+  "text": "Schöneiche의 돈: 30,000유로에서 1000유로까지 - 참여예산제도에 미래가 있을까요?",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1NCU1FZTGhjSHRqNkJDa2hXODEtXzhFbGp2YzVDMnZUa1FJMzhWcUpDbDNycEJuT1UtVHlXRUVPSFhHdkRIVkJxbDdPWmNsODd2blVSNGpFOTZkS3Njb0Q1MUtwRkkzNEU0ZDlGV3A1OTNSOFRvbDZHX2lrZXNtQ2dOeGctSzBGVF9MNXpmdmxoZ0pkRnB6TUpRZGpWZWJnM2lXOWVvak9Lc2JpVHBVZE53bFVIUUVNcDRNUEEwd0o3azVlVXU0?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:ITA:a8699307b5e264",
+  "date": "2026-11-25",
+  "iso3": "ITA",
+  "type": "뉴스 신호",
+  "label": "이탈리아",
+  "text": "Canicattini, 참여예산, 우승 프로젝트를 위해 10,000유로로 진행 중",
+  "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNZkI0VjNqenlCci1lVm1UeVZBY0o2dlMzLTIxMklsM1FHZWl4SjJOcElhUGxfZldOSXZXNG1FajVmS2tiZG1KclRuNjkxTFlXNFlEeU9SQU14NU45N1lZLXAyUlktemRKLWxWOFN4YWp1VTNkMW5WT2hTYTYyNFpXN3IwU2hYOWFwYmZ5Mmw5eDIwV2RWaGs4ZFlnYWUxaWhGUzgwaHo1THpZQ2ZkbmxZNjBBRlJ5ODdsZ2lEMHd4MA?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:LVA:49d44e6c402492",
+  "date": "2026-11-25",
+  "iso3": "LVA",
+  "type": "뉴스 신호",
+  "label": "라트비아",
+  "text": "Pļavnieki, Āgenskaln 및 Sarkandaugava 프로젝트가 주도하는 예산 입찰 투표에 리가 자치단체 참여",
+  "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYzg5Z0FicVNfY1NIblVjZXdTdlZvZFNsS3BtRVlCbmRrV1h2cGdRSmhPVDBtbEhDQjlOVVlEaWszOERrT2ZzazZsWkZUaFFyM1lnak5LQzU2TEMxUURocnIxZ2VBeHBRMjRqbHJGYmxXeUtxWVc4UEdnQnlhX3ExNmZ5ZVdTTWdNMFRwWXRNY2E4TURXUHJOMXI2TkpIWEo4WnBOTHRLMDNfSFlhVjVROU9jNXM5T2hGTXN0Y0dGN0RkVGVUMll4OUMwOVYxdlZGZUlpNDY4bGZrUQ?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:LTU:44ae416f5564c6",
+  "date": "2026-11-25",
+  "iso3": "LTU",
+  "type": "뉴스 신호",
+  "label": "리투아니아",
+  "text": "주민들의 아이디어를 위한 수백만 유로: 참여예산 제도가 확산되고 있지만 그 혜택은 아직 측정되지 않았다",
+  "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVzVZMGtiZDdSa25vdkRmTnJXVEFRTURWQjR1aDRFVVg1b25EOUxiYlZXRHh5dDVlcW05TWpDUkZyY0xfUjkzeHY0XzJiUHdEUEpJckw3bjZrd1FNUV9CVGFfWWJ2X2ZLanBBNFVXOVFOeVhZMXgtT1RKWXBrZlRXc0FrYkVFU01ad0E2cGZMNXNHZ0syb1U2Z0huTmMwOWExSHBUSHBQWE14a2p5OFZV?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:POL:6ddfb26f296a55",
+  "date": "2026-11-25",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "한 시민, Malbork 2027 시민예산, 특히 시장과 그의 팀에 대해 불만을 제기. 해당 문제, 시의회에서 처리할 예정",
+  "url": "https://news.google.com/rss/articles/CBMiigJBVV95cUxOekJhYmNCQWRoUEVreDhEby01R1BhWjVfOE5qZnJoVmw5NC03Wkc4WnpQTmUybHJJVk10R1AtUURndmZ3TTI3ZG1EWVNoNFdrcTUzMEcwb1hweDI2TVFMU3JkcEV6UTdSdWs0U0J5aU0xZ3BFOWVWSllnOWN6LXNWeUs4X29nVmRwYXY2b0stRklTNDhMT25LY0w3MUFSZUhmMUJxd3NoOVpPRVM4bnlBZWJXblhoVjRHX2ZKakVJakROY2hwbjI1TXVMbnozQ2p5TnRPQWViRnlCSXR2T05lV08teW52WDctcmhaSW5NX0NVR21teVBKQ3RwbElYaDZWSjdOVUM2cFh3dw?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:PRT:aa06a2d26820bf",
+  "date": "2026-11-25",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "PORTO DE MÓS - São Miguel do Peral 피크닉 공원은 2026년 참여예산의 우승 제안이었다",
+  "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOMjRsb2hUdl9wTlEzZUQ5QzJVMzFYRDZLMFNOLVh1YmktWVNLdlJuZU5vWnliQWJ1TThTUi1ZU29BSTh4eDFfOGlGbkEySm5xVW95WVdvNkwtSmhLRFFMZWJjcFROT2ZZMy11TXZkS1Yzb2Q2cHhqYTNBSXN3R1pmU2tPWlBJNjZqeDdlUGkyV2JVWXp3bFhxZlhBc3ZNckpmaGdlUnMySkZWZUxMLUpYRDB1RkozdGlJRUcxTUtRT1VVS0dIR1BsMFlRTUp0ZkE?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:ESP:5c0b1e45100d41",
+  "date": "2026-11-25",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "레돈델라 본당의 주민참여예산 개선사업 추진",
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOVDBWNmJyUGlxUGl6UXlqTjhETmgtT0FPa2ZNZzRBNm5aSnhENHg5NERDSlI4QW15MjRHZlM2c1NvWmd5LVpCZjZ1SnJhQmtKZEQ4ZEZvcm83amhvVWRZUDFOV3NqcFVuaHo1bkhmY0NzMVZhbGtkZWtTUTZvV1QxZ2NvUk1SQ1JLRl9wTXRlVUM0NVpIUFJQbVcyQjg2SWJiMnY2VFBMazJxcXF2YV9XX0pib3pONmdGLTFRLTJxeEE4Y3puQWhhbmp1LWVmU052NmJ6WGhTMA?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:UKR:5c5e57da50c1ae",
+  "date": "2026-11-25",
+  "iso3": "UKR",
+  "type": "뉴스 신호",
+  "label": "우크라이나",
+  "text": "Zvyagel의 \"공동 행동 구성자\": 포용적인 학교 공공 예산이 교육과 지역 사회를 어떻게 변화시키는가",
+  "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5SM1NiWkxjUzh5bTR5a3otd1lFemhtNVZhSzJCbVVJRHFlVzhDTERRVDAzMWdHMzl1MGd3TDNzempSWEFyeFE?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:BRA:8e3f5e31393017",
+  "date": "2026-11-25",
+  "iso3": "BRA",
+  "type": "뉴스 신호",
+  "label": "브라질",
+  "text": "목사관 선거 UFRN 선거: 패널 1은 참여예산 및 순회 목사관을 제안",
+  "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOak1FMEhRa3Z2cXNNRFdJemM4QmJkSlVjRWlGRVotOHdGS0lsTGNmbVVxLVVtc3QwRWlPYmVoVEQwUV9QSEpDWG95MFdvVzlUdzg1bkpqemlEZ002T2FQLUJETGl1Y2h4WHAxUlQtSGRKVktWdzBpaFpFaXhNQTJwNnAzenppRVZVSTVzbVpkZmMydUc3b1piLWVWWFZSamU0dUtN?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:COL:14241c4617175e",
+  "date": "2026-11-25",
+  "iso3": "COL",
+  "type": "뉴스 신호",
+  "label": "콜롬비아",
+  "text": "메데인의 5개 공원, 참여예산의 자원으로 개선될 예정",
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOaG5RSkg0WnVObF9Ybnc3TC1pWmpnRG81anotREpQaXpPT0VBMkhyTDhYdW1oaU10R0dsZ1RhNUQyT2laZEVoaUc1VnJralEwWUhzdllnUHRWX0thck41dDBVcnItQ3Z5MU9sNXVZRVgtYWJmbnN4YnJGS0Z5cDY1SVo0bTF2R2s3LVktT2tLUkRHVF9xLVNPekdiS3Zyc2xpWFQ3LUhWNWRhUnhMRXpKbkZlR0RLeldVV3VqZ0wyVUhPSFhsS2xKN2pKS1pNNnd2bVd0clpSYw?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "news:MEX:967b2081e4a21c",
+  "date": "2026-11-25",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "이를 통해 62개 센터에서 2027년 참여예산에 투표할 수 있게 된다",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNY0FrcGN4dmU5SWhBR0FrZkVIUGFxZHRjLU9qZ1piUVBmQnZoaFVwOXRvT3ByR0lvOVlSUHdwTHlDenlZMWxuazZVMXIwMk1RVGM2M0tYcXEwekVIN1FjOGN0U0VzeGhaOTBQTXVnWUQwUlFhRzBvUlh0Y3VFZFlRejY3WXFEQ25YOWtLbDVZUGowMUJRWUZWYmlXZGl0d01JWDY2TWNsTjhPdXZoRWc?oc=5",
+  "observed_at": "2026-11-24"
+ },
+ {
+  "key": "paper:doi:10.83842/participatory_budgeting",
+  "date": "2026-11-25",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "논문",
+  "text": "아프리카 참여예산 저널",
+  "url": "https://doi.org/10.83842/participatory_budgeting",
+  "observed_at": "2026-11-23"
+ },
+ {
+  "key": "news:EST:24832c909a1460",
+  "date": "2026-11-25",
+  "iso3": "EST",
+  "type": "뉴스 신호",
+  "label": "에스토니아",
+  "text": "포괄적인 예산에 대한 아이디어, Kaarsilla에서 발표될 예정",
+  "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5hRHpOV2U4RWd4LUJnSWVhcWJacFN4VVd6RXVINEpaVWFCZWFFOWlOa3JrN2JKbjdqQWJObDNya1E1Zm9fc2xNQVNUdEluWXExcGpoWmxxU2tVUlg0dDJSc2k0bXB2R3FoV242dGs5Z0lQSmlsQ2ZKV1pLTTZ1dw?oc=5",
+  "observed_at": "2026-11-19"
+ },
+ {
   "key": "news:DEU:a22f901c7050d3",
   "date": "2026-11-24",
   "iso3": "DEU",
