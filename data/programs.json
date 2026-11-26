@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T04:14:53.340251+00:00",
+ "updated_at": "2026-11-26T03:36:18.204978+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-25T04:14:53.340251+00:00",
+    "checked_at": "2026-11-26T03:36:18.204978+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -281,7 +281,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-25T04:14:53.340251+00:00",
+    "checked_at": "2026-11-26T03:36:18.204978+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -452,7 +452,7 @@
      "source": "Madrid Secreto"
     },
     {
-     "title": "El Museo de Historia de Madrid impulsa dos proyectos patrimoniales en los Presupuestos Participativos 2026-2027",
+     "title": "마드리드 역사 박물관, 2026-2027년 주민참여예산에서 두 가지 문화유산 프로젝트 추진",
      "date": "2026-06-08",
      "url": "https://news.google.com/rss/articles/CBMi_wFBVV95cUxQb1Z2R2UzWWF4Mk5IVkctZ0xYMUZkN2hIQTFiT1RXbkc2VUNkVHdMX3p1cjJhVlhGeEgyaEhVTF9UMWEtU3RJRU03LXM1bVhYUC1MNC1CbG51TEV1VnFnLVBoUlVTOEE2MEUya2hyN0FyWWZyRnNNbGlDSk1Xem5yRjlQSjI2MnFoMGd2RmxiUDhkNDlzSm52QUlyUElVZnhsdXJiak5JMlRoSWtLSFlreXVXYlktbTh5VmNVUV9DdHNqUEJfdUZTTWcwSlBmb2g3bUNaNUNyVnFxeTVOYnJFODZFemVNU1E1YXhEa3pkSEhVaGlmOXdWQ1BBdUJZS2_SAYQCQVVfeXFMTmNmeEo1N3VrOFZRQWEtdTBGakFOZFU0RFZKYlg3ZHRrZ2w0VkQxSEhGRVNOUVFrZGQxNHVPMjRfSl80VXFHZlpqbzE0U3l3WC12MldZZWZRVlBCYlVxZVpwM2VQZldPSHJQVm9JVER0akoxQTVYWHdBY1hFTXVpeXBtVG15c1VzUFpjb3B4SHEyeWwxcnNnWVk2c2hvMFhFek5oLVlmSkZhT0NqNkFXelAwNDFGUjhfeFlrSS1Jeml0VE1iQVNxckRhX2FLNWFPdVBYOGlUdEktTEdiaVZTc3ltcHZaa0t2OVNUVFRFTmFITGk4RHZIV25GQlAzeUc5VTRMRXQ?oc=5",
      "source": "El Diario de Madrid"
@@ -1355,6 +1355,12 @@
    "cases": [],
    "related_news": [
     {
+     "title": "참여예산: 알리투스, 최초였지만, 오늘날에는 더 많은 주민들이 지역에 참여 중",
+     "date": "2026-11-25",
+     "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVG9TNnVyaHpxVlNkV0wwZ1hrekpRUDAxVGNWb3lUdUM3b1hlemxsd25id19SRFFLZV83eGcxZU45dHZWMEFtMFRLeTV0dUR1SGlYS2tlYWVwZzdlTzJvUDJ3akJjTlJmcU00eTZfM3dWMEdRUElIS3R5eGNLNnh2RFI5UjcxZGs1LVB6MGM4U05LbU04ekt2a1lScDk0S0MtZWlzQmVZSlI0ZkQ1UkZGZjZ1RQ?oc=5",
+     "source": "fm99.lt"
+    },
+    {
      "title": "주민들의 아이디어를 위한 수백만 유로: 참여예산 제도가 확산되고 있지만 그 혜택은 아직 측정되지 않았다",
      "date": "2026-11-24",
      "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPVzVZMGtiZDdSa25vdkRmTnJXVEFRTURWQjR1aDRFVVg1b25EOUxiYlZXRHh5dDVlcW05TWpDUkZyY0xfUjkzeHY0XzJiUHdEUEpJckw3bjZrd1FNUV9CVGFfWWJ2X2ZLanBBNFVXOVFOeVhZMXgtT1RKWXBrZlRXc0FrYkVFU01ad0E2cGZMNXNHZ0syb1U2Z0huTmMwOWExSHBUSHBQWE14a2p5OFZV?oc=5",
@@ -1365,15 +1371,9 @@
      "date": "2026-11-24",
      "url": "https://news.google.com/rss/articles/CBMi6AFBVV95cUxPTUlSYjVETHhHY1lSYkFtTmhieEF5X2x3aXBOeEVYTUlwSWtOd0NwLTNkT3pUU2pwMkctS3FuNFVacWV4NnVWcEpkLVExQzNoSFZwM1dpM2d5azRucGFUckUxMFppX3doOC1JWWo3SFN4bkpzRU5aY2RIZ2duNkgxU1NkX0QwMURQc3pZZ1ZnMG1yRVVnZHp5TmhveHlERG1tdWZDeERCblhWWmdCZWhqN0Q3dnBvaVNZUlRvR3FUbHJyU0lIRnNmakh2NGJhb3JCeDk3ZUY3b3NBTmJJQjJVcXVjVWZ4UU1C?oc=5",
      "source": "15min.lt"
-    },
-    {
-     "title": "꼬리표: 참여예산 Kėdainiai",
-     "date": "2026-11-18",
-     "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9WeTJ0SVc0NzA3OEgzVHZwNjVYelZfZ1MzTm1hTTdTNXZIQm0zNE5NR0xHRC1wX05hQWgyVkdHRXpNcUswcmtadUtZNmE5YmZ0M01OdThpNjg0ODVHajNRamUyY0hkVG1mdUpHZEdoT1o?oc=5",
-     "source": "rinkosaikste.lt"
     }
    ],
-   "latest_signal_date": "2026-11-24"
+   "latest_signal_date": "2026-11-25"
   },
   {
    "id": "gbr-lancaster-pots",

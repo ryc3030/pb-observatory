@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-25T04:14:53.340251+00:00",
+ "updated_at": "2026-11-26T03:36:18.204978+00:00",
  "count": 238,
  "items": [
   {
@@ -125,6 +125,35 @@
    "title_ko": "현지화를 위한 지속 가능한 지역 거버넌스",
    "_tr_tried": true,
    "title_ko_mt": "현지화를 위한 지속 가능한 지역 거버넌스"
+  },
+  {
+   "id": "doi:10.1016/j.artint.2026.104661",
+   "title": "Fair lotteries for collective choice",
+   "authors": [
+    "Haris Aziz",
+    "Xinhang Lu",
+    "Mashbat Suzuki",
+    "Jeremy Vollen"
+   ],
+   "venue": "Artificial Intelligence",
+   "published_at": "2026-11-18",
+   "doi": "10.1016/j.artint.2026.104661",
+   "url": "https://doi.org/10.1016/j.artint.2026.104661",
+   "open_access": true,
+   "lang": "en",
+   "cited_by": 0,
+   "abstract_snippet": "We study a hierarchy of collective choice settings, including participatory budgeting (PB) and committee voting under both binary and general additive utilities. In these settings, fairness guarantees are typically limited to groups of voters with sufficiently cohesive preferences. In pursuit of outcomes with broader fairness guarantees, we study lotteries over discrete outcomes in our collective choice settings. Sin",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Game Theory and Voting Systems",
+    "Political Philosophy and Ethics",
+    "Electoral Systems and Political Participation"
+   ],
+   "first_seen": "2026-11-21",
+   "title_ko": "집단적 선택을 위한 공정한 복권",
+   "_tr_tried": true,
+   "title_ko_mt": "집단적 선택을 위한 공정한 복권"
   },
   {
    "id": "doi:10.69733/clad.ryd.n96.a934",
@@ -733,35 +762,6 @@
    "title_ko": "전자정부가 참여예산제에 대한 시민 참여를 형성하는 방식",
    "_tr_tried": true,
    "title_ko_mt": "전자정부가 참여예산제에 대한 시민 참여를 형성하는 방식"
-  },
-  {
-   "id": "doi:10.1016/j.artint.2026.104661",
-   "title": "Fair Lotteries for Collective Choice",
-   "authors": [
-    "Haris Aziz",
-    "Xinhang Lu",
-    "Mashbat Suzuki",
-    "Jeremy Vollen"
-   ],
-   "venue": "Artificial Intelligence",
-   "published_at": "2026-11-01",
-   "doi": "10.1016/j.artint.2026.104661",
-   "url": "https://doi.org/10.1016/j.artint.2026.104661",
-   "open_access": true,
-   "lang": "en",
-   "cited_by": 0,
-   "abstract_snippet": "We study a hierarchy of collective choice settings, including participatory budgeting (PB) and committee voting under both binary and general additive utilities. In these settings, fairness guarantees are typically limited to groups of voters with sufficiently cohesive preferences. In pursuit of outcomes with broader fairness guarantees, we study lotteries over discrete outcomes in our collective choice settings. Sin",
-   "source": "OpenAlex",
-   "type": "article",
-   "concepts": [
-    "Game Theory and Voting Systems",
-    "Political Philosophy and Ethics",
-    "Electoral Systems and Political Participation"
-   ],
-   "first_seen": "2026-11-21",
-   "title_ko": "집단적 선택을 위한 공정한 복권",
-   "_tr_tried": true,
-   "title_ko_mt": "집단적 선택을 위한 공정한 복권"
   },
   {
    "id": "doi:10.5281/zenodo.23842770",
@@ -2147,11 +2147,11 @@
     "JosÃ© Machado Moita Neto",
     "José Natanael Fontenele de Carvalho"
    ],
-   "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+   "venue": "Revista de Direito Econômico e Socioambiental",
    "published_at": "2026-06-01",
    "doi": null,
    "url": "https://doaj.org/article/c3be5ac9a5504f60bf072a1f6c81d118",
-   "open_access": false,
+   "open_access": true,
    "lang": "pt",
    "cited_by": 0,
    "abstract_snippet": "Este estudo investiga a construção, disputa e influência dos discursos sobre sustentabilidade na alocação de recursos no Orçamento Participativo do Piauí (OPA Piauí) entre 2023-2025. Apesar da reconfiguração da governança pública e da relevância do OP, a literatura carece de análises sobre a dimensão orçamentária do OP e a integração da sustentabilidade em ciclos complexos. Adotando uma abordagem qualitativa e a Anál",
@@ -2464,11 +2464,11 @@
    "authors": [
     "Melina Jakubowicz"
    ],
-   "venue": "DOAJ (DOAJ: Directory of Open Access Journals)",
+   "venue": "Mundos Plurales - Revista Latinoamericana de Políticas y Acción Pública",
    "published_at": "2026-05-01",
    "doi": "10.17141/mundosplurales.1.2026.6683",
    "url": "https://doi.org/10.17141/mundosplurales.1.2026.6683",
-   "open_access": false,
+   "open_access": true,
    "lang": "es",
    "cited_by": 0,
    "abstract_snippet": "En el presente artículo se examina el presupuesto participativo en General Pueyrredon como una herramienta de gestión democrática que, en teoría, debería ampliar la deliberación ciudadana y contribuir a una distribución más equitativa de los recursos urbanos. Desde una perspectiva político-territorial, se analiza cómo las reformas neoliberales, la fragmentación socioespacial y la creciente tecnocratización de la gest",
@@ -2877,7 +2877,7 @@
    "open_access": true,
    "lang": "en",
    "cited_by": 4,
-   "abstract_snippet": "Introduction . The article is a continuation of the research on youth initiative budgeting (II B), and focuses on its potential as a tool for sustainable rural development. The relevance of the work is determined by the strategic objectives of overcoming spatial inequality, increasing financial accessibility and forming a personnel reserve for rural areas. Purpose setting . The purpose of the study is to analyze the ",
+   "abstract_snippet": "Introduction. The article is a continuation of the research on youth initiative budgeting (II B), and focuses on its potential as a tool for sustainable rural development. The relevance of the work is determined by the strategic objectives of overcoming spatial inequality, increasing financial accessibility and forming a personnel reserve for rural areas. Purpose setting. The purpose of the study is to analyze the ro",
    "source": "OpenAlex",
    "type": "article",
    "concepts": [

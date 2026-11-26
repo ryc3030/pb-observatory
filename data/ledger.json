@@ -1,5 +1,115 @@
 [
  {
+  "key": "news:MEX:050bffe2ed2a85",
+  "date": "2026-11-26",
+  "iso3": "MEX",
+  "type": "뉴스 신호",
+  "label": "멕시코",
+  "text": "에디스 도라도(Edith Dorado) 시의원, 2027년 주민참여예산의 투명성을 높이기 위한 5가지 조치를 제안",
+  "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxOM3pTSmZTNkY3RUV0S3Z3WU4zamdMTlNvWTFEWDlxMjJNbFFlR2xVT2xqUnU4X3JpdFFGdzQ2Q3JMWDFrS01OVXRBZ1E0LWR6U1JJR2Jsd0FmYkl6aUIzT0tjMHhvMkdLRWhRLTloODVmcGVuV0RDWXRxX1gtdERJWVFfS0VrQkRfWi1NY1VMRGFUWDg1cnFzQjVzLVNMeGVzNkVNMDhxZnhGSDFTaVN4VnZZemtaSFlGVWg2WWYwcjBrTmIyb2M4?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:KOR:8ccbd5ea8686bd",
+  "date": "2026-11-26",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "김석환 대전 중구의원, 동 청사 사업 주민참여예산 편성 질타…\"의회 심의 우회인가\"",
+  "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTFBXa1AzaktNaFNBVXkzOG5lNDZ6dVIwQWh2WnN1cWZfajVVWDI5VTB3TTF4dVcxaDIxUXBQeVlBUGJBNkgxLTFIZy1xYV9MRmY4VFY4aU8xMmZ1b2dXVldyQ3VscHZiOEZwWjlIajNR?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:EST:0a4a1b6f5f3ca8",
+  "date": "2026-11-26",
+  "iso3": "EST",
+  "type": "뉴스 신호",
+  "label": "에스토니아",
+  "text": "포름시(Vormsi)는 참여예산으로 거울을 받게 된다",
+  "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE9NNHU0bTRUX2Rrek1DUGs1SDR1WkxTZ0lGLTJQbHR1cDcyWkp1U0luNDA5ZFd4MHlsYmU3aUxZd1ByWTVhNU5ocTYwM1RiakltX2xDaWpvcnB5VHRRLXRUZGhDNUJzcU1QUXZOdjdOemQtV2FfZEd2dFR5d3g?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:FRA:1ded2fce3939a3",
+  "date": "2026-11-26",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "참여예산: 선호하는 프로젝트를 선택할 수 있는 마지막 기회",
+  "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOTHRFR2wtUU9rUjZrVkhKWnVFZkpHSU5JaEkwTUZhdXFPa1JWUjVPTEM4eXhIRkJEaXAxVm84cEpnM1ZZRFRLRGl0V1FsR0J0WXVJckVVSjJDT1M3M0hGQ2Fib1JVbmg4R1daZXpKWnpzeUpRU1dwZUxqbEEtSmNZRFpqRk9xMG8wSFBSTG5BaEVjd243MV9hY0FHNFJCc0xFbXQxWE8xQVA0WnUzTlVIcENmUTVaREZsdGZlc0tybmRXeWhJQjBVYnN1TzZZY3hBdktrYW1uRQ?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:LTU:0d964dd2aa5d12",
+  "date": "2026-11-26",
+  "iso3": "LTU",
+  "type": "뉴스 신호",
+  "label": "리투아니아",
+  "text": "참여예산: 알리투스, 최초였지만, 오늘날에는 더 많은 주민들이 지역에 참여 중",
+  "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNVG9TNnVyaHpxVlNkV0wwZ1hrekpRUDAxVGNWb3lUdUM3b1hlemxsd25id19SRFFLZV83eGcxZU45dHZWMEFtMFRLeTV0dUR1SGlYS2tlYWVwZzdlTzJvUDJ3akJjTlJmcU00eTZfM3dWMEdRUElIS3R5eGNLNnh2RFI5UjcxZGs1LVB6MGM4U05LbU04ekt2a1lScDk0S0MtZWlzQmVZSlI0ZkQ1UkZGZjZ1RQ?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:POL:f2b4ea59b70a5f",
+  "date": "2026-11-26",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "비아워렝카(Białołęka)에서 진행된 '시민예산' 게임 워크숍",
+  "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQVF6RTgtMkxRaHpWWDl2cVl4ZFF3LVJpb1VqcHh1cVZ1SmZNQk1vNjVIbnlkTjRpbUp0RnE3bjBBVVJNTmp4alBaSzF3RzFrQWUweDJVWDd0YXRENWt4ejFncmNFRlF4WnlKbGlQajdUWWN1WVFRcjNUWHdkMDYtTzBZNmVrN3JFMWhYV0xB?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:PRT:7974b190d1a6a9",
+  "date": "2026-11-26",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "로우자다, 청소년참여예산제도 신청 접수 시작을 발표",
+  "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxORHg3MTNSUmxfVWpRUlprTjE5YU1rcDFfZlNONEdsaU80b3ZJYURuZ2pLenluRTNpUnNHVXFpY0hTTnJ3c2dGOUVIc0FDMHgwZG5aZDlJMUFGSmxlT3g3MzE2cVhNUnQyUkR6OEJHcjNjV0p1ekhpdzNIS1BiNjd3eEdfSXBGaktrQ3ZHOGRvU0c5a1dUMC1tMDIyaTl3b013QTNVcVlFT3JKc0Fh?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:ESP:f85eaa0bc92920",
+  "date": "2026-11-26",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "타코론테, 2027년 첫 주민참여예산제 도입 준비 중, 테네리페섬으로부터 9,000유로 지원받아",
+  "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPWi01MFdybDRmb3hRTGNaSFpkS3lsLUhfa2xQS202YThoSGt4Y3NXWXlaUGxrZ1pLMGxsRHdQMXRtSWh2NjE0cXlJMFNiR1VjMW9EaWZBYU1HbzJEWTh0MEFfVkJweEYxSWo3M2JPVUNPZm9EZnBFcUMzYXQ3Z0hhRjhrdGZXWHMtUXRXZ2ZjVGtKRXFONHdkY1ZCWVBXZ3l5YVpsRDBQeDE0ejF4QVBKc0hIbm0yMEVFSU41TlZTYmpLdWJUV2E3R3UwRmY2OVNrQkE?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:UKR:b35c1791d19062",
+  "date": "2026-11-26",
+  "iso3": "UKR",
+  "type": "뉴스 신호",
+  "label": "우크라이나",
+  "text": "즈비아헬의 학교 공공 예산: 워크숍 결과",
+  "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOX3d5c3lxME40V2stbGZPSGhIdFlPeDlMYXBVZXhIWWJqTXhkdmc1V2dvOURWMlhWWHMzRVVBdzBSbDhhRGtzbGhjWHkzWExGQUhlWHlXbld6SVlQQUdPRV9vWVVnTHRFemNLeHdpWWF2ZVJieHlQQUg3a1Q3OXh5d0RYZEJqWEtVcEVSa3hXWC1JcDh5ZVVPQ3A3X0U?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:COL:5b00b637e238b9",
+  "date": "2026-11-26",
+  "iso3": "COL",
+  "type": "뉴스 신호",
+  "label": "콜롬비아",
+  "text": "칸델라리아(La Candelaria), 주민참여예산에 관한 제3차 시민 대화에 참여하도록 초대",
+  "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQZl8wOTRCSUotYkhMZ2ZPZ2FWOFhlb3hOVm0ycFFPN1pXaGlNa1p3Q3Mwd1Y0LU1YZjhPRl9DLTluTFhITjVUaXNtQjMxZEdjNGlQaTQ1clZzc2VqQmxPd05vektpempVbGxRajREbTNyN0ZLNUlZNFpXQUFRdVl0VFd0aw?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "news:ECU:d508417fd52cb5",
+  "date": "2026-11-26",
+  "iso3": "ECU",
+  "type": "뉴스 신호",
+  "label": "에콰도르",
+  "text": "쿠엥카시, 58개 제안의 비용을 평가하기 위해 주민참여예산 투표를 이 날짜까지 연기",
+  "url": "https://news.google.com/rss/articles/CBMi9gFBVV95cUxOS2RKa0VVQUZyVFlCalU4cE5zNWJ0X2J5dXZUR3dXSHptY01jQVRtMFJxdHUtUV9MMjk3ZkpFU1ZlOFFSRG5iT3RuX2NCanI1czZUal95cmNLSHh4SXhJbndBZmx0elAwa2huWmV6NXJETF9TdVBDcWdzeFBWckxCYmE5aGpldWRoaUxlR3BZT2pWM0M4LVJic25TcTdhTTFKRmN0ZkllclpXanNEMTNTVWxQdjBXajVsVEpyY3FUdGw2dGlZSWlxRnNseFd1amZ4d3RrNGZTOUg2cjd0SnlyVklibGU0UEs0R190X1R2Nlk2VHZ0Rnc?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
   "key": "news:ECU:92b473886ed88b",
   "date": "2026-11-25",
   "iso3": "ECU",

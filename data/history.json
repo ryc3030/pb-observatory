@@ -134,5 +134,22 @@
   "countries_press_6m": 36,
   "countries_press_12m": 39,
   "papers_total": 238
+ },
+ {
+  "date": "2026-11-26",
+  "countries": 92,
+  "status": {
+   "monitoring": 49,
+   "reported": 18,
+   "verified": 10,
+   "documented": 15
+  },
+  "programs": 39,
+  "news_total": 2752,
+  "news_30d": 1011,
+  "countries_with_signal_30d": 31,
+  "countries_press_6m": 36,
+  "countries_press_12m": 39,
+  "papers_total": 238
  }
 ]
