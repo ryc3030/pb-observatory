@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-26T03:36:18.204978+00:00",
- "count": 238,
+ "updated_at": "2026-11-27T03:39:23.489170+00:00",
+ "count": 239,
  "items": [
   {
    "id": "doi:10.18572/2500-0349-2026-4-20-25",
@@ -28,6 +28,32 @@
    "title_ko": "옴스크(Omsk)의 사례를 통해 참여예산 참여의 지속 가능한 모델 식별",
    "_tr_tried": true,
    "title_ko_mt": "옴스크(Omsk)의 사례를 통해 참여 예산 참여의 지속 가능한 모델 식별"
+  },
+  {
+   "id": "doi:10.35537/10915/201979",
+   "title": "Gobernanza multinivel y participación ciudadana en Chile y Argentina: los casos del Hospital Intercultural de Padre Las Casas y el presupuesto participativo en la ciudad de La Plata (2004-2019)",
+   "authors": [
+    "Mario Javier Flores Chávez"
+   ],
+   "venue": "El Servicio de Difusión de la Creación Intelectual (National University of La Plata)",
+   "published_at": "2026-11-24",
+   "doi": "10.35537/10915/201979",
+   "url": "https://doi.org/10.35537/10915/201979",
+   "open_access": true,
+   "lang": "es",
+   "cited_by": 0,
+   "abstract_snippet": "El objetivo que el proyecto se propone es reconstruir el tipo de gobernanza local desplegado por las gestiones municipales de Padre Las Casas en Chile y de La Plata en Argentina, a partir del estudio de los casos del Hospital Intercultural y el Presupuesto Participativo. En particular, se indagará cómo se construyeron mecanismos y espacios de participación ciudadana y gobernanza, así como las formas de su ejercicio, ",
+   "source": "OpenAlex",
+   "type": "dissertation",
+   "concepts": [
+    "Public Policy and Governance",
+    "Politics and Society in Latin America",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-27",
+   "title_ko": "칠레와 아르헨티나의 다층적 거버넌스와 시민 참여: 파드레 라스 카사스(Padre Las Casas) 다문화 병원과 라플라타(La Plata)시의 참여예산제 사례(2004~2019년)",
+   "_tr_tried": true,
+   "title_ko_mt": "칠레와 아르헨티나의 다층적 거버넌스와 시민 참여: 파드레 라스 카사스(Padre Las Casas) 다문화 병원과 라플라타(La Plata)시의 참여 예산제 사례(2004~2019년)"
   },
   {
    "id": "doi:10.83842/participatory_budgeting",
@@ -4312,7 +4338,6 @@
    "title": "A Study on Implementation Management Effectiveness of National Participation Budget System : Focusing on the determinants of Budget Implementation Rate",
    "authors": [
     "동국대학교 식품의료제품규제정책학과 박사수료",
-    "Seokwon Lee",
     "Yeonju Oh"
    ],
    "venue": "Korean Governmental Accounting Review",

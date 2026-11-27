@@ -1,5 +1,115 @@
 [
  {
+  "key": "news:FRA:2bb55fa3eb0cd5",
+  "date": "2026-11-27",
+  "iso3": "FRA",
+  "type": "뉴스 신호",
+  "label": "프랑스",
+  "text": "수드현의 주민참여예산: 81개 프로젝트 선정, 예산의 60% 이상이 청소년 및 스포츠 분야에 배정",
+  "url": "https://news.google.com/rss/articles/CBMigAJBVV95cUxPTDVSV1pUOWJnYUtfZ1dFbDM5STd0TVU4U1hXUVlnVXVvTVlIT1AzRUR4SXJCVm1HMkNoQWpPWVM3NkJxSHktYkF3dUM5RGtqdS1pb2VJV2RtMlBlM1YxeGx3X1pxZUdGeEE3b1FLR2pNWkZodG5zNlBGaFg3SU5zc1VpMEt1M3ZETENOb1A5SFF6bTIwamJrM3l6djN3VGs2T1EwWXV2NEhIQUUyUEpYc0hOVl9iRG4xU1h1OFpNUHNGeHhwd0t3OGJXQkhxU0luRG9BaDVKYkI1cnM2WXJyeS0yRktrSFdkMXZuc2lEblljM1lCOHN1a1BqOUh3VFcw?oc=5",
+  "observed_at": "2026-11-27"
+ },
+ {
+  "key": "news:KOR:a28cfa04d3c187",
+  "date": "2026-11-27",
+  "iso3": "KOR",
+  "type": "뉴스 신호",
+  "label": "대한민국",
+  "text": "[경기교육청 소식] 내년 주민참여예산 66건 도의회 제출",
+  "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE81S2tpQ3NXMms1LVU5M3lhYlJWMU5Hb0FHaXpneXlmZHpEanp1RWhSNWp4MElSaWRHRlA0Rmw1a2FjYTZCTWE3YXJrWUxwdksySmdMcGpvTWN1eHhOaEE?oc=5",
+  "observed_at": "2026-11-27"
+ },
+ {
+  "key": "news:CZE:91c65b0ea59b8b",
+  "date": "2026-11-27",
+  "iso3": "CZE",
+  "type": "뉴스 신호",
+  "label": "체코",
+  "text": "프로스테요프(Prostějov), 학생들에게 더 많은 공간을 제공. 학교를 위한 참여예산을 준비 중",
+  "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxPWllIQWk3ZmlVbC14aTc2OG10NDl0emhNakdRVHlpamJEODhhcHhfUnFodndUQlZHbXc2VlFfS3M5aHh3OE9sQzM3MFh0N01JZm5pR3FlR0U1SmxubW5uemlIbXctX3dqY3dZYzFHSE9kY3NuR3RnR1Qwalhvb2prQzdqT3FvS1hMQ2pWVF96TE0ybTJCNVpGcTBWY0pmN0c0Z0V3b0p1eDZFNDE2OGkza0VXZEpHMW5EU25iVVJoMFA?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:DEU:fe34dae0011f2b",
+  "date": "2026-11-27",
+  "iso3": "DEU",
+  "type": "뉴스 신호",
+  "label": "독일",
+  "text": "누가 시민예산을 초기 자금으로 사용하나요? – 12월 6일까지 신청 가능",
+  "url": "https://news.google.com/rss/articles/CBMiQEFVX3lxTE1aUTJtOGdfcWZoM29qRUI3YlM0ZFlXX2pqQXZ6U2JaUTJNYWNVU0c0Uk5rbU1PaE9Bc18zdlJ6cW8?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:LVA:2368acbca84ab0",
+  "date": "2026-11-27",
+  "iso3": "LVA",
+  "type": "뉴스 신호",
+  "label": "라트비아",
+  "text": "내년에는 학생이 주도하는 프로젝트도 리가시 참여예산에 제출할 수 있다",
+  "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV1hCTVdQS1pQeWJEbEVKWXY0QmtUMkFrRVdLTDk2cXJEMWg3SEZyemQ5VlBVODBKM3Y3V21OVElwWjNNb0pWYmN2cnVRdDF6eUstYmVtN0dIdjY1eUJaMU1hV081aElmTXlsWHp0T0RRWnNsT25PVHFvY2hHXzQwdlN5cWhDRV9FVTZNSmg5bVFab3JoRzZEemxJbUhJSXpqYkpKemNSUlotVk5JOW4tRS1TQ3RlWV9fSHV5bWtMeDZHdw?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:POL:b3f86fb960c680",
+  "date": "2026-11-27",
+  "iso3": "POL",
+  "type": "뉴스 신호",
+  "label": "폴란드",
+  "text": "엘크 주민참여예산 2027 – 결과 발표",
+  "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNSDBKX0h2MHRDZlNMOUxCcTA0djV3ZzlaRHU0VzZ3RTB2T2NKWklDX3dIeUVlcTBnQWM5ZDh3U2xLX1psUUNPc3VvSkt4cWtoTDc5a3E2RTlYSGtvdVU5eWYzZXN6STRiUmFKd0RoT3dHTnhTLTFIeW93WXZUUWJmN0dEY1E?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:PRT:d5a9e6f44d8f2b",
+  "date": "2026-11-27",
+  "iso3": "PRT",
+  "type": "뉴스 신호",
+  "label": "포르투갈",
+  "text": "2026년 주민참여예산제 사업 선정 결과를 확인해 보세요",
+  "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQOGF5VGhPNkJPSWZFZDdLUmxDWC1nNVc5RTJwZzF4cHJXVEVQX21WdWY5QTlnbEJhblR6eFZYMURYZXdjTF9zOE56QkxFWmwwQTRsX0Y4SzFmNHczOThUbmlTRVAzRWU2RVpuY0ZrRGFuNE5pblpveHVxSFlKS3lMdXdwbkNPcDdod09Udg?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:ESP:f83c0bd05d6c57",
+  "date": "2026-11-27",
+  "iso3": "ESP",
+  "type": "뉴스 신호",
+  "label": "스페인",
+  "text": "타코론테, 2027년 첫 주민참여예산 준비",
+  "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxONU9sNHpfWTIzZjh6T1V3aHNKa0tKM1dJZG5aYmk4QXBYSWF2TS16Z0swbVpZQ1BpUy03Rl9zcjcxZ3JUVUxibENZZ0RkSWxHNnVhTXZCa2N6dU16VFlaYURlUU5xa3JmeVdoVlV6ZlhoT0dxa0dNMFp3YUV2UEU2N1VsaGFXVlpJdERNMDJVaFItZDBNei1fUlVrR2MtaHpJdE9RZkotS1BlRmVhYVE?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:ECU:0b84a8ea010ab6",
+  "date": "2026-11-27",
+  "iso3": "ECU",
+  "type": "뉴스 신호",
+  "label": "에콰도르",
+  "text": "온다 세로 쿠엥카(Onda Cero Cuenca)에서 논의된 선거 막바지와 수도의 주민참여예산",
+  "url": "https://news.google.com/rss/articles/CBMilgJBVV95cUxPbHZMazEyM2xNaEVKaVg0bWwwWEJBMzMtempJUVNtcW5MRm1uMkJ5Q0poNGtrdDk1dFNnRmU1RTF6elIzdXd3bVkyd3RQWk9jaGl4YmFNemsyQWlPS0ltYi1ScDljaklqb2ItVWlJdVNoRGtZMHVjd1phdG9lbFVWcUI0aVpSdEQ2T1ROcUZmQnNNZ0tDaXozNGJFTXNuQVdDZ3pwNVVNcVY0Z19fa2lvZTAtN1VrSl9hLXFUelQ3TnJQWVdZWng2OE85Ym5CSURqY29pclRfb215dDhnUzBFZzNjN0FRanhtdF9jSVZhcUh3bENTSzdrZWl5aU14VjhoQjJidElBUFJ6YmNRMXFKd0VMX3EtQdIBlgJBVV95cUxPbHZMazEyM2xNaEVKaVg0bWwwWEJBMzMtempJUVNtcW5MRm1uMkJ5Q0poNGtrdDk1dFNnRmU1RTF6elIzdXd3bVkyd3RQWk9jaGl4YmFNemsyQWlPS0ltYi1ScDljaklqb2ItVWlJdVNoRGtZMHVjd1phdG9lbFVWcUI0aVpSdEQ2T1ROcUZmQnNNZ0tDaXozNGJFTXNuQVdDZ3pwNVVNcVY0Z19fa2lvZTAtN1VrSl9hLXFUelQ3TnJQWVdZWng2OE85Ym5CSURqY29pclRfb215dDhnUzBFZzNjN0FRanhtdF9jSVZhcUh3bENTSzdrZWl5aU14VjhoQjJidElBUFJ6YmNRMXFKd0VMX3EtQQ?oc=5",
+  "observed_at": "2026-11-26"
+ },
+ {
+  "key": "news:ARG:d5c536b390afe0",
+  "date": "2026-11-27",
+  "iso3": "ARG",
+  "type": "뉴스 신호",
+  "label": "아르헨티나",
+  "text": "루한 데 쿠요, 2026년 주민참여예산 12개 우수 사업 선정",
+  "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQN0gtc2pJaU9zNm4wTFZkWTVJQmtDbVU0enpOZXZGemtTbUgtbjQ0eUxSSDRrZGo2RThFQkMzcFNxWUhRaEp1Y2ZzYndVdENHU3ZHWWM4LUZpdllya0txSUpnbV8ySlhjLTRDNDFud0s5MXB0bWlGM1JoQVEyYkVHYjNqUndMSGJkN05pTWl3Wm5yemtwN25fWVNzZWVkZnp5ZnJNX0o0b0pxeVRUeGt6ZjlyQXVPZ1ZVODNYc2tGZ3FVdUND?oc=5",
+  "observed_at": "2026-11-25"
+ },
+ {
+  "key": "paper:doi:10.35537/10915/201979",
+  "date": "2026-11-27",
+  "iso3": null,
+  "type": "연구 신호",
+  "label": "El Servicio de Difusión de la Creación Intelectual (National",
+  "text": "칠레와 아르헨티나의 다층적 거버넌스와 시민 참여: 파드레 라스 카사스(Padre Las Casas) 다문화 병원과 라플라타(La Plata)시의 참여예산제 사례(2004~2019년)",
+  "url": "https://doi.org/10.35537/10915/201979",
+  "observed_at": "2026-11-24"
+ },
+ {
   "key": "news:MEX:050bffe2ed2a85",
   "date": "2026-11-26",
   "iso3": "MEX",

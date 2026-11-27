@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-26T03:36:18.204978+00:00",
+ "updated_at": "2026-11-27T03:39:23.489170+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-26T03:36:18.204978+00:00",
+    "checked_at": "2026-11-27T03:39:23.489170+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -281,7 +281,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://omastadi.hel.fi/api",
-    "checked_at": "2026-11-26T03:36:18.204978+00:00",
+    "checked_at": "2026-11-27T03:39:23.489170+00:00",
     "cycles": [
      {
       "slug": "osbu-2025",
@@ -458,7 +458,7 @@
      "source": "El Diario de Madrid"
     },
     {
-     "title": "El Supremo deja sin efecto la decisión del Ayuntamiento de Madrid de declarar inviables 232 proyectos de los presupuestos participativos",
+     "title": "스페인 대법원, 마드리드 시의회가 주민참여예산 232개 사업을 실행 불가능하다고 선언한 결정을 무효화",
      "date": "2026-05-14",
      "url": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQUVhzMV9TS2N6V2hQYndWZy15SUFnYUpwc3BoSUdKaFAwakwtNGZHZE9EeEZqYzRvS0l1Uk51VnliYnNLcm5nbkFxMnk3dlVMTXU1QTQ3NFB4NE9fSmdKZ0VlNGlyYUc1VG1PSE5KcUxzZmNXN3V5OU9fUGRscFlaa2NNZjl0aGVrbDhCNlZzQ2FEYUhRSkRGUHFRZmhHYjR2YmNrMFpXSUc5QnBlSXNIMnNDbFNRNEpYaTE4WEVOWWJjM0stdG1hd2VoMnU1Nkxad2k3RktMLVZDMHBhamRKeWZzemZ6SVRoMmJTaDZ3UUhDTGtVbmlfN0FuMHdnMnBwSV9sZk5CcHM1cDJaODVSZkVZZ9IBpwJBVV95cUxNYnFpb21qSlkyUUl6R1hkRi03WTNoODVQY2R1VkJMZUpROHBYc2ZNNC1wRGVTRXlGd0VqVGVsVDlYOUdWb3RGVVVydjRhLVl6OC1WeTFjRWJGQmo3Y01LeXpuV0VWQmE0Ry05eW8tWHY5ZHVWdncxZFNEdTR0eXUwZ0JIcU9ZdEdma0FKanF2R2UxNm9aR0pKVko2MlVxN19ISjZfT3BwNjhmVTQxMTJpS2lHYk1wVmg0bVhsbmJaeTRyZEgwVWc5d0R0V284SmpsVGpHeThaaktJajAxSFZFdTNOV3NyWE1NdXhBNGVKZ0hqY1VwWkhnanBtSGhGd1lwQ2FKb2hfRVNNelFHMmU5d2hvYk1vLTgzZ1V3ekUzaEtzWURaZ2xj?oc=5",
      "source": "EL PAÍS"
@@ -1254,25 +1254,25 @@
    "cases": [],
    "related_news": [
     {
+     "title": "마이센 시민예산: 시민들의 아이디어를 위한 58,000유로",
+     "date": "2026-11-26",
+     "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNSE9vNm1CU2ZoMU1jX0c5VlhLLUJaZjRQSF9VN2NSZW9WU1NFVS1OaldKUHQwQnM2VDQ5QlRKTFVOaHpJMEFvMVZxMmxPcmp1NjRGNEdHSzBtYllZQ3JwOXl6ckFnaGw0ZEFGalBHNEs3b3lwVWtuMW92MWROUzZlQmJ5OGFUVVJ6eXNnUTNfQzFZVHdzZ3d1bDV4QkFXUUdVQVhNVkVQc1Y?oc=5",
+     "source": "Die Sachsen News"
+    },
+    {
+     "title": "마이스너 시민예산이 다음 단계로 넘어갑니다 - 유의해야 할 사항",
+     "date": "2026-11-26",
+     "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxOWElBRE9kZVpHNTFGTW93Z1dORGZSeXNZU0lOVmFoVzNrdTBUZ1FiSTAyeDg1ck5tUTkycy1hcW9IVWl0TGFGUWFfU2xtbjZFN2R2clNDZWR1N1dUaVJTejVXb1U0RGZRRUdOQXVsN3RkTEN4Q2VoN0RnV25IZXg3SFY3WVE3Nm9pTTBWc0JISUxJVllJVGFOem1LbUloWjM0MVBxZVdpU3hwMkRLZ0FldE4wdVVmREx4R0c1OV9Pdl8wRlVKaFI0eS1NUDNSTUJ0ZTJiQUVUekFGMWFDUlctWTBMZWdKWk5uX0RKdTZR0gGKAkFVX3lxTE9oell5MmhTalJsU251b3B3MnFpVl9IeFNQSGltSFVaa1l4cklreEtJbGxUUWdScFJSdzdfVUk2V2dCemgzM3ozZXRhY0dKUUhuSUVkNTNtYzlkMnlZWnQ5RUtrRnF4UVhQckRBTnJTREpIU0NrNWFnanZZV3czS0dXQ1NNdEFyVkluWm5nNlR1Z0dlXzh4OU5ZYk12T3hyS2sycnZ6bHQtWjZfVGVPcDNlV09MM2h3ZE41bkVna08xTUg1Ql9LbE9LMDB3bU5CYjRnRndJVGRjbXZEYi1lQVdWWGhFUGR2UWRmbTh4aWc0dVhGUGppcmtqQm1id0tVdkQwSmdzLUFtUVV3?oc=5",
+     "source": "Sächsische Zeitung"
+    },
+    {
      "title": "Schöneiche의 돈: 30,000유로에서 1000유로까지 - 참여예산제도에 미래가 있을까요?",
      "date": "2026-11-24",
      "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPV1NCU1FZTGhjSHRqNkJDa2hXODEtXzhFbGp2YzVDMnZUa1FJMzhWcUpDbDNycEJuT1UtVHlXRUVPSFhHdkRIVkJxbDdPWmNsODd2blVSNGpFOTZkS3Njb0Q1MUtwRkkzNEU0ZDlGV3A1OTNSOFRvbDZHX2lrZXNtQ2dOeGctSzBGVF9MNXpmdmxoZ0pkRnB6TUpRZGpWZWJnM2lXOWVvak9Lc2JpVHBVZE53bFVIUUVNcDRNUEEwd0o3azVlVXU0?oc=5",
      "source": "MOZ.de"
-    },
-    {
-     "title": "글라우하우 주민예산: 실현되는 희망 사항과 실현되지 않는 희망 사항",
-     "date": "2026-11-24",
-     "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxPX1ZuZHJkVzhGRHBZdXg2OFdwREo2OGtqdUlLckhEY1FWVFVtWk9SVjFvZVVzb2JJLTBEbnhpaklhUGlPNkNpYkREVGhSMEdWcUZJYzF4TVpIMDRlc1V5WW9Ta19pSEJiV05UX2hnM0lCUEhzb2UzMHVMMHl4akFjZS1uRVJFeHY5RHltOEIwUGhtbDFDcklPRmlyMnZ6MnZyaF96OUFpeDVrLUIwMkZVOTNWWkxTeXlFSThBLWplSlBTQzV1QmJTcF9Za3Q2cDY4dmc?oc=5",
-     "source": "Freie Presse"
-    },
-    {
-     "title": "슈반 시민예산: 어떤 프로젝트가 실행되나요?",
-     "date": "2026-11-21",
-     "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNRDBaWlY2T1JIeXhKU1BNdWE2STU1amJuQ0dBSjBRZ0t3UG8zTFAyVXhGSkVHaWVlUzRrdVVKUWhWdVpXUGtMWmxJSEpXbGxlSmRpbXo1a29wSGtwT2VOR2FiZ3M1cGN3cHZBM2hfZVpZSW1MNkw2X2NwM0ZJT1pzS2pHMk0zY0xZRHRoajFua0h5VHJOVTlvMmtCT1BGOXdsU1M2SHkxRnpxTmNtb0x4cHJ1Tl9UMmlZQkJMaXFlZXZSUnZoa0tqaGtmNm1wandGX203MmZuc1VsSHBz?oc=5",
-     "source": "NDR.de"
     }
    ],
-   "latest_signal_date": "2026-11-24"
+   "latest_signal_date": "2026-11-26"
   },
   {
    "id": "ita-school-pb",
@@ -1586,7 +1586,7 @@
      "source": "Tartu Postimees"
     },
     {
-     "title": "Tartu kaasav eelarve ootab ideid kuni 30. aprillini",
+     "title": "타르투 참여예산은 4월 30일까지 아이디어를 기다린다",
      "date": "2026-04-27",
      "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1hQlNqUjF1bTdGZGRvU29wVGZmalRDdTRRbEZHTXdiVFFmZ3NnaEx3MktlVDlPTWpRVU5NWXhwMGFONkRQZVNmOVVGWUhCMUZUVzB3T1JwRUdlN0ItbXh1NXhxVV9VWjNLZFU3UzlSN0xZMW12WE56Q09MWQ?oc=5",
      "source": "Head Uudised"
@@ -1627,25 +1627,25 @@
    "cases": [],
    "related_news": [
     {
+     "title": "내년에는 학생이 주도하는 프로젝트도 리가시 참여예산에 제출할 수 있다",
+     "date": "2026-11-26",
+     "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOV1hCTVdQS1pQeWJEbEVKWXY0QmtUMkFrRVdLTDk2cXJEMWg3SEZyemQ5VlBVODBKM3Y3V21OVElwWjNNb0pWYmN2cnVRdDF6eUstYmVtN0dIdjY1eUJaMU1hV081aElmTXlsWHp0T0RRWnNsT25PVHFvY2hHXzQwdlN5cWhDRV9FVTZNSmg5bVFab3JoRzZEemxJbUhJSXpqYkpKemNSUlotVk5JOW4tRS1TQ3RlWV9fSHV5bWtMeDZHdw?oc=5",
+     "source": "Rīgas valstspilsētas pašvaldība"
+    },
+    {
+     "title": "리가 주민참여예산 리더: 플라브니에키(Pļavnieki) 선두",
+     "date": "2026-11-26",
+     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxPS29ZUGtBMVk5V1lNUkhYVTROTXNyMi1zc3owR1R1dzdDenhXZV9XZnhHMlJ6cFZ3X0JOQlFUcnhUVTJpdDBEUTlXLUFFamZwbXhDNEJIRHNxQWlGTDFvS2ZCUkxBRHlMTGFVLV9qeExBb0Jpdzd4TnRMb3lnWUllRDlMaFY?oc=5",
+     "source": "Riga Talk"
+    },
+    {
      "title": "Pļavnieki, Āgenskaln 및 Sarkandaugava 프로젝트가 주도하는 예산 입찰 투표에 리가 자치단체 참여",
      "date": "2026-11-24",
      "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPYzg5Z0FicVNfY1NIblVjZXdTdlZvZFNsS3BtRVlCbmRrV1h2cGdRSmhPVDBtbEhDQjlOVVlEaWszOERrT2ZzazZsWkZUaFFyM1lnak5LQzU2TEMxUURocnIxZ2VBeHBRMjRqbHJGYmxXeUtxWVc4UEdnQnlhX3ExNmZ5ZVdTTWdNMFRwWXRNY2E4TURXUHJOMXI2TkpIWEo4WnBOTHRLMDNfSFlhVjVROU9jNXM5T2hGTXN0Y0dGN0RkVGVUMll4OUMwOVYxdlZGZUlpNDY4bGZrUQ?oc=5",
      "source": "Rīgas valstspilsētas pašvaldība"
-    },
-    {
-     "title": "리가시 참여예산 공모 투표에서 아겐스칼스, 플라브니에키, 사르칸다우가바 지역의 프로젝트가 선두를 달리고 있다",
-     "date": "2026-11-17",
-     "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOWW5ObElmSFNpWm9rSjdQUG9IQTVUcXB4MWNZaEViRDJsZmRiMXVnT0hNT3FlWHdXdXNhbzdGaGoxTTF0YWhsdDV6dkZhNWg1YXczaTd0TTdweDFoZkNPMkV6RXl4NnVIV3B3TXprdUNDWFJNaVpXNlVDamFJcGtYUUJ1c3REYW9jOGxzMVdqY0V6MS02NjRhWER0alhHa1RLQzR3bGpPMW03amJLcFFDNkhlUWhDbG1ZWWowRTVOWXc0Umk2Ul91UHZEOGhJZWFpOXBpbUNJUnhJUQ?oc=5",
-     "source": "Rīgas valstspilsētas pašvaldība"
-    },
-    {
-     "title": "리가시 자치구 참여예산 공모전 투표에서 아겐스칼스, 플라브니에키, 플레스코달레 지역 프로젝트가 선두를 달리고 있다",
-     "date": "2026-11-10",
-     "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxNQzNVaW14bmNPaGNmVmh4Zk1GUkd5YWFIbUFRMUhfWk5fYkNoNHpEMVFLZmtFcGZ1cUMyX0tkcUxTMk5LLW96U1dJV2FFTGxlZ3dMdE1xVDBOLWk1a0N4Z2pHSFNNbnd1U3dIRUYzRDlTUnhiU29LcXpfaFlCX25zZmtqdUJ6NUUtbEFUV2JqbUh6Q0JxTEV6MUZKTE84ZkpyTmh4MnU0VS1lVWoxV3A1ZnBuN0c5ZlBWY2otRWhiSDdLX2lycXFnajRCclNGSGR4RWtiTGZn?oc=5",
-     "source": "Rīgas valstspilsētas pašvaldība"
     }
    ],
-   "latest_signal_date": "2026-11-24"
+   "latest_signal_date": "2026-11-26"
   },
   {
    "id": "nld-maastricht",
