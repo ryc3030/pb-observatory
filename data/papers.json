@@ -1,6 +1,6 @@
 {
- "updated_at": "2026-11-27T03:39:23.489170+00:00",
- "count": 239,
+ "updated_at": "2026-11-28T03:20:19.755494+00:00",
+ "count": 241,
  "items": [
   {
    "id": "doi:10.18572/2500-0349-2026-4-20-25",
@@ -434,7 +434,7 @@
    "authors": [
     "Tom Munique Marques Morais",
     "RENAN JAVIAN NECO DE SOUSA",
-    "GABRIELA CELSO MELO SOARES DE VASCONCELOS",
+    "Gabriela Celso Melo Soares de Vasconcelos",
     "MARCIO JOUBERT DE SOUSA SAMPAIO"
    ],
    "venue": "Congresso Nacional de Excelência em Gestão",
@@ -1754,6 +1754,32 @@
    "title_ko_mt": "쿠바의 공공 정책 및 참여형 계획: 지방 예산 관리를 위한 디지털 플랫폼 모델"
   },
   {
+   "id": "doi:10.33386/593dp.2026.4-2.3869",
+   "title": "Eficiencia de los Presupuestos Participativos en la Gobernanza Local: Caso GAD Parroquiales del Cantón Santa Ana - Manabí",
+   "authors": [
+    "Nela Cedeño-Macías",
+    "Andrea Sarmiento-Pineda"
+   ],
+   "venue": "593 Digital Publisher CEIT",
+   "published_at": "2026-07-29",
+   "doi": "10.33386/593dp.2026.4-2.3869",
+   "url": "https://doi.org/10.33386/593dp.2026.4-2.3869",
+   "open_access": true,
+   "lang": "es",
+   "cited_by": 0,
+   "abstract_snippet": "El presupuesto participativo constituye un mecanismo de democracia participativa que permite la intervención de la ciudadanía en la asignación de recursos públicos y en la definición de prioridades territoriales. El presente artículo analiza la eficiencia del presupuesto participativo en los Gobiernos Autónomos Descentralizados parroquiales de Ayacucho y La Unión, del cantón Santa Ana, provincia de Manabí, desde una ",
+   "source": "OpenAlex",
+   "type": "article",
+   "concepts": [
+    "Public Policy and Governance",
+    "Local Government Finance and Decentralization",
+    "Politics and Society in Latin America"
+   ],
+   "first_seen": "2026-11-28",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
    "id": "doi:10.1111/1468-2427.70132",
    "title": "PARTICIPATORY BUDGETING IN AUTOCRACIES: Conflicting Logics, Unintended Consequences and Contentious Participation in Angola's Orçamento Participativo",
    "authors": [
@@ -2614,6 +2640,31 @@
    "title_ko_mt": "참여예산제: 포르투알레그리(RS) 사례 연구"
   },
   {
+   "id": "oa:W7240133377",
+   "title": "Orçamento participativo e legitimidade do processo decisório: uma análise na procuradoria-geral da fazenda nacional",
+   "authors": [
+    "Augusto Alves Sardeiro"
+   ],
+   "venue": "LA Referencia (Red Federada de Repositorios Institucionales de Publicaciones Científicas)",
+   "published_at": "2026-04-27",
+   "doi": null,
+   "url": "https://hdl.handle.net/10438/38831",
+   "open_access": true,
+   "lang": "pt",
+   "cited_by": 0,
+   "abstract_snippet": "Objetivo – Esta pesquisa analisa como os elementos constitutivos do desenho do orçamento participativo da Procuradoria-Geral da Fazenda Nacional (PGFN) influenciam as expectativas dos servidores participantes e não participantes quanto à legitimidade do processo decisório orçamentário. Metodologia – O estudo adota uma abordagem de métodos mistos de caráter exploratório e descritivo, operacionalizada por meio de um es",
+   "source": "OpenAlex",
+   "type": "dissertation",
+   "concepts": [
+    "Public Policy and Administration Research",
+    "Public Policy and Governance",
+    "Political Theory and Democracy"
+   ],
+   "first_seen": "2026-11-28",
+   "title_ko": null,
+   "_tr_tried": false
+  },
+  {
    "id": "doi:10.47460/uct.v30i131.1062",
    "title": "A Systematic Review of the Participation of Organized Civil Society in Participatory Budgeting in Latin America",
    "authors": [
@@ -2740,7 +2791,7 @@
    "title": "Seleção de prioridades públicas em canais de participação presencial e virtual: estudo de caso do programa “Fala Curitiba”",
    "authors": [
     "Gislene Teixeira Feitoza",
-    "JOSÉ RICARDO DE VARGAS FARIA"
+    "José Ricardo de Vargas Faria"
    ],
    "venue": "Revista Tecnologia e Sociedade",
    "published_at": "2026-04-03",

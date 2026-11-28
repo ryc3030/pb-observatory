@@ -1,5 +1,5 @@
 {
- "updated_at": "2026-11-27T03:39:23.489170+00:00",
+ "updated_at": "2026-11-28T03:20:19.755494+00:00",
  "count": 39,
  "items": [
   {
@@ -142,7 +142,7 @@
    "official_api": {
     "platform": "Decidim GraphQL",
     "api": "https://www.participate.nyc.gov/api",
-    "checked_at": "2026-11-27T03:39:23.489170+00:00",
+    "checked_at": "2026-11-28T03:20:19.755494+00:00",
     "cycles": [
      {
       "slug": "Citywidepb2026",
@@ -226,6 +226,12 @@
    ],
    "related_news": [
     {
+     "title": "Riverdale residents help shape proposals for $4 million in NYC participatory budgeting",
+     "date": "2026-11-27",
+     "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNOHFOSFp1VjBhT3dmSHQ0R3VJNnhEYmtDeHJ2NUQtVGFMblR5cnk1SkNjM1BTWXJnN2ZzTmtpa1FJYTdJMEtiRWM2UkFBa3FZc2lTQkxMZjRCQjBxR0NNd0JxN3pkUVJoZTdCWjhCQTdHWVhoTGxBQnN1MUhkV2h1dC12TzF4WDNJWUs4aXlzc3d4cFA2dEtLUGhhYnRoaDMwWjByX1M0a2tYMk14UG1RQUlrbXJ1ZldELXluZDNGUy1udmNxdWpnOG5uVQ?oc=5",
+     "source": "The Riverdale Press"
+    },
+    {
      "title": "Julie Menin 의장과 NYC 의회는 2026-2027 회계연도 참여예산 개시",
      "date": "2026-11-16",
      "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxNR3NfT1VzX3FhYUZPVTBlNkk1aEp0WWRTd0tFenJmeWVyT3QtMW8zaVBRenA5aU50Ti15ckx1b25uSUNIaC1mYm9nUUljZUVaQXZYZUhmcTlGcl9lQTVfLXZGWnhPWmJMQW1YVXYzZFNYOVFBVUVYck44b1VfV016Y255WVRfTW12Vy1VaXpoa2x5bTFUVHNLRktmak5tYlNXbjZmNHl0aEl0QnIwT0JJeGtaUmZXbVBfYjRVOU43b2pwX25RTllZODAyMWU0RDdfeHJvcFBsSzVOb2lnOTRmOA?oc=5",
@@ -236,15 +242,9 @@
      "date": "2026-11-12",
      "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOa3duOEhhazRZbUZ6NzdZeDFTSGlUaE9LTnVJTFFoOElEVVVIQi1PX1dnUHZRZzRMMk9nZ0QxTFZTZHpjdWpHcXZ1STJuMHBhaHUyRXVmeEEydnNpVHZDWmg4aFN3MXcwMWwwZnZuYTZxeUgtU3ppUWRZZVJ1NllnczYwS3ZlWmY4TGE4V2Y1anMwTDV5UVBaTEpaN2dQQ2pjXzRJWUM5OVhISVlsRmtVQ2FWeEU3cDRkZ2xkNm5jMElKOXljOTBPLU9TaF93blFPdFd3a0QwZjJCXzZuVjBSYTI5eWRSTGc?oc=5",
      "source": "Bushwick Daily"
-    },
-    {
-     "title": "What Detroit can learn from participatory budgeting processes in NYC, Boston and Brazil",
-     "date": "2026-04-01",
-     "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPQVd4QU5Od0hJT1lPMDJaRE11S0NIcWg3TEJ4cEpGU00yOVh3dWJOMWc5LWlyNWJkZzZzZDVwMlJLaFhZN29yNngyWXdNZHhWVzF1YkhNbVVYQUg1bWphY0dpMmEyRTZPWmRaWEZrU0E3ZmUtLW41dmJfUEFyQXc3empkSVJGaVRXd1lsTjZZRi1EbVpobS15ck1oWHJwM2x1N0RhSkZTWURaVmpBUXptM19wM2I2a2thQ1NTRkRn?oc=5",
-     "source": "The Conversation"
     }
    ],
-   "latest_signal_date": "2026-11-16"
+   "latest_signal_date": "2026-11-27"
   },
   {
    "id": "fin-helsinki-omastadi",
